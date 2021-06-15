@@ -1358,6 +1358,18 @@
 		"key": ""
 	},
 	{
+		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-kinyarwanda",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-naija",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-swahili",
 		"private": false,
 		"pipeline_tag": "fill-mask",
@@ -1401,6 +1413,18 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-finetuned-igbo",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-base-finetuned-kinyarwanda",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-base-finetuned-naija",
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"key": ""
@@ -29095,6 +29119,12 @@
 		"key": ""
 	},
 	{
+		"modelId": "huggingtweets/ahleemuhleek",
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"key": ""
+	},
+	{
 		"modelId": "huggingtweets/ahmedallibhoy",
 		"private": false,
 		"pipeline_tag": "text-generation",
@@ -47131,6 +47161,12 @@
 		"key": ""
 	},
 	{
+		"modelId": "mukund/privbert",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
 		"modelId": "munggok/mt5-large-id-qgen-qa",
 		"private": false,
 		"pipeline_tag": "text2text-generation",
@@ -48590,6 +48626,11 @@
 	},
 	{
 		"modelId": "osanseviero/testlangtag",
+		"private": false,
+		"key": ""
+	},
+	{
+		"modelId": "osanseviero/torch",
 		"private": false,
 		"key": ""
 	},
@@ -50643,6 +50684,12 @@
 		"modelId": "remi/bertabs-finetuned-xsum-extractive-abstractive-summarization",
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "remotejob/tweetsDISTILGPT2fi_v1",
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"key": ""
 	},
 	{
@@ -59511,53 +59558,6 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"key": ""
-	},
-	{
-		"modelId": "mukund/privbert",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
-		"modelId": "huggingtweets/ahleemuhleek",
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "osanseviero/torch",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-kinyarwanda",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
-		"modelId": "remotejob/tweetsDISTILGPT2fi_v1",
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "Davlan/xlm-roberta-base-finetuned-kinyarwanda",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
-		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-naija",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
-		"modelId": "Davlan/xlm-roberta-base-finetuned-naija",
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"key": ""
 	}
 ]
