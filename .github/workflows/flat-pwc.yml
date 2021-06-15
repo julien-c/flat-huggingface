@@ -1,23 +1,26 @@
-name: models
+name: data
 on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
   push:
     paths:
-      - .github/workflows/flat-models.yml
+      - .github/workflows/flat-pwc.yml
       - ./pretty-json.ts
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
       - name: Setup deno
-        uses: denolib/setup-deno@v2
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
       - name: Check out repo
         uses: actions/checkout@v2
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://huggingface.co/api/models
+          http_url: https://huggingface.co/api/pwc/datasets-mapping
           postprocess: ./pretty-json.ts
-          downloaded_filename: models.json
+          downloaded_filename: pwc-datasets-mapping.json
+
