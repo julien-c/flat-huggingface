@@ -5,8 +5,8 @@ on:
   workflow_dispatch: {}
   push:
     paths:
-      - .github/workflows/flat.yml
-      - ./pwc-postprocessing.ts
+      - .github/workflows/flat-pwc.yml
+      - ./pretty-json.ts
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -21,6 +21,6 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://huggingface.co/api/pwc/datasets-mapping
-          postprocess: ./pwc-postprocessing.ts
+          postprocess: ./pretty-json.ts
           downloaded_filename: pwc-datasets-mapping.json
 
