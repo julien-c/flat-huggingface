@@ -1369,6 +1369,12 @@
 		"key": ""
 	},
 	{
+		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-luganda",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-naija",
 		"private": false,
 		"pipeline_tag": "fill-mask",
@@ -1424,6 +1430,12 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-finetuned-kinyarwanda",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-base-finetuned-luganda",
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"key": ""
@@ -20255,6 +20267,11 @@
 		"key": ""
 	},
 	{
+		"modelId": "azkamovie/yuiyikryiyi",
+		"private": false,
+		"key": ""
+	},
+	{
 		"modelId": "azkamovie/yuoituo",
 		"private": false,
 		"key": ""
@@ -20647,6 +20664,12 @@
 		"modelId": "beyhan/checkpoint-3750",
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"key": ""
+	},
+	{
+		"modelId": "bhadresh-savani/bert-base-uncased-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"key": ""
 	},
 	{
@@ -23072,6 +23095,24 @@
 		"modelId": "danurahul/wav2vec2-large-xlsr-pa-IN",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"key": ""
+	},
+	{
+		"modelId": "danyaljj/gpt2_question_answering_squad2",
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"key": ""
+	},
+	{
+		"modelId": "danyaljj/gpt2_question_generation_given_paragraph",
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"key": ""
+	},
+	{
+		"modelId": "danyaljj/gpt2_question_generation_given_paragraph_answer",
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"key": ""
 	},
 	{
@@ -47944,6 +47985,12 @@
 		"key": ""
 	},
 	{
+		"modelId": "nimanpra/Fine_Tuned_Spiritual",
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"key": ""
+	},
+	{
 		"modelId": "nirendy/test",
 		"private": false,
 		"key": ""
@@ -59628,53 +59675,6 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"key": ""
-	},
-	{
-		"modelId": "nimanpra/Fine_Tuned_Spiritual",
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-luganda",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
-		"modelId": "Davlan/xlm-roberta-base-finetuned-luganda",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
-		"modelId": "bhadresh-savani/bert-base-uncased-emotion",
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"key": ""
-	},
-	{
-		"modelId": "danyaljj/gpt2_question_answering_squad2",
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "azkamovie/yuiyikryiyi",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "danyaljj/gpt2_question_generation_given_paragraph",
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "danyaljj/gpt2_question_generation_given_paragraph_answer",
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"key": ""
 	}
 ]
