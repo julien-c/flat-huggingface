@@ -59645,10 +59645,23 @@
 	{
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-luganda",
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"key": ""
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-finetuned-luganda",
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "bhadresh-savani/bert-base-uncased-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"key": ""
+	},
+	{
+		"modelId": "danyaljj/gpt2_question_answering_squad2",
 		"private": false,
 		"key": ""
 	}
