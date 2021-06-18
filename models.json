@@ -45649,17 +45649,6 @@
 		"key": ""
 	},
 	{
-		"modelId": "monologg/koelectra-mecab-wp-small-discriminator",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "monologg/koelectra-mecab-wp-small-generator",
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"key": ""
-	},
-	{
 		"modelId": "monologg/koelectra-small-discriminator",
 		"private": false,
 		"key": ""
@@ -59802,11 +59791,7 @@
 	{
 		"modelId": "Motty/DialogGPT",
 		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "Huffon/sentence-klue-sts-roberta-base",
-		"private": false,
+		"pipeline_tag": "text-generation",
 		"key": ""
 	}
 ]
