@@ -53973,6 +53973,7 @@
 	{
 		"modelId": "speechbrain/asr-transformer-aishell",
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"key": ""
 	},
 	{
@@ -54007,6 +54008,7 @@
 	{
 		"modelId": "speechbrain/asr-wav2vec2-transformer-aishell",
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"key": ""
 	},
 	{
@@ -59750,6 +59752,7 @@
 	{
 		"modelId": "yorko/scibert_scivocab_uncased_long_4096",
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"key": ""
 	},
 	{
@@ -59761,6 +59764,12 @@
 	{
 		"modelId": "guocheng98/HelsinkiNLP-FineTuned-Legal-es-zh",
 		"private": false,
+		"key": ""
+	},
+	{
+		"modelId": "Narrativa/mbart-large-50-finetuned-opus-en-pt-translation",
+		"private": false,
+		"pipeline_tag": "translation",
 		"key": ""
 	}
 ]
