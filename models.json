@@ -1545,6 +1545,12 @@
 		"key": ""
 	},
 	{
+		"modelId": "Dev-DGT/food-dbert-multiling",
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"key": ""
+	},
+	{
 		"modelId": "Devmapall/paraphrase-quora",
 		"private": false,
 		"pipeline_tag": "text2text-generation",
@@ -10983,6 +10989,17 @@
 		"key": ""
 	},
 	{
+		"modelId": "Huffon/klue-roberta-base-nli",
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"key": ""
+	},
+	{
+		"modelId": "Huffon/sentence-klue-roberta-base",
+		"private": false,
+		"key": ""
+	},
+	{
 		"modelId": "Huntersx/cola_model",
 		"private": false,
 		"pipeline_tag": "text-classification",
@@ -12267,6 +12284,12 @@
 		"modelId": "MoseliMotsoehli/zuBERTa",
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "Motty/DialogGPT",
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"key": ""
 	},
 	{
@@ -22004,6 +22027,11 @@
 		"key": ""
 	},
 	{
+		"modelId": "charmys/Erika",
+		"private": false,
+		"key": ""
+	},
+	{
 		"modelId": "cheekyAM/test",
 		"private": false,
 		"key": ""
@@ -24054,6 +24082,11 @@
 		"modelId": "dpalominop/spanish-bert-apoyo",
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"key": ""
+	},
+	{
+		"modelId": "dragonStyle/bert-303-step35000",
+		"private": false,
 		"key": ""
 	},
 	{
@@ -27660,6 +27693,12 @@
 		"modelId": "gunghio/distilbert-base-multilingual-cased-finetuned-conll2003-ner",
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"key": ""
+	},
+	{
+		"modelId": "guocheng98/HelsinkiNLP-FineTuned-Legal-es-zh",
+		"private": false,
+		"pipeline_tag": "translation",
 		"key": ""
 	},
 	{
@@ -49682,6 +49721,12 @@
 		"key": ""
 	},
 	{
+		"modelId": "pierreguillou/bert-large-cased-squad-v1.1-portuguese",
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"key": ""
+	},
+	{
 		"modelId": "pierreguillou/gpt2-small-portuguese",
 		"private": false,
 		"pipeline_tag": "text-generation",
@@ -50404,6 +50449,11 @@
 		"modelId": "puri/puri-thai-albert-cased-v1",
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "pvcastro/bert-portuguese-cased-rel-cp",
+		"private": false,
 		"key": ""
 	},
 	{
@@ -51523,6 +51573,12 @@
 		"modelId": "saibo/legal-roberta-base",
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"key": ""
+	},
+	{
+		"modelId": "saichandrapandraju/t5_base_tabqgen",
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"key": ""
 	},
 	{
@@ -53725,6 +53781,12 @@
 	{
 		"modelId": "snehg/gpt2-json",
 		"private": false,
+		"key": ""
+	},
+	{
+		"modelId": "snrspeaks/t5-one-line-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"key": ""
 	},
 	{
@@ -58499,6 +58561,11 @@
 		"key": ""
 	},
 	{
+		"modelId": "worsterman/DialoGPT-small-mulder",
+		"private": false,
+		"key": ""
+	},
+	{
 		"modelId": "wowhdmovie/asasdadad",
 		"private": false,
 		"key": ""
@@ -59743,73 +59810,6 @@
 	},
 	{
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"key": ""
-	},
-	{
-		"modelId": "pvcastro/bert-portuguese-cased-rel-cp",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "saichandrapandraju/t5_base_tabqgen",
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "charmys/Erika",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "dragonStyle/bert-303-step35000",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "pierreguillou/bert-large-cased-squad-v1.1-portuguese",
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"key": ""
-	},
-	{
-		"modelId": "Huffon/sentence-klue-roberta-base",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "guocheng98/HelsinkiNLP-FineTuned-Legal-es-zh",
-		"private": false,
-		"pipeline_tag": "translation",
-		"key": ""
-	},
-	{
-		"modelId": "Motty/DialogGPT",
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "snrspeaks/t5-one-line-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"key": ""
-	},
-	{
-		"modelId": "Dev-DGT/food-dbert-multiling",
-		"private": false,
-		"pipeline_tag": "ner",
-		"key": ""
-	},
-	{
-		"modelId": "worsterman/DialoGPT-small-mulder",
-		"private": false,
-		"key": ""
-	},
-	{
-		"modelId": "Huffon/klue-roberta-base-nli",
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"key": ""
