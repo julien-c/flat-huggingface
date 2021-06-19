@@ -59880,7 +59880,13 @@
 	{
 		"modelId": "motiondew/set_date_1-bert",
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "question-answering",
+		"key": ""
+	},
+	{
+		"modelId": "noelmathewisaac/quotify-distilgpt2",
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"key": ""
 	}
 ]
