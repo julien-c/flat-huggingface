@@ -22802,7 +22802,7 @@
 	{
 		"modelId": "cross-encoder/nli-distilroberta-base",
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"key": ""
 	},
 	{
@@ -60166,13 +60166,26 @@
 		"key": ""
 	},
 	{
-		"modelId": "zaydzuhri/lelouch-small",
+		"modelId": "sinja75/my-nlp-test",
 		"private": false,
 		"key": ""
 	},
 	{
-		"modelId": "sinja75/my-nlp-test",
+		"modelId": "mrm8488/flaubert-small-finetuned-movie-review-sentiment-analysis",
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"key": ""
+	},
+	{
+		"modelId": "cross-encoder/nli-MiniLM2-L6-H768",
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"key": ""
+	},
+	{
+		"modelId": "mrm8488/camembert-base-finetuned-movie-review-sentiment-analysis",
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"key": ""
 	}
 ]
