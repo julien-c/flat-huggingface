@@ -17191,6 +17191,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "bhadresh-savani/distilbert-base-uncased-sentiment-sst2",
+		"private": false
+	},
+	{
 		"modelId": "bhadresh-savani/roberta-base-emotion",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -38127,6 +38131,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "motiondew/set_date_1_bert-base-uncased_finetuned_with_haystack",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "moumeneb1/flaubert-base-cased-ecology_crisis",
 		"private": false
 	},
@@ -43482,6 +43491,10 @@
 		"modelId": "seduerr/pai_con",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "seduerr/pai_ei",
+		"private": false
 	},
 	{
 		"modelId": "seduerr/pai_emotion",
@@ -49814,16 +49827,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "motiondew/set_date_1_bert-base-uncased_finetuned_with_haystack",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "seduerr/pai_ei",
-		"private": false
-	},
-	{
-		"modelId": "bhadresh-savani/distilbert-base-uncased-sentiment-sst2",
+		"modelId": "gayanin/bart-finetuned-1.0",
 		"private": false
 	}
 ]
