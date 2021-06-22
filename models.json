@@ -43733,19 +43733,22 @@
 	{
 		"modelId": "sentence-transformers/bert-base-nli-cls-token",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-base-nli-max-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-base-nli-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-base-nli-stsb-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-large-nli-cls-token",
@@ -49973,5 +49976,25 @@
 	{
 		"modelId": "sentence-transformers/average_word_embeddings_glove.840B.300d",
 		"private": false
+	},
+	{
+		"modelId": "sentence-transformers/average_word_embeddings_levy_dependency",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/bert-base-nli-stsb-wkpooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/bert-base-nli-wkpooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/bert-base-wikipedia-sections-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
