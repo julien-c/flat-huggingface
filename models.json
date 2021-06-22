@@ -43823,15 +43823,17 @@
 	{
 		"modelId": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/distilbert-base-nli-stsb-quora-ranking",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-MiniLM-L-12-v3",
@@ -49999,5 +50001,59 @@
 		"modelId": "sentence-transformers/bert-base-wikipedia-sections-mean-tokens",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/bert-large-nli-stsb-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilbert-base-nli-max-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilbert-base-nli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilbert-base-nli-stsb-wkpooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilbert-base-nli-wkpooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilroberta-base-msmarco-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilroberta-base-msmarco-v2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distilroberta-base-paraphrase-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distiluse-base-multilingual-cased",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+		"private": false
 	}
 ]
