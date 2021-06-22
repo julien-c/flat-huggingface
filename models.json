@@ -9189,6 +9189,11 @@
 		"private": false
 	},
 	{
+		"modelId": "IMSyPP/hate_speech_en",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "ITworkonline/twitter_tac_model",
 		"private": false
 	},
@@ -9314,6 +9319,10 @@
 	},
 	{
 		"modelId": "Jamesr227/Mod-bot-ai-small",
+		"private": false
+	},
+	{
+		"modelId": "JarvisZHAO/chatbot",
 		"private": false
 	},
 	{
@@ -14859,6 +14868,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "ainize/kobart-news",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
 		"modelId": "airKlizz/bart-large-cnn-multi-en-wiki-news",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -18994,6 +19008,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "cstorm125/marianmt-zh_cn-th",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
 		"modelId": "cstorm125/wangchanberta-base-att-spm-uncased-finetune-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -19983,6 +20002,10 @@
 	},
 	{
 		"modelId": "dmis-lab/biobert-base-cased-v1.1",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biobert-base-cased-v1.2",
 		"private": false
 	},
 	{
@@ -40229,6 +40252,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "nreimers/tmp-test-model2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "nsa-thatchai/test",
 		"private": false
 	},
@@ -43030,6 +43058,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sambelanz/enervoncengkok",
+		"private": false
+	},
+	{
 		"modelId": "sambelanz/ggfilm",
 		"private": false
 	},
@@ -43326,6 +43358,10 @@
 		"modelId": "savasy/offLangDetectionTurkish",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sberbank-ai/ru-clip",
+		"private": false
 	},
 	{
 		"modelId": "sberbank-ai/rugpt2large",
@@ -48376,6 +48412,10 @@
 		"private": false
 	},
 	{
+		"modelId": "vedant/vyasa_uvaca",
+		"private": false
+	},
+	{
 		"modelId": "vera-pro/bert-mention-de",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -48503,6 +48543,14 @@
 	},
 	{
 		"modelId": "visualjoyce/transformers4vl-uniter-base",
+		"private": false
+	},
+	{
+		"modelId": "visualjoyce/transformers4vl-vilbert-mt",
+		"private": false
+	},
+	{
+		"modelId": "visualjoyce/transformers4vl-vilbert",
 		"private": false
 	},
 	{
@@ -49876,53 +49924,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "vedant/vyasa_uvaca",
-		"private": false
-	},
-	{
-		"modelId": "visualjoyce/transformers4vl-vilbert",
-		"private": false
-	},
-	{
-		"modelId": "visualjoyce/transformers4vl-vilbert-mt",
-		"private": false
-	},
-	{
-		"modelId": "IMSyPP/hate_speech_en",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cstorm125/marianmt-zh_cn-th",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "dmis-lab/biobert-base-cased-v1.2",
-		"private": false
-	},
-	{
-		"modelId": "ainize/kobart-news",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
-		"modelId": "JarvisZHAO/chatbot",
-		"private": false
-	},
-	{
-		"modelId": "sambelanz/enervoncengkok",
-		"private": false
-	},
-	{
-		"modelId": "sberbank-ai/ru-clip",
-		"private": false
-	},
-	{
-		"modelId": "nreimers/tmp-test-model2",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
 	}
 ]
