@@ -43752,15 +43752,18 @@
 	},
 	{
 		"modelId": "sentence-transformers/bert-large-nli-cls-token",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-large-nli-max-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-large-nli-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/ce-distilroberta-base-quora",
