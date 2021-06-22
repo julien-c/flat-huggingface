@@ -49057,10 +49057,6 @@
 		"private": false
 	},
 	{
-		"modelId": "yazdipour/QALD",
-		"private": false
-	},
-	{
 		"modelId": "ycchen/macbert_large_drcd",
 		"private": false
 	},
@@ -49966,6 +49962,16 @@
 	},
 	{
 		"modelId": "sentence-transformers/average_word_embeddings_glove.6B.300d",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/average_word_embeddings_komninos",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/average_word_embeddings_glove.840B.300d",
 		"private": false
 	}
 ]
