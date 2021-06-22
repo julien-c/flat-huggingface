@@ -43907,11 +43907,13 @@
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-MiniLM-L3-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-MiniLM-L6-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-TinyBERT-L6-v2",
@@ -43939,7 +43941,8 @@
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-mpnet-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
@@ -46377,10 +46380,6 @@
 	},
 	{
 		"modelId": "t4peter/testModel",
-		"private": false
-	},
-	{
-		"modelId": "tadejmagajna/flair-sl-pos",
 		"private": false
 	},
 	{
@@ -50186,6 +50185,10 @@
 	},
 	{
 		"modelId": "tadejmagajna/model_name",
+		"private": false
+	},
+	{
+		"modelId": "tadejmagajna/flair-sl-pos",
 		"private": false
 	}
 ]
