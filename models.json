@@ -40265,11 +40265,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "nreimers/tmp-test-model2",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "nsa-thatchai/test",
 		"private": false
 	},
@@ -44237,11 +44232,6 @@
 		"modelId": "sgugger/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "sgugger/finetuned-bert-test",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "sgugger/finetuned-bert",
@@ -49954,5 +49944,14 @@
 		"modelId": "motiondew/bert-finetuned-lr2-e5-b16-ep2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "nreimers/tmp-test-model",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sgugger/finetuned-bert-test",
+		"private": false
 	}
 ]
