@@ -49952,10 +49952,20 @@
 	},
 	{
 		"modelId": "sgugger/finetuned-bert-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "azkamovie/rtuhetutu",
+		"private": false
+	},
+	{
+		"modelId": "sentence-transformers/allenai-specter",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/average_word_embeddings_glove.6B.300d",
 		"private": false
 	}
 ]
