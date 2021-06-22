@@ -49908,10 +49908,19 @@
 	{
 		"modelId": "cstorm125/marianmt-zh_cn-th",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "dmis-lab/biobert-base-cased-v1.2",
+		"private": false
+	},
+	{
+		"modelId": "ainize/kobart-news",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "JarvisZHAO/chatbot",
 		"private": false
 	}
 ]
