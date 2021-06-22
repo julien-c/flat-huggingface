@@ -404,6 +404,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Abdou/algerian-arabert-large",
+		"private": false
+	},
+	{
 		"modelId": "Abhilash/BERTBasePyTorch",
 		"private": false
 	},
@@ -741,6 +745,10 @@
 		"modelId": "BrianTin/MTBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Bryson575x/riceboi",
+		"private": false
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-camelbert-ca",
@@ -17660,6 +17668,21 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "byeongal/gpt2-large",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "byeongal/gpt2-medium",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "byeongal/gpt2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "byeongal/kobart",
 		"private": false
 	},
@@ -18971,11 +18994,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "cstorm125/marianmt-zh_cn-th",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
 		"modelId": "cstorm125/wangchanberta-base-att-spm-uncased-finetune-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -19764,6 +19782,15 @@
 	{
 		"modelId": "deeq/dbert5",
 		"private": false
+	},
+	{
+		"modelId": "deeq/delectra-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "deeq/delectra-generator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "deltaairlines/skyflytripscomlaxtojfk",
@@ -44170,6 +44197,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "sgugger/finetuned-bert-test",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "sgugger/finetuned-bert",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -44182,6 +44214,10 @@
 		"modelId": "sgugger/resnet50d",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "sgugger/test-git",
+		"private": false
 	},
 	{
 		"modelId": "sh/test",
@@ -44779,6 +44815,11 @@
 	},
 	{
 		"modelId": "smanjil/German-MedBERT",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "smeoni/roberta-base-clrp",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -46278,6 +46319,10 @@
 	},
 	{
 		"modelId": "t4peter/testModel",
+		"private": false
+	},
+	{
+		"modelId": "tadejmagajna/flair-sl-pos",
 		"private": false
 	},
 	{
@@ -49844,53 +49889,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "sgugger/test-git",
+		"modelId": "lysandre/distil-model",
 		"private": false
-	},
-	{
-		"modelId": "sgugger/finetuned-bert-test",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "smeoni/roberta-base-clrp",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Abdou/algerian-arabert-large",
-		"private": false
-	},
-	{
-		"modelId": "Bryson575x/riceboi",
-		"private": false
-	},
-	{
-		"modelId": "tadejmagajna/flair-sl-pos",
-		"private": false
-	},
-	{
-		"modelId": "byeongal/gpt2",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "byeongal/gpt2-medium",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "byeongal/gpt2-large",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "deeq/delectra-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "deeq/delectra-generator",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	}
 ]
