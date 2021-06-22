@@ -50066,5 +50066,25 @@
 		"modelId": "phozon/DialoGPT-medium-harry",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "sentence-transformers/facebook-dpr-ctx_encoder-multiset-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/facebook-dpr-ctx_encoder-single-nq-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/facebook-dpr-question_encoder-multiset-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/facebook-dpr-question_encoder-single-nq-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
