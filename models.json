@@ -10383,7 +10383,8 @@
 	},
 	{
 		"modelId": "Narsil/gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Narsil/pretrained",
@@ -34225,6 +34226,11 @@
 		"modelId": "jimregan/wav2vec2-large-xlsr-upper-sorbian-mixed",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "jirmauritz/robbert-v2-dutch-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "jitrrrronic/thehum",
