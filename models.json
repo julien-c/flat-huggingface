@@ -50054,6 +50054,17 @@
 	},
 	{
 		"modelId": "sentence-transformers/distiluse-base-multilingual-cased-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "phozon/DialoGPT-medium-harry",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
