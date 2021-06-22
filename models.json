@@ -43877,27 +43877,33 @@
 	},
 	{
 		"modelId": "sentence-transformers/nli-distilroberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/nli-mpnet-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/nli-roberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/nli-roberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/nq-distilbert-base-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-MiniLM-L12-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-MiniLM-L3-v2",
@@ -43913,19 +43919,23 @@
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-albert-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-albert-small-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-distilroberta-base-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-distilroberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-mpnet-base-v2",
@@ -50146,6 +50156,36 @@
 	},
 	{
 		"modelId": "sentence-transformers/nli-bert-large-cls-pooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "zari/my-awesome-model",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sentence-transformers/nli-bert-large-max-pooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-distilbert-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-distilbert-base-max-pooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-roberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "tadejmagajna/model_name",
 		"private": false
 	}
 ]
