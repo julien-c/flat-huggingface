@@ -43728,7 +43728,7 @@
 	{
 		"modelId": "sentence-transformers/LaBSE",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/bert-base-nli-cls-token",
@@ -43837,35 +43837,43 @@
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-MiniLM-L-12-v3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-MiniLM-L-6-v3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-distilbert-base-dot-prod-v3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-distilbert-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-distilbert-base-v3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-distilbert-base-v4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-distilroberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-roberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/nli-distilroberta-base-v2",
@@ -50086,5 +50094,58 @@
 		"modelId": "sentence-transformers/facebook-dpr-question_encoder-single-nq-base",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-distilbert-base-tas-b",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-distilbert-multilingual-en-de-v2-tmp-lng-aligned",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-distilbert-multilingual-en-de-v2-tmp-trained-scratch",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-roberta-base-ance-firstp",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Pololinger/gpt-neo-125M",
+		"private": false
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-roberta-base-v3",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-bert-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-bert-base-cls-pooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-bert-base-max-pooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-bert-large",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/nli-bert-large-cls-pooling",
+		"private": false
 	}
 ]
