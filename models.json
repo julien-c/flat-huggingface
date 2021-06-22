@@ -10382,6 +10382,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Narsil/gpt2",
+		"private": false
+	},
+	{
 		"modelId": "Narsil/pretrained",
 		"private": false
 	},
@@ -34390,6 +34394,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "joheras/anglosaxon",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "johngiorgi/declutr-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -43291,6 +43300,10 @@
 		"private": false
 	},
 	{
+		"modelId": "saschavhd/GPT-Neo",
+		"private": false
+	},
+	{
 		"modelId": "satoseiji/hybridsato",
 		"private": false
 	},
@@ -43791,6 +43804,11 @@
 		"modelId": "sentence-transformers/ce-roberta-large-stsb",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "sentence-transformers/clip-ViT-B-32",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
@@ -49914,23 +49932,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "sentence-transformers/clip-ViT-B-32",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "joheras/anglosaxon",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Narsil/gpt2",
-		"private": false
-	},
-	{
-		"modelId": "saschavhd/GPT-Neo",
-		"private": false
 	}
 ]
