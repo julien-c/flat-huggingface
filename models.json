@@ -33492,11 +33492,13 @@
 	},
 	{
 		"modelId": "hyunwoongko/reddit-3B",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "hyunwoongko/reddit-9B",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "hyunwoongko/roberta-base-en-mnli",
@@ -49934,5 +49936,9 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "SaintLau/DialoGPT-small-josh",
+		"private": false
 	}
 ]
