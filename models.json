@@ -44261,15 +44261,17 @@
 	{
 		"modelId": "sentence-transformers/stsb-xlm-r-multilingual",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/xlm-r-100langs-bert-base-nli-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "seonghwayun/test-model",
@@ -50265,5 +50267,35 @@
 		"modelId": "sentence-transformers/stsb-roberta-base",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/xlm-r-base-en-ko-nli-ststb",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/xlm-r-bert-base-nli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/xlm-r-bert-base-nli-stsb-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/xlm-r-distilroberta-base-paraphrase-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/xlm-r-large-en-ko-nli-ststb",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "mittalnishit/DialoGPT-small-rickman",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
