@@ -43908,7 +43908,8 @@
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-TinyBERT-L6-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-albert-base-v2",
@@ -43942,12 +43943,13 @@
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-xlm-r-multilingual-v1",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/quora-distilbert-base",
