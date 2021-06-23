@@ -22488,8 +22488,7 @@
 	},
 	{
 		"modelId": "google/mt5-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"private": false
 	},
 	{
 		"modelId": "google/mt5-large",
@@ -49959,7 +49958,8 @@
 	},
 	{
 		"modelId": "hyunwoongko/megatron-11B",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "motiondew/bert-finetuned-lr2-e5-b16-ep2",
@@ -50190,6 +50190,10 @@
 	},
 	{
 		"modelId": "vasudevgupta/experiment",
+		"private": false
+	},
+	{
+		"modelId": "jiyoojeong/targetizer_test_001",
 		"private": false
 	}
 ]
