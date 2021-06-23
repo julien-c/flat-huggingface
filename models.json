@@ -43800,7 +43800,8 @@
 	},
 	{
 		"modelId": "sentence-transformers/average_word_embeddings_glove.840B.300d",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/average_word_embeddings_komninos",
@@ -44195,7 +44196,7 @@
 	{
 		"modelId": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
@@ -44219,35 +44220,43 @@
 	},
 	{
 		"modelId": "sentence-transformers/roberta-base-nli-stsb-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/roberta-large-nli-stsb-mean-tokens",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-bert-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-distilbert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-distilroberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-mpnet-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-roberta-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-roberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/stsb-xlm-r-multilingual",
@@ -50226,5 +50235,35 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "sentence-transformers/roberta-base-nli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/roberta-base-nli-stsb-wkpooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/roberta-base-nli-wkpooling",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/roberta-large-nli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/stsb-bert-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/stsb-roberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
