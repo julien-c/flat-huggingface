@@ -12978,7 +12978,7 @@
 	{
 		"modelId": "Siddhant/open_li52_asr_train_asr_raw_bpe7000_valid.acc.ave",
 		"private": false,
-		"pipeline_tag": "text-to-speech"
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "Sierra1669/DialoGPT-medium-Alice",
@@ -50591,6 +50591,15 @@
 	},
 	{
 		"modelId": "Siddhant/test",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/_its_mino_",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Siddhant/asr_train_raw_bpe_valid.acc.best",
 		"private": false
 	}
 ]
