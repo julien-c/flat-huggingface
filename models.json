@@ -45277,7 +45277,8 @@
 	},
 	{
 		"modelId": "sonoisa/byt5-small-japanese",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sonoisa/t5-base-japanese-article-generation",
@@ -50309,6 +50310,15 @@
 	},
 	{
 		"modelId": "shachinatu/dummy-classification-model",
+		"private": false
+	},
+	{
+		"modelId": "harish/PT-UP-FalseTrue-0_0_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/PT-UP-TrueTrue-0_2_BEST",
 		"private": false
 	}
 ]
