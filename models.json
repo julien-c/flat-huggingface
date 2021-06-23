@@ -43953,11 +43953,13 @@
 	},
 	{
 		"modelId": "sentence-transformers/quora-distilbert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/quora-distilbert-multilingual",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "sentence-transformers/roberta-base-nli-stsb-mean-tokens",
@@ -49961,11 +49963,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "nreimers/tmp-test-model",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "sgugger/finetuned-bert-test",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -50223,6 +50220,10 @@
 	},
 	{
 		"modelId": "Photons/dummy_tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "nreimers/tmp-test-model2",
 		"private": false
 	}
 ]
