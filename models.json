@@ -9464,7 +9464,7 @@
 	{
 		"modelId": "JorisCos/DCCRNet_Libri1Mix_enhsingle_16k",
 		"private": false,
-		"pipeline_tag": "audio-source-separation"
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "JorisCos/DCUNet_Libri1Mix_enhsingle_16k",
@@ -43859,16 +43859,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "sentence-transformers/ce-distilroberta-base-quora",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "sentence-transformers/ce-ms-marco-TinyBERT-L-4",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -45411,32 +45401,38 @@
 	},
 	{
 		"modelId": "speechbrain/metricgan-plus-voicebank",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/mtl-mimic-voicebank",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/sepformer-wham",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/sepformer-whamr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/sepformer-whamr16k",
 		"private": false,
-		"pipeline_tag": "audio-source-separation"
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/sepformer-wsj02mix",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/sepformer-wsj03mix",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "speechbrain/slu-direct-fluent-speech-commands-librispeech-asr",
@@ -50284,11 +50280,18 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "hess/TrainWithMailTxt_test_1",
-		"private": false
+		"modelId": "smeoni/electra-large-discriminator-clrp",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "smeoni/electra-large-discriminator-clrp",
-		"private": false
+		"modelId": "smeoni/distilroberta-base-clrp",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "smeoni/electra-base-discriminator-clrp",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
