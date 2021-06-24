@@ -50612,6 +50612,37 @@
 	},
 	{
 		"modelId": "nateraw/baked-goods",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_pypinyin_g2p_phone_train.loss.best",
 		"private": false
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech_raw_phn_pypinyin_g2p_phone_train.loss.best",
+		"private": false
+	},
+	{
+		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/pastellexists",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "joe8zhang/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
