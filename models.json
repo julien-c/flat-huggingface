@@ -40011,6 +40011,11 @@
 		"private": false
 	},
 	{
+		"modelId": "nateraw/animals-1",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "nateraw/animals",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -41087,11 +41092,16 @@
 	{
 		"modelId": "osanseviero/full-sentence-distillroberta3",
 		"private": false,
-		"pipeline_tag": "feature-extraction"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "osanseviero/full-sentence-upload-to-hub2",
 		"private": false
+	},
+	{
+		"modelId": "osanseviero/just-a-test",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "osanseviero/keras-conv-mnist",
