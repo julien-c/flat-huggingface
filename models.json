@@ -1173,6 +1173,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Davlan/bert-base-multilingual-cased-masakhaner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Davlan/mT5_base_yoruba_adr",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -1521,6 +1526,10 @@
 	},
 	{
 		"modelId": "Fang/Titania",
+		"private": false
+	},
+	{
+		"modelId": "Farjami/Modal1",
 		"private": false
 	},
 	{
@@ -11017,6 +11026,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "RixEtte/chatbot",
+		"private": false
+	},
+	{
 		"modelId": "Roboserg/best_model",
 		"private": false
 	},
@@ -12894,6 +12907,11 @@
 	{
 		"modelId": "SaulLu/test-model",
 		"private": false
+	},
+	{
+		"modelId": "Saviour/ChandlerBot",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Scoops/SandalBot",
@@ -16375,6 +16393,10 @@
 		"private": false
 	},
 	{
+		"modelId": "arijitx/wav2vec2-large-xlsr-bengali",
+		"private": false
+	},
+	{
 		"modelId": "aristotletan/sc-distilbert",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -17299,6 +17321,10 @@
 		"modelId": "berkergurcay/finetuned-roberta",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "beta13/dummy-bert-base-cased",
+		"private": false
 	},
 	{
 		"modelId": "bewgle/bart-large-mnli-bewgle",
@@ -21482,6 +21508,10 @@
 		"modelId": "finiteautomata/beto-emotion-analysis",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "finiteautomata/beto-fine-grained-hatespeech-news",
+		"private": false
 	},
 	{
 		"modelId": "finiteautomata/beto-sentiment-analysis",
@@ -43565,6 +43595,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sambelanz/soprtbubu",
+		"private": false
+	},
+	{
 		"modelId": "sambelanz/ss",
 		"private": false
 	},
@@ -50713,39 +50747,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "sambelanz/soprtbubu",
-		"private": false
-	},
-	{
-		"modelId": "Saviour/ChandlerBot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "beta13/dummy-bert-base-cased",
-		"private": false
-	},
-	{
-		"modelId": "RixEtte/chatbot",
-		"private": false
-	},
-	{
-		"modelId": "Farjami/Modal1",
-		"private": false
-	},
-	{
-		"modelId": "Davlan/bert-base-multilingual-cased-masakhaner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "finiteautomata/beto-fine-grained-hatespeech-news",
-		"private": false
-	},
-	{
-		"modelId": "arijitx/wav2vec2-large-xlsr-bengali",
-		"private": false
 	}
 ]
