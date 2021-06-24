@@ -48578,8 +48578,7 @@
 	},
 	{
 		"modelId": "vasudevgupta/flax-bigbird-natural-questions",
-		"private": false,
-		"pipeline_tag": "question-answering"
+		"private": false
 	},
 	{
 		"modelId": "vasudevgupta/mbart-bhasha-guj-eng",
@@ -50303,7 +50302,8 @@
 	},
 	{
 		"modelId": "tanay/layoutLMv2-funds",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "shachinatu/dummy-classifiction-model",
@@ -50678,5 +50678,14 @@
 	{
 		"modelId": "Banshee/LukeSkywalker",
 		"private": false
+	},
+	{
+		"modelId": "mmhr143/mmhr",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/weedsle",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
