@@ -13042,7 +13042,8 @@
 	},
 	{
 		"modelId": "Siddhant/asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "Siddhant/asr_train_raw_bpe_valid.acc.best",
@@ -13060,31 +13061,38 @@
 	},
 	{
 		"modelId": "Siddhant/tts_train_fastspeech_raw_phn_jaconv_pyopenjtalk_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_fastspeech_raw_phn_pypinyin_g2p_phone_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_fastspeech_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_gst_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_pypinyin_g2p_phone_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Sierra1669/DialoGPT-medium-Alice",
@@ -50809,5 +50817,9 @@
 		"modelId": "motiondew/bert-set_date_2-lr-2e-5-bs-32-ep-3",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "LucyLiu/Test",
+		"private": false
 	}
 ]
