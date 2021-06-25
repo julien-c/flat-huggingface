@@ -9819,6 +9819,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Lalita/marianmt-th-zh_cn",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
 		"modelId": "Lalita/marianmt-zh_cn-th",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -23795,6 +23800,21 @@
 	},
 	{
 		"modelId": "harish/PT-TrueTrue-0_0_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/PT-UP-mBERT-FalseFalse-0_3_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/PT-UP-mBERT-FalseTrue-0_3_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/PT-UP-mBERT-TrueTrue-0_1_BEST",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -39007,6 +39027,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "motiondew/bert-set_date_3-lr-3e-5-bs-32-ep-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "motiondew/distilbert-finetuned",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -51135,28 +51160,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Lalita/marianmt-th-zh_cn",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "motiondew/bert-set_date_3-lr-3e-5-bs-32-ep-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-FalseTrue-0_3_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-TrueTrue-0_1_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-FalseFalse-0_3_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
+		"modelId": "arampacha/DialoGPT-medium-simpsons",
+		"private": false
 	}
 ]
