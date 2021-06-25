@@ -13214,10 +13214,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "Siddhant/open_li52_asr_train_asr_raw_bpe7000_valid.acc.ave_10best",
-		"private": false
-	},
-	{
 		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -23794,51 +23790,6 @@
 	},
 	{
 		"modelId": "harish/PT-TrueTrue-0_0_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-FalseFalse-0_4_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-FalseTrue-0_0_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-TrueTrue-0_1_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-XLM-FalseFalse-0_4_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-XLM-FalseTrue-0_4_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-XLM-TrueTrue-0_3_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-XLM-train-from-test-and-dev-FalseTrue-0_2_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-XLM-train-from-test-and-dev-short-FalseTrue-0_2_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-train-from-test-and-dev-FalseTrue-0_4_BEST",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -51189,8 +51140,13 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "hetpandya/t5-small-tapaco",
+		"modelId": "harish/PT-UP-mBERT-FalseTrue-0_3_BEST",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/PT-UP-mBERT-TrueTrue-0_1_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
