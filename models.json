@@ -15574,10 +15574,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alenusch/par_cls_bert",
-		"private": false
-	},
-	{
 		"modelId": "alenusch/rugpt2-paraphraser",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -51168,7 +51164,8 @@
 	},
 	{
 		"modelId": "motiondew/bert-set_date_2-lr-3e-5-bs-32-ep-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "mboth/distil-eng",
@@ -51177,6 +51174,14 @@
 	},
 	{
 		"modelId": "Jikiwa/text-files",
+		"private": false
+	},
+	{
+		"modelId": "Jikiwa/torch-model",
+		"private": false
+	},
+	{
+		"modelId": "Jikiwa/flax-model",
 		"private": false
 	}
 ]
