@@ -37792,10 +37792,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "mboth/sentence-distil-eng",
-		"private": false
-	},
-	{
 		"modelId": "mboth/sentence-eng",
 		"private": false
 	},
@@ -51188,7 +51184,13 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "motiondew/bert-set_date_3-lr-3e-5-bs-32-ep-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "hetpandya/t5-small-tapaco",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
