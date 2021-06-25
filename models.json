@@ -9283,6 +9283,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Intel/bert-base-uncased-sparse-1_2",
+		"private": false
+	},
+	{
 		"modelId": "Intel/bert-base-uncased-sparse-70-unstructured",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -9929,6 +9933,10 @@
 	},
 	{
 		"modelId": "Luca-pelicula-completa-ver-online-esp/luca-ver-online",
+		"private": false
+	},
+	{
+		"modelId": "LucyLiu/Test",
 		"private": false
 	},
 	{
@@ -12838,6 +12846,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "Saltyiron/model_hello",
+		"private": false
+	},
+	{
 		"modelId": "Samsun121/model_name",
 		"private": false
 	},
@@ -13041,7 +13053,112 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Siddhant/asr_train_asr_conformer2_latest33_raw_char_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer3_raw_char_batch_bins4000000_accum_grad4_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer5_raw_bpe5000_frontend_confn_fft400_frontend_confhop_length160_scheduler_confwarmup_steps25000_batch_bins140000000_optim_conflr0.0015_initnone_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer5_raw_bpe5000_frontend_confn_fft512_frontend_confhop_length256_scheduler_confwarmup_steps25000_batch_bins140000000_optim_conflr0.0015_initnone_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer5_raw_bpe5000_scheduler_confwarmup_steps25000_batch_bins140000000_optim_conflr0.0015_initnone_accum_grad2_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer6_n_fft512_hop_length256_raw_en_bpe5000_scheduler_confwarmup_steps40000_optim_conflr0.0025_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer6_n_fft512_hop_length256_raw_en_bpe5000_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer6_n_fft512_hop_length256_raw_en_unnorm_bpe5000_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_conformer8_raw_char_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_raw_bpe7000_valid.acc.ave_10best",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_raw_en_bpe5000_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_raw_word_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_streaming_transformer_raw_zh_char_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer2_raw_en_char_rir_scpdatareverb_rir_singlewav.scp_noise_db_range12_17_noise_scpdatareverb_noise_singlewav.scp_speech_volume_normalize1.0_num_workers2_rir_apply_prob0.999_noise_apply_prob1._sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer2_raw_zh_char_batch_bins20000000_ctc_confignore_nan_gradtrue_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer3_raw_en_char_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer4_raw_char_batch_bins16000000_accum_grad1_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer5_raw_bpe_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer_cmvn_raw_char_rir_scpdatadirha_irwav.scp_noise_db_range10_17_noise_scpdatadirha_noisewav.scp_speech_volume_normalize1.0_num_workers2_rir_apply_prob1._sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "Siddhant/asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer_raw_char_sp_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/asr_train_asr_transformer_raw_char_valid.acc.ave",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
 	},
@@ -13051,6 +13168,26 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "Siddhant/asr_transformer_valid.acc.best",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Siddhant/enh_train_enh_conv_tasnet_raw_valid.si_snr.ave",
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
+	},
+	{
+		"modelId": "Siddhant/enh_train_enh_rnn_tf_raw_valid.si_snr.ave",
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
+	},
+	{
+		"modelId": "Siddhant/enh_train_raw_valid.si_snr.ave",
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
+	},
+	{
 		"modelId": "Siddhant/open_li52_asr_train_asr_raw_bpe7000_valid.acc.ave",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -13058,6 +13195,76 @@
 	{
 		"modelId": "Siddhant/open_li52_asr_train_asr_raw_bpe7000_valid.acc.ave_10best",
 		"private": false
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "Siddhant/tts_train_fastspeech_raw_phn_jaconv_pyopenjtalk_train.loss.best",
@@ -13075,7 +13282,52 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "Siddhant/tts_train_gst_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_fastspeech_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "Siddhant/tts_train_gst_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_xvector_conformer_fastspeech2_transformer_teacher_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_xvector_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_gst_xvector_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -13091,6 +13343,46 @@
 	},
 	{
 		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_transformer_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_transformer_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_transformer_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_transformer_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_xvector_conformer_fastspeech2_transformer_teacher_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_xvector_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Siddhant/tts_train_xvector_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -14397,6 +14689,10 @@
 	},
 	{
 		"modelId": "Zaid/wav2vec2-large-xlsr-dialect-classification",
+		"private": false
+	},
+	{
+		"modelId": "ZikXewen/wav2vec2-large-xlsr-53-thai-demo",
 		"private": false
 	},
 	{
@@ -19722,6 +20018,15 @@
 	},
 	{
 		"modelId": "dbmdz/electra-base-turkish-cased-v0-generator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "dbmdz/electra-base-turkish-mc4-cased-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "dbmdz/electra-base-turkish-mc4-cased-generator",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -35426,6 +35731,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "junnyu/uer_large",
+		"private": false
+	},
+	{
 		"modelId": "junnyu/wobert_chinese_base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -38692,6 +39001,16 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "motiondew/bert-set_date_1-lr-2e-5-bs-32-ep-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "motiondew/bert-set_date_2-lr-2e-5-bs-32-ep-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "motiondew/distilbert-finetuned",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -41131,6 +41450,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "osanseviero/just-a-test2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "osanseviero/keras-conv-mnist",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -41489,6 +41813,11 @@
 		"modelId": "patrickvonplaten/roberta_shared_bbc_xsum",
 		"private": false,
 		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "patrickvonplaten/t5-pretraining-island",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "patrickvonplaten/t5-tiny-random",
@@ -50795,327 +51124,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "dbmdz/electra-base-turkish-mc4-cased-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "dbmdz/electra-base-turkish-mc4-cased-generator",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Intel/bert-base-uncased-sparse-1_2",
-		"private": false
-	},
-	{
-		"modelId": "patrickvonplaten/t5-pretraining-island",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "motiondew/bert-set_date_1-lr-2e-5-bs-32-ep-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "motiondew/bert-set_date_2-lr-2e-5-bs-32-ep-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "LucyLiu/Test",
-		"private": false
-	},
-	{
-		"modelId": "Saltyiron/model_hello",
-		"private": false
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_fastspeech_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer_raw_char_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer5_raw_bpe_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_raw_phn_pypinyin_g2p_phone_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_pypinyin_g2p_phone_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_transformer_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_transformer_raw_phn_pypinyin_g2p_phone_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer_raw_char_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/tts_train_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer3_raw_char_batch_bins4000000_accum_grad4_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer4_raw_char_batch_bins16000000_accum_grad1_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_raw_word_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer8_raw_char_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_transformer_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer3_raw_en_char_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer_cmvn_raw_char_rir_scpdatadirha_irwav.scp_noise_db_range10_17_noise_scpdatadirha_noisewav.scp_speech_volume_normalize1.0_num_workers2_rir_apply_prob1._sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/tts_train_xvector_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_xvector_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_xvector_conformer_fastspeech2_transformer_teacher_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer2_raw_zh_char_batch_bins20000000_ctc_confignore_nan_gradtrue_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_transformer2_raw_en_char_rir_scpdatareverb_rir_singlewav.scp_noise_db_range12_17_noise_scpdatareverb_noise_singlewav.scp_speech_volume_normalize1.0_num_workers2_rir_apply_prob0.999_noise_apply_prob1._sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_transformer_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer5_raw_bpe5000_scheduler_confwarmup_steps25000_batch_bins140000000_optim_conflr0.0015_initnone_accum_grad2_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer5_raw_bpe5000_frontend_confn_fft400_frontend_confhop_length160_scheduler_confwarmup_steps25000_batch_bins140000000_optim_conflr0.0015_initnone_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer5_raw_bpe5000_frontend_confn_fft512_frontend_confhop_length256_scheduler_confwarmup_steps25000_batch_bins140000000_optim_conflr0.0015_initnone_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer2_latest33_raw_char_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_transformer_valid.acc.best",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/enh_train_raw_valid.si_snr.ave",
-		"private": false,
-		"pipeline_tag": "audio-to-audio"
-	},
-	{
-		"modelId": "Siddhant/enh_train_enh_conv_tasnet_raw_valid.si_snr.ave",
-		"private": false,
-		"pipeline_tag": "audio-to-audio"
-	},
-	{
-		"modelId": "Siddhant/enh_train_enh_rnn_tf_raw_valid.si_snr.ave",
-		"private": false,
-		"pipeline_tag": "audio-to-audio"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer6_n_fft512_hop_length256_raw_en_unnorm_bpe5000_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer6_n_fft512_hop_length256_raw_en_bpe5000_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_conformer6_n_fft512_hop_length256_raw_en_bpe5000_scheduler_confwarmup_steps40000_optim_conflr0.0025_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_streaming_transformer_raw_zh_char_sp_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_raw_bpe7000_valid.acc.ave_10best",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/asr_train_asr_raw_en_bpe5000_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_xvector_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_xvector_conformer_fastspeech2_transformer_teacher_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Siddhant/tts_train_gst_xvector_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "junnyu/uer_large",
-		"private": false
-	},
-	{
-		"modelId": "ZikXewen/wav2vec2-large-xlsr-53-thai-demo",
+		"modelId": "zari/my-second-model",
 		"private": false
 	}
 ]
