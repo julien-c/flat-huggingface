@@ -14402,15 +14402,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "Wikidepia/IndoT5-small-cc100",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Wikidepia/IndoT5-v2-small",
-		"private": false
-	},
-	{
 		"modelId": "Wikidepia/albert-bahasa-cased-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -14444,10 +14435,6 @@
 		"modelId": "Wikidepia/t5-base-bahasa-stif-cased",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Wikidepia/wav2-test",
-		"private": false
 	},
 	{
 		"modelId": "WikinewsSum/bart-large-cnn-multi-en-wiki-news",
@@ -51146,7 +51133,8 @@
 	},
 	{
 		"modelId": "Wikidepia/IndoT5-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "jinmang2/kobart-sum-aihub",
