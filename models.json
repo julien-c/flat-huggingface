@@ -51145,37 +51145,9 @@
 		"private": false
 	},
 	{
-		"modelId": "Jikiwa/random_repo",
-		"private": false
-	},
-	{
 		"modelId": "Lalita/marianmt-zh_cn-th",
 		"private": false,
 		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "Jikiwa/random_repo-2",
-		"private": false
-	},
-	{
-		"modelId": "Jikiwa/random_repo-3",
-		"private": false
-	},
-	{
-		"modelId": "Jikiwa/random_repo-4",
-		"private": false
-	},
-	{
-		"modelId": "Jikiwa/random_repo-5",
-		"private": false
-	},
-	{
-		"modelId": "Jikiwa/random_repo-7",
-		"private": false
-	},
-	{
-		"modelId": "Jikiwa/repo-16246123268118",
-		"private": false
 	},
 	{
 		"modelId": "shachinatu/mymodel1",
@@ -51191,7 +51163,8 @@
 	},
 	{
 		"modelId": "motiondew/bert-set_date_1-lr-3e-5-bs-32-ep-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "motiondew/bert-set_date_2-lr-3e-5-bs-32-ep-3",
@@ -51199,6 +51172,11 @@
 	},
 	{
 		"modelId": "mboth/distil-eng",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Jikiwa/text-files",
 		"private": false
 	}
 ]
