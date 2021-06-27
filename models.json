@@ -667,6 +667,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Begimay/Task",
+		"private": false
+	},
+	{
 		"modelId": "Belin/T5-Terms-and-Conditions",
 		"private": false
 	},
@@ -750,6 +754,11 @@
 	{
 		"modelId": "Blazeolmo/Scrabunzi",
 		"private": false
+	},
+	{
+		"modelId": "BlightZz/MakiseKurisu",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "BonjinKim/dst_kor_bert",
@@ -10808,6 +10817,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Phantomhive/Noelle-bot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Philippe/test",
 		"private": false
 	},
@@ -17420,6 +17434,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "baicuya/bert_cn",
+		"private": false
+	},
+	{
 		"modelId": "baihaisheng/bert_finetuning_test",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -17428,6 +17446,21 @@
 		"modelId": "bakrianoo/sinai-voice-ar-stt",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "bakrianoo/t5-arabic-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bakrianoo/t5-arabic-large",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bakrianoo/t5-arabic-small",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "bala1802/model_1_test",
@@ -18843,6 +18876,15 @@
 		"modelId": "ceyda/wav2vec2-large-xlsr-53-turkish",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "cfinley/output",
+		"private": false
+	},
+	{
+		"modelId": "cfinley/punct_restore_fr",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "chain/yoloyolo",
@@ -22231,6 +22273,10 @@
 		"private": false
 	},
 	{
+		"modelId": "funwiththoughts/dummy-model",
+		"private": false
+	},
+	{
 		"modelId": "furkanbilgin/gpt2-eksisozluk",
 		"private": false
 	},
@@ -24072,6 +24118,11 @@
 		"pipeline_tag": "summarization"
 	},
 	{
+		"modelId": "hetpandya/t5-small-tapaco",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "heziyevv/aze_basic_lang_model",
 		"private": false
 	},
@@ -24391,6 +24442,11 @@
 	},
 	{
 		"modelId": "howey/bert-base-uncased-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "howey/bert-base-uncased-kaggle",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -34957,6 +35013,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "jinmang2/kobart",
+		"private": false
+	},
+	{
 		"modelId": "jirmauritz/robbert-v2-dutch-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -44053,6 +44113,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sambelanz/hungio",
+		"private": false
+	},
+	{
 		"modelId": "sambelanz/jklstreaming",
 		"private": false
 	},
@@ -45467,11 +45531,27 @@
 		"private": false
 	},
 	{
+		"modelId": "shachinatu/dummy-mask-model",
+		"private": false
+	},
+	{
 		"modelId": "shachinatu/dummy-model",
 		"private": false
 	},
 	{
 		"modelId": "shachinatu/dummy-model4",
+		"private": false
+	},
+	{
+		"modelId": "shachinatu/my-classification-model",
+		"private": false
+	},
+	{
+		"modelId": "shachinatu/my-classification-model1",
+		"private": false
+	},
+	{
+		"modelId": "shachinatu/my-masked-model",
 		"private": false
 	},
 	{
@@ -49363,6 +49443,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "uva-irlab/quretec",
+		"private": false
+	},
+	{
 		"modelId": "uw-hai/polyjuice",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -50498,6 +50582,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "yobi/klue-roberta-base-ynat",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "yoonseob/yaiBERT-v2",
 		"private": false
 	},
@@ -51154,6 +51243,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zijun/ChineseBERT-base",
+		"private": false
+	},
+	{
 		"modelId": "zitterbewegung/DialoGPT-medium-ja",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -51237,98 +51330,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "hetpandya/t5-small-tapaco",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "uva-irlab/quretec",
-		"private": false
-	},
-	{
-		"modelId": "shachinatu/dummy-mask-model",
-		"private": false
-	},
-	{
-		"modelId": "shachinatu/my-masked-model",
-		"private": false
-	},
-	{
-		"modelId": "shachinatu/my-classification-model",
-		"private": false
-	},
-	{
-		"modelId": "shachinatu/my-classification-model1",
-		"private": false
-	},
-	{
-		"modelId": "sambelanz/hungio",
-		"private": false
-	},
-	{
-		"modelId": "Begimay/Task",
-		"private": false
-	},
-	{
-		"modelId": "howey/bert-base-uncased-kaggle",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "baicuya/bert_cn",
-		"private": false
-	},
-	{
-		"modelId": "yobi/klue-roberta-base-ynat",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Phantomhive/Noelle-bot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "bakrianoo/t5-arabic-small",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bakrianoo/t5-arabic-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bakrianoo/t5-arabic-large",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "cfinley/punct_restore_fr",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "cfinley/output",
-		"private": false
-	},
-	{
-		"modelId": "BlightZz/MakiseKurisu",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "jinmang2/kobart",
-		"private": false
-	},
-	{
-		"modelId": "funwiththoughts/dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "zijun/ChineseBERT-base",
-		"private": false
 	}
 ]
