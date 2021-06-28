@@ -37242,6 +37242,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "m3hrdadfi/albert-zwnj-wnli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "feature-extraction"
+	},
+	{
 		"modelId": "m3hrdadfi/bert-fa-base-uncased-farstail-mean-tokens",
 		"private": false
 	},
@@ -37264,6 +37269,11 @@
 		"private": false
 	},
 	{
+		"modelId": "m3hrdadfi/bert-zwnj-wnli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "feature-extraction"
+	},
+	{
 		"modelId": "m3hrdadfi/bert2bert-fa-news-headline",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -37272,6 +37282,11 @@
 		"modelId": "m3hrdadfi/bert2bert-fa-wiki-summary",
 		"private": false,
 		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "m3hrdadfi/distilbert-zwnj-wnli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "m3hrdadfi/hubert-base-greek-speech-emotion-recognition",
@@ -37303,6 +37318,11 @@
 		"modelId": "m3hrdadfi/icelandic-ner-roberta",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "m3hrdadfi/roberta-zwnj-wnli-mean-tokens",
+		"private": false,
+		"pipeline_tag": "feature-extraction"
 	},
 	{
 		"modelId": "m3hrdadfi/typo-detector-distilbert-en",
@@ -51580,7 +51600,17 @@
 		"private": false
 	},
 	{
-		"modelId": "phozon/DialoGPT-large-harry",
+		"modelId": "patrickvonplaten/bert-glue-mrpc-test",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "patrickvonplaten/norwegian-roberta-als",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "patrickvonplaten/als-gpt2",
 		"private": false
 	}
 ]
