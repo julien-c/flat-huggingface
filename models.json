@@ -51513,7 +51513,8 @@
 	},
 	{
 		"modelId": "Unbabel/mbart50-large-m2m_mlqe-pe",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "harish/PT-UP-xlmR-FalseTrue-0_0_BEST",
@@ -51547,5 +51548,15 @@
 	{
 		"modelId": "ainize/klue-bert-base-mrc",
 		"private": false
+	},
+	{
+		"modelId": "harish/PT-UP-xlmR-FewShot-FalseTrue-0_0_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/PT-UP-xlmR-OneShot-FalseTrue-0_2_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
