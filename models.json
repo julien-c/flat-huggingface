@@ -51593,11 +51593,13 @@
 	},
 	{
 		"modelId": "facebook/muppet-roberta-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "facebook/muppet-roberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "patrickvonplaten/bert-glue-mrpc-test",
@@ -51611,6 +51613,12 @@
 	},
 	{
 		"modelId": "patrickvonplaten/als-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "patrickvonplaten/t5-als",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
