@@ -23939,31 +23939,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "harish/PT-UP-mBERT-FalseFalse-0_3_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-FalseTrue-0_3_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-FewShot-FalseTrue-0_3_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-OneShot-FalseTrue-0_0_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harish/PT-UP-mBERT-TrueTrue-0_1_BEST",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "harish/PT-XLM_R-FalseFalse-0_2_BEST",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -51529,7 +51504,8 @@
 	},
 	{
 		"modelId": "jirmauritz/bert-multilingual-emoji",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Jikiwa/model",
