@@ -9039,6 +9039,11 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "Helsinki-NLP/opus-mt-zlw-fiu",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
 		"modelId": "Helsinki-NLP/opus-mt-zlw-zlw",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -9255,6 +9260,14 @@
 		"modelId": "IMSyPP/hate_speech_en",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "IMSyPP/hate_speech_it",
+		"private": false
+	},
+	{
+		"modelId": "IMSyPP/hate_speech_slo",
+		"private": false
 	},
 	{
 		"modelId": "ITworkonline/twitter_tac_model",
@@ -10481,6 +10494,11 @@
 	{
 		"modelId": "NareshPS/test",
 		"private": false
+	},
+	{
+		"modelId": "Narrativa/byt5-base-finetuned-tweet-qa",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Narrativa/byt5-base-tweet-hate-detection",
@@ -14637,6 +14655,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Wolferella/gpt-neo-2.7B",
+		"private": false
+	},
+	{
 		"modelId": "Wonjun/KPTBert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -15143,6 +15165,10 @@
 		"modelId": "adamlin/distilbert-base-cased-sgd_qa-step5000",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "adamlin/flowscore-speak-model",
+		"private": false
 	},
 	{
 		"modelId": "adamlin/tmp",
@@ -16196,6 +16222,10 @@
 	},
 	{
 		"modelId": "aminezeggaf/emotionsAnalysisAmine",
+		"private": false
+	},
+	{
+		"modelId": "amitgajbhiye/mlqe_en_zh",
 		"private": false
 	},
 	{
@@ -18289,6 +18319,11 @@
 	},
 	{
 		"modelId": "byeongal/DialoGPT-small",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "byeongal/Ko-DialoGPT",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
@@ -20640,6 +20675,11 @@
 	{
 		"modelId": "dispix/test-model",
 		"private": false
+	},
+	{
+		"modelId": "distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "dittouser/model_name",
@@ -38102,6 +38142,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "mboth/distil-eng-sentence-quora",
+		"private": false
+	},
+	{
 		"modelId": "mboth/distil-eng",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -41129,6 +41173,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nielsr/canine-c",
+		"private": false
+	},
+	{
 		"modelId": "nielsr/canine-s",
 		"private": false
 	},
@@ -41815,6 +41863,10 @@
 	},
 	{
 		"modelId": "osanseviero/en_ner_fashion-0.0.0",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/fashion_brands_patterns",
 		"private": false
 	},
 	{
@@ -43238,6 +43290,16 @@
 	{
 		"modelId": "projectaligned/gpt2-xl-reddit-writingprompts-reward-model-full",
 		"private": false
+	},
+	{
+		"modelId": "proxyht/mdsister-news",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "proxyht/mdsister",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "proycon/bert-lemma-cased-cgn_elex-nld",
@@ -45878,6 +45940,18 @@
 	},
 	{
 		"modelId": "shachinatu/my-classification-model1",
+		"private": false
+	},
+	{
+		"modelId": "shachinatu/my-classification-model3",
+		"private": false
+	},
+	{
+		"modelId": "shachinatu/my-classification-model4",
+		"private": false
+	},
+	{
+		"modelId": "shachinatu/my-classification-model5",
 		"private": false
 	},
 	{
@@ -50223,6 +50297,11 @@
 		"pipeline_tag": "zero-shot-classification"
 	},
 	{
+		"modelId": "victor/animals-classifier",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "vietstar87/viet",
 		"private": false
 	},
@@ -51691,84 +51770,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "byeongal/Ko-DialoGPT",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "IMSyPP/hate_speech_slo",
-		"private": false
-	},
-	{
-		"modelId": "IMSyPP/hate_speech_it",
-		"private": false
-	},
-	{
-		"modelId": "proxyht/mdsister",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "amitgajbhiye/mlqe_en_zh",
-		"private": false
-	},
-	{
-		"modelId": "proxyht/mdsister-news",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "nielsr/canine-c",
-		"private": false
-	},
-	{
-		"modelId": "victor/animals-classifier",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "adamlin/flowscore-speak-model",
-		"private": false
-	},
-	{
-		"modelId": "shachinatu/my-classification-model3",
-		"private": false
-	},
-	{
-		"modelId": "shachinatu/my-classification-model4",
-		"private": false
-	},
-	{
-		"modelId": "Narrativa/byt5-base-finetuned-tweet-qa",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "Helsinki-NLP/opus-mt-zlw-fiu",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "shachinatu/my-classification-model5",
-		"private": false
-	},
-	{
-		"modelId": "Wolferella/gpt-neo-2.7B",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/fashion_brands_patterns",
-		"private": false
-	},
-	{
-		"modelId": "mboth/distil-eng-sentence-quora",
-		"private": false
 	}
 ]
