@@ -9623,7 +9623,8 @@
 	},
 	{
 		"modelId": "Jtisch7/bertFinancialSent",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "JuliusAlphonso/dear-jarvis-monolith-xed-en",
@@ -51793,5 +51794,19 @@
 		"modelId": "nateraw/denver-nyc-paris",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "nateraw/rare-puppers",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "ratulalahy/gpt_2_scifact_abstract",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/bladeecity-rxmaybike-wojespn",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
