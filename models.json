@@ -41818,10 +41818,6 @@
 		"private": false
 	},
 	{
-		"modelId": "osanseviero/fashion_brands_patterns",
-		"private": false
-	},
-	{
 		"modelId": "osanseviero/fastspeech",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -51751,7 +51747,8 @@
 	},
 	{
 		"modelId": "distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "Helsinki-NLP/opus-mt-zlw-fiu",
@@ -51764,6 +51761,14 @@
 	},
 	{
 		"modelId": "Wolferella/gpt-neo-2.7B",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/fashion_brands_patterns",
+		"private": false
+	},
+	{
+		"modelId": "mboth/distil-eng-sentence-quora",
 		"private": false
 	}
 ]
