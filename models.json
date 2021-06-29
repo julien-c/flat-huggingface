@@ -13250,11 +13250,6 @@
 		"pipeline_tag": "audio-to-audio"
 	},
 	{
-		"modelId": "Siddhant/open_li52_asr_train_asr_raw_bpe7000_valid.acc.ave",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
 		"modelId": "Siddhant/tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -50554,10 +50549,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "yeop/gpt2-pride-and-prejudice",
-		"private": false
-	},
-	{
 		"modelId": "yerevann/m3-gen-only-generator",
 		"private": false
 	},
@@ -51568,7 +51559,8 @@
 	},
 	{
 		"modelId": "ainize/klue-bert-base-mrc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "harish/PT-UP-xlmR-FewShot-FalseTrue-0_0_BEST",
@@ -51657,6 +51649,23 @@
 	},
 	{
 		"modelId": "speechbrain/lang-id-commonlanguage_ecapa",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/dannybarefoot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "kon007/waterfriend",
+		"private": false
+	},
+	{
+		"modelId": "BigSalmon/GPTIntro",
+		"private": false
+	},
+	{
+		"modelId": "miguelvictor/transfers",
 		"private": false
 	}
 ]
