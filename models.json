@@ -10025,7 +10025,15 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "Loudogg/Loudogg",
+		"private": false
+	},
+	{
 		"modelId": "Luca-pelicula-completa-ver-online-esp/luca-ver-online",
+		"private": false
+	},
+	{
+		"modelId": "Luciano/dummy-model",
 		"private": false
 	},
 	{
@@ -10091,6 +10099,10 @@
 	},
 	{
 		"modelId": "M-CLIP/Swedish-500k",
+		"private": false
+	},
+	{
+		"modelId": "ML-ass/german_encoder",
 		"private": false
 	},
 	{
@@ -10797,6 +10809,10 @@
 	},
 	{
 		"modelId": "Onlyblacktea/my_transformers",
+		"private": false
+	},
+	{
+		"modelId": "OthmaneJ/distil-wav2vec2",
 		"private": false
 	},
 	{
@@ -13052,6 +13068,10 @@
 	},
 	{
 		"modelId": "SaulLu/bengali-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "SaulLu/dummy-tokenizer-wordlevel",
 		"private": false
 	},
 	{
@@ -16293,6 +16313,10 @@
 	},
 	{
 		"modelId": "andreas800/hgf_models",
+		"private": false
+	},
+	{
+		"modelId": "andreylobach/ru_conversational_cased_L-12_H-768_A-12_pt",
 		"private": false
 	},
 	{
@@ -23252,6 +23276,15 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "google/canine-c",
+		"private": false
+	},
+	{
+		"modelId": "google/canine-s",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "google/electra-base-discriminator",
 		"private": false
 	},
@@ -29498,6 +29531,11 @@
 	},
 	{
 		"modelId": "huggingtweets/karchitecture",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/karlousm-whosnina__",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -38193,6 +38231,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "mboth/distil-eng-sentence-quora",
+		"private": false
+	},
+	{
 		"modelId": "mboth/distil-eng",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -41940,6 +41982,16 @@
 		"private": false
 	},
 	{
+		"modelId": "osanseviero/en_ner_fashion",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "osanseviero/fashion_brands_patterns",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "osanseviero/fastspeech",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -42429,6 +42481,10 @@
 		"private": false
 	},
 	{
+		"modelId": "patrickvonplaten/wav2vec2-base-robust",
+		"private": false
+	},
+	{
 		"modelId": "patrickvonplaten/wav2vec2-base-timit-demo",
 		"private": false
 	},
@@ -42902,6 +42958,11 @@
 		"modelId": "pierrerappolt/disease-extraction",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "pierric/autonlp-my-own-imdb-sentiment-analysis-2131817",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "pierric/test-EsperBERTo-small",
@@ -44158,6 +44219,10 @@
 		"private": false
 	},
 	{
+		"modelId": "robot-test/dummy-tokenizer-wordlevel",
+		"private": false
+	},
+	{
 		"modelId": "rohanrajpal/bert-base-codemixed-uncased-sentiment",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -44560,6 +44625,10 @@
 	},
 	{
 		"modelId": "sambelanz/enervoncengkok",
+		"private": false
+	},
+	{
+		"modelId": "sambelanz/gejee",
 		"private": false
 	},
 	{
@@ -46870,6 +46939,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "sonoisa/t5-base-japanese-mC4-Wikipedia",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "sonoisa/t5-base-japanese-question-generation",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -48252,6 +48326,11 @@
 	},
 	{
 		"modelId": "tanay/layoutLMv2-funds",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "tanay/layoutlm-funsd",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -51850,89 +51929,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "huggingtweets/karlousm-whosnina__",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "mboth/distil-eng-sentence-quora",
-		"private": false
-	},
-	{
-		"modelId": "tanay/layoutlm-funsd",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "osanseviero/fashion_brands_patterns",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "osanseviero/en_ner_fashion",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "robot-test/dummy-tokenizer-wordlevel",
-		"private": false
-	},
-	{
-		"modelId": "Loudogg/Loudogg",
-		"private": false
-	},
-	{
-		"modelId": "SaulLu/dummy-tokenizer-wordlevel",
-		"private": false
-	},
-	{
-		"modelId": "sambelanz/gejee",
-		"private": false
-	},
-	{
-		"modelId": "patrickvonplaten/wav2vec2-base-robust",
-		"private": false
-	},
-	{
-		"modelId": "yobi/klue-roberta-base-sts-768",
-		"private": false
-	},
-	{
-		"modelId": "yobi/klue-roberta-base-sts-256",
-		"private": false
-	},
-	{
-		"modelId": "andreylobach/ru_conversational_cased_L-12_H-768_A-12_pt",
-		"private": false
-	},
-	{
-		"modelId": "jambo/random_model",
-		"private": false
-	},
-	{
-		"modelId": "jambo/test",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "ML-ass/german_encoder",
-		"private": false
-	},
-	{
-		"modelId": "Luciano/dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "google/canine-s",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "google/canine-c",
-		"private": false
-	},
-	{
-		"modelId": "sonoisa/t5-base-japanese-mC4-Wikipedia",
+		"modelId": "jambo/dummy",
 		"private": false
 	}
 ]
