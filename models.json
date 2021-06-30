@@ -34956,6 +34956,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "jambo/dummy2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "jamesmark/mark",
 		"private": false
 	},
@@ -44593,6 +44598,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "salesken/translation-hi-en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "salilpn/wav2vec2-large-xlsr-53-marathi",
 		"private": false
 	},
@@ -51927,9 +51937,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jambo/dummy",
-		"private": false
 	}
 ]
