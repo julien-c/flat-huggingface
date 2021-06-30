@@ -10813,7 +10813,8 @@
 	},
 	{
 		"modelId": "OthmaneJ/distil-wav2vec2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "PJH10/tutorial",
@@ -51942,5 +51943,18 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingtweets/jagedn",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sgugger/my-new-shiny-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "jambo/NCBI-disease",
+		"private": false
 	}
 ]
