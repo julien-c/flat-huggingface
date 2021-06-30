@@ -1208,6 +1208,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-wolof",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-yoruba",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -1264,6 +1269,11 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-finetuned-swahili",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-base-finetuned-wolof",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -10102,6 +10112,11 @@
 		"private": false
 	},
 	{
+		"modelId": "ML-ass/english_decoder",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "ML-ass/german_encoder",
 		"private": false
 	},
@@ -15720,6 +15735,10 @@
 	},
 	{
 		"modelId": "akoksal/MTMB",
+		"private": false
+	},
+	{
+		"modelId": "akshara23/xyz",
 		"private": false
 	},
 	{
@@ -29110,6 +29129,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/jagedn",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/jaguarunlocked",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -32493,6 +32517,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/schneider4il10",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/scooterabrahaam",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -34957,6 +34986,21 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-BC2GM",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-BC2GM",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-NCBI-disease",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "jamesmark/mark",
 		"private": false
 	},
@@ -35175,6 +35219,10 @@
 	},
 	{
 		"modelId": "jeyco89/JustTalking",
+		"private": false
+	},
+	{
+		"modelId": "jfeldman/model_name",
 		"private": false
 	},
 	{
@@ -36341,6 +36389,14 @@
 	},
 	{
 		"modelId": "kevinrobinson/perturbations_table_quickstart_sst",
+		"private": false
+	},
+	{
+		"modelId": "khalidsaifullaah/dummy-model",
+		"private": false
+	},
+	{
+		"modelId": "khalidsaifullaah/sahajBERT-sentiment-analysis",
 		"private": false
 	},
 	{
@@ -42919,6 +42975,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "phozon/DialoGPT-large-harry",
+		"private": false
+	},
+	{
 		"modelId": "phozon/DialoGPT-medium-harry",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -44585,6 +44645,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "salesken/similarity-eng-hin_latin",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "salesken/text_generate",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -46039,6 +46104,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sgugger/my-new-shiny-tokenizer",
+		"private": false
+	},
+	{
 		"modelId": "sgugger/resnet50d",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -46987,6 +47056,11 @@
 	{
 		"modelId": "spacy/xx_sent_ud_sm",
 		"private": false
+	},
+	{
+		"modelId": "spandan96/T5_SEO_Title_Generator",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sparanoid/Chinese-BERT-wwm",
@@ -51924,79 +51998,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "huggingtweets/jagedn",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "sgugger/my-new-shiny-tokenizer",
-		"private": false
-	},
-	{
-		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-wolof",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-NCBI-disease",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-BC2GM",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "khalidsaifullaah/sahajBERT-sentiment-analysis",
-		"private": false
-	},
-	{
-		"modelId": "Davlan/xlm-roberta-base-finetuned-wolof",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "phozon/DialoGPT-large-harry",
-		"private": false
-	},
-	{
-		"modelId": "spandan96/T5_SEO_Title_Generator",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "salesken/similarity-eng-hin_latin",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "huggingtweets/schneider4il10",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-BC2GM",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "ML-ass/english_decoder",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "akshara23/xyz",
-		"private": false
-	},
-	{
-		"modelId": "khalidsaifullaah/dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "jfeldman/model_name",
-		"private": false
 	}
 ]
