@@ -40894,11 +40894,6 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
-		"modelId": "nateraw/pizza-pasta",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
 		"modelId": "nateraw/rare-puppers",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -51870,6 +51865,12 @@
 	},
 	{
 		"modelId": "osanseviero/fashion_brands_patterns",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "osanseviero/en_ner_fashion",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
