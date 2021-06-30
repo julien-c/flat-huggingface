@@ -9476,6 +9476,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Jikiwa/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Jikiwa/flax-model",
 		"private": false
 	},
@@ -18027,6 +18032,10 @@
 		"private": false
 	},
 	{
+		"modelId": "birgermoell/common-voice-vox-populi-swedish",
+		"private": false
+	},
+	{
 		"modelId": "birgermoell/wav2vec2-large-xlrs-estonian",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -22326,6 +22335,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "flax-community/roberta-base-als",
+		"private": false
+	},
+	{
 		"modelId": "fleek/wav2vec-large-xlsr-korean",
 		"private": false
 	},
@@ -23301,8 +23314,7 @@
 	},
 	{
 		"modelId": "google/canine-s",
-		"private": false,
-		"pipeline_tag": "image-classification"
+		"private": false
 	},
 	{
 		"modelId": "google/electra-base-discriminator",
@@ -42031,6 +42043,11 @@
 		"private": false
 	},
 	{
+		"modelId": "osanseviero/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "osanseviero/en_ner_fashion-0.0.0",
 		"private": false
 	},
@@ -46085,11 +46102,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sgugger/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "sgugger/finetuned-bert-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -46101,10 +46113,6 @@
 	},
 	{
 		"modelId": "sgugger/funnel-random-tiny",
-		"private": false
-	},
-	{
-		"modelId": "sgugger/my-new-shiny-tokenizer",
 		"private": false
 	},
 	{
@@ -51998,5 +52006,9 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jfhr1999/CharacterTest",
+		"private": false
 	}
 ]
