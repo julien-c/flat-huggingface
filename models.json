@@ -46993,16 +46993,6 @@
 		"private": false
 	},
 	{
-		"modelId": "spandan96/T5_SEO_Title_Generator",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "spandan96/T5_SEO_Titles",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "sparanoid/Chinese-BERT-wwm",
 		"private": false
 	},
@@ -51960,7 +51950,8 @@
 	},
 	{
 		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-BC2GM",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "khalidsaifullaah/sahajBERT-sentiment-analysis",
@@ -51968,10 +51959,35 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-finetuned-wolof",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "phozon/DialoGPT-large-harry",
 		"private": false
+	},
+	{
+		"modelId": "spandan96/T5_SEO_Title_Generator",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "salesken/similarity-eng-hin_latin",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "huggingtweets/schneider4il10",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-BC2GM",
+		"private": false
+	},
+	{
+		"modelId": "ML-ass/english_decoder",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
