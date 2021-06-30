@@ -52018,7 +52018,8 @@
 	},
 	{
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-luo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "khalidsaifullaah/dummy-model",
@@ -52038,5 +52039,10 @@
 	{
 		"modelId": "sgugger/my-new-shiny-tokenizer",
 		"private": false
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-base-finetuned-luo",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
