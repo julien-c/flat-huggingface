@@ -22482,6 +22482,10 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/t5-covid-qa",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/transformer-vae",
 		"private": false
 	},
@@ -35638,6 +35642,11 @@
 		"private": false
 	},
 	{
+		"modelId": "jjhoffstein/lotr",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "jkeruotis/LitBERTa-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -43286,6 +43295,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "phozon/DialoGPT-large-harry",
+		"private": false
+	},
+	{
 		"modelId": "phozon/DialoGPT-medium-harry",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -43327,6 +43340,11 @@
 		"modelId": "pierric/autonlp-my-own-imdb-sentiment-analysis-2131817",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "pierric/ny-cr-fr",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "pierric/test-EsperBERTo-small",
@@ -52368,19 +52386,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "phozon/DialoGPT-large-harry",
-		"private": false
-	},
-	{
-		"modelId": "jjhoffstein/lotr",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "pierric/ny-cr-fr",
-		"private": false,
-		"pipeline_tag": "image-classification"
 	}
 ]
