@@ -10139,28 +10139,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ML-ass/english_decoder",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ML-ass/g2e_dec_tok",
-		"private": false
-	},
-	{
-		"modelId": "ML-ass/g2e_enc_tok",
-		"private": false
-	},
-	{
-		"modelId": "ML-ass/g2e_encoder_decoder",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "ML-ass/german_encoder",
-		"private": false
-	},
-	{
 		"modelId": "MaalK/DialoGPT-small-Petyr",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -43172,10 +43150,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "phozon/DialoGPT-large-harry",
-		"private": false
-	},
-	{
 		"modelId": "phozon/DialoGPT-medium-harry",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -47442,6 +47416,10 @@
 		"modelId": "sramasamy8/testModel",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "sravn/e2e-qg-bert",
+		"private": false
 	},
 	{
 		"modelId": "sravya/ELECTRA_SD_V3",
@@ -52293,6 +52271,11 @@
 	},
 	{
 		"modelId": "flax-community/roberta-base-als-demo",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "phozon/DialoGPT-large-harry",
 		"private": false
 	}
 ]
