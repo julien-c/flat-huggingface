@@ -23949,10 +23949,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gwkim22/general_s_disc",
-		"private": false
-	},
-	{
 		"modelId": "gyre/200wordrpgmodel",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -52044,5 +52040,19 @@
 		"modelId": "Davlan/xlm-roberta-base-finetuned-luo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "skt/kobert-base-v1",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/mineplay512",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/mplay513",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
