@@ -36454,15 +36454,6 @@
 		"private": false
 	},
 	{
-		"modelId": "khalidsaifullaah/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "khalidsaifullaah/sahajBERT-sentiment-analysis",
-		"private": false
-	},
-	{
 		"modelId": "khanh98/model3",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -52118,14 +52109,25 @@
 	},
 	{
 		"modelId": "motiondew/bert-sd1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "motiondew/bert-sd2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "motiondew/bert-sd3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_0_w103",
+		"private": false
+	},
+	{
+		"modelId": "techiaith/wav2vec2-xlsr-ft-cy",
 		"private": false
 	}
 ]
