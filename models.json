@@ -52254,11 +52254,6 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
-		"modelId": "jambo/saveme",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "flax-community/roberta-base-als-demo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -52285,10 +52280,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ML-ass/german_encoder",
-		"private": false
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -52304,5 +52295,19 @@
 	{
 		"modelId": "flax-community/RoBERTa-large-finnish",
 		"private": false
+	},
+	{
+		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-euadr",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "seanbethard/gramophone",
+		"private": false
+	},
+	{
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-euadr",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
