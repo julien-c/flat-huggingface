@@ -42851,7 +42851,8 @@
 	},
 	{
 		"modelId": "pere/norwegian-roberta-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "peril10/Pypinion",
@@ -52263,10 +52264,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "phozon/DialoGPT-large-harry",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/roberta-flax-dataset-stream-is",
 		"private": false
 	},
@@ -52289,6 +52286,15 @@
 	},
 	{
 		"modelId": "ML-ass/german_encoder",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "NoodleOnHuggingFace/AITestModel-small-joshua",
 		"private": false
 	}
 ]
