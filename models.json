@@ -45471,10 +45471,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "seanbethard/gramophone",
-		"private": false
-	},
-	{
 		"modelId": "sebastian-hofstaetter/colbert-distilbert-margin_mse-T2-msmarco",
 		"private": false
 	},
@@ -52390,10 +52386,21 @@
 	},
 	{
 		"modelId": "aydin/MichaelBot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/stylegan-medical",
 		"private": false
+	},
+	{
+		"modelId": "remotejob/tweetsT5_small_sum_fi",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "aripo99/dummy_model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
