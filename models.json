@@ -47645,10 +47645,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "sravn/e2e-qg-bert",
-		"private": false
-	},
-	{
 		"modelId": "sravya/ELECTRA_SD_V3",
 		"private": false
 	},
@@ -52540,10 +52536,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Luciano/dummy-model",
-		"private": false
-	},
-	{
 		"modelId": "Weipeng/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -52559,6 +52551,15 @@
 	},
 	{
 		"modelId": "espnet/kan_bayashi_jsut_tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false
+	},
+	{
+		"modelId": "sravn/e2e-qg-bert",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Luciano/dummy-model",
 		"private": false
 	}
 ]
