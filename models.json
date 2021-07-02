@@ -10539,6 +10539,10 @@
 		"private": false
 	},
 	{
+		"modelId": "NakHyun/electra_kr_v1",
+		"private": false
+	},
+	{
 		"modelId": "Nanci/relation_extraction",
 		"private": false
 	},
@@ -16325,6 +16329,10 @@
 		"private": false
 	},
 	{
+		"modelId": "amankhandelia/roberta-pretraining-hindi",
+		"private": false
+	},
+	{
 		"modelId": "amazon/bort",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -17014,6 +17022,11 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "aripo99/dummy_model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "aristotletan/sc-distilbert",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -17577,6 +17590,11 @@
 		"modelId": "aychang/roberta-base-imdb",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "aydin/DialoGPT-medium-michael",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "ayushsubedi/v0_drg",
@@ -20679,6 +20697,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "deeq/dbert-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "deeq/dbert-sentiment",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -22482,6 +22505,10 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/stylegan-medical",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/t5-covid-qa",
 		"private": false
 	},
@@ -24107,8 +24134,17 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "gwkim22/5050_b_disc",
+		"private": false
+	},
+	{
 		"modelId": "gwkim22/5050_s_disc",
 		"private": false
+	},
+	{
+		"modelId": "gwkim22/conelectra-small-discriminator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "gwkim22/domain_b_disc",
@@ -24124,6 +24160,18 @@
 	},
 	{
 		"modelId": "gwkim22/general_s_disc",
+		"private": false
+	},
+	{
+		"modelId": "gwkim22/kor_conelectra-small-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "gwkim22/korcon_electra-small-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "gwkim22/korelectra-small-discriminator",
 		"private": false
 	},
 	{
@@ -35183,6 +35231,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "jack-oh/KoGPT2_finetuned_wellness",
+		"private": false
+	},
+	{
 		"modelId": "jack-oh/korbert_morp_korquad",
 		"private": false
 	},
@@ -37610,6 +37662,10 @@
 	},
 	{
 		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot05_w103",
+		"private": false
+	},
+	{
+		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot05_w103_wt_0_top_cmon_200",
 		"private": false
 	},
 	{
@@ -44354,6 +44410,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "remotejob/tweetsT5_small_sum_fi",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "remotejob/tweetsTINYGPT2fi_v1",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -47133,6 +47194,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "smaranjitghose/cricket-baseball-smrn",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "smeoni/deberta-base-clrp",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -48762,6 +48828,11 @@
 	},
 	{
 		"modelId": "tanay/layoutLMv2-funds",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "tanay/layoutlm-fine-tuned",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -52403,59 +52474,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "flax-community/stylegan-medical",
-		"private": false
-	},
-	{
-		"modelId": "remotejob/tweetsT5_small_sum_fi",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "aripo99/dummy_model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "jack-oh/KoGPT2_finetuned_wellness",
-		"private": false
-	},
-	{
-		"modelId": "NakHyun/electra_kr_v1",
-		"private": false
-	},
-	{
-		"modelId": "aydin/DialoGPT-medium-michael",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "deeq/dbert-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "tanay/layoutlm-fine-tuned",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "amankhandelia/roberta-pretraining-hindi",
-		"private": false
-	},
-	{
-		"modelId": "gwkim22/5050_b_disc",
-		"private": false
-	},
-	{
-		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot05_w103_wt_0_top_cmon_200",
-		"private": false
-	},
-	{
-		"modelId": "smaranjitghose/cricket-baseball-smrn",
-		"private": false,
-		"pipeline_tag": "image-classification"
 	}
 ]
