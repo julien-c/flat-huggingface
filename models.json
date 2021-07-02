@@ -425,11 +425,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "AethiQs-Max/AethiQs_GemBERT_bertje_50k",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "Ahmed59/Demo-Team-5-SIAD",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -52552,7 +52547,8 @@
 	},
 	{
 		"modelId": "espnet/kan_bayashi_jsut_tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "sravn/e2e-qg-bert",
@@ -52579,7 +52575,8 @@
 	},
 	{
 		"modelId": "espnet/kamo-naoyuki-mini_an4_asr_train_raw_bpe_valid.acc.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "bigwiz83/sapbert-from-pubmedbert-squad2",
@@ -52595,5 +52592,9 @@
 		"modelId": "hgarg/indian-snacks",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "espnet/anogkongda-librimix_enh_train_raw_valid.si_snr.ave",
+		"private": false
 	}
 ]
