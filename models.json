@@ -1665,6 +1665,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Frodnar/bee-likes",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "Froggie/just-testing",
 		"private": false
 	},
@@ -2211,6 +2216,11 @@
 	{
 		"modelId": "Gint/your-model-name",
 		"private": false
+	},
+	{
+		"modelId": "Giuliano/places",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "GroNLP/bert-base-dutch-cased-frisian",
@@ -10070,6 +10080,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Luciano/first_repo",
+		"private": false
+	},
+	{
 		"modelId": "LucyLiu/Test",
 		"private": false
 	},
@@ -10132,6 +10146,10 @@
 	},
 	{
 		"modelId": "M-CLIP/Swedish-500k",
+		"private": false
+	},
+	{
+		"modelId": "ML-ass/german_encoder",
 		"private": false
 	},
 	{
@@ -14575,6 +14593,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Vigneswaran978999/adhu",
+		"private": false
+	},
+	{
 		"modelId": "Vikram/test_transformers",
 		"private": false
 	},
@@ -15301,6 +15323,11 @@
 	{
 		"modelId": "adamlin/tmppdzei5bc",
 		"private": false
+	},
+	{
+		"modelId": "adamlin/topicalchat-multiturn",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "adamlin/tus_21-delex_5000",
@@ -22522,11 +22549,27 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/gpt2-medium-persian",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/hybrid-fnet-test",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/medclip",
 		"private": false
 	},
 	{
 		"modelId": "flax-community/papuGaPT2",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/portuguese-roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/portuguese-roberta-large",
 		"private": false
 	},
 	{
@@ -22548,11 +22591,20 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/roberta-large-swedish",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "flax-community/stylegan-medical",
 		"private": false
 	},
 	{
 		"modelId": "flax-community/t5-covid-qa",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/t5-recipe-generation",
 		"private": false
 	},
 	{
@@ -23084,6 +23136,10 @@
 		"modelId": "gilf/french-postag-model",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "glancebe/modelscan",
+		"private": false
 	},
 	{
 		"modelId": "glasses/cse_resnet50",
@@ -35584,6 +35640,11 @@
 		"private": false
 	},
 	{
+		"modelId": "jfhr1999/CharacterTest",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "ji-xin/bert_base-MNLI-two_stage",
 		"private": false
 	},
@@ -37740,6 +37801,10 @@
 		"private": false
 	},
 	{
+		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot2_w103_wt_0_top_cmon_200_cos_dot5",
+		"private": false
+	},
+	{
 		"modelId": "luhua/chinese_pretrain_mrc_macbert_large",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -38262,6 +38327,10 @@
 		"modelId": "madlag/bert-base-uncased-squadv1-x2.44-f87.7-d26-hybrid-filled-v1",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "madlag/bert-base-uncased-sst2-x5.35-f0.9-d20-hybrid-v1",
+		"private": false
 	},
 	{
 		"modelId": "madlag/bert-large-uncased-mnli",
@@ -38912,6 +38981,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "micole66/dwarf-goats",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "micole66/gpt",
 		"private": false
 	},
@@ -39317,6 +39391,10 @@
 	},
 	{
 		"modelId": "mittalnishit/DialoGPT-small-sheldon",
+		"private": false
+	},
+	{
+		"modelId": "miwojc/norwegian-gpt2",
 		"private": false
 	},
 	{
@@ -44406,6 +44484,10 @@
 	},
 	{
 		"modelId": "raymond/bert_finetuning_test",
+		"private": false
+	},
+	{
+		"modelId": "rays2pix/gpt2-tamil",
 		"private": false
 	},
 	{
@@ -52579,87 +52661,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "flax-community/t5-recipe-generation",
-		"private": false
-	},
-	{
-		"modelId": "Frodnar/bee-likes",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "adamlin/topicalchat-multiturn",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "glancebe/modelscan",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/roberta-large-swedish",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "madlag/bert-base-uncased-sst2-x5.35-f0.9-d20-hybrid-v1",
-		"private": false
-	},
-	{
-		"modelId": "ML-ass/german_encoder",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/gpt2-medium-persian",
-		"private": false
-	},
-	{
-		"modelId": "micole66/dwarf-goats",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "rays2pix/gpt2-tamil",
-		"private": false
-	},
-	{
-		"modelId": "miwojc/norwegian-gpt2",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/portuguese-roberta-base",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/portuguese-roberta-large",
-		"private": false
-	},
-	{
-		"modelId": "jfhr1999/CharacterTest",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "flax-community/hybrid-fnet-test",
-		"private": false
-	},
-	{
-		"modelId": "Luciano/first_repo",
-		"private": false
-	},
-	{
-		"modelId": "Vigneswaran978999/adhu",
-		"private": false
-	},
-	{
-		"modelId": "Giuliano/places",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot2_w103_wt_0_top_cmon_200_cos_dot5",
-		"private": false
 	}
 ]
