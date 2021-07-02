@@ -42408,11 +42408,6 @@
 		"private": false
 	},
 	{
-		"modelId": "osanseviero/en_ner_fashion",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "osanseviero/fashion_brands_patterns",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -43067,7 +43062,8 @@
 	},
 	{
 		"modelId": "pere/norwegian-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "pere/norwegian-roberta-base",
@@ -52493,5 +52489,14 @@
 	{
 		"modelId": "deepklarity/roberta-base-hindi",
 		"private": false
+	},
+	{
+		"modelId": "flax-community/clip-italian",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/en_ner_fashion",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
