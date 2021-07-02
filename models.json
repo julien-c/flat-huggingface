@@ -52483,7 +52483,8 @@
 	},
 	{
 		"modelId": "peterbonnesoeur/Visual_transformer_chihuahua_cookies",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "andi611/bert-base-uncased-ner",
@@ -52579,5 +52580,20 @@
 	{
 		"modelId": "espnet/kamo-naoyuki-mini_an4_asr_train_raw_bpe_valid.acc.best",
 		"private": false
+	},
+	{
+		"modelId": "bigwiz83/sapbert-from-pubmedbert-squad2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "julien-c/hotdog-not-hotdog",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "hgarg/indian-snacks",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	}
 ]
