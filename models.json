@@ -16457,10 +16457,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/test-ner",
-		"private": false
-	},
-	{
 		"modelId": "andreas800/hgf_models",
 		"private": false
 	},
@@ -52748,7 +52744,8 @@
 	},
 	{
 		"modelId": "espnet/yen-ju-lu-dns_ins20_enh_train_enh_blstm_tf_raw_valid.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-source-separation"
 	},
 	{
 		"modelId": "flax-community/putting-nerf-on-a-diet",
