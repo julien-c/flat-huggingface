@@ -52785,10 +52785,215 @@
 	},
 	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/Shinji_Watanabe_librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_fastspeech_raw_phn_jaconv_pyopenjtalk_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_tacotron2_raw_phn_pypinyin_g2p_phone_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_fastspeech_raw_phn_pypinyin_g2p_phone_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_fastspeech_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_fastspeech_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tacotron2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_fastspeech",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tacotron2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_fastspeech",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tacotron2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_fastspeech",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_gst_tacotron2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_gst_fastspeech",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "andi611/bert-base-cased-ner",
+		"private": false
+	},
+	{
+		"modelId": "espnet/kamo-naoyuki_wsj",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "espnet/Hoon_Chung_zeroth_korean_asr_train_asr_transformer5_raw_bpe_valid.acc.ave",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_fastspeech2_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_conformer_fastspeech2_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_conformer_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_transformer_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_transformer_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_conformer_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_transformer",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_transformer",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_gst_transformer",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_gst_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_gst_conformer_fastspeech2",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csj_asr_train_asr_transformer_raw_char_sp_valid.acc.ave",
 		"private": false
 	}
 ]
