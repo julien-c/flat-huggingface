@@ -53140,6 +53140,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
+		"private": false
+	},
+	{
 		"modelId": "Sena/flowers",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -53160,5 +53164,15 @@
 	{
 		"modelId": "flax-community/wav2vec2-dhivehi",
 		"private": false
+	},
+	{
+		"modelId": "voidful/bart_base_squad_cq_a",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "voidful/bart_base_squad_ca_q",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
