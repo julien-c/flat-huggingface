@@ -53140,10 +53140,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
-		"private": false
-	},
-	{
 		"modelId": "Sena/flowers",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -53159,7 +53155,8 @@
 	},
 	{
 		"modelId": "flax-community/gpt-neo-125M-code-clippy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/wav2vec2-dhivehi",
@@ -53174,5 +53171,9 @@
 		"modelId": "voidful/bart_base_squad_ca_q",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
+		"private": false
 	}
 ]
