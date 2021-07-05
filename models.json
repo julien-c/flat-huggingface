@@ -53315,16 +53315,30 @@
 		"private": false
 	},
 	{
-		"modelId": "mboth/distil-eng-sentence-quora",
+		"modelId": "rafaelm47labs/spanishnews-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ShannonAI/ChineseBERT-base",
 		"private": false
 	},
 	{
-		"modelId": "rafaelm47labs/m47_spanishnews_classification",
-		"private": false
+		"modelId": "Neto71/sea_mammals",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "osanseviero/en_ner_fashion",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "joorock12/wav2vec2-cetuc-sid-voxforge-mls-2",
+		"private": false
+	},
+	{
+		"modelId": "mboth/distil-eng-sentence-quora",
+		"private": false
 	}
 ]
