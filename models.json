@@ -23013,7 +23013,8 @@
 	},
 	{
 		"modelId": "flax-community/roberta-flax-dataset-stream-is",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/roberta-large-scandi",
@@ -53261,15 +53262,20 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "Luciano/first_repo",
-		"private": false
-	},
-	{
 		"modelId": "mboth/distil-eng-sentence-quora",
 		"private": false
 	},
 	{
-		"modelId": "osanseviero/en_ner_fashion",
+		"modelId": "Luciano/first_repo",
 		"private": false
+	},
+	{
+		"modelId": "flax-community/gpt2-medium-indonesian",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/en_ner_fashion",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
