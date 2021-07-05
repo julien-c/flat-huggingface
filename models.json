@@ -41938,10 +41938,6 @@
 		"private": false
 	},
 	{
-		"modelId": "nateraw/ae-fraud-base",
-		"private": false
-	},
-	{
 		"modelId": "nateraw/autoencoder-cifar10",
 		"private": false
 	},
@@ -53220,15 +53216,19 @@
 	},
 	{
 		"modelId": "Kowsher/bert-base-bangla",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "nateraw/aae-fraud-base-7",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/gpt-2-tamil",
 		"private": false
 	},
 	{
 		"modelId": "osanseviero/en_ner_fashion",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "nateraw/aae-fraud-base-7",
 		"private": false
 	}
 ]
