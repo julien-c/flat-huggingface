@@ -53284,7 +53284,8 @@
 	},
 	{
 		"modelId": "flax-community/roberta-base-thai",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "lsy641/ESC_Blender_Strategy",
@@ -53297,5 +53298,14 @@
 	{
 		"modelId": "Luciano/distilbert_lenerbr",
 		"private": false
+	},
+	{
+		"modelId": "Luciano/distilbert_lener_br",
+		"private": false
+	},
+	{
+		"modelId": "flax-sentence-embeddings/st-codesearch-distilroberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
