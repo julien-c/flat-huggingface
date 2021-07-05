@@ -1483,6 +1483,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Ebtihal/ArBERTMo",
+		"private": false
+	},
+	{
 		"modelId": "Ebtihal/AraBERTo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -9942,6 +9946,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Kowsher/bert-base-test",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Kyuyoung11/haremotions-v1",
 		"private": false
 	},
@@ -10123,6 +10132,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Luciano/bertimbau_lenerbr",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Luciano/distilbert_lenerbr",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -10195,6 +10209,11 @@
 	{
 		"modelId": "M-CLIP/Swedish-500k",
 		"private": false
+	},
+	{
+		"modelId": "M47Labs/ML-spanishnews-classificaition",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ML-ass/english_decoder",
@@ -13336,6 +13355,10 @@
 	},
 	{
 		"modelId": "ShannonAI/ChineseBERT-base",
+		"private": false
+	},
+	{
+		"modelId": "ShannonAI/ChineseBERT-large",
 		"private": false
 	},
 	{
@@ -17992,6 +18015,11 @@
 		"private": false
 	},
 	{
+		"modelId": "birgermoell/roberta-swedish",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "birgermoell/swedish-common-voice-vox-voxpopuli",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -20992,6 +21020,11 @@
 		"private": false
 	},
 	{
+		"modelId": "edixo/road_good_damaged_condition",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "edsas/fdgdfg",
 		"private": false
 	},
@@ -22751,6 +22784,10 @@
 	},
 	{
 		"modelId": "finiteautomata/beto-fine-grained-hatespeech-news",
+		"private": false
+	},
+	{
+		"modelId": "finiteautomata/beto-headlines-sentiment-analysis",
 		"private": false
 	},
 	{
@@ -39303,6 +39340,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "mboth/distil-eng-sentence-quora",
+		"private": false
+	},
+	{
 		"modelId": "mboth/distil-eng",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -43110,6 +43151,19 @@
 	{
 		"modelId": "osanseviero/distilbert-base-nli-wkpooling",
 		"private": false
+	},
+	{
+		"modelId": "osanseviero/dummy-model-livestream-2",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/dummy-model-livestream",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/dummy-model-test",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "osanseviero/dummy-model",
@@ -48995,6 +49049,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "stanlochten/t5-KGQgen",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "stas/mt5-tiny-random",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -53314,44 +53373,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "mboth/distil-eng-sentence-quora",
+		"modelId": "patrickvonplaten/clm-als",
 		"private": false
-	},
-	{
-		"modelId": "stanlochten/t5-KGQgen",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "birgermoell/roberta-swedish",
-		"private": false
-	},
-	{
-		"modelId": "edixo/road_good_damaged_condition",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "ShannonAI/ChineseBERT-large",
-		"private": false
-	},
-	{
-		"modelId": "M47Labs/ML-spanishnews-classificaition",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "finiteautomata/beto-headlines-sentiment-analysis",
-		"private": false
-	},
-	{
-		"modelId": "Luciano/bertimbau_lenerbr",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "Kowsher/bert-base-test",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	}
 ]
