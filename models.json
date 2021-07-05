@@ -53279,10 +53279,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "lsy641/ESC_Blener_Strategy",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/roberta-base-thai",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -53307,5 +53303,18 @@
 		"modelId": "flax-sentence-embeddings/st-codesearch-distilroberta-base",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "lsy641/ESC_Blender_noStrategy",
+		"private": false
+	},
+	{
+		"modelId": "Luciano/distilbert_lener1",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "patrickvonplaten/english-roberta-base-dummy",
+		"private": false
 	}
 ]
