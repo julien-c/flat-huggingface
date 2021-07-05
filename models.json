@@ -22783,7 +22783,8 @@
 	},
 	{
 		"modelId": "finiteautomata/beto-headlines-sentiment-analysis",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "finiteautomata/beto-sentiment-analysis",
@@ -53375,5 +53376,9 @@
 		"modelId": "Kowsher/bert-base-bangla",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "bhadresh-savani/t5-base-wikisplit",
+		"private": false
 	}
 ]
