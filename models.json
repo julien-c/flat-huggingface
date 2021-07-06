@@ -19534,11 +19534,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "coldfire/Wind_AI",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "colorfulscoop/gpt2-small-ja",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -37453,7 +37448,8 @@
 	},
 	{
 		"modelId": "khalidsaifullaah/gpt2-bn-oscar",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "khanh98/model3",
@@ -53711,5 +53707,9 @@
 		"modelId": "tals/roberta_python",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "dompolc/ParaPharma",
+		"private": false
 	}
 ]
