@@ -53606,7 +53606,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-cased-avg-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-mnli",
@@ -53718,5 +53719,14 @@
 		"modelId": "w11wo/sundanese-gpt2-base",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Ebtihal/EsperBERTo",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Peter/golem_v1",
+		"private": false
 	}
 ]
