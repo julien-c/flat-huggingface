@@ -23154,7 +23154,8 @@
 	},
 	{
 		"modelId": "flax-community/t5-base-wikisplit",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/t5-covid-qa",
@@ -53597,15 +53598,46 @@
 		"private": false
 	},
 	{
-		"modelId": "Luciano/my-awesome-model-trainer",
-		"private": false
-	},
-	{
-		"modelId": "Luciano/my-awesome-model-trainer2",
-		"private": false
-	},
-	{
 		"modelId": "accelotron/rugpt3-ficbook-bts",
 		"private": false
+	},
+	{
+		"modelId": "TehranNLP-org/bert-base-cased-avg-mnli",
+		"private": false
+	},
+	{
+		"modelId": "TehranNLP-org/bert-base-uncased-avg-mnli",
+		"private": false
+	},
+	{
+		"modelId": "spacy/zh_core_web_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "TehranNLP-org/xlnet-base-cased-avg-mnli",
+		"private": false
+	},
+	{
+		"modelId": "TehranNLP-org/albert-base-v2-avg-mnli",
+		"private": false
+	},
+	{
+		"modelId": "TehranNLP-org/electra-base-avg-mnli",
+		"private": false
+	},
+	{
+		"modelId": "spacy/fr_dep_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/es_dep_news_trf",
+		"private": false
+	},
+	{
+		"modelId": "spacy/de_dep_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
