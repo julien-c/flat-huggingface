@@ -53477,7 +53477,8 @@
 	},
 	{
 		"modelId": "sberbank-ai/ruT5-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "arjunv786/a-fancy-model-name",
@@ -53489,6 +53490,21 @@
 	},
 	{
 		"modelId": "iamholmes/first-model",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Luciano/bertimbau_lenerbr_base",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sberbank-ai/ruT5-large",
 		"private": false
+	},
+	{
+		"modelId": "Luciano/my-awesome-model",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
