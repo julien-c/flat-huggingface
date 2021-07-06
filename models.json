@@ -53420,11 +53420,17 @@
 		"private": false
 	},
 	{
+		"modelId": "UBC-NLP/IndT5",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "WithYou/model_test",
 		"private": false
 	},
 	{
 		"modelId": "ines/en_core_web_sm",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
