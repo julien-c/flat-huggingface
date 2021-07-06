@@ -53529,7 +53529,8 @@
 	},
 	{
 		"modelId": "yobi/klue-roberta-base-sts",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "flax-community/wav2vec2-base-turkish",
@@ -53538,5 +53539,28 @@
 	{
 		"modelId": "sberbank-ai/ruRoberta-large",
 		"private": false
+	},
+	{
+		"modelId": "Tejas3/distillbert_base_uncased_80",
+		"private": false
+	},
+	{
+		"modelId": "Luciano/my-awesome-model",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Ebtihal/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "dmatos2012/vit-gpt-captioning",
+		"private": false
+	},
+	{
+		"modelId": "Luciano/my-awesome-model2",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
