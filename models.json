@@ -1194,6 +1194,14 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Dat/Pino",
+		"private": false
+	},
+	{
+		"modelId": "Dat/pino-base",
+		"private": false
+	},
+	{
 		"modelId": "Dave/twomad-model",
 		"private": false
 	},
@@ -9524,10 +9532,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "Jeevesh8/bigbird-relational-pt",
-		"private": false
-	},
-	{
 		"modelId": "Jerr/model_name",
 		"private": false
 	},
@@ -9935,6 +9939,11 @@
 	{
 		"modelId": "Koraiem/test_1",
 		"private": false
+	},
+	{
+		"modelId": "Kowsher/bert-base-bangla",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Kowsher/bert-base-test",
@@ -10955,6 +10964,11 @@
 	{
 		"modelId": "PJH10/tutorial",
 		"private": false
+	},
+	{
+		"modelId": "ParkMyungkyu/KLUE-STS-roberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Parth/boolean",
@@ -14320,6 +14334,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBC-NLP/IndT5",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "UBC-NLP/MARBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -14586,6 +14605,10 @@
 		"modelId": "Wintermute/Wintermute_extended",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "WithYou/model_test",
+		"private": false
 	},
 	{
 		"modelId": "Wolferella/gpt-neo-2.7B",
@@ -19929,6 +19952,10 @@
 		"private": false
 	},
 	{
+		"modelId": "danbri/HelloWorld",
+		"private": false
+	},
+	{
 		"modelId": "danielrama/QuestionAnswering",
 		"private": false
 	},
@@ -21008,6 +21035,11 @@
 	{
 		"modelId": "edsas/fdgdfg",
 		"private": false
+	},
+	{
+		"modelId": "eduardofv/stsb-m-mt-es-distilbert-base-uncased",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "edwardcodarcea/pegasus-persian",
@@ -22586,6 +22618,10 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "fagner/envoy",
+		"private": false
+	},
+	{
 		"modelId": "faizank2/bhand",
 		"private": false
 	},
@@ -23109,6 +23145,10 @@
 	},
 	{
 		"modelId": "flax-community/stylegan-medical",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/t5-base-wikisplit",
 		"private": false
 	},
 	{
@@ -38373,6 +38413,10 @@
 		"private": false
 	},
 	{
+		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot05_w103_wt_0_top_cmon_200_seed_10",
+		"private": false
+	},
+	{
 		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot05_w103_wt_0_top_cmon_500",
 		"private": false
 	},
@@ -39260,6 +39304,10 @@
 		"private": false
 	},
 	{
+		"modelId": "masapasa/vit-base-patch16-imagenette",
+		"private": false
+	},
+	{
 		"modelId": "matt-gm/gremon",
 		"private": false
 	},
@@ -39371,6 +39419,10 @@
 	},
 	{
 		"modelId": "meedan/indian-xlm-r",
+		"private": false
+	},
+	{
+		"modelId": "megantosh/flair-arabic-multi-ner",
 		"private": false
 	},
 	{
@@ -41570,6 +41622,11 @@
 		"private": false
 	},
 	{
+		"modelId": "mrm8488/spanish-gpt2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "mrm8488/squeezebert-finetuned-squadv1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -43530,6 +43587,10 @@
 		"private": false
 	},
 	{
+		"modelId": "patrickvonplaten/clm-als",
+		"private": false
+	},
+	{
 		"modelId": "patrickvonplaten/demo",
 		"private": false
 	},
@@ -43753,6 +43814,10 @@
 		"modelId": "paulowoicho/t5-podcast-summarisation",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "paurichardson/ML1",
+		"private": false
 	},
 	{
 		"modelId": "pavanchhatpar/electra-base-sentence-splitter",
@@ -53360,72 +53425,8 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "patrickvonplaten/clm-als",
-		"private": false
-	},
-	{
-		"modelId": "Kowsher/bert-base-bangla",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "flax-community/t5-base-wikisplit",
-		"private": false
-	},
-	{
-		"modelId": "eduardofv/stsb-m-mt-es-distilbert-base-uncased",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "masapasa/vit-base-patch16-imagenette",
-		"private": false
-	},
-	{
-		"modelId": "danbri/HelloWorld",
-		"private": false
-	},
-	{
-		"modelId": "paurichardson/ML1",
-		"private": false
-	},
-	{
-		"modelId": "fagner/envoy",
-		"private": false
-	},
-	{
-		"modelId": "megantosh/flair-arabic-multi-ner",
-		"private": false
-	},
-	{
-		"modelId": "Dat/Pino",
-		"private": false
-	},
-	{
-		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_dot05_w103_wt_0_top_cmon_200_seed_10",
-		"private": false
-	},
-	{
-		"modelId": "mrm8488/spanish-gpt2",
+		"modelId": "huggingtweets/atticscientist",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ParkMyungkyu/KLUE-STS-roberta-base",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "Dat/pino-base",
-		"private": false
-	},
-	{
-		"modelId": "UBC-NLP/IndT5",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "WithYou/model_test",
-		"private": false
 	}
 ]
