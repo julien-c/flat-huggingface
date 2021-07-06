@@ -11028,16 +11028,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Peter/kw_f_1",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Peter/kw_s_1",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "PeterH/Chatbot",
 		"private": false
 	},
@@ -53726,7 +53716,8 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Peter/golem_v1",
-		"private": false
+		"modelId": "Peter/golem_v1-t5-base-qa-ng-hl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
