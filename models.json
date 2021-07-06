@@ -53549,6 +53549,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "DeepPavlov/distilrubert-base-cased-conversational",
+		"private": false
+	},
+	{
 		"modelId": "Ebtihal/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -53605,7 +53609,8 @@
 	},
 	{
 		"modelId": "accelotron/rugpt3-ficbook-bts",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-cased-avg-mnli",
@@ -53652,6 +53657,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "DeepPavlov/distilrubert-tiny-cased-conversational",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/t5-base-openwebtext",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -53687,5 +53696,9 @@
 		"modelId": "huggingtweets/kpnsecurity",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Luciano/bertimbau_lenerbr_base_test",
+		"private": false
 	}
 ]
