@@ -53619,7 +53619,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/albert-base-v2-avg-mnli",
@@ -53711,5 +53712,10 @@
 	{
 		"modelId": "dompolc/ParaPharma",
 		"private": false
+	},
+	{
+		"modelId": "w11wo/sundanese-gpt2-base",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
