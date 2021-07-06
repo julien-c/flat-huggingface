@@ -48374,10 +48374,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "spacy/xx_sent_ud_sm",
-		"private": false
-	},
-	{
 		"modelId": "spandan96/T5_SEO_Title_Generator",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -53541,6 +53537,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Tejas3/distillbert_base_uncased_80",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Ebtihal/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -53551,6 +53552,60 @@
 	},
 	{
 		"modelId": "fgaim/roberta-base-ti-34M",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "osanseviero/en_core_web_trf",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/da_core_news_trf",
+		"private": false
+	},
+	{
+		"modelId": "spacy/zh_core_web_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/xx_sent_ud_sm",
+		"private": false
+	},
+	{
+		"modelId": "spacy/xx_ent_wiki_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ru_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ro_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/pt_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/pl_core_news_sm",
+		"private": false
+	},
+	{
+		"modelId": "Luciano/my-awesome-model-trainer",
+		"private": false
+	},
+	{
+		"modelId": "Luciano/my-awesome-model-trainer2",
+		"private": false
+	},
+	{
+		"modelId": "accelotron/rugpt3-ficbook-bts",
 		"private": false
 	}
 ]
