@@ -53535,7 +53535,8 @@
 	},
 	{
 		"modelId": "sberbank-ai/ruRoberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Tejas3/distillbert_base_uncased_80",
@@ -53639,5 +53640,29 @@
 		"modelId": "spacy/de_dep_news_trf",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/en_core_web_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "flax-community/t5-base-openwebtext",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Luciano/my-awesome-model",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Luciano/my-awesome-model2",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/da_core_news_trf",
+		"private": false
 	}
 ]
