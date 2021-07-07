@@ -1173,6 +1173,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "DTAI-KULeuven/robbertje-1-gb-shuffled",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "DanBot/TCRsynth",
 		"private": false
 	},
@@ -23334,6 +23339,11 @@
 	},
 	{
 		"modelId": "flax-community/roberta-base-als",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/roberta-base-mr",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -49015,10 +49025,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "spacy/pl_core_news_lg",
-		"private": false
-	},
-	{
 		"modelId": "spacy/pl_core_news_md",
 		"private": false
 	},
@@ -54109,6 +54115,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/test",
+		"private": false
+	},
+	{
 		"modelId": "zichju/Eelai",
 		"private": false
 	},
@@ -54198,17 +54208,15 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "DTAI-KULeuven/robbertje-1-gb-shuffled",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "zhuqing/test",
+		"modelId": "ghosh-r/bangla-gpt2",
 		"private": false
 	},
 	{
-		"modelId": "flax-community/roberta-base-mr",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"modelId": "spacy/pl_core_news_lg",
+		"private": false
+	},
+	{
+		"modelId": "rahultuli/bert-base-uncased",
+		"private": false
 	}
 ]
