@@ -18034,10 +18034,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "bhadresh-savani/t5-base-wikisplit",
-		"private": false
-	},
-	{
 		"modelId": "biasedai/bert-based-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -40818,7 +40814,8 @@
 	},
 	{
 		"modelId": "monsoon-nlp/byt5-basque",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "monsoon-nlp/byt5-dv",
@@ -53845,7 +53842,8 @@
 	},
 	{
 		"modelId": "vionwinnie/t5-reddit",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "henryu-lin/bart-large-cnn-samsum",
