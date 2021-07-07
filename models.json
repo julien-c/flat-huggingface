@@ -10183,17 +10183,9 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "Luciano/bertimbau_lenerbr_base_test",
-		"private": false
-	},
-	{
 		"modelId": "Luciano/distilbert_lenerbr",
 		"private": false,
 		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "Luciano/first_repo",
-		"private": false
 	},
 	{
 		"modelId": "Luciano/my-awesome-model",
@@ -48751,31 +48743,7 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "spacy/da_core_news_trf",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "spacy/de_dep_news_trf",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "spacy/en_core_web_sm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "spacy/en_core_web_trf",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "spacy/es_dep_news_trf",
-		"private": false
-	},
-	{
-		"modelId": "spacy/fr_dep_news_trf",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -48795,25 +48763,6 @@
 	},
 	{
 		"modelId": "spacy/ru_core_news_sm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "spacy/xx_ent_wiki_sm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "spacy/xx_sent_ud_sm",
-		"private": false
-	},
-	{
-		"modelId": "spacy/zh_core_web_sm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "spacy/zh_core_web_trf",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -53905,5 +53854,73 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "spacy/zh_core_web_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/fr_dep_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/es_dep_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/de_dep_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/en_core_web_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/da_core_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ca_core_news_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/zh_core_web_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Luciano/bertimbau_lenerbr_base_test",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/zh_core_web_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/zh_core_web_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/xx_sent_ud_sm",
+		"private": false
+	},
+	{
+		"modelId": "spacy/xx_ent_wiki_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ru_core_news_lg",
+		"private": false
 	}
 ]
