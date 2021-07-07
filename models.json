@@ -48750,10 +48750,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "spacy/pl_core_news_sm",
-		"private": false
-	},
-	{
 		"modelId": "spandan96/T5_SEO_Title_Generator",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -53966,10 +53962,39 @@
 	},
 	{
 		"modelId": "danurahul/ghosh_dentist_med",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "spacy/pl_core_news_md",
+		"private": false
+	},
+	{
+		"modelId": "harrydonni/DialoGPT-small-Michael-Scott",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "spacy/pl_core_news_sm",
+		"private": false
+	},
+	{
+		"modelId": "spacy/nl_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/nl_core_news_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/nl_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/nb_core_news_lg",
 		"private": false
 	}
 ]
