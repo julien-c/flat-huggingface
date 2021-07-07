@@ -523,6 +523,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Andres2015/HiggingFaceTest",
+		"private": false
+	},
+	{
 		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -1566,6 +1570,14 @@
 	},
 	{
 		"modelId": "Eirca/vocab_add_fin",
+		"private": false
+	},
+	{
+		"modelId": "Ekta/dummy-model",
+		"private": false
+	},
+	{
+		"modelId": "Ekta/your-model-name",
 		"private": false
 	},
 	{
@@ -9945,8 +9957,7 @@
 	},
 	{
 		"modelId": "Karimfayed/pegasus_SAMSum",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"private": false
 	},
 	{
 		"modelId": "Kerui/CS412-Project",
@@ -15268,6 +15279,11 @@
 	{
 		"modelId": "adamlin/sum",
 		"private": false
+	},
+	{
+		"modelId": "adamlin/tmp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "adamlin/topicalchat-multiturn",
@@ -23379,6 +23395,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "flax-community/roberta-swahili",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "flax-community/robit-roberta-base-it",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -23408,6 +23429,11 @@
 	},
 	{
 		"modelId": "flax-community/t5-recipe-generation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "flax-community/t5-small-dutch",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -23819,6 +23845,10 @@
 	},
 	{
 		"modelId": "gayanin/bart-finetuned-1.3",
+		"private": false
+	},
+	{
+		"modelId": "gayanin/t5-finetuned-1.0",
 		"private": false
 	},
 	{
@@ -36559,6 +36589,18 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "jdesai22/bart-samsum",
+		"private": false
+	},
+	{
+		"modelId": "jdesai22/finetuned-bart-base-samsum",
+		"private": false
+	},
+	{
+		"modelId": "jdesai22/test-dialogue-summarization",
+		"private": false
+	},
+	{
 		"modelId": "jeew/xlm-roberta-ckpt-95000",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -43290,6 +43332,10 @@
 		"modelId": "nreimers/tmp-test-model2",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "nrsmac/lmc",
+		"private": false
 	},
 	{
 		"modelId": "nsa-thatchai/test",
@@ -53367,6 +53413,10 @@
 		"pipeline_tag": "summarization"
 	},
 	{
+		"modelId": "yhavinga/t5-small-dutch",
+		"private": false
+	},
+	{
 		"modelId": "yhk04150/SBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -54147,6 +54197,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/v1-theme2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zichju/Eelai",
 		"private": false
 	},
@@ -54234,57 +54289,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "zhuqing/v1-theme2",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "nrsmac/lmc",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/tmp",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "flax-community/roberta-swahili",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "jdesai22/finetuned-bart-base-samsum",
-		"private": false
-	},
-	{
-		"modelId": "yhavinga/t5-small-dutch",
-		"private": false
-	},
-	{
-		"modelId": "Ekta/dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/t5-small-dutch",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "jdesai22/bart-samsum",
-		"private": false
-	},
-	{
-		"modelId": "jdesai22/test-dialogue-summarization",
-		"private": false
-	},
-	{
-		"modelId": "Andres2015/HiggingFaceTest",
-		"private": false
-	},
-	{
-		"modelId": "Ekta/your-model-name",
-		"private": false
 	}
 ]
