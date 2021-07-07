@@ -23281,8 +23281,7 @@
 	},
 	{
 		"modelId": "flax-community/portuguese-roberta-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"private": false
 	},
 	{
 		"modelId": "flax-community/portuguese-roberta-large",
@@ -54177,6 +54176,25 @@
 	},
 	{
 		"modelId": "spacy/ca_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ca_core_news_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ca_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Vivek/flax-gpt2-common-sense-reasoning",
+		"private": false
+	},
+	{
+		"modelId": "yhavinga/gpt2-dutch",
 		"private": false
 	}
 ]
