@@ -53856,10 +53856,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "henryu-lin/t5-3b-samsum-deepspeed",
-		"private": false
-	},
-	{
 		"modelId": "Aplinxy9plin/toxic-detection-rus",
 		"private": false
 	},
@@ -53880,7 +53876,8 @@
 	},
 	{
 		"modelId": "DTAI-KULeuven/robbertje-1-gb-non-shuffled",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "lewtun/dummy-model",
@@ -53889,10 +53886,15 @@
 	},
 	{
 		"modelId": "z6228574/codegpt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "hackertec/dummy3",
+		"private": false
+	},
+	{
+		"modelId": "henryu-lin/t5-3b-samsum-deepspeed",
 		"private": false
 	}
 ]
