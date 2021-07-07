@@ -23222,7 +23222,8 @@
 	},
 	{
 		"modelId": "flax-community/gpt2-medium-indonesian",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt2-medium-persian",
@@ -48749,11 +48750,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "spacy/en_core_web_sm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "spandan96/T5_SEO_Title_Generator",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -54094,6 +54090,93 @@
 	},
 	{
 		"modelId": "spacy/el_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "adamlin/sum",
+		"private": false
+	},
+	{
+		"modelId": "spacy/el_core_news_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/el_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/es_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/es_core_news_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/es_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/en_core_web_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/en_core_web_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/en_core_web_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/de_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "flax-community/Bengali-t5",
+		"private": false
+	},
+	{
+		"modelId": "spacy/de_core_news_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/de_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/da_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "yhavinga/test-dutch-gpt2",
+		"private": false
+	},
+	{
+		"modelId": "spacy/da_core_news_md",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/da_core_news_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "spacy/ca_core_news_lg",
 		"private": false
 	}
 ]
