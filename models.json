@@ -16394,6 +16394,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "andi611/bert-base-uncased-ner-freeze-body-all-examples",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "andi611/bert-base-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -23398,6 +23403,10 @@
 	},
 	{
 		"modelId": "flax-community/t5-covid-qa",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/t5-recipe-generation-demo",
 		"private": false
 	},
 	{
@@ -46442,6 +46451,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sambelanz/snac",
+		"private": false
+	},
+	{
 		"modelId": "sambelanz/soprtbubu",
 		"private": false
 	},
@@ -54139,6 +54152,11 @@
 		"private": false
 	},
 	{
+		"modelId": "zhuqing/v1-theme1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zichju/Eelai",
 		"private": false
 	},
@@ -54228,11 +54246,8 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "sambelanz/snac",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/t5-recipe-generation-demo",
-		"private": false
+		"modelId": "zhuqing/v1-theme2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
