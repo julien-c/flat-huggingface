@@ -574,6 +574,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Aplinxy9plin/toxic-detection-rus",
+		"private": false
+	},
+	{
 		"modelId": "Aries/T5_question_answering",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -1162,6 +1166,11 @@
 		"modelId": "DTAI-KULeuven/mbert-corona-tweets-belgium-topics",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "DTAI-KULeuven/robbertje-1-gb-non-shuffled",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "DanBot/TCRsynth",
@@ -20179,6 +20188,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "danurahul/ghosh_dentist",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "danurahul/gptneo_tarot",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -22148,6 +22162,10 @@
 	},
 	{
 		"modelId": "ethman/test",
+		"private": false
+	},
+	{
+		"modelId": "eugenesiow/edsr",
 		"private": false
 	},
 	{
@@ -25046,6 +25064,20 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "hackertec/dummy",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "hackertec/dummy2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "hackertec/dummy3",
+		"private": false
+	},
+	{
 		"modelId": "haisam90/tapas",
 		"private": false
 	},
@@ -25358,6 +25390,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "harrydonni/whatsapp-medium-bot-2",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "hartzeer/rtefsdfsdf",
 		"private": false
 	},
@@ -25467,9 +25504,18 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "henryu-lin/bart-large-cnn-samsum",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
 		"modelId": "henryu-lin/bart-large-samsum",
 		"private": false,
 		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "henryu-lin/t5-3b-samsum-deepspeed",
+		"private": false
 	},
 	{
 		"modelId": "hetpandya/t5-base-tapaco",
@@ -29490,6 +29536,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/gohere4porn-onlinepete",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/gojomo",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -29886,6 +29937,11 @@
 	},
 	{
 		"modelId": "huggingtweets/hunt_harriet",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/hustlenconquer-nocodepiper",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -36228,6 +36284,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-renet",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-BC2GM",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -38189,6 +38250,11 @@
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad-v1",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "lewtun/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "lewtun/oz-fauna",
@@ -51359,6 +51425,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "tuhailong/simcse_model",
+		"private": false
+	},
+	{
 		"modelId": "tuner007/pegasus_paraphrase",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -52375,6 +52445,11 @@
 		"modelId": "vionwinnie/albert-goodnotes-reddit",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "vionwinnie/t5-reddit",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "visualjoyce/chengyubert_2stage_stage1_wwm_ext",
@@ -53406,6 +53481,11 @@
 		"private": false
 	},
 	{
+		"modelId": "z6228574/codegpt",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "zachgray/doctor",
 		"private": false
 	},
@@ -53825,79 +53905,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "harrydonni/whatsapp-medium-bot-2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "huggingtweets/gohere4porn-onlinepete",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "vionwinnie/t5-reddit",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "henryu-lin/bart-large-cnn-samsum",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
-		"modelId": "tuhailong/simcse_model",
-		"private": false
-	},
-	{
-		"modelId": "danurahul/ghosh_dentist",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Aplinxy9plin/toxic-detection-rus",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/hustlenconquer-nocodepiper",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "hackertec/dummy",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "hackertec/dummy2",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "DTAI-KULeuven/robbertje-1-gb-non-shuffled",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "lewtun/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "hackertec/dummy3",
-		"private": false
-	},
-	{
-		"modelId": "henryu-lin/t5-3b-samsum-deepspeed",
-		"private": false
-	},
-	{
-		"modelId": "z6228574/codegpt",
-		"private": false
-	},
-	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-renet",
-		"private": false
 	}
 ]
