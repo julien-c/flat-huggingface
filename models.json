@@ -53811,7 +53811,8 @@
 	},
 	{
 		"modelId": "boychaboy/kobias_klue-roberta-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ysharma/first-model-dummy",
@@ -53819,6 +53820,16 @@
 	},
 	{
 		"modelId": "boychaboy/kobias_klue-roberta-base",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ysharma/new-model-dummy",
 		"private": false
+	},
+	{
+		"modelId": "hackertec/dummy-model-test",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
