@@ -22811,7 +22811,8 @@
 	},
 	{
 		"modelId": "fagner/envoy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "faizank2/bhand",
@@ -23894,6 +23895,10 @@
 		"modelId": "ghanashyamvtatti/roberta-fake-news",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ghosh-r/bangla-gpt2",
+		"private": false
 	},
 	{
 		"modelId": "giacomomiolo/biobert_reupload",
@@ -40274,6 +40279,10 @@
 		"private": false
 	},
 	{
+		"modelId": "mihaitensor/romanian-gpt2",
+		"private": false
+	},
+	{
 		"modelId": "mikezhang95/layoutlm-base-chinese",
 		"private": false
 	},
@@ -45447,6 +45456,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "rahultuli/bert-base-uncased",
+		"private": false
+	},
+	{
 		"modelId": "raja-7-c/NLP_with_Hugging_Face",
 		"private": false
 	},
@@ -49025,12 +49038,19 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "spacy/pl_core_news_lg",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "spacy/pl_core_news_md",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "spacy/pl_core_news_sm",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "spacy/pt_core_news_lg",
@@ -54208,19 +54228,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "ghosh-r/bangla-gpt2",
-		"private": false
-	},
-	{
-		"modelId": "spacy/pl_core_news_lg",
-		"private": false
-	},
-	{
-		"modelId": "rahultuli/bert-base-uncased",
-		"private": false
-	},
-	{
-		"modelId": "mihaitensor/romanian-gpt2",
+		"modelId": "sambelanz/snac",
 		"private": false
 	}
 ]
