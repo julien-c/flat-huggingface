@@ -54429,15 +54429,16 @@
 		"private": false
 	},
 	{
-		"modelId": "jivatneet/bert-mlm-batchsize8-noNER",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/roberta-base-danish",
 		"private": false
 	},
 	{
 		"modelId": "jivatneet/bert-mlm-batchsize8",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "DTAI-KULeuven/robbertje-1-gb-merged",
 		"private": false
 	}
 ]
