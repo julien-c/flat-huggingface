@@ -23224,7 +23224,8 @@
 	},
 	{
 		"modelId": "flax-community/Bengali-t5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/Image-captioning-Indonesia",
@@ -54365,12 +54366,12 @@
 		"private": false
 	},
 	{
-		"modelId": "henryu-lin/t5-large-samsum-deepspeed",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
 		"modelId": "osanseviero/asr-with-transformers-wav2vec2",
 		"private": false
+	},
+	{
+		"modelId": "henryu-lin/t5-large-samsum-deepspeed",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
