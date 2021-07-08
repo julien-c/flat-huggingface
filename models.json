@@ -9956,10 +9956,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Karimfayed/pegasus_SAMSum",
-		"private": false
-	},
-	{
 		"modelId": "Kerui/CS412-Project",
 		"private": false
 	},
@@ -54287,7 +54283,8 @@
 	},
 	{
 		"modelId": "Karimfayed/pegasus-SAMSum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Ekta/Hark2",
@@ -54307,6 +54304,15 @@
 	},
 	{
 		"modelId": "Ekta/Hark4",
+		"private": false
+	},
+	{
+		"modelId": "BigSalmon/PhraseBerta",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "liam168/c2-roberta-base-finetuned-dianping-chinese",
 		"private": false
 	}
 ]
