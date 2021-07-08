@@ -763,6 +763,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "BigSalmon/PhraseBerta",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "BigSalmon/Robertsy",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -1570,6 +1575,18 @@
 	},
 	{
 		"modelId": "Eirca/vocab_add_fin",
+		"private": false
+	},
+	{
+		"modelId": "Ekta/Hark2",
+		"private": false
+	},
+	{
+		"modelId": "Ekta/Hark3",
+		"private": false
+	},
+	{
+		"modelId": "Ekta/Hark4",
 		"private": false
 	},
 	{
@@ -9956,6 +9973,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Karimfayed/pegasus-SAMSum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Kerui/CS412-Project",
 		"private": false
 	},
@@ -16416,6 +16438,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-1000-examples-split-1",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "andi611/bert-large-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -18076,6 +18103,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "bhadresh-savani/t5-v1_1-base-wikisplit",
+		"private": false
+	},
+	{
 		"modelId": "biasedai/bert-based-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -19601,6 +19632,10 @@
 		"modelId": "cling371/modeling_test",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "clip-italian/clip-italian",
+		"private": false
 	},
 	{
 		"modelId": "clue/albert_chinese_small",
@@ -23433,6 +23468,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "flax-community/t5-v1_1-base-wikisplit",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/transformer-vae",
 		"private": false
 	},
@@ -26168,6 +26207,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "hrugved06/DiscbotGPT",
+		"private": false
+	},
+	{
 		"modelId": "htorrresjr/ementalyzer",
 		"private": false
 	},
@@ -28421,6 +28464,11 @@
 	},
 	{
 		"modelId": "huggingtweets/dealingporn",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/deathbattlebot",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -37416,6 +37464,10 @@
 		"private": false
 	},
 	{
+		"modelId": "julianopacheco/bertimbau-large-lener_br",
+		"private": false
+	},
+	{
 		"modelId": "juliawabant/camembert-long",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -38484,6 +38536,11 @@
 	{
 		"modelId": "liaad/ud_srl-pt_xlmr-large",
 		"private": false
+	},
+	{
+		"modelId": "liam168/c2-roberta-base-finetuned-dianping-chinese",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "liam168/c4-zh-distilbert-base-uncased",
@@ -39819,6 +39876,10 @@
 	},
 	{
 		"modelId": "meedan/indian-xlm-r",
+		"private": false
+	},
+	{
+		"modelId": "megantosh/flair-arabic-MSA-aqmar",
 		"private": false
 	},
 	{
@@ -50281,6 +50342,16 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "summaria/qa-qg-t5",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "summaria/qa-t5",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "sunguk/sunguk-bert",
 		"private": false
 	},
@@ -53988,12 +54059,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "zer0sh0t/programmer_gpt2_decoder_prototype",
-		"private": false,
-		"pipeline_tag": "text-generation"
+		"modelId": "zeropointbreakthrough/test",
+		"private": false
 	},
 	{
-		"modelId": "zeropointbreakthrough/test",
+		"modelId": "zhan/bert_qa_01",
 		"private": false
 	},
 	{
@@ -54277,78 +54347,24 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Karimfayed/pegasus-SAMSum",
+		"modelId": "zer0sh0t/pai_run1",
+		"private": false
+	},
+	{
+		"modelId": "natsuo/ja_rome",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "henryu-lin/t5-large-samsum-deepspeed",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "Ekta/Hark2",
+		"modelId": "keshan/sinhala-gpt2",
 		"private": false
-	},
-	{
-		"modelId": "megantosh/flair-arabic-MSA-aqmar",
-		"private": false
-	},
-	{
-		"modelId": "clip-italian/clip-italian",
-		"private": false
-	},
-	{
-		"modelId": "Ekta/Hark3",
-		"private": false
-	},
-	{
-		"modelId": "Ekta/Hark4",
-		"private": false
-	},
-	{
-		"modelId": "BigSalmon/PhraseBerta",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "liam168/c2-roberta-base-finetuned-dianping-chinese",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "hrugved06/DiscbotGPT",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/deathbattlebot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "julianopacheco/bertimbau-large-lener_br",
-		"private": false
-	},
-	{
-		"modelId": "zhan/bert_qa_01",
-		"private": false
-	},
-	{
-		"modelId": "summaria/qa-qg-t5",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bhadresh-savani/t5-v1_1-base-wikisplit",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/t5-v1_1-base-wikisplit",
-		"private": false
-	},
-	{
-		"modelId": "summaria/qa-t5",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-1000-examples-split-1",
-		"private": false,
-		"pipeline_tag": "token-classification"
 	}
 ]
