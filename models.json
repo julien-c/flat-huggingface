@@ -54371,16 +54371,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "saibo/random-bert-base-cased",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "saibo/random-roberta-base",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -54453,10 +54443,32 @@
 	},
 	{
 		"modelId": "Tymoteusz/optics-abstracts-summarization",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "pere/t5-base-xsum",
+		"private": false
+	},
+	{
+		"modelId": "DTAI-KULeuven/robbertje-1-gb-bort",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "saibo/random-albert-base-v2",
+		"private": false
+	},
+	{
+		"modelId": "saibo/random-bert-base-cased",
+		"private": false
+	},
+	{
+		"modelId": "saibo/random-roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "Andrija/SRoBERTa-NLP",
 		"private": false
 	}
 ]
