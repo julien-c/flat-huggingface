@@ -23460,7 +23460,8 @@
 	},
 	{
 		"modelId": "flax-community/t5-recipe-generation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/t5-small-dutch",
@@ -54355,16 +54356,20 @@
 		"private": false
 	},
 	{
-		"modelId": "henryu-lin/t5-large-samsum-deepspeed",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
 		"modelId": "keshan/sinhala-gpt2",
 		"private": false
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "henryu-lin/t5-large-samsum-deepspeed",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "osanseviero/asr-with-transformers-wav2vec2",
 		"private": false
 	}
 ]
