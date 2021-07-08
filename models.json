@@ -502,6 +502,16 @@
 		"private": false
 	},
 	{
+		"modelId": "Alireza1044/dwight_bert_lm",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Alireza1044/michael_bert_lm",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Amir99/toxic",
 		"private": false
 	},
@@ -18262,6 +18272,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "birgermoell/roberta-swedish-wikipedia",
+		"private": false
+	},
+	{
 		"modelId": "birgermoell/roberta-swedish",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -21309,12 +21323,9 @@
 		"private": false
 	},
 	{
-		"modelId": "edichief/en_textcat_reddit",
-		"private": false
-	},
-	{
-		"modelId": "edichief/en_textcat_reddit_model",
-		"private": false
+		"modelId": "edichief/en_textcat_goemotions",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "edixo/road_good_damaged_condition",
@@ -43774,6 +43785,10 @@
 		"private": false
 	},
 	{
+		"modelId": "osanseviero/asr-with-s3prl",
+		"private": false
+	},
+	{
 		"modelId": "osanseviero/asr-with-transformers-wav2vec2",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -54202,6 +54217,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zer0sh0t/programmer_ai",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "zeropointbreakthrough/test",
 		"private": false
 	},
@@ -54488,22 +54508,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "zer0sh0t/programmer_ai",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "osanseviero/asr-with-s3prl",
-		"private": false
-	},
-	{
-		"modelId": "birgermoell/roberta-swedish-wikipedia",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/michael_bert_lm",
-		"private": false
 	}
 ]
