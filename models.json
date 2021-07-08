@@ -54381,11 +54381,17 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
-		"private": false
+		"modelId": "saibo/random-bert-base-cased",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "saibo/random-bert-base-cased",
+		"modelId": "saibo/random-roberta-base",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
 		"private": false
 	}
 ]
