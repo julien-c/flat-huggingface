@@ -25596,7 +25596,8 @@
 	},
 	{
 		"modelId": "henryu-lin/t5-3b-samsum-deepspeed",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "hetpandya/t5-base-tapaco",
@@ -38484,11 +38485,6 @@
 	{
 		"modelId": "liaad/ud_srl-pt_xlmr-large",
 		"private": false
-	},
-	{
-		"modelId": "liam168/bert-base-cased",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "liam168/c4-zh-distilbert-base-uncased",
