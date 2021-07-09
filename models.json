@@ -10008,7 +10008,8 @@
 	},
 	{
 		"modelId": "Kao/samyarn-bert-base-multilingual-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Kap/test-model",
@@ -21420,6 +21421,11 @@
 		"modelId": "egonzalez/model",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "ehdwns1516/klue-roberta-base-KorNLI",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "elastic/distilbert-base-cased-finetuned-conll03-english",
@@ -54591,6 +54597,11 @@
 	},
 	{
 		"modelId": "tanay/layoutlm-custom",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "adamlin/mbart",
 		"private": false
 	}
 ]
