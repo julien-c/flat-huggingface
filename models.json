@@ -11272,10 +11272,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Prim9000/Thai_TTS",
-		"private": false
-	},
-	{
 		"modelId": "Primer/bart-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -42261,8 +42257,7 @@
 	},
 	{
 		"modelId": "mrm8488/spanish-gpt2",
-		"private": false,
-		"pipeline_tag": "text-generation"
+		"private": false
 	},
 	{
 		"modelId": "mrm8488/squeezebert-finetuned-squadv1",
@@ -54682,10 +54677,6 @@
 		"private": false
 	},
 	{
-		"modelId": "eli4s/Bert-L12-h384-A6",
-		"private": false
-	},
-	{
 		"modelId": "g8a9/20",
 		"private": false
 	},
@@ -54753,7 +54744,8 @@
 	},
 	{
 		"modelId": "adamlin/filter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Cheatham/EU-JAV",
@@ -54761,6 +54753,11 @@
 	},
 	{
 		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-renet",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "eli4s/Bert-L12-h384-A6",
 		"private": false
 	}
 ]
