@@ -55826,10 +55826,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Bird/Test",
-		"private": false
-	},
-	{
 		"modelId": "explosion/en_textcat_goemotions",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -55842,5 +55838,20 @@
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-1",
 		"private": false
+	},
+	{
+		"modelId": "EMBEDDIA/bertic-tweetsentiment",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "EMBEDDIA/rubert-tweetsentiment",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "EMBEDDIA/english-tweetsentiment",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
