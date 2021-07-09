@@ -48521,7 +48521,8 @@
 	},
 	{
 		"modelId": "shahukareem/dhivehi-roberta-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "shahukareem/wav2vec2-large-xlsr-53-dhivehi",
@@ -55896,7 +55897,8 @@
 	},
 	{
 		"modelId": "monsoon-nlp/byt5-base-dv",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-5",
@@ -55930,10 +55932,15 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "cyprste291274/DialoGPT-small-sheldon",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-2",
 		"private": false
 	}
 ]
