@@ -54699,7 +54699,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-50-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "jinmang2/bert-base-ko-kornli",
@@ -54776,6 +54777,11 @@
 	},
 	{
 		"modelId": "junnyu/roformer_chinese_sim_char_base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "junnyu/roformer_chinese_sim_char_small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	}
