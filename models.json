@@ -901,6 +901,10 @@
 		"private": false
 	},
 	{
+		"modelId": "CSZay/bart",
+		"private": false
+	},
+	{
 		"modelId": "CTBC/ATS",
 		"private": false
 	},
@@ -9263,6 +9267,11 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "HeyLucasLeao/byt5-base-pt-product-reviews",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "HeyLucasLeao/byt5-small-pt-product-reviews",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -9998,6 +10007,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Kao/samyarn-bert-base-multilingual-cased",
+		"private": false
+	},
+	{
 		"modelId": "Kap/test-model",
 		"private": false
 	},
@@ -10214,6 +10227,10 @@
 	},
 	{
 		"modelId": "Linganesan/pegasus_pretrained",
+		"private": false
+	},
+	{
+		"modelId": "Littlejohn/analisis_sentimientos",
 		"private": false
 	},
 	{
@@ -10749,6 +10766,11 @@
 		"modelId": "NTQAI/wav2vec2-large-japanese",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "NTUYG/ComFormer",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "NTUYG/DeepSCC-RoBERTa",
@@ -15130,6 +15152,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "abhikbhatia/NolanBot",
+		"private": false
+	},
+	{
 		"modelId": "abhilash1910/albert-german-ner",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -16486,6 +16512,10 @@
 		"modelId": "andi611/bert-base-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
+		"private": false
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-2",
@@ -23529,6 +23559,10 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/t5-large-wikisplit",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/t5-recipe-generation",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -23781,6 +23815,10 @@
 	},
 	{
 		"modelId": "g4brielvs/gaga",
+		"private": false
+	},
+	{
+		"modelId": "g8a9/1",
 		"private": false
 	},
 	{
@@ -25731,6 +25769,20 @@
 	{
 		"modelId": "heziyevv/aze_basic_lang_model",
 		"private": false
+	},
+	{
+		"modelId": "hf-internal-testing/tiny-bert",
+		"private": false
+	},
+	{
+		"modelId": "hf-internal-testing/tiny-electra",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "hf-internal-testing/tiny-xlm-roberta",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "hfl/chinese-bert-wwm-ext",
@@ -38007,6 +38059,11 @@
 		"private": false
 	},
 	{
+		"modelId": "kittinan/exercise-feedback-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "klue/bert-base",
 		"private": false
 	},
@@ -39860,6 +39917,10 @@
 		"private": false
 	},
 	{
+		"modelId": "matprado/DialoGPT-small-rick-sanchez",
+		"private": false
+	},
+	{
 		"modelId": "matt-gm/gremon",
 		"private": false
 	},
@@ -39925,6 +39986,11 @@
 		"modelId": "mbien/wav2vec2-large-xlsr-polish",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "mboth/distil-eng-quora-sentence",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "mboth/distil-eng",
@@ -41364,6 +41430,11 @@
 	{
 		"modelId": "moye/model_name",
 		"private": false
+	},
+	{
+		"modelId": "moyix/csrc_774m",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "mpariente/ConvTasNet_Libri1Mix_enhsingle_8k",
@@ -44983,6 +45054,14 @@
 		"modelId": "poipii/yelp_sentiment_distilbert-base-uncased_tuned",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "pomnwq24/test",
+		"private": false
+	},
+	{
+		"modelId": "pomnwq24/test1",
+		"private": false
 	},
 	{
 		"modelId": "ponmari/Question-Answering",
@@ -52899,6 +52978,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "veris/ken2",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "verissimomanoel/RobertaTwitterBR",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -53408,6 +53492,10 @@
 	},
 	{
 		"modelId": "wowhdmovie/asasdadad",
+		"private": false
+	},
+	{
+		"modelId": "wowhdmovie/dff",
 		"private": false
 	},
 	{
@@ -54503,86 +54591,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "kittinan/exercise-feedback-classification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "hf-internal-testing/tiny-bert",
+		"modelId": "Cool/Demo",
 		"private": false
 	},
 	{
-		"modelId": "hf-internal-testing/tiny-xlm-roberta",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "moyix/csrc_774m",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "CSZay/bart",
-		"private": false
-	},
-	{
-		"modelId": "HeyLucasLeao/byt5-base-pt-product-reviews",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "wowhdmovie/dff",
-		"private": false
-	},
-	{
-		"modelId": "Littlejohn/analisis_sentimientos",
-		"private": false
-	},
-	{
-		"modelId": "g8a9/1",
-		"private": false
-	},
-	{
-		"modelId": "hf-internal-testing/tiny-electra",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "abhikbhatia/NolanBot",
-		"private": false
-	},
-	{
-		"modelId": "NTUYG/ComFormer",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "pomnwq24/test",
-		"private": false
-	},
-	{
-		"modelId": "pomnwq24/test1",
-		"private": false
-	},
-	{
-		"modelId": "veris/ken2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "matprado/DialoGPT-small-rick-sanchez",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-100-examples-split-1",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/t5-large-wikisplit",
-		"private": false
-	},
-	{
-		"modelId": "Kao/samyarn-bert-base-multilingual-cased",
+		"modelId": "hyena214/test",
 		"private": false
 	}
 ]
