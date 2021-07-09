@@ -52979,11 +52979,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "veris/ken2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "verissimomanoel/RobertaTwitterBR",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -54614,7 +54609,8 @@
 	},
 	{
 		"modelId": "seamew/Hotel_bert_d",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "g8a9/4",
@@ -54622,7 +54618,8 @@
 	},
 	{
 		"modelId": "seamew/Hotel_ernie_d",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "g8a9/5",
@@ -54630,6 +54627,22 @@
 	},
 	{
 		"modelId": "g8a9/6",
+		"private": false
+	},
+	{
+		"modelId": "g8a9/7",
+		"private": false
+	},
+	{
+		"modelId": "g8a9/8",
+		"private": false
+	},
+	{
+		"modelId": "birgermoell/swedish-gpt2-oscar",
+		"private": false
+	},
+	{
+		"modelId": "g8a9/9",
 		"private": false
 	}
 ]
