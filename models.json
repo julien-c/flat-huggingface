@@ -21034,6 +21034,11 @@
 		"private": false
 	},
 	{
+		"modelId": "deutsche-telekom/bert-multi-english-german-squad2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "devansvd/bert-model-test-2",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -55831,11 +55836,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-1",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "EMBEDDIA/bertic-tweetsentiment",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -55870,6 +55870,14 @@
 	},
 	{
 		"modelId": "philschmid/infinity-sentiment",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/opus-mt-en-de",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-2",
 		"private": false
 	}
 ]
