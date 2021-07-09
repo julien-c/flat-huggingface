@@ -16571,7 +16571,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-50-examples-split-1",
@@ -37831,7 +37832,7 @@
 	{
 		"modelId": "julien-c/DPRNNTasNet-ks16_WHAM_sepclean",
 		"private": false,
-		"pipeline_tag": "audio-source-separation"
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "julien-c/EsperBERTo-small-pos",
@@ -40142,7 +40143,8 @@
 	},
 	{
 		"modelId": "matprado/DialoGPT-small-rick-sanchez",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "matt-gm/gremon",
@@ -55825,6 +55827,10 @@
 	},
 	{
 		"modelId": "Bird/Test",
+		"private": false
+	},
+	{
+		"modelId": "explosion/en_textcat_goemotions",
 		"private": false
 	}
 ]
