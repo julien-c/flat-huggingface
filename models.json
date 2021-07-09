@@ -21034,11 +21034,6 @@
 		"private": false
 	},
 	{
-		"modelId": "deutsche-telekom/bert-multi-english-german-squad2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "devansvd/bert-model-test-2",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -55837,7 +55832,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "EMBEDDIA/bertic-tweetsentiment",
@@ -55867,5 +55863,9 @@
 		"modelId": "EasthShin/Klue-CommonSense-model",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "TekFell/korean-gpt2",
+		"private": false
 	}
 ]
