@@ -54550,11 +54550,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "zer0sh0t/programmer_ai",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "zeropointbreakthrough/test",
 		"private": false
 	},
@@ -55874,7 +55869,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "yhavinga/ckpt-600",
@@ -55898,5 +55894,9 @@
 		"modelId": "yhavinga/ckpt-900",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-3",
+		"private": false
 	}
 ]
