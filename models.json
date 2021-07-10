@@ -23469,7 +23469,8 @@
 	},
 	{
 		"modelId": "flax-community/gpt2-medium-persian",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt2-small-indonesian",
@@ -55960,7 +55961,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "hf-internal-testing/tiny-albert",
@@ -55981,5 +55983,14 @@
 	{
 		"modelId": "imthanhlv/t5-base-vi",
 		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-5",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/cassandraautumn",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
