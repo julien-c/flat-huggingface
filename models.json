@@ -56072,7 +56072,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "miguelangelo/distilbert-base-uncased-finetuned-squad",
@@ -56085,11 +56086,16 @@
 	},
 	{
 		"modelId": "flax-community/t5-base-cnn-dm",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "zer0sh0t/programmer_ai_v2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-3",
+		"private": false
 	}
 ]
