@@ -55954,7 +55954,8 @@
 	},
 	{
 		"modelId": "hf-internal-testing/tiny-albert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Tina/t5-small-finetuned-xsum",
@@ -55983,6 +55984,14 @@
 	},
 	{
 		"modelId": "macedonizer/mk-gpt2",
+		"private": false
+	},
+	{
+		"modelId": "isakbos/BERT-of-Theseus",
+		"private": false
+	},
+	{
+		"modelId": "isakbos/TinyBERT-small",
 		"private": false
 	}
 ]
