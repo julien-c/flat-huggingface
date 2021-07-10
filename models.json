@@ -56025,11 +56025,6 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-5",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "SauravMaheshkar/clr-finetuned-roberta-large",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -56060,7 +56055,8 @@
 	},
 	{
 		"modelId": "SauravMaheshkar/clr-finetuned-xlm-roberta-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Tahsin-Mayeesha/test-lm",
@@ -56081,5 +56077,19 @@
 	{
 		"modelId": "miguelangelo/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "flax-community/t5-base-cnn-dm",
+		"private": false
+	},
+	{
+		"modelId": "zer0sh0t/programmer_ai_v2",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
