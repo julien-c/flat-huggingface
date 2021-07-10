@@ -23636,7 +23636,8 @@
 	},
 	{
 		"modelId": "flax-community/roberta-large-scandi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/roberta-large-swedish",
@@ -56120,16 +56121,15 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-5",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "anilkumar-kanasani/normal-gpt2-after-preproc",
 		"private": false
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-2",
+		"modelId": "adit94/distillbert_uncased-test",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-32-examples-split-1",
 		"private": false
 	}
 ]
