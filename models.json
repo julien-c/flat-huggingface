@@ -48656,7 +48656,8 @@
 	},
 	{
 		"modelId": "shahrukhx01/Fuzzformer",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "shahrukhx01/bert-mini-finetune-question-detection",
@@ -56058,6 +56059,11 @@
 	},
 	{
 		"modelId": "SauravMaheshkar/clr-finetuned-bert-large-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "SauravMaheshkar/clr-finetuned-xlm-roberta-base",
 		"private": false
 	}
 ]
