@@ -56092,7 +56092,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "flax-community/gpt2-rap-lyric-generator",
@@ -56102,5 +56103,23 @@
 		"modelId": "w11wo/indonesian-roberta-base-sentiment-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingtweets/averagesmasher",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-4",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/aliceaeterna-clamtime-redpandasmash",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Pooya448/distilgpt2-finetuned-wikitext2",
+		"private": false
 	}
 ]
