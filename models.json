@@ -55977,7 +55977,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Natej815/BookProject",
@@ -55993,6 +55994,20 @@
 	},
 	{
 		"modelId": "SauravMaheshkar/clr-finetuned-albert-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "SauravMaheshkar/clr-finetuned-albert-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-4",
+		"private": false
+	},
+	{
+		"modelId": "SauravMaheshkar/clr-finetuned-roberta-base",
 		"private": false
 	}
 ]
