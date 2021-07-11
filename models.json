@@ -23795,7 +23795,8 @@
 	},
 	{
 		"modelId": "flax-community/roberta-base-danish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/roberta-base-mr",
@@ -56275,7 +56276,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "flax-community/wav2vec2-base-indonesian",
@@ -56285,5 +56287,9 @@
 		"modelId": "StevenLimcorn/indonesian-roberta-base-bapos-tagger",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-4",
+		"private": false
 	}
 ]
