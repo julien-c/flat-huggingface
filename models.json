@@ -18543,8 +18543,7 @@
 	},
 	{
 		"modelId": "birgermoell/roberta-swedish-scandi",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"private": false
 	},
 	{
 		"modelId": "birgermoell/roberta-swedish-wikipedia",
@@ -48921,11 +48920,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "shahrukhx01/paraphrase-mpnet-base-v2-fuzzy-matcher",
 		"private": false
 	},
@@ -56290,10 +56284,20 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "donhuang/distilroberta-base-finetuned-wikitext2",
 		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "khalidsaifullaah/ckpt--1",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
