@@ -56351,14 +56351,34 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "flax-community/gpt-neo-125M-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "boris/vqgan_f16_16384",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-1",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-5",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "flax-community/code-mt5-large-batch-mix",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-1",
 		"private": false
 	}
 ]
