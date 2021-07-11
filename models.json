@@ -16737,10 +16737,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-5",
-		"private": false
-	},
-	{
 		"modelId": "andi611/bert-large-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -56240,10 +56236,20 @@
 	},
 	{
 		"modelId": "StevenLimcorn/indonesian-roberta-base-emotion-classifier",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "nkul/gpt2-frens",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-3",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/arabic-t5-base",
 		"private": false
 	}
 ]
