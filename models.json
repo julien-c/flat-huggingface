@@ -18659,10 +18659,6 @@
 		"private": false
 	},
 	{
-		"modelId": "boris/jax_vqgan_f16_16384",
-		"private": false
-	},
-	{
 		"modelId": "boris/xlsr-en-punctuation",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -43853,11 +43849,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "niksmer/ManiBertLanguage",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "nikunjbjj/jd-resume-model",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -56332,5 +56323,19 @@
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-2",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-64-examples-split-3",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "khalidsaifullaah/ckpt-50",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/vqgan_f16_16384",
+		"private": false
 	}
 ]
