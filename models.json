@@ -56270,10 +56270,15 @@
 	},
 	{
 		"modelId": "flax-community/pino-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/wav2vec2-base-indonesian",
 		"private": false
 	}
 ]
