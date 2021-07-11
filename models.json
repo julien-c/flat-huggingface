@@ -14239,10 +14239,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Tina/t5-small-finetuned-xsum",
-		"private": false
-	},
-	{
 		"modelId": "Tino/Climate_Science_Stance",
 		"private": false
 	},
@@ -56273,11 +56269,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "flax-community/wav2vec2-base-indonesian",
 		"private": false
 	},
@@ -56287,18 +56278,8 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-4",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "donhuang/distilroberta-base-finetuned-wikitext2",
 		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-1",
-		"private": false,
-		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "khalidsaifullaah/ckpt--1",
@@ -56312,11 +56293,20 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-32-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "w11wo/sundanese-roberta-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-32-examples-split-5",
+		"private": false
+	},
+	{
+		"modelId": "Tina/finetuned-xsum",
+		"private": false
 	}
 ]
