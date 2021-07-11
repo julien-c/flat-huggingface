@@ -16693,11 +16693,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-2",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-4",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -56320,16 +56315,12 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-64-examples-split-3",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-5",
 		"private": false
 	},
 	{
 		"modelId": "junzai/bert_finetuning_test2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
