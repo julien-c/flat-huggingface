@@ -56173,7 +56173,8 @@
 	},
 	{
 		"modelId": "yseop/roberta-base-finance-hypernym-identification",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "imthanhlv/vigpt2",
@@ -56255,6 +56256,21 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-3",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-4",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-5",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sambhuhug/SentimentmodelSambhu",
 		"private": false
 	}
 ]
