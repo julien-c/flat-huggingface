@@ -16688,11 +16688,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-1",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-4",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -56273,11 +56268,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-5",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-32-examples-split-1",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -56312,7 +56302,8 @@
 	},
 	{
 		"modelId": "srosy/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-5",
@@ -56333,6 +56324,15 @@
 		"modelId": "khalidsaifullaah/ckpt-50",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-32-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "boychaboy/kobias_v2_klue-roberta-base",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "flax-community/vqgan_f16_16384",
