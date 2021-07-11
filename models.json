@@ -23641,7 +23641,7 @@
 	{
 		"modelId": "flax-community/ft5-base-openwebtext",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt-2-code-clippy",
@@ -56316,11 +56316,16 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-64-examples-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "junzai/bert_finetuning_test2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "srosy/distilbert-base-uncased-finetuned-ner",
+		"private": false
 	}
 ]
