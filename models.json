@@ -43862,6 +43862,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "niksmer/ManiBertLanguage",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "nikunjbjj/jd-resume-model",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -56293,11 +56298,16 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "khalidsaifullaah/ckpt--1",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-16-examples-split-5",
+		"private": false
 	}
 ]
