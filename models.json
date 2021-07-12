@@ -38741,7 +38741,8 @@
 	},
 	{
 		"modelId": "keshan/sinhala-roberta-mc4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "keshan/sinhala-roberta-oscar",
@@ -43049,7 +43050,8 @@
 	},
 	{
 		"modelId": "mrm8488/spanish-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "mrm8488/squeezebert-finetuned-squadv1",
@@ -56509,11 +56511,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "flax-community/code-mt5-large",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -56524,6 +56521,14 @@
 	},
 	{
 		"modelId": "seongju/klue-tc-bert-base-multilingual-uncased",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
+		"private": false
+	},
+	{
+		"modelId": "Andrija/SRoBERTa-NER-Lite",
 		"private": false
 	}
 ]
