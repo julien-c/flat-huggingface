@@ -24207,7 +24207,8 @@
 	},
 	{
 		"modelId": "flax-community/test-vqa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/transformer-vae",
@@ -56756,6 +56757,14 @@
 	},
 	{
 		"modelId": "yguo50/bart-large-92",
+		"private": false
+	},
+	{
+		"modelId": "moghadas76/bert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "echarlaix/bart-base-cnn-r2-19.4-d35-hybrid",
 		"private": false
 	}
 ]
