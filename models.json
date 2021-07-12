@@ -48774,10 +48774,6 @@
 		"private": false
 	},
 	{
-		"modelId": "seongju/klue-tc-kobert-base",
-		"private": false
-	},
-	{
 		"modelId": "serdarakyol/interpress-turkish-news-classification",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -56514,10 +56510,20 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "flax-community/code-mt5-large",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Koshi-108/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "seongju/klue-tc-bert-base-multilingual-uncased",
 		"private": false
 	}
 ]
