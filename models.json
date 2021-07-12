@@ -56574,19 +56574,20 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "joorock12/wav2vec2-cv-coral-300ep",
+		"private": false
+	},
+	{
 		"modelId": "jaimin/Gujarati-Model",
 		"private": false
 	},
 	{
 		"modelId": "flax-community/roberta-base-danish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "jegorkitskerkin/custom-bert-base-dutch-cased",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
 		"private": false
 	},
 	{
@@ -56617,6 +56618,30 @@
 	},
 	{
 		"modelId": "gchhablani/ckpt-4",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "gchhablani/ckpt-5",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "gchhablani/ckpt-6",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "gchhablani/ckpt-7",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/ckpt-8",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	}
