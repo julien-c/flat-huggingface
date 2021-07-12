@@ -56496,7 +56496,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-128-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "flax-community/spanish-t5-small",
@@ -56505,5 +56506,10 @@
 	{
 		"modelId": "MYX4567/model_name",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/pontifex_es",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
