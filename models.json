@@ -474,7 +474,8 @@
 	},
 	{
 		"modelId": "AlekseyKorshuk/test-model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Alessandro/model_name",
@@ -549,11 +550,6 @@
 		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
 		"private": false,
 		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "Andrija/SRoBERTa-NER-Lite",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-NLP",
@@ -56551,5 +56547,9 @@
 		"modelId": "patrickvonplaten/gpt2-als-demo",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Andrija/RobertaFastBPE",
+		"private": false
 	}
 ]
