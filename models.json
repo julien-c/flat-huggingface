@@ -56565,7 +56565,8 @@
 	},
 	{
 		"modelId": "MMG/xlm-roberta-large-ner-spanish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "birgermoell/ckpt-10",
@@ -56578,7 +56579,8 @@
 	},
 	{
 		"modelId": "flax-community/roberta-base-danish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "jegorkitskerkin/custom-bert-base-dutch-cased",
@@ -56601,5 +56603,13 @@
 		"modelId": "gchhablani/ckpt-3",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "RickyLeRoi/model_rock",
+		"private": false
+	},
+	{
+		"modelId": "Pgarriga23/TestingCourse",
+		"private": false
 	}
 ]
