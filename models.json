@@ -24207,8 +24207,7 @@
 	},
 	{
 		"modelId": "flax-community/test-vqa",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"private": false
 	},
 	{
 		"modelId": "flax-community/transformer-vae",
@@ -49377,6 +49376,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "shahrukhx01/paraphrase-mpnet-base-v2-fuzzy-matcher",
 		"private": false
 	},
@@ -56729,7 +56733,8 @@
 	},
 	{
 		"modelId": "echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "airKlizz/mt5-base-germeval21-toxic-with-task-specific-pretraining-and-data-augmentation",
@@ -56742,6 +56747,15 @@
 	},
 	{
 		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-geniusvoice",
+		"private": false
+	},
+	{
+		"modelId": "seyfullah/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "yguo50/bart-large-92",
 		"private": false
 	}
 ]
