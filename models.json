@@ -473,6 +473,10 @@
 		"private": false
 	},
 	{
+		"modelId": "AlekseyKorshuk/test-model",
+		"private": false
+	},
+	{
 		"modelId": "Alessandro/model_name",
 		"private": false
 	},
@@ -545,6 +549,11 @@
 		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Andrija/SRoBERTa-NER-Lite",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-NLP",
@@ -10110,6 +10119,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Koshi-108/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "Kowsher/bert-base-bangla",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -10430,6 +10443,10 @@
 	},
 	{
 		"modelId": "ML-ass/german_encoder",
+		"private": false
+	},
+	{
+		"modelId": "MYX4567/model_name",
 		"private": false
 	},
 	{
@@ -11370,6 +11387,18 @@
 		"modelId": "PubChimps/dlfBERT",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-geniusvoice",
+		"private": false
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-hetklokhuis",
+		"private": false
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-klokhuis",
+		"private": false
 	},
 	{
 		"modelId": "QA/Ab",
@@ -16622,6 +16651,10 @@
 		"private": false
 	},
 	{
+		"modelId": "amitkumar/NLP_models",
+		"private": false
+	},
+	{
 		"modelId": "amitness/nepbert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -16705,6 +16738,10 @@
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-1",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-2",
+		"private": false
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-3",
@@ -16798,6 +16835,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-128-examples-split-1",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-128-examples-split-2",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -20537,6 +20579,10 @@
 		"private": false
 	},
 	{
+		"modelId": "cyan/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "cyprste291274/DialoGPT-small-sheldon",
 		"private": false
 	},
@@ -21583,6 +21629,10 @@
 		"modelId": "donal/Pro_Berta",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "donhuang/distilroberta-base-finetuned-game",
+		"private": false
 	},
 	{
 		"modelId": "donhuang/distilroberta-base-finetuned-wikitext2",
@@ -23769,6 +23819,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "flax-community/code-mt5-large",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "flax-community/dalle-mini",
 		"private": false
 	},
@@ -23926,9 +23981,18 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "flax-community/pino-bigbird-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "flax-community/pino-roberta-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/pino-test",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/portuguese-roberta-base",
@@ -23955,6 +24019,11 @@
 	},
 	{
 		"modelId": "flax-community/roberta-base-mr",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/roberta-base-scandinavian",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -23997,6 +24066,10 @@
 		"modelId": "flax-community/robit-roberta-base-it",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/spanish-t5-small",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/stylegan-medical",
@@ -33916,6 +33989,11 @@
 	},
 	{
 		"modelId": "huggingtweets/ponkichi_book",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/pontifex_es",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -48776,6 +48854,10 @@
 		"private": false
 	},
 	{
+		"modelId": "seongju/klue-tc-bert-base-multilingual-uncased",
+		"private": false
+	},
+	{
 		"modelId": "serdarakyol/interpress-turkish-news-classification",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -54231,6 +54313,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "w11wo/sundanese-bert-base-emotion-classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "w11wo/sundanese-roberta-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -55860,6 +55947,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "ysharma/dummy-model-3",
+		"private": false
+	},
+	{
 		"modelId": "ysharma/first-model-dummy",
 		"private": false
 	},
@@ -56454,86 +56545,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "donhuang/distilroberta-base-finetuned-game",
-		"private": false
-	},
-	{
-		"modelId": "ysharma/dummy-model-3",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/pino-test",
-		"private": false
-	},
-	{
-		"modelId": "cyan/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/pino-bigbird-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "amitkumar/NLP_models",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-geniusvoice",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-hetklokhuis",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-klokhuis",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-128-examples-split-2",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "flax-community/spanish-t5-small",
-		"private": false
-	},
-	{
-		"modelId": "MYX4567/model_name",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/pontifex_es",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/code-mt5-large",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Koshi-108/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "seongju/klue-tc-bert-base-multilingual-uncased",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/SRoBERTa-NER-Lite",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "AlekseyKorshuk/test-model",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-2",
-		"private": false
 	}
 ]
