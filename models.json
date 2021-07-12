@@ -15970,6 +15970,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "airKlizz/mt5-base-germeval21-toxic-with-task-specific-pretraining-and-data-augmentation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "airKlizz/mt5-base-germeval21-toxic-with-task-specific-pretraining",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -18769,6 +18774,10 @@
 	},
 	{
 		"modelId": "bionlp/bluebert_pubmed_uncased_L-24_H-1024_A-16",
+		"private": false
+	},
+	{
+		"modelId": "birgermoell/roberta-swedish-base",
 		"private": false
 	},
 	{
@@ -21855,6 +21864,16 @@
 	{
 		"modelId": "eason929/test",
 		"private": false
+	},
+	{
+		"modelId": "echarlaix/bart-base-cnn-r2-19.4-d35-hybrid",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "echarlaix/bert-large-uncased-whole-word-masking-finetuned-sst-2",
@@ -38991,6 +39010,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "keshan/wav2vec2-si-base",
+		"private": false
+	},
+	{
 		"modelId": "kevinfd/test",
 		"private": false
 	},
@@ -41765,6 +41788,10 @@
 		"modelId": "mofawzy/gpt2-arabic-sentence-generator",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "moghadas76/bert-base-uncased-finetuned-squad",
+		"private": false
 	},
 	{
 		"modelId": "moha/arabert_arabic_covid19",
@@ -49100,6 +49127,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "seyfullah/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "seyonec/BPE_SELFIES_PubChem_shard00_120k",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -54865,6 +54897,10 @@
 		"private": false
 	},
 	{
+		"modelId": "yguo50/bart-large-92",
+		"private": false
+	},
+	{
 		"modelId": "yhavinga/ckpt-100",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -56728,40 +56764,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "keshan/wav2vec2-si-base",
-		"private": false
-	},
-	{
-		"modelId": "echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "airKlizz/mt5-base-germeval21-toxic-with-task-specific-pretraining-and-data-augmentation",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "birgermoell/roberta-swedish-base",
-		"private": false
-	},
-	{
-		"modelId": "seyfullah/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "yguo50/bart-large-92",
-		"private": false
-	},
-	{
-		"modelId": "moghadas76/bert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "echarlaix/bart-base-cnn-r2-19.4-d35-hybrid",
-		"private": false
 	}
 ]
