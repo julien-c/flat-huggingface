@@ -11385,18 +11385,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-geniusvoice",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-hetklokhuis",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-klokhuis",
-		"private": false
-	},
-	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -56559,10 +56547,6 @@
 		"pipeline_tag": "summarization"
 	},
 	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-genius",
-		"private": false
-	},
-	{
 		"modelId": "AlexWortega/gpt3_small_sum_ru_gazeta",
 		"private": false
 	},
@@ -56593,15 +56577,29 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/roberta-base-danish",
 		"private": false
 	},
 	{
 		"modelId": "jegorkitskerkin/custom-bert-base-dutch-cased",
 		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/dummy_dataset",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/ckpt-2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "gchhablani/ckpt-3",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
