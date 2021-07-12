@@ -18686,11 +18686,6 @@
 		"private": false
 	},
 	{
-		"modelId": "birgermoell/ckpt-10",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "birgermoell/roberta-swedish-scandi",
 		"private": false
 	},
@@ -56556,6 +56551,11 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-5",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Ifenna/dbert-3epoch",
 		"private": false
 	},
 	{
@@ -56580,7 +56580,17 @@
 		"private": false
 	},
 	{
-		"modelId": "jaimin/Gujarati-Model",
+		"modelId": "gchhablani/ckpt-1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "MMG/xlm-roberta-large-ner-spanish",
 		"private": false
+	},
+	{
+		"modelId": "birgermoell/ckpt-10",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
