@@ -11415,10 +11415,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-klokhuis",
-		"private": false
-	},
-	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -14725,6 +14721,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "Tymoteusz/optics-articles-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "TypicaAI/magbert-lm",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -15952,6 +15953,16 @@
 		"modelId": "airKlizz/distilbart-multi-combine-wiki-news",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "airKlizz/gbert-base-germeval21-toxic-with-data-augmentation",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "airKlizz/gbert-base-germeval21-toxic",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "airKlizz/t5-base-multi-combine-wiki-news",
@@ -56697,5 +56708,14 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "airKlizz/mt5-base-germeval21-toxic",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-gv",
+		"private": false
 	}
 ]
