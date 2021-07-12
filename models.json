@@ -56638,17 +56638,13 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-ner-few-shot-16-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "gchhablani/ckpt-8",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "airKlizz/xlm-roberta-base-germeval21-toxic",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "gchhablani/ckpt-9",
@@ -56664,5 +56660,13 @@
 		"modelId": "gchhablani/ckpt-11",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "iocust/hor_gpt_neo",
+		"private": false
+	},
+	{
+		"modelId": "Jikiwa/random-model",
+		"private": false
 	}
 ]
