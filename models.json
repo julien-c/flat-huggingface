@@ -54348,7 +54348,8 @@
 	},
 	{
 		"modelId": "voidful/unifiedqg-bart-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "voidful/wav2vec2-large-xlsr-53-hk",
@@ -56723,10 +56724,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "JakeMSc/pegasus-large-finetuned-ts-and-cs",
-		"private": false
-	},
-	{
 		"modelId": "keshan/wav2vec2-si-base",
 		"private": false
 	},
@@ -56741,6 +56738,10 @@
 	},
 	{
 		"modelId": "birgermoell/roberta-swedish-base",
+		"private": false
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-geniusvoice",
 		"private": false
 	}
 ]
