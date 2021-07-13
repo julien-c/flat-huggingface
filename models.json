@@ -11699,11 +11699,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Rifky/BERT_QA",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "RifsxD/DialoGPT-medium-raifu",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -57025,7 +57020,8 @@
 	},
 	{
 		"modelId": "flax-community/norsk-gpt-wiki",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "AI4Afrika/bart-en-tw",
@@ -57063,6 +57059,10 @@
 	},
 	{
 		"modelId": "flax-community/nordic-roberta-wiki",
+		"private": false
+	},
+	{
+		"modelId": "wgpubs/finetuned-bert-mrpc",
 		"private": false
 	}
 ]
