@@ -569,9 +569,21 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "Andrija/SRoBERTa-base-oscar",
+		"private": false
+	},
+	{
 		"modelId": "Andrija/SRoBERTa",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Andrija/bert-base-cased-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Andrija/roberta-base-wikitext2",
+		"private": false
 	},
 	{
 		"modelId": "Annas/Oneshot-AI",
@@ -1091,6 +1103,11 @@
 		"modelId": "CogComp/bart-faithful-summary-detector",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Coldestadam/Breakout_Mentors_SpongeBob_Model",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "ComCom-Dev/gpt2-bible-test",
@@ -1845,6 +1862,10 @@
 	},
 	{
 		"modelId": "Frankie2666/twitter-roberta-base-sentiment",
+		"private": false
+	},
+	{
+		"modelId": "Fraser/ag_news",
 		"private": false
 	},
 	{
@@ -9674,6 +9695,15 @@
 		"private": false
 	},
 	{
+		"modelId": "JakeMSc/t5-base-finetuned-ts-and-cs",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "JakeMSc/t5-large-finetuned-ts-and-cs",
+		"private": false
+	},
+	{
 		"modelId": "Jamesr227/Mod-bot-ai-small",
 		"private": false
 	},
@@ -13876,6 +13906,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Surabhi/sentiment",
+		"private": false
+	},
+	{
 		"modelId": "SuryA708/Eye-lid",
 		"private": false
 	},
@@ -15110,6 +15144,10 @@
 	},
 	{
 		"modelId": "Yuriy/wer",
+		"private": false
+	},
+	{
+		"modelId": "YusufSahin99/Zork_AI_SciFi",
 		"private": false
 	},
 	{
@@ -20666,10 +20704,6 @@
 		"private": false
 	},
 	{
-		"modelId": "cyan/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
 		"modelId": "cyprste291274/DialoGPT-small-sheldon",
 		"private": false
 	},
@@ -21622,6 +21656,10 @@
 		"private": false
 	},
 	{
+		"modelId": "dk-crazydiv/bert-base-uncased",
+		"private": false
+	},
+	{
 		"modelId": "dk-crazydiv/myfirstmodel",
 		"private": false
 	},
@@ -21951,6 +21989,11 @@
 		"modelId": "egonzalez/model",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "ehdwns1516/klue-roberta-base-kornli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "elastic/distilbert-base-cased-finetuned-conll03-english",
@@ -23587,6 +23630,21 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "fgaim/bert-base-tigrinya",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "fgaim/roberta-base-ti-sentiment",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "fgaim/roberta-base-tigrinya",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "fgjmfyhj/aedgsvsrhdetjhdrthj",
 		"private": false
 	},
@@ -23933,6 +23991,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "flax-community/ft5-cnn-dm",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "flax-community/gpt-2-code-clippy",
 		"private": false
 	},
@@ -24082,6 +24145,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "flax-community/pino-roberta-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "flax-community/pino-test",
 		"private": false
 	},
@@ -24164,6 +24232,10 @@
 	},
 	{
 		"modelId": "flax-community/stylegan-medical",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/swe-gpt2-model",
 		"private": false
 	},
 	{
@@ -33716,6 +33788,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/onlinepete-recyrb",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/onlinepete-sematarygravemn-superpiss",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -37729,6 +37806,10 @@
 		"private": false
 	},
 	{
+		"modelId": "jephthah/pohikew",
+		"private": false
+	},
+	{
 		"modelId": "jeremy-vianai/test",
 		"private": false
 	},
@@ -41575,6 +41656,10 @@
 		"private": false
 	},
 	{
+		"modelId": "mingchen7/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "minhdang241/TAPT_distillBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -43775,6 +43860,14 @@
 		"private": false
 	},
 	{
+		"modelId": "nateraw/20210712-233718",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/20210712-234210",
+		"private": false
+	},
+	{
 		"modelId": "nateraw/aae-fraud-base-7",
 		"private": false
 	},
@@ -43883,6 +43976,10 @@
 	},
 	{
 		"modelId": "nateraw/resnext50_32x4d",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/test_model_a",
 		"private": false
 	},
 	{
@@ -44757,6 +44854,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "obiohagwu/Dialogpt-small-rick",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "oda/music5",
 		"private": false
 	},
@@ -45235,6 +45337,14 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "p4j4r0/Chat_Bot_GPT_Small_model",
+		"private": false
+	},
+	{
+		"modelId": "pabloarredondo/test",
+		"private": false
+	},
+	{
 		"modelId": "pakupoko/bizlin-distil-model",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -45478,6 +45588,10 @@
 		"modelId": "patrickvonplaten/t5-als",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "patrickvonplaten/t5-base-norwegian",
+		"private": false
 	},
 	{
 		"modelId": "patrickvonplaten/t5-pretraining-island",
@@ -49034,6 +49148,11 @@
 	{
 		"modelId": "seonghwayun/test-model",
 		"private": false
+	},
+	{
+		"modelId": "seongju/klue-tc-bert-base-multilingual-cased",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "serdarakyol/interpress-turkish-news-classification",
@@ -52675,6 +52794,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "thaalesalves/dialogpt-small-rick",
+		"private": false
+	},
+	{
 		"modelId": "thaalesalves/jurandir",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -53201,6 +53324,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "tscholak/cxmefzzi",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "tsuberim/kjhgfds",
 		"private": false
 	},
@@ -53242,6 +53370,11 @@
 		"modelId": "tugstugi/wav2vec2-large-xlsr-53-mongolian",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "tuhailong/cross-encoder",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "tuhailong/simcse_model",
@@ -54211,6 +54344,18 @@
 		"private": false
 	},
 	{
+		"modelId": "vijayv500/Rick_Sanchez_bot13",
+		"private": false
+	},
+	{
+		"modelId": "vijayv500/Rick_Sanchez_bot138",
+		"private": false
+	},
+	{
+		"modelId": "vijayv500/your-model-name",
+		"private": false
+	},
+	{
 		"modelId": "vinai/bertweet-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -54880,6 +55025,10 @@
 	},
 	{
 		"modelId": "yguo50/bart-large-92",
+		"private": false
+	},
+	{
+		"modelId": "yguo50/bart_large_92_0712",
 		"private": false
 	},
 	{
@@ -56746,158 +56895,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "YusufSahin99/Zork_AI_SciFi",
-		"private": false
-	},
-	{
-		"modelId": "p4j4r0/Chat_Bot_GPT_Small_model",
-		"private": false
-	},
-	{
-		"modelId": "fgaim/bert-base-tigrinya",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "jephthah/pohikew",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/bert-base-cased-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/roberta-base-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/SRoBERTa-base-oscar",
-		"private": false
-	},
-	{
-		"modelId": "fgaim/roberta-base-tigrinya",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "JakeMSc/t5-large-finetuned-ts-and-cs",
-		"private": false
-	},
-	{
-		"modelId": "JakeMSc/t5-base-finetuned-ts-and-cs",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "vijayv500/Rick_Sanchez_bot138",
-		"private": false
-	},
-	{
-		"modelId": "obiohagwu/Dialogpt-small-rick",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "tscholak/cxmefzzi",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "flax-community/swe-gpt2-model",
-		"private": false
-	},
-	{
-		"modelId": "dk-crazydiv/bert-base-uncased",
-		"private": false
-	},
-	{
-		"modelId": "fgaim/roberta-base-ti-sentiment",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Fraser/ag_news",
-		"private": false
-	},
-	{
-		"modelId": "yguo50/bart_large_92_0712",
-		"private": false
-	},
-	{
-		"modelId": "vijayv500/your-model-name",
-		"private": false
-	},
-	{
-		"modelId": "vijayv500/Rick_Sanchez_bot13",
-		"private": false
-	},
-	{
-		"modelId": "patrickvonplaten/t5-base-norwegian",
-		"private": false
-	},
-	{
-		"modelId": "pabloarredondo/test",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/pino-roberta-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "mingchen7/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "tuhailong/cross-encoder",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "seongju/klue-tc-bert-base-multilingual-cased",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "huggingtweets/onlinepete-recyrb",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "thaalesalves/dialogpt-small-rick",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/test_model_a",
-		"private": false
-	},
-	{
-		"modelId": "Surabhi/sentiment",
-		"private": false
-	},
-	{
-		"modelId": "ehdwns1516/klue-roberta-base-kornli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Coldestadam/Breakout_Mentors_SpongeBob_Model",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/ft5-cnn-dm",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "nateraw/20210712-233718",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/20210712-234210",
-		"private": false
 	}
 ]
