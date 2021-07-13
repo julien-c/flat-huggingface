@@ -17122,6 +17122,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-qa",
+		"private": false
+	},
+	{
 		"modelId": "andi611/roberta-base-ner",
 		"private": false
 	},
@@ -24323,6 +24327,11 @@
 		"modelId": "flax-community/roberta-pretraining-hindi",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/roberta-swahili-news-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "flax-community/roberta-swahili",
@@ -47723,6 +47732,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "ruby/wav2vec2-base-robust",
+		"private": false
+	},
+	{
 		"modelId": "ruishan-lin/investopedia-QnA",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -56977,12 +56990,28 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-qa",
-		"private": false
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_distilroberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "flax-community/roberta-swahili-news-classification",
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L12",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L6",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_mpnet-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_roberta-large",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
