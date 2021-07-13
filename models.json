@@ -56977,10 +56977,16 @@
 	},
 	{
 		"modelId": "JakeMSc/bart-large-finetuned-ts-and-cs",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa",
 		"private": false
+	},
+	{
+		"modelId": "wsunadawong/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
