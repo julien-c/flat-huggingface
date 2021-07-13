@@ -49042,7 +49042,8 @@
 	},
 	{
 		"modelId": "seongju/klue-tc-bert-base-multilingual-uncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "serdarakyol/interpress-turkish-news-classification",
@@ -56852,6 +56853,10 @@
 	},
 	{
 		"modelId": "flax-community/pino-roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "mingchen7/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
