@@ -56941,7 +56941,8 @@
 	},
 	{
 		"modelId": "Luciano/bertimbau-base-lener_br",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "cornelius/distilbert-base-uncased-finetuned-cola",
@@ -56954,11 +56955,24 @@
 	},
 	{
 		"modelId": "YusufSahin99/IFIS_ZORK_AI_SCIFI",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/ft5-rezero-base-openwebtext",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "sourabharsh/sourabharsh",
+		"private": false
+	},
+	{
+		"modelId": "sourabharsh/wav2vec2",
+		"private": false
+	},
+	{
+		"modelId": "clip-italian/clip-it-margin",
+		"private": false
 	}
 ]
