@@ -24200,7 +24200,8 @@
 	},
 	{
 		"modelId": "flax-community/git-t5-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt-2-code-clippy",
@@ -24361,8 +24362,7 @@
 	},
 	{
 		"modelId": "flax-community/papuGaPT2",
-		"private": false,
-		"pipeline_tag": "text-generation"
+		"private": false
 	},
 	{
 		"modelId": "flax-community/pino-base",
@@ -57234,5 +57234,22 @@
 		"modelId": "AlekseyKorshuk/demo2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "akr/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "koclip/koclip",
+		"private": false
+	},
+	{
+		"modelId": "scaperex/online-harassment-bert",
+		"private": false
+	},
+	{
+		"modelId": "scaperex/online-harassment-bert2",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
