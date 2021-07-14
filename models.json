@@ -385,6 +385,11 @@
 		"private": false
 	},
 	{
+		"modelId": "AI4Afrika/bart-en-tw",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "AIDA-UPM/mstsb-paraphrase-multilingual-mpnet-base-v2",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -9921,6 +9926,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Joseph-zhou/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "JoshObi94/GPT-Neo",
 		"private": false
 	},
@@ -10104,6 +10113,23 @@
 		"modelId": "KY/modeling_test_II",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "KakoSi/Smol",
+		"private": false
+	},
+	{
+		"modelId": "KakoSi/Smol12",
+		"private": false
+	},
+	{
+		"modelId": "KakoSi/Smol2",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "KakoSi/mmm3",
+		"private": false
 	},
 	{
 		"modelId": "Kal/Damen",
@@ -10594,10 +10620,6 @@
 		"modelId": "Maltehb/danish-bert-botxo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Maltehb/roberta-base-scandinavian",
-		"private": false
 	},
 	{
 		"modelId": "Mamatha/agri-gpt2",
@@ -11342,6 +11364,10 @@
 		"modelId": "PaulAdversarial/T5_PAN_Hate_Speech_Twitter_topic_ishatespeach",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Paulosknupp/teste_fin_port",
+		"private": false
 	},
 	{
 		"modelId": "Peltarion/xlm-roberta-longformer-base-4096",
@@ -13674,6 +13700,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "SauravMaheshkar/vit-base-patch16-imagenette",
+		"private": false
+	},
+	{
 		"modelId": "Saviour/ChandlerBot",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -15261,6 +15291,10 @@
 		"modelId": "ZYW/test-squad-trained",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Zach88/CLRP_ROBERTA_5",
+		"private": false
 	},
 	{
 		"modelId": "Zaid/wav2vec2-large-xlsr-53-arabic-egyptian",
@@ -17109,6 +17143,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-qa",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/roberta-base-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -17162,6 +17201,10 @@
 	},
 	{
 		"modelId": "angustay/helloworld",
+		"private": false
+	},
+	{
+		"modelId": "angxl/testing",
 		"private": false
 	},
 	{
@@ -18894,6 +18937,10 @@
 		"private": false
 	},
 	{
+		"modelId": "birgermoell/t5-base-swedish",
+		"private": false
+	},
+	{
 		"modelId": "birgermoell/wav2vec2-large-xlrs-estonian",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -19859,6 +19906,14 @@
 		"private": false
 	},
 	{
+		"modelId": "castorini/unicoil-d2q-msmarco-passage",
+		"private": false
+	},
+	{
+		"modelId": "castorini/unicoil-noexp-msmarco-passage",
+		"private": false
+	},
+	{
 		"modelId": "cataremix15/distilbert-tiln-proj",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -20045,6 +20100,14 @@
 		"modelId": "chkla/roberta-argument",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "chnyangs/bert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "chnyangs/distilbert-base-uncased-finetuned-cola",
+		"private": false
 	},
 	{
 		"modelId": "chompk/wav2vec2-large-xlsr-thai-tokenized",
@@ -21587,6 +21650,11 @@
 	},
 	{
 		"modelId": "deutsche-telekom/bert-multi-english-german-squad2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "deutsche-telekom/electra-base-de-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -24053,6 +24121,11 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/dansk-gpt-wiki",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "flax-community/dummy_dataset",
 		"private": false
 	},
@@ -24214,6 +24287,20 @@
 	},
 	{
 		"modelId": "flax-community/non-ar-generation",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/nordic-gpt-wiki",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/nordic-roberta-wiki",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/norsk-gpt-wiki",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -24403,6 +24490,10 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/vit-gpt2",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/vqgan_f16_16384",
 		"private": false
 	},
@@ -24429,6 +24520,31 @@
 	{
 		"modelId": "flax-community/wav2vec2-spanish",
 		"private": false
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L12",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L6",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_distilroberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_mpnet-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v3_roberta-large",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "flax-sentence-embeddings/st-codesearch-distilroberta-base",
@@ -38065,6 +38181,10 @@
 		"private": false
 	},
 	{
+		"modelId": "jinmang2/transformer-large-mt-ecjk",
+		"private": false
+	},
+	{
 		"modelId": "jirmauritz/bert-multilingual-emoji",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -39134,7 +39254,8 @@
 	},
 	{
 		"modelId": "keshan/sinhala-roberta-mc4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "keshan/sinhala-roberta-oscar",
@@ -39232,6 +39353,10 @@
 		"modelId": "klue/roberta-small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "kmeeraj/model_name",
+		"private": false
 	},
 	{
 		"modelId": "kmfoda/wav2vec2-large-xlsr-arabic",
@@ -41103,6 +41228,10 @@
 	},
 	{
 		"modelId": "matrix/test",
+		"private": false
+	},
+	{
+		"modelId": "matrix/test1",
 		"private": false
 	},
 	{
@@ -44541,6 +44670,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nisar009/similarity",
+		"private": false
+	},
+	{
 		"modelId": "nithinholla/wav2vec2-large-xlsr-53-dutch",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -45740,6 +45873,10 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-german-flax",
 		"private": false
 	},
 	{
@@ -54826,6 +54963,11 @@
 		"private": false
 	},
 	{
+		"modelId": "wgpubs/finetuned-bert-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "whisper/model_name",
 		"private": false
 	},
@@ -55105,6 +55247,10 @@
 	},
 	{
 		"modelId": "ycchen/macbert_large_drcd",
+		"private": false
+	},
+	{
+		"modelId": "ydshieh/vit-gpt2",
 		"private": false
 	},
 	{
@@ -56969,151 +57115,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "flax-sentence-embeddings/all_datasets_v3_distilroberta-base",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L12",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L6",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "flax-sentence-embeddings/all_datasets_v3_mpnet-base",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "flax-sentence-embeddings/all_datasets_v3_roberta-large",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "deutsche-telekom/electra-base-de-squad2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "patrickvonplaten/wav2vec2-german-flax",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/dansk-gpt-wiki",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/norsk-gpt-wiki",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "AI4Afrika/bart-en-tw",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "ydshieh/vit-gpt2",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/vit-gpt2",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/nordic-gpt-wiki",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "birgermoell/t5-base-swedish",
-		"private": false
-	},
-	{
-		"modelId": "castorini/unicoil-d2q-msmarco-passage",
-		"private": false
-	},
-	{
-		"modelId": "castorini/unicoil-noexp-msmarco-passage",
-		"private": false
-	},
-	{
-		"modelId": "Zach88/CLRP_ROBERTA_5",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/nordic-roberta-wiki",
-		"private": false
-	},
-	{
-		"modelId": "wgpubs/finetuned-bert-mrpc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "chnyangs/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "Joseph-zhou/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "chnyangs/bert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "KakoSi/Smol",
-		"private": false
-	},
-	{
-		"modelId": "angxl/testing",
-		"private": false
-	},
-	{
-		"modelId": "Paulosknupp/teste_fin_port",
-		"private": false
-	},
-	{
-		"modelId": "matrix/test1",
-		"private": false
-	},
-	{
-		"modelId": "KakoSi/Smol2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "KakoSi/mmm3",
-		"private": false
-	},
-	{
-		"modelId": "KakoSi/Smol12",
-		"private": false
-	},
-	{
-		"modelId": "nisar009/similarity",
-		"private": false
-	},
-	{
-		"modelId": "SauravMaheshkar/vit-base-patch16-imagenette",
-		"private": false
-	},
-	{
-		"modelId": "jinmang2/transformer-large-mt-ecjk",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-qa",
-		"private": false
-	},
-	{
-		"modelId": "kmeeraj/model_name",
+		"modelId": "Kyuyoung11/haremotions_audio_v1",
 		"private": false
 	}
 ]
