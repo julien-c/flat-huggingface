@@ -15233,7 +15233,8 @@
 	},
 	{
 		"modelId": "YusufSahin99/IFIS_ZORK_AI_HORROR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "YusufSahin99/IFIS_ZORK_AI_SCIFI",
@@ -17179,6 +17180,11 @@
 	{
 		"modelId": "andreas800/hgf_models",
 		"private": false
+	},
+	{
+		"modelId": "andrek/nb2nn",
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "andreylobach/ru_conversational_cased_L-12_H-768_A-12_pt",
@@ -57202,5 +57208,17 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "YusufSahin99/IFIS_ZORK_AI_MODERN",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/gpt2-oscar-es",
+		"private": false
+	},
+	{
+		"modelId": "amtam0/speech-timer",
+		"private": false
 	}
 ]
