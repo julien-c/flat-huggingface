@@ -1306,14 +1306,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Dat/Pino",
-		"private": false
-	},
-	{
-		"modelId": "Dat/pino-base",
-		"private": false
-	},
-	{
 		"modelId": "Dave/twomad-model",
 		"private": false
 	},
@@ -17122,7 +17114,8 @@
 	},
 	{
 		"modelId": "andi611/roberta-base-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "andreas800/hgf_models",
@@ -57065,5 +57058,17 @@
 		"modelId": "wgpubs/finetuned-bert-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "chnyangs/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Joseph-zhou/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "chnyangs/bert-base-uncased-finetuned-cola",
+		"private": false
 	}
 ]
