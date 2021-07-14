@@ -24410,7 +24410,7 @@
 	{
 		"modelId": "flax-community/t5-base-cnn-dm",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "flax-community/t5-base-dutch",
@@ -57166,7 +57166,8 @@
 	},
 	{
 		"modelId": "longcld/t5_small_checkpoint",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sehandev/distilbert-base-uncased-finetuned-squad",
@@ -57179,6 +57180,19 @@
 	},
 	{
 		"modelId": "YusufSahin99/IFIS_ZORK_AI_FANTASY",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sauravchakraborty/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "Nickis/distilgpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Nickis/distilroberta-base-finetuned-wikitext2",
 		"private": false
 	}
 ]
