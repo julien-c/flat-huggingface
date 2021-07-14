@@ -57144,10 +57144,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "proxyht/mdsister-news-100",
-		"private": false
-	},
-	{
 		"modelId": "csae8092/de_MRP_NER",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -57165,7 +57161,8 @@
 		"private": false
 	},
 	{
-		"modelId": "gsarti/t5-it-dummy",
-		"private": false
+		"modelId": "proxyht/mdsister-news-100",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
