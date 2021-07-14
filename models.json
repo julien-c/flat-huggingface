@@ -24060,10 +24060,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "flax-community/bengali-gpt2",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/bertin-roberta-large-es",
 		"private": false
 	},
@@ -57118,7 +57114,8 @@
 	},
 	{
 		"modelId": "flax-community/Sinhala-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "cstorm125/wangchan-deberta_v1-base-wiki-20210520-news-spm-finetune-qa",
@@ -57157,6 +57154,10 @@
 	},
 	{
 		"modelId": "Tahsin-Mayeesha/bart-base-xsum",
+		"private": false
+	},
+	{
+		"modelId": "Augustvember/WokkaBot",
 		"private": false
 	}
 ]
