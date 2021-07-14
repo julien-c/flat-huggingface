@@ -57261,7 +57261,7 @@
 	{
 		"modelId": "KakoSi/Smolm34",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "vhvk99/t5-small-finetuned-xsum",
@@ -57325,7 +57325,8 @@
 	},
 	{
 		"modelId": "unicamp-dl/ptt5-base-msmarco-pt-10k",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "baursafi/distilbert-base-uncased-finetuned-cola",
@@ -57335,5 +57336,18 @@
 		"modelId": "AlekseyKorshuk/output",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/theisaiahw",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "osanseviero/hubert_s3prl",
+		"private": false
+	},
+	{
+		"modelId": "Micky/gpt2-wikitext2",
+		"private": false
 	}
 ]
