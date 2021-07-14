@@ -17143,11 +17143,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-qa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "andi611/roberta-base-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -53515,6 +53510,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "tree-park/koclip",
+		"private": false
+	},
+	{
 		"modelId": "treeven88/gpt-neo-2.7B",
 		"private": false
 	},
@@ -57134,5 +57133,9 @@
 		"modelId": "cstorm125/wangchan-deberta_v1-base-wiki-20210520-news-spm-finetune-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa",
+		"private": false
 	}
 ]
