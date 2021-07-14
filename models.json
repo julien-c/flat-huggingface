@@ -737,6 +737,16 @@
 		"private": false
 	},
 	{
+		"modelId": "BSC-TeMU/roberta-base-bne",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "BSC-TeMU/roberta-large-bne",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Badr/model1",
 		"private": false
 	},
@@ -57261,7 +57271,7 @@
 	{
 		"modelId": "KakoSi/Smolm34",
 		"private": false,
-		"pipeline_tag": "conversational"
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "vhvk99/t5-small-finetuned-xsum",
