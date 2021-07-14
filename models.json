@@ -10511,11 +10511,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "M47Labs/question_answering_es",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "ML-ass/english_decoder",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -57176,5 +57171,10 @@
 	{
 		"modelId": "sehandev/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "M47Labs/qa_es_train",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
