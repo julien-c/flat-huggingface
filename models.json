@@ -599,21 +599,9 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "Andrija/SRoBERTa-base-oscar",
-		"private": false
-	},
-	{
 		"modelId": "Andrija/SRoBERTa",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Andrija/bert-base-cased-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/roberta-base-wikitext2",
-		"private": false
 	},
 	{
 		"modelId": "Annas/Oneshot-AI",
@@ -57578,7 +57566,8 @@
 	},
 	{
 		"modelId": "bertin-project/bertin-roberta-base-spanish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "google/rembert",
@@ -57619,6 +57608,15 @@
 	},
 	{
 		"modelId": "flax-community/multilingual-vqa-ft",
+		"private": false
+	},
+	{
+		"modelId": "viniaraujoo/bert_transparencia_brasil",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Andrija/SRoBERTaFastBPE",
 		"private": false
 	}
 ]
