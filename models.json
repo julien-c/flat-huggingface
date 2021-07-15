@@ -17181,7 +17181,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/roberta-base-ner",
@@ -57379,5 +57380,15 @@
 	{
 		"modelId": "KakoSi/opaazzi",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/skinny_pickens",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "longcld/t5_small_qg_ae_hl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
