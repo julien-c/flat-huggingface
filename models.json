@@ -57436,7 +57436,8 @@
 	},
 	{
 		"modelId": "AkshaySg/gramCorrection",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "andreymoisv/test-ru-gpt3",
@@ -57452,7 +57453,12 @@
 		"private": false
 	},
 	{
-		"modelId": "mehari/tig-bera",
+		"modelId": "Tejas3/distillbert_base_uncased_80_all",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "flax-community/multilingual-image-captioning",
 		"private": false
 	}
 ]
