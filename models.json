@@ -22189,7 +22189,8 @@
 	},
 	{
 		"modelId": "echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid",
@@ -57475,7 +57476,7 @@
 	{
 		"modelId": "toloka/t5-large-for-text-aggregation",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "asgadgdaf/text-generator-norge-1",
@@ -57503,15 +57504,7 @@
 		"private": false
 	},
 	{
-		"modelId": "Ramnathan/wav2vec2",
-		"private": false
-	},
-	{
 		"modelId": "khalidsaifullaah/gpt2-bengali-song-generation",
-		"private": false
-	},
-	{
-		"modelId": "facebook/wav2vec2-large-lv60-cv-switch-fisher",
 		"private": false
 	},
 	{
@@ -57523,15 +57516,19 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-qa-qa-with-ner",
+		"modelId": "facebook/wav2vec2-large-robust",
+		"private": false
+	},
+	{
+		"modelId": "Ramnathan/test",
+		"private": false
+	},
+	{
+		"modelId": "Ramnathan/wav2vec2",
 		"private": false
 	},
 	{
 		"modelId": "eli4s/Bert-L12-h384-A6",
-		"private": false
-	},
-	{
-		"modelId": "facebook/wav2vec2-large-robust",
 		"private": false
 	}
 ]
