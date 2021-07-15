@@ -24411,7 +24411,8 @@
 	},
 	{
 		"modelId": "flax-community/git-byt5-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/git-t5-base",
@@ -57618,5 +57619,15 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Peter/v2-base-qa-qg-hl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Peter/v2withspecial-base-qa-qg-hl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
