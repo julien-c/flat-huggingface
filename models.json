@@ -17310,7 +17310,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa",
@@ -24678,7 +24679,8 @@
 	},
 	{
 		"modelId": "flax-community/spanish-t5-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/stylegan-medical",
@@ -57538,5 +57540,9 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Sentdex/GPyT",
+		"private": false
 	}
 ]
