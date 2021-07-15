@@ -24546,7 +24546,8 @@
 	},
 	{
 		"modelId": "flax-community/multilingual-vqa-ft",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "flax-community/multilingual-vqa",
@@ -25468,7 +25469,8 @@
 	},
 	{
 		"modelId": "ghosh-r/bangla-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "giacomomiolo/biobert_reupload",
@@ -55581,7 +55583,8 @@
 	},
 	{
 		"modelId": "wsunadawong/claim_hugging",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "wsunadawong/counterargument_hugging",
@@ -57608,10 +57611,15 @@
 	},
 	{
 		"modelId": "uw-hai/tailor_private",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/clip-reply",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/gpt-code-clippy-1.3B-apps",
 		"private": false
 	}
 ]
