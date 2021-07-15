@@ -17309,11 +17309,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -24307,7 +24302,8 @@
 	},
 	{
 		"modelId": "flax-community/alberti-bert-base-multilingual-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/arabic-gpt-j-6b",
@@ -24325,7 +24321,8 @@
 	},
 	{
 		"modelId": "flax-community/bert-base-uncased-swahili",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/bertin-roberta-large-es",
@@ -55529,7 +55526,8 @@
 	},
 	{
 		"modelId": "wsunadawong/counterargument_hugging",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "wws/demo",
@@ -57547,6 +57545,10 @@
 	},
 	{
 		"modelId": "flax-community/gpt2-Cosmos",
+		"private": false
+	},
+	{
+		"modelId": "aguilara42/openl3-labeler-w-timestamps",
 		"private": false
 	}
 ]
