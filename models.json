@@ -57541,10 +57541,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Sentdex/GPyT",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/gpt2-Cosmos",
 		"private": false
 	},
@@ -57585,5 +57581,14 @@
 		"modelId": "flax-sentence-embeddings/reddit_single-context_mpnet-base",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "eli4s/Bert-L12-h240-A12",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Sentdex/GPyT",
+		"private": false
 	}
 ]
