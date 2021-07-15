@@ -24298,7 +24298,8 @@
 	},
 	{
 		"modelId": "flax-community/Sinhala-roberta",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/alberti-bert-base-multilingual-cased",
@@ -57554,5 +57555,25 @@
 	{
 		"modelId": "milan2000/model_name",
 		"private": false
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v4_MiniLM-L12",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v4_MiniLM-L6",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/all_datasets_v4_mpnet-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
