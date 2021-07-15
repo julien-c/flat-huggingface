@@ -57619,7 +57619,8 @@
 	},
 	{
 		"modelId": "echarlaix/bart-base-cnn-r2-18.7-d23-hybrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "bertin-project/bertin-base-random",
@@ -57631,6 +57632,10 @@
 	},
 	{
 		"modelId": "bertin-project/bertin-base-stepwise",
+		"private": false
+	},
+	{
+		"modelId": "anvaldesg/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
