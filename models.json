@@ -488,11 +488,6 @@
 		"private": false
 	},
 	{
-		"modelId": "AlekseyKorshuk/bert",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "AlekseyKorshuk/demo2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -11470,6 +11465,16 @@
 	{
 		"modelId": "Perezzini/vinci",
 		"private": false
+	},
+	{
+		"modelId": "Peter/v2-base-qa-qg-hl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Peter/v2withspecial-base-qa-qg-hl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "PeterH/Chatbot",
@@ -57619,15 +57624,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Peter/v2-base-qa-qg-hl",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Peter/v2withspecial-base-qa-qg-hl",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
 	}
 ]
