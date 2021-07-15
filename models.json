@@ -22343,10 +22343,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "eli4s/Bert-L12-h384-A6",
-		"private": false
-	},
-	{
 		"modelId": "eliasedwin7/MalayalamBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -24326,7 +24322,8 @@
 	},
 	{
 		"modelId": "flax-community/gpt-2-spanish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt-2-tamil",
@@ -57431,7 +57428,8 @@
 	},
 	{
 		"modelId": "sbmaruf/bengali_t5_base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "M47Labs/question_answering_es",
@@ -57513,11 +57511,27 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-finetuned-squad-qa-with-ner",
+		"modelId": "facebook/wav2vec2-large-lv60-cv-switch-fisher",
 		"private": false
 	},
 	{
-		"modelId": "facebook/wav2vec2-large-lv60-cv-switch-fisher",
+		"modelId": "flax-community/Sinhala-roberta",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/alberti-bert-base-multilingual-cased",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-qa-with-ner",
+		"private": false
+	},
+	{
+		"modelId": "eli4s/Bert-L12-h384-A6",
+		"private": false
+	},
+	{
+		"modelId": "facebook/wav2vec2-large-robust",
 		"private": false
 	}
 ]
