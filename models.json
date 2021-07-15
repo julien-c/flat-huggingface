@@ -37843,15 +37843,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "itthisakd/address-corrector",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "itthisakd/address-tokenizer",
-		"private": false
-	},
-	{
 		"modelId": "iuliaturc/bert_uncased_L-2_H-128_A-2",
 		"private": false
 	},
@@ -57429,10 +57420,16 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "sbmaruf/bengali_t5_base",
 		"private": false
 	},
 	{
 		"modelId": "M47Labs/question_answering_es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
