@@ -57609,16 +57609,16 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "uw-hai/tailor_private",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "flax-community/clip-reply",
 		"private": false
 	},
 	{
 		"modelId": "flax-community/gpt-code-clippy-1.3B-apps",
 		"private": false
+	},
+	{
+		"modelId": "allenai/tailor",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
