@@ -717,6 +717,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Augustvember/WokkaBot6",
+		"private": false
+	},
+	{
 		"modelId": "Augustvember/your-model-name",
 		"private": false
 	},
@@ -1085,6 +1089,11 @@
 		"modelId": "Chakita/Friends",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Chakita/KannadaBERT",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Charlotte/text2dm_models",
@@ -11402,6 +11411,14 @@
 		"private": false
 	},
 	{
+		"modelId": "OpeyemiOsakuade/model_name",
+		"private": false
+	},
+	{
+		"modelId": "OpeyemiOsakuade/naijaNER",
+		"private": false
+	},
+	{
 		"modelId": "OthmaneJ/distil-wav2vec2",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -15240,6 +15257,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "WindJ/hello_world_model",
+		"private": false
+	},
+	{
 		"modelId": "Wintermute/Wintermute",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -17337,6 +17358,10 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "andrek/nob2nno",
+		"private": false
+	},
+	{
 		"modelId": "andreylobach/ru_conversational_cased_L-12_H-768_A-12_pt",
 		"private": false
 	},
@@ -19178,6 +19203,10 @@
 		"modelId": "birgermoell/wav2vec2-luganda",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "birgermoell/wav2vec2-swe-asr-large",
+		"private": false
 	},
 	{
 		"modelId": "birgermoell/wav2vec2-swedish-common-voice",
@@ -22196,6 +22225,10 @@
 		"private": false
 	},
 	{
+		"modelId": "dreji18/en_core_keyprojects",
+		"private": false
+	},
+	{
 		"modelId": "drelso/word_embedding_baseline",
 		"private": false
 	},
@@ -24431,6 +24464,10 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/clip-rsicd",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/clip-spanish",
 		"private": false
 	},
@@ -24518,6 +24555,11 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/gpt-code-clippy-125M-bs2048-raw",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "flax-community/gpt-neo-1.3B-code-clippy-test-1",
 		"private": false
 	},
@@ -24528,6 +24570,11 @@
 	},
 	{
 		"modelId": "flax-community/gpt-neo-1.3B-persian",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/gpt-neo-1.3B-resized-embed",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -24582,6 +24629,11 @@
 	},
 	{
 		"modelId": "flax-community/gpt2-medium-persian",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/gpt2-persian-question-answering",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -24643,6 +24695,10 @@
 		"modelId": "flax-community/multilingual-vqa-ft",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "flax-community/multilingual-vqa-pt-45k-ft-adf",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/multilingual-vqa-pt-45k-ft",
@@ -24824,6 +24880,10 @@
 		"modelId": "flax-community/t5-base-dutch",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "flax-community/t5-base-dutch2",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/t5-base-openwebtext",
@@ -38107,6 +38167,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "itthisakd/pyadc2",
+		"private": false
+	},
+	{
 		"modelId": "iuliaturc/bert_uncased_L-2_H-128_A-2",
 		"private": false
 	},
@@ -39860,6 +39924,10 @@
 	},
 	{
 		"modelId": "kon007/waterfriend",
+		"private": false
+	},
+	{
+		"modelId": "korca/electra-large-discriminator-para100",
 		"private": false
 	},
 	{
@@ -45893,6 +45961,10 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "osanseviero/hubert_base",
+		"private": false
+	},
+	{
 		"modelId": "osanseviero/hubert_s3prl",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -47980,6 +48052,10 @@
 	},
 	{
 		"modelId": "readerbench/RoBERT-small",
+		"private": false
+	},
+	{
+		"modelId": "readerbench/RoGPT2-base",
 		"private": false
 	},
 	{
@@ -57798,81 +57874,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "flax-community/gpt-code-clippy-125M-bs2048-raw",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/multilingual-vqa-pt-45k-ft-adf",
-		"private": false
-	},
-	{
-		"modelId": "itthisakd/pyadc2",
-		"private": false
-	},
-	{
-		"modelId": "birgermoell/wav2vec2-swe-asr-large",
-		"private": false
-	},
-	{
-		"modelId": "OpeyemiOsakuade/model_name",
-		"private": false
-	},
-	{
-		"modelId": "OpeyemiOsakuade/naijaNER",
-		"private": false
-	},
-	{
-		"modelId": "WindJ/hello_world_model",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/gpt-neo-1.3B-resized-embed",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/t5-base-dutch2",
-		"private": false
-	},
-	{
-		"modelId": "Augustvember/WokkaBot6",
-		"private": false
-	},
-	{
-		"modelId": "Chakita/KannadaBERT",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "flax-community/gpt2-persian-question-answering",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "korca/electra-large-discriminator-para100",
-		"private": false
-	},
-	{
-		"modelId": "dreji18/en_core_keyprojects",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/clip-rsicd",
-		"private": false
-	},
-	{
-		"modelId": "readerbench/RoGPT2-base",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/hubert_base",
-		"private": false
-	},
-	{
-		"modelId": "andrek/nob2nno",
-		"private": false
 	}
 ]
