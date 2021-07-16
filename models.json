@@ -24073,7 +24073,8 @@
 	},
 	{
 		"modelId": "felixai/distilmbart-9-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "felixhusen/poem",
@@ -57943,8 +57944,13 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "pierric/ny-cr-fr-moved",
+		"modelId": "pierric/ny-cr-fr",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "huggingtweets/vishigondi",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
