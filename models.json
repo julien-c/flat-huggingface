@@ -940,7 +940,8 @@
 	},
 	{
 		"modelId": "BumBelDumBel/ZORK-AI-TEST",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-camelbert-ca",
@@ -22354,11 +22355,13 @@
 	},
 	{
 		"modelId": "echarlaix/bart-large-cnn-r2-19.6-d23-hybrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "echarlaix/bart-large-cnn-r2-20.3-d30-hybrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "echarlaix/bart-large-cnn-r2-21.0-d44-hybrid",
@@ -24625,7 +24628,8 @@
 	},
 	{
 		"modelId": "flax-community/gpt2-base-thai",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt2-bengali",
@@ -57935,7 +57939,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gchhablani/multilingual-vqa-pt-55k-ft",
+		"modelId": "Jikiwa/dummy-hf-hub",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/multilingual-vqa-pt-60k-ft",
 		"private": false
 	}
 ]
