@@ -1,9 +1,5 @@
 [
 	{
-		"modelId": "reshinthadith/transcoder-encoder-mlm-jc",
-		"private": false
-	},
-	{
 		"modelId": "albert-base-v1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -9832,6 +9828,10 @@
 	},
 	{
 		"modelId": "Jiayao/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "Jikiwa/dummy-hf-hub",
 		"private": false
 	},
 	{
@@ -22365,7 +22365,8 @@
 	},
 	{
 		"modelId": "echarlaix/bart-large-cnn-r2-21.0-d44-hybrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid",
@@ -24727,6 +24728,10 @@
 		"modelId": "flax-community/multilingual-vqa-pt-45k-ft",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "flax-community/multilingual-vqa-pt-60k-ft",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/multilingual-vqa",
@@ -48263,6 +48268,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "reshinthadith/transcoder-encoder-mlm-jc",
+		"private": false
+	},
+	{
 		"modelId": "reshinthadith/transcoder-java-cs",
 		"private": false
 	},
@@ -57937,13 +57946,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Jikiwa/dummy-hf-hub",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/multilingual-vqa-pt-60k-ft",
-		"private": false
 	}
 ]
