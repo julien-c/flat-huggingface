@@ -48052,7 +48052,8 @@
 	},
 	{
 		"modelId": "readerbench/RoGPT2-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "redewiedergabe/bert-base-historical-german-rw-cased",
@@ -57874,5 +57875,22 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "flax-community/NeuralODE_SDE",
+		"private": false
+	},
+	{
+		"modelId": "ntest/mmm",
+		"private": false
+	},
+	{
+		"modelId": "readerbench/RoGPT2-medium",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/viktar_babaryka",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
