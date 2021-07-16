@@ -24800,7 +24800,8 @@
 	},
 	{
 		"modelId": "flax-community/wav2vec2-spanish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "flax-sentence-embeddings/all_datasets_v3_MiniLM-L12",
@@ -38976,6 +38977,10 @@
 	},
 	{
 		"modelId": "joorock12/model-sid-voxforge-cv-cetuc-2",
+		"private": false
+	},
+	{
+		"modelId": "joorock12/wav2vec2-cetuc-sid-voxforge-mls-0-new",
 		"private": false
 	},
 	{
@@ -55592,7 +55597,8 @@
 	},
 	{
 		"modelId": "wsunadawong/evidence_hugging",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "wsunadawong/reasoning_hugging",
@@ -57635,5 +57641,22 @@
 		"modelId": "jeffx228/claim_hugging",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "nateraw/food",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "Augustvember/WokkaBot3",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/git-t5-v1_1-base",
+		"private": false
+	},
+	{
+		"modelId": "niji123/bert-glue-mrpc-test",
+		"private": false
 	}
 ]
