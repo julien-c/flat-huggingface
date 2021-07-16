@@ -1,5 +1,9 @@
 [
 	{
+		"modelId": "reshinthadith/transcoder-encoder-mlm-jc",
+		"private": false
+	},
+	{
 		"modelId": "albert-base-v1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -932,6 +936,10 @@
 	},
 	{
 		"modelId": "Bryson575x/riceboi",
+		"private": false
+	},
+	{
+		"modelId": "BumBelDumBel/ZORK-AI-TEST",
 		"private": false
 	},
 	{
@@ -19171,6 +19179,10 @@
 		"private": false
 	},
 	{
+		"modelId": "birgermoell/t5-swedish",
+		"private": false
+	},
+	{
 		"modelId": "birgermoell/wav2vec2-large-xlrs-estonian",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -22341,6 +22353,18 @@
 		"pipeline_tag": "summarization"
 	},
 	{
+		"modelId": "echarlaix/bart-large-cnn-r2-19.6-d23-hybrid",
+		"private": false
+	},
+	{
+		"modelId": "echarlaix/bart-large-cnn-r2-20.3-d30-hybrid",
+		"private": false
+	},
+	{
+		"modelId": "echarlaix/bart-large-cnn-r2-21.0-d44-hybrid",
+		"private": false
+	},
+	{
 		"modelId": "echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -24372,12 +24396,21 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "flax-community/GPT2-korean",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "flax-community/Image-captioning-Indonesia",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/IndoClip",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/NeuralODE_SDE",
 		"private": false
 	},
 	{
@@ -29017,6 +29050,11 @@
 	},
 	{
 		"modelId": "huggingtweets/ben_r_hoffman",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/benchestnut",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -37162,6 +37200,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/viktar_babaryka",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/vinesauce",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -42675,6 +42718,10 @@
 		"private": false
 	},
 	{
+		"modelId": "moghadas76/bert_qa",
+		"private": false
+	},
+	{
 		"modelId": "moha/arabert_arabic_covid19",
 		"private": false
 	},
@@ -45562,6 +45609,10 @@
 		"private": false
 	},
 	{
+		"modelId": "ntest/mmm",
+		"private": false
+	},
+	{
 		"modelId": "nthoangcute/vibert-base-cased",
 		"private": false
 	},
@@ -46654,6 +46705,10 @@
 		"modelId": "pere/norwegian-gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "pere/norwegian-gptneo-red",
+		"private": false
 	},
 	{
 		"modelId": "pere/norwegian-mt5",
@@ -48046,6 +48101,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "readerbench/RoGPT2-medium",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "redewiedergabe/bert-base-historical-german-rw-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -48190,6 +48250,10 @@
 		"private": false
 	},
 	{
+		"modelId": "reshinthadith/transcoder-dae-jc",
+		"private": false
+	},
+	{
 		"modelId": "reshinthadith/transcoder-dae-js-cs",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -48202,6 +48266,10 @@
 		"modelId": "reshinthadith/transcoder-js-cs",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "reshinthadith/transcoder-translate-jc",
+		"private": false
 	},
 	{
 		"modelId": "retiol/regarder",
@@ -57867,55 +57935,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "flax-community/NeuralODE_SDE",
-		"private": false
-	},
-	{
-		"modelId": "ntest/mmm",
-		"private": false
-	},
-	{
-		"modelId": "readerbench/RoGPT2-medium",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/viktar_babaryka",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "birgermoell/t5-swedish",
-		"private": false
-	},
-	{
-		"modelId": "moghadas76/bert_qa",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/GPT2-korean",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "echarlaix/bart-large-cnn-r2-21.0-d44-hybrid",
-		"private": false
-	},
-	{
-		"modelId": "echarlaix/bart-large-cnn-r2-20.3-d30-hybrid",
-		"private": false
-	},
-	{
-		"modelId": "echarlaix/bart-large-cnn-r2-19.6-d23-hybrid",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/benchestnut",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "pere/gptneo-red",
+		"modelId": "gchhablani/multilingual-vqa-pt-55k-ft",
 		"private": false
 	}
 ]
