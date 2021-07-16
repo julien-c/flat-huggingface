@@ -585,7 +585,8 @@
 	},
 	{
 		"modelId": "Andrija/SRoBERTaFastBPE-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Andrija/SRoBERTaFastBPE",
@@ -57962,6 +57963,10 @@
 	},
 	{
 		"modelId": "flax-community/t5-base-dutch-demo",
+		"private": false
+	},
+	{
+		"modelId": "mariagrandury/output",
 		"private": false
 	}
 ]
