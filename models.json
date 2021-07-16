@@ -10176,7 +10176,7 @@
 	{
 		"modelId": "KakoSi/opaazzi",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Kal/Damen",
@@ -57780,6 +57780,16 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "ehdwns1516/gpt3-kor-small_based_on_gpt2_review2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ehdwns1516/gpt3-kor-small_based_on_gpt2_review3",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "upper/pablito",
 		"private": false
 	},
@@ -57792,12 +57802,9 @@
 		"private": false
 	},
 	{
-		"modelId": "jegorkitskerkin/bert-base-dutch-cased-custom",
-		"private": false
-	},
-	{
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "cristinae/marian_caes2en",
@@ -57805,6 +57812,11 @@
 	},
 	{
 		"modelId": "ppletscher/dummy",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "munggok/image-captioning-marian",
 		"private": false
 	}
 ]
