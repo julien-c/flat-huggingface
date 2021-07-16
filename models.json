@@ -55401,7 +55401,8 @@
 	},
 	{
 		"modelId": "vumichien/wav2vec2-large-pitch-recognition",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "vumichien/wav2vec2-large-xlsr-japanese-hiragana",
@@ -57732,5 +57733,14 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingtweets/cristiano",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/t5-vae-wiki",
+		"private": false
 	}
 ]
