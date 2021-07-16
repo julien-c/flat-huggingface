@@ -57659,7 +57659,8 @@
 	},
 	{
 		"modelId": "liam168/qa-roberta-base-chinese-extractive",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "liam168/trans-opus-mt-en-zh",
@@ -57698,11 +57699,16 @@
 	},
 	{
 		"modelId": "flax-community/bert-swahili-news-classification",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "jeffx228/evidence_hugging",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "mehari/tig-roberta",
+		"private": false
 	}
 ]
