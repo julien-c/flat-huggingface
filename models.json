@@ -58192,7 +58192,8 @@
 	},
 	{
 		"modelId": "bertin-project/bertin-base-random-exp-512seqlen",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "MaryaAI/Helsinki-NLPopus-mt-en-ro-finetuned-en-to-ro",
@@ -58225,6 +58226,10 @@
 	},
 	{
 		"modelId": "ofir/test_model",
+		"private": false
+	},
+	{
+		"modelId": "imrit1999/DialoGPT-small-MCU",
 		"private": false
 	}
 ]
