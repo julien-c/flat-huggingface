@@ -10193,30 +10193,9 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "KakoSi/Smol2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "KakoSi/Smol35",
-		"private": false
-	},
-	{
-		"modelId": "KakoSi/Smolm3",
-		"private": false
-	},
-	{
 		"modelId": "KakoSi/Smolmm3",
 		"private": false,
 		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "KakoSi/Smolmmm3",
-		"private": false
-	},
-	{
-		"modelId": "KakoSi/finetuned-bert-mrpc",
-		"private": false
 	},
 	{
 		"modelId": "KakoSi/opaazzi",
@@ -58166,14 +58145,21 @@
 	},
 	{
 		"modelId": "sehandev/koelectra-long-qa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-filtered-no-resize-2048bs",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-2048",
 		"private": false
+	},
+	{
+		"modelId": "dreji18/en_pipeline",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
