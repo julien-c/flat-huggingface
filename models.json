@@ -24602,7 +24602,8 @@
 	},
 	{
 		"modelId": "flax-community/gpt-code-clippy-1.3B-apps-alldata",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/gpt-code-clippy-1.3B-apps",
@@ -58045,5 +58046,9 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "flax-community/gpt-code-clippy-125M-1024-filtered",
+		"private": false
 	}
 ]
