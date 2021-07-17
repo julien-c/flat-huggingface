@@ -10203,7 +10203,8 @@
 	},
 	{
 		"modelId": "KakoSi/Smolmm3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "KakoSi/Smolmmm3",
@@ -58058,15 +58059,21 @@
 		"private": false
 	},
 	{
-		"modelId": "paladinx00/DialoGPT-small-bender",
-		"private": false
-	},
-	{
 		"modelId": "rawat999/mb_melgan",
 		"private": false
 	},
 	{
 		"modelId": "flax-sentence-embeddings/mpnet_stackexchange_v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-QA_v1-mpnet-asymmetric-Q",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-QA_v1-mpnet-asymmetric-A",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	}
