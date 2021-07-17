@@ -15712,6 +15712,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "abinayam/gpt-2-tamil",
+		"private": false
+	},
+	{
 		"modelId": "abjbpi/DS_small",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -17355,6 +17359,10 @@
 		"modelId": "andi611/distilbert-base-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa",
@@ -20647,6 +20655,10 @@
 		"private": false
 	},
 	{
+		"modelId": "clip-italian/clip-italian-final",
+		"private": false
+	},
+	{
 		"modelId": "clip-italian/clip-italian",
 		"private": false
 	},
@@ -20761,10 +20773,6 @@
 		"modelId": "cointegrated/rut5-small",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "cola/distilbert-base-uncased-finetuned-ner",
-		"private": false
 	},
 	{
 		"modelId": "colorfulscoop/gpt2-small-ja",
@@ -22655,6 +22663,19 @@
 		"private": false
 	},
 	{
+		"modelId": "enriqueyanh/bert3",
+		"private": false
+	},
+	{
+		"modelId": "enriqueyanh/bert4",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "enriqueyanh/bert_finetuning_test",
+		"private": false
+	},
+	{
 		"modelId": "ensamblador/gpt2-derecha-with-bos-eos-48heads",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -24515,6 +24536,14 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/clip-rsicd-v3",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/clip-rsicd-v4",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/clip-rsicd",
 		"private": false
 	},
@@ -24598,6 +24627,11 @@
 	},
 	{
 		"modelId": "flax-community/gpt-2-tamil",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/gpt-code-clippy-1.3B-apps-alldata-2",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -40764,6 +40798,10 @@
 		"private": false
 	},
 	{
+		"modelId": "liano/vioan",
+		"private": false
+	},
+	{
 		"modelId": "liatwilight/sbert-ecom",
 		"private": false
 	},
@@ -42166,6 +42204,10 @@
 	},
 	{
 		"modelId": "meghanabhange/my-awesome-model",
+		"private": false
+	},
+	{
+		"modelId": "mehari/mdl",
 		"private": false
 	},
 	{
@@ -46395,6 +46437,11 @@
 	{
 		"modelId": "paladinx00/DialoGPT-small-bender",
 		"private": false
+	},
+	{
+		"modelId": "paladinx00/rh-bender",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "panggi/t5-base-indonesian-summarization-cased",
@@ -56082,6 +56129,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "wudi7758521521/model_name",
+		"private": false
+	},
+	{
 		"modelId": "wws/demo",
 		"private": false
 	},
@@ -56120,6 +56171,10 @@
 	},
 	{
 		"modelId": "xiaoguoer/bert-base-cased",
+		"private": false
+	},
+	{
+		"modelId": "xiejiafang/bert_finetuning_test",
 		"private": false
 	},
 	{
@@ -57990,6 +58045,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/bert-base-uncased-theme2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zhuqing/test",
 		"private": false
 	},
@@ -58093,59 +58153,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "paladinx00/rh-bender",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "liano/vioan",
+		"modelId": "reshinthadith/transcoder-translation",
 		"private": false
 	},
 	{
-		"modelId": "clip-italian/clip-italian-final",
-		"private": false
-	},
-	{
-		"modelId": "mehari/mdl",
-		"private": false
-	},
-	{
-		"modelId": "wudi7758521521/model_name",
-		"private": false
-	},
-	{
-		"modelId": "xiejiafang/bert_finetuning_test",
-		"private": false
-	},
-	{
-		"modelId": "enriqueyanh/bert_finetuning_test",
-		"private": false
-	},
-	{
-		"modelId": "enriqueyanh/bert3",
-		"private": false
-	},
-	{
-		"modelId": "zhuqing/bert-base-uncased-theme2",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "enriqueyanh/bert4",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "flax-community/gpt-code-clippy-1.3B-apps-alldata-2",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/clip-rsicd-v3",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
+		"modelId": "cola/chinese-address-ner",
 		"private": false
 	}
 ]
