@@ -15713,7 +15713,8 @@
 	},
 	{
 		"modelId": "abinayam/gpt-2-tamil",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "abjbpi/DS_small",
@@ -17390,7 +17391,8 @@
 	},
 	{
 		"modelId": "andrek/nob2nno",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "andreylobach/ru_conversational_cased_L-12_H-768_A-12_pt",
@@ -24858,11 +24860,6 @@
 		"modelId": "flax-community/papuGaPT2",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/pino-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "flax-community/pino-bigbird-base",
@@ -58154,10 +58151,24 @@
 	},
 	{
 		"modelId": "reshinthadith/transcoder-translation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "cola/chinese-address-ner",
+		"private": false
+	},
+	{
+		"modelId": "zhuqing/bert-base-uncased-theme1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/gpt2-swahili",
+		"private": false
+	},
+	{
+		"modelId": "sehandev/koelectra-long-qa",
 		"private": false
 	}
 ]
