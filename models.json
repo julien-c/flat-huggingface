@@ -10208,7 +10208,7 @@
 	{
 		"modelId": "KakoSi/Smolmm3",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "KakoSi/Smolmmm3",
@@ -19019,7 +19019,8 @@
 	},
 	{
 		"modelId": "bertin-project/bertin-base-gaussian",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "bertin-project/bertin-base-random",
@@ -58134,6 +58135,15 @@
 	},
 	{
 		"modelId": "flax-community/gpt-code-clippy-1.3B-apps-alldata-2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/clip-rsicd-v3",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
 		"private": false
 	}
 ]
