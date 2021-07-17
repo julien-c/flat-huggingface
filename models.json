@@ -38412,10 +38412,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "jaketae/bert-cola",
-		"private": false
-	},
-	{
 		"modelId": "jakobwes/xlm_roberta_squad_v1.1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -58165,10 +58161,19 @@
 	},
 	{
 		"modelId": "flax-community/gpt2-swahili",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "sehandev/koelectra-long-qa",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-filtered-no-resize-2048bs",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-2048",
 		"private": false
 	}
 ]
