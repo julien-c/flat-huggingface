@@ -24837,16 +24837,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "flax-community/pino-bigbird-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "flax-community/pino-roberta-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "flax-community/portuguese-roberta-base",
 		"private": false
 	},
@@ -58187,6 +58177,15 @@
 	},
 	{
 		"modelId": "wudi7758521521/kaikai_model",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/pino-bigbird-roberta-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/spanish-image-captioning",
 		"private": false
 	}
 ]
