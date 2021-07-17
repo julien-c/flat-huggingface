@@ -19027,7 +19027,8 @@
 	},
 	{
 		"modelId": "bertin-project/bertin-base-stepwise",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "bertin-project/bertin-roberta-base-spanish",
@@ -58128,6 +58129,11 @@
 	},
 	{
 		"modelId": "enriqueyanh/bert4",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/gpt-code-clippy-1.3B-apps-alldata-2",
 		"private": false
 	}
 ]
