@@ -24955,12 +24955,12 @@
 	{
 		"modelId": "flax-community/t5-base-dutch-demo",
 		"private": false,
-		"pipeline_tag": "summarization"
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/t5-base-dutch",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/t5-base-openwebtext",
@@ -58190,6 +58190,14 @@
 	},
 	{
 		"modelId": "flax-community/spanish-image-captioning",
+		"private": false
+	},
+	{
+		"modelId": "ghosh-r/robi-kobi",
+		"private": false
+	},
+	{
+		"modelId": "bertin-project/bertin-base-random-exp-512seqlen",
 		"private": false
 	}
 ]
