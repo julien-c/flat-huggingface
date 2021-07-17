@@ -368,6 +368,10 @@
 		"private": false
 	},
 	{
+		"modelId": "842458199/model_name",
+		"private": false
+	},
+	{
 		"modelId": "850886470/xxy_gpt2_chinese",
 		"private": false
 	},
@@ -15298,6 +15302,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Wzf/bert_fintuuing",
+		"private": false
+	},
+	{
 		"modelId": "Xia/albert",
 		"private": false
 	},
@@ -24610,6 +24618,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "flax-community/gpt-code-clippy-125M-1024-filtered",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/gpt-code-clippy-125M-256",
 		"private": false
 	},
@@ -24735,10 +24747,6 @@
 		"private": false
 	},
 	{
-		"modelId": "flax-community/koclip",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/medclip-roco",
 		"private": false
 	},
@@ -24750,6 +24758,14 @@
 		"modelId": "flax-community/mongolian-gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/mr-indicnlp-classifier",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/mr-inltk-classifier",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/multilingual-image-captioning",
@@ -25074,6 +25090,21 @@
 	},
 	{
 		"modelId": "flax-sentence-embeddings/all_datasets_v4_mpnet-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/mpnet_stackexchange_v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-QA_v1-mpnet-asymmetric-A",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-QA_v1-mpnet-asymmetric-Q",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
@@ -40052,6 +40083,10 @@
 		"private": false
 	},
 	{
+		"modelId": "koclip/koclip-large",
+		"private": false
+	},
+	{
 		"modelId": "koclip/koclip",
 		"private": false
 	},
@@ -40731,6 +40766,10 @@
 		"modelId": "liangxiaoxiao/bert_finetuning_test",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "liano/aura",
+		"private": false
 	},
 	{
 		"modelId": "liatwilight/sbert-ecom",
@@ -44670,6 +44709,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "munggok/image-captioning-marian",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "munggok/image-captioning",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -46355,6 +46399,10 @@
 		"modelId": "pakupoko/bizlin-distil-model",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "paladinx00/DialoGPT-small-bender",
+		"private": false
 	},
 	{
 		"modelId": "panggi/t5-base-indonesian-summarization-cased",
@@ -48126,6 +48174,10 @@
 		"private": false
 	},
 	{
+		"modelId": "rawat999/mb_melgan",
+		"private": false
+	},
+	{
 		"modelId": "ray1379/bio-convbert-medium-samll",
 		"private": false
 	},
@@ -48204,6 +48256,11 @@
 	},
 	{
 		"modelId": "readerbench/RoGPT2-base",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "readerbench/RoGPT2-large",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -58044,64 +58101,12 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "flax-community/gpt-code-clippy-125M-1024-filtered",
-		"private": false
-	},
-	{
-		"modelId": "Wzf/bert_fintuuing",
-		"private": false
-	},
-	{
-		"modelId": "rawat999/mb_melgan",
-		"private": false
-	},
-	{
-		"modelId": "flax-sentence-embeddings/mpnet_stackexchange_v1",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "flax-sentence-embeddings/multi-QA_v1-mpnet-asymmetric-Q",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "flax-sentence-embeddings/multi-QA_v1-mpnet-asymmetric-A",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "liano/aura",
-		"private": false
-	},
-	{
-		"modelId": "paladinx00/DialoGPT-small-bender",
-		"private": false
-	},
-	{
-		"modelId": "842458199/model_name",
-		"private": false
-	},
-	{
-		"modelId": "readerbench/RoGPT2-large",
+		"modelId": "paladinx00/rh-bender",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "koclip/koclip-large",
+		"modelId": "liano/vioan",
 		"private": false
-	},
-	{
-		"modelId": "flax-community/mr-inltk-classifier",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/mr-indicnlp-classifier",
-		"private": false
-	},
-	{
-		"modelId": "dreji18/en_pipeline",
-		"private": false,
-		"pipeline_tag": "token-classification"
 	}
 ]
