@@ -19179,10 +19179,6 @@
 		"private": false
 	},
 	{
-		"modelId": "birgermoell/roberta-swedish-base",
-		"private": false
-	},
-	{
 		"modelId": "birgermoell/roberta-swedish-scandi",
 		"private": false
 	},
@@ -19202,15 +19198,13 @@
 	},
 	{
 		"modelId": "birgermoell/swedish-gpt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "birgermoell/t5-base-swedish",
-		"private": false
-	},
-	{
-		"modelId": "birgermoell/t5-swedish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "birgermoell/wav2vec2-large-xlrs-estonian",
@@ -58111,10 +58105,6 @@
 		"private": false
 	},
 	{
-		"modelId": "enriqueyanh/bert_finetuning_test",
-		"private": false
-	},
-	{
 		"modelId": "birgermoell/swe-roberta-wiki-oscar",
 		"private": false
 	},
@@ -58124,6 +58114,22 @@
 	},
 	{
 		"modelId": "mehari/mdl",
+		"private": false
+	},
+	{
+		"modelId": "wudi7758521521/model_name",
+		"private": false
+	},
+	{
+		"modelId": "xiejiafang/bert_finetuning_test",
+		"private": false
+	},
+	{
+		"modelId": "enriqueyanh/bert_finetuning_test",
+		"private": false
+	},
+	{
+		"modelId": "enriqueyanh/bert3",
 		"private": false
 	}
 ]
