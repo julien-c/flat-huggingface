@@ -58362,7 +58362,8 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-finding",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-chemical",
@@ -58381,15 +58382,18 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-disorder",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-healthcare",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-laboratory",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-medical",
@@ -58414,5 +58418,14 @@
 	{
 		"modelId": "pucpr/clinicalnerpt-therapeutic",
 		"private": false
+	},
+	{
+		"modelId": "ifis-zork/IFIS_ZORK_AI_MEDIUM_SCIFI",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/heyarav",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
