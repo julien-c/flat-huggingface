@@ -38426,10 +38426,6 @@
 		"private": false
 	},
 	{
-		"modelId": "jacobshein/bert-danish-uncased-by-botxo",
-		"private": false
-	},
-	{
 		"modelId": "jaehyeong/koelectra-base-v3-finetuned-generalized-sentiment-analysis",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -42710,7 +42706,8 @@
 	},
 	{
 		"modelId": "mihaitensor/gpt2-large-romanian-cased-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "mikezhang95/layoutlm-base-chinese",
@@ -54659,7 +54656,8 @@
 	},
 	{
 		"modelId": "tuantt/GroundNet",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "tugstugi/bert-base-mongolian-cased",
@@ -56061,7 +56059,8 @@
 	},
 	{
 		"modelId": "wenrenbutong/model_name1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "westerkirk/t5-base-git-commit",
@@ -58270,6 +58269,14 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/morgenshtern",
+		"private": false
+	},
+	{
+		"modelId": "jacobshein/danish-bert-botxo-qa-squad",
 		"private": false
 	}
 ]
