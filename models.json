@@ -58233,7 +58233,8 @@
 	},
 	{
 		"modelId": "enriqueyanh/bert1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "imjustthatawsom/JoshuaBot_Test",
@@ -58245,10 +58246,19 @@
 	},
 	{
 		"modelId": "wudi7758521521/kaikai_model2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "tsosea/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Phaneendra/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "tsosea/bert-base-uncased-finetuned-cola",
 		"private": false
 	}
 ]
