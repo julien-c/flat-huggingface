@@ -58371,11 +58371,13 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-diagnostic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-disease",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-disorder",
@@ -58411,10 +58413,6 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-therapeutic",
-		"private": false
-	},
-	{
-		"modelId": "Eclipse/DialoGPT-neku",
 		"private": false
 	}
 ]
