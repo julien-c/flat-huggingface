@@ -58280,10 +58280,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ifis-zork/IFIS_ZORK_AI_LARGE_SCIFI",
-		"private": false
-	},
-	{
 		"modelId": "bertin-project/bertin-base-gaussian-exp-512seqlen",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -58291,5 +58287,27 @@
 	{
 		"modelId": "martodaniel/fafafa",
 		"private": false
+	},
+	{
+		"modelId": "dreji18/en_pipeline",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sehandev/koelectra-qa",
+		"private": false
+	},
+	{
+		"modelId": "RavenK/bert-base-uncased-fintune-sst2",
+		"private": false
+	},
+	{
+		"modelId": "Eclipse/DialoGPT-small-neku",
+		"private": false
+	},
+	{
+		"modelId": "RavenK/bert-base-fintune-sst2",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
