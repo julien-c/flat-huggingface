@@ -58317,10 +58317,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Eclipse/DialoGPT-small-neku",
-		"private": false
-	},
-	{
 		"modelId": "imvladikon/bert-base-uncased-jigsaw",
 		"private": false
 	},
@@ -58370,7 +58366,8 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-chemical",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-diagnostic",
@@ -58414,6 +58411,10 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-therapeutic",
+		"private": false
+	},
+	{
+		"modelId": "Eclipse/DialoGPT-neku",
 		"private": false
 	}
 ]
