@@ -17253,11 +17253,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-finetuned-squad-with-ner",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-ner-few-shot-128-examples-split-1",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -17361,11 +17356,6 @@
 		"modelId": "andi611/distilbert-base-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
-		"private": false,
-		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa",
@@ -58276,6 +58266,10 @@
 	},
 	{
 		"modelId": "akirasho/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
 		"private": false
 	}
 ]
