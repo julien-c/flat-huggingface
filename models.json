@@ -1593,11 +1593,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "DewiBrynJones/wav2vec2-large-xlsr-welsh",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
 		"modelId": "Dhruva/Interstellar",
 		"private": false
 	},
@@ -58295,19 +58290,25 @@
 	},
 	{
 		"modelId": "sehandev/koelectra-qa",
-		"private": false
-	},
-	{
-		"modelId": "RavenK/bert-base-uncased-fintune-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Eclipse/DialoGPT-small-neku",
 		"private": false
 	},
 	{
-		"modelId": "RavenK/bert-base-fintune-sst2",
+		"modelId": "RavenK/bert-base-uncased-sst2",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "adamlin/comet-atomic_2020_BART",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "adamlin/comet",
+		"private": false
 	}
 ]
