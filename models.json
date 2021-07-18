@@ -58397,7 +58397,8 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-medical",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-pharmacologic",
@@ -58427,5 +58428,9 @@
 		"modelId": "huggingtweets/heyarav",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Eclipse/DialoGPT-small-neku",
+		"private": false
 	}
 ]
