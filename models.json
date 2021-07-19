@@ -47878,66 +47878,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "pucpr/clininalnerpt-chemical",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-diagnostic",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-disease",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-disorders",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-finding",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-healthcare",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-laboratory",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-medical",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-pharmacologic",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-procedures",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-quantitative",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "pucpr/clininalnerpt-sign",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "pucpr/clininalnerpt-therapeutic",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -58339,7 +58279,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "huggingtweets/ellis_hughes",
@@ -58418,11 +58359,13 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-sign",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-therapeutic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "ifis-zork/IFIS_ZORK_AI_MEDIUM_SCIFI",
@@ -58474,6 +58417,14 @@
 	},
 	{
 		"modelId": "duarte465/good",
+		"private": false
+	},
+	{
+		"modelId": "gwkim22/domain_base2_disc",
+		"private": false
+	},
+	{
+		"modelId": "asahi417/question-generation-squad-t5-base",
 		"private": false
 	}
 ]
