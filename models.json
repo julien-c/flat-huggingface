@@ -58403,15 +58403,18 @@
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-pharmacologic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-procedure",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-quantitative",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "pucpr/clinicalnerpt-sign",
@@ -58458,5 +58461,19 @@
 		"modelId": "huggingtweets/datos_vivos",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/gpt-neo-125M-code-clippy-code-search-all",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/datos_vivos-pabloc_ds",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "duarte465/good",
+		"private": false
 	}
 ]
