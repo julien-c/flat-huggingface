@@ -58537,7 +58537,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-16-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "voidful/asr_hubert_cluster_bart_base",
@@ -58569,16 +58570,16 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "KennethEnevoldsen/da_dacy_small_tft",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "eugenesiow/a2n",
 		"private": false
 	},
 	{
 		"modelId": "eugenesiow/msrn",
 		"private": false
+	},
+	{
+		"modelId": "chcaa/da_dacy_small_tft",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
