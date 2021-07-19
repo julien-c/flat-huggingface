@@ -17418,11 +17418,6 @@
 		"private": false
 	},
 	{
-		"modelId": "andrek/md_submit",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
 		"modelId": "andrek/mt5_nor",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -58537,7 +58532,8 @@
 	},
 	{
 		"modelId": "voidful/tts_hubert_cluster_bart_base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-16-examples-split-2",
@@ -58545,7 +58541,8 @@
 	},
 	{
 		"modelId": "voidful/asr_hubert_cluster_bart_base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-cls_dot",
@@ -58563,6 +58560,25 @@
 	},
 	{
 		"modelId": "flax-sentence-embeddings/multi-qa_v1-mpnet-cls_dot",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-qa_v1-mpnet-mean_cos",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "KennethEnevoldsen/da_dacy_small_tft",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "eugenesiow/a2n",
+		"private": false
+	},
+	{
+		"modelId": "eugenesiow/msrn",
 		"private": false
 	}
 ]
