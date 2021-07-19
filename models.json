@@ -48726,6 +48726,10 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "rexvizsla/ShinoBotSmall",
+		"private": false
+	},
+	{
 		"modelId": "ricardo-filho/BERT-pt-faquad-finetuned-squad-v1.1-pt",
 		"private": false
 	},
@@ -58523,6 +58527,42 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-16-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-qa_v1-distilbert-mean_cos",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "voidful/tts_hubert_cluster_bart_base",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-16-examples-split-2",
+		"private": false
+	},
+	{
+		"modelId": "voidful/asr_hubert_cluster_bart_base",
+		"private": false
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-cls_dot",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "ragarwal/clip-roberta-ade20k",
+		"private": false
+	},
+	{
+		"modelId": "flax-sentence-embeddings/multi-qa_v1-mpnet-cls_dot",
 		"private": false
 	}
 ]
