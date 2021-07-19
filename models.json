@@ -58425,7 +58425,8 @@
 	},
 	{
 		"modelId": "liam168/sum-t5-small-chinese-cluecorpussmall",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/bengali-t5-large",
@@ -58435,5 +58436,10 @@
 	{
 		"modelId": "AdiShenoy0807/DialoGPT-medium-joshua",
 		"private": false
+	},
+	{
+		"modelId": "howey/bert-base-uncased-cloth",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
