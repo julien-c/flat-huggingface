@@ -1718,6 +1718,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Eclipse/DialoGPT-small-neku",
+		"private": false
+	},
+	{
 		"modelId": "Ed/Test",
 		"private": false
 	},
@@ -22293,7 +22297,8 @@
 	},
 	{
 		"modelId": "donhuang/game_roberta_finetuned_base_wwm",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "donix/HelloWorld",
@@ -24626,16 +24631,6 @@
 		"private": false
 	},
 	{
-		"modelId": "flax-community/code-mt5-large-batch-mix",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "flax-community/code-mt5-large",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "flax-community/code_clippy_data",
 		"private": false
 	},
@@ -25184,7 +25179,8 @@
 	},
 	{
 		"modelId": "flax-community/wav2vec2-dhivehi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "flax-community/wav2vec2-german",
@@ -58463,5 +58459,15 @@
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-128-examples-split-2",
 		"private": false
+	},
+	{
+		"modelId": "flax-community/code-mt5-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "flax-community/code-mt5-base-batch-mix",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
