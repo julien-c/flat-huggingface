@@ -26972,15 +26972,6 @@
 		"private": false
 	},
 	{
-		"modelId": "gsarti/electra-cord19-generator",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "gsarti/electra-msmarco-med-cord19-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "gsarti/scibert-nli",
 		"private": false
 	},
@@ -57744,10 +57735,26 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-64-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "trangdieu/bert-large-retrained-2-epochs",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "trangdieu/bert-large-retrained-4-epochs",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingartists/lil-nas-x",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "mnaylor/bioclinical-bert-finetuned-mtsamples",
 		"private": false
 	}
 ]
