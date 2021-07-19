@@ -25131,11 +25131,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "flax-community/t5-v1_1-base-dutch",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "flax-community/t5-v1_1-base-wikisplit",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -57682,7 +57677,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-128-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "naughtycult/cow-and-nerd-test",
@@ -57690,6 +57686,10 @@
 	},
 	{
 		"modelId": "enriqueyanh/bert_cn",
+		"private": false
+	},
+	{
+		"modelId": "naughtycult/my-awesome-model",
 		"private": false
 	}
 ]
