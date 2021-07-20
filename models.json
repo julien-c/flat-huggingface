@@ -1736,10 +1736,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Eclipse/DialoGPT-small-neku",
-		"private": false
-	},
-	{
 		"modelId": "Ed/Test",
 		"private": false
 	},
@@ -27192,11 +27188,6 @@
 	{
 		"modelId": "gsarti/scibert-nli",
 		"private": false
-	},
-	{
-		"modelId": "gsarti/t5-base-it",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "gsarti/t5-base-italian",
@@ -58003,5 +57994,10 @@
 	{
 		"modelId": "google-deepmind/alphafold-v2",
 		"private": false
+	},
+	{
+		"modelId": "gsarti/t5-base-it-training",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
