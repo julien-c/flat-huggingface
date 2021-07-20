@@ -24957,10 +24957,6 @@
 		"private": false
 	},
 	{
-		"modelId": "flax-community/clip-vision-bert-cc12m-multilingual",
-		"private": false
-	},
-	{
 		"modelId": "flax-community/code-mt5-base-batch-mix",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -38665,12 +38661,9 @@
 		"private": false
 	},
 	{
-		"modelId": "ifis-zork/IFIS_ZORK_AI_MEDIUM_MODERN",
-		"private": false
-	},
-	{
 		"modelId": "ifis-zork/ZORK_AI_FAN",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "igunathilake/bert-it",
@@ -58117,5 +58110,22 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "flax-community/multilingual-vqa-pt-ckpts",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/clip-vision-bert-cc12m-60k",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "ifis-zork/IFIS_ZORK_AI_MEDIUM_MODERN",
+		"private": false
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_FAN-1",
+		"private": false
 	}
 ]
