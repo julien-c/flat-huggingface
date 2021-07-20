@@ -565,6 +565,11 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "Amrrs/south-indian-foods",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "Amrrs/wav2vec2-large-xlsr-53-tamil",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -24957,6 +24962,11 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/clip-vision-bert-cc12m-60k",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "flax-community/code-mt5-base-batch-mix",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -25277,6 +25287,10 @@
 	},
 	{
 		"modelId": "flax-community/multilingual-vqa-pt-70k-ft",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/multilingual-vqa-pt-ckpts",
 		"private": false
 	},
 	{
@@ -38655,6 +38669,14 @@
 		"modelId": "ietz/comment-linking-distilbert-base-german-cased",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_FAN_TEMP",
+		"private": false
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_MODERN_A",
+		"private": false
 	},
 	{
 		"modelId": "igunathilake/bert-it",
@@ -58101,27 +58123,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "flax-community/multilingual-vqa-pt-ckpts",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/clip-vision-bert-cc12m-60k",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Amrrs/south-indian-foods",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_MODERN_A",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_FAN_TEMP",
-		"private": false
 	}
 ]
