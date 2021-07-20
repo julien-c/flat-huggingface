@@ -1390,6 +1390,14 @@
 		"private": false
 	},
 	{
+		"modelId": "DavidAMcIntosh/DialoGPT-small-rick",
+		"private": false
+	},
+	{
+		"modelId": "DavidAMcIntosh/small-rick",
+		"private": false
+	},
+	{
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-amharic",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -1692,6 +1700,11 @@
 		"modelId": "EMBO/sd-roles",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "EasthShin/Android_Ios_Classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "EasthShin/Klue-CommonSense-model",
@@ -9762,6 +9775,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "ItelAi/Chatbot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Ivo/emscad-skill-extraction-conference-token-classification",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -10858,6 +10876,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Mengliu/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "Merlinji/esperantoCL",
 		"private": false
 	},
@@ -10937,6 +10959,15 @@
 		"private": false
 	},
 	{
+		"modelId": "MoeZilla/Chatbot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "MoeZilla/Itel-chatbot",
+		"private": false
+	},
+	{
 		"modelId": "MohamedHesham/bart_base_subset_cnn",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -10955,6 +10986,10 @@
 		"modelId": "MohamedZaitoon/bart-fine-tune",
 		"private": false,
 		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "MonetCH/distilbert-base-uncased-finetuned-cola",
+		"private": false
 	},
 	{
 		"modelId": "MoritzLaurer/covid-policy-roberta-21",
@@ -17483,6 +17518,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-64-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-8-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -18189,9 +18229,26 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "asahi417/question-generation-squad-mt5-base",
+		"private": false
+	},
+	{
+		"modelId": "asahi417/question-generation-squad-mt5-small",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "asahi417/question-generation-squad-t5-base-qg",
+		"private": false
+	},
+	{
 		"modelId": "asahi417/question-generation-squad-t5-base",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "asahi417/question-generation-squad-t5-large",
+		"private": false
 	},
 	{
 		"modelId": "asahi417/question-generation-squad-t5-small",
@@ -18926,6 +18983,11 @@
 	{
 		"modelId": "banBitcoin/first",
 		"private": false
+	},
+	{
+		"modelId": "banalyst/wonder-egg",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "bandainamco-mirai/distilbert-base-japanese",
@@ -24745,6 +24807,10 @@
 		"private": false
 	},
 	{
+		"modelId": "flax-community/clip-vision-bert-cc12m-multilingual",
+		"private": false
+	},
+	{
 		"modelId": "flax-community/code-mt5-base-batch-mix",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -28086,6 +28152,11 @@
 	{
 		"modelId": "howardmiddleton382/esaerry",
 		"private": false
+	},
+	{
+		"modelId": "howey/bert-base-uncased-boolq",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "howey/bert-base-uncased-cloth",
@@ -51293,6 +51364,16 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "shreeshaaithal/DialoGPT-small-Michael-Scott",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "shreeshaaithal/whatsapp-medium-bot-2",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "shrugging-grace/tweetclassifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -53561,6 +53642,11 @@
 	{
 		"modelId": "sunhao666/chi-sum2",
 		"private": false
+	},
+	{
+		"modelId": "sunqq2008/sunqq-bert_finetunning",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "superspray/distilbert_base_squad2_custom_dataset",
@@ -56055,6 +56141,16 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "vesteinn/XLMr-ENIS-QA-Is",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "vesteinn/XLMr-ENIS-QA-IsQ-EnA",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "vesteinn/XLMr-ENIS",
 		"private": false
 	},
@@ -57760,6 +57856,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zroman/LaBSE-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "zroman/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
@@ -57773,106 +57873,6 @@
 	},
 	{
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "DavidAMcIntosh/DialoGPT-small-rick",
-		"private": false
-	},
-	{
-		"modelId": "zroman/LaBSE-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "vesteinn/XLMr-ENIS-QA-IsQ-EnA",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "vesteinn/XLMr-ENIS-QA-Is",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "shreeshaaithal/DialoGPT-small-Michael-Scott",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "shreeshaaithal/whatsapp-medium-bot-2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "ItelAi/Chatbot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "EasthShin/Android_Ios_Classification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Mengliu/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "asahi417/question-generation-squad-mt5-small",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "asahi417/question-generation-squad-mt5-base",
-		"private": false
-	},
-	{
-		"modelId": "asahi417/question-generation-squad-t5-large",
-		"private": false
-	},
-	{
-		"modelId": "asahi417/question-generation-squad-t5-base-qg",
-		"private": false
-	},
-	{
-		"modelId": "sunqq2008/sunqq-bert_finetunning",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "MoeZilla/Chatbot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "DavidAMcIntosh/small-rick",
-		"private": false
-	},
-	{
-		"modelId": "MoeZilla/Itel-chatbot",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/clip-vision-bert-cc12m-multilingual",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-64-examples-split-5",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "banalyst/wonder-egg",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "MonetCH/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "howey/bert-base-uncased-boolq",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
