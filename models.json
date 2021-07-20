@@ -22675,11 +22675,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ehdwns1516/gpt3-kor-small_based_on_gpt2_review1",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "ehdwns1516/klue-roberta-base-kornli",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -57829,7 +57824,8 @@
 	},
 	{
 		"modelId": "asahi417/question-generation-squad-mt5-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "asahi417/question-generation-squad-mt5-base",
@@ -57845,6 +57841,16 @@
 	},
 	{
 		"modelId": "sunqq2008/sunqq-bert_finetunning",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "MoeZilla/Chatbot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "DavidAMcIntosh/small-rick",
 		"private": false
 	}
 ]
