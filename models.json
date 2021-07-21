@@ -22626,10 +22626,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "donhuang/distilroberta-base-finetuned-game",
-		"private": false
-	},
-	{
 		"modelId": "donhuang/distilroberta-base-finetuned-wikitext2",
 		"private": false
 	},
@@ -58254,7 +58250,7 @@
 	{
 		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
 		"private": false,
-		"pipeline_tag": "zero-shot-classification"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Gabriel/msmarco-distilbert-base-swe",
@@ -58271,7 +58267,8 @@
 	},
 	{
 		"modelId": "eli4s/Bert-L12-h384-A6-pruned",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "ifis-zork/ZORK_AI_FANTASY",
@@ -58279,6 +58276,15 @@
 	},
 	{
 		"modelId": "UmeshSaini/IMDB_rating_of_movie",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/grapefried",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "seduerr/pai_wikisplit",
 		"private": false
 	}
 ]
