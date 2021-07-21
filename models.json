@@ -1168,6 +1168,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Clint/clinton",
+		"private": false
+	},
+	{
 		"modelId": "CodeNinja1126/bert-p-encoder",
 		"private": false
 	},
@@ -1981,6 +1985,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Fraser/wiki-vae",
+		"private": false
+	},
+	{
 		"modelId": "Fred/Cows",
 		"private": false
 	},
@@ -2039,6 +2047,16 @@
 	{
 		"modelId": "GHP/gpt2-fine-tuned",
 		"private": false
+	},
+	{
+		"modelId": "Gabriel/msmarco-distilbert-base-swe",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Gabriel/paraphrase-swe-mpnet-base-v2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Galuh/wav2vec2-large-xlsr-indonesian",
@@ -14038,6 +14056,10 @@
 		"private": false
 	},
 	{
+		"modelId": "ShinxisS/DialoGPT-Large-Neku",
+		"private": false
+	},
+	{
 		"modelId": "ShinxisS/DialoGPT-medium-Neku",
 		"private": false
 	},
@@ -14146,6 +14168,10 @@
 	},
 	{
 		"modelId": "Spidey8801/NLPTraining",
+		"private": false
+	},
+	{
+		"modelId": "Spirax/DialoGPT-medium-sheldon",
 		"private": false
 	},
 	{
@@ -15149,6 +15175,10 @@
 		"private": false
 	},
 	{
+		"modelId": "UmeshSaini/IMDB_rating_of_movie",
+		"private": false
+	},
+	{
 		"modelId": "Unbabel/mbart50-large-m2m_mlqe-pe",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -15988,6 +16018,10 @@
 	},
 	{
 		"modelId": "adamlin/bart-base_daily-all",
+		"private": false
+	},
+	{
+		"modelId": "adamlin/bart-base_topicalchat-3",
 		"private": false
 	},
 	{
@@ -19574,6 +19608,11 @@
 		"private": false
 	},
 	{
+		"modelId": "bipin/malayalam-news-classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "birgermoell/roberta-swedish-scandi",
 		"private": false
 	},
@@ -21551,6 +21590,10 @@
 		"private": false
 	},
 	{
+		"modelId": "cyatreya/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "cyprste291274/DialoGPT-small-sheldon",
 		"private": false
 	},
@@ -21648,6 +21691,10 @@
 	},
 	{
 		"modelId": "danielrama/QuestionAnswering",
+		"private": false
+	},
+	{
+		"modelId": "danlou/bert-base-uncased-finetuned-swag",
 		"private": false
 	},
 	{
@@ -22350,6 +22397,11 @@
 		"private": false
 	},
 	{
+		"modelId": "defex/distilgpt2-finetuned-amazon-reviews",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "deltaairlines/skyflytripscomlaxtojfk",
 		"private": false
 	},
@@ -22981,6 +23033,11 @@
 	},
 	{
 		"modelId": "eli4s/Bert-L12-h240-A12",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "eli4s/Bert-L12-h384-A6-pruned",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -32247,6 +32304,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/grapefried",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/grayvtuber",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -36794,6 +36856,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/snoopdogg",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/snooterboops",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -38724,6 +38791,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "ifis-zork/ZORK_AI_FANTASY",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "ifis-zork/ZORK_AI_FAN_TEMP",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -38735,6 +38807,15 @@
 	},
 	{
 		"modelId": "ifis-zork/ZORK_AI_MODERN_A",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_SCI_FI",
+		"private": false
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_SCI_FI_TEMP",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -41201,6 +41282,11 @@
 	},
 	{
 		"modelId": "lemon234071/ct5-small",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "lemon234071/t5-base-Chinese",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -49277,6 +49363,10 @@
 		"private": false
 	},
 	{
+		"modelId": "retiol/Infinite",
+		"private": false
+	},
+	{
 		"modelId": "retiol/regarder",
 		"private": false
 	},
@@ -49897,6 +49987,11 @@
 		"modelId": "salesken/translation-hi-en",
 		"private": false,
 		"pipeline_tag": "translation"
+	},
+	{
+		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "salilpn/wav2vec2-large-xlsr-53-marathi",
@@ -50624,6 +50719,11 @@
 	},
 	{
 		"modelId": "seduerr/pai_subject",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "seduerr/pai_wikisplit",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -51464,6 +51564,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sgugger/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "sgugger/finetuned-bert-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -51621,6 +51725,15 @@
 	},
 	{
 		"modelId": "shelly/bedrooms",
+		"private": false
+	},
+	{
+		"modelId": "shin/model_name",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "shin/sbert_20210721",
 		"private": false
 	},
 	{
@@ -54993,6 +55106,14 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "thomwolf/codeparrot-small-vocabulary",
+		"private": false
+	},
+	{
+		"modelId": "thomwolf/codeparrot",
+		"private": false
+	},
+	{
 		"modelId": "thomwolf/test-model",
 		"private": false
 	},
@@ -58216,122 +58337,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Gabriel/paraphrase-swe-mpnet-base-v2",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Gabriel/msmarco-distilbert-base-swe",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "shin/model_name",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "shin/sbert_20210721",
-		"private": false
-	},
-	{
-		"modelId": "defex/distilgpt2-finetuned-amazon-reviews",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "eli4s/Bert-L12-h384-A6-pruned",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_FANTASY",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "UmeshSaini/IMDB_rating_of_movie",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/grapefried",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "seduerr/pai_wikisplit",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "lemon234071/t5-base-Chinese",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingtweets/snoopdogg",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Fraser/wiki-vae",
-		"private": false
-	},
-	{
-		"modelId": "Clint/clinton",
-		"private": false
-	},
-	{
-		"modelId": "bipin/malayalam-news-classifier",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "adamlin/bart-base_topicalchat-3",
-		"private": false
-	},
-	{
-		"modelId": "danlou/bert-base-uncased-finetuned-swag",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_SCI_FI_TEMP",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ShinxisS/DialoGPT-Large-Neku",
-		"private": false
-	},
-	{
-		"modelId": "cyatreya/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "thomwolf/codeparrot",
-		"private": false
-	},
-	{
-		"modelId": "thomwolf/codeparrot-small-vocabulary",
-		"private": false
-	},
-	{
-		"modelId": "sgugger/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_SCI_FI",
-		"private": false
-	},
-	{
-		"modelId": "Spirax/DialoGPT-medium-sheldon",
-		"private": false
 	}
 ]
