@@ -14073,6 +14073,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Sideways/chadgoro",
+		"private": false
+	},
+	{
 		"modelId": "Sierra1669/DialoGPT-medium-Alice",
 		"private": false
 	},
@@ -16040,6 +16044,10 @@
 	},
 	{
 		"modelId": "adamlin/simple_baseline_10perc",
+		"private": false
+	},
+	{
+		"modelId": "adamlin/simple_baseline_5perc",
 		"private": false
 	},
 	{
@@ -18353,6 +18361,10 @@
 	},
 	{
 		"modelId": "arjunv786/a-fancy-model-name",
+		"private": false
+	},
+	{
+		"modelId": "arminarj/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	},
 	{
@@ -21110,6 +21122,11 @@
 	},
 	{
 		"modelId": "codevan/CDLM",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "codingJacob/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -24966,6 +24983,19 @@
 		"modelId": "flax-community/clip-vision-bert-cc12m-60k",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/clip-vision-bert-cc12m-70k",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "flax-community/clip-vision-bert-vqa-ft-6k",
+		"private": false
+	},
+	{
+		"modelId": "flax-community/clip-vit-base-patch32_mbart-large-50",
+		"private": false
 	},
 	{
 		"modelId": "flax-community/code-mt5-base-batch-mix",
@@ -30263,6 +30293,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/chiefkeef",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/childermass4",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -30919,6 +30954,11 @@
 	},
 	{
 		"modelId": "huggingtweets/decoratedboar",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/deddogoon",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -38672,7 +38712,25 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "ifis-zork/IFIS_ZORK_AI_MEDIUM_HORROR",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_FAN",
+		"private": false
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_FANTASY",
+		"private": false
+	},
+	{
 		"modelId": "ifis-zork/ZORK_AI_FAN_TEMP",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ifis-zork/ZORK_AI_MODERN",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39485,6 +39543,10 @@
 	},
 	{
 		"modelId": "jinbbong/esg-bert-ko",
+		"private": false
+	},
+	{
+		"modelId": "jinbbong/esg-bert-kor",
 		"private": false
 	},
 	{
@@ -46335,6 +46397,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nora/test",
+		"private": false
+	},
+	{
 		"modelId": "nostalgebraist/nostalgebraist-autoresponder-2_7b",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -49435,6 +49501,15 @@
 		"private": false
 	},
 	{
+		"modelId": "roschmid/favorite-cities",
+		"private": false
+	},
+	{
+		"modelId": "roschmid/favorite-dogs",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "royam0820/dummy-model",
 		"private": false
 	},
@@ -52093,6 +52168,10 @@
 		"modelId": "skt/kogpt2-base-v2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sky1ove/distilgpt2-finetuned-wikitext2",
+		"private": false
 	},
 	{
 		"modelId": "sky1ove/test",
@@ -58134,81 +58213,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "ifis-zork/ZORK_AI_MODERN",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/clip-vit-base-patch32_mbart-large-50",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_FAN",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_FANTASY",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/clip-vision-bert-vqa-ft-6k",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/IFIS_ZORK_AI_MEDIUM_HORROR",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Sideways/chadgoro",
-		"private": false
-	},
-	{
-		"modelId": "roschmid/favorite-cities",
-		"private": false
-	},
-	{
-		"modelId": "roschmid/favorite-dogs",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "nora/test",
-		"private": false
-	},
-	{
-		"modelId": "jinbbong/esg-bert-kor",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/chiefkeef",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/deddogoon",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "sky1ove/distilgpt2-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "arminarj/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/simple_baseline_5perc",
-		"private": false
-	},
-	{
-		"modelId": "codingJacob/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "flax-community/clip-vision-bert-cc12m-70k",
+		"modelId": "ehdwns1516/gpt3-kor-small_based_gpt2_reviewR3",
 		"private": false
 	}
 ]
