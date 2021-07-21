@@ -14531,7 +14531,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-mnli-2e-5-21",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-mnli-2e-5-63",
@@ -58356,7 +58357,8 @@
 	},
 	{
 		"modelId": "sgugger/esberto-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "danlou/aristo-roberta-finetuned-swag",
@@ -58384,12 +58386,17 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "Augustvember/WokkaBot8",
+		"private": false
+	},
+	{
+		"modelId": "AIDA-UPM/MSTSb_paraphrase-xlm-r-multilingual-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "w11wo/sundanese-gpt2-base-emotion-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Augustvember/WokkaBot8",
-		"private": false
 	}
 ]
