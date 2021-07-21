@@ -58213,31 +58213,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "ehdwns1516/gpt3-kor-small_based_gpt2_reviewR1",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ehdwns1516/gpt3-kor-small_based_gpt2_reviewR2",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ehdwns1516/gpt3-kor-small_based_gpt2_reviewR3",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ehdwns1516/gpt3-kor-small_based_gpt2_reviewR4",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ehdwns1516/gpt3-kor-small_based_gpt2_reviewR5",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "Gabriel/paraphrase-swe-mpnet-base-v2",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -58263,7 +58238,8 @@
 	},
 	{
 		"modelId": "defex/distilgpt2-finetuned-amazon-reviews",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "eli4s/Bert-L12-h384-A6-pruned",
@@ -58286,21 +58262,12 @@
 	},
 	{
 		"modelId": "seduerr/pai_wikisplit",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "lemon234071/t5-base-Chinese",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "ehdwns1516/testModel_gpt_example1",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ehdwns1516/testModel_gpt_example2",
-		"private": false,
-		"pipeline_tag": "text-generation"
 	}
 ]
