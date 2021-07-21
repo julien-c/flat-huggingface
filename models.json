@@ -58250,10 +58250,15 @@
 	{
 		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
 		"private": false,
-		"pipeline_tag": "sentence-similarity"
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Gabriel/msmarco-distilbert-base-swe",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "shin/model_name",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
