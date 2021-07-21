@@ -46093,6 +46093,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "nguyenvulebinh/vi-mrc-large",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "nicocesar/helloworld",
 		"private": false
 	},
@@ -58245,10 +58250,12 @@
 	},
 	{
 		"modelId": "Gabriel/paraphrase-swe-mpnet-base-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
