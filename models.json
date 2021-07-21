@@ -25419,7 +25419,8 @@
 	},
 	{
 		"modelId": "flax-community/papuGaPT2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "flax-community/pino-bigbird-roberta-base",
@@ -58346,6 +58347,11 @@
 	},
 	{
 		"modelId": "huggingartists/mia-boyka",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "danlou/albert-xxlarge-v2-finetuned-swag",
 		"private": false
 	}
 ]
