@@ -38723,14 +38723,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "ifis-zork/ZORK_AI_FAN",
-		"private": false
-	},
-	{
-		"modelId": "ifis-zork/ZORK_AI_FANTASY",
-		"private": false
-	},
-	{
 		"modelId": "ifis-zork/ZORK_AI_FAN_TEMP",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -58262,7 +58254,7 @@
 	{
 		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "Gabriel/msmarco-distilbert-base-swe",
@@ -58270,11 +58262,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "shin/model_name",
+		"modelId": "shin/sbert_20210721",
 		"private": false
 	},
 	{
-		"modelId": "shin/sbert_20210721",
+		"modelId": "defex/distilgpt2-finetuned-amazon-reviews",
 		"private": false
 	}
 ]
