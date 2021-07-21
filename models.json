@@ -14171,10 +14171,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Spirax/DialoGPT-medium-sheldon",
-		"private": false
-	},
-	{
 		"modelId": "Sreejith/back-and-forth",
 		"private": false
 	},
@@ -58416,7 +58412,7 @@
 	{
 		"modelId": "SilentMyuth/bob",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "bgfruna/double-bart-ensemble-squad2",
@@ -58429,6 +58425,7 @@
 	},
 	{
 		"modelId": "jial/distilroberta-base-finetuned-trove",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
