@@ -24996,7 +24996,8 @@
 	},
 	{
 		"modelId": "flax-community/clip-vit-base-patch32_mbart-large-50",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "flax-community/code-mt5-base-batch-mix",
@@ -58305,6 +58306,18 @@
 	},
 	{
 		"modelId": "cyatreya/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "thomwolf/codeparrot",
+		"private": false
+	},
+	{
+		"modelId": "thomwolf/codeparrot-small-vocabulary",
+		"private": false
+	},
+	{
+		"modelId": "sgugger/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	}
 ]
