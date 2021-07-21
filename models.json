@@ -1033,6 +1033,11 @@
 		"private": false
 	},
 	{
+		"modelId": "CZWin32768/xlm-align",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Callidior/bert2bert-base-arxiv-titlegen",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -24991,7 +24996,8 @@
 	},
 	{
 		"modelId": "flax-community/clip-vision-bert-vqa-ft-6k",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "flax-community/clip-vit-base-patch32_mbart-large-50",
@@ -58257,5 +58263,13 @@
 		"modelId": "salesken/xlm-roberta-base-finetuned-mnli-cross-lingual-transfer",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Gabriel/msmarco-distilbert-base-swe",
+		"private": false
+	},
+	{
+		"modelId": "shin/sbert_20210721",
+		"private": false
 	}
 ]
