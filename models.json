@@ -51831,7 +51831,8 @@
 	},
 	{
 		"modelId": "shivam12/t5_small_pubmed",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "shivamaggr/exploring",
@@ -58427,5 +58428,10 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingtweets/alicefromqueens",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
