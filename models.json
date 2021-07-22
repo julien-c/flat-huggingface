@@ -25319,22 +25319,7 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "flax-community/gpt-neo-125M-code-clippy-code-search-all",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/gpt-neo-125M-code-clippy-code-search-py",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-2048",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-filtered-no-resize-2048bs",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -58743,5 +58728,20 @@
 		"modelId": "roschmid/dog-races",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "flax-community/gpt-cc-125M-code-search-all",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/gpt-cc-125M-code-search-py",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flax-community/gpt-cc-125M-dedup",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
