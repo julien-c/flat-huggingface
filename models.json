@@ -58640,10 +58640,16 @@
 	},
 	{
 		"modelId": "M47Labs/summarization_es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-1-examples-split-4",
 		"private": false
+	},
+	{
+		"modelId": "Wataru/T5-base-ja-open2ch-dialogue",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
