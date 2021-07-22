@@ -9714,7 +9714,8 @@
 	},
 	{
 		"modelId": "IMSyPP/hate_speech_slo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ITworkonline/twitter_tac_model",
@@ -58614,7 +58615,8 @@
 	},
 	{
 		"modelId": "huggingartists/eminem",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Gabriel/paraphrase-multi-mpnet-base-atkins",
@@ -58629,5 +58631,9 @@
 		"modelId": "Gabriel/paraphrase-swe-mpnet-base-atkins",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "merit/distilbert-base-uncased-finetuned-ner",
+		"private": false
 	}
 ]
