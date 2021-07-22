@@ -14613,7 +14613,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-mnli-2e-5-63",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-mnli-2e-5",
@@ -58675,6 +58676,20 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-3-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-8-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "retiol/mytv",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-8-examples-split-4",
 		"private": false
 	}
 ]
