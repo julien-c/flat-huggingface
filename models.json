@@ -39680,10 +39680,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "jial/Trove-BERT",
-		"private": false
-	},
-	{
 		"modelId": "jieun/senti_model",
 		"private": false
 	},
@@ -58645,11 +58641,21 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-1-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Wataru/T5-base-ja-open2ch-dialogue",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-1-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-3-examples-split-2",
+		"private": false
 	}
 ]
