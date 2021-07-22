@@ -49749,15 +49749,6 @@
 		"private": false
 	},
 	{
-		"modelId": "roschmid/favorite-cities",
-		"private": false
-	},
-	{
-		"modelId": "roschmid/favorite-dogs",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
 		"modelId": "royam0820/dummy-model",
 		"private": false
 	},
@@ -58711,7 +58702,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-16-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Peter/in_g_2",
@@ -58719,6 +58711,19 @@
 	},
 	{
 		"modelId": "Niva/Trove-BERT-AR",
+		"private": false
+	},
+	{
+		"modelId": "roschmid/dog-races-v2",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "jial/Trove-BERT-AR",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-qa-with-ner-few-shot-16-examples-split-5",
 		"private": false
 	}
 ]
