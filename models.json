@@ -58529,7 +58529,7 @@
 	{
 		"modelId": "sonoisa/sentence-bert-base-ja-mean-tokens",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "feature-extraction"
 	},
 	{
 		"modelId": "affjljoo3581/albert-xlarge-v1",
@@ -58542,6 +58542,7 @@
 	},
 	{
 		"modelId": "Pyjay/gpt2-medium-dutch-finetuned-text-generation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
