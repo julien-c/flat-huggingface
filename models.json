@@ -59028,7 +59028,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-cola-2e-5-21",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "adamlin/recipe-tag-model",
@@ -59050,6 +59051,20 @@
 	},
 	{
 		"modelId": "huggingtweets/herialc",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/lana_ray_dale",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "TehranNLP-org/bert-base-uncased-avg-cola-2e-5-63",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/cryptolith_-drilbot_neo-rusticgendarme",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
