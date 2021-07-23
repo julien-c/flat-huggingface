@@ -59103,7 +59103,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-avg-cola-2e-5-42",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-avg-cola-2e-5-63",
@@ -59132,5 +59133,10 @@
 	{
 		"modelId": "Aspect11/DialoGPT-Medium-LiSBot",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/mistercoolrock",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
