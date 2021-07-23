@@ -21876,22 +21876,6 @@
 		"private": false
 	},
 	{
-		"modelId": "danlou/aristo-roberta-finetuned-swag",
-		"private": false
-	},
-	{
-		"modelId": "danlou/bert-base-uncased-finetuned-csqa",
-		"private": false
-	},
-	{
-		"modelId": "danlou/bert-base-uncased-finetuned-swag",
-		"private": false
-	},
-	{
-		"modelId": "danlou/roberta-base-finetuned-swag",
-		"private": false
-	},
-	{
 		"modelId": "danmargs/alb3rt0-bv-v1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -58863,10 +58847,25 @@
 	},
 	{
 		"modelId": "Unbabel/tlm-roberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "danlou/roberta-large-finetuned-csqa-ih",
 		"private": false
+	},
+	{
+		"modelId": "danlou/albert-xxlarge-v2-finetuned-csqa-ih",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/aevaeavaevevave",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/mjrotoni",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
