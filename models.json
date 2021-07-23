@@ -58809,7 +58809,8 @@
 	},
 	{
 		"modelId": "rifkat/pubchem_1M",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "affjljoo3581/funnel-transformer-intermediate-base",
@@ -58846,5 +58847,9 @@
 		"modelId": "chcaa/da_dacy_large_trf",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "danlou/aristo-roberta-finetuned-csqa-ih",
+		"private": false
 	}
 ]
