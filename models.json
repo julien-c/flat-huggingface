@@ -58866,11 +58866,13 @@
 	},
 	{
 		"modelId": "Unbabel/mbart-m2m-wmt21-qe",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-cola-2e-5-42",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-cola-2e-5-21",
@@ -58905,5 +58907,10 @@
 	{
 		"modelId": "juanmsuarez/conll2003",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/cryptolith_-rusticgendarme",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
