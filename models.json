@@ -11792,7 +11792,8 @@
 	},
 	{
 		"modelId": "Pyjay/bert-base-dutch-cased-sentence-transformers",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Pyjay/gpt2-medium-dutch-finetuned-text-generation",
@@ -59154,5 +59155,25 @@
 	{
 		"modelId": "dnlbreen/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/daramgaria",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/jimlbsp",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/clamtime-daramgaria-ledgeguard",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/lazar181",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
