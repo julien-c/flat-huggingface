@@ -699,10 +699,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Aspect11/DialoGPT-Medium-LiSBot",
-		"private": false
-	},
-	{
 		"modelId": "Atampy26/GPT-Glacier",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -50436,10 +50432,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "saied/test-gpt-persian-medium",
-		"private": false
-	},
-	{
 		"modelId": "sajjad/edge",
 		"private": false
 	},
@@ -59106,7 +59098,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-avg-cola-2e-5-21",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-avg-cola-2e-5-42",
@@ -59125,5 +59118,19 @@
 	{
 		"modelId": "Josmar/BART_Finetuned_CNN_dailymail",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/canarymission-islamphobiacow",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Aspect11/DialoGPT-Medium-LiSBot",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/timheadadvocate",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
