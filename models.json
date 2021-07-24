@@ -17992,11 +17992,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-qa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "andi611/roberta-base-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -23613,6 +23608,11 @@
 	{
 		"modelId": "erayyildiz/electra-turkish-cased",
 		"private": false
+	},
+	{
+		"modelId": "erica/kc_900",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "erica/kcbase400",
@@ -59337,7 +59337,8 @@
 	},
 	{
 		"modelId": "pere/norwegian-t5-base-NCC",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "yohowa/thejewishrobot",
@@ -59567,6 +59568,17 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-128-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "huggingtweets/raels_lamia",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
