@@ -59307,21 +59307,18 @@
 	},
 	{
 		"modelId": "sultan/BioM-ELECTRA-Base-SQuAD2-BioASQ8B",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sultan/BioM-ELECTRA-Large-SQuAD2-BioASQ8B",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "huggingartists/nirvana",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Greg1901/fine_tuned_bert",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingartists/the-weeknd",
@@ -59332,5 +59329,18 @@
 		"modelId": "Greg1901/BertSummaDev_AFD",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "cointegrated/rubert-tiny-toxicity",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "pere/norwegian-t5-base-NCC",
+		"private": false
+	},
+	{
+		"modelId": "Greg1901/BertSummaDev",
+		"private": false
 	}
 ]
