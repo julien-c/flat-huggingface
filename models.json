@@ -39308,11 +39308,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "imthanhlv/t5-base-vi",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "imthanhlv/t5-small-vi",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -59037,7 +59032,8 @@
 	},
 	{
 		"modelId": "adamlin/recipe-tag-model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "huggingtweets/jdianora",
