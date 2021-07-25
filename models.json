@@ -59699,7 +59699,13 @@
 	},
 	{
 		"modelId": "ForutanRad/bert-fa-QA-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "m3hrdadfi/wav2vec2-large-xlsr-persian-v3",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "topal36jkm/DialoGPT",
@@ -59709,5 +59715,23 @@
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner",
 		"private": false
+	},
+	{
+		"modelId": "retiol/regarderferrt",
+		"private": false
+	},
+	{
+		"modelId": "topal36jkm/test",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Win-Win-option/RuT5-finetuned",
+		"private": false
+	},
+	{
+		"modelId": "diiogo/roberta-test",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
