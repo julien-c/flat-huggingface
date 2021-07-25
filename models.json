@@ -2772,6 +2772,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "HVH/RainGAN",
+		"private": false
+	},
+	{
 		"modelId": "Hadron/DialoGPT-medium-nino",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -59760,7 +59764,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-8-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "flax-community/gpt-neo-125M-code-clippy-dedup-scratch",
@@ -59769,6 +59774,18 @@
 	},
 	{
 		"modelId": "Unbabel/xlm-roberta-wmt-metrics-da",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-16-examples-split-2",
+		"private": false
+	},
+	{
+		"modelId": "Greenisha/TestModel",
+		"private": false
+	},
+	{
+		"modelId": "Ajteks/Chatbot",
 		"private": false
 	}
 ]
