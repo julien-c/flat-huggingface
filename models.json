@@ -59714,7 +59714,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "retiol/regarderferrt",
@@ -59734,12 +59735,9 @@
 		"private": false
 	},
 	{
-		"modelId": "sambotx4/sambot",
-		"private": false
-	},
-	{
 		"modelId": "adamlin/zero-shot-domain_cls",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "longcld/t5_small_squad_trans_old",
@@ -59747,7 +59745,7 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "sambotx4/sam_bot",
+		"modelId": "sambotx4/sam",
 		"private": false
 	}
 ]
