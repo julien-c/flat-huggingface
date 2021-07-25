@@ -59814,7 +59814,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-128-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "huggingtweets/jackbutcher-paikcapital-thedankoe",
@@ -59825,5 +59826,9 @@
 		"modelId": "huggingtweets/unkledell",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
+		"private": false
 	}
 ]
