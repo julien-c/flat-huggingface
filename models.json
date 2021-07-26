@@ -557,11 +557,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Alireza1044/cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Alireza1044/dwight_bert_lm",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -605,11 +600,6 @@
 	{
 		"modelId": "Andres2015/HiggingFaceTest",
 		"private": false
-	},
-	{
-		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
-		"private": false,
-		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Andrija/RobertaFastBPE",
@@ -59924,19 +59914,9 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "gabtan99/dialogpt-medium-tagalog-10",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "EasthShin/Emotion-Classification-bert-base",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "gabtan99/dialogpt-medium-tagalog",
-		"private": false,
-		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "M47Labs/information_extraction",
@@ -59944,21 +59924,40 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "gabtan99/dialogpt-medium-tagalog-20",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "gabtan99/dialogpt-medium-tagalog-30",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "zoeozone/zoeflux",
 		"private": false
 	},
 	{
 		"modelId": "zhihao/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-20",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-30",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-10",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "M47Labs/sts_es",
 		"private": false
 	}
 ]
