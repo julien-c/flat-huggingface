@@ -18170,7 +18170,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner",
@@ -59964,5 +59965,9 @@
 		"modelId": "Alireza1044/stsb",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "DCU-NLP/bert-base-irish-cased-v1",
+		"private": false
 	}
 ]
