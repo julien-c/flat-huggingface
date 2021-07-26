@@ -59967,7 +59967,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "nishmithaur/distilbert-base-uncased-finetuned-ner",
@@ -59983,12 +59984,25 @@
 		"private": false
 	},
 	{
-		"modelId": "Alireza1044/mrpc",
+		"modelId": "helena-balabin/stonkgs-base",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "helena-balabin/stonkgs-base",
+		"modelId": "helena-balabin/stonkgs-large",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-rte",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
 		"private": false
 	}
 ]
