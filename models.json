@@ -25557,11 +25557,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "flax-community/clip-vision-bert-vqa-ft-6k",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "flax-community/clip-vit-base-patch32_marian-es",
 		"private": false
 	},
@@ -59892,6 +59887,21 @@
 	},
 	{
 		"modelId": "Edomonndo/opus-mt-ja-en-finetuned-ja-to-en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Rifky/indobert-lite-base-p2-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "flax-community/clip-vision-bert-vqa-ft-6k",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "topal36jkm/Maya",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
