@@ -47797,7 +47797,8 @@
 	},
 	{
 		"modelId": "nishmithaur/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "nithinholla/wav2vec2-large-xlsr-53-dutch",
@@ -59984,7 +59985,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Altidore/DuggFace",
@@ -60002,5 +60004,22 @@
 		"modelId": "Ebtihal/AraDiaBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "DCU-NLP/electra-base-irish-cased-generator-v1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "pbyrne96/PB_RESEARCH_MODEL",
+		"private": false
+	},
+	{
+		"modelId": "JungleCruise/JungleCruise_",
+		"private": false
 	}
 ]
