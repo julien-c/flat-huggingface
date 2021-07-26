@@ -552,6 +552,26 @@
 		"private": false
 	},
 	{
+		"modelId": "Alireza1044/albert-base-v2-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-rte",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-stsb",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Alireza1044/bert_classification_lm",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -565,6 +585,10 @@
 		"modelId": "Alireza1044/michael_bert_lm",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Alireza1044/sst2",
+		"private": false
 	},
 	{
 		"modelId": "Amir99/toxic",
@@ -1191,6 +1215,10 @@
 		"private": false
 	},
 	{
+		"modelId": "ChauhanVipul/BERT",
+		"private": false
+	},
+	{
 		"modelId": "Cheatham/EU-JAV",
 		"private": false
 	},
@@ -1368,6 +1396,11 @@
 		"modelId": "CuongLD/wav2vec2-large-xlsr-vietnamese",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "DCU-NLP/bert-base-irish-cased-v1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "DHBaek/gpt2-stackoverflow-question-contents-generator",
@@ -1774,6 +1807,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "EasthShin/Emotion-Classification-bert-base",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "EasthShin/Klue-CommonSense-model",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -1804,6 +1842,10 @@
 	},
 	{
 		"modelId": "Ed/Test",
+		"private": false
+	},
+	{
+		"modelId": "Edomonndo/opus-mt-en-ro-finetuned-en-to-ro",
 		"private": false
 	},
 	{
@@ -10777,6 +10819,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "M47Labs/information_extraction",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "M47Labs/qa_es_train",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -10785,6 +10832,14 @@
 		"modelId": "M47Labs/question_answering_es",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "M47Labs/similarity_es",
+		"private": false
+	},
+	{
+		"modelId": "M47Labs/sts_es",
+		"private": false
 	},
 	{
 		"modelId": "M47Labs/summarization_es",
@@ -11528,6 +11583,11 @@
 	{
 		"modelId": "Noricum/wav2vec2-large-xlsr-53-german",
 		"private": false
+	},
+	{
+		"modelId": "Norod78/distilgpt2-base-pretrained-he",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Norod78/english-sienfeld-distilgpt2",
@@ -18167,6 +18227,20 @@
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-8-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
@@ -26713,6 +26787,26 @@
 		"private": false
 	},
 	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-10",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-20",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-30",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "gael1130/gael_first_model",
 		"private": false
 	},
@@ -28609,6 +28703,14 @@
 	},
 	{
 		"modelId": "helboukkouri/character-bert",
+		"private": false
+	},
+	{
+		"modelId": "helena-balabin/stonkgs-base",
+		"private": false
+	},
+	{
+		"modelId": "helena-balabin/stonkgs-large",
 		"private": false
 	},
 	{
@@ -32777,6 +32879,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/farid_0v",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/fartydoodooman",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -33293,6 +33400,11 @@
 	},
 	{
 		"modelId": "huggingtweets/gonnhead",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/goodtweet_man",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -47726,6 +47838,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nishmithaur/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "nithinholla/wav2vec2-large-xlsr-53-dutch",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -58696,6 +58812,10 @@
 		"private": false
 	},
 	{
+		"modelId": "wowhdmovie/d",
+		"private": false
+	},
+	{
 		"modelId": "wowhdmovie/dff",
 		"private": false
 	},
@@ -59756,6 +59876,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zhihao/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "zhiheng-huang/bert-base-uncased-embedding-relative-key-query",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -59835,6 +59959,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zoeozone/zoeflux",
+		"private": false
+	},
+	{
 		"modelId": "zoeozone/zoeozone",
 		"private": false
 	},
@@ -59890,133 +60018,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "huggingtweets/farid_0v",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/goodtweet_man",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Edomonndo/opus-mt-en-ro-finetuned-en-to-ro",
-		"private": false
-	},
-	{
-		"modelId": "ChauhanVipul/BERT",
-		"private": false
-	},
-	{
-		"modelId": "Norod78/distilgpt2-base-pretrained-he",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "EasthShin/Emotion-Classification-bert-base",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "M47Labs/information_extraction",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "zoeozone/zoeflux",
-		"private": false
-	},
-	{
-		"modelId": "zhihao/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/albert-base-v2-cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "gabtan99/dialogpt-tagalog-medium-20",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "gabtan99/dialogpt-tagalog-medium-30",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "gabtan99/dialogpt-tagalog-medium",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "gabtan99/dialogpt-tagalog-medium-10",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "M47Labs/sts_es",
-		"private": false
-	},
-	{
-		"modelId": "DCU-NLP/bert-base-irish-cased-v1",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "nishmithaur/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/albert-base-v2-stsb",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wowhdmovie/d",
-		"private": false
-	},
-	{
-		"modelId": "helena-balabin/stonkgs-base",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/albert-base-v2-mrpc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "helena-balabin/stonkgs-large",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/albert-base-v2-rte",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Alireza1044/sst2",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
-		"private": false
-	},
-	{
-		"modelId": "M47Labs/similarity_es",
-		"private": false
 	}
 ]
