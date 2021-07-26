@@ -640,10 +640,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "Andrija/SRoBERTa-base-NER",
-		"private": false
-	},
-	{
 		"modelId": "Andrija/SRoBERTa-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -60048,6 +60044,15 @@
 	},
 	{
 		"modelId": "nikhilawsdeploy/bert-base-nli-mean-tokens",
+		"private": false
+	},
+	{
+		"modelId": "Andrija/SRoBERTa-base-NER",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "tbrasil/classificador_de_atendimento_3_classes_v1.1",
 		"private": false
 	}
 ]
