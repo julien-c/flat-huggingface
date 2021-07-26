@@ -60077,7 +60077,8 @@
 	},
 	{
 		"modelId": "MarshallCharles/bartlargemnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "bayartsogt/structbert-large",
@@ -60117,6 +60118,10 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-2",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/s3prl-sd-hubert-dummy",
 		"private": false
 	}
 ]
