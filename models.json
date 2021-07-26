@@ -588,7 +588,8 @@
 	},
 	{
 		"modelId": "Alireza1044/sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Amir99/toxic",
@@ -18240,7 +18241,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
@@ -29668,50 +29670,6 @@
 	{
 		"modelId": "hugggof/ConvTasNet_WHAM_sepclean",
 		"private": false
-	},
-	{
-		"modelId": "huggingartists/billie-eilish",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/eminem",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/kanye-west",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/lil-nas-x",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/mia-boyka",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/morgenshtern",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/nirvana",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/pop-smoke",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/the-weeknd",
-		"private": false,
-		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists-app/drake",
@@ -60018,5 +59976,17 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingartists/kanye-west",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "Altidore/DuggFace",
+		"private": false
 	}
 ]
