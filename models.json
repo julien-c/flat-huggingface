@@ -592,6 +592,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Altidore/DuggFace",
+		"private": false
+	},
+	{
 		"modelId": "Amir99/toxic",
 		"private": false
 	},
@@ -634,6 +638,10 @@
 		"modelId": "Andrija/SRoBERTa-NLP",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Andrija/SRoBERTa-base-NER",
+		"private": false
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-base",
@@ -1404,6 +1412,15 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "DCU-NLP/electra-base-irish-cased-discriminator-v1",
+		"private": false
+	},
+	{
+		"modelId": "DCU-NLP/electra-base-irish-cased-generator-v1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "DHBaek/gpt2-stackoverflow-question-contents-generator",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -1823,6 +1840,11 @@
 	},
 	{
 		"modelId": "Ebtihal/ArBERTMo",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Ebtihal/AraDiaBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -2617,6 +2639,10 @@
 		"modelId": "Geotrend/bert-base-zh-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-25lang-cased",
+		"private": false
 	},
 	{
 		"modelId": "Gev/test",
@@ -10262,6 +10288,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "JungleCruise/JungleCruise_",
+		"private": false
+	},
+	{
 		"modelId": "JunzheJosephZhu/MultiDecoderDPRNN",
 		"private": false
 	},
@@ -10826,6 +10856,11 @@
 	},
 	{
 		"modelId": "M47Labs/qa_es_train",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "M47Labs/qa_train_2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -18235,9 +18270,23 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-64-examples-split-1",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
@@ -22525,6 +22574,10 @@
 		"modelId": "daveni/twitter-xlm-roberta-emotion-es",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "davidsun/bert_finetuned",
+		"private": false
 	},
 	{
 		"modelId": "dawoodkhan82/test",
@@ -29670,6 +29723,11 @@
 	{
 		"modelId": "hugggof/ConvTasNet_WHAM_sepclean",
 		"private": false
+	},
+	{
+		"modelId": "huggingartists/kanye-west",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists-app/drake",
@@ -49128,6 +49186,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "pbyrne96/PB_RESEARCH_MODEL",
+		"private": false
+	},
+	{
 		"modelId": "pchanda/pretrained-smiles-pubchem10m",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -59069,6 +59131,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "yihan/test",
+		"private": false
+	},
+	{
 		"modelId": "yihanlin/scibert_scivocab_uncased",
 		"private": false
 	},
@@ -59977,59 +60043,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "huggingartists/kanye-west",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Altidore/DuggFace",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/SRoBERTa-base-NER",
-		"private": false
-	},
-	{
-		"modelId": "DCU-NLP/electra-base-irish-cased-discriminator-v1",
-		"private": false
-	},
-	{
-		"modelId": "Ebtihal/AraDiaBERT",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "DCU-NLP/electra-base-irish-cased-generator-v1",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "pbyrne96/PB_RESEARCH_MODEL",
-		"private": false
-	},
-	{
-		"modelId": "JungleCruise/JungleCruise_",
-		"private": false
-	},
-	{
-		"modelId": "M47Labs/qa_train_2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "davidsun/bert_finetuned",
-		"private": false
 	}
 ]
