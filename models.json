@@ -587,11 +587,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Alireza1044/sst2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Altidore/DuggFace",
 		"private": false
 	},
@@ -60077,7 +60072,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "MarshallCharles/bartlargemnli",
@@ -60095,7 +60091,8 @@
 	},
 	{
 		"modelId": "Felipehonorato/storIA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "songhee/kobart",
@@ -60107,6 +60104,15 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-uk-cased",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-sst2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "coderpotter/tokenizer",
 		"private": false
 	}
 ]
