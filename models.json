@@ -640,6 +640,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "Andrija/SRoBERTa-base-NER",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Andrija/SRoBERTa-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -45086,6 +45091,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "mkmoisio/xml-r-cross-lingual-english-finnish-sts",
+		"private": false
+	},
+	{
 		"modelId": "mkrigba/FreeTextSIG",
 		"private": false
 	},
@@ -47772,6 +47781,10 @@
 	},
 	{
 		"modelId": "niji123/bert-glue-mrpc-test",
+		"private": false
+	},
+	{
+		"modelId": "nikhilawsdeploy/bert-base-nli-mean-tokens",
 		"private": false
 	},
 	{
@@ -56048,6 +56061,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "tbrasil/classificador_de_atendimento_3_classes_v1.1",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "tbs17/MathBERT-custom",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -60038,21 +60056,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "nikhilawsdeploy/bert-base-nli-mean-tokens",
-		"private": false
-	},
-	{
-		"modelId": "Andrija/SRoBERTa-base-NER",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "tbrasil/classificador_de_atendimento_3_classes_v1.1",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "mkmoisio/xml-r-cross-lingual-english-finnish-sts",
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-2",
 		"private": false
 	}
 ]
