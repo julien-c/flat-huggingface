@@ -60340,10 +60340,16 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-da-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "huggingartists/eminem",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-es-it-cased",
 		"private": false
 	}
 ]
