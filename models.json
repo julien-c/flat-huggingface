@@ -596,11 +596,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Alireza1044/qnli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Altidore/DuggFace",
 		"private": false
 	},
@@ -2688,7 +2683,8 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-zh-ja-vi-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-ja-cased",
@@ -60290,6 +60286,28 @@
 	},
 	{
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased-snli",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Alireza1044/mnli",
 		"private": false
+	},
+	{
+		"modelId": "osanseviero/hubert_asr_using_hub",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/qqp",
+		"private": false
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-fr-da-ja-vi-cased",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-qnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
