@@ -60215,7 +60215,8 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-nl-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Vivek/gptneo_winogrande",
@@ -60227,6 +60228,10 @@
 	},
 	{
 		"modelId": "Vivek/gptneo_piqa",
+		"private": false
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-nl-cased",
 		"private": false
 	}
 ]
