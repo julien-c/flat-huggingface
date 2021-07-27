@@ -597,7 +597,8 @@
 	},
 	{
 		"modelId": "Alireza1044/qnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Altidore/DuggFace",
@@ -2682,7 +2683,8 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-ja-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-nl-cased",
@@ -60240,6 +60242,14 @@
 	},
 	{
 		"modelId": "Narsil/tiny-distilbert",
+		"private": false
+	},
+	{
+		"modelId": "elishowk/testvalid",
+		"private": false
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-msmarco-sentence-transformers",
 		"private": false
 	}
 ]
