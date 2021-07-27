@@ -53844,7 +53844,8 @@
 	},
 	{
 		"modelId": "sisi/my_lovely_model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sismetanin/mbart_large-financial_phrasebank",
@@ -60311,5 +60312,14 @@
 		"modelId": "Alireza1044/albert-base-v2-qnli",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Narsil/tiny-distilbert-sequence-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-1",
+		"private": false
 	}
 ]
