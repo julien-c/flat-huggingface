@@ -60295,7 +60295,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sgugger/code-search-net-tokenizer",
@@ -60373,6 +60374,15 @@
 	},
 	{
 		"modelId": "huggingartists/drake",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "yunusemreemik/logo-qna-model",
+		"private": false
+	},
+	{
+		"modelId": "PedroR/xlm-roberta-5",
 		"private": false
 	}
 ]
