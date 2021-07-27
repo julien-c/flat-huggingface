@@ -596,6 +596,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Alireza1044/qnli",
+		"private": false
+	},
+	{
 		"modelId": "Altidore/DuggFace",
 		"private": false
 	},
@@ -1835,6 +1839,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "EasthShin/Chatbot-LisaSimpson-DialoGPT",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "EasthShin/Emotion-Classification-bert-base",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -2662,7 +2671,26 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Geotrend/distilbert-base-en-fr-ar-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Geotrend/distilbert-base-en-fr-es-pt-it-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-ja-cased",
+		"private": false
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-nl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-no-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -2670,6 +2698,31 @@
 		"modelId": "Geotrend/distilbert-base-en-uk-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-it-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-lt-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-nl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-no-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Gerwin/bert-for-pac",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Gev/test",
@@ -15649,6 +15702,30 @@
 		"private": false
 	},
 	{
+		"modelId": "Vivek/gptneo_cose",
+		"private": false
+	},
+	{
+		"modelId": "Vivek/gptneo_cosmos",
+		"private": false
+	},
+	{
+		"modelId": "Vivek/gptneo_hellaswag",
+		"private": false
+	},
+	{
+		"modelId": "Vivek/gptneo_piqa",
+		"private": false
+	},
+	{
+		"modelId": "Vivek/gptneo_storycloze",
+		"private": false
+	},
+	{
+		"modelId": "Vivek/gptneo_winogrande",
+		"private": false
+	},
+	{
 		"modelId": "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
 		"private": false
 	},
@@ -18281,6 +18358,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-128-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -18304,6 +18386,10 @@
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
@@ -27529,6 +27615,10 @@
 	},
 	{
 		"modelId": "gogamza/kogpt2",
+		"private": false
+	},
+	{
+		"modelId": "gokulsjain/bert",
 		"private": false
 	},
 	{
@@ -42201,6 +42291,14 @@
 		"private": false
 	},
 	{
+		"modelId": "kbvkarthik/bert-base-uncased-finetuned-swag",
+		"private": false
+	},
+	{
+		"modelId": "kbvkarthik/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "kcarrig/CoffeeMatey",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -47095,6 +47193,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "mujerry/bert-base-uncased-finetuned-QnA",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "mukherjeearnab/opsolBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -48590,6 +48693,10 @@
 		"modelId": "osanseviero/hot_dog_or_sandwich",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "osanseviero/hubert-sd",
+		"private": false
 	},
 	{
 		"modelId": "osanseviero/hubert_base",
@@ -50948,6 +51055,10 @@
 	},
 	{
 		"modelId": "retiol/filmvoir",
+		"private": false
+	},
+	{
+		"modelId": "retiol/ita",
 		"private": false
 	},
 	{
@@ -53368,11 +53479,6 @@
 		"private": false
 	},
 	{
-		"modelId": "shin/model_name",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "shin/sbert_20210721",
 		"private": false
 	},
@@ -53959,6 +54065,11 @@
 		"modelId": "skylord/wav2vec2-large-xlsr-hindi",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "sleekmike/DialoGPT-small-joshua",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "sleekmike/Ricky",
@@ -60123,119 +60234,12 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Geotrend/distilbert-base-it-cased",
+		"modelId": "Edomonndo/opus-mt-ja-en-finetuned-ja-to-en_test",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "Vivek/gptneo_hellaswag",
-		"private": false
-	},
-	{
-		"modelId": "gokulsjain/bert",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-128-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-lt-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-no-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "EasthShin/Chatbot-LisaSimpson-DialoGPT",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-no-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/hubert-sd",
-		"private": false
-	},
-	{
-		"modelId": "Vivek/gptneo_cose",
-		"private": false
-	},
-	{
-		"modelId": "retiol/ita",
-		"private": false
-	},
-	{
-		"modelId": "Vivek/gptneo_cosmos",
-		"private": false
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-nl-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Vivek/gptneo_winogrande",
-		"private": false
-	},
-	{
-		"modelId": "Vivek/gptneo_storycloze",
-		"private": false
-	},
-	{
-		"modelId": "Vivek/gptneo_piqa",
-		"private": false
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-nl-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Gerwin/bert-for-pac",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "kbvkarthik/bert-base-uncased-finetuned-swag",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/qnli",
-		"private": false
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-fr-ar-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "kbvkarthik/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "mujerry/bert-base-uncased-finetuned-QnA",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "sleekmike/DialoGPT-small-joshua",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-ja-cased",
+		"modelId": "Narsil/tiny-distilbert",
 		"private": false
 	}
 ]
