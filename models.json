@@ -18383,7 +18383,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-128-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-128-examples-split-2",
@@ -45260,7 +45261,8 @@
 	},
 	{
 		"modelId": "mkmoisio/xml-r-cross-lingual-english-finnish-sts",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "mkrigba/FreeTextSIG",
@@ -48728,7 +48730,8 @@
 	},
 	{
 		"modelId": "osanseviero/hubert-sd",
-		"private": false
+		"private": false,
+		"pipeline_tag": "speech-segmentation"
 	},
 	{
 		"modelId": "osanseviero/hubert_base",
@@ -59072,26 +59075,6 @@
 		"private": false
 	},
 	{
-		"modelId": "wsunadawong/claim_hugging",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wsunadawong/counterargument_hugging",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wsunadawong/evidence_hugging",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wsunadawong/reasoning_hugging",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "wudi7758521521/kaikai_model",
 		"private": false
 	},
@@ -60296,7 +60279,8 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-da-ja-vi-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Alireza1044/albert-base-v2-qnli",
@@ -60314,6 +60298,34 @@
 	},
 	{
 		"modelId": "sgugger/code-search-net-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/eminem",
+		"private": false
+	},
+	{
+		"modelId": "ThinkCERCA/claim_hugging",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ThinkCERCA/counterargument_hugging",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ThinkCERCA/evidence_hugging",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ThinkCERCA/reasoning_hugging",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-64-examples-split-1",
 		"private": false
 	}
 ]
