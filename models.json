@@ -60226,11 +60226,16 @@
 	},
 	{
 		"modelId": "mujerry/bert-base-uncased-finetuned-QnA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "sleekmike/DialoGPT-small-joshua",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-ja-cased",
+		"private": false
 	}
 ]
