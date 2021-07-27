@@ -497,6 +497,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "AkshaySg/GrammarCorrection",
+		"private": false
+	},
+	{
 		"modelId": "AkshaySg/gramCorrection",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -567,6 +571,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Alireza1044/albert-base-v2-sst2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Alireza1044/albert-base-v2-stsb",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -624,6 +633,11 @@
 	{
 		"modelId": "Andres2015/HiggingFaceTest",
 		"private": false
+	},
+	{
+		"modelId": "Andrija/M-bert-NER",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Andrija/RobertaFastBPE",
@@ -2027,6 +2041,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Felipehonorato/storIA",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Ferch423/gpt2-small-portuguese-wikipediabio",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -2639,6 +2658,16 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-25lang-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-fr-es-pt-it-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-uk-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -10532,6 +10561,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Kyobkiq/opus-mt-finetuned-en-to-de",
+		"private": false
+	},
+	{
 		"modelId": "Kyuyoung11/haremotions-v1",
 		"private": false
 	},
@@ -11019,6 +11052,11 @@
 	{
 		"modelId": "MarianaSahagun/testmodel",
 		"private": false
+	},
+	{
+		"modelId": "MarshallCharles/bartlargemnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MarshallHo/albertZero-squad2-base-v2",
@@ -18243,7 +18281,22 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-128-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -18253,7 +18306,17 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -18263,9 +18326,23 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-64-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner",
@@ -19791,6 +19868,11 @@
 	},
 	{
 		"modelId": "bayartsogt/mongolian-roberta-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "bayartsogt/structbert-large",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -21778,6 +21860,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "coderpotter/T5-for-Adversarial-Paraphrasing",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "codevan/CDLM",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -22195,6 +22282,10 @@
 		"modelId": "ctl/wav2vec2-large-xlsr-cantonese",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "ctoshio/quechuaBPE",
+		"private": false
 	},
 	{
 		"modelId": "cvcio/roberta-el-uncased-twitter-v1",
@@ -42782,6 +42873,10 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "lewtun/s3prl-sd-hubert-dummy",
+		"private": false
+	},
+	{
 		"modelId": "lg/fexp_1",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -47756,6 +47851,10 @@
 	},
 	{
 		"modelId": "nikhilawsdeploy/bert-base-nli-mean-tokens",
+		"private": false
+	},
+	{
+		"modelId": "nikhilawsdeploy/bert-base-nli-means",
 		"private": false
 	},
 	{
@@ -53893,6 +53992,20 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "sleekmike/Ricky",
+		"private": false
+	},
+	{
+		"modelId": "sleekmike/Ricky2",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "sleekmike/your-model-name",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "sm6342/FinRoberta",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -54138,6 +54251,10 @@
 		"modelId": "song/bert_cn_finetuning",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "songhee/kobart",
+		"private": false
 	},
 	{
 		"modelId": "soniakris/Sonia_model",
@@ -59151,6 +59268,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "yliu337/maskQA_t5",
+		"private": false
+	},
+	{
 		"modelId": "yluisfern/FDR",
 		"private": false
 	},
@@ -59930,6 +60051,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zimzi/recommender",
+		"private": false
+	},
+	{
 		"modelId": "zitterbewegung/DialoGPT-medium-ja",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -60025,130 +60150,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "coderpotter/T5-for-Adversarial-Paraphrasing",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "MarshallCharles/bartlargemnli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "bayartsogt/structbert-large",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Andrija/M-bert-NER",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "Felipehonorato/storIA",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "songhee/kobart",
-		"private": false
-	},
-	{
-		"modelId": "zimzi/recommender",
-		"private": false
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-uk-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Alireza1044/albert-base-v2-sst2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "lewtun/s3prl-sd-hubert-dummy",
-		"private": false
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-fr-es-pt-it-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-64-examples-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "sleekmike/Ricky",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-128-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "sleekmike/Ricky2",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg",
-		"private": false
-	},
-	{
-		"modelId": "yliu337/maskQA_t5",
-		"private": false
-	},
-	{
-		"modelId": "AkshaySg/GrammarCorrection",
-		"private": false
-	},
-	{
-		"modelId": "Kyobkiq/opus-mt-finetuned-en-to-de",
-		"private": false
-	},
-	{
-		"modelId": "sleekmike/your-model-name",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "nikhilawsdeploy/bert-base-nli-means",
-		"private": false
-	},
-	{
-		"modelId": "ctoshio/quechuaBPE",
-		"private": false
 	}
 ]
