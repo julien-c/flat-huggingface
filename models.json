@@ -45438,11 +45438,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ml6team/byt5-small-dutch-ocr-correction",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "ml6team/gpt-2-medium-conditional-quote-generator",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -60490,7 +60485,8 @@
 	},
 	{
 		"modelId": "salesken/labse_finetuned_ai4bhrarat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-de-no-da-cased",
@@ -60539,5 +60535,10 @@
 		"modelId": "Andrija/SRoBERTa-NER",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "ml6team/byt5-base-dutch-ocr-correction",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
