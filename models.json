@@ -601,16 +601,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Alireza1044/mnli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Alireza1044/qqp",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Altidore/DuggFace",
 		"private": false
 	},
@@ -60466,6 +60456,21 @@
 	},
 	{
 		"modelId": "MYX4567/distilgpt2-finetuned-wikitext2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "MYX4567/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-qqp",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-mnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
