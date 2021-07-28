@@ -18625,7 +18625,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi",
@@ -27486,7 +27487,8 @@
 	},
 	{
 		"modelId": "gealexandri/palobert-base-greek-uncased-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "geekfeed/gpt2_ja",
@@ -60544,6 +60546,15 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-zh-cased",
+		"private": false
+	},
+	{
+		"modelId": "gealexandri/greeksocialbert-base-greek-uncased-v1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
 		"private": false
 	}
 ]
