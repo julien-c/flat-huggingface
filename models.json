@@ -2769,6 +2769,21 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Geotrend/distilbert-base-en-fr-lt-no-pl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-fr-uk-el-ro-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-fr-zh-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Geotrend/distilbert-base-en-fr-zh-ja-vi-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -18549,6 +18564,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-1",
+		"private": false
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -18574,6 +18593,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -18595,6 +18619,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-64-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -24315,6 +24344,11 @@
 		"private": false
 	},
 	{
+		"modelId": "erica/exbert_fin",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "erica/kc_900",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -27454,6 +27488,11 @@
 		"modelId": "gdario/biobert_bioasq",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "gealexandri/greeksocialbert-base-greek-uncased-v1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "gealexandri/palobert-base-greek-uncased-v1",
@@ -42357,6 +42396,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "junnyu/roformer_paddle",
+		"private": false
+	},
+	{
 		"modelId": "junnyu/roformer_small_discriminator",
 		"private": false
 	},
@@ -52141,6 +52184,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sambotx4/scambot",
+		"private": false
+	},
+	{
 		"modelId": "sammy786/wav2vec2-large-xlsr-mongolian",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -56508,6 +56555,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "tarudesu/viBERT4news-constructive-speech-detection",
+		"private": false
+	},
+	{
 		"modelId": "taylor/testing",
 		"private": false
 	},
@@ -58877,6 +58928,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "vnktrmnb/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "vnlongbk/vietium",
 		"private": false
 	},
@@ -59201,6 +59256,10 @@
 	},
 	{
 		"modelId": "whisper/model_name",
+		"private": false
+	},
+	{
+		"modelId": "whisper/multilingual_bert",
 		"private": false
 	},
 	{
@@ -60509,55 +60568,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-fr-zh-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "gealexandri/greeksocialbert-base-greek-uncased-v1",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-fr-lt-no-pl-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "vnktrmnb/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "junnyu/roformer_paddle",
-		"private": false
-	},
-	{
-		"modelId": "Geotrend/distilbert-base-en-fr-uk-el-ro-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-1",
-		"private": false
-	},
-	{
-		"modelId": "whisper/multilingual_bert",
-		"private": false
-	},
-	{
-		"modelId": "tarudesu/viBERT4news-constructive-speech-detection",
-		"private": false
 	}
 ]
