@@ -60349,7 +60349,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-it-cased",
@@ -60402,6 +60403,15 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-es-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-fr-de-cased",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-1",
 		"private": false
 	}
 ]
