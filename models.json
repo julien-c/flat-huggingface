@@ -640,6 +640,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Andrija/M-bert-NER",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -60467,11 +60472,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Alireza1044/wnli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "salesken/labse_finetuned_ai4bhrarat",
 		"private": false
 	},
@@ -60527,5 +60527,14 @@
 		"modelId": "ml6team/byt5-base-dutch-ocr-correction",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "billpr/v1",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/albert-base-v2-wnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
