@@ -59626,10 +59626,6 @@
 		"private": false
 	},
 	{
-		"modelId": "yiyanghkust/finbert-analyst-tone",
-		"private": false
-	},
-	{
 		"modelId": "yiyanghkust/finbert-tone",
 		"private": false
 	},
@@ -60556,7 +60552,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-lt-no-pl-cased",
@@ -60573,6 +60570,11 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-fr-uk-el-ro-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
 		"private": false
 	}
 ]
