@@ -10299,6 +10299,10 @@
 		"private": false
 	},
 	{
+		"modelId": "JanezN/peter-griffin-medium",
+		"private": false
+	},
+	{
 		"modelId": "JarvisZHAO/chatbot",
 		"private": false
 	},
@@ -12597,6 +12601,10 @@
 		"modelId": "Rohan-Kurdekar/Arabic_Bert_Model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "RonnieTheCat/Question_generation",
+		"private": false
 	},
 	{
 		"modelId": "Rostlab/prot_albert",
@@ -16432,6 +16440,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Zane/Ricky3",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "ZikXewen/wav2vec2-large-xlsr-53-thai-demo",
 		"private": false
 	},
@@ -18809,6 +18822,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -24105,6 +24123,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "dvilasuero/distilbert-base-uncased-sentiment-banking",
+		"private": false
+	},
+	{
 		"modelId": "dwhdai/test",
 		"private": false
 	},
@@ -26950,10 +26972,6 @@
 	},
 	{
 		"modelId": "flax-community/t5-vae-wiki",
-		"private": false
-	},
-	{
-		"modelId": "flax-community/test-mic",
 		"private": false
 	},
 	{
@@ -43374,6 +43392,16 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "lassl/gpt2-base",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "lassl/roberta-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "laugustyniak/roberta-polish-web-embedding-v1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -45768,6 +45796,10 @@
 		"modelId": "mishig/my-awesome-model",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "mishig/tiny-detr-mobilenetsv3",
+		"private": false
 	},
 	{
 		"modelId": "mitra-mir/ALBERT-Persian-Poetry",
@@ -52232,6 +52264,10 @@
 	},
 	{
 		"modelId": "saibo/random-bert-base-cased",
+		"private": false
+	},
+	{
+		"modelId": "saibo/random-bert-base-uncased",
 		"private": false
 	},
 	{
@@ -60844,42 +60880,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "lassl/gpt2-base",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lassl/roberta-base",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-1",
-		"private": false
-	},
-	{
-		"modelId": "saibo/random-bert-base-uncased",
-		"private": false
-	},
-	{
-		"modelId": "mishig/tiny-detr-mobilenetsv3",
-		"private": false
-	},
-	{
-		"modelId": "Zane/Ricky3",
-		"private": false
-	},
-	{
-		"modelId": "JanezN/peter-griffin-medium",
-		"private": false
-	},
-	{
-		"modelId": "RonnieTheCat/Question_generation",
-		"private": false
-	},
-	{
-		"modelId": "dvilasuero/distilbert-base-uncased-sentiment-banking",
-		"private": false
 	}
 ]
