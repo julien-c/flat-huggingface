@@ -60760,7 +60760,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-pt-cased",
@@ -60791,5 +60792,14 @@
 	{
 		"modelId": "Geotrend/distilbert-base-en-es-zh-cased",
 		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-32-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "cross-encoder/msmarco-MiniLM-L6-en-de-v1",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
