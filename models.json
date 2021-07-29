@@ -18804,7 +18804,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-32-examples-split-1",
@@ -60850,12 +60851,19 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "ahmetbagci/testP",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"modelId": "lassl/gpt2-base",
+		"private": false
 	},
 	{
-		"modelId": "lassl/gpt2-base",
+		"modelId": "lassl/roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "Zane/Ricky2",
 		"private": false
 	}
 ]
