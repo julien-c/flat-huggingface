@@ -60801,7 +60801,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-32-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "cross-encoder/msmarco-MiniLM-L6-en-de-v1",
@@ -60829,6 +60830,23 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-el-ru-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "afonsoceiia/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "Tomoki/test",
+		"private": false
+	},
+	{
+		"modelId": "ahmetbagci/testPublic",
 		"private": false
 	}
 ]
