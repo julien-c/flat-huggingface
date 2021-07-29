@@ -59038,14 +59038,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "veronica320/QA-for-event-extraction",
-		"private": false
-	},
-	{
-		"modelId": "veronica320/TE-for-event-extraction",
-		"private": false
-	},
-	{
 		"modelId": "versae/mBERT-5lang-adobo2021",
 		"private": false
 	},
@@ -60929,7 +60921,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "KamehK/DMBot",
@@ -60937,6 +60930,19 @@
 	},
 	{
 		"modelId": "app-test-user/test-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "veronica320/TE-for-Event-Extraction",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-4",
+		"private": false
+	},
+	{
+		"modelId": "Willie/YOlOv5_yellow_strips",
 		"private": false
 	}
 ]
