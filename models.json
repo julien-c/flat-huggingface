@@ -60882,7 +60882,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "PedroR/xlm-roberta-4-pretrained-with-tokenizer",
@@ -60916,5 +60917,13 @@
 		"modelId": "ahmetbagci/bert2bert-turkish-paraphrase-generation",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "JanezN/finetuned-bert-mrpc",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-3",
+		"private": false
 	}
 ]
