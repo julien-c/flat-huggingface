@@ -2149,14 +2149,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "ForutanRad/xlm-roberta-large-QA-squad",
-		"private": false
-	},
-	{
-		"modelId": "ForutanRad/xlm-roberta-large-fa-QA",
-		"private": false
-	},
-	{
 		"modelId": "Francesco/dummy",
 		"private": false
 	},
@@ -60878,6 +60870,20 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-uk-cased",
+		"private": false
+	},
+	{
+		"modelId": "sgugger/tiny-distilbert-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-1",
 		"private": false
 	}
 ]
