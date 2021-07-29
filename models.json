@@ -906,6 +906,11 @@
 		"private": false
 	},
 	{
+		"modelId": "BSC-TeMU/RoBERTalex",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "BSC-TeMU/roberta-base-bne",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -60810,10 +60815,20 @@
 	},
 	{
 		"modelId": "Zane/Ricky",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-es-pt-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "TheLongSentance/t5-small-finetuned-toxic",
+		"private": false
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-el-ru-cased",
 		"private": false
 	}
 ]
