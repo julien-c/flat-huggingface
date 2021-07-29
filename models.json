@@ -25188,11 +25188,6 @@
 		"private": false
 	},
 	{
-		"modelId": "explosion/en_textcat_goemotions",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "fabiankiwitz/bariatrie",
 		"private": false
 	},
@@ -60741,12 +60736,16 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "edichief/en_textcat_goemotions",
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "explosion/en_textcat_goemotions",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-1",
+		"modelId": "PedroR/xlm-roberta-7-pretrained",
 		"private": false
 	}
 ]
