@@ -2875,7 +2875,8 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-ja-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-lt-cased",
@@ -60875,7 +60876,8 @@
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-uk-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "sgugger/tiny-distilbert-classification",
@@ -60884,6 +60886,26 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "PedroR/xlm-roberta-4-pretrained-with-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "PedroR/xlm-roberta-4-final",
+		"private": false
+	},
+	{
+		"modelId": "PedroR/xlm-roberta-5-final",
+		"private": false
+	},
+	{
+		"modelId": "PedroR/xlm-roberta-6-final",
+		"private": false
+	},
+	{
+		"modelId": "PedroR/xlm-roberta-7-final",
 		"private": false
 	}
 ]
