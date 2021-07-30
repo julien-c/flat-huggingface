@@ -12391,6 +12391,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Pyke/bart-finetuned-on-patent-test",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -18863,6 +18868,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -18906,6 +18916,10 @@
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-5",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-64-examples-split-1",
@@ -30557,6 +30571,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/suicideoscope",
+		"private": false
+	},
+	{
 		"modelId": "huggingface/CodeBERTa-language-id",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -31427,6 +31445,11 @@
 	},
 	{
 		"modelId": "huggingtweets/artorrattv",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/artstarcross",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -43778,6 +43801,21 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-67be9268",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-700ddb7b",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-a03c2ae5",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -45426,7 +45464,8 @@
 	},
 	{
 		"modelId": "megantosh/flair-arabic-multi-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "meghanabhange/Hinglish-Bert-Class",
@@ -61181,33 +61220,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Pyke/bart-finetuned-on-patent-test",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-67be9268",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-5",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/suicideoscope",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-700ddb7b",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "huggingtweets/artstarcross",
-		"private": false,
-		"pipeline_tag": "text-generation"
 	}
 ]
