@@ -41747,6 +41747,11 @@
 		"private": false
 	},
 	{
+		"modelId": "jinmang2/klue-roberta-large-bt-tapt",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "jinmang2/kobart",
 		"private": false
 	},
@@ -60980,11 +60985,6 @@
 		"private": false
 	},
 	{
-		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
 		"modelId": "AI4Afrika/health-chatbot",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -61022,11 +61022,17 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "tuhailong/cross-encoder-bert-base",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	}
 ]
