@@ -61065,10 +61065,20 @@
 	},
 	{
 		"modelId": "wudi7758521521/bert_cn",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "pranav1015/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "simonmun/ChildKoBERT",
 		"private": false
 	},
 	{
-		"modelId": "Theskull312/mt5-base-question-generator",
+		"modelId": "noad-ai/mt5-base-question-generator",
 		"private": false
 	}
 ]
