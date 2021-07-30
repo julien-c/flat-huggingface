@@ -18944,7 +18944,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-1",
@@ -61185,5 +61186,23 @@
 		"modelId": "Pyke/bart-finetuned-on-patent-test",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-67be9268",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-5",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/suicideoscope",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/superb-s3prl-osanseviero__hubert_base-asr-700ddb7b",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	}
 ]
