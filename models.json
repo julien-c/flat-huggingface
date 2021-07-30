@@ -58072,11 +58072,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "tuhailong/cross-encoder",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "tuner007/pegasus_paraphrase",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -60996,7 +60991,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "lewtun/superb-s3prl-hubert-asr",
@@ -61016,7 +61012,21 @@
 		"private": false
 	},
 	{
+		"modelId": "lewtun/superb-s3prl-wav2vec2-asr",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "tuhailong/SimCSE-bert-base",
 		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-16-examples-split-4",
+		"private": false
+	},
+	{
+		"modelId": "tuhailong/cross-encoder-bert-base",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
