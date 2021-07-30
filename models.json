@@ -12387,10 +12387,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Pyke/bart-base-finetuned-xsum",
-		"private": false
-	},
-	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -18884,7 +18880,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
@@ -18940,6 +18937,10 @@
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-5",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-1",
@@ -23881,11 +23882,6 @@
 		"modelId": "deutsche-telekom/electra-base-de-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "deutsche-telekom/mt5-small-sum-de-en-mit-v2",
-		"private": false,
-		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "deutsche-telekom/mt5-small-sum-de-en-v1",
@@ -52269,6 +52265,11 @@
 		"private": false
 	},
 	{
+		"modelId": "rsedlr/RickBot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "rsvp-AI-ca/bert-uncased-base-50k",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -61177,7 +61178,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "rsedlr/RickBot",
+		"modelId": "Hank/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	}
 ]
