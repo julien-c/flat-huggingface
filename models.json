@@ -12387,6 +12387,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Pyke/bart-base-finetuned-xsum",
+		"private": false
+	},
+	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -16710,6 +16714,16 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "abhishek/autonlp-ferd1-2652021",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "abhishek/autonlp-fred2-2682064",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "abhishek/autonlp-hindi-asr",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -17704,6 +17718,15 @@
 	{
 		"modelId": "aliaafee/test",
 		"private": false
+	},
+	{
+		"modelId": "aliasdasd/asdas",
+		"private": false
+	},
+	{
+		"modelId": "aliasdasd/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "alienspaceman/dreamcatcher-eng",
@@ -18858,6 +18881,10 @@
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-5",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-32-examples-split-1",
@@ -23854,6 +23881,11 @@
 		"modelId": "deutsche-telekom/electra-base-de-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "deutsche-telekom/mt5-small-sum-de-en-mit-v2",
+		"private": false,
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "deutsche-telekom/mt5-small-sum-de-en-v1",
@@ -49480,6 +49512,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "osanseviero/en_core_web_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "osanseviero/en_core_web_trf",
 		"private": false
 	},
@@ -52229,6 +52266,10 @@
 	},
 	{
 		"modelId": "rrsartpl/Test1",
+		"private": false
+	},
+	{
+		"modelId": "rsedlr/RickBot",
 		"private": false
 	},
 	{
@@ -61138,41 +61179,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "abhishek/autonlp-ferd1-2652021",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "deutsche-telekom/mt5-small-sum-de-en-mit-v2",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-3-examples-split-5",
-		"private": false
-	},
-	{
-		"modelId": "rsedlr/RickBot",
-		"private": false
-	},
-	{
-		"modelId": "aliasdasd/asdas",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/en_core_web_sm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "aliasdasd/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Pyke/bart-base-finetuned-xsum",
-		"private": false
 	}
 ]
