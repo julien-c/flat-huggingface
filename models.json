@@ -61105,7 +61105,8 @@
 	},
 	{
 		"modelId": "colorfulscoop/bert-base-ja",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Shadaab27/distilroberta-base-finetuned-TeamBHP",
@@ -61118,5 +61119,14 @@
 	{
 		"modelId": "ahsan11/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "Bram/md-dl-summarization",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/_scottcondron",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
