@@ -61353,14 +61353,26 @@
 	},
 	{
 		"modelId": "GKLMIP/bert-khmer-small-uncased-tokenized",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "GKLMIP/bert-khmer-small-uncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "huggingtweets/mr_bubblezzz",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Narrativa/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "GKLMIP/electra-khmer-base-uncased",
 		"private": false
 	}
 ]
