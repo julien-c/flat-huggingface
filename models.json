@@ -61409,7 +61409,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-42",
@@ -61420,5 +61421,28 @@
 		"modelId": "JonathanSum/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-3",
+		"private": false
+	},
+	{
+		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-21",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "zhuqing/distilroberta-base-theme1-6000",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "zhuqing/distilroberta-base-theme2-6000",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "JonathanSum/another-dummy-model",
+		"private": false
 	}
 ]
