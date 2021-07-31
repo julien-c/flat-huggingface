@@ -49025,11 +49025,6 @@
 		"private": false
 	},
 	{
-		"modelId": "noad-ai/mt5-base-question-generation-vi",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "noah-ai/mt5-base-question-generation-vi",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -61291,10 +61286,24 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "muhammadfhadli/test",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-2",
+		"private": false
+	},
+	{
+		"modelId": "GKLMIP/bert-tagalog-base-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GKLMIP/electra-tagalog-base-uncased",
 		"private": false
 	}
 ]
