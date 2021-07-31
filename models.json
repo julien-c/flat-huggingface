@@ -24885,11 +24885,6 @@
 		"private": false
 	},
 	{
-		"modelId": "erica/exbert_fin",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "erica/kc_900",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -61509,11 +61504,16 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-sst2-2e-5-21",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "erica/ex_fin",
+		"private": false
 	}
 ]
