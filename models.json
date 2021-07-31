@@ -16270,11 +16270,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "Wikidepia/minilm-spam",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "WikinewsSum/bart-large-cnn-multi-en-wiki-news",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -61377,5 +61372,9 @@
 		"modelId": "huggingtweets/cavidaga-elonmusk",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
+		"private": false
 	}
 ]
