@@ -61295,7 +61295,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "GKLMIP/bert-tagalog-base-uncased",
@@ -61304,6 +61305,20 @@
 	},
 	{
 		"modelId": "GKLMIP/electra-tagalog-base-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GKLMIP/roberta-tagalog-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GKLMIP/bert-khmer-base-uncased-tokenized",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-32-examples-split-2",
 		"private": false
 	}
 ]
