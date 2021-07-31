@@ -47317,11 +47317,6 @@
 		"pipeline_tag": "summarization"
 	},
 	{
-		"modelId": "mrm8488/bert2bert_shared-spanish-finetuned-paws-x-paraphrasing",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "mrm8488/bert2bert_shared-spanish-finetuned-summarization",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -61344,7 +61339,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "huggingtweets/ritualneo",
@@ -61369,10 +61365,21 @@
 	{
 		"modelId": "Narrativa/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "GKLMIP/electra-khmer-base-uncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GKLMIP/electra-khmer-base-uncased-tokenized",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "mrm8488/bert2bert_shared-spanish-finetuned-paus-x-paraphrasing",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
