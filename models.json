@@ -61635,6 +61635,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "vasudevgupta/amazon-ml-hack-best",
+		"private": false
+	},
+	{
 		"modelId": "zhuqing/bert-base-uncased-reddit-lib",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -61646,7 +61650,8 @@
 	},
 	{
 		"modelId": "jean-paul/KinyaBERT-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "zhuqing/bert-base-uncased-reddit-business",
@@ -61666,5 +61671,9 @@
 		"modelId": "PremalMatalia/roberta-base-best-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Czapla/Rickbot",
+		"private": false
 	}
 ]
