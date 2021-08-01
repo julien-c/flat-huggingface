@@ -60179,11 +60179,6 @@
 		"private": false
 	},
 	{
-		"modelId": "wgpubs/session-4-imdb-model",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "whisper/model_name",
 		"private": false
 	},
@@ -61630,11 +61625,25 @@
 		"private": false
 	},
 	{
+		"modelId": "scales-okn/dev-party-type",
+		"private": false
+	},
+	{
+		"modelId": "PremalMatalia/roberta-base-squad2",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/layoutlm-finetuned-funsd",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-agnews",
 		"private": false
 	},
 	{
-		"modelId": "scales-okn/dev-party-type",
-		"private": false
+		"modelId": "zhuqing/bert-base-uncased-reddit-lib",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
