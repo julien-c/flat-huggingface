@@ -12424,14 +12424,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "PremalMatalia/Question_Answering_with_SQuAD_2.0_TFDistilBert",
-		"private": false
-	},
-	{
-		"modelId": "PremalMatalia/distilbert-base-uncased-distilled-squad",
-		"private": false
-	},
-	{
 		"modelId": "Prim9000/trial_tacotron2",
 		"private": false
 	},
@@ -61574,7 +61566,8 @@
 	},
 	{
 		"modelId": "ikevin98/bert-base-uncased-finetuned-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-sst2-2e-5-63",
@@ -61624,7 +61617,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "ayameRushia/gpt2-indo-finetuning-poem",
@@ -61633,6 +61627,14 @@
 	},
 	{
 		"modelId": "campac/hhh",
+		"private": false
+	},
+	{
+		"modelId": "PremalMatalia/roberta-base-squad2",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-agnews",
 		"private": false
 	}
 ]
