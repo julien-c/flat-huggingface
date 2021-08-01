@@ -61576,7 +61576,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-sst2-2e-5-21",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingtweets/rct_ai",
@@ -61664,5 +61665,10 @@
 		"modelId": "wgpubs/session-4-imdb-model",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "PremalMatalia/roberta-base-best-squad2",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
