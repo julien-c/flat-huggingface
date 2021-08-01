@@ -1303,6 +1303,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Cilan/dalle-knockoff",
+		"private": false
+	},
+	{
 		"modelId": "Cinnamon/electra-small-japanese-discriminator",
 		"private": false
 	},
@@ -2275,6 +2279,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "GKLMIP/bert-laos-small-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "GKLMIP/bert-tagalog-base-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -2298,6 +2307,14 @@
 		"modelId": "GKLMIP/electra-khmer-small-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GKLMIP/electra-laos-base-uncased",
+		"private": false
+	},
+	{
+		"modelId": "GKLMIP/electra-laos-small-uncased",
+		"private": false
 	},
 	{
 		"modelId": "GKLMIP/electra-tagalog-base-uncased",
@@ -2332,6 +2349,11 @@
 	{
 		"modelId": "Galuh/clip-indonesian",
 		"private": false
+	},
+	{
+		"modelId": "Galuh/id-journal-gpt2",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Galuh/wav2vec2-large-xlsr-indonesian",
@@ -10518,6 +10540,19 @@
 		"private": false
 	},
 	{
+		"modelId": "JonathanSum/another-dummy-model",
+		"private": false
+	},
+	{
+		"modelId": "JonathanSum/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "JonathanSum/new-dummy-model",
+		"private": false
+	},
+	{
 		"modelId": "Jonghyun/model_test",
 		"private": false
 	},
@@ -12680,6 +12715,10 @@
 	},
 	{
 		"modelId": "Reifuku/KK-CB",
+		"private": false
+	},
+	{
+		"modelId": "Renee/gpt2-chinese-lyric",
 		"private": false
 	},
 	{
@@ -15329,6 +15368,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "TehranNLP-org/bert-base-uncased-avg-sst2-2e-5-42",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "TehranNLP-org/electra-base-avg-cola-2e-5-21",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -15369,6 +15413,21 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-21",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-42",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-63",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-cola-2e-5-21",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -15400,6 +15459,16 @@
 	},
 	{
 		"modelId": "TehranNLP-org/xlnet-base-cased-avg-mnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "TehranNLP-org/xlnet-base-cased-avg-sst2-2e-5-21",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "TehranNLP-org/xlnet-base-cased-avg-sst2-2e-5-42",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -18878,6 +18947,16 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-4",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-5",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -19008,6 +19087,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -19038,12 +19122,27 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-4",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-3",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -19058,12 +19157,31 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-4",
+		"private": false
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -19078,6 +19196,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-32-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -19088,12 +19211,27 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -22756,6 +22894,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "colorfulscoop/sbert-base-ja",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "congcongwang/bart-base-en-zh",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -24306,6 +24449,10 @@
 	},
 	{
 		"modelId": "dragonStyle/bert-303-step35000",
+		"private": false
+	},
+	{
+		"modelId": "dragonSwing/digits_recognizer",
 		"private": false
 	},
 	{
@@ -26448,6 +26595,21 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "firebolt/llama_or_what",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "firebolt/llama_or_what2",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "firqaaa/medBERT-base-indo",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "firstmediabuyer/sber",
 		"private": false
 	},
@@ -28045,6 +28207,18 @@
 	},
 	{
 		"modelId": "german-nlp-group/electra-base-german-uncased",
+		"private": false
+	},
+	{
+		"modelId": "gfdgdfgdg/aaaa",
+		"private": false
+	},
+	{
+		"modelId": "gfdgdfgdg/arap_qa",
+		"private": false
+	},
+	{
+		"modelId": "gfdgdfgdg/bert-base-cased-squad2-finetuned-squad",
 		"private": false
 	},
 	{
@@ -32231,6 +32405,11 @@
 	},
 	{
 		"modelId": "huggingtweets/caveyt3",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/cavidaga-elonmusk",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -59829,6 +60008,11 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "vvn/en-to-dutch-marianmt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "vvn/en-to-it-marianmt",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -60000,6 +60184,11 @@
 	{
 		"modelId": "westerkirk/t5-base-git-commit",
 		"private": false
+	},
+	{
+		"modelId": "wgpubs/session-4-imdb-model",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "whisper/model_name",
@@ -61203,12 +61392,32 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/bert-base-uncased-theme1-6000",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zhuqing/bert-base-uncased-theme1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/bert-base-uncased-theme2-6000",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zhuqing/bert-base-uncased-theme2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "zhuqing/distilroberta-base-theme1-6000",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "zhuqing/distilroberta-base-theme2-6000",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -61332,220 +61541,15 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "GKLMIP/bert-laos-small-uncased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "GKLMIP/electra-laos-base-uncased",
+		"modelId": "Kyuyoung11/haremotions-v4",
 		"private": false
 	},
 	{
-		"modelId": "GKLMIP/electra-laos-small-uncased",
+		"modelId": "phosseini/model-v1",
 		"private": false
 	},
 	{
-		"modelId": "firqaaa/medBERT-base-indo",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "huggingtweets/cavidaga-elonmusk",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-8-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Galuh/id-journal-gpt2",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "JonathanSum/new-dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-few-shot-1-examples-split-4",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "vvn/en-to-dutch-marianmt",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "dragonSwing/digits_recognizer",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-42",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "JonathanSum/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-21",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "zhuqing/distilroberta-base-theme1-6000",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "zhuqing/distilroberta-base-theme2-6000",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "JonathanSum/another-dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "gfdgdfgdg/aaaa",
-		"private": false
-	},
-	{
-		"modelId": "zhuqing/bert-base-uncased-theme1-6000",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "zhuqing/bert-base-uncased-theme2-6000",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "gfdgdfgdg/bert-base-cased-squad2-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "gfdgdfgdg/arap_qa",
-		"private": false
-	},
-	{
-		"modelId": "TehranNLP-org/electra-base-avg-sst2-2e-5-63",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "firebolt/llama_or_what",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-32-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "TehranNLP-org/bert-base-uncased-avg-sst2-2e-5-42",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "firebolt/llama_or_what2",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "wgpubs/session-4-imdb-model",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "TehranNLP-org/xlnet-base-cased-avg-sst2-2e-5-42",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Renee/gpt2-chinese-lyric",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-128-examples-split-3",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "TehranNLP-org/xlnet-base-cased-avg-sst2-2e-5-21",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-1-examples-split-4",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-3-examples-split-4",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Cilan/dalle-knockoff",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-4",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "colorfulscoop/sbert-base-ja",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "phosseini/checkpoint-70000",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-16-examples-split-4",
-		"private": false
-	},
-	{
-		"modelId": "phosseini/model1",
+		"modelId": "phosseini/model-v2",
 		"private": false
 	}
 ]
