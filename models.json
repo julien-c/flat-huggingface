@@ -61638,12 +61638,27 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-agnews",
-		"private": false
-	},
-	{
 		"modelId": "zhuqing/bert-base-uncased-reddit-lib",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "monuirctc/invoice_extraction_layoutlmv2",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "jean-paul/KinyaBERT-small",
+		"private": false
+	},
+	{
+		"modelId": "zhuqing/bert-base-uncased-reddit-business",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-agnews",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
