@@ -61685,7 +61685,8 @@
 	},
 	{
 		"modelId": "dragonSwing/digits-recognizer",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-5",
@@ -61703,5 +61704,9 @@
 		"modelId": "huggingtweets/albertsstuff",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sambelanz/kamio",
+		"private": false
 	}
 ]
