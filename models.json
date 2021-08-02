@@ -20585,11 +20585,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ayameRushia/gpt2-indo-finetuning-poem",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "ayameRushia/wav2vec2-large-xlsr-indo",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -61916,7 +61911,8 @@
 	},
 	{
 		"modelId": "JanezN/ultron-medium",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "al00014/distilbert-base-uncased-finetuned-ner",
@@ -61939,6 +61935,36 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-8-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-16-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-32-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-64-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-128-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-base-uncased-cls",
 		"private": false
+	},
+	{
+		"modelId": "ayameRushia/gpt2-medium-indo-fine-tuning-poem",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
