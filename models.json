@@ -61791,7 +61791,8 @@
 	},
 	{
 		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "AidenGO/KDXF_Bert4MaskedLM",
@@ -61864,6 +61865,16 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-32-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-64-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-128-examples-split-3",
 		"private": false
 	}
 ]
