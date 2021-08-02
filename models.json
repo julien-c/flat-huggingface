@@ -61813,6 +61813,17 @@
 	},
 	{
 		"modelId": "liandarizkia/ner-bert-id",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "shashank2123/t5-base-fine-tuned-for-Punctuation-Restoration",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "mkmoisio/xlm-r-cross-lingual-english-finnish-sts",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
