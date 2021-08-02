@@ -61760,10 +61760,6 @@
 		"private": false
 	},
 	{
-		"modelId": "liandarizkia/ner-id-bert",
-		"private": false
-	},
-	{
 		"modelId": "aristotletan/roberta-base-finetuned-sst2",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -61803,5 +61799,9 @@
 		"modelId": "templates/token-classification",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-64-examples-split-5",
+		"private": false
 	}
 ]
