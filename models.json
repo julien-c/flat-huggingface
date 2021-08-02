@@ -3245,7 +3245,8 @@
 	},
 	{
 		"modelId": "Hank/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "HarjyotSahni/personal",
@@ -24442,10 +24443,6 @@
 	},
 	{
 		"modelId": "dragonStyle/bert-303-step35000",
-		"private": false
-	},
-	{
-		"modelId": "dragonSwing/digits_recognizer",
 		"private": false
 	},
 	{
@@ -61656,7 +61653,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-agnews",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "wgpubs/session-4-imdb-model",
@@ -61683,6 +61681,18 @@
 	},
 	{
 		"modelId": "wowhdmovie/sss",
+		"private": false
+	},
+	{
+		"modelId": "dragonSwing/digits-recognizer",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-few-shot-8-examples-split-5",
+		"private": false
+	},
+	{
+		"modelId": "hoanhkhoa/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	}
 ]
