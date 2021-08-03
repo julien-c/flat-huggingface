@@ -15642,6 +15642,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "TheLongSentance/t5-base-finetuned-toxic",
+		"private": false
+	},
+	{
 		"modelId": "TheLongSentance/t5-small-finetuned-toxic",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -45185,6 +45189,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "lumalik/vent-roberta-emotion",
+		"private": false
+	},
+	{
 		"modelId": "lvwerra/bert-imdb",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -46948,6 +46956,11 @@
 		"modelId": "ml6team/gpt2-small-german-finetune-oscar",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "ml6team/mt5-small-german-finetune-mlsum",
@@ -51898,7 +51911,8 @@
 	},
 	{
 		"modelId": "prajwalcr/poetry-trust_gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "prajwalcr/poetry_gpt2",
@@ -55575,6 +55589,11 @@
 	{
 		"modelId": "sinksmh/kurt",
 		"private": false
+	},
+	{
+		"modelId": "sisi/my_lovely_model",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sismetanin/mbart_large-financial_phrasebank",
@@ -62118,9 +62137,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "TheLongSentance/t5-base-finetuned-toxic",
-		"private": false
 	}
 ]
