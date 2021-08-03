@@ -45195,7 +45195,8 @@
 	},
 	{
 		"modelId": "lumalik/vent-roberta-emotion",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "lvwerra/bert-imdb",
@@ -62181,5 +62182,9 @@
 		"modelId": "BaptisteDoyen/camembert-base-xnli",
 		"private": false,
 		"pipeline_tag": "zero-shot-classification"
+	},
+	{
+		"modelId": "zfallahnejad/test-imdb",
+		"private": false
 	}
 ]
