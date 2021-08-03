@@ -51855,7 +51855,8 @@
 	},
 	{
 		"modelId": "prao/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "prashantsaans/model_name",
@@ -62044,13 +62045,9 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "liandarizkia/bert-ner-id",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "jsfoon/slogan-generator",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Simovod/DialoGPT-small-testRU",
