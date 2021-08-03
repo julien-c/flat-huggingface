@@ -61921,6 +61921,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "kodiak619/vi_law_bert",
+		"private": false
+	},
+	{
 		"modelId": "adamlin/predict_mwoz",
 		"private": false
 	},
@@ -61965,11 +61969,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "ayameRushia/gpt2-medium-indo-fine-tuning-poem",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "JanezN/peter-medium",
 		"private": false
 	},
@@ -61977,11 +61976,6 @@
 		"modelId": "viniaraujoo/transparencia_brasil_binario",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "ayameRushia/gpt2-small-fine-tuning-indonesia-poem",
-		"private": false,
-		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "tbrasil/classificador_de_atendimento_2_classes_v1.1",
@@ -62005,5 +61999,10 @@
 	{
 		"modelId": "cathyhou/roberta-base-finetuned-cola",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/jessi_rihanna",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
