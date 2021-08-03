@@ -27949,6 +27949,11 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "flyhero/gpt-j-6B",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "fmikaelian/camembert-base-fquad",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -42477,6 +42482,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "jegorkitskerkin/bert-base-dutch-cased-msmarco",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased-snli",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -46953,6 +46963,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl-finetune",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -49552,6 +49567,16 @@
 		"private": false
 	},
 	{
+		"modelId": "nielsr/beit-base-patch16-224",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "nielsr/beit-large-patch16-224-pt22k-ft22k",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "nielsr/canine-c",
 		"private": false
 	},
@@ -51895,6 +51920,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "prajwalcr/poetry-sadness_gpt2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "prajwalcr/poetry-surprise_gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -52762,6 +52792,10 @@
 	},
 	{
 		"modelId": "retiol/GUARDA",
+		"private": false
+	},
+	{
+		"modelId": "retiol/Guard",
 		"private": false
 	},
 	{
@@ -58099,6 +58133,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "templates/text-to-image",
+		"private": false
+	},
+	{
 		"modelId": "templates/token-classification",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -59830,6 +59868,10 @@
 		"private": false
 	},
 	{
+		"modelId": "valay-shah/emily_tf_pytorch_model",
+		"private": false
+	},
+	{
 		"modelId": "valhalla/bart-large-finetuned-squadv1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -60103,6 +60145,10 @@
 	},
 	{
 		"modelId": "vasudevgupta/flax-bigbird-natural-questions",
+		"private": false
+	},
+	{
+		"modelId": "vasudevgupta/gsoc-wav2vec2-base-960h",
 		"private": false
 	},
 	{
@@ -60880,6 +60926,10 @@
 		"modelId": "wptoux/albert-chinese-large-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "wrice/png-bert",
+		"private": false
 	},
 	{
 		"modelId": "wrice/wav2vec2-base-960h",
@@ -62120,52 +62170,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "prajwalcr/poetry-sadness_gpt2",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl-finetune",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "valay-shah/emily_tf_pytorch_model",
-		"private": false
-	},
-	{
-		"modelId": "flyhero/gpt-j-6B",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "retiol/Guard",
-		"private": false
-	},
-	{
-		"modelId": "templates/text-to-image",
-		"private": false
-	},
-	{
-		"modelId": "wrice/png-bert",
-		"private": false
-	},
-	{
-		"modelId": "nielsr/beit-base-patch16-224",
-		"private": false
-	},
-	{
-		"modelId": "nielsr/beit-large-patch16-224-pt22k-ft22k",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "jegorkitskerkin/bert-base-dutch-cased-msmarco",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "vasudevgupta/gsoc-wav2vec2-base-960h",
+		"modelId": "adamlin/mwoz_dst-bart_base",
 		"private": false
 	}
 ]
