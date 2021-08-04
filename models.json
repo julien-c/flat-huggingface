@@ -19046,7 +19046,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-conll-mix-squad-with-neg-with-multi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-1-examples-split-1",
@@ -62478,6 +62479,12 @@
 	},
 	{
 		"modelId": "ramybaly/named-entity-recognition",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "huggingtweets/circlekpolarpop",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
