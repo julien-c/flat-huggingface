@@ -53222,7 +53222,7 @@
 	{
 		"modelId": "rsedlr/RickBot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "rsvp-AI-ca/bert-uncased-base-50k",
@@ -61898,11 +61898,6 @@
 		"private": false
 	},
 	{
-		"modelId": "zfallahnejad/parsbert-v2-finetuned-sentiment-analysis-snappfood",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "zhan/bert_qa_01",
 		"private": false
 	},
@@ -62398,5 +62393,10 @@
 	{
 		"modelId": "jamarju/roberta-large-bne-squad-2.0-es",
 		"private": false
+	},
+	{
+		"modelId": "EthanChen0418/few-shot-model-five-classes",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
