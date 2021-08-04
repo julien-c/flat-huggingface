@@ -44766,7 +44766,8 @@
 	},
 	{
 		"modelId": "liam168/chat-DialoGPT-small-zh",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "liam168/chat-t5-small-chinese-cluecorpussmall",
@@ -62214,11 +62215,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ricardo-filho/training_nli_bert-base-portuguese-cased",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "eliza-dukim/bert-base-finetuned-ynat",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -62252,5 +62248,15 @@
 	{
 		"modelId": "bigscience/tr1-13B-logs",
 		"private": false
+	},
+	{
+		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin-2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
