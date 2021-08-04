@@ -61899,7 +61899,8 @@
 	},
 	{
 		"modelId": "zfallahnejad/parsbert-v2-finetuned-sentiment-analysis-snappfood",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "zhan/bert_qa_01",
@@ -62322,10 +62323,6 @@
 		"private": false
 	},
 	{
-		"modelId": "jamarju/roberta-large-bne-squad-2.0-es",
-		"private": false
-	},
-	{
 		"modelId": "microsoft/beit-large-patch16-224-pt22k",
 		"private": false
 	},
@@ -62390,10 +62387,16 @@
 	},
 	{
 		"modelId": "jsfoon/slogan-gptneo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "hiroshi-matsuda-rit/bert-base-japanese-basic-char-v2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jamarju/roberta-large-bne-squad-2.0-es",
 		"private": false
 	}
 ]
