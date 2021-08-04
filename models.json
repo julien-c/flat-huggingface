@@ -963,6 +963,11 @@
 		"private": false
 	},
 	{
+		"modelId": "BaptisteDoyen/camembert-base-xnli",
+		"private": false,
+		"pipeline_tag": "zero-shot-classification"
+	},
+	{
 		"modelId": "BeIR/query-gen-msmarco-t5-base-v1",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -1308,6 +1313,10 @@
 	},
 	{
 		"modelId": "Cheatham/EU-JAV",
+		"private": false
+	},
+	{
+		"modelId": "Cheatham/xlm-roberta-large-finetuned-EUJAV",
 		"private": false
 	},
 	{
@@ -10419,6 +10428,10 @@
 		"private": false
 	},
 	{
+		"modelId": "JaidevShriram/gpt2-wikitext2",
+		"private": false
+	},
+	{
 		"modelId": "Jamesr227/Mod-bot-ai-small",
 		"private": false
 	},
@@ -11570,6 +11583,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Media1129/recipe-tag-model",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "MehdiHosseiniMoghadam/m",
 		"private": false
 	},
@@ -11999,6 +12017,10 @@
 		"modelId": "Nenma/romanian-bert-fake-news",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Netflix/yukutokluo",
+		"private": false
 	},
 	{
 		"modelId": "Neto71/sea_mammals",
@@ -12521,6 +12543,15 @@
 	},
 	{
 		"modelId": "Pyjay/bert-base-dutch-cased-sentence-transformers",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2-50k",
+		"private": false
+	},
+	{
+		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
@@ -17187,6 +17218,14 @@
 		"private": false
 	},
 	{
+		"modelId": "adamlin/mwoz_dst-bart_base",
+		"private": false
+	},
+	{
+		"modelId": "adamlin/mwoz_dst-dialoGPT_med",
+		"private": false
+	},
+	{
 		"modelId": "adamlin/predict_mwoz",
 		"private": false
 	},
@@ -17230,6 +17269,10 @@
 		"modelId": "adamlin/topicalchat-multiturn",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "adamlin/tune",
+		"private": false
 	},
 	{
 		"modelId": "adamlin/tus_21-delex_5000",
@@ -21483,6 +21526,10 @@
 		"private": false
 	},
 	{
+		"modelId": "bigscience/tr1-13B-logs",
+		"private": false
+	},
+	{
 		"modelId": "bigscience/tr1-13B-tensorboard",
 		"private": false
 	},
@@ -25205,6 +25252,11 @@
 	{
 		"modelId": "elishowk/testvalid",
 		"private": false
+	},
+	{
+		"modelId": "eliza-dukim/bert-base-finetuned-ynat",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "eloquentcow69/Hh",
@@ -30340,6 +30392,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "hf-internal-testing/tiny-layoutlm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "hf-internal-testing/tiny-random-albert",
 		"private": false
 	},
@@ -34654,6 +34711,11 @@
 	},
 	{
 		"modelId": "huggingtweets/frenzie",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/frepno_mytoff",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -42482,6 +42544,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "jegorkitskerkin/bert-base-dutch-cased-snli-msmarco",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased-snli",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -47592,11 +47659,6 @@
 		"private": false
 	},
 	{
-		"modelId": "monuirctc/invoice_extraction_layoutlmv2",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "morenolq/SumTO_FNS2020",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -48925,6 +48987,11 @@
 		"modelId": "mukund/privbert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "munggok/dalle-mini-indo-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "munggok/dalle-mini-indo",
@@ -51710,6 +51777,10 @@
 		"pipeline_tag": "audio-source-separation"
 	},
 	{
+		"modelId": "pouryajj/TTQnA",
+		"private": false
+	},
+	{
 		"modelId": "ppletscher/dummy",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -52784,6 +52855,10 @@
 		"private": false
 	},
 	{
+		"modelId": "retiol/123",
+		"private": false
+	},
+	{
 		"modelId": "retiol/FILMCOMPLET",
 		"private": false
 	},
@@ -52898,6 +52973,16 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin-2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "ricardocalleja/new_model",
 		"private": false
 	},
@@ -53000,6 +53085,14 @@
 	},
 	{
 		"modelId": "rmaheshh/zeroshot",
+		"private": false
+	},
+	{
+		"modelId": "rmermin/bert-base-cased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "rmermin/bert-base-uncased-finetuned-cola",
 		"private": false
 	},
 	{
@@ -55258,6 +55351,15 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "shashank2123/t5-fine-tuned-for-GEC",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "shashank2123/t5-finetuned-for-GEC",
+		"private": false
+	},
+	{
 		"modelId": "shauryr/arqmath-roberta-base-1.5M",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -55283,6 +55385,10 @@
 	},
 	{
 		"modelId": "shelly/bedrooms",
+		"private": false
+	},
+	{
+		"modelId": "shimdon96/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
 	{
@@ -61809,6 +61915,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zfallahnejad/parsbert-v2-finetuned-sentiment-analysis-snappfood",
+		"private": false
+	},
+	{
 		"modelId": "zhan/bert_qa_01",
 		"private": false
 	},
@@ -62167,118 +62277,12 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "adamlin/mwoz_dst-bart_base",
+		"modelId": "b-mueller/deepslayer",
 		"private": false
 	},
 	{
-		"modelId": "shashank2123/t5-fine-tuned-for-GEC",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Netflix/yukutokluo",
-		"private": false
-	},
-	{
-		"modelId": "BaptisteDoyen/camembert-base-xnli",
-		"private": false,
-		"pipeline_tag": "zero-shot-classification"
-	},
-	{
-		"modelId": "adamlin/mwoz_dst-dialoGPT_med",
-		"private": false
-	},
-	{
-		"modelId": "munggok/dalle-mini-indo-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingtweets/frepno_mytoff",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "rmermin/bert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "rmermin/bert-base-cased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "retiol/123",
-		"private": false
-	},
-	{
-		"modelId": "pouryajj/TTQnA",
-		"private": false
-	},
-	{
-		"modelId": "eliza-dukim/bert-base-finetuned-ynat",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Cheatham/xlm-roberta-large-finetuned-EUJAV",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "JaidevShriram/gpt2-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "shashank2123/t5-finetuned-for-GEC",
-		"private": false
-	},
-	{
-		"modelId": "jegorkitskerkin/bert-base-dutch-cased-snli-msmarco",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2-50k",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr1-13B-logs",
-		"private": false
-	},
-	{
-		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin-2",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "shimdon96/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "Media1129/recipe-tag-model",
+		"modelId": "monuirctc/invoice-extraction",
 		"private": false,
 		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "adamlin/tune",
-		"private": false
-	},
-	{
-		"modelId": "hf-internal-testing/tiny-layoutlm",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "zfallahnejad/parsbert-v2-finetuned-sentiment-analysis-snappfood",
-		"private": false
 	}
 ]
