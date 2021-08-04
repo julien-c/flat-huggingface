@@ -46694,6 +46694,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "microsoft/infoxlm-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "microsoft/layoutlm-base-uncased",
 		"private": false
 	},
@@ -55341,7 +55346,8 @@
 	},
 	{
 		"modelId": "shashank2123/t5-finetuned-for-GEC",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "shauryr/arqmath-roberta-base-1.5M",
@@ -62380,6 +62386,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "microsoft/infoxlm-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "jamarju/roberta-large-bne-squad-2.0-es",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -62404,6 +62415,15 @@
 	},
 	{
 		"modelId": "Cheatham/xlm-roberta-large-finetuned-EUJAV",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/xlm-align-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "smarthound/t5-small-finetuned-xsum",
 		"private": false
 	}
 ]
