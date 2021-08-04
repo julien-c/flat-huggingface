@@ -12547,10 +12547,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2-50k",
-		"private": false
-	},
-	{
 		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -53555,11 +53551,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "salesken/hindi-english-mixed-sentence-embeddings",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "salesken/natural_rephrase",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -62289,5 +62280,10 @@
 		"modelId": "HackMIT/double-agent",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingtweets/avgmeat-dril-methwaffles",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
