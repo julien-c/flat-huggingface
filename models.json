@@ -338,6 +338,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "123abhiALFLKFO/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "1712871/manual_vn_electra_small",
 		"private": false
 	},
@@ -476,6 +481,11 @@
 	},
 	{
 		"modelId": "AethiQs-Max/AethiQs_GemBERT_bertje_50k",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "AethiQs-Max/AethiQs_GemBERT_bertje_maastricht_10epochs",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -12492,6 +12502,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "PremalMatalia/albert-base-best-squad2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "PremalMatalia/electra-base-best-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -15349,15 +15364,6 @@
 	{
 		"modelId": "TaahaKazi/joke-identifier-bert",
 		"private": false
-	},
-	{
-		"modelId": "Tahsin-Mayeesha/bart-base-xsum",
-		"private": false
-	},
-	{
-		"modelId": "Tahsin-Mayeesha/bengali-t5-finetune",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Takao/test",
@@ -22921,6 +22927,11 @@
 		"private": false
 	},
 	{
+		"modelId": "chujiezheng/blenderbot_small-90M-ESC",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "cimm-kzn/endr-bert",
 		"private": false
 	},
@@ -22999,6 +23010,61 @@
 	},
 	{
 		"modelId": "cl-nagoya/defsent-bert-base-uncased-cls",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-base-uncased-max",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-base-uncased-mean",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-large-uncased-cls",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-large-uncased-max",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-large-uncased-mean",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-base-cls",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-base-max",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-base-mean",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-large-cls",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-large-max",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-large-mean",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -25119,6 +25185,10 @@
 	},
 	{
 		"modelId": "ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition",
+		"private": false
+	},
+	{
+		"modelId": "ehddnr301/bert-base-ehddnr-ynat",
 		"private": false
 	},
 	{
@@ -30969,6 +31039,10 @@
 		"private": false
 	},
 	{
+		"modelId": "hoanhkhoa/phobert-large-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "hollischan/yup",
 		"private": false
 	},
@@ -32932,6 +33006,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/centenaryla",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/cf__bundy",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -33118,6 +33197,11 @@
 	},
 	{
 		"modelId": "huggingtweets/ciphersbane",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/circlekpolarpop",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -34845,6 +34929,11 @@
 	},
 	{
 		"modelId": "huggingtweets/fuurawa",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/gabrielboric",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -38896,6 +38985,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/profleeper",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/progynovadose",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -41400,6 +41494,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/wormonnastring",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/worrski_",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -42333,6 +42432,11 @@
 	},
 	{
 		"modelId": "jakobwes/xlm_roberta_squad_v1.1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "jamarju/roberta-base-bne-squad-2.0-es",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -45177,6 +45281,11 @@
 	{
 		"modelId": "loodos/electra-small-turkish-uncased-discriminator",
 		"private": false
+	},
+	{
+		"modelId": "lookuss/kogpt2-base-v2-finetuned-idfmall",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lordtt13/COVID-SciBERT",
@@ -51681,6 +51790,16 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "philippelaban/headline_grouping",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "philippelaban/keep_it_simple",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "philschmid/bart-base-samsum",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -51842,6 +51961,10 @@
 	},
 	{
 		"modelId": "pino/squadqa",
+		"private": false
+	},
+	{
+		"modelId": "pkoiralap/bert-e",
 		"private": false
 	},
 	{
@@ -52732,6 +52855,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "ramybaly/named-entity-recognition",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "ran/c10",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -53082,6 +53210,10 @@
 	},
 	{
 		"modelId": "retiol/root",
+		"private": false
+	},
+	{
+		"modelId": "retiol/watchmovies",
 		"private": false
 	},
 	{
@@ -55496,11 +55628,20 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "shakil071/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "sharad/transpin",
 		"private": false
 	},
 	{
 		"modelId": "shashank2123/t5-base-fine-tuned-for-Punctuation-Restoration",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "shashank2123/t5-finetuned-for-GEC",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -58280,6 +58421,16 @@
 		"private": false
 	},
 	{
+		"modelId": "tau/splinter-base",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "tau/splinter-large",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "taylor/testing",
 		"private": false
 	},
@@ -58321,6 +58472,10 @@
 		"modelId": "tcaputi/guns-relevant",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "tdeme/twitter_bias_model",
+		"private": false
 	},
 	{
 		"modelId": "tdopierre/ProtAugment-LM-BANKING77",
@@ -62431,166 +62586,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "pkoiralap/bert-e",
-		"private": false
-	},
-	{
-		"modelId": "jamarju/roberta-base-bne-squad-2.0-es",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "PremalMatalia/albert-base-best-squad2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "huggingtweets/wormonnastring",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "philippelaban/keep_it_simple",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "AethiQs-Max/AethiQs_GemBERT_bertje_maastricht_10epochs",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "tau/splinter-base",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "tau/splinter-large",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "philippelaban/headline_grouping",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "ramybaly/named-entity-recognition",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "huggingtweets/circlekpolarpop",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/gabrielboric",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "hoanhkhoa/phobert-large-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "tdeme/twitter_bias_model",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/profleeper",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lookuss/kogpt2-base-v2-finetuned-idfmall",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/centenaryla",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "retiol/watchmovies",
-		"private": false
-	},
-	{
-		"modelId": "shashank2123/t5-finetuned-for-GEC",
-		"private": false
-	},
-	{
-		"modelId": "shakil071/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "chujiezheng/blenderbot_small-90M-ESC",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "123abhiALFLKFO/distilbert-base-uncased-finetuned-cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-bert-base-uncased-mean",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-bert-base-uncased-max",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-bert-large-uncased-cls",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-bert-large-uncased-mean",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-bert-large-uncased-max",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-roberta-base-cls",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-roberta-base-mean",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-roberta-base-max",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-roberta-large-cls",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-roberta-large-mean",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "cl-nagoya/defsent-roberta-large-max",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "ehddnr301/bert-base-ehddnr-ynat",
+		"modelId": "Tahsin-Mayeesha/bangla-fake-news-mbert",
 		"private": false
 	}
 ]
