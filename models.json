@@ -55505,16 +55505,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "shashank2123/t5-fine-tuned-for-GEC",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "shashank2123/t5-finetuned-for-GEC",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "shauryr/arqmath-roberta-base-1.5M",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -62518,7 +62508,8 @@
 	},
 	{
 		"modelId": "lookuss/kogpt2-base-v2-finetuned-idfmall",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingtweets/centenaryla",
@@ -62535,6 +62526,10 @@
 	},
 	{
 		"modelId": "retiol/watchmovies",
+		"private": false
+	},
+	{
+		"modelId": "shashank2123/t5-finetuned-for-GEC",
 		"private": false
 	}
 ]
