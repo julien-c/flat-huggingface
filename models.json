@@ -12573,6 +12573,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2-500k",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "Pyjay/bert-base-dutch-cased-snli-v2",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -15366,6 +15371,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Tahsin-Mayeesha/bangla-fake-news-mbert",
+		"private": false
+	},
+	{
 		"modelId": "Takao/test",
 		"private": false
 	},
@@ -17199,6 +17208,10 @@
 		"private": false
 	},
 	{
+		"modelId": "adamlin/companion_dialogpt",
+		"private": false
+	},
+	{
 		"modelId": "adamlin/csp",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -17250,6 +17263,10 @@
 		"modelId": "adamlin/recipe-tag-model",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "adamlin/roc_dialogpt",
+		"private": false
 	},
 	{
 		"modelId": "adamlin/sanity",
@@ -19049,6 +19066,10 @@
 		"modelId": "andi611/distilbert-base-uncased-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-conll-mix-squad-with-neg-with-multi-balanced",
+		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-conll-mix-squad-with-neg-with-multi",
@@ -30364,6 +30385,14 @@
 	},
 	{
 		"modelId": "helboukkouri/character-bert",
+		"private": false
+	},
+	{
+		"modelId": "helena-balabin/stonkgs-150k",
+		"private": false
+	},
+	{
+		"modelId": "helena-balabin/stonkgs-300k",
 		"private": false
 	},
 	{
@@ -50653,7 +50682,8 @@
 	},
 	{
 		"modelId": "osanseviero/BigGAN-deep-128",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-image"
 	},
 	{
 		"modelId": "osanseviero/adapter-example",
@@ -53202,6 +53232,10 @@
 	},
 	{
 		"modelId": "retiol/watchmovies",
+		"private": false
+	},
+	{
+		"modelId": "retiol/watchstream",
 		"private": false
 	},
 	{
@@ -58533,7 +58567,8 @@
 	},
 	{
 		"modelId": "templates/text-to-image",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-image"
 	},
 	{
 		"modelId": "templates/token-classification",
@@ -62572,34 +62607,6 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "retiol/watchstream",
-		"private": false
-	},
-	{
-		"modelId": "Tahsin-Mayeesha/bangla-fake-news-mbert",
-		"private": false
-	},
-	{
-		"modelId": "helena-balabin/stonkgs-150k",
-		"private": false
-	},
-	{
-		"modelId": "helena-balabin/stonkgs-300k",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-conll-mix-squad-with-neg-with-multi-balanced",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/companion_dialogpt",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/roc_dialogpt",
-		"private": false
 	},
 	{
 		"modelId": "rsedlr/RickBotExample",
