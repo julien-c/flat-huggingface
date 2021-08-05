@@ -11346,11 +11346,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "M47Labs/question_answering_es",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "M47Labs/similarity_es",
 		"private": false
 	},
@@ -45311,6 +45306,11 @@
 		"private": false
 	},
 	{
+		"modelId": "lookuss/kogpt2-base-v2-finetuned-idfmall",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "lordtt13/COVID-SciBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -62634,7 +62634,8 @@
 	},
 	{
 		"modelId": "lvwerra/codeparrot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_30-epoch_30",
@@ -62650,7 +62651,22 @@
 		"private": false
 	},
 	{
-		"modelId": "wilsontam/gpt2-dstc9",
+		"modelId": "jean-paul/kinyaRoberta-small",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jean-paul/kinyaRoberta-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jean-paul/KinyaBERT-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "wilsontam/bert-error-detection-dstc10",
 		"private": false
 	}
 ]
