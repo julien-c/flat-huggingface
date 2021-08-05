@@ -490,6 +490,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_30-epoch_30",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Ahmed59/Demo-Team-5-SIAD",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -42729,7 +42734,22 @@
 		"private": false
 	},
 	{
+		"modelId": "jean-paul/KinyaBERT-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "jean-paul/KinyaBERT-small",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jean-paul/kinyaRoberta-large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jean-paul/kinyaRoberta-small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -45497,6 +45517,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "lvwerra/codeparrot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "lvwerra/distilbert-base-multilingual-cased-finetuned-squad-v2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -46342,7 +46367,8 @@
 	},
 	{
 		"modelId": "markverschuren/bert-base-dutch-cased-finetuned-mark",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "marma/bert-base-swedish-cased-sentiment",
@@ -46441,6 +46467,10 @@
 	},
 	{
 		"modelId": "matthartman/matt_test_model",
+		"private": false
+	},
+	{
+		"modelId": "mattymoopers/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
 	{
@@ -50770,6 +50800,11 @@
 		"modelId": "osanseviero/fashion_brands_patterns",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "osanseviero/fastai_cat_vs_dog",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "osanseviero/fastspeech",
@@ -58585,6 +58620,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "templates/image-classification",
+		"private": false
+	},
+	{
 		"modelId": "templates/text-to-image",
 		"private": false,
 		"pipeline_tag": "text-to-image"
@@ -61321,6 +61360,10 @@
 		"private": false
 	},
 	{
+		"modelId": "wilsontam/bert-error-detection-dstc10",
+		"private": false
+	},
+	{
 		"modelId": "wissamantoun/araelectra-base-artydiqa",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -62631,46 +62674,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "lvwerra/codeparrot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_30-epoch_30",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "osanseviero/fastai_cat_vs_dog",
-		"private": false
-	},
-	{
-		"modelId": "templates/image-classification",
-		"private": false
-	},
-	{
-		"modelId": "jean-paul/kinyaRoberta-small",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "jean-paul/kinyaRoberta-large",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "jean-paul/KinyaBERT-large",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "wilsontam/bert-error-detection-dstc10",
-		"private": false
-	},
-	{
-		"modelId": "mattymoopers/distilbert-base-uncased-finetuned-ner",
-		"private": false
 	}
 ]
