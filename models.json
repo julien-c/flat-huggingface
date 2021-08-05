@@ -62605,12 +62605,8 @@
 	},
 	{
 		"modelId": "deutsche-telekom/mt5-small-sum-de-mit-v1",
-		"private": false
-	},
-	{
-		"modelId": "rsedlr/RickBotExample",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "markverschuren/bert-base-dutch-cased-finetuned-mark",
@@ -62620,5 +62616,10 @@
 		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_10",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "rsedlr/RickBotExample2",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
