@@ -62604,13 +62604,18 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "rsedlr/RickBotExample2",
+		"modelId": "patrickvonplaten/t5-base-norwegian-faster",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "huggingtweets/dril-gnomeszs-s4m31p4n",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "patrickvonplaten/t5-base-norwegian-faster",
+		"modelId": "rsedlr/RickBotExample",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "conversational"
 	}
 ]
