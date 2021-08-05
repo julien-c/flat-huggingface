@@ -485,6 +485,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_10",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Ahmed59/Demo-Team-5-SIAD",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -12558,6 +12563,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Pyjay/bert-base-dutch-cased-multi-snli-v2-500k",
+		"private": false
+	},
+	{
 		"modelId": "Pyjay/bert-base-dutch-cased-sentence-transformers",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -12571,6 +12580,10 @@
 		"modelId": "Pyjay/gpt2-medium-dutch-finetuned-text-generation",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Pyjay/training_bertje_nli_v2_500k",
+		"private": false
 	},
 	{
 		"modelId": "Pyke/bart-finetuned-on-patent-test",
@@ -22869,6 +22882,10 @@
 		"private": false
 	},
 	{
+		"modelId": "cho/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "chochan/tan",
 		"private": false
 	},
@@ -24646,6 +24663,11 @@
 	},
 	{
 		"modelId": "deutsche-telekom/mt5-small-sum-de-en-v1",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "deutsche-telekom/mt5-small-sum-de-mit-v1",
 		"private": false,
 		"pipeline_tag": "summarization"
 	},
@@ -34193,6 +34215,11 @@
 	},
 	{
 		"modelId": "huggingtweets/dril-gnomeszs-methwaffles",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/dril-gnomeszs-s4m31p4n",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -46321,6 +46348,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "markverschuren/bert-base-dutch-cased-finetuned-mark",
+		"private": false
+	},
+	{
 		"modelId": "marma/bert-base-swedish-cased-sentiment",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -51305,6 +51336,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "patrickvonplaten/t5-base-norwegian-faster",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "patrickvonplaten/t5-base-norwegian",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -51441,6 +51477,10 @@
 		"modelId": "pchanda/pretrained-smiles-pubchem10m",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "pchhapolika/distilbert-base-uncased-finetuned-squad",
+		"private": false
 	},
 	{
 		"modelId": "pcuenq/wav2vec2-large-xlsr-53-es",
@@ -53527,6 +53567,11 @@
 	},
 	{
 		"modelId": "rsedlr/RickBot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "rsedlr/RickBotExample",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
@@ -62590,48 +62635,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "deutsche-telekom/mt5-small-sum-de-mit-v1",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
-		"modelId": "markverschuren/bert-base-dutch-cased-finetuned-mark",
+		"modelId": "Pyjay/sentence-transformers-multi-snli-v2-500k",
 		"private": false
 	},
 	{
-		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_10",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "patrickvonplaten/t5-base-norwegian-faster",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingtweets/dril-gnomeszs-s4m31p4n",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "rsedlr/RickBotExample",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "pchhapolika/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/bert-base-dutch-cased-multi-snli-v2-500k",
-		"private": false
-	},
-	{
-		"modelId": "cho/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/training_bertje_nli_v2_500k",
+		"modelId": "Pyjay/sentence-transformer-multi-snli-v2-500k",
 		"private": false
 	}
 ]
