@@ -62517,14 +62517,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "ctoshio/quechuaBERTtesto",
-		"private": false
-	},
-	{
-		"modelId": "ctoshio/quechuaBERTtesting",
-		"private": false
-	},
-	{
 		"modelId": "retiol/watchmovies",
 		"private": false
 	},
@@ -62553,10 +62545,43 @@
 	},
 	{
 		"modelId": "cl-nagoya/defsent-bert-base-uncased-max",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-large-uncased-cls",
 		"private": false
 	},
 	{
-		"modelId": "Hayato/defsent-bert-large-uncased-cls",
+		"modelId": "cl-nagoya/defsent-bert-large-uncased-mean",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-bert-large-uncased-max",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-base-cls",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-base-mean",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-base-max",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-large-cls",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-large-mean",
+		"private": false
+	},
+	{
+		"modelId": "cl-nagoya/defsent-roberta-large-max",
 		"private": false
 	}
 ]
