@@ -15362,7 +15362,8 @@
 	},
 	{
 		"modelId": "Tahsin-Mayeesha/bangla-fake-news-mbert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Takao/test",
@@ -62625,5 +62626,22 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lvwerra/codeparrot",
+		"private": false
+	},
+	{
+		"modelId": "AethiQs-Max/aethiqs-base_bertje-data_rotterdam-epochs_30-epoch_30",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "osanseviero/fastai_cat_vs_dog",
+		"private": false
+	},
+	{
+		"modelId": "templates/image-classification",
+		"private": false
 	}
 ]
