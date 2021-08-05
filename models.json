@@ -62687,7 +62687,8 @@
 	},
 	{
 		"modelId": "ramybaly/ner_conll2012",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "osanseviero/wine-quality",
@@ -62704,6 +62705,12 @@
 	},
 	{
 		"modelId": "Pyjay/training_ms-marco_bi-encoder-v3-finetuned",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "ramybaly/ner_conll2003",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
