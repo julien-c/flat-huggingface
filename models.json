@@ -62498,10 +62498,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ctoshio/quechuaBERTverysmall",
-		"private": false
-	},
-	{
 		"modelId": "huggingtweets/profleeper",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -62550,38 +62546,51 @@
 	},
 	{
 		"modelId": "cl-nagoya/defsent-bert-large-uncased-cls",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-bert-large-uncased-mean",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-bert-large-uncased-max",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-roberta-base-cls",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-roberta-base-mean",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-roberta-base-max",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-roberta-large-cls",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-roberta-large-mean",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cl-nagoya/defsent-roberta-large-max",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "ehddnr301/bert-base-ehddnr-ynat",
 		"private": false
 	}
 ]
