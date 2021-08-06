@@ -62746,7 +62746,8 @@
 	},
 	{
 		"modelId": "lookuss/gpt3-kor-small_based_on_gpt2-finetuned-idfmall",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "bigscience/tr3c-350M-modeling-baseline-tensorboard",
@@ -62775,5 +62776,10 @@
 	{
 		"modelId": "liam168/cx-t5-base-en",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/jeebustrump",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
