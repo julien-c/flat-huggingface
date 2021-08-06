@@ -45054,11 +45054,6 @@
 		"private": false
 	},
 	{
-		"modelId": "lhbonifacio/ptt5-base-msmarcopt-100k",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "lhoestq/distilbert-base-uncased-finetuned-absa-as",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -60308,7 +60303,8 @@
 	},
 	{
 		"modelId": "unicamp-dl/mt5-base-multi-msmarco",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "unicamp-dl/ptt5-base-msmarco-en-pt-10k",
@@ -62866,7 +62862,8 @@
 	},
 	{
 		"modelId": "ncduy/gpt2-wikitext2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Chun/DialoGPT-medium-dailydialog",
@@ -62885,6 +62882,20 @@
 	},
 	{
 		"modelId": "templates/feature-extraction",
+		"private": false,
+		"pipeline_tag": "feature-extraction"
+	},
+	{
+		"modelId": "BigSalmon/FroBurta",
+		"private": false
+	},
+	{
+		"modelId": "templates/structured-data-classification",
+		"private": false,
+		"pipeline_tag": "structured-data-classification"
+	},
+	{
+		"modelId": "ncduy/bert-base-cased-wikitext2",
 		"private": false
 	}
 ]
