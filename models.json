@@ -62799,11 +62799,20 @@
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "huggingartists/morgenshtern",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sarasarasara/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/fasttext_english",
+		"private": false
 	}
 ]
