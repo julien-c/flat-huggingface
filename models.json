@@ -822,6 +822,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "Ashim/dga-transformer",
+		"private": false
+	},
+	{
 		"modelId": "Ashl3y/model_name",
 		"private": false
 	},
@@ -12579,6 +12583,30 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Pyjay/sentence-transformers-multilingual-snli-v2-500k",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Pyjay/training_ms-marco_bi-encoder-v3-finetuned",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Pyjay/training_multi_nli_v2_500k",
+		"private": false
+	},
+	{
+		"modelId": "Pyke/bart-finetuned-with-patent-test",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Pyke/bart-finetuned-with-patent",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -16798,6 +16826,10 @@
 	},
 	{
 		"modelId": "Zoe/model_covid",
+		"private": false
+	},
+	{
+		"modelId": "Zuabir10/Transformer",
 		"private": false
 	},
 	{
@@ -21566,6 +21598,46 @@
 	},
 	{
 		"modelId": "bigscience/tr1-13B-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3-1B3-modeling-baseline-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3-1B3-modeling-baseline-codecarbon",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3-1B3-modeling-baseline-logs",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3-1B3-modeling-baseline-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3b-760M-modeling-baseline-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3b-760M-modeling-baseline-logs",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3b-760M-modeling-baseline-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3c-350M-modeling-baseline-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3c-350M-modeling-baseline-logs",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3c-350M-modeling-baseline-tensorboard",
 		"private": false
 	},
 	{
@@ -36205,6 +36277,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/jeebustrump",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/jeemstate",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -43909,6 +43986,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "junnyu/mpnet",
+		"private": false
+	},
+	{
 		"modelId": "junnyu/roformer_chinese_base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -44968,6 +45049,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "lhbonifacio/mt5-base-multi-msmarco",
+		"private": false
+	},
+	{
 		"modelId": "lhbonifacio/ptt5-base-msmarcopt-100k",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -45058,6 +45143,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "liam168/cx-t5-base-en",
+		"private": false
+	},
+	{
 		"modelId": "liam168/gen-gpt2-medium-chinese",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -45066,6 +45155,10 @@
 		"modelId": "liam168/qa-roberta-base-chinese-extractive",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "liam168/sel-t5-base-en",
+		"private": false
 	},
 	{
 		"modelId": "liam168/trans-opus-mt-en-zh",
@@ -45295,6 +45388,11 @@
 	{
 		"modelId": "loodos/electra-small-turkish-uncased-discriminator",
 		"private": false
+	},
+	{
+		"modelId": "lookuss/gpt3-kor-small_based_on_gpt2-finetuned-idfmall",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lookuss/kogpt2-base-v2-finetuned-idfmall",
@@ -50778,6 +50876,10 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "osanseviero/fastai_income",
+		"private": false
+	},
+	{
 		"modelId": "osanseviero/fastspeech",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -50934,6 +51036,10 @@
 	},
 	{
 		"modelId": "osanseviero/upload-to-hub",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/wine-quality",
 		"private": false
 	},
 	{
@@ -52896,6 +53002,21 @@
 		"modelId": "ramsrigouthamg/t5_squad_v1",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "ramybaly/ner_conll2003",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "ramybaly/ner_conll2012",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "ramybaly/ner_nerd",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "ran/c10",
@@ -59666,6 +59787,10 @@
 		"private": false
 	},
 	{
+		"modelId": "truongphan/vntourismNER",
+		"private": false
+	},
+	{
 		"modelId": "ts1829/obama_gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -59772,6 +59897,11 @@
 		"modelId": "tuner007/t5_abs_qa",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "tupleblog/generate-thai-lyrics",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "tupleblog/salim-classifier",
@@ -60197,6 +60327,10 @@
 		"modelId": "unc-nlp/lxmert-vqa-uncased",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "unicamp-dl/mt5-base-multi-msmarco",
+		"private": false
 	},
 	{
 		"modelId": "unicamp-dl/ptt5-base-msmarco-en-pt-10k",
@@ -61948,6 +62082,10 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "ysh/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "ysharma/dummy-model-2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -62645,140 +62783,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "unicamp-dl/mt5-base-multi-msmarco",
-		"private": false
-	},
-	{
-		"modelId": "lhbonifacio/mt5-base-multi-msmarco",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/fastai_income",
-		"private": false
-	},
-	{
-		"modelId": "ramybaly/ner_conll2012",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "osanseviero/wine-quality",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/sentence-transformers-multilingual-snli-v2-500k",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "Pyjay/training_multi_nli_v2_500k",
-		"private": false
-	},
-	{
-		"modelId": "Pyjay/training_ms-marco_bi-encoder-v3-finetuned",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "ramybaly/ner_conll2003",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "bigscience/tr3-1B3-modeling-baseline-checkpoints",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3-1B3-modeling-baseline-tensorboard",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3-1B3-modeling-baseline-codecarbon",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3-1B3-modeling-baseline-logs",
-		"private": false
-	},
-	{
-		"modelId": "ramybaly/ner_nerd",
-		"private": false
-	},
-	{
-		"modelId": "ysh/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3b-760M-modeling-baseline-checkpoints",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3b-760M-modeling-baseline-logs",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3b-760M-modeling-baseline-tensorboard",
-		"private": false
-	},
-	{
-		"modelId": "lookuss/gpt3-kor-small_based_on_gpt2-finetuned-idfmall",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "tupleblog/generate-thai-lyrics",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "bigscience/tr3c-350M-modeling-baseline-tensorboard",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3c-350M-modeling-baseline-checkpoints",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr3c-350M-modeling-baseline-logs",
-		"private": false
-	},
-	{
-		"modelId": "Zuabir10/Transformer",
-		"private": false
-	},
-	{
-		"modelId": "Ashim/dga-transformer",
-		"private": false
-	},
-	{
-		"modelId": "liam168/sel-t5-base-en",
-		"private": false
-	},
-	{
-		"modelId": "liam168/cx-t5-base-en",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/jeebustrump",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Pyke/bart-finetuned-with-patent",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Pyke/bart-finetuned-with-patent-test",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "junnyu/mpnet",
-		"private": false
-	},
-	{
-		"modelId": "truongphan/vntourismNER",
+		"modelId": "ctoshio/QuechuaBertVerySmall",
 		"private": false
 	}
 ]
