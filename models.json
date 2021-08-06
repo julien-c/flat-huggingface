@@ -51041,7 +51041,8 @@
 	},
 	{
 		"modelId": "osanseviero/wine-quality",
-		"private": false
+		"private": false,
+		"pipeline_tag": "structured-data-classification"
 	},
 	{
 		"modelId": "othrif/wav2vec2-large-xlsr-arabic",
@@ -62871,5 +62872,19 @@
 		"modelId": "Chun/DialoGPT-medium-dailydialog",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "templates/audio-to-audio",
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
+	},
+	{
+		"modelId": "templates/automatic-speech-recognition",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "templates/feature-extraction",
+		"private": false
 	}
 ]
