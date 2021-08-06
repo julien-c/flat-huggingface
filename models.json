@@ -58576,16 +58576,6 @@
 		"private": false
 	},
 	{
-		"modelId": "tau/splinter-base",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "tau/splinter-large",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "taylor/testing",
 		"private": false
 	},
@@ -62838,6 +62828,17 @@
 	},
 	{
 		"modelId": "osanseviero/pyctcdecode_asr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "tau/splinter-base-qass",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "tau/splinter-large-qass",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
