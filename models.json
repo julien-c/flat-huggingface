@@ -62896,11 +62896,25 @@
 	},
 	{
 		"modelId": "ncduy/bert-base-cased-wikitext2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "hyunwoo3235/kogpt-neo-125M",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ramybaly/ner_nerd_fine",
+		"private": false
+	},
+	{
+		"modelId": "ncduy/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "ncduy/opus-mt-en-ro-finetuned-en-to-ro",
+		"private": false
 	}
 ]
