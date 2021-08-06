@@ -59775,7 +59775,8 @@
 	},
 	{
 		"modelId": "truongphan/vntourismNER",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "ts1829/obama_gpt2",
@@ -62808,15 +62809,18 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "sarasarasara/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
 		"modelId": "osanseviero/fasttext_english",
-		"private": false
+		"private": false,
+		"pipeline_tag": "feature-extraction"
 	},
 	{
 		"modelId": "huggingartists/xxxtentacion",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sarasarasara/sara-model",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
