@@ -12579,11 +12579,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Pyke/bart-finetuned-on-patent-test",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "QA/Ab",
 		"private": false
 	},
@@ -62781,5 +62776,15 @@
 		"modelId": "huggingtweets/jeebustrump",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Pyke/bart-finetuned-with-patent",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Pyke/bart-finetuned-with-patent-test",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
