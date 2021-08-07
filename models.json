@@ -28271,6 +28271,11 @@
 		"private": false
 	},
 	{
+		"modelId": "flozi00/alzheimer-vit",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "flozi00/byt5-german-grammar",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -28284,6 +28289,11 @@
 		"modelId": "flozi00/marian-german-grammar",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "flozi00/skincancer-vit",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "flozi00/speechcommands-hilfe",
@@ -50987,6 +50997,11 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "osanseviero/audio_test",
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
+	},
+	{
 		"modelId": "osanseviero/clip-st",
 		"private": false,
 		"pipeline_tag": "feature-extraction"
@@ -53750,6 +53765,10 @@
 	},
 	{
 		"modelId": "rmermin/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "rmermin/my-new-shiny-tokenizer",
 		"private": false
 	},
 	{
@@ -63023,12 +63042,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "flozi00/skincancer-vit",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "rmermin/my-new-shiny-tokenizer",
+		"modelId": "adalbertojunior/distilbert-portuguese-cased",
 		"private": false
 	}
 ]
