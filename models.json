@@ -2039,6 +2039,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "EhsanAghazadeh/melbert-roberta",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "EhsanAghazadeh/xlnet-large-cased-CoLA_A",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -11170,6 +11175,10 @@
 		"private": false
 	},
 	{
+		"modelId": "LightV/albert-base-v2-SST-2-finetuned-sst2",
+		"private": false
+	},
+	{
 		"modelId": "LilaBoualili/bert-pre-doc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -11990,6 +11999,11 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "Narrativa/t5-base-finetuned-totto-table-to-text",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Narsil/esm1b_t33_650M_UR50S",
 		"private": false
 	},
@@ -12524,6 +12538,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Plaban81/Imdb-sentiment-analysis",
+		"private": false
+	},
+	{
 		"modelId": "Pollawat/mt5-small-thai-qa-qg",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -12929,6 +12947,10 @@
 		"modelId": "Rohan-Kurdekar/Arabic_Bert_Model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Roman54/distilbert-base-uncased-finetuned-ner",
+		"private": false
 	},
 	{
 		"modelId": "RonnieTheCat/Question_generation",
@@ -28254,6 +28276,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "flozi00/covid_xray_vit",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "flozi00/marian-german-grammar",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -36879,6 +36906,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/kmett-richhickey-worrydream",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/knipps",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39057,6 +39089,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/porns_xx",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/porter_esq",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -40924,6 +40961,11 @@
 	},
 	{
 		"modelId": "huggingtweets/thesravaka",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/thestoicemperor",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -62979,42 +63021,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Narrativa/t5-base-finetuned-totto-table-to-text",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "LightV/albert-base-v2-SST-2-finetuned-sst2",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/thestoicemperor",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Roman54/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/porns_xx",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "flozi00/covid_xray_vit",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "EhsanAghazadeh/melbert-roberta",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Plaban81/Imdb-sentiment-analysis",
-		"private": false
 	}
 ]
