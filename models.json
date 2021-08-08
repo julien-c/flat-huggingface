@@ -11044,11 +11044,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Kowsher/bert-base-test",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "KrishnaChandra4/DialoGPT-small-Rick",
 		"private": false
 	},
@@ -63104,10 +63099,25 @@
 	},
 	{
 		"modelId": "Augustvember/wokka",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Augustvember/wokka2",
+		"private": false
+	},
+	{
+		"modelId": "zhuqing/bert-base-uncased-mumsnet-all-1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Kowsher/model-bangla-bert",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Kowsher/bert-base-bangla-ner",
 		"private": false
 	}
 ]
