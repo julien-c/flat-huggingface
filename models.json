@@ -10492,6 +10492,11 @@
 		"private": false
 	},
 	{
+		"modelId": "JakeMSc/pegasus-large-legal",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Jamesr227/Mod-bot-ai-small",
 		"private": false
 	},
@@ -25774,6 +25779,26 @@
 		"private": false
 	},
 	{
+		"modelId": "espejelomar/s-BETO",
+		"private": false
+	},
+	{
+		"modelId": "espejelomar/sBETO",
+		"private": false
+	},
+	{
+		"modelId": "espejelomar/sBETO_v2",
+		"private": false
+	},
+	{
+		"modelId": "espejelomar/sentece-embeddings-BETO",
+		"private": false
+	},
+	{
+		"modelId": "espejelomar/sentence-BETO",
+		"private": false
+	},
+	{
 		"modelId": "espnet/Chenda_Li_wsj0_2mix_enh_train_enh_conv_tasnet_raw_valid.si_snr.ave",
 		"private": false,
 		"pipeline_tag": "audio-to-audio"
@@ -28287,6 +28312,11 @@
 		"modelId": "flozi00/byt5-german-grammar",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "flozi00/covid_xray-vit",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "flozi00/marian-german-grammar",
@@ -42990,6 +43020,11 @@
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased-msmarco",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "jegorkitskerkin/bert-base-dutch-cased-ranking",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased-snli-msmarco",
@@ -62106,6 +62141,11 @@
 		"private": false
 	},
 	{
+		"modelId": "yliu337/noun_chunker",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "yliu337/t5_maskQA",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -63047,45 +63087,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "yliu337/noun_chunker",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "flozi00/covid_xray-vit",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "JakeMSc/pegasus-large-legal",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "jegorkitskerkin/bert-base-dutch-cased-ranking",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "espejelomar/sBETO",
-		"private": false
-	},
-	{
-		"modelId": "espejelomar/sentence-BETO",
-		"private": false
-	},
-	{
-		"modelId": "espejelomar/s-BETO",
-		"private": false
-	},
-	{
-		"modelId": "espejelomar/sentece-embeddings-BETO",
-		"private": false
-	},
-	{
-		"modelId": "espejelomar/sBETO_v2",
-		"private": false
 	}
 ]
