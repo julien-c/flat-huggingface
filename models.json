@@ -63139,7 +63139,8 @@
 	},
 	{
 		"modelId": "KamSut/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "inferus/DialoGPT-small-rick-inferus",
@@ -63165,8 +63166,12 @@
 		"private": false
 	},
 	{
-		"modelId": "Augustvember/wokka3",
+		"modelId": "Augustvember/wokka4",
+		"private": false
+	},
+	{
+		"modelId": "Augustvember/wokka5",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	}
 ]
