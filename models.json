@@ -43365,10 +43365,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "jinbbong/esg-bert-ko",
-		"private": false
-	},
-	{
 		"modelId": "jinbbong/esg-bert-kor",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -63267,5 +63263,18 @@
 		"modelId": "rsedlr/RickBotExample",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "jinbbong/esg-bert-kor-v2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "navteca/bart-large-mnli-yahoo-answers",
+		"private": false
+	},
+	{
+		"modelId": "adamlin/domain_cls.bart_yahoo",
+		"private": false
 	}
 ]
