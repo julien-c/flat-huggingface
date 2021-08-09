@@ -721,7 +721,8 @@
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-L",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-NER",
@@ -63307,6 +63308,10 @@
 	},
 	{
 		"modelId": "Paramveer/t5-small-finetuned-xsum",
+		"private": false
+	},
+	{
+		"modelId": "slesaad/bert_e",
 		"private": false
 	}
 ]
