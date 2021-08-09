@@ -50054,7 +50054,7 @@
 	{
 		"modelId": "navteca/bart-large-mnli",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "navteca/electra-base-squad2",
@@ -63257,5 +63257,15 @@
 		"modelId": "ReynaQuita/mbartcc25_trimmed",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "seongju/klue-mrc-roberta-base",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "rsedlr/RickBotExample",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
