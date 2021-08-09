@@ -50043,11 +50043,6 @@
 		"private": false
 	},
 	{
-		"modelId": "navteca/bart-large-mnli",
-		"private": false,
-		"pipeline_tag": "zero-shot-classification"
-	},
-	{
 		"modelId": "navteca/electra-base-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -63260,11 +63255,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "navteca/bart-large-mnli-yahoo-answers",
-		"private": false,
-		"pipeline_tag": "zero-shot-classification"
-	},
-	{
 		"modelId": "adamlin/domain_cls.bart_yahoo",
 		"private": false
 	},
@@ -63274,6 +63264,16 @@
 	},
 	{
 		"modelId": "sisi/my_tuni_model",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "ncduy/roberta-imdb-sentiment-analysis",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "navteca/tapas-large-finetuned-wtq",
 		"private": false
 	}
 ]
