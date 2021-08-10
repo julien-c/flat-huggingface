@@ -1018,6 +1018,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "BSC-TeMU/roberta-large-bne",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Badr/model1",
 		"private": false
 	},
@@ -63551,5 +63556,15 @@
 	{
 		"modelId": "TheLongSentance/my_test_run",
 		"private": false
+	},
+	{
+		"modelId": "rsedlr/RickBot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "huggingartists/the-gazette",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
