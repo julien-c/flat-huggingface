@@ -50850,10 +50850,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "nucklehead/deepspeech-ht",
-		"private": false
-	},
-	{
 		"modelId": "nvidia/megatron-bert-cased-345m",
 		"private": false
 	},
@@ -63385,5 +63381,10 @@
 		"modelId": "clarin-pl/herbert-kgr10",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "prajjwal1/gpt2_xl_discovery",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
