@@ -62581,7 +62581,8 @@
 	},
 	{
 		"modelId": "yliu337/filter_maskQA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "yliu337/nonfilter_maskQA",
@@ -63587,5 +63588,10 @@
 	{
 		"modelId": "TheLongSentance/t5_tuesday",
 		"private": false
+	},
+	{
+		"modelId": "kgerg/bert-base-cased_fine_tuned_glue_cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
