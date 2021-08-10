@@ -1003,14 +1003,19 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "BSC-TeMU/roberta-base-bne-capitel-pos",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "BSC-TeMU/roberta-base-bne",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "BSC-TeMU/roberta-large-bne",
+		"modelId": "BSC-TeMU/roberta-large-bne-capitel-pos",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Badr/model1",
