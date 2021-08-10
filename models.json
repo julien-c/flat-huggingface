@@ -15911,22 +15911,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "TheLongSentance/TheLongSentance",
-		"private": false
-	},
-	{
-		"modelId": "TheLongSentance/my_test_run",
-		"private": false
-	},
-	{
-		"modelId": "TheLongSentance/my_tuesday_model",
-		"private": false
-	},
-	{
-		"modelId": "TheLongSentance/t5-base-finetuned-toxic",
-		"private": false
-	},
-	{
 		"modelId": "TheLongSentance/t5-small-finetuned-toxic",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -15935,14 +15919,6 @@
 		"modelId": "TheLongSentance/t5-small-finetuned-xsum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "TheLongSentance/t5_tuesday",
-		"private": false
-	},
-	{
-		"modelId": "TheLongSentance/tst-multilabelclass",
-		"private": false
 	},
 	{
 		"modelId": "ThibaudL/test",
@@ -63600,11 +63576,16 @@
 	},
 	{
 		"modelId": "huggingartists/placebo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingtweets/frobenis",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "TheLongSentance/t5_tuesday",
+		"private": false
 	}
 ]
