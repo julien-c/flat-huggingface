@@ -63474,11 +63474,6 @@
 		"private": false
 	},
 	{
-		"modelId": "rsedlr/RickBot",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "huggingartists/florence-the-machine",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -63502,7 +63497,8 @@
 	},
 	{
 		"modelId": "NicolasPeruchot/Biography",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "huggingartists/abba",
@@ -63511,6 +63507,15 @@
 	},
 	{
 		"modelId": "huggingartists/lumen",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/ghostemane",
+		"private": false
+	},
+	{
+		"modelId": "kgerg/bert-glue-mrpc-test",
 		"private": false
 	}
 ]
