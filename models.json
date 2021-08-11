@@ -57801,7 +57801,8 @@
 	},
 	{
 		"modelId": "spacy/nb_core_news_lg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "spacy/nb_core_news_md",
@@ -57860,8 +57861,7 @@
 	},
 	{
 		"modelId": "spacy/ro_core_news_lg",
-		"private": false,
-		"pipeline_tag": "token-classification"
+		"private": false
 	},
 	{
 		"modelId": "spacy/ro_core_news_md",
@@ -63857,6 +63857,7 @@
 	},
 	{
 		"modelId": "flozi00/brain_tumor_types-vit-base-patch16-224",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	}
 ]
