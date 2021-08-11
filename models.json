@@ -63731,7 +63731,8 @@
 	},
 	{
 		"modelId": "songhee/i-manual-mbert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "huggingtweets/dodo82j",
@@ -63815,6 +63816,11 @@
 	},
 	{
 		"modelId": "transformersbook/codeparrot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "transformersbook/codeparrot-small",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
