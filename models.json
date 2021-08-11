@@ -15929,7 +15929,8 @@
 	},
 	{
 		"modelId": "TheLongSentance/dummy-model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "TheLongSentance/t5-small-finetuned-toxic",
@@ -63734,6 +63735,10 @@
 	},
 	{
 		"modelId": "bpietroiu/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "songhee/i-manaul-mbert",
 		"private": false
 	}
 ]
