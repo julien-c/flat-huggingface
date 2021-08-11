@@ -63850,7 +63850,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-multi-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "flozi00/brain_tumor_types-vit-base-patch16-224",
@@ -63861,5 +63862,9 @@
 		"modelId": "flozi00/covid_xray-vit-base-patch16-224",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "scales-okn/dev-people-ner",
+		"private": false
 	}
 ]
