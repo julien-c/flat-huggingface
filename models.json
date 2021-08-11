@@ -57611,7 +57611,8 @@
 	},
 	{
 		"modelId": "spacy/ca_core_news_lg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "spacy/ca_core_news_md",
@@ -63831,5 +63832,10 @@
 	{
 		"modelId": "Win-Win-option/Optimized_RUT5",
 		"private": false
+	},
+	{
+		"modelId": "zhuqing/bert-base-uncased-mumsnet-first-classification-t",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
