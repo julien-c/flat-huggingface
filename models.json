@@ -63760,7 +63760,8 @@
 	},
 	{
 		"modelId": "prithivida/ALT_CTRLSum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "TheLongSentance/t5_ada_weds",
@@ -63805,7 +63806,16 @@
 		"private": false
 	},
 	{
-		"modelId": "transformersbook/codeparrot",
+		"modelId": "lvwerra/codeparrot-small-vocabulary",
 		"private": false
+	},
+	{
+		"modelId": "transformersbook/codeparrot-small-vocabulary",
+		"private": false
+	},
+	{
+		"modelId": "transformersbook/codeparrot",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
