@@ -63573,7 +63573,8 @@
 	},
 	{
 		"modelId": "eliza-dukim/bert-base-finetuned-sts",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingartists/placebo",
@@ -63682,6 +63683,10 @@
 	},
 	{
 		"modelId": "lookuss/gpt3-kor-small_based_on_gpt2-vol1",
+		"private": false
+	},
+	{
+		"modelId": "sheller2010/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	}
 ]
