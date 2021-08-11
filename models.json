@@ -63758,6 +63758,17 @@
 	},
 	{
 		"modelId": "TheLongSentance/t5_ada_weds",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "theomeb/prot_bert_bfd_netmhcpan41_pos_pep",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingartists/slava-marlow",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
