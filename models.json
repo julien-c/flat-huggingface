@@ -12492,7 +12492,8 @@
 	},
 	{
 		"modelId": "OnsElleuch/logisgenerator",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "OpeyemiOsakuade/naijaNER",
@@ -57861,7 +57862,8 @@
 	},
 	{
 		"modelId": "spacy/ro_core_news_lg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "spacy/ro_core_news_md",
@@ -63815,11 +63817,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Rifky/Indobert-QA",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "spacy/en_core_web_sm",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -63857,6 +63854,11 @@
 	},
 	{
 		"modelId": "flozi00/brain_tumor_types-vit-base-patch16-224",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "flozi00/covid_xray-vit-base-patch16-224",
 		"private": false,
 		"pipeline_tag": "image-classification"
 	}
