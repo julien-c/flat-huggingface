@@ -63728,7 +63728,8 @@
 	},
 	{
 		"modelId": "Jihyun22/bert-base-finetuned-nli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "bpietroiu/distilbert-base-uncased-finetuned-ner",
@@ -63737,5 +63738,10 @@
 	{
 		"modelId": "songhee/i-manual-mbert",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/dodo82j",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
