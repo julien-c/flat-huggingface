@@ -54938,7 +54938,8 @@
 	},
 	{
 		"modelId": "sagteam/covid-twitter-xlm-roberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "saharnaz/clinic",
@@ -63990,6 +63991,11 @@
 	},
 	{
 		"modelId": "huggingtweets/deepleffen-jschlatt-twomad",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/deepleffen-dril_gpt2-twomad",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
