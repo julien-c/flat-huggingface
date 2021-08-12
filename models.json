@@ -46679,11 +46679,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "m3hrdadfi/typo-detector-distilbert-fa",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "m3hrdadfi/typo-detector-distilbert-is",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -63993,11 +63988,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "sankhajay/bert-base-sinaha-qa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "Shushant/distilgpt2-finetuned-wikitext2",
 		"private": false
 	},
@@ -64034,19 +64024,17 @@
 		"private": false
 	},
 	{
-		"modelId": "sankhajay/bert-base-sinhala-qa",
-		"private": false
-	},
-	{
-		"modelId": "sankhajay/main",
-		"private": false
-	},
-	{
 		"modelId": "RJ3vans/SignTagger",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "emanuelscaglione/t5-small-finetuned-xsum",
 		"private": false
+	},
+	{
+		"modelId": "sankhajay/bert-base-sinhala-qa",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
