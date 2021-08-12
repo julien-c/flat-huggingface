@@ -1975,6 +1975,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "DewiBrynJones/wav2vec2-large-xlsr-welsh",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "Dhruva/Interstellar",
 		"private": false
 	},
@@ -17523,21 +17528,9 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "adamlin/comet",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/companion_dialogpt",
-		"private": false
-	},
-	{
 		"modelId": "adamlin/csp",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "adamlin/cup",
-		"private": false
 	},
 	{
 		"modelId": "adamlin/distilbert-base-cased-sgd_qa-step5000",
@@ -17554,24 +17547,12 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "adamlin/filter-val",
-		"private": false
-	},
-	{
 		"modelId": "adamlin/filter",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "adamlin/flowscore-speak-model",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/mbart",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/mwoz_delx",
 		"private": false
 	},
 	{
@@ -17592,28 +17573,7 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "adamlin/roc_dialogpt",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/sanity",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "adamlin/simple_baseline_10perc",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/simple_baseline_5perc",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/simplebaseline",
-		"private": false
-	},
-	{
-		"modelId": "adamlin/sum",
 		"private": false
 	},
 	{
@@ -17630,10 +17590,6 @@
 		"modelId": "adamlin/topicalchat-multiturn",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "adamlin/tune",
-		"private": false
 	},
 	{
 		"modelId": "adamlin/tus_21-delex_5000",
@@ -64011,6 +63967,14 @@
 	},
 	{
 		"modelId": "eugenesiow/carn-bam",
+		"private": false
+	},
+	{
+		"modelId": "flozi00/wav2vec2-speechcommands-german",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr4-1B3-rotary",
 		"private": false
 	}
 ]
