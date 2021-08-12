@@ -63959,7 +63959,8 @@
 	},
 	{
 		"modelId": "rizvandwiki/seq_classifier_model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingtweets/saxena_puru",
@@ -63968,6 +63969,11 @@
 	},
 	{
 		"modelId": "huggingtweets/deepleffen-dodo82j",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/deepleffen-dodo82j-tsm_leffen",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
