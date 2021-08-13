@@ -47891,7 +47891,8 @@
 	},
 	{
 		"modelId": "microsoft/beit-base-patch16-224",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "microsoft/beit-base-patch16-384",
@@ -64189,10 +64190,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "vppvgit/xxl-it-finetuned-c08",
-		"private": false
-	},
-	{
 		"modelId": "huggingtweets/saudiah_repat-someone_470",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -64221,6 +64218,24 @@
 	},
 	{
 		"modelId": "Noman/model_name",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/neural_meduza",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "BigSalmon/IntroductionGPT",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ziilpenkfyyvhyxpkz/Escuadron",
+		"private": false
+	},
+	{
+		"modelId": "Noman/layoutlmv2",
 		"private": false
 	}
 ]
