@@ -64185,6 +64185,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Luyu/condenser",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "ricardo-filho/sbertimbau-large-allnli-mnrl",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -64198,6 +64203,11 @@
 		"modelId": "ricardo-filho/sbertimbau-large-nli-sts",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Luyu/co-condenser-wiki",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Luyu/co-condenser-marco",
