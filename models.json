@@ -64409,7 +64409,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-avg-qqp-2e-5-42",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "cwenner/distilbert-base-uncased-finetuned-cola",
@@ -64449,5 +64450,9 @@
 		"modelId": "UBIAI/en_pipeline",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "poker125/distilgpt2-finetuned-wikitext2",
+		"private": false
 	}
 ]
