@@ -48052,7 +48052,8 @@
 	},
 	{
 		"modelId": "microsoft/beit-large-patch16-224",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "microsoft/beit-large-patch16-384",
@@ -64319,5 +64320,10 @@
 	{
 		"modelId": "vishnun/distilbert-base-uncased-seq-mix-sentiment-tamil",
 		"private": false
+	},
+	{
+		"modelId": "huggingartists/twenty-one-pilots",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
