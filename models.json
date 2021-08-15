@@ -64465,15 +64465,18 @@
 	},
 	{
 		"modelId": "MickyMike/0-GPT2SP-appceleratorstudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/0-GPT2SP-aptanastudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/0-GPT2SP-bamboo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "google/fnet-base",
@@ -64543,5 +64546,15 @@
 		"modelId": "huggingtweets/mondomascots",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-Test8",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "zhuqing/bert-base-uncased-netmums-parent-v2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
