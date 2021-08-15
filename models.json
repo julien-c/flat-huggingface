@@ -64688,11 +64688,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "DeadBeast/bengali-text-mbert",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "MickyMike/1-GPT2SP-appceleratorstudio",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -64729,11 +64724,13 @@
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-mesos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-moodle",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-mule",
@@ -64797,7 +64794,8 @@
 	},
 	{
 		"modelId": "JakeMSc/pegasus-large-finetuned-ts-and-cs-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "pere/norwegian-roberta-base-highlr",
@@ -64819,5 +64817,14 @@
 	{
 		"modelId": "Ashok/my-new-tokenizer",
 		"private": false
+	},
+	{
+		"modelId": "YanWang20121865/2021MScAI_ML",
+		"private": false
+	},
+	{
+		"modelId": "DeadBeast/mbert-base-cased-finetuned-bengali-fakenews",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
