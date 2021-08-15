@@ -64447,16 +64447,20 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "UBIAI/en_pipeline",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "poker125/distilgpt2-finetuned-wikitext2",
 		"private": false
 	},
 	{
 		"modelId": "skni/distilgpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "UBIAI/scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
 		"private": false
 	}
 ]
