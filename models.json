@@ -64503,7 +64503,8 @@
 	},
 	{
 		"modelId": "MickyMike/0-GPT2SP-mesos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/0-GPT2SP-jirasoftware",
@@ -64560,5 +64561,10 @@
 		"modelId": "zhuqing/bert-base-uncased-netmums-parent-v2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "nateraw/doggos-lol",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	}
 ]
