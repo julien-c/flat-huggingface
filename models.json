@@ -64704,19 +64704,23 @@
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-bamboo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-clover",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-datamanagement",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-duracloud",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/1-GPT2SP-jirasoftware",
@@ -64792,6 +64796,19 @@
 	},
 	{
 		"modelId": "JakeMSc/pegasus-large-finetuned-ts-and-cs-v2",
+		"private": false
+	},
+	{
+		"modelId": "pere/norwegian-roberta-base-highlr",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Kyoungmin/kcbert-base-partition",
+		"private": false
+	},
+	{
+		"modelId": "Sam2021/xlm_rober_base_finetuned_squd_v1",
 		"private": false
 	}
 ]
