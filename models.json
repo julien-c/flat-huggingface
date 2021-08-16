@@ -65219,10 +65219,37 @@
 	},
 	{
 		"modelId": "flozi00/brain_tumor_binary-deit-base-patch16-384",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "Geotrend/distilbert-base-en-ur-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-tr-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-bg-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Geotrend/distilbert-base-en-ar-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "vishnun/distilgpt2-finetuned-tamil-gpt",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "flozi00/brain_tumor_types-deit-base-patch16-384",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	}
 ]
