@@ -17350,6 +17350,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -65359,5 +65364,13 @@
 		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-Test-Formal-1",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "miesnerjacob/single_label_model",
+		"private": false
+	},
+	{
+		"modelId": "miesnerjacob/dummy-model",
+		"private": false
 	}
 ]
