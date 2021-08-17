@@ -58197,11 +58197,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "shahrukhx01/schema-aware-denoising-distilbart-cnn-12-6-text2sql",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "shahrukhx01/schema-aware-distilbart-cnn-12-6-text2sql",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -65504,11 +65499,16 @@
 	},
 	{
 		"modelId": "osanseviero/dalle-mini-fork",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-image"
 	},
 	{
 		"modelId": "huggingtweets/12rafiqul",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Aleksandar/GPT2SrbTokenizerOscar",
+		"private": false
 	}
 ]
