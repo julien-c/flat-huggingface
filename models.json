@@ -13693,7 +13693,8 @@
 	},
 	{
 		"modelId": "RJ3vans/CCVspanTagger",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "RJ3vans/SSCCVspanTagger",
@@ -28955,7 +28956,7 @@
 	{
 		"modelId": "flax-community/dalle-mini",
 		"private": false,
-		"pipeline_tag": "na"
+		"pipeline_tag": "text-to-image"
 	},
 	{
 		"modelId": "flax-community/dansk-gpt-wiki",
@@ -65500,5 +65501,9 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "osanseviero/dalle-mini-fork",
+		"private": false
 	}
 ]
