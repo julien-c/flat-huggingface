@@ -59138,11 +59138,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "songhee/bert-base-multilingual-uncased-korquad",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "songhee/i-manual-mbert",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -65484,7 +65479,8 @@
 	},
 	{
 		"modelId": "tyqiangz/xlm-roberta-base-finetuned-chaii",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "malhajj/ArabGlossBERT",
@@ -65626,5 +65622,10 @@
 		"modelId": "lgrobol/roberta-minuscule",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingtweets/factoport-lifedote-lifelywords",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
