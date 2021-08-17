@@ -570,27 +570,11 @@
 		"private": false
 	},
 	{
-		"modelId": "Aleksandar/BertSrbTokenizerOscar",
-		"private": false
-	},
-	{
-		"modelId": "Aleksandar/GPT2SrbTokenizerOscar",
-		"private": false
-	},
-	{
 		"modelId": "Aleksandar/albert-srb-base-oscar",
 		"private": false
 	},
 	{
-		"modelId": "Aleksandar/albert-srb-base-v1-oscar",
-		"private": false
-	},
-	{
 		"modelId": "Aleksandar/bert-srb-base-cased-oscar",
-		"private": false
-	},
-	{
-		"modelId": "Aleksandar/debertv2-srb-tokenizer-oscar",
 		"private": false
 	},
 	{
@@ -33243,11 +33227,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "huggingartists/lil-nas-x",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "huggingartists/loverance",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -65731,7 +65710,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-3-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "shaktisd/distilbert-base-uncased-finetuned-squad",
@@ -65741,5 +65721,26 @@
 		"modelId": "huggingartists/eminem",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Aleksandar/gpt2-srb-oscar",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/justin-bieber",
+		"private": false
+	},
+	{
+		"modelId": "Aleksandar/distilbert-srb-base-cased-oscar",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/lil-nas-x",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-8-examples-split-2",
+		"private": false
 	}
 ]
