@@ -1220,6 +1220,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Bloodwarrior/Chikfalay",
+		"private": false
+	},
+	{
 		"modelId": "BogdanKuloren/continual-learning-paper-embeddings-model",
 		"private": false
 	},
@@ -2159,6 +2163,10 @@
 	},
 	{
 		"modelId": "Ed/Test",
+		"private": false
+	},
+	{
+		"modelId": "EdCoin/EdCoin1",
 		"private": false
 	},
 	{
@@ -13407,6 +13415,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-Test-Formal-1",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-Test001",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -13677,6 +13690,15 @@
 	{
 		"modelId": "RASMUS/norwegian-roberta-base",
 		"private": false
+	},
+	{
+		"modelId": "RJ3vans/CCVspanTagger",
+		"private": false
+	},
+	{
+		"modelId": "RJ3vans/SSCCVspanTagger",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "RJ3vans/SignTagger",
@@ -22500,6 +22522,10 @@
 		"private": false
 	},
 	{
+		"modelId": "bengul/bert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "benjamin/gerpt2-large",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -22672,6 +22698,11 @@
 		"modelId": "bertin-project/bertin-roberta-base-spanish",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-90a3bacf-d379-422b-a32e-e05093e40699",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "bespin-global/intent-recommender-ae6f6620-1c08-42d7-a4da-65b47e3ee894",
@@ -25128,6 +25159,11 @@
 	{
 		"modelId": "cys/text-similarity-faq",
 		"private": false
+	},
+	{
+		"modelId": "dadada/opus-mt-en-ro-finetuned-en-to-ro",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "dahele/tip",
@@ -27659,6 +27695,10 @@
 		"private": false
 	},
 	{
+		"modelId": "eugenesiow/carn",
+		"private": false
+	},
+	{
 		"modelId": "eugenesiow/edsr-base",
 		"private": false
 	},
@@ -29734,6 +29774,10 @@
 		"private": false
 	},
 	{
+		"modelId": "fromalanjones/test",
+		"private": false
+	},
+	{
 		"modelId": "fspanda/Electra-Medical-v1.5-discriminator",
 		"private": false
 	},
@@ -30077,6 +30121,11 @@
 		"modelId": "gagan3012/rap-writer",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gagan3012/summarsiation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "gagan3012/wav2vec2-xlsr-chuvash",
@@ -44726,6 +44775,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "jegorkitskerkin/mt5-base-dutch-msmarco",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "jeniya/BERTOverflow",
 		"private": false
 	},
@@ -49135,6 +49189,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "miesnerjacob/trends-classifier_08-16-2021",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "miggytrindiad/sample",
 		"private": false
 	},
@@ -51499,6 +51558,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nadiafelix/LegalSentenceBertPT-BR",
+		"private": false
+	},
+	{
 		"modelId": "naiyalee/DialoGPT-small-neku",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -51560,7 +51623,16 @@
 		"private": false
 	},
 	{
+		"modelId": "nateraw/audio-to-audio-test",
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
+	},
+	{
 		"modelId": "nateraw/autoencoder-cifar10",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/autokeras_image_classification",
 		"private": false
 	},
 	{
@@ -51624,6 +51696,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nateraw/dummy_keras_test",
+		"private": false
+	},
+	{
 		"modelId": "nateraw/food",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -51635,6 +51711,58 @@
 	},
 	{
 		"modelId": "nateraw/iris-svc",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-cats-vs-dogs-2",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-cats-vs-dogs-3",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-cats-vs-dogs-4",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-cats-vs-dogs",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-from-colab-v4",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-from-colab",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-from-colab2",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-from-colab3",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-push-to-hub-2",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-push-to-hub",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-test-rip",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-test-rip2",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-test-rip3",
 		"private": false
 	},
 	{
@@ -53103,6 +53231,11 @@
 		"modelId": "osanseviero/test_adapters",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "osanseviero/test_tag",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "osanseviero/testlangtag",
@@ -58243,6 +58376,10 @@
 		"private": false
 	},
 	{
+		"modelId": "shwetabluelabs/distilroberta-base-finetuned-jobdescription",
+		"private": false
+	},
+	{
 		"modelId": "shwethasub/Test",
 		"private": false
 	},
@@ -63272,6 +63409,11 @@
 		"private": false
 	},
 	{
+		"modelId": "vennify/t5-example-upload",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "vera-pro/bert-mention-de",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -65330,148 +65472,6 @@
 	},
 	{
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Bloodwarrior/Chikfalay",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/audio-to-audio-test",
-		"private": false,
-		"pipeline_tag": "audio-to-audio"
-	},
-	{
-		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-Test-Formal-1",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "osanseviero/test_tag",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "RJ3vans/SSCCVspanTagger",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "jegorkitskerkin/mt5-base-dutch-msmarco",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "nateraw/dummy_keras_test",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-push-to-hub",
-		"private": false
-	},
-	{
-		"modelId": "vennify/t5-example-upload",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "nadiafelix/LegalSentenceBertPT-BR",
-		"private": false
-	},
-	{
-		"modelId": "RJ3vans/CCVspanTagger",
-		"private": false
-	},
-	{
-		"modelId": "fromalanjones/test",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-push-to-hub-2",
-		"private": false
-	},
-	{
-		"modelId": "EdCoin/EdCoin1",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-test-rip",
-		"private": false
-	},
-	{
-		"modelId": "miesnerjacob/trends-classifier_08-16-2021",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "nateraw/keras-test-rip2",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-test-rip3",
-		"private": false
-	},
-	{
-		"modelId": "gagan3012/summarsiation",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "nateraw/keras-from-colab",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-from-colab2",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-from-colab3",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-from-colab-v4",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-cats-vs-dogs",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-cats-vs-dogs-2",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-cats-vs-dogs-3",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/keras-cats-vs-dogs-4",
-		"private": false
-	},
-	{
-		"modelId": "dadada/opus-mt-en-ro-finetuned-en-to-ro",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bengul/bert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "shwetabluelabs/distilroberta-base-finetuned-jobdescription",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/autokeras_image_classification",
-		"private": false
-	},
-	{
-		"modelId": "eugenesiow/carn",
-		"private": false
-	},
-	{
-		"modelId": "bespin-global/intent-recommender-90c19cb6-f8dc-451c-9f04-56dfc1e7f70a",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
