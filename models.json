@@ -64707,7 +64707,8 @@
 	},
 	{
 		"modelId": "yliu337/t5_neg_filter_bothcontext",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "yluisfern/FDR",
@@ -65717,7 +65718,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-1-examples-split-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "fxr/DialoGPT-small-joshua",
@@ -65730,6 +65732,14 @@
 	},
 	{
 		"modelId": "huggingartists/taylor-swift",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-3-examples-split-2",
+		"private": false
+	},
+	{
+		"modelId": "shaktisd/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
