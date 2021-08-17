@@ -24675,7 +24675,8 @@
 	},
 	{
 		"modelId": "cogito233/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "cointegrated/LaBSE-en-ru",
@@ -65534,6 +65535,15 @@
 	},
 	{
 		"modelId": "bespin-global/intent-recommender-d694ab47-d88f-45c7-af5b-a56497c60beb",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ricardo-filho/bertimbau-base-quora-multitask",
+		"private": false
+	},
+	{
+		"modelId": "fjluque/dummy-model",
 		"private": false
 	}
 ]
