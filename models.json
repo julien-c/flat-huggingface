@@ -570,10 +570,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Aleksandar/srb",
-		"private": false
-	},
-	{
 		"modelId": "Alessandro/model_name",
 		"private": false
 	},
@@ -65597,7 +65593,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-3-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "huggingtweets/6bnwo-hotwifekatrina-qobetty",
@@ -65615,5 +65612,19 @@
 	{
 		"modelId": "leemingy/distilbert-base-uncased-finetuned-ner",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/motivational",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-8-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "lgrobol/roberta-minuscule",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
