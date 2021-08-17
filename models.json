@@ -28352,10 +28352,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "fadhilarkan/t5-small-finetuned-xsum",
-		"private": false
-	},
-	{
 		"modelId": "fagner/envoy",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -65652,7 +65648,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-16-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "birgermoell/ner-swedish-wikiann",
@@ -65660,7 +65657,25 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "harish/AStitchInLanguageModels-Task2_EN_SentTransTokenizedNoPreTrain",
+		"modelId": "TWP/Clone-Jun",
 		"private": false
+	},
+	{
+		"modelId": "torangu/cvsorter",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-32-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "fadhilarkan/test-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-Test-Formal-4",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
