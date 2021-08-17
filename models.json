@@ -65611,7 +65611,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-8-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "lgrobol/roberta-minuscule",
@@ -65645,6 +65646,15 @@
 	},
 	{
 		"modelId": "songhee/i-manual-mbert",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "chrommium/bert-base-multilingual-cased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-16-examples-split-1",
 		"private": false
 	}
 ]
