@@ -65541,7 +65541,8 @@
 	},
 	{
 		"modelId": "lgrobol/flaubert-minuscule",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "huggingtweets/bbcqos-fitslut63-kellyg_official",
@@ -65608,7 +65609,11 @@
 		"private": false
 	},
 	{
-		"modelId": "GUOKP/distilbert-base-uncased-finetuned-squad",
+		"modelId": "victoraavila/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "leemingy/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	}
 ]
