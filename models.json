@@ -24258,10 +24258,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "chrommium/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
 		"modelId": "chu/KC.",
 		"private": false
 	},
@@ -65651,7 +65647,8 @@
 	},
 	{
 		"modelId": "chrommium/bert-base-multilingual-cased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-16-examples-split-1",
