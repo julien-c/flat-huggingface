@@ -33044,11 +33044,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "huggingartists/eminem",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "huggingartists/fascinoma",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -65637,11 +65632,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "chrommium/bert-base-multilingual-cased-finetuned-cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-16-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -65661,7 +65651,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-32-examples-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "fadhilarkan/test-summarization",
@@ -65679,7 +65670,25 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "alon-albalak/mBERT-base-XQuAD",
+		"modelId": "alon-albalak/bert-base-multilingual-xquad",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "huggingartists/eminem",
+		"private": false
+	},
+	{
+		"modelId": "chrommium/bert-base-multilingual-cased-finetuned-news-headlines",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "yliu337/t5_neg_filter_bothcontext",
 		"private": false
 	}
 ]
