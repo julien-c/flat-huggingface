@@ -24284,6 +24284,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "chulin/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "cimm-kzn/endr-bert",
 		"private": false
 	},
@@ -26765,7 +26769,17 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "eli4s/Bert-L12-h256-A4",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "eli4s/Bert-L12-h384-A6",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "eli4s/prunedBert-L12-h256-A4-finetuned",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -28347,6 +28361,10 @@
 		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "fadhilarkan/t5-small-finetuned-xsum",
+		"private": false
 	},
 	{
 		"modelId": "fagner/envoy",
@@ -48215,6 +48233,10 @@
 		"private": false
 	},
 	{
+		"modelId": "malhajj/ArabGlossBERT",
+		"private": false
+	},
+	{
 		"modelId": "malteos/arqmath-bert-base-cased",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -61214,6 +61236,10 @@
 		"private": false
 	},
 	{
+		"modelId": "tekodukunnangendiseh/ikyuhjmyhjgfjfgj",
+		"private": false
+	},
+	{
 		"modelId": "teleportHQ/predicto_css",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -65474,26 +65500,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "fadhilarkan/t5-small-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "eli4s/Bert-L12-h256-A4",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "tekodukunnangendiseh/ikyuhjmyhjgfjfgj",
-		"private": false
-	},
-	{
-		"modelId": "malhajj/ArabGlossBERT",
-		"private": false
-	},
-	{
-		"modelId": "chulin/distilbert-base-uncased-finetuned-squad",
-		"private": false
 	}
 ]
