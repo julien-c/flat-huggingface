@@ -65540,10 +65540,17 @@
 	},
 	{
 		"modelId": "ricardo-filho/bertimbau-base-quora-multitask",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "fjluque/dummy-model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "RJ3vans/CMV1spanTagger",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
