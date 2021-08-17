@@ -65451,7 +65451,8 @@
 	},
 	{
 		"modelId": "dadada/opus-mt-en-ro-finetuned-en-to-ro",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "bengul/bert-base-uncased-finetuned-squad",
@@ -65459,6 +65460,10 @@
 	},
 	{
 		"modelId": "shwetabluelabs/distilroberta-base-finetuned-jobdescription",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/autokeras_image_classification",
 		"private": false
 	}
 ]
