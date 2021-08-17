@@ -25291,7 +25291,8 @@
 	},
 	{
 		"modelId": "dadada/opus-mt-zh-en-finetuned-zh-to-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "dahele/tip",
@@ -48420,10 +48421,6 @@
 		"private": false
 	},
 	{
-		"modelId": "malhajj/ArabGlossBERT",
-		"private": false
-	},
-	{
 		"modelId": "malteos/arqmath-bert-base-cased",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -65765,6 +65762,15 @@
 	},
 	{
 		"modelId": "mwhuhn/summarize",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/brockhardo",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "malhajj/ArabGlossBERT",
 		"private": false
 	}
 ]
