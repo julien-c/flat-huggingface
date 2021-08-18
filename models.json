@@ -66024,10 +66024,6 @@
 		"private": false
 	},
 	{
-		"modelId": "osanseviero/test_allennlp2",
-		"private": false
-	},
-	{
 		"modelId": "Davlan/distilbert-base-multilingual-cased-masakhaner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -66068,7 +66064,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-3-examples-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sertacates/KVKK-sentence-similarity-pytorch-roberta",
@@ -66090,6 +66087,14 @@
 	},
 	{
 		"modelId": "bengul/bert-base-uncased-finetuned-squad2.0",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-8-examples-split-5",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/test_allennlp2",
 		"private": false
 	}
 ]
