@@ -25351,11 +25351,6 @@
 		"private": false
 	},
 	{
-		"modelId": "dadada/opus-mt-zh-en-finetuned-zh-to-en",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "dahele/tip",
 		"private": false
 	},
@@ -57351,16 +57346,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "seamew/Weibo",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "seamew/amazon_reviews_zh",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "seanbenhur/tanglish-offensive-language-identification",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -65831,6 +65816,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-3-examples-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-8-examples-split-3",
 		"private": false
 	}
 ]
