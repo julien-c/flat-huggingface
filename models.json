@@ -65985,7 +65985,8 @@
 	},
 	{
 		"modelId": "osanseviero/test_bidaf",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "osanseviero/test_bidaf2",
@@ -66109,16 +66110,12 @@
 	},
 	{
 		"modelId": "KoichiYasuoka/roberta-classical-chinese-large-upos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "aapot/runs2",
 		"private": false
-	},
-	{
-		"modelId": "osanseviero/test_allennlp2",
-		"private": false,
-		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "akreal/tiny-random-gpt2",
@@ -66139,5 +66136,19 @@
 	{
 		"modelId": "akreal/tiny-random-xlnet",
 		"private": false
+	},
+	{
+		"modelId": "osanseviero/test_allennlp2",
+		"private": false
+	},
+	{
+		"modelId": "saraks/cuad-distil-parties-dates-law-08-18",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "cosmoquester/bart-ko-mini",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
