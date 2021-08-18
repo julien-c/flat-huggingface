@@ -30259,6 +30259,21 @@
 		"private": false
 	},
 	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-10",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-20",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gabtan99/dialogpt-tagalog-medium-30",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "gabtan99/dialogpt-tagalog-medium",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -65841,7 +65856,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-32-examples-split-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-DS-4",
@@ -65861,5 +65877,9 @@
 		"modelId": "Pyke/bart-finetuned-on-patent-Deepspeed-DS-1",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-3",
+		"private": false
 	}
 ]
