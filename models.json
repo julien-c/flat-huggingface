@@ -44235,11 +44235,6 @@
 		"private": false
 	},
 	{
-		"modelId": "hyesunyun/update_summ_led_base_with_additional_summ",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
 		"modelId": "hyunbo/model_name",
 		"private": false
 	},
@@ -59616,11 +59611,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "songhee/i-manual-mbert",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "soniakris/Sonia_model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -66158,10 +66148,25 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "jaimin/BigBirdForPlagiarism",
+		"private": false
+	},
+	{
+		"modelId": "songhee/i-manual-mbert",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "saraks/cuad-distil-parties-dates-law-08-18-id-question",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-128-examples-split-5",
 		"private": false
 	}
 ]
