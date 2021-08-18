@@ -21039,7 +21039,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-8-examples-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat",
@@ -65973,5 +65974,18 @@
 		"modelId": "longcld/t5-small-itranslate-visquad-aqg",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "mtr0930/imanual_koelectra_base_v3",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-16-examples-split-4",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/hankgreen",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
