@@ -66421,10 +66421,20 @@
 	},
 	{
 		"modelId": "huggingartists/snoop-dogg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-128-examples-split-1",
+		"private": false
+	},
+	{
+		"modelId": "longcld/t5-base-squad-visquad-aqg",
 		"private": false
 	}
 ]
