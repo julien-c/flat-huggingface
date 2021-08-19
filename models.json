@@ -1494,16 +1494,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Chun/translation-en2zh-Helsinki",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Chun/translation-zh2en-Helsinki",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "Cilan/dalle-knockoff",
 		"private": false
 	},
@@ -66407,11 +66397,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Chun/test1",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "supah-hakah/distilgpt2-finetuned-wikitext2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -66455,5 +66440,9 @@
 		"modelId": "huggingartists/baklan",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "avioo1/distilbert-base-uncased-finetuned-squad",
+		"private": false
 	}
 ]
