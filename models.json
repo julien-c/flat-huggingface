@@ -66317,11 +66317,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-5",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "seamew/THUCNewsTitle_bert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -66388,7 +66383,8 @@
 	},
 	{
 		"modelId": "KoichiYasuoka/bert-large-japanese-upos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Pallisgaard/distilbert-base-uncased-finetuned-cola",
@@ -66396,6 +66392,10 @@
 	},
 	{
 		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-squad-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-1",
 		"private": false
 	}
 ]
