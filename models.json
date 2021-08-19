@@ -28860,11 +28860,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "fadhilarkan/google-t5-summarization",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "fadhilarkan/t5-small-finetuned-xsum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -66392,10 +66387,6 @@
 		"private": false
 	},
 	{
-		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-squad-finetuned-squad",
-		"private": false
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-few-shot-64-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -66414,5 +66405,28 @@
 		"modelId": "Gabriel/cross-encoder-KB-atkins-v1",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Chun/test1",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "supah-hakah/distilgpt2-finetuned-wikitext2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Chun/translation-en2zh-mbart50",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "supah-hakah/distilroberta-base-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "seongju/klue-mrc-koelectra-base",
+		"private": false
 	}
 ]
