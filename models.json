@@ -66461,7 +66461,8 @@
 	},
 	{
 		"modelId": "k0t1k/test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "mwesner/reformer-clm",
@@ -66477,5 +66478,10 @@
 		"modelId": "zhuqing/comparison-bert-base-uncased-netmums-feminist",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Pyke/DS-config-8",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
