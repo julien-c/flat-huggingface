@@ -26089,6 +26089,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "davanstrien/bl-books-genre",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "daveni/twitter-xlm-roberta-emotion-es",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -66652,5 +66657,10 @@
 		"modelId": "Kyoungmin/beauty-base-KLCP",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Gabriel/fine-tune-sbert-quora-atkins",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
