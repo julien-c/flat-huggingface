@@ -25771,7 +25771,8 @@
 	},
 	{
 		"modelId": "dadada/opus-mt-zh-en-ep3-renri-zh-to-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "dadada/opus-mt-zh-en-ep5-finetuned-zh-to-en",
@@ -66629,5 +66630,10 @@
 		"modelId": "Chun/translation-zh2en-Helsinki",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "zhuqing/roberta-base-uncased-netmums-all",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
