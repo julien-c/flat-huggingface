@@ -17656,6 +17656,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -66618,5 +66623,10 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Chun/translation-zh2en-Helsinki",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
