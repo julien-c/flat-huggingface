@@ -1499,6 +1499,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Chun/translation-en2zh-Helsinki",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Chun/translation-en2zh-mbart50",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -33815,6 +33820,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/lil-uzi-vert",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/loverance",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -56810,6 +56820,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "richlukich/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "ricklon/GUINAN_MEDIUM_MODEL",
 		"private": false
 	},
@@ -58014,6 +58028,11 @@
 		"modelId": "seamew/Hotel_ernie",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "seamew/THUCNewsText_bert",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "seamew/THUCNewsTitle_bert",
@@ -59446,6 +59465,10 @@
 	},
 	{
 		"modelId": "sibat/bert-ner-finetune",
+		"private": false
+	},
+	{
+		"modelId": "sibsambhu/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
 	{
@@ -66449,7 +66472,17 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/comparison-distilbert-base-uncased-netmums-feminist",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zhuqing/comparison-roberta-base-uncased-netmums-feminist",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "zhuqing/distilbert-base-uncased-netmums-parent",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -66585,38 +66618,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Chun/translation-en2zh-Helsinki",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingartists/lil-uzi-vert",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "zhuqing/distilbert-base-uncased-netmums-parent",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "sibsambhu/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "zhuqing/comparison-distilbert-base-uncased-netmums-feminist",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "richlukich/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "seamew/THUCNewsText_bert",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	}
 ]
