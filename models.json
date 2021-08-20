@@ -16799,7 +16799,8 @@
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-qqp-2e-5-42",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TehranNLP-org/bert-base-uncased-avg-sst2-2e-5-21",
@@ -47310,11 +47311,6 @@
 		"private": false
 	},
 	{
-		"modelId": "lagodw/redditbot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "laifuchicago/farm2tran",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -66578,5 +66574,10 @@
 		"modelId": "huggingtweets/jordanbpeterson",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "zhuqing/comparison-roberta-base-uncased-netmums-feminist",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
