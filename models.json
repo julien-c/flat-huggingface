@@ -66593,6 +66593,12 @@
 	},
 	{
 		"modelId": "huggingartists/lil-uzi-vert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "zhuqing/comparison-distilbert-base-uncased-netmums-feminist",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
