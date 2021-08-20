@@ -66597,8 +66597,21 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "zhuqing/distilbert-base-uncased-netmums-parent",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "sibsambhu/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "zhuqing/comparison-distilbert-base-uncased-netmums-feminist",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "richlukich/distilbert-base-uncased-finetuned-squad",
+		"private": false
 	}
 ]
