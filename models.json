@@ -66834,11 +66834,22 @@
 	},
 	{
 		"modelId": "vppvgit/bert-base-italian-xxl-cased-finetuned-C08",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "DeadBeast/korscm-mBERT",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Chun/test-en2zh",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Chun/test-zh2en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
