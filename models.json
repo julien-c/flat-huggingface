@@ -26826,10 +26826,6 @@
 		"private": false
 	},
 	{
-		"modelId": "diiogo/portuguese-roberta-base",
-		"private": false
-	},
-	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -66917,6 +66913,17 @@
 	},
 	{
 		"modelId": "EhsanAghazadeh/xlm-roberta-base-lcc-fa-2e-5-42",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Pyke/DS-config-12",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "EhsanAghazadeh/xlm-roberta-base-lcc-en-2e-5-42",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
