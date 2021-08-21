@@ -66858,7 +66858,8 @@
 	},
 	{
 		"modelId": "baffo32/genji-python-6B-split",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists/enya",
@@ -66868,5 +66869,14 @@
 	{
 		"modelId": "wsgoh/distilgpt2-finetuned-wikitext2",
 		"private": false
+	},
+	{
+		"modelId": "fadhilarkan/t5-small-finetuned-xsum-2",
+		"private": false
+	},
+	{
+		"modelId": "neoyipeng/distil-roberta-finbert-mlm",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
