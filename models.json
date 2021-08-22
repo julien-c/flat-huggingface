@@ -67068,10 +67068,17 @@
 	},
 	{
 		"modelId": "lewtun/roberta-base-bne-finetuned-amazon_reviews_multi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "DeadBeast/emoBERTTamil",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Narrativa/mT5-base-finetuned-tydiQA-xqa",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
