@@ -26888,10 +26888,6 @@
 		"private": false
 	},
 	{
-		"modelId": "diiogo/roberta-test",
-		"private": false
-	},
-	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -67020,7 +67016,8 @@
 	},
 	{
 		"modelId": "dvm1983/TinyBERT_General_4L_312D_de",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Pyke/DS-config-14",
@@ -67078,6 +67075,15 @@
 	},
 	{
 		"modelId": "Narrativa/mT5-base-finetuned-tydiQA-xqa",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "eAsyle/test2ABSA",
+		"private": false
+	},
+	{
+		"modelId": "eAsyle/testABSA3",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	}
