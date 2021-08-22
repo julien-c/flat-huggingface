@@ -29117,11 +29117,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "fadhilarkan/google-t5-summarization-2",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "fadhilarkan/t5-small-finetuned-xsum-2",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -66990,18 +66985,9 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "DeadBeast/test_trainer",
-		"private": false
-	},
-	{
 		"modelId": "iamtarun/wav2vec-osr",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "DeadBeast/emoBERTTamil",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Longines/test_repo",
@@ -67039,7 +67025,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit_restaurant-with-neg-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "dvm1983/TinyBERT_General_4L_312D_de",
@@ -67058,5 +67045,17 @@
 		"modelId": "huggingtweets/pepexbt",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Pyke/DS-config-15",
+		"private": false
+	},
+	{
+		"modelId": "Pyke/1",
+		"private": false
+	},
+	{
+		"modelId": "Pyke/DS-config-16",
+		"private": false
 	}
 ]
