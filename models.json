@@ -67034,10 +67034,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "fadhilarkan/indobert-lite-squad-finetuned-squad-indo",
-		"private": false
-	},
-	{
 		"modelId": "huggingtweets/pepexbt",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -67103,7 +67099,8 @@
 	},
 	{
 		"modelId": "ssam/DialoGPT-small-RickmfSanchez",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-128-examples-split-1",
@@ -67137,6 +67134,16 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-128-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Kyoungmin/beauty-base-KLCP2",
 		"private": false
+	},
+	{
+		"modelId": "Pyke/DS-config-18",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
