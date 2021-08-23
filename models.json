@@ -17331,6 +17331,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "TheLongSentance/MIMIC-III-t5-large-v1",
+		"private": false
+	},
+	{
 		"modelId": "TheLongSentance/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -22811,6 +22815,11 @@
 	},
 	{
 		"modelId": "athar/dummyy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "athar/rob-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -38020,6 +38029,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/formernumber-wmason_iv-wyattmaxon",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/forshaper",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -50045,6 +50059,11 @@
 		"private": false
 	},
 	{
+		"modelId": "markg/swda-test",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "markussagen/xlm-roberta-longformer-base-4096",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -53139,7 +53158,8 @@
 	},
 	{
 		"modelId": "mwesner/bart-CNN-Dailymail-summ",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "mwesner/bart-mlm",
@@ -53443,6 +53463,10 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "nateraw/planes-trains-automobiles",
+		"private": false
+	},
+	{
 		"modelId": "nateraw/rare-puppers",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -53478,6 +53502,10 @@
 	},
 	{
 		"modelId": "nateraw/test_model_a",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/trainer-rare-puppers",
 		"private": false
 	},
 	{
@@ -59328,7 +59356,32 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-distilbert-cos-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-distilbert-dot-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
@@ -67342,6 +67395,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/roberta-base-uncased-netmums-classification-intersection-2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "zhuqing/roberta-base-uncased-netmums-classification-intersection",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -67473,57 +67531,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "TheLongSentance/MIMIC-III-t5-large-v1",
-		"private": false
-	},
-	{
-		"modelId": "nateraw/trainer-rare-puppers",
-		"private": false
-	},
-	{
-		"modelId": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "sentence-transformers/multi-qa-distilbert-dot-v1",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "sentence-transformers/multi-qa-distilbert-cos-v1",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "markg/swda-test",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "nateraw/planes-trains-automobiles",
-		"private": false
-	},
-	{
-		"modelId": "zhuqing/roberta-base-uncased-netmums-classification-intersection-2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "athar/rob-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	}
 ]
