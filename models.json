@@ -65446,10 +65446,6 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
-		"modelId": "victoraavila/bert-base-uncased-finetuned-squad-test",
-		"private": false
-	},
-	{
 		"modelId": "victoraavila/bert-base-uncased-finetuned-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -67505,5 +67501,24 @@
 		"modelId": "sentence-transformers/multi-qa-distilbert-cos-v1",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "markg/swda-test",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "nateraw/planes-trains-automobiles",
+		"private": false
 	}
 ]
