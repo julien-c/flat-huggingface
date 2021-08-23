@@ -52598,7 +52598,7 @@
 	{
 		"modelId": "mrm8488/mT5-small-finetuned-tydiqa-for-xqa",
 		"private": false,
-		"pipeline_tag": "question-answering"
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "mrm8488/mbart-large-finetuned-bible-es-en-translation",
@@ -53167,10 +53167,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "mwesner/led-clm",
-		"private": false
-	},
-	{
 		"modelId": "mwesner/reformer-clm",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -53461,10 +53457,6 @@
 		"modelId": "nateraw/pasta-pizza-ravioli",
 		"private": false,
 		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "nateraw/planes-trains-automobiles",
-		"private": false
 	},
 	{
 		"modelId": "nateraw/rare-puppers",
@@ -57483,7 +57475,8 @@
 	},
 	{
 		"modelId": "rfulton/my_model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ricardo-filho/BERT-pt-faquad-finetuned-squad-v1.1-pt",
@@ -67567,5 +67560,32 @@
 	{
 		"modelId": "rfulton/hackMITfinished",
 		"private": false
+	},
+	{
+		"modelId": "yliu337/t5_neg_nonfilter_bothcontext",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/hubert-base-s3prl-superb-er",
+		"private": false
+	},
+	{
+		"modelId": "dbmdz/electra-base-italian-mc4-cased-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "dbmdz/electra-base-italian-mc4-cased-generator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "nateraw/planes-trains-automobiles",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "huggingartists/joji",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
