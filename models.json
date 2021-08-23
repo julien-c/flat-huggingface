@@ -67388,8 +67388,14 @@
 		"private": false
 	},
 	{
+		"modelId": "jmamou/gpt2-medium-IMDB",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Narsil/deberta-large-mnli-zero-cls",
-		"private": false
+		"private": false,
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "ksmcg/push_hub_test",
@@ -67402,11 +67408,16 @@
 	},
 	{
 		"modelId": "ksmcg/name",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "zhuqing/roberta-base-uncased-all-intersection",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "suhruth/test_model",
+		"private": false
 	}
 ]
