@@ -67429,7 +67429,13 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "fadhilarkan/paraphrase",
-		"private": false
+		"modelId": "fadhilarkan/t5_paw_global",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
