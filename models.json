@@ -67314,12 +67314,17 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "bennimmo/disaster-detection",
+		"private": false
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-ner-mit-restaurant",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "bennimmo/disaster-detection",
-		"private": false
+		"modelId": "uer/simcse-base-chinese",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
