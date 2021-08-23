@@ -65306,7 +65306,8 @@
 	},
 	{
 		"modelId": "victoraavila/bert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "victoraavila/distilbert-base-uncased-finetuned-squad",
@@ -67446,7 +67447,7 @@
 	{
 		"modelId": "HAttORi/DialoGPT-Medium-zerotwo",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Pyke/DS-config-21",
@@ -67462,5 +67463,14 @@
 		"modelId": "huggingtweets/newathensgov",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "fadhilarkan/tmpvqruuuz0",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "scales-okn/dev-litigation-events-settlement-fast",
+		"private": false
 	}
 ]
