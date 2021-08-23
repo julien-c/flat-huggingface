@@ -12981,7 +12981,7 @@
 	{
 		"modelId": "Narrativa/mT5-base-finetuned-tydiQA-xqa",
 		"private": false,
-		"pipeline_tag": "question-answering"
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Narrativa/mbart-large-50-finetuned-opus-en-pt-translation",
@@ -67350,7 +67350,8 @@
 	},
 	{
 		"modelId": "DaNLP/da-bert-emotion-classification",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Ewan1011/phoenixbot-chat",
@@ -67358,6 +67359,22 @@
 	},
 	{
 		"modelId": "Ziyi/shakespeare",
+		"private": false
+	},
+	{
+		"modelId": "megagonlabs/transformers-ud-japanese-electra-base-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "megagonlabs/transformers-ud-japanese-electra-base-ginza",
+		"private": false
+	},
+	{
+		"modelId": "ludens/infinite-story",
+		"private": false
+	},
+	{
+		"modelId": "Ewan1011/phoenixbotchat",
 		"private": false
 	}
 ]
