@@ -33824,11 +33824,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "hiroshi-matsuda-rit/bert-base-japanese-v2-ginza",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "hiroshi-matsuda-rit/ja_gsd",
 		"private": false
 	},
@@ -67340,11 +67335,29 @@
 	},
 	{
 		"modelId": "DaNLP/da-bert-emotion-binary",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "zhuqing/roberta-base-uncased-all-intersection",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "KBLab/roberta-base-swedish-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "DaNLP/da-bert-emotion-classification",
+		"private": false
+	},
+	{
+		"modelId": "Ewan1011/phoenixbot-chat",
+		"private": false
+	},
+	{
+		"modelId": "Ziyi/shakespeare",
+		"private": false
 	}
 ]
