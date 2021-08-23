@@ -17905,6 +17905,15 @@
 		"private": false
 	},
 	{
+		"modelId": "Vasanth/tamil-sentiment-distilbert",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Vasanth/tamil-sentiment-roberta",
+		"private": false
+	},
+	{
 		"modelId": "Vasudev/discharge_albert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -20599,6 +20608,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "andi611/distilbert-base-uncased-ner-mit-restaurant",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "andi611/distilbert-base-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -20970,6 +20984,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-few-shot-8-examples-split-5",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-1-examples-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -24958,6 +24977,11 @@
 		"modelId": "chambliss/distilbert-for-food-extraction",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "chandank/bart-base-finetuned-xsum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "charmys/Erika",
@@ -29321,6 +29345,16 @@
 		"modelId": "fadhilarkan/qa-indo-k",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "fadhilarkan/qa-indo-math-k-v2",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "fadhilarkan/qa-indo-math-k",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "fadhilarkan/t5-small-finetuned-xsum-2",
@@ -64598,6 +64632,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "uer/simcse-base-chinese",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "uer/t5-base-chinese-cluecorpussmall",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -67163,6 +67202,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "zhuqing/roberta-base-uncased-parent-intersection",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "zhuqing/test",
 		"private": false
 	},
@@ -67286,50 +67330,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-1-examples-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "chandank/bart-base-finetuned-xsum",
+		"modelId": "Aleksandar/distilbert-srb-ner",
 		"private": false
-	},
-	{
-		"modelId": "Vasanth/tamil-sentiment-distilbert",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "zhuqing/roberta-base-uncased-parent-intersection",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Vasanth/tamil-sentiment-roberta",
-		"private": false
-	},
-	{
-		"modelId": "fadhilarkan/qa-indo-math-k",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bennimmo/disaster-detection",
-		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-ner-mit-restaurant",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "uer/simcse-base-chinese",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "fadhilarkan/qa-indo-math-k-v2",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
 	}
 ]
