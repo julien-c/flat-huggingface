@@ -67331,7 +67331,8 @@
 	},
 	{
 		"modelId": "Aleksandar/distilbert-srb-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "DaNLP/da-bert-emotion-binary",
@@ -67397,6 +67398,14 @@
 	},
 	{
 		"modelId": "ProfessorBob/qa-camembert-large-fquad-piaf",
+		"private": false
+	},
+	{
+		"modelId": "Narsil/deberta-large-mnli-zero-cls",
+		"private": false
+	},
+	{
+		"modelId": "ksmcg/push_hub_test",
 		"private": false
 	}
 ]
