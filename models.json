@@ -67220,10 +67220,16 @@
 	},
 	{
 		"modelId": "Blaine-Mason/hackMIT-finetuned-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "roygan/idea_megatron",
 		"private": false
+	},
+	{
+		"modelId": "seamew/Weibo_bert",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
