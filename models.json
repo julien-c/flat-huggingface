@@ -27158,6 +27158,11 @@
 		"private": false
 	},
 	{
+		"modelId": "diiogo/roberta-test",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "diiogo/wiki-roberta",
 		"private": false
 	},
@@ -67712,6 +67717,12 @@
 	},
 	{
 		"modelId": "unicamp-dl/multilingual-MiniLM-L6-v2-multi-msmarco",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "unicamp-dl/multilingual-MiniLM-L6-v2-en-pt-msmarco",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
