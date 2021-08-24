@@ -67796,10 +67796,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "tuner007/pegasus_summerizer",
-		"private": false
-	},
-	{
 		"modelId": "huggingtweets/codewisdom",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -67818,7 +67814,12 @@
 		"private": false
 	},
 	{
-		"modelId": "benank/DialoGPT-small-rico-v2",
+		"modelId": "tuner007/pegasus_summarizer",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Davlan/distilbert-base-multilingual-cased-ner-hrl",
 		"private": false
 	}
 ]
