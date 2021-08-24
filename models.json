@@ -67820,7 +67820,8 @@
 	},
 	{
 		"modelId": "Davlan/distilbert-base-multilingual-cased-ner-hrl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "DrSploit/DrFars",
@@ -67828,6 +67829,10 @@
 	},
 	{
 		"modelId": "LucasLi/Transformer",
+		"private": false
+	},
+	{
+		"modelId": "mwesner/pretrained-bart-CNN-Dailymail-summ",
 		"private": false
 	}
 ]
