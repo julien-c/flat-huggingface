@@ -1544,6 +1544,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "Chun/w-en2zh-mtm",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Cilan/dalle-knockoff",
 		"private": false
 	},
@@ -18311,6 +18316,10 @@
 		"private": false
 	},
 	{
+		"modelId": "XiangPan/KT5",
+		"private": false
+	},
+	{
 		"modelId": "XiangPan/roberta_squad1_2epoch",
 		"private": false
 	},
@@ -21892,6 +21901,10 @@
 		"modelId": "antoiloui/netbert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "anton-l/hubert-base-s3prl-superb-er",
+		"private": false
 	},
 	{
 		"modelId": "anton-l/hubert-base-s3prl-superb-ks",
@@ -26074,6 +26087,10 @@
 		"private": false
 	},
 	{
+		"modelId": "csukuangfj/icefall_asr_yesno_tdnn",
+		"private": false
+	},
+	{
 		"modelId": "csukuangfj/test_hugging_face",
 		"private": false
 	},
@@ -26647,6 +26664,15 @@
 	},
 	{
 		"modelId": "dbmdz/electra-base-german-europeana-cased-generator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "dbmdz/electra-base-italian-mc4-cased-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "dbmdz/electra-base-italian-mc4-cased-generator",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -29435,6 +29461,11 @@
 	},
 	{
 		"modelId": "fadhilarkan/test-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "fadhilarkan/tmpr60526f6",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -34351,6 +34382,11 @@
 	},
 	{
 		"modelId": "huggingartists/ghostemane",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/joji",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -45873,6 +45909,10 @@
 		"private": false
 	},
 	{
+		"modelId": "jacksonkarel/peacenik-gpt2",
+		"private": false
+	},
+	{
 		"modelId": "jacob-valdez/blenderbot-small-tflite",
 		"private": false
 	},
@@ -45887,6 +45927,11 @@
 	{
 		"modelId": "jacobbieker/perceiver-io",
 		"private": false
+	},
+	{
+		"modelId": "jacobduncan00/hackMIT-finetuned-sst2",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "jacobshein/danish-bert-botxo-qa-squad",
@@ -53449,6 +53494,11 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "nateraw/planes-trains-automobiles",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
 		"modelId": "nateraw/rare-puppers",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -54701,6 +54751,38 @@
 	},
 	{
 		"modelId": "osanseviero/code-search-net-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_arabic",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_chinese",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_english-default",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_english-extra",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_english-kbp",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_french",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_german",
+		"private": false
+	},
+	{
+		"modelId": "osanseviero/corenlp_spanish",
 		"private": false
 	},
 	{
@@ -56092,10 +56174,6 @@
 		"private": false
 	},
 	{
-		"modelId": "pkufool/conformer_ctc",
-		"private": false
-	},
-	{
 		"modelId": "placebokkk/first_hf_model",
 		"private": false
 	},
@@ -57461,6 +57539,10 @@
 	},
 	{
 		"modelId": "rexvizsla/ShinoBotSmall",
+		"private": false
+	},
+	{
+		"modelId": "rfulton/hackMITfinished",
 		"private": false
 	},
 	{
@@ -66451,6 +66533,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "yliu337/t5_neg_nonfilter_bothcontext",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "yluisfern/FDR",
 		"private": false
 	},
@@ -67511,90 +67598,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "osanseviero/corenlp_arabic",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_chinese",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_english-default",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_english-extra",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_english-kbp",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_french",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_german",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/corenlp_spanish",
-		"private": false
-	},
-	{
-		"modelId": "rfulton/hackMITfinished",
-		"private": false
-	},
-	{
-		"modelId": "yliu337/t5_neg_nonfilter_bothcontext",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "anton-l/hubert-base-s3prl-superb-er",
-		"private": false
-	},
-	{
-		"modelId": "dbmdz/electra-base-italian-mc4-cased-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "dbmdz/electra-base-italian-mc4-cased-generator",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "nateraw/planes-trains-automobiles",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "huggingartists/joji",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "fadhilarkan/tmpr60526f6",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Chun/w-en2zh-mtm",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "csukuangfj/icefall_asr_yesno_tdnn",
-		"private": false
-	},
-	{
-		"modelId": "jacobduncan00/hackMIT-finetuned-sst2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jacksonkarel/peacenik-gpt2",
+		"modelId": "pkufool/icefall_asr_conformer_ctc",
 		"private": false
 	}
 ]
