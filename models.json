@@ -13708,11 +13708,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "Pyjay/nli_msmarco_v3_finetuned_t5",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "Pyjay/sentence-transformers-multilingual-snli-v2-500k",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -67647,11 +67642,6 @@
 		"private": false
 	},
 	{
-		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "GeniusVoice/bert-base-dutch-cased-finetuned-gem",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -67663,5 +67653,10 @@
 	{
 		"modelId": "TheLongSentance/t5_large_baseline",
 		"private": false
+	},
+	{
+		"modelId": "GeniusVoice/snli_msmarco_v3_finetuned_t5",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
