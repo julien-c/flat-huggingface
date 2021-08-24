@@ -67757,11 +67757,13 @@
 	},
 	{
 		"modelId": "Anirbanbhk/Hate-speech-Pretrained-movies",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "aapot/roberta-large-finnish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-20-per-entity-type-split-1",
@@ -67789,12 +67791,17 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "tuner007/pegasus_summerizer",
-		"private": false
-	},
-	{
 		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingtweets/itssixword",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "tuner007/pegasus_summerizer",
+		"private": false
 	}
 ]
