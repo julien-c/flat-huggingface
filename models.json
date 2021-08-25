@@ -12107,44 +12107,6 @@
 		"private": false
 	},
 	{
-		"modelId": "M47Labs/ML-spanishnews-classificaition",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "M47Labs/information_extraction",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "M47Labs/qa_es_train",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "M47Labs/qa_train_2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "M47Labs/question_answering_es",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "M47Labs/similarity_es",
-		"private": false
-	},
-	{
-		"modelId": "M47Labs/sts_es",
-		"private": false
-	},
-	{
-		"modelId": "M47Labs/summarization_es",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "MELGA/M",
 		"private": false
 	},
@@ -67875,6 +67837,11 @@
 	},
 	{
 		"modelId": "Davlan/bert-base-multilingual-cased-ner-hrl",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-large-cased-ner-hrl",
 		"private": false
 	}
 ]
