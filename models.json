@@ -67827,13 +67827,9 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "Azaghast/GPT2-SCP-Descriptions",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Davlan/bert-base-multilingual-cased-ner-hrl",
@@ -67842,6 +67838,15 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-large-ner-hrl",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "SarahhhUwU/DialoGPT-small-ally",
 		"private": false
 	}
 ]
