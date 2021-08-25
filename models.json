@@ -1043,7 +1043,8 @@
 	},
 	{
 		"modelId": "Azaghast/GPT2-SCP-ContainmentProcedures",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Azaghast/GPT2-SCP-Descriptions",
@@ -67866,6 +67867,15 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-ner-hrl",
+		"private": false
+	},
+	{
+		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "eugenesiow/mdsr",
 		"private": false
 	}
 ]
