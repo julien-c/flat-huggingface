@@ -67837,16 +67837,27 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "M47Labs/spanish_news_classification_headlines",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Davlan/xlm-roberta-large-ner-hrl",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "SarahhhUwU/DialoGPT-small-ally",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Hinova/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "SarahhhUwU/DialoGPT-small-ally",
-		"private": false
 	}
 ]
