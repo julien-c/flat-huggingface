@@ -32811,7 +32811,8 @@
 	},
 	{
 		"modelId": "gsarti/t5-base-it-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "gsarti/t5-base-it",
@@ -67974,7 +67975,8 @@
 	},
 	{
 		"modelId": "docketanalyzer/complaints442",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "existeundelta/roberta-base-bne-finetuned-amazon_reviews_multi",
@@ -67984,5 +67986,10 @@
 		"modelId": "abhilash1910/albert-squad-v2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
