@@ -46078,10 +46078,6 @@
 		"private": false
 	},
 	{
-		"modelId": "jacobbieker/Perceiver",
-		"private": false
-	},
-	{
 		"modelId": "jacobbieker/metnet",
 		"private": false
 	},
@@ -67980,7 +67976,8 @@
 	},
 	{
 		"modelId": "Aloka/mbart-large-50-finetuned-en-to-ro",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "facebook/dino-vits16",
@@ -67988,6 +67985,32 @@
 	},
 	{
 		"modelId": "facebook/dino-vits8",
+		"private": false
+	},
+	{
+		"modelId": "facebook/dino-vitb16",
+		"private": false
+	},
+	{
+		"modelId": "facebook/dino-vitb8",
+		"private": false
+	},
+	{
+		"modelId": "Chun/w-en2zh-hsk",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Chun/w-zh2en-hsk",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "islamjihad/try",
+		"private": false
+	},
+	{
+		"modelId": "openclimatefix/Perceiver",
 		"private": false
 	}
 ]
