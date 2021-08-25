@@ -18371,11 +18371,6 @@
 		"private": false
 	},
 	{
-		"modelId": "XiangPan/KT5",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "XiangPan/roberta_squad1_2epoch",
 		"private": false
 	},
@@ -67922,11 +67917,13 @@
 	},
 	{
 		"modelId": "anton-l/hubert-base-s3prl-superb-sid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Azaghast/DistilBART-SCP-ParaSummarization",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "saraks/cuad-distil-parties-dates-law-08-25-clean-context1",
@@ -67937,5 +67934,23 @@
 		"modelId": "Chun/w-zh2en-mto",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "skifmiami/skif",
+		"private": false
+	},
+	{
+		"modelId": "saraks/cuad-distil-parties-08-25",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Azaghast/DistilBERT-SCP-Class-Classification",
+		"private": false
+	},
+	{
+		"modelId": "saraks/cuad-distil-agreement_date-08-25",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
