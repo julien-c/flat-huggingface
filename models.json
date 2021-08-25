@@ -67867,12 +67867,8 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-base-ner-hrl",
-		"private": false
-	},
-	{
-		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "eugenesiow/mdsr",
@@ -67880,7 +67876,8 @@
 	},
 	{
 		"modelId": "Azaghast/GPT2-SCP-Miscellaneous",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-20-per-entity-type-split-2",
@@ -67891,5 +67888,23 @@
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-50-per-entity-type-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-100-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Azaghast/DistilBART-SCP-ExtractiveSummarization",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-200-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-500-per-entity-type-split-2",
+		"private": false
 	}
 ]
