@@ -53406,7 +53406,8 @@
 	},
 	{
 		"modelId": "mwesner/pretrained-bart-CNN-Dailymail-summ",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "mwesner/reformer-clm",
@@ -67976,5 +67977,17 @@
 		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Aloka/mbart-large-50-finetuned-en-to-ro",
+		"private": false
+	},
+	{
+		"modelId": "facebook/dino-vits16",
+		"private": false
+	},
+	{
+		"modelId": "facebook/dino-vits8",
+		"private": false
 	}
 ]
