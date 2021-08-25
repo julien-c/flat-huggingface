@@ -1042,6 +1042,15 @@
 		"private": false
 	},
 	{
+		"modelId": "Azaghast/GPT2-SCP-ContainmentProcedures",
+		"private": false
+	},
+	{
+		"modelId": "Azaghast/GPT2-SCP-Descriptions",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Azura/data",
 		"private": false
 	},
@@ -1941,6 +1950,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "Davlan/bert-base-multilingual-cased-ner-hrl",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Davlan/byt5-base-eng-yor-mt",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -2027,6 +2041,11 @@
 	},
 	{
 		"modelId": "Davlan/xlm-roberta-large-masakhaner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Davlan/xlm-roberta-large-ner-hrl",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -10709,6 +10728,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Hinova/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "Hokuto/testrinna",
 		"private": false
 	},
@@ -12105,6 +12128,11 @@
 	{
 		"modelId": "M-CLIP/Swedish-500k",
 		"private": false
+	},
+	{
+		"modelId": "M47Labs/spanish_news_classification_headlines",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MELGA/M",
@@ -13683,6 +13711,11 @@
 	},
 	{
 		"modelId": "ProfessorBob/CamemBERT-question_classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ProfessorBob/RoBERTA-question_classification",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -16260,6 +16293,11 @@
 	{
 		"modelId": "SaraBisbe/model_name",
 		"private": false
+	},
+	{
+		"modelId": "SarahhhUwU/DialoGPT-small-ally",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Sarmad/d_base_qa",
@@ -21090,6 +21128,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -67822,42 +67865,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "ProfessorBob/RoBERTA-question_classification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Azaghast/GPT2-SCP-Descriptions",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Davlan/bert-base-multilingual-cased-ner-hrl",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "M47Labs/spanish_news_classification_headlines",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Davlan/xlm-roberta-large-ner-hrl",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "SarahhhUwU/DialoGPT-small-ally",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Hinova/distilbert-base-uncased-finetuned-cola",
+		"modelId": "Davlan/xlm-roberta-base-ner-hrl",
 		"private": false
-	},
-	{
-		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
 	}
 ]
