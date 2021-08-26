@@ -18934,11 +18934,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "aapot/runs2",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "aapot/wav2vec2-large-xlsr-53-finnish",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -68556,14 +68551,37 @@
 	},
 	{
 		"modelId": "facebook/s2t-wav2vec2-large-en-ar",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "facebook/s2t-wav2vec2-large-en-ca",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "facebook/s2t-wav2vec2-large-en-tr",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Eeeeee/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "Unnat/DialoGPT-small-Rick",
+		"private": false
+	},
+	{
+		"modelId": "Eeeeee/DialoGPT-small-harry",
+		"private": false
+	},
+	{
+		"modelId": "aapot/convbert-base-finnish",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/distilroberta-finetuned-rotten_tomatoes-sentiment-analysis",
 		"private": false
 	}
 ]
