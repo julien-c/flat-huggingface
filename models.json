@@ -68456,10 +68456,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "obsei-com/buy-sell-intent-classifier-bert-mini",
-		"private": false
-	},
-	{
 		"modelId": "pere/nb-nn-dev2",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -68500,6 +68496,11 @@
 	},
 	{
 		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm-mlm-class",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm-skep-class",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
