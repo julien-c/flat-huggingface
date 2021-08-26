@@ -11050,11 +11050,6 @@
 		"private": false
 	},
 	{
-		"modelId": "IsabellaKarabasz/bert-base-es-cased-finetuned-clasificacion-quejas",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "IsabellaKarabasz/roberta-base-bne-finetuned-amazon_reviews_multi",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -68447,6 +68442,15 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-10-per-entity-type-best",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Hinova/chinese-bert-wwm-ext-finetuned-sst2",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-20-per-entity-type-best",
 		"private": false
 	}
 ]
