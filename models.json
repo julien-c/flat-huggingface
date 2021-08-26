@@ -68423,10 +68423,17 @@
 	},
 	{
 		"modelId": "dragonSwing/wav2vec2-base-vietnamese",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "jaimin/AraBERT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm-mlm-class",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
