@@ -695,11 +695,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Aloka/mbart-large-50-finetuned-en-to-ro",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "Altidore/DuggFace",
 		"private": false
 	},
@@ -65268,10 +65263,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-ko-wp-32k-small-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "tupleblog/generate-thai-lyrics",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -68438,6 +68429,12 @@
 	},
 	{
 		"modelId": "pere/nb-nn-dev",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
+		"modelId": "EthanChen0418/seven-classed-domain-cls",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
