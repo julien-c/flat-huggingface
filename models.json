@@ -26268,6 +26268,11 @@
 		"private": false
 	},
 	{
+		"modelId": "dadada/opus-mt-zh-en-ep1-renri-zh-to-en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "dahele/tip",
 		"private": false
 	},
@@ -68404,7 +68409,8 @@
 	},
 	{
 		"modelId": "cl-tohoku/roberta-base-japanese",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "huggingtweets/billwurtz",
@@ -68420,5 +68426,13 @@
 		"modelId": "huggingtweets/beemoviescript",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Media1129/keyword-tag-model",
+		"private": false
+	},
+	{
+		"modelId": "Frikallo/BATbot",
+		"private": false
 	}
 ]
