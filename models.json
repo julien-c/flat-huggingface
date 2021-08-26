@@ -56677,7 +56677,8 @@
 	},
 	{
 		"modelId": "peterhung/ner-roberta-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "petrovlaurent/hfasdfg",
@@ -68451,6 +68452,25 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-20-per-entity-type-best",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "obsei-com/buy-sell-intent-classifier-bert-mini",
+		"private": false
+	},
+	{
+		"modelId": "pere/nb-nn-dev2",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-50-per-entity-type-best",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-100-per-entity-type-best",
 		"private": false
 	}
 ]
