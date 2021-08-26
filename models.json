@@ -68480,7 +68480,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-ic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-sid",
@@ -68546,5 +68547,10 @@
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-er",
 		"private": false
+	},
+	{
+		"modelId": "huggingtweets/habiba_shoukry-yourfavhwhw",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
