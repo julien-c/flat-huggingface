@@ -22358,10 +22358,6 @@
 		"private": false
 	},
 	{
-		"modelId": "anton-l/wav2vec2-base-s3prl-superb-er",
-		"private": false
-	},
-	{
 		"modelId": "anton-l/wav2vec2-large-xlsr-53-chuvash",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -68475,7 +68471,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingartists/galenskaparna-and-after-shave",
@@ -68534,6 +68531,20 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-200-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "wicharnkeisei/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-restaurant-with-neg-with-repeat-few-shot-500-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-superb-er",
 		"private": false
 	}
 ]
