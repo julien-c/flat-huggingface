@@ -50807,7 +50807,8 @@
 	},
 	{
 		"modelId": "malhajj/ArabGlossBERT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "malteos/arqmath-bert-base-cased",
@@ -69053,10 +69054,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "Flampt/DialoGPT-medium-Sheldon",
-		"private": false
-	},
-	{
 		"modelId": "Shike/DialoGPT_medium_harrypotter",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -69276,6 +69273,19 @@
 	{
 		"modelId": "boran/berkbot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "moni13/DialoGPT-small-Sherlock",
+		"private": false
+	},
+	{
+		"modelId": "Flampt/DialoGPT-medium-Sheldon",
+		"private": false
+	},
+	{
+		"modelId": "DeadBeast/roberta-base-pretrained-mr",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
