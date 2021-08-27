@@ -69080,17 +69080,14 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "KhanAdeeb/DialoGPT-medium-tony",
-		"private": false
-	},
-	{
 		"modelId": "Eagle3ye/DialoGPT-small-PeppaPig",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "dingli/xlnet_nlp_smartdispatch",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Lenza/DialoGPT-medium-Kobayashi",
@@ -69145,5 +69142,9 @@
 		"modelId": "akshara23/Terra-Classification",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "KhanAdeeb/DialoGPT-medium-tony",
+		"private": false
 	}
 ]
