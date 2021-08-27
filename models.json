@@ -69348,7 +69348,8 @@
 	},
 	{
 		"modelId": "logube/DialogGPT_small_harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "SilentMyuth/oik",
@@ -69360,18 +69361,30 @@
 	},
 	{
 		"modelId": "bmdonnell/DialoGPT-medium-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Coyotl/DialoGPT-test2-arthurmorgan",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "facebook/wav2vec2-large-robust-ft-swbd-300h",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "eklrivera/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "gsarti/t5-large-it",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "logube/DialoGPT-small-harrypotter",
 		"private": false
 	}
 ]
