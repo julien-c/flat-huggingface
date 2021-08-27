@@ -69122,11 +69122,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "KhanAdeeb/DialoGPT-medium-tony",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "lysandre/my-bert-model",
 		"private": false
 	},
@@ -69265,6 +69260,20 @@
 	},
 	{
 		"modelId": "SilentMyuth/stablejen",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "AdapterHub/roberta-base-pf-qqp",
 		"private": false
+	},
+	{
+		"modelId": "AdapterHub/bert-base-uncased-pf-qqp",
+		"private": false
+	},
+	{
+		"modelId": "KhanAdeeb/model-tony-stark",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
