@@ -22589,7 +22589,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-er",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-ic",
@@ -22603,7 +22604,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-superb-sid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "anton-l/wav2vec2-large-xlsr-53-chuvash",
@@ -69017,7 +69019,8 @@
 	},
 	{
 		"modelId": "NoLawz/DialoGPT-medium-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "TheLongSentance/t5_large_MIMIC_III_1_3spans",
@@ -69037,6 +69040,10 @@
 	},
 	{
 		"modelId": "itspacchu/ModiThing",
+		"private": false
+	},
+	{
+		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test",
 		"private": false
 	}
 ]
