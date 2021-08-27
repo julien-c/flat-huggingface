@@ -68970,13 +68970,9 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "solfer/DialoGPT-small-ryuji",
-		"private": false
-	},
-	{
 		"modelId": "uutkras/Pandabot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Hinova/bert-base-chinese-finetuned-sst2",
@@ -68988,7 +68984,8 @@
 	},
 	{
 		"modelId": "nateraw/vit-base-beans-demo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "sreyanghosh/DialoGPT-medium-joker",
@@ -68997,6 +68994,18 @@
 	},
 	{
 		"modelId": "KrishanuMishra/DialoGPT-medium-Rick",
+		"private": false
+	},
+	{
+		"modelId": "pkufool/aishell_lm",
+		"private": false
+	},
+	{
+		"modelId": "solfer/DialoGPT-small-ryuji",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-10-per-entity-type-split-1",
 		"private": false
 	}
 ]
