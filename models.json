@@ -22559,26 +22559,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "anton-l/hubert-base-s3prl-superb-er",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "anton-l/hubert-base-s3prl-superb-ic",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "anton-l/hubert-base-s3prl-superb-ks",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "anton-l/hubert-base-s3prl-superb-sid",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "anton-l/megatron-11b",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -69049,6 +69029,27 @@
 	},
 	{
 		"modelId": "Greysan/DialoGPT-medium-TOH",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "anton-l/hubert-base-superb-er",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "anton-l/hubert-base-superb-ic",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "anton-l/hubert-base-superb-ks",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "anton-l/hubert-base-superb-sid",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
