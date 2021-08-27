@@ -20136,7 +20136,8 @@
 	},
 	{
 		"modelId": "akshara23/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "akshara23/xyz",
@@ -68899,11 +68900,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "nateraw/vit-base-beans-demo",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
 		"modelId": "sreyanghosh/DialoGPT-medium-joker",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -69090,10 +69086,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Lenza/DialoGPT-medium-Kobayashi",
-		"private": false
-	},
-	{
 		"modelId": "Ritchie/DialoGPT-small-Rickandmorty",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -69153,7 +69145,33 @@
 		"private": false
 	},
 	{
+		"modelId": "cosmoquester/bart-ko-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "ntjrrvarma/DialoGPT-small-Rick",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/vit-base-beans-demo",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "zald/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "Stabley/DialoDPT-small-evelynn",
+		"private": false
+	},
+	{
 		"modelId": "Lenza/DialoGPT-medium-Kobayashi1",
+		"private": false
+	},
+	{
+		"modelId": "BlueGamerBeast/DialoGPT-small-Morgana",
 		"private": false
 	}
 ]
