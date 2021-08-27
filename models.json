@@ -33934,7 +33934,8 @@
 	},
 	{
 		"modelId": "heliart/Verdict_Recognizer",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "helworld/test",
@@ -54586,21 +54587,6 @@
 		"private": false
 	},
 	{
-		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm-skep-class",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm-skep",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "neoyipeng/distilbert-base-uncased-finetuned-sst-2-english-mlm",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "neuralmind/bert-base-portuguese-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -68845,28 +68831,36 @@
 	},
 	{
 		"modelId": "ShreyaH/DialoGPT-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "MrZ/DialoGPT-small-Rick",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "KaydenSou/Joshua",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "peterhung/roberta-base-finetuned-pos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Hyperion/DialoGPT-medium-Tohru",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "NoLawz/DialoGPT-medium-hagrid",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "kingabzpro/DialoGPT-small-Rick-Bot",
 		"private": false
 	}
 ]
