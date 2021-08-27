@@ -69111,7 +69111,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Flampt/DialoGPT-medium-Sheldon",
@@ -69119,10 +69120,15 @@
 	},
 	{
 		"modelId": "Shike/DialoGPT_medium_harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "KhanAdeeb/DialoGPT-medium-tony",
+		"private": false
+	},
+	{
+		"modelId": "Eagle3ye/DialoGPT-small-PeppaPig",
 		"private": false
 	}
 ]
