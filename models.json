@@ -13284,11 +13284,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "NTKbot/DialoGPT-small-TonyStark",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "NTQAI/wav2vec2-large-japanese",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -69187,10 +69182,16 @@
 	},
 	{
 		"modelId": "nateraw/vit-base-beans-demo-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "GunjanPantha/DialoGPT-small-gameofthrones",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "moni13/DialoGPT-small-sherlock",
 		"private": false
 	}
 ]
