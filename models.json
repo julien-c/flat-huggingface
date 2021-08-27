@@ -59886,11 +59886,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "scales-okn/dev-litigation-events-settlement-fast",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "scaperex/online-harassment-bert",
 		"private": false
 	},
@@ -69238,15 +69233,34 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "moni13/DialoGPT-small-sherlock",
-		"private": false
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "SilentMyuth/DialoGPT-small-jen",
 		"private": false
 	},
 	{
-		"modelId": "munezah/DialoGPT-small-sherlock",
+		"modelId": "osanseviero/test_lewis",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "SilentMyuth/StableJen",
+		"private": false
+	},
+	{
+		"modelId": "saraks/cuad-distil-governing_law-08-28-v1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "alipsezzar/DialoGPT-medium-rick",
 		"private": false
 	}
 ]
