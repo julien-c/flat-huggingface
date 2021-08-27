@@ -69160,7 +69160,8 @@
 	},
 	{
 		"modelId": "zald/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Stabley/DialoDPT-small-evelynn",
@@ -69172,6 +69173,16 @@
 	},
 	{
 		"modelId": "BlueGamerBeast/DialoGPT-small-Morgana",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Gowtham25/DialoGPT-small-jackie",
 		"private": false
+	},
+	{
+		"modelId": "ntjrrvarma/DialoGPT-small-RickBot",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
