@@ -69454,7 +69454,8 @@
 	},
 	{
 		"modelId": "wjching/DialoGPT-small-ricksanchez",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "zen-satvik/BotGPT-medium-HP",
@@ -69512,6 +69513,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-10-per-entity-type-split-4",
 		"private": false
 	}
 ]
