@@ -69483,7 +69483,8 @@
 	},
 	{
 		"modelId": "Plencers/DialoGPT-small-homer",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Galaxy/DialoGPT-small-hermoine",
@@ -69497,11 +69498,20 @@
 	},
 	{
 		"modelId": "CracklesCreeper/Piglin-Talks-Harry-Potter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-3",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Bimal/my_bot_model",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-3",
+		"private": false
 	}
 ]
