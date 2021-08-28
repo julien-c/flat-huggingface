@@ -27824,10 +27824,6 @@
 		"private": false
 	},
 	{
-		"modelId": "diiogo/portuguese-roberta-base",
-		"private": false
-	},
-	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -69368,7 +69364,7 @@
 	{
 		"modelId": "eklrivera/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "gsarti/t5-large-it",
@@ -69387,7 +69383,8 @@
 	},
 	{
 		"modelId": "bmdonnell/DialoGPT-medium-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "shonuff/DialoGPT-medium-konosuba",
