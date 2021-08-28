@@ -69689,7 +69689,8 @@
 	},
 	{
 		"modelId": "kripanshudixit/DialoGPT-small-phoenix",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ksinar/DialoGPT-small-morty",
@@ -69706,10 +69707,16 @@
 	},
 	{
 		"modelId": "mluengas/DialogGPT-small-michaelscott",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Dimedrolza/DialoGPT-medium-cyberpunk",
 		"private": false
+	},
+	{
+		"modelId": "zhuqing/RoBERTa-large-uncased-exp2-feminist",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
