@@ -69510,7 +69510,7 @@
 	{
 		"modelId": "Bimal/my_bot_model",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-3",
@@ -69584,6 +69584,11 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-4",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "a1fadog13/DialoGPT-small-joshua",
 		"private": false
 	}
 ]
