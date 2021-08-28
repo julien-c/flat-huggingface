@@ -69641,7 +69641,8 @@
 	},
 	{
 		"modelId": "avanindrachakraborty/Jokerbot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Lenza/DialoGPT-medium-Kobayashi",
@@ -69664,15 +69665,21 @@
 	},
 	{
 		"modelId": "dattam/DialoGPT-medium-TonyStarkBot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Schnosch/DialoGPT-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "zhuqing/bert-base-uncased-exp2-feminist",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "MayankGupta/DialoGPT-small-harrypotter",
+		"private": false
 	}
 ]
