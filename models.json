@@ -27431,7 +27431,8 @@
 	},
 	{
 		"modelId": "cstorm125/wav2vec2-large-xlsr-53-th",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "cstorm125/wav2vec2-large-xlsr-th",
@@ -70181,10 +70182,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ArthurBaia/bert-large-portuguese-cased-finetuned-squad",
-		"private": false
-	},
-	{
 		"modelId": "Harshal6927/Jack_Sparrow_GPT",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -70194,15 +70191,24 @@
 		"private": false
 	},
 	{
-		"modelId": "ArthurBaia/bert-base-portuguese-cased-finetuned-squad",
-		"private": false
-	},
-	{
 		"modelId": "toilahuong/test",
 		"private": false
 	},
 	{
 		"modelId": "Zongo/DialoGPT-medium-chocola",
+		"private": false
+	},
+	{
+		"modelId": "BigTooth/DialoGPT-small-tohru",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "ArthurBaia/bert-base-portuguese-cased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "shahjaidev/bert-base-uncased-finetuned-swag",
 		"private": false
 	}
 ]
