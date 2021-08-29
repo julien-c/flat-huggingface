@@ -70027,6 +70027,15 @@
 	{
 		"modelId": "TrimPeachu/Deadpool",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "zhuqing/distilbert-uncased-exp2-parent",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Kyaw/distilgpt2-finetuned-wikitext2",
+		"private": false
 	}
 ]
