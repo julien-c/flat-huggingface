@@ -711,14 +711,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Aloka/mbart-large-50-si-en",
-		"private": false
-	},
-	{
-		"modelId": "Aloka/mbart50-ft-si-en",
-		"private": false
-	},
-	{
 		"modelId": "Altidore/DuggFace",
 		"private": false
 	},
@@ -70111,15 +70103,22 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Tropics/DialoGPT-small-peppa",
-		"private": false
-	},
-	{
 		"modelId": "Kargan/DialoGPT-small-randombot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ImAPizza/DialoGPT-medium-albert",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Aloka/mbart50-ft-si-en",
 		"private": false
+	},
+	{
+		"modelId": "Tropics/DialoGPT-small-peppa",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
