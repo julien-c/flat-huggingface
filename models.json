@@ -70116,10 +70116,19 @@
 	{
 		"modelId": "MayankGupta/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Aloka/mbart50-ft-si-en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "KnutZuidema/DialoGPT-small-morty",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-movie-few-shot-500-per-entity-type-split-1",
 		"private": false
 	}
 ]
