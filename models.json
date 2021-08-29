@@ -607,7 +607,8 @@
 	},
 	{
 		"modelId": "Aleksandar/electra-srb-oscar",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Aleksandar/gpt2-srb-oscar",
@@ -13179,11 +13180,13 @@
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-jirasoftware",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-mesos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-moodle",
@@ -70303,6 +70306,7 @@
 	},
 	{
 		"modelId": "Ann2020/distilbert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
