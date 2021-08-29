@@ -13190,7 +13190,8 @@
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-moodle",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-mule",
@@ -70308,5 +70309,9 @@
 		"modelId": "Ann2020/distilbert-base-uncased-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Ann2020/rubert-base-cased-sentence-finetuned-ner",
+		"private": false
 	}
 ]
