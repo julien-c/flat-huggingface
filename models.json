@@ -67199,7 +67199,7 @@
 	{
 		"modelId": "uhhlt/bert-based-uncased-hatespeech-movies",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "uklfr/gottbert-base",
@@ -70204,7 +70204,8 @@
 	},
 	{
 		"modelId": "yahya1994/DialoGPT-small-Ryuk",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "GregR/DialoGPT-small-tyrion",
@@ -70222,6 +70223,15 @@
 	},
 	{
 		"modelId": "huggingtweets/conspiracyb0t-occultb0t",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "reshinthadith/BashGPT",
+		"private": false
+	},
+	{
+		"modelId": "trig/multiverse",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
