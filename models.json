@@ -70064,17 +70064,14 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Tropics/DialoGPT-small-peppa2",
-		"private": false
-	},
-	{
 		"modelId": "VishalArun/DialoGPT-medium-harrypotter",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "bestminerevah/DialoGPT-small-doctorwho",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "TehranNLP-org/electra-base-qqp-cls-2e-5-42",
@@ -70105,10 +70102,16 @@
 	},
 	{
 		"modelId": "j-hartmann/emotion-english-roberta-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MathiasVS/DialoGPT-small-RickAndMorty",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Tropics/DialoGPT-small-peppa",
 		"private": false
 	}
 ]
