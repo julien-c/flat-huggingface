@@ -70246,8 +70246,7 @@
 	},
 	{
 		"modelId": "QuentinColdwater/DialoGPT-small-quentincoldwater",
-		"private": false,
-		"pipeline_tag": "text-generation"
+		"private": false
 	},
 	{
 		"modelId": "yahya1994/DialoGPT-small-DN-Ryuk",
@@ -70256,6 +70255,12 @@
 	},
 	{
 		"modelId": "DeadBeast/roberta-base-pretrained-mr-2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "harish/PT-UP-xlmR-ContextIncluded_IdiomExcluded-4_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
