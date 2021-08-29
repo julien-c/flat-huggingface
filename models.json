@@ -24734,7 +24734,8 @@
 	},
 	{
 		"modelId": "bengul/bert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "bengul/bert-base-uncased-finetuned-squad2.0",
@@ -70061,5 +70062,9 @@
 		"modelId": "zhuqing/bert-large-whole-uncased-exp2-feminist",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Tropics/DialoGPT-small-peppa2",
+		"private": false
 	}
 ]
