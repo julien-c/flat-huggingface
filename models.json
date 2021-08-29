@@ -59547,10 +59547,6 @@
 		"private": false
 	},
 	{
-		"modelId": "reshinthadith/bash-gpt",
-		"private": false
-	},
-	{
 		"modelId": "retiol/123",
 		"private": false
 	},
@@ -70129,7 +70125,8 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-movie-few-shot-500-per-entity-type-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "beatajackowska/DialoGPT-RickBot",
@@ -70138,6 +70135,10 @@
 	{
 		"modelId": "ImAPizza/DialoGPT-medium-alberttwo",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "reshinthadith/bashgpt",
+		"private": false
 	}
 ]
