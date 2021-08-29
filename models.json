@@ -13154,11 +13154,13 @@
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-aptanastudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-bamboo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/2-GPT2SP-clover",
@@ -48096,11 +48098,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "jegorkitskerkin/gv-bert-base-dutch-cased",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "jegorkitskerkin/mt5-base-dutch-msmarco",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -70187,6 +70184,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Dipl0/test_paraphrase_fr",
+		"private": false
+	},
+	{
 		"modelId": "toilahuong/test",
 		"private": false
 	},
@@ -70275,5 +70276,10 @@
 	{
 		"modelId": "vPareja565/Dialog-model-harrypotter-small",
 		"private": false
+	},
+	{
+		"modelId": "GeniusVoice/gv-semanticsearch-dutch-cased",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
