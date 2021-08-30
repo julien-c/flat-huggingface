@@ -13621,11 +13621,13 @@
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-bamboo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-clover",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-datamanagement",
@@ -70971,14 +70973,45 @@
 	},
 	{
 		"modelId": "TheTUFGuy/HermioneChatBot",
-		"private": false
-	},
-	{
-		"modelId": "Guard-SK/DialoGPT-medium-ricksanchez",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-100-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "GregR/DialoGPT-french-tyrion",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Guard-SK/DialoGPT-medium-ricksanchez",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-50-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "cartyparty/DialoGPT-small-iteration1",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-20-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Julianqll/DialoGPT-small-finalmorty",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-10-per-entity-type-split-2",
 		"private": false
 	}
 ]
