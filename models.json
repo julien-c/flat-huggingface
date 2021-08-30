@@ -13575,7 +13575,8 @@
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-appceleratorstudio-mule",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-appceleratorstudio-mulestudio",
@@ -60003,10 +60004,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "redorangeyellowy/tacotron_korean",
-		"private": false
-	},
-	{
 		"modelId": "redrussianarmy/gpt2-turkish-cased",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -67408,10 +67405,6 @@
 		"modelId": "tuner007/t5_abs_qa",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "tunib/electra-ko-bbpe-2k-small-discriminator",
-		"private": false
 	},
 	{
 		"modelId": "tunib/electra-ko-wp-32k-base-discriminator",
