@@ -13656,11 +13656,13 @@
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-mule",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-mulestudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-springxd",
@@ -71049,7 +71051,16 @@
 		"private": false
 	},
 	{
-		"modelId": "asad/DialoGPT-small-harryporter",
+		"modelId": "sentence-transformers/all-MiniLM-L6-v2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "skynex/DialoGPT-small-finalbatman",
+		"private": false
+	},
+	{
+		"modelId": "asad/DialoGPT-small-harryporter_bot",
 		"private": false
 	}
 ]
