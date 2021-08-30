@@ -13666,7 +13666,8 @@
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-springxd",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-talenddataquality",
@@ -71057,10 +71058,15 @@
 	},
 	{
 		"modelId": "skynex/DialoGPT-small-finalbatman",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "asad/DialoGPT-small-harryporter_bot",
+		"private": false
+	},
+	{
+		"modelId": "sentence-transformers/all-mpnet-base-v2",
 		"private": false
 	}
 ]
