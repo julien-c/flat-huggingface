@@ -13691,7 +13691,8 @@
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-appceleratorstudio-aptanastudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-appceleratorstudio-titanium",
@@ -13703,7 +13704,8 @@
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-mesos-usergrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-mule-mulestudio",
@@ -13719,7 +13721,8 @@
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-usergrid-mesos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/777-GPT2SP-appceleratorstudio-mule",
@@ -29084,6 +29087,15 @@
 	},
 	{
 		"modelId": "digitalepidemiologylab/covid-twitter-bert",
+		"private": false
+	},
+	{
+		"modelId": "diiogo/roberta-test2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "diiogo/wiki-roberta",
 		"private": false
 	},
 	{
@@ -71068,7 +71080,7 @@
 	{
 		"modelId": "asad/DialoGPT-small-harryporter_bot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "sentence-transformers/all-mpnet-base-v2",
@@ -71083,6 +71095,29 @@
 	{
 		"modelId": "PVAbhiram2003/DialoGPT-medium-RickandMorty",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Xanlete/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "sentence-transformers/all-MiniLM-L12-v2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "trig/multiverse-second",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "GregR/DialoGPT-french-tyrion-bis",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "huggingartists/rihanna",
+		"private": false
 	}
 ]
