@@ -70411,7 +70411,8 @@
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-mulestudio-mule",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-titanium-appceleratorstudio",
@@ -70433,7 +70434,8 @@
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-clover-usergrid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-mule-titanium",
@@ -70628,7 +70630,8 @@
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-4000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-6000",
@@ -70638,5 +70641,22 @@
 		"modelId": "EthanChen0418/intent_cls",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "whyu/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-movie-few-shot-10-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-500-per-entity-type-split-1",
+		"private": false
+	},
+	{
+		"modelId": "redorangeyellowy/tacotron_korean",
+		"private": false
 	}
 ]
