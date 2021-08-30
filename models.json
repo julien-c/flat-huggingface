@@ -70298,7 +70298,7 @@
 	{
 		"modelId": "chamodkarunasena/DialoGPT-medium-sokka",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "vissree/DialoGPT-medium-bojack",
@@ -70325,15 +70325,18 @@
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-clover",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-datamanagement",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-duracloud",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-jirasoftware",
@@ -70575,5 +70578,19 @@
 	{
 		"modelId": "seoyeon/t5-test",
 		"private": false
+	},
+	{
+		"modelId": "harish/PT-UP-xlmR-ContextIncluded_IdiomExcluded-FewShot-4_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "f00d4tehg0dz/DialoGPT-medium-Yoda",
+		"private": false
+	},
+	{
+		"modelId": "f00d4tehg0dz/Yoda",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
