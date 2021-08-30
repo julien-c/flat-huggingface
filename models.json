@@ -13651,7 +13651,8 @@
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-moodle",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-mule",
@@ -70788,7 +70789,8 @@
 	},
 	{
 		"modelId": "pucpr/eHelpBERTpt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "victorswedspot/DialoGPT-small-gandalf",
@@ -71044,6 +71046,10 @@
 	},
 	{
 		"modelId": "harish/SemEval2022Task2SubTask2ABaseline",
+		"private": false
+	},
+	{
+		"modelId": "asad/DialoGPT-small-harryporter",
 		"private": false
 	}
 ]
