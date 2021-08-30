@@ -70455,7 +70455,8 @@
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-talendesb-mesos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-appceleratorstudio",
@@ -70653,10 +70654,27 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-500-per-entity-type-split-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "redorangeyellowy/tacotron_korean",
+		"private": false
+	},
+	{
+		"modelId": "riyadhctg/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-movie-few-shot-200-per-entity-type-split-1",
+		"private": false
+	},
+	{
+		"modelId": "Shipkov/1",
+		"private": false
+	},
+	{
+		"modelId": "Julianqll/DialoGPT-small-ricksanchez",
 		"private": false
 	}
 ]
