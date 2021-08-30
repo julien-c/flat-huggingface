@@ -70822,6 +70822,11 @@
 		"private": false
 	},
 	{
+		"modelId": "BSC-TeMU/roberta-base-ca-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "tomato/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -70908,19 +70913,36 @@
 	},
 	{
 		"modelId": "danildany/DialoGPT-small-MichaelScott",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "umr55766/DialoGPT-small-peppa-pig",
 		"private": false
 	},
 	{
+		"modelId": "umr55766/DialogGPT-small-peppa-pig",
+		"private": false
+	},
+	{
+		"modelId": "Julianqll/DialoGPT-medium-morty",
+		"private": false
+	},
+	{
+		"modelId": "QE/numerai_statistics",
+		"private": false
+	},
+	{
+		"modelId": "mjstamper/DialoGPT-small-Frodo",
+		"private": false
+	},
+	{
+		"modelId": "skynex/DialoGPT-small-batman",
+		"private": false
+	},
+	{
 		"modelId": "cartyparty/DialoGPT-small-iteration1",
 		"private": false,
 		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "umr55766/DialogGPT-small-peppa-pig",
-		"private": false
 	}
 ]
