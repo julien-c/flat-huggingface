@@ -13631,11 +13631,13 @@
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-datamanagement",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-duracloud",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-jirasoftware",
@@ -70982,16 +70984,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "GregR/DialoGPT-french-tyrion",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Guard-SK/DialoGPT-medium-ricksanchez",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-50-per-entity-type-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -70999,7 +70991,7 @@
 	{
 		"modelId": "cartyparty/DialoGPT-small-iteration1",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-20-per-entity-type-split-2",
@@ -71008,10 +71000,36 @@
 	},
 	{
 		"modelId": "Julianqll/DialoGPT-small-finalmorty",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "tunib/electra-ko-cbpe-8k-small-375k-discriminator",
 		"private": false
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-10-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "ham19za/model",
+		"private": false
+	},
+	{
+		"modelId": "Jaxon/DialoGPT-small-joshua",
+		"private": false
+	},
+	{
+		"modelId": "Guard-SK/DialoGPT-medium-rick",
+		"private": false
+	},
+	{
+		"modelId": "Jaxon/DialoGPT-small-Dipper",
+		"private": false
+	},
+	{
+		"modelId": "rjlucifer/DialoGPT-small-RickAndMortyScripts",
 		"private": false
 	}
 ]
