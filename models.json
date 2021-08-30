@@ -60435,7 +60435,8 @@
 	},
 	{
 		"modelId": "riyadhctg/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "rizvandwiki/seq_classifier_model",
@@ -70706,7 +70707,25 @@
 		"private": false
 	},
 	{
-		"modelId": "vasudevgupta/gsoc-wav2vec2-large-robust",
+		"modelId": "vasudevgupta/gsoc-wav2vec2-robust",
+		"private": false
+	},
+	{
+		"modelId": "farhanjafri/my-pretrained-model",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/sarthaktexas",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/pradyuprasad",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "nitishk/IronStarkBot",
 		"private": false
 	}
 ]
