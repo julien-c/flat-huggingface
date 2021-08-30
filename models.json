@@ -13731,11 +13731,13 @@
 	},
 	{
 		"modelId": "MickyMike/777-GPT2SP-appceleratorstudio-mule",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/777-GPT2SP-appceleratorstudio-mulestudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/777-GPT2SP-clover-usergrid",
@@ -19183,8 +19185,7 @@
 	},
 	{
 		"modelId": "UBC-NLP/IndT5",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"private": false
 	},
 	{
 		"modelId": "UBC-NLP/MARBERT",
@@ -71144,5 +71145,10 @@
 	{
 		"modelId": "Coyotl/DialoGPT-test-last-arthurmorgan",
 		"private": false
+	},
+	{
+		"modelId": "shahrukhx01/chemical-domain-bert-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
