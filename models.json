@@ -70341,11 +70341,13 @@
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-mesos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-moodle",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-mule",
@@ -70594,5 +70596,10 @@
 		"modelId": "cartyparty/DialoGPT-small-harrypotter",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "harish/PT-UP-xlmR-FalseFalse-OneShot-2_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
