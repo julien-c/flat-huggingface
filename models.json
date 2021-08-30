@@ -70305,10 +70305,6 @@
 		"private": false
 	},
 	{
-		"modelId": "cartyparty/DialoGPT-small-harrypotter",
-		"private": false
-	},
-	{
 		"modelId": "MickyMike/6-GPT2SP-appceleratorstudio",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -70340,7 +70336,8 @@
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-jirasoftware",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/6-GPT2SP-mesos",
@@ -70591,6 +70588,11 @@
 	{
 		"modelId": "f00d4tehg0dz/Yoda",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "cartyparty/DialoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
