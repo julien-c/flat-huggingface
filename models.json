@@ -70386,11 +70386,13 @@
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-appceleratorstudio-aptanastudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-appceleratorstudio-titanium",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-aptanastudio-titanium",
@@ -70411,7 +70413,8 @@
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-titanium-appceleratorstudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/66-GPT2SP-usergrid-mesos",
@@ -70613,6 +70616,24 @@
 	},
 	{
 		"modelId": "harish/PT-UP-xlmR-FalseFalse-FewShot-2_BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Media1129/keyword-tag-model-2000",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Media1129/keyword-tag-model-4000",
+		"private": false
+	},
+	{
+		"modelId": "Media1129/keyword-tag-model-6000",
+		"private": false
+	},
+	{
+		"modelId": "EthanChen0418/intent_cls",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
