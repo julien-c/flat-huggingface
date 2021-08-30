@@ -67148,7 +67148,8 @@
 	},
 	{
 		"modelId": "transfaeries/DialoGPT-Discord",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "transformersbook/codeparrot-exp",
@@ -70873,6 +70874,23 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-movie-few-shot-20-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "transfaeries/Discord2",
+		"private": false
+	},
+	{
+		"modelId": "Myrthe/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "AdapterHub/bert-base-uncased-pf-ud_en_ewt",
+		"private": false
+	},
+	{
+		"modelId": "AdapterHub/roberta-base-pf-ud_en_ewt",
 		"private": false
 	}
 ]
