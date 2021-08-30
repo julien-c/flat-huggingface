@@ -62972,6 +62972,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "skt/ko-gpt-trinity-1.2B-v0.5",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "skt/kobert-base-v1",
 		"private": false
 	},
@@ -70444,7 +70449,8 @@
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-mulestudio-titanium",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/666-GPT2SP-talenddataquality-appceleratorstudio",
@@ -70681,15 +70687,17 @@
 	{
 		"modelId": "Julianqll/DialoGPT-small-ricksanchez",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-3000-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-6000-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-9000-v2",
