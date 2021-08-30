@@ -27912,11 +27912,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "cstorm125/bert-base-multilingual-cased-finetune-qa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "cstorm125/marianmt-th-zh_cn",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -27943,16 +27938,6 @@
 	},
 	{
 		"modelId": "cstorm125/wangchanberta-base-wiki-20210520-news-spm_span-mask-finetune-qa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "cstorm125/wangchanberta-base-wiki-20210520-spm-finetune-qa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "cstorm125/xlm-roberta-base-finetune-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -70686,6 +70671,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "tunib/electra-ko-bbpe-2k-small-375k-discriminator",
+		"private": false
+	},
+	{
 		"modelId": "vasudevgupta/gsoc-wav2vec2-robust",
 		"private": false
 	},
@@ -70793,5 +70782,20 @@
 		"modelId": "airesearch/wav2vec2-large-xlsr-53-th",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "airesearch/xlm-roberta-base-finetune-qa",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "airesearch/bert-base-multilingual-cased-finetune-qa",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "airesearch/wangchanberta-base-wiki-20210520-spm-finetune-qa",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
