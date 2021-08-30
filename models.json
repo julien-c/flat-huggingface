@@ -13616,7 +13616,8 @@
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-aptanastudio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/7-GPT2SP-bamboo",
@@ -70663,10 +70664,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "tunib/electra-ko-bbpe-2k-small-375k-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "vasudevgupta/gsoc-wav2vec2-robust",
 		"private": false
 	},
@@ -70961,6 +70958,27 @@
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-200-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "tunib/electra-ko-bbpe-2k-small-375k-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "Kirsty/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "TheTUFGuy/HermioneChatBot",
+		"private": false
+	},
+	{
+		"modelId": "Guard-SK/DialoGPT-medium-ricksanchez",
+		"private": false
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-100-per-entity-type-split-2",
 		"private": false
 	}
 ]
