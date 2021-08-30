@@ -13696,7 +13696,8 @@
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-appceleratorstudio-titanium",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MickyMike/77-GPT2SP-aptanastudio-titanium",
@@ -29093,10 +29094,6 @@
 		"modelId": "diiogo/roberta-test2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "diiogo/wiki-roberta",
-		"private": false
 	},
 	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
@@ -71112,12 +71109,12 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "GregR/DialoGPT-french-tyrion-bis",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "huggingartists/rihanna",
 		"private": false
+	},
+	{
+		"modelId": "lanejm/DialoGPT-small-hagrid",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
