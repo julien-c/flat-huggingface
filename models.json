@@ -27274,11 +27274,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "chamodkarunasena/DialoGPT-medium-sokka",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "chandank/bart-base-finetuned-xsum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -71373,10 +71368,6 @@
 		"private": false
 	},
 	{
-		"modelId": "DongHai/RickBot",
-		"private": false
-	},
-	{
 		"modelId": "adam-h-ds/BigBird-Full-Cuad",
 		"private": false
 	},
@@ -71831,10 +71822,15 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-random-tiny-classifier",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TVLG/DialoGPT-small-Iroh-Bot",
+		"private": false
+	},
+	{
+		"modelId": "danielo200/model_danielo",
 		"private": false
 	}
 ]
