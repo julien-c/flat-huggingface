@@ -71304,7 +71304,7 @@
 	{
 		"modelId": "milayue/neosh-bot1",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-10-per-entity-type-split-3",
@@ -71313,10 +71313,16 @@
 	},
 	{
 		"modelId": "Kshaunish/DialoGPT-small-rick",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-500-per-entity-type-split-4",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/distilbert-base-uncased-squad2-with-ner-with-neg-with-repeat-transfer-mit-restaurant-few-shot-200-per-entity-type-split-4",
 		"private": false
 	}
 ]
