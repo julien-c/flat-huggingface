@@ -63400,11 +63400,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "shahrukhx01/chemical-bert-uncased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -69072,10 +69067,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "victoraavila/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
 		"modelId": "victordata/DialoGPT-small-Rick",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -72053,15 +72044,21 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "neltds/JavaBERT",
-		"private": false
-	},
-	{
 		"modelId": "AbderrahimRezki/DialoGPT-small-harry",
 		"private": false
 	},
 	{
 		"modelId": "recobo/chemical-bert-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "neltds/JavaBERT",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "ricardo-filho/bert_large_faquad",
 		"private": false
 	}
 ]
