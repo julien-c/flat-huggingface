@@ -1173,11 +1173,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "BSC-TeMU/roberta-base-ca-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "BSC-TeMU/roberta-large-bne-capitel-pos",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -50290,10 +50285,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "junzai/bert_finetuning_test_demo",
-		"private": false
-	},
-	{
 		"modelId": "junzai/bert_test",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -71210,7 +71201,8 @@
 	},
 	{
 		"modelId": "xhyi/distilLED1_08_31_2021_v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "b0shakk/DialoGPT-small-Ragnar",
@@ -71245,6 +71237,14 @@
 	},
 	{
 		"modelId": "LULU0X01/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "downside18/DialogGPT-medium-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "vitvit/XLMRFineTuneonEnglishNERFrozenBase",
 		"private": false
 	}
 ]
