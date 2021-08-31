@@ -12145,7 +12145,7 @@
 	{
 		"modelId": "KnutZuidema/DialoGPT-small-morty",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "KoichiYasuoka/bert-base-japanese-char-extended",
@@ -72067,10 +72067,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Li/bioformer-cased-v1.0",
-		"private": false
-	},
-	{
 		"modelId": "joanml93/roberta-base-bne-finetuned-amazon_reviews_multi",
 		"private": false
 	},
@@ -72087,5 +72083,9 @@
 		"modelId": "BigTooth/DialoGPT-Megumin",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "bioformers/bioformer-cased-v1.0",
+		"private": false
 	}
 ]
