@@ -49002,11 +49002,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "jegorkitskerkin/mt5-base-dutch-msmarco",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "jeniya/BERTOverflow",
 		"private": false
 	},
@@ -71233,7 +71228,8 @@
 	},
 	{
 		"modelId": "Pensador777critico/DialoGPT-small-RickandMorty",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "LULU0X01/distilbert-base-uncased-finetuned-cola",
@@ -71246,5 +71242,19 @@
 	{
 		"modelId": "vitvit/XLMRFineTuneonEnglishNERFrozenBase",
 		"private": false
+	},
+	{
+		"modelId": "junzai/bert_finetuning_test_hug",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "sodoyouknow/model_name",
+		"private": false
+	},
+	{
+		"modelId": "GeniusVoice/mt5-base-dutch-msmarco",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
