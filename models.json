@@ -12236,14 +12236,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Kryptone/NatsuBot",
-		"private": false
-	},
-	{
-		"modelId": "Kryptone/NatsuBot_Chatbot",
-		"private": false
-	},
-	{
 		"modelId": "Kuge266/DialoGPT-medium-Rollercoaster",
 		"private": false
 	},
@@ -60237,10 +60229,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "rangow2260/en-zh_model",
-		"private": false
-	},
-	{
 		"modelId": "rasa/LaBSE",
 		"private": false
 	},
@@ -71210,11 +71198,6 @@
 		"private": false
 	},
 	{
-		"modelId": "rangow2260/Helsinki-NLPopus-mt-en-es",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
 		"modelId": "saraks/cuad-distil-effective_date-08-31-v1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -71226,7 +71209,8 @@
 	},
 	{
 		"modelId": "huggingartists/epic-rap-battles-of-history",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "xhyi/distilLED1_08_31_2021_v1",
@@ -71234,6 +71218,11 @@
 	},
 	{
 		"modelId": "b0shakk/DialoGPT-small-Ragnar",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Kryptone/NatsuBot",
 		"private": false
 	}
 ]
