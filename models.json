@@ -63392,11 +63392,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "shahrukhx01/chemical-bert-uncased-squad2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -72091,6 +72086,12 @@
 	},
 	{
 		"modelId": "recobo/chemical-bert-uncased-squad2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Guard-SK/DialoGPT-small-ricksanchez",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
