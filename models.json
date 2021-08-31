@@ -71343,11 +71343,13 @@
 	},
 	{
 		"modelId": "nateraw/vit-base-beans",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "nateraw/vit-base-cats-vs-dogs",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "sambelanz/moviesnews",
@@ -72069,5 +72071,9 @@
 		"modelId": "CAUKiel/JavaBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Li/bioformer-cased-v1.0",
+		"private": false
 	}
 ]
