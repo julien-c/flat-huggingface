@@ -72025,10 +72025,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "CAUKiel/JavaBERT",
-		"private": false
-	},
-	{
 		"modelId": "andi611/distilbert-base-uncased-ner-mit-movie-few-shot-200-per-entity-type-split-5",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -72066,10 +72062,12 @@
 	},
 	{
 		"modelId": "ricardo-filho/bert_base_faquad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "neltds/JavaBERT",
-		"private": false
+		"modelId": "CAUKiel/JavaBERT",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
