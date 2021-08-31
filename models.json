@@ -12144,7 +12144,8 @@
 	},
 	{
 		"modelId": "KnutZuidema/DialoGPT-small-morty",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "KoichiYasuoka/bert-base-japanese-char-extended",
@@ -25516,7 +25517,8 @@
 	},
 	{
 		"modelId": "beatajackowska/DialoGPT-RickBot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "begimayk/Semantir2",
@@ -72078,6 +72080,11 @@
 	},
 	{
 		"modelId": "transfaeries/DialoGPT-small-Discord-1.0",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "BigTooth/DialoGPT-Megumin",
 		"private": false,
 		"pipeline_tag": "conversational"
 	}
