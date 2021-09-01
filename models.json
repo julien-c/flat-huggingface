@@ -72398,20 +72398,31 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Doquey/DialoGPT-small-Luisbot",
-		"private": false
-	},
-	{
-		"modelId": "chamodkarunasena/DialoGPT-medium-sokka",
-		"private": false
-	},
-	{
 		"modelId": "jalensmh/DialoGPT-medium-jalenbot",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "gagan3012/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "chamodkarunasena/DialoGPT-medium-sokka",
 		"private": false
+	},
+	{
+		"modelId": "Doquey/DialoGPT-small-Luisbot",
+		"private": false
+	},
+	{
+		"modelId": "Doquey/DialoGPT-small-Luisbot1",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "gagan3012/bert-tiny-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
