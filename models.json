@@ -14681,7 +14681,8 @@
 	},
 	{
 		"modelId": "Narshion/bert-base-multilingual-cased-urgency",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Narsil/deberta-large-mnli-zero-cls",
@@ -72251,5 +72252,10 @@
 	{
 		"modelId": "atomicx27/DialoGPT-small-ironman1",
 		"private": false
+	},
+	{
+		"modelId": "Invincible/Chat_bot-Harrypotter-small",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
