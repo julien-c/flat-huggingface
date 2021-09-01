@@ -72194,5 +72194,15 @@
 		"modelId": "andi611/distilbert-base-uncased-ner-mit-movie-few-shot-100-per-entity-type-split-4",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-distilbert-dot-v4",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-bert-base-dot-v4",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
