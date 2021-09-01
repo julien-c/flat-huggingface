@@ -72264,7 +72264,8 @@
 	},
 	{
 		"modelId": "kikatikakity/DialoGPT-medium-DIO",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Pornphat/distilbert-base-uncased-finetuned-squad",
@@ -72272,10 +72273,19 @@
 	},
 	{
 		"modelId": "alanoix/mbart_fr-br",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Haus11/DialoGPT-small-obiwan",
+		"private": false
+	},
+	{
+		"modelId": "munggok/roberta-large-mc4-id",
+		"private": false
+	},
+	{
+		"modelId": "ellisvalentiner/layoutlmv2-finetuned-funsd-test",
 		"private": false
 	}
 ]
