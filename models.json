@@ -25641,14 +25641,6 @@
 		"private": false
 	},
 	{
-		"modelId": "atomicx27/DialoGPT-small-iron_man",
-		"private": false
-	},
-	{
-		"modelId": "atomicx27/DialoGPT-small-ironman",
-		"private": false
-	},
-	{
 		"modelId": "aubmindlab/araelectra-base-discriminator",
 		"private": false
 	},
@@ -72231,7 +72223,8 @@
 	},
 	{
 		"modelId": "DataikuNLP/paraphrase-albert-small-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "adam-h-ds/Bert-Whole",
@@ -72240,10 +72233,14 @@
 	{
 		"modelId": "nanometeres/DialoGPT-medium-halbot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "sisi/my_tuni_model_full",
+		"private": false
+	},
+	{
+		"modelId": "atomicx27/DialoGPT-small-ironman",
 		"private": false
 	}
 ]
