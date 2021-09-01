@@ -72352,7 +72352,8 @@
 	},
 	{
 		"modelId": "mrm8488/electricidad-base-discriminator-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sentence-transformers/msmarco-MiniLM-L6-cos-v5",
@@ -72380,6 +72381,10 @@
 	},
 	{
 		"modelId": "baffo32/test-roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "sgugger/code-search-net-tokenizer-ter",
 		"private": false
 	}
 ]
