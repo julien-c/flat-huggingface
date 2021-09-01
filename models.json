@@ -72152,16 +72152,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "sentence-transformers/msmarco-distilbert-dot-v4",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "sentence-transformers/msmarco-bert-base-dot-v4",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "HUNGPHAM/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -72345,5 +72335,19 @@
 		"modelId": "diptanu/fBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "sudip/bot",
+		"private": false
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-distilbert-dot-v5",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "sentence-transformers/msmarco-bert-base-dot-v5",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
