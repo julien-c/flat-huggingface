@@ -72534,7 +72534,8 @@
 	},
 	{
 		"modelId": "bspans/DialoGPT-small-yoda",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "philschmid/tiny-distilbert-classification",
@@ -72579,10 +72580,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "df4rfrrf/DialoGPT-medium-Aerith1",
-		"private": false
-	},
-	{
 		"modelId": "Hoang/my-new-shiny-tokenizer",
 		"private": false
 	},
@@ -72597,11 +72594,20 @@
 	{
 		"modelId": "Chuah/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Wikidepia/IndoT5-small-paraphrase",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "junzai/bert_funting_test_ai10",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "df4rfrrf/DialoGPT-medium-Aerith",
+		"private": false
 	}
 ]
