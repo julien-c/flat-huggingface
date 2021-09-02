@@ -30854,10 +30854,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "efederici/T5-base-it-Summarization",
-		"private": false
-	},
-	{
 		"modelId": "egoitz/roberta-timex-semeval",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -56429,11 +56425,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "mrm8488/electricidad-base-discriminator-finetuned-squad",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "mrm8488/electricidad-base-discriminator",
 		"private": false
 	},
@@ -72593,11 +72584,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Wikidepia/IndoT5-small-paraphrase",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "junzai/bert_funting_test_ai10",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -72660,6 +72646,19 @@
 	},
 	{
 		"modelId": "Solo9x/DialoGPT-medium-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "gang/testhuggingface",
+		"private": false
+	},
+	{
+		"modelId": "Wikidepia/IndoT5-base-paraphrase",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "df4rfrrf/DialoGPT-medium-Aerith",
 		"private": false
 	}
 ]
