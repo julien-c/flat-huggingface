@@ -72726,7 +72726,7 @@
 	{
 		"modelId": "chamindu/DialoGPT-medium-hermione",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "HypNyx/DialoGPT-small-Thanos",
@@ -72735,10 +72735,20 @@
 	},
 	{
 		"modelId": "Cloudy/DialoGPT-CJ-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "sudip/bot1",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "LucasS/bigbirdABSA",
+		"private": false
+	},
+	{
+		"modelId": "LucasS/distilBertABSA",
 		"private": false
 	}
 ]
