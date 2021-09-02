@@ -25906,11 +25906,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/d-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "athar/du-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -72790,7 +72785,8 @@
 	},
 	{
 		"modelId": "nanisohrei/yuivt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "xhyi/PT_GPTNEO1300_Delish_v6",
@@ -72799,5 +72795,14 @@
 	{
 		"modelId": "Norimoji/DialoGPT-medium-FF7",
 		"private": false
+	},
+	{
+		"modelId": "Olaijs/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "BigTooth/Megumin-v0.2",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
