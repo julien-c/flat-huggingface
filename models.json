@@ -72693,7 +72693,8 @@
 	},
 	{
 		"modelId": "sisi/my_tuni_model_full_2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "vymn/vymn",
@@ -72749,6 +72750,20 @@
 	},
 	{
 		"modelId": "LucasS/distilBertABSA",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "LucasS/robertaBaseABSA",
 		"private": false
+	},
+	{
+		"modelId": "nanisohrei/dialogpt-yui",
+		"private": false
+	},
+	{
+		"modelId": "Ilyabarigou/Genesis-harrybotter",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
