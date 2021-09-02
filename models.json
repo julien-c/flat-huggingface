@@ -72791,15 +72791,21 @@
 	},
 	{
 		"modelId": "Doquey/DialoGPT-small-Michaelbot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "superb/wav2vec2-large-superb-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "athar/rs-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "superb/wav2vec2-large-superb-ic",
+		"private": false
 	}
 ]
