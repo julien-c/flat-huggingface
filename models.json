@@ -72692,11 +72692,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sisi/my_tuni_model_full_2",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "vymn/vymn",
 		"private": false
 	},
@@ -72755,7 +72750,8 @@
 	},
 	{
 		"modelId": "LucasS/robertaBaseABSA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "nanisohrei/dialogpt-yui",
@@ -72764,6 +72760,10 @@
 	{
 		"modelId": "Ilyabarigou/Genesis-harrybotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Hoang/vn-tokenizer",
+		"private": false
 	}
 ]
