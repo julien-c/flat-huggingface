@@ -25902,11 +25902,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/rob-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -31197,6 +31192,11 @@
 	{
 		"modelId": "elishowk/testvalid",
 		"private": false
+	},
+	{
+		"modelId": "elisno/is_ud_is_pud",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "eliza-dukim/bert-base-finetuned-sts",
@@ -72776,11 +72776,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/long-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "BW/TEST",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -72791,6 +72786,15 @@
 	},
 	{
 		"modelId": "jalensmh/DialoGPT-small-exophoria",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Doquey/DialoGPT-small-Michaelbot",
+		"private": false
+	},
+	{
+		"modelId": "superb/wav2vec2-large-superb-ks",
 		"private": false
 	}
 ]
