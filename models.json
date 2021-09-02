@@ -72684,7 +72684,8 @@
 	},
 	{
 		"modelId": "bill/NLP",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "ham19za/model2",
@@ -72724,14 +72725,20 @@
 	},
 	{
 		"modelId": "chamindu/DialoGPT-medium-hermione",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "HypNyx/DialoGPT-small-Thanos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Cloudy/DialoGPT-CJ-large",
+		"private": false
+	},
+	{
+		"modelId": "sudip/bot1",
 		"private": false
 	}
 ]
