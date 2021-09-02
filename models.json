@@ -29602,10 +29602,6 @@
 		"private": false
 	},
 	{
-		"modelId": "dataiku/toto",
-		"private": false
-	},
-	{
 		"modelId": "dathudeptrai/tts-tacotron2-synpaflex-fr",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -72572,6 +72568,21 @@
 	},
 	{
 		"modelId": "DataikuNLP/paraphrase-MiniLM-L6-v2",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "DataikuNLP/TinyBERT_General_4L_312D",
 		"private": false
+	},
+	{
+		"modelId": "DataikuNLP/camembert-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "DataikuNLP/distiluse-base-multilingual-cased-v1",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
