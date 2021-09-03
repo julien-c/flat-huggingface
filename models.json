@@ -3771,16 +3771,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "GeniusVoice/gv-semanticsearch-dutch-cased",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "GeniusVoice/mt5-base-dutch-msmarco",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "Genjii/DialogGPT-medium-HarryPotter",
 		"private": false
 	},
@@ -15660,11 +15650,6 @@
 		"modelId": "Pyjay/gpt2-medium-dutch-finetuned-text-generation",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Pyjay/nli_msmarco_v2_finetuned_t5",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Pyjay/sentence-transformers-multilingual-snli-v2-500k",
@@ -72912,6 +72897,10 @@
 	},
 	{
 		"modelId": "robot-bengali-2/sahajbert2",
+		"private": false
+	},
+	{
+		"modelId": "tyoyo/t5-base-japanese-web-real-estate-qa-tyoyo",
 		"private": false
 	}
 ]
