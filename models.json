@@ -25957,11 +25957,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/rob-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -73064,15 +73059,25 @@
 	},
 	{
 		"modelId": "hama/rick_bot",
-		"private": false
-	},
-	{
-		"modelId": "athar/rob1-model-4096",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "poseg/sbert",
 		"private": false
+	},
+	{
+		"modelId": "sifclairhelix/DialoGPT-small-harrypot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-50-per-entity-type-split-1",
+		"private": false
+	},
+	{
+		"modelId": "yahya1994/DialoGPT-small-Gintama-Gintoki",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
