@@ -69449,22 +69449,6 @@
 		"private": false
 	},
 	{
-		"modelId": "tunib/electra-ko-cbpe-8k-small-375k-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-ko-wp-32k-base-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-ko-wp-32k-small-1.12m-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "tunib/electra-koen-bbpe-3.6k-small-discriminator",
 		"private": false
 	},
@@ -72918,11 +72902,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/rob-model-4096",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "Zeph/DialoGPT-small-rick",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -72941,10 +72920,15 @@
 	},
 	{
 		"modelId": "mlkorra/OGBV-gender-bert-hi-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "emil2000/dialogpt-finetuned-for-french-language",
+		"private": false
+	},
+	{
+		"modelId": "Doiman/DialoGPT-medium-harrypotter",
 		"private": false
 	}
 ]
