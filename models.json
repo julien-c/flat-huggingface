@@ -36464,7 +36464,8 @@
 	},
 	{
 		"modelId": "ham19za/model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "ham19za/model2",
@@ -72983,6 +72984,15 @@
 	},
 	{
 		"modelId": "TerenceAmil/bert_cn_finetuning",
+		"private": false
+	},
+	{
+		"modelId": "google/tapas-base-masklm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "abhishekjha2468/temp",
 		"private": false
 	}
 ]
