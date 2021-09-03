@@ -22174,11 +22174,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "alanoix/mbart_fr-br",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "albererre/comments-playground",
 		"private": false
 	},
@@ -25960,6 +25955,16 @@
 	{
 		"modelId": "atahmasb/tf-layoutlm-large-uncased",
 		"private": false
+	},
+	{
+		"modelId": "athar/long-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "athar/rob-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
@@ -67561,7 +67566,7 @@
 	{
 		"modelId": "superb/wav2vec2-base-superb-sid",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-large-superb-er",
@@ -72911,6 +72916,10 @@
 	},
 	{
 		"modelId": "luqmanaqil/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "alanoix/mbart-cc25-br-fr",
 		"private": false
 	}
 ]
