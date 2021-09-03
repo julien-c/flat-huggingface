@@ -26998,7 +26998,8 @@
 	},
 	{
 		"modelId": "bill/NLP",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "billpr/v1",
@@ -73023,6 +73024,10 @@
 	},
 	{
 		"modelId": "kaliani/my_model",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-10-per-entity-type-split-1",
 		"private": false
 	}
 ]
