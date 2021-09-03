@@ -13185,7 +13185,8 @@
 	},
 	{
 		"modelId": "LucasS/bigbirdABSA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "LucasS/distilBertABSA",
@@ -72776,6 +72777,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nateraw/pipeline-playground",
+		"private": false
+	},
+	{
 		"modelId": "BW/TEST",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -72822,5 +72827,10 @@
 	{
 		"modelId": "TerenceAmil/bert_funting_test",
 		"private": false
+	},
+	{
+		"modelId": "yahya1994/DialoGPT-small-AOT-Eren",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
