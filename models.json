@@ -73112,11 +73112,22 @@
 	},
 	{
 		"modelId": "Jedi33/tonystarkAI",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "HungChau/hung-testing",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "HungChau/bert_concept_extraction",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-perkey-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
