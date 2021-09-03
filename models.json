@@ -25957,6 +25957,11 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rob-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -73036,15 +73041,38 @@
 		"private": false
 	},
 	{
-		"modelId": "poseg/sbert_sentiment",
-		"private": false
-	},
-	{
 		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
 		"private": false
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-20-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "wanderer/DialoGPT-small-Phoebe",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Henderson/2021-free-guy-online-pelicula-hd-espanol-y-latino-subtitulado",
+		"private": false
+	},
+	{
+		"modelId": "Hwasin/bart-large-kp20k",
+		"private": false
+	},
+	{
+		"modelId": "hama/rick_bot",
+		"private": false
+	},
+	{
+		"modelId": "athar/rob1-model-4096",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "poseg/sbert",
 		"private": false
 	}
 ]
