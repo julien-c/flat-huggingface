@@ -67846,11 +67846,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "tamedai/gpt-news-de",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "tanay/layoutlm-custom",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -72939,6 +72934,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "secometo/mt5-base-turkish-question-paraphrase-generator",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Malar/layoutlmv2-finetuned-funsd-test",
 		"private": false
 	},
@@ -72950,5 +72950,13 @@
 		"modelId": "Midhunkrishna/DialoGPT-small-bjk",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "atuo/distilbert-base-uncased-finetuned-event",
+		"private": false
+	},
+	{
+		"modelId": "tyoyo/t5-base-ja-web-real-estate-qa-tyoyo",
+		"private": false
 	}
 ]
