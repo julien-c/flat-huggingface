@@ -73409,7 +73409,8 @@
 	},
 	{
 		"modelId": "demdecuong/viHNews-bert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "pranavtharoor/test",
@@ -73418,10 +73419,15 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "tekodukunnangendiseh/rtyhtyghre",
+		"private": false
+	},
+	{
+		"modelId": "adamlin/roberta-large-mnli",
 		"private": false
 	}
 ]
