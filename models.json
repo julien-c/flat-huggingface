@@ -20008,7 +20008,8 @@
 	},
 	{
 		"modelId": "TuhinColumbia/germanpoetrymany",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "TuhinColumbia/italianpoetrymany",
@@ -65282,11 +65283,6 @@
 		"private": false
 	},
 	{
-		"modelId": "shashank2123/t5-base-fine-tuned-for-Punctuation-Restoration",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "shashank2123/t5-finetuned-for-GEC",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -73291,6 +73287,10 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-50-per-entity-type-split-3",
+		"private": false
+	},
+	{
+		"modelId": "chellver24/DialoGPT-small-chizuru_ichinose",
 		"private": false
 	}
 ]
