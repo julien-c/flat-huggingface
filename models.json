@@ -52506,10 +52506,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "kvothe28/DialoGPT-small-Rick",
-		"private": false
-	},
-	{
 		"modelId": "kwang2049/SBERT-base-nli-stsb-v2",
 		"private": false
 	},
@@ -66306,7 +66302,8 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "soroush/model",
@@ -73309,6 +73306,15 @@
 	},
 	{
 		"modelId": "chellver24/DialoGPT-small-chizuru_ichinose",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "recobo/chemical-bert-uncased-tsdae",
+		"private": false
+	},
+	{
+		"modelId": "shahrukhx01/chemical-bert-uncased-tsdae",
 		"private": false
 	}
 ]
