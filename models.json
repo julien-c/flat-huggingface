@@ -389,6 +389,10 @@
 		"private": false
 	},
 	{
+		"modelId": "923/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "A-bhimany-u08/bert-base-cased-qqp",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -1293,6 +1297,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "Ann2020/model-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "Ann2020/rubert-base-cased-sentence-finetuned-ner",
 		"private": false
 	},
@@ -1364,6 +1372,11 @@
 	{
 		"modelId": "Archie/myProject",
 		"private": false
+	},
+	{
+		"modelId": "Arcktosh/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Aries/T5_question_answering",
@@ -11865,6 +11878,20 @@
 		"private": false
 	},
 	{
+		"modelId": "HungChau/bert_concept_extraction",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "HungChau/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "HungChau/hung-testing",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "HungVo/mt-dnn-ev-mrpc",
 		"private": false
 	},
@@ -12207,6 +12234,11 @@
 		"modelId": "Jean-Baptiste/roberta-ticker",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Jedi33/tonystarkAI",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
@@ -19549,7 +19581,8 @@
 	},
 	{
 		"modelId": "TerenceAmil/bert_cn_finetuning",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "TerenceAmil/bert_funting_test",
@@ -22419,6 +22452,66 @@
 		"private": false
 	},
 	{
+		"modelId": "alireza7/PEGASUS-persian-base-PN-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-multiple-choice",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-qqp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-sentiment-food",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-sentiment-movie",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-textual-entailment",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-perkey-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-perkey-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-tebyan",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-voa-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base-wiki-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/PEGASUS-persian-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "alistair7/bbt-diagpt2-model",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -23091,12 +23184,62 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-10-per-entity-type-split-3",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-100-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-100-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-20-per-entity-type-split-1",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-20-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-50-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-50-per-entity-type-split-2",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -26289,6 +26432,11 @@
 		"private": false
 	},
 	{
+		"modelId": "ayush19/rick-sanchez",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "ayushsubedi/v0_drg",
 		"private": false
 	},
@@ -27083,6 +27231,15 @@
 		"modelId": "bigwiz83/sapbert-from-pubmedbert-squad2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "bill/bert_finetuning_test1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "bill/bert_finetuning_test2",
+		"private": false
 	},
 	{
 		"modelId": "billpr/v1",
@@ -29112,6 +29269,10 @@
 		"private": false
 	},
 	{
+		"modelId": "conniezyj/DialoGPT-small-snape",
+		"private": false
+	},
+	{
 		"modelId": "conversify/response-score",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -29141,6 +29302,11 @@
 	{
 		"modelId": "copenlu/citebert",
 		"private": false
+	},
+	{
+		"modelId": "coppercitylabs/uzbek-news-category-classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "coppercitylabs/uzbert-base-uncased",
@@ -50947,6 +51113,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "jollmimmim/DialoGPT-small-monkeydluffy",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "jonasmue/cover-letter-distilgpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -52325,6 +52496,11 @@
 		"modelId": "kuzgunlar/electra-turkish-sentiment-analysis",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "kvothe28/DiabloGPT-small-Rick",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "kvothe28/DialoGPT-small-Rick",
@@ -57782,6 +57958,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "nateraw/cnn-dummy",
+		"private": false
+	},
+	{
 		"modelId": "nateraw/custom-featurizer",
 		"private": false
 	},
@@ -57981,6 +58161,16 @@
 	{
 		"modelId": "nateraw/timm-cait_xs24_384",
 		"private": false
+	},
+	{
+		"modelId": "nateraw/timm-resnet18-beans-test-2",
+		"private": false,
+		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "nateraw/timm-resnet18-beans-test",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "nateraw/timm-resnet50-beans",
@@ -63662,6 +63852,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "scales-okn/dev-docket-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "scaperex/online-harassment-bert",
 		"private": false
 	},
@@ -66110,6 +66305,10 @@
 		"modelId": "sontn122/xlm-roberta-base-finetuned-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "sontn122/xlm-roberta-large-finetuned-squad",
+		"private": false
 	},
 	{
 		"modelId": "soroush/model",
@@ -69634,6 +69833,10 @@
 		"private": false
 	},
 	{
+		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
+		"private": false
+	},
+	{
 		"modelId": "tunib/electra-koen-bbpe-3.6k-small-discriminator",
 		"private": false
 	},
@@ -71609,6 +71812,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "xiaj/test",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
 		"modelId": "xianghua/K-Roberta",
 		"private": false
 	},
@@ -72151,6 +72359,14 @@
 		"modelId": "youscan/ukr-roberta-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "yseop/FNP_T5_D2T_complete",
+		"private": false
+	},
+	{
+		"modelId": "yseop/FNP_T5_D2T_simple",
+		"private": false
 	},
 	{
 		"modelId": "yseop/roberta-base-finance-hypernym-identification",
@@ -73066,214 +73282,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-100-per-entity-type-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "yseop/FNP_T5_D2T_simple",
-		"private": false
-	},
-	{
-		"modelId": "yseop/FNP_T5_D2T_complete",
-		"private": false
-	},
-	{
-		"modelId": "HungChau/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Arcktosh/DialoGPT-small-rick",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Jedi33/tonystarkAI",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "HungChau/hung-testing",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "HungChau/bert_concept_extraction",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-perkey-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-perkey-title",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-PN-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-tebyan",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-voa-title",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-wiki-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-textual-entailment",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-multiple-choice",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-qqp",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-sentiment-food",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/PEGASUS-persian-base-parsinlu-sentiment-movie",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "nateraw/cnn-dummy",
-		"private": false
-	},
-	{
-		"modelId": "kvothe28/DiabloGPT-small-Rick",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "scales-okn/dev-docket-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-10-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Ann2020/model-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-20-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-50-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-100-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "nateraw/timm-resnet18-beans-test",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "nateraw/timm-resnet18-beans-test-2",
-		"private": false,
-		"pipeline_tag": "image-classification"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "xiaj/test",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "bill/bert_finetuning_test2",
-		"private": false
-	},
-	{
-		"modelId": "bill/bert_finetuning_test1",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "coppercitylabs/uzbek-news-category-classifier",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jollmimmim/DialoGPT-small-monkeydluffy",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "ayush19/rick-sanchez",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "sontn122/xlm-roberta-large-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "chellver24/DialoGPT-small-chizuruichinose",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-10-per-entity-type-split-3",
-		"private": false
 	}
 ]
