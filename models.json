@@ -69828,15 +69828,7 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-ko-bbpe-2k-small-375k-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-koen-bbpe-3.6k-small-discriminator",
 		"private": false
 	},
 	{
@@ -73341,7 +73333,8 @@
 	},
 	{
 		"modelId": "HaitaoYang/bert_cn_bi-classification",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "pritoms/distilgpt2-finetuned-pgt",
@@ -73375,7 +73368,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-20-per-entity-type-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Sedge/DialoGPT-small-Sedge",
