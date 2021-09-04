@@ -26434,7 +26434,7 @@
 	{
 		"modelId": "ayush19/rick-sanchez",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ayushsubedi/v0_drg",
@@ -29270,7 +29270,8 @@
 	},
 	{
 		"modelId": "conniezyj/DialoGPT-small-snape",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "conversify/response-score",
@@ -73282,5 +73283,13 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "chellver24/DialoGPT-small-chizuruichinose",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-20-per-entity-type-split-3",
+		"private": false
 	}
 ]
