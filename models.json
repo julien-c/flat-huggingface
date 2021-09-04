@@ -73410,6 +73410,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "af1tang/personaGPT",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -73424,7 +73429,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "AnonymousSub/unsup-consert-base",
@@ -73503,6 +73509,21 @@
 	},
 	{
 		"modelId": "alireza7/ARMAN-MSR-persian-base-parsinlu-qqp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "yliu337/t5_token_nonfilter_bothcontext",
 		"private": false
+	},
+	{
+		"modelId": "alireza7/ARMAN-MSR-persian-base-parsinlu-sentiment-food",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-MSR-persian-base-parsinlu-sentiment-movie",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
