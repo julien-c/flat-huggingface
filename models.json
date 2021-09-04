@@ -73374,7 +73374,8 @@
 	},
 	{
 		"modelId": "Sedge/DialoGPT-small-Sedge",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "bigscience/tr3d-1B3-more-warmup-tensorboard",
@@ -73400,5 +73401,9 @@
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-50-per-entity-type-split-4",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-100-per-entity-type-split-4",
+		"private": false
 	}
 ]
