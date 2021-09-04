@@ -27085,11 +27085,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "bill/NLP",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "billpr/v1",
 		"private": false
 	},
@@ -73234,5 +73229,14 @@
 	{
 		"modelId": "xiaj/test",
 		"private": false
+	},
+	{
+		"modelId": "bill/bert_finetuning_test2",
+		"private": false
+	},
+	{
+		"modelId": "bill/bert_finetuning_test1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
