@@ -1417,7 +1417,7 @@
 	{
 		"modelId": "ArtemisZealot/DialoGTP-small-okabarintaro",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ArthurBaia/bert-base-portuguese-cased-finetuned-squad",
@@ -12333,10 +12333,6 @@
 		"modelId": "JerryQu/v2-distilgpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "JerryTech/Dialo-small-ricksanchez",
-		"private": false
 	},
 	{
 		"modelId": "Jiayao/distilbert-base-uncased-finetuned-squad",
@@ -73835,11 +73831,20 @@
 	},
 	{
 		"modelId": "allenai/longformer-scico",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "hama/barney_bot",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "J-Chiang/DialoGPT-small-thor",
+		"private": false
+	},
+	{
+		"modelId": "RishabhRawatt/DialoGPT-small-kela",
+		"private": false
 	}
 ]
