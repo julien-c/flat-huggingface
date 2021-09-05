@@ -73826,11 +73826,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "hama/barney_bot",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "J-Chiang/DialoGPT-small-thor",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -73867,5 +73862,10 @@
 	{
 		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-fn-001",
 		"private": false
+	},
+	{
+		"modelId": "scales-okn/dev-disambiguation-triplet",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
