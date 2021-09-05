@@ -73593,7 +73593,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-200-per-entity-type-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "crumb/GPT10M-Wikitext",
@@ -73602,6 +73603,93 @@
 	},
 	{
 		"modelId": "Lation23/DiabloGPT-small-pettergriffin",
+		"private": false
+	},
+	{
+		"modelId": "elisno/is_ner_mim_sm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-BERTBaseCased-FalseFalse-0-3-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-BERTBaseCased-TrueFalse-0-4-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "elisno/is_ner_mim_trf",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-5",
+		"private": false
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-BERTBaseCased-TrueTrue-0-3-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-BERTBaseCased-FalseTrue-0-3-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-XLNet-FalseTrue-0-1-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-BERTBaseUncased-FalseTrue-0-0-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-RoBERTaBase-FalseTrue-0-0-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-DistilBERT-FalseTrue-0-2-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-XLNet-FalseTrue-0-FewShot-0-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-XLNet-TrueFalse-0-OneShot-1-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-XLNet-TrueFalse-0-FewShot-0-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-XLNet-FalseFalse-0-OneShot-0-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "harish/EN-AStitchTask1A-XLNet-FalseFalse-0-FewShot-4-BEST",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "castorini/bpr-nq-question-encoder",
+		"private": false
+	},
+	{
+		"modelId": "castorini/bpr-nq-ctx-encoder",
 		"private": false
 	}
 ]
