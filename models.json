@@ -3178,6 +3178,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Edaiplay/edaiplay-ans-predictor",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Edaiplay/edaiplay-q-boolean",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -37067,7 +37072,8 @@
 	},
 	{
 		"modelId": "hangmu/9.4AIstudy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "hanguyen99ptit/my_model_pho",
