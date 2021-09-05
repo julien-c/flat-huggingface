@@ -72577,10 +72577,6 @@
 		"private": false
 	},
 	{
-		"modelId": "zanderbush/DebateWriting",
-		"private": false
-	},
-	{
 		"modelId": "zanderbush/ForceWords",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -72602,11 +72598,6 @@
 	},
 	{
 		"modelId": "zanderbush/GPTTitle",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "zanderbush/Intellectual",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -73627,7 +73618,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat-few-shot-500-per-entity-type-split-5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "harish/EN-AStitchTask1A-BERTBaseCased-TrueTrue-0-3-BEST",
@@ -73694,6 +73686,10 @@
 	},
 	{
 		"modelId": "republicofjosh/DiaLoGPT-medium-vader",
+		"private": false
+	},
+	{
+		"modelId": "AnonymousSub/cline",
 		"private": false
 	}
 ]
