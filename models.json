@@ -3188,6 +3188,15 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "Edaiplay/edaiplay-q-gen",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Edaiplay/edaiplay-t5model",
+		"private": false
+	},
+	{
 		"modelId": "Edomonndo/opus-mt-en-ro-finetuned-en-to-ro",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -73768,11 +73777,16 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "dave-rtzr/ksponspeech-conformer-medium",
+		"modelId": "shimu/bert-chinese",
 		"private": false
 	},
 	{
-		"modelId": "shimu/bert-chinese",
+		"modelId": "qdenisq/BertFormalityClassificiation",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "dave-rtzr/ksponspeech-conformer-medium",
 		"private": false
 	}
 ]
