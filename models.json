@@ -21901,6 +21901,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "af1tang/personaGPT",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "afonsoceiia/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -73160,7 +73165,8 @@
 	},
 	{
 		"modelId": "yseop/FNP_T5_D2T_simple",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "yseop/roberta-base-finance-hypernym-identification",
@@ -74200,11 +74206,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-perkey-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "stefan-it/german-gpt2-larger",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -74215,37 +74216,12 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-perkey-title",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "alireza7/ARMAN-SH-persian-base-wiki-summary",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-PN-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "alireza7/ARMAN-SH-persian-base-voa-title",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-tebyan",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-wiki-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-voa-title",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -74260,11 +74236,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-textual-entailment",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-qqp",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -74275,17 +74246,7 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-multiple-choice",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-sentiment-movie",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-qqp",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -74295,19 +74256,13 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-sentiment-food",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-sentiment-movie",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "alireza7/ARMAN-SS-80-persian-base-perkey-summary",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Reed/DialoGPT-small-RickAndMorty",
+		"private": false
 	},
 	{
 		"modelId": "alireza7/TRANSFORMER-persian-base-perkey-summary",
@@ -74330,6 +74285,127 @@
 	},
 	{
 		"modelId": "alireza7/ARMAN-SS-80-persian-base-PN-summary",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "huggingtweets/jenslennartsson",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "alireza7/TRANSFORMER-persian-base-PN-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-tebyan",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-wiki-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/TRANSFORMER-persian-base-tebyan",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-voa-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/TRANSFORMER-persian-base-wiki-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-parsinlu-textual-entailment",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/TRANSFORMER-persian-base-voa-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-parsinlu-sentiment-movie",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-parsinlu-multiple-choice",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-parsinlu-sentiment-food",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-80-persian-base-parsinlu-qqp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-perkey-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-perkey-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-PN-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-tebyan",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-wiki-summary",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-voa-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-parsinlu-textual-entailment",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-parsinlu-multiple-choice",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-parsinlu-qqp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-parsinlu-sentiment-food",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-base-parsinlu-sentiment-movie",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
