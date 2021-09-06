@@ -1015,6 +1015,10 @@
 		"private": false
 	},
 	{
+		"modelId": "AkshaySg/LanguageIdentification",
+		"private": false
+	},
+	{
 		"modelId": "AkshaySg/gramCorrection",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -1186,6 +1190,14 @@
 	},
 	{
 		"modelId": "AmirServi/MyModel",
+		"private": false
+	},
+	{
+		"modelId": "Amirosein/dummy-model",
+		"private": false
+	},
+	{
+		"modelId": "Amirosein/model_name",
 		"private": false
 	},
 	{
@@ -3452,6 +3464,10 @@
 		"private": false
 	},
 	{
+		"modelId": "EvaRo/roberta-base-bne-finetuned-amazon_reviews_multi",
+		"private": false
+	},
+	{
 		"modelId": "Ewan1011/phoenixbot-chat",
 		"private": false
 	},
@@ -4650,6 +4666,10 @@
 		"modelId": "Ghana-NLP/robako-base-asante-twi-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GiAk/distilbert-base-uncased-finetuned-cola",
+		"private": false
 	},
 	{
 		"modelId": "Giannis/distilbert-base-uncased-finetuned-ner",
@@ -21746,6 +21766,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "adansuarez/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "adelevie/distilbert-gsa-eula-opp",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -25677,7 +25701,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-random-tiny-classifier",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "antoniocappiello/bert-base-italian-uncased-squad-it",
@@ -28955,6 +28980,11 @@
 	{
 		"modelId": "cheekyAM/test",
 		"private": false
+	},
+	{
+		"modelId": "chellver24/DialoGPT-medium-chizuru_ichinose",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "chellver24/DialoGPT-small-chizuru_ichinose",
@@ -51892,6 +51922,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "jorgeecardona/gumbel_softmax",
+		"private": false
+	},
+	{
 		"modelId": "jorgennavjord/diskbert",
 		"private": false
 	},
@@ -53383,6 +53417,30 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "lewtun/metnet-test-2",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/metnet-test-3",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/metnet-test-4",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/metnet-test-5",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/metnet-test-with-config",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/metnet-test",
+		"private": false
+	},
+	{
 		"modelId": "lewtun/oz-fauna",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -54828,6 +54886,38 @@
 		"private": false
 	},
 	{
+		"modelId": "malay-huggingface/albert-base-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/albert-large-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/albert-tiny-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/bert-base-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/bert-large-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/bert-tiny-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/gpt2-117M",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/gpt2-345M",
+		"private": false
+	},
+	{
 		"modelId": "malay-huggingface/t5-base-abstractive-summarization-bahasa-cased",
 		"private": false
 	},
@@ -54861,6 +54951,18 @@
 	},
 	{
 		"modelId": "malay-huggingface/t5-tiny-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/xlnet-base-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/xlnet-large-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/xlnet-tiny-bahasa-cased",
 		"private": false
 	},
 	{
@@ -60459,6 +60561,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "ozge/finetuned-distilbert-turkish",
+		"private": false
+	},
+	{
 		"modelId": "p208p2002/bart-squad-nqg-hl",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -65912,6 +66018,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "shashank2123/t5-small-fine-tuned-for-Punctuation-Restoration",
+		"private": false
+	},
+	{
 		"modelId": "shauryr/arqmath-roberta-base-1.5M",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -66324,6 +66434,10 @@
 	},
 	{
 		"modelId": "sinksmh/kurt",
+		"private": false
+	},
+	{
+		"modelId": "sisi/my_tuni_model_light",
 		"private": false
 	},
 	{
@@ -67350,11 +67464,13 @@
 	},
 	{
 		"modelId": "speechbrain/google_speech_command_xvector",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "speechbrain/lang-id-commonlanguage_ecapa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "speechbrain/metricgan-plus-voicebank",
@@ -67405,7 +67521,8 @@
 	},
 	{
 		"modelId": "speechbrain/spkrec-xvect-voxceleb",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "speechbrain/urbansound8k_ecapa",
@@ -68530,35 +68647,43 @@
 	},
 	{
 		"modelId": "superb/hubert-base-superb-er",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-base-superb-ic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-base-superb-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-base-superb-sid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-large-superb-er",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-large-superb-ic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-large-superb-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/hubert-large-superb-sid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/pretrained-model-upload-template",
@@ -68567,15 +68692,18 @@
 	},
 	{
 		"modelId": "superb/wav2vec2-base-superb-er",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-base-superb-ic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-base-superb-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-base-superb-sid",
@@ -68584,19 +68712,23 @@
 	},
 	{
 		"modelId": "superb/wav2vec2-large-superb-er",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-large-superb-ic",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-large-superb-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superb/wav2vec2-large-superb-sid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "superspray/distilbert_base_squad2_custom_dataset",
@@ -70461,6 +70593,10 @@
 		"modelId": "tuner007/t5_abs_qa",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "tunib/electra-ko-wp-32k-base-1.5M-discriminator",
+		"private": false
 	},
 	{
 		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
@@ -73915,120 +74051,21 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "ozge/finetuned-distilbert-turkish",
-		"private": false
-	},
-	{
-		"modelId": "EvaRo/roberta-base-bne-finetuned-amazon_reviews_multi",
-		"private": false
-	},
-	{
-		"modelId": "AkshaySg/LanguageIdentification",
-		"private": false
-	},
-	{
-		"modelId": "GiAk/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/albert-base-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/albert-large-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/albert-tiny-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/bert-base-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/bert-large-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/bert-tiny-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/xlnet-base-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/xlnet-large-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/xlnet-tiny-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/gpt2-117M",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/gpt2-345M",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/metnet-test",
-		"private": false
-	},
-	{
-		"modelId": "jorgeecardona/gumbel_softmax",
-		"private": false
-	},
-	{
-		"modelId": "adansuarez/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-ko-wp-32k-base-1.5M-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/metnet-test-with-config",
-		"private": false
-	},
-	{
-		"modelId": "sisi/my_tuni_model_light",
-		"private": false
-	},
-	{
-		"modelId": "chellver24/DialoGPT-medium-chizuru_ichinose",
+		"modelId": "anton-l/wav2vec2-base-langid",
 		"private": false,
-		"pipeline_tag": "conversational"
+		"pipeline_tag": "audio-classification"
 	},
 	{
-		"modelId": "shashank2123/t5-small-fine-tuned-for-Punctuation-Restoration",
+		"modelId": "Jikiwa/fat-pushes",
 		"private": false
 	},
 	{
-		"modelId": "lewtun/metnet-test-2",
+		"modelId": "Razor/distilgpt2-finetuned-wikitext2",
 		"private": false
 	},
 	{
-		"modelId": "lewtun/metnet-test-3",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/metnet-test-4",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/metnet-test-5",
-		"private": false
-	},
-	{
-		"modelId": "Amirosein/dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "Amirosein/model_name",
-		"private": false
+		"modelId": "neoyipeng/bertweet-base-sentiment-analysis-mlm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
