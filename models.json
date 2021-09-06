@@ -66060,7 +66060,8 @@
 	},
 	{
 		"modelId": "shashank2123/t5-small-fine-tuned-for-Punctuation-Restoration",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "shauryr/arqmath-roberta-base-1.5M",
@@ -74097,11 +74098,16 @@
 	},
 	{
 		"modelId": "kris/DialoGPT-small-spock",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "huggingtweets/beesforbo-cafe_orbitinnit-weebbutt",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "hematejaAluru/distilgpt2-finetuned-AUG-wikitext2",
+		"private": false
 	}
 ]
