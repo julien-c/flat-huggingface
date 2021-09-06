@@ -74061,7 +74061,8 @@
 	},
 	{
 		"modelId": "huggingartists/max-korzh",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingtweets/matsu_bouzu",
@@ -74070,6 +74071,15 @@
 	},
 	{
 		"modelId": "Jikiwa/local_dir",
+		"private": false
+	},
+	{
+		"modelId": "recobo/chemical-bert-uncased-pharmaceutical-chemical-classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Amirosein/roberta",
 		"private": false
 	}
 ]
