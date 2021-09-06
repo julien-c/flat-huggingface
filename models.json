@@ -28080,11 +28080,6 @@
 		"private": false
 	},
 	{
-		"modelId": "bsc/roberta-base-ca-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "bspans/DialoGPT-small-yoda",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -74109,5 +74104,15 @@
 	{
 		"modelId": "hematejaAluru/distilgpt2-finetuned-AUG-wikitext2",
 		"private": false
+	},
+	{
+		"modelId": "BSC-TeMU/roberta-base-ca-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingtweets/cafe_orbitinnit",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
