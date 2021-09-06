@@ -74148,7 +74148,8 @@
 	},
 	{
 		"modelId": "sv/gpt2-finetuned-nft-shakes-seuss",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "ad6398/gupshup_e2e_pegasus",
@@ -74239,21 +74240,52 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SH-persian-base-textual-entailment",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "alireza7/ARMAN-SS-100-persian-wiki-summary",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SH-persian-base-multiple-choice",
-		"private": false
+		"modelId": "alireza7/ARMAN-SS-100-persian-voa-title",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "alireza7/ARMAN-SS-100-persian-voa-title",
+		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-textual-entailment",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-multiple-choice",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-textual-entailment",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-qqp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-sentiment-food",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-multiple-choice",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SH-persian-base-parsinlu-sentiment-movie",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "alireza7/ARMAN-SS-100-persian-parsinlu-qqp",
 		"private": false
 	}
 ]
