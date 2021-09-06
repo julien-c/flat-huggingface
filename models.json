@@ -1057,7 +1057,8 @@
 	},
 	{
 		"modelId": "Aleksandar/distilbert-srb-ner-setimes",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Aleksandar/distilbert-srb-ner",
@@ -74412,5 +74413,9 @@
 		"modelId": "huggingtweets/_nisagiss-dril_gpt2-drilbot_neo",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "loybenitez/Twitter-qian",
+		"private": false
 	}
 ]
