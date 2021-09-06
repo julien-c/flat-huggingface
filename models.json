@@ -73892,11 +73892,13 @@
 	},
 	{
 		"modelId": "colochoplay/DialoGTP-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "ductuan024/AimeLaw",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Gappy/DialoGPT-small-Zhongli",
@@ -73909,6 +73911,10 @@
 	},
 	{
 		"modelId": "sambelanz/Neddefilm",
+		"private": false
+	},
+	{
+		"modelId": "nguyenvulebinh/vietnames-dialect-speech-detection",
 		"private": false
 	}
 ]
