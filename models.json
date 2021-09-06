@@ -1068,7 +1068,8 @@
 	},
 	{
 		"modelId": "Aleksandar/electra-srb-ner-setimes",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Aleksandar/electra-srb-ner",
@@ -74421,6 +74422,11 @@
 	},
 	{
 		"modelId": "huggingtweets/liam_100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/itskillerdog",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
