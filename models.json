@@ -21584,7 +21584,8 @@
 	},
 	{
 		"modelId": "ad6398/gupshup_e2e_pegasus",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "adalbertojunior/PTT5-SMALL-SUM",
@@ -61902,6 +61903,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "philschmid/infinity-sentiment",
+		"private": false
+	},
+	{
 		"modelId": "philschmid/test",
 		"private": false
 	},
@@ -74622,6 +74627,18 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-es",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-et",
+		"private": false
+	},
+	{
+		"modelId": "hematejaAluru/distilroberta-base-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-eu",
 		"private": false
 	}
 ]
