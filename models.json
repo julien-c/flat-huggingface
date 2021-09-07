@@ -13833,7 +13833,8 @@
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-ar-en-finetuned-ar-to-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-en-ro-finetuned-en-to-ro",
@@ -74546,6 +74547,10 @@
 	},
 	{
 		"modelId": "severo/degit-test-repo",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-bg",
 		"private": false
 	}
 ]
