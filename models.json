@@ -66435,7 +66435,8 @@
 	},
 	{
 		"modelId": "shashank2123/t5-small-fine-tuned-for-Punctuation-Restoration",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "shauryr/arqmath-roberta-base-1.5M",
@@ -74614,5 +74615,13 @@
 		"modelId": "neoyipeng/twitter-roberta-base-sentiment-mlm-class",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jegorkitskerkin/test-clm",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-es",
+		"private": false
 	}
 ]
