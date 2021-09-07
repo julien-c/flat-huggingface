@@ -74762,7 +74762,8 @@
 	},
 	{
 		"modelId": "kaedefuto/chat_bot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-id",
@@ -74895,6 +74896,18 @@
 	},
 	{
 		"modelId": "krlng/sts-GBERT-bi-encoder",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-sa",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-sk",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-sl",
 		"private": false
 	}
 ]
