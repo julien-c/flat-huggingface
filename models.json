@@ -61902,10 +61902,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "philschmid/infinity-sentiment",
-		"private": false
-	},
-	{
 		"modelId": "philschmid/test",
 		"private": false
 	},
@@ -74613,5 +74609,10 @@
 	{
 		"modelId": "stanfordnlp/stanza-en",
 		"private": false
+	},
+	{
+		"modelId": "neoyipeng/twitter-roberta-base-sentiment-mlm-class",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
