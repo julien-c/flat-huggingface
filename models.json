@@ -56644,12 +56644,12 @@
 	{
 		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl-finetune",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-nl",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "ml6team/mt5-small-german-finetune-mlsum",
@@ -74845,6 +74845,22 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-nn",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-orv",
+		"private": false
+	},
+	{
+		"modelId": "M47Labs/italian_news_classification_headlines",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-pcm",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-pl",
 		"private": false
 	}
 ]
