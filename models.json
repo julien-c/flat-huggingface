@@ -74896,7 +74896,8 @@
 	},
 	{
 		"modelId": "krlng/sts-GBERT-bi-encoder",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sa",
@@ -74940,6 +74941,23 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ta",
+		"private": false
+	},
+	{
+		"modelId": "krlng/sts-GBERT-cross-encoder",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "JoseRPrietoF/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-te",
+		"private": false
+	},
+	{
+		"modelId": "stanfordnlp/stanza-tr",
 		"private": false
 	}
 ]
