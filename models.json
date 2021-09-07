@@ -55465,6 +55465,11 @@
 		"private": false
 	},
 	{
+		"modelId": "megagonlabs/t5-base-japanese-web-8k",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "megagonlabs/t5-base-japanese-web",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -66095,10 +66100,6 @@
 		"private": false
 	},
 	{
-		"modelId": "shimu/bert-chinese",
-		"private": false
-	},
-	{
 		"modelId": "shimulvisa2021/movies",
 		"private": false
 	},
@@ -74254,11 +74255,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "Reed/DialoGPT-small-RickAndMorty",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "alireza7/TRANSFORMER-persian-base-perkey-summary",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -74439,5 +74435,23 @@
 		"modelId": "huggingtweets/discountpicasso-dril-liam_100000",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/prageru",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "shimu/bert_cn_finetuning",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/dynatronne",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanfordnlp/corenlp-arabic",
+		"private": false
 	}
 ]
