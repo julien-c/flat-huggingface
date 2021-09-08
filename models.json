@@ -15558,11 +15558,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Nova/DialoGPT-medium-Lelouch",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "NovaChrono/twervy",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -75326,7 +75321,8 @@
 	},
 	{
 		"modelId": "nguyenvulebinh/envibert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
@@ -75334,15 +75330,23 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "rabindralamsal/finetuned-bertweet-sentiment",
-		"private": false
-	},
-	{
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned",
 		"private": false
 	},
 	{
 		"modelId": "Nerdy/Loqui",
+		"private": false
+	},
+	{
+		"modelId": "sambelanz/miutan",
+		"private": false
+	},
+	{
+		"modelId": "Nerdy/Bot",
+		"private": false
+	},
+	{
+		"modelId": "rabindralamsal/finetuned-bertweet-sentiment",
 		"private": false
 	}
 ]
