@@ -23585,7 +23585,8 @@
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "amine/bert-base-5lang-cased",
@@ -71819,10 +71820,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-ko-wp-32k-base-1.5M-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
 		"private": false
 	},
@@ -75321,7 +75318,7 @@
 	{
 		"modelId": "RAhul03/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Querxes/DialoGPT-medium-querxes",
@@ -75332,16 +75329,20 @@
 		"private": false
 	},
 	{
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-fined",
+		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "rabindralamsal/finetuned-bertweet-sentiment",
 		"private": false
 	},
 	{
-		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
-		"private": false,
-		"pipeline_tag": "text-generation"
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned",
+		"private": false
 	},
 	{
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned",
+		"modelId": "Nerdy/Loqui",
 		"private": false
 	}
 ]
