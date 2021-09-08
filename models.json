@@ -75272,14 +75272,34 @@
 	},
 	{
 		"modelId": "edwardgowsmith/pt-finegrained-zero-shot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "edwardgowsmith/pt-finegrained-one-shot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "edwardgowsmith/pt-finegrained-few-shot",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "edwardgowsmith/en-finegrained-zero-shot",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "nife/test",
+		"private": false
+	},
+	{
+		"modelId": "M47Labs/english_news_classification_headlines",
+		"private": false
+	},
+	{
+		"modelId": "shadow/test",
 		"private": false
 	}
 ]
