@@ -31580,6 +31580,10 @@
 		"private": false
 	},
 	{
+		"modelId": "diiogo/portuguese-roberta-base",
+		"private": false
+	},
+	{
 		"modelId": "diiogo/roberta-test2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -75311,7 +75315,8 @@
 	},
 	{
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Nerdy/Loqui",
@@ -75390,5 +75395,9 @@
 		"modelId": "sgugger/bert-finetuned-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "alvinkobe/DialoGPT-small-steve_biko",
+		"private": false
 	}
 ]
