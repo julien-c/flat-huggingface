@@ -71655,7 +71655,8 @@
 	},
 	{
 		"modelId": "ttop324/kogpt_clone",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "ttumyche/bluebert",
@@ -75245,5 +75246,9 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "cui/sg_key2text",
+		"private": false
 	}
 ]
