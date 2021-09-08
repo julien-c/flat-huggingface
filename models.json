@@ -75122,10 +75122,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Nova/DialoGPT-medium-Lelouch",
-		"private": false
-	},
-	{
 		"modelId": "stanfordnlp/stanza-ug",
 		"private": false
 	},
@@ -75157,5 +75153,14 @@
 	{
 		"modelId": "stanfordnlp/stanza-zh-hans",
 		"private": false
+	},
+	{
+		"modelId": "charlecheng/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "Nova/DialoGPT-medium-Lelouch",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
