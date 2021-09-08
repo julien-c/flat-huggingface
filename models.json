@@ -12434,10 +12434,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
-		"private": false
-	},
-	{
 		"modelId": "Jerr/model_name",
 		"private": false
 	},
@@ -75248,11 +75244,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "cui/sg_key2text",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.0",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -75330,5 +75321,20 @@
 	{
 		"modelId": "echarlaix/bert-base-dynamic-quant-test",
 		"private": false
+	},
+	{
+		"modelId": "marcosgg/bert-small-gl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "marcosgg/bert-base-gl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
