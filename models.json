@@ -30351,6 +30351,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "csebuetnlp/banglabert",
+		"private": false
+	},
+	{
 		"modelId": "cservan/fr-albert",
 		"private": false
 	},
@@ -69878,7 +69882,8 @@
 	},
 	{
 		"modelId": "sv/gpt2-nft-poetry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "sv/gpt2-nft",
@@ -73898,7 +73903,8 @@
 	},
 	{
 		"modelId": "ydl233/bart_model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "ydshieh/vit-gpt2",
@@ -75207,5 +75213,13 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "masbaur019/DialoGPT-small-joshua",
+		"private": false
+	},
+	{
+		"modelId": "kamalkraj/tapas-base",
+		"private": false
 	}
 ]
