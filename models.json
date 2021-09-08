@@ -31580,10 +31580,6 @@
 		"private": false
 	},
 	{
-		"modelId": "diiogo/portuguese-roberta-base",
-		"private": false
-	},
-	{
 		"modelId": "diiogo/roberta-test2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -75337,7 +75333,8 @@
 	},
 	{
 		"modelId": "pere/norwegian-t5-base-NCC-nb-nn",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "rabindralamsal/finetuned-bertweet-sentiment",
@@ -75394,7 +75391,8 @@
 	},
 	{
 		"modelId": "alvinkobe/DialoGPT-small-steve_biko",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "elisno/is_core_web_trf",
@@ -75403,6 +75401,7 @@
 	},
 	{
 		"modelId": "zentos/DialoGPT-small-spongebob",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
