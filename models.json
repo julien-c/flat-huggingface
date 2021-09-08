@@ -1481,16 +1481,19 @@
 		"private": false
 	},
 	{
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-fine",
+		"private": false
+	},
+	{
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-1",
 		"private": false
 	},
 	{
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-wikitext2",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-new",
+		"private": false
 	},
 	{
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned",
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-wikitext2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -4771,6 +4774,10 @@
 		"modelId": "Greg1901/BertSummaDev_summariser",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Greninja028/DialoGPT-small-harrypotter",
+		"private": false
 	},
 	{
 		"modelId": "GreyP/modelnew",
@@ -12753,6 +12760,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "KAIHATSU/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "KB/albert-base-swedish-cased-alpha",
 		"private": false
 	},
@@ -13616,6 +13628,11 @@
 	{
 		"modelId": "M-CLIP/Swedish-500k",
 		"private": false
+	},
+	{
+		"modelId": "M47Labs/english_news_classification_headlines",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "M47Labs/italian_news_classification_headlines",
@@ -23588,6 +23605,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "amild01/GPT2-german-chefkoch",
+		"private": false
+	},
+	{
 		"modelId": "amine/bert-base-5lang-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -32043,6 +32064,10 @@
 		"pipeline_tag": "summarization"
 	},
 	{
+		"modelId": "echarlaix/bert-base-dynamic-quant-test",
+		"private": false
+	},
+	{
 		"modelId": "echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -32086,6 +32111,26 @@
 	},
 	{
 		"modelId": "edwardgowsmith/bert-base-cased-best",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "edwardgowsmith/en-finegrained-zero-shot",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "edwardgowsmith/pt-finegrained-few-shot",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "edwardgowsmith/pt-finegrained-one-shot",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "edwardgowsmith/pt-finegrained-zero-shot",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -35542,6 +35587,30 @@
 		"modelId": "fmikaelian/flaubert-base-uncased-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.0",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.1",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.2.0",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.2.1",
+		"private": false
+	},
+	{
+		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.2",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002",
@@ -55846,6 +55915,16 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "marcosgg/bert-base-gl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "marcosgg/bert-small-gl-cased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "marefa-nlp/marefa-mt-en-ar",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -56207,6 +56286,11 @@
 	{
 		"modelId": "melisande1/pw2",
 		"private": false
+	},
+	{
+		"modelId": "melisande2/PW1",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "mercerchen/hf_ds_recipe",
@@ -60116,6 +60200,10 @@
 		"modelId": "niepan/bert_funting_test_ai10",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "nife/test",
+		"private": false
 	},
 	{
 		"modelId": "nigelx/rdqa",
@@ -66730,6 +66818,10 @@
 		"private": false
 	},
 	{
+		"modelId": "shadow/test",
+		"private": false
+	},
+	{
 		"modelId": "shahjaidev/bert-base-uncased-finetuned-swag",
 		"private": false
 	},
@@ -72828,6 +72920,10 @@
 		"private": false
 	},
 	{
+		"modelId": "versae/norwegian-t5-base-NCC-fast-debug",
+		"private": false
+	},
+	{
 		"modelId": "verycuriousotter/asdf1",
 		"private": false
 	},
@@ -75244,97 +75340,19 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.0",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "versae/norwegian-t5-base-NCC-fast-debug",
+		"modelId": "RAhul03/DialoGPT-small-harrypotter",
 		"private": false
 	},
 	{
-		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.1",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Greninja028/DialoGPT-small-harrypotter",
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-f",
 		"private": false
 	},
 	{
-		"modelId": "edwardgowsmith/pt-finegrained-zero-shot",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "edwardgowsmith/pt-finegrained-one-shot",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "edwardgowsmith/pt-finegrained-few-shot",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "edwardgowsmith/en-finegrained-zero-shot",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "nife/test",
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned",
 		"private": false
 	},
 	{
-		"modelId": "M47Labs/english_news_classification_headlines",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shadow/test",
+		"modelId": "Querxes/DialoGPT-medium-querxes",
 		"private": false
-	},
-	{
-		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.2",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "KAIHATSU/DialoGPT-small-rick",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "melisande2/PW1",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.2.1",
-		"private": false
-	},
-	{
-		"modelId": "fnakamura/t5-base-ja-web-real-estate-qa-002.2.0",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "echarlaix/bert-base-dynamic-quant-test",
-		"private": false
-	},
-	{
-		"modelId": "marcosgg/bert-small-gl-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Jeffrey/DialoGPT-small-Jeffrey",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "marcosgg/bert-base-gl-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	}
 ]
