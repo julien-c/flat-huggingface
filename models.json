@@ -20062,7 +20062,8 @@
 	},
 	{
 		"modelId": "TingChenChang/bert-base-chinese-finetuned-squad-colab",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "TingChenChang/bert-base-chinese-finetuned-squad",
@@ -34396,11 +34397,6 @@
 		"modelId": "finiteautomata/beto-sentiment-analysis",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "finiteautomata/robertuito-base-uncased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "firebolt/llama_or_what",
@@ -75327,11 +75323,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "rabindralamsal/finetuned-bertweet-sentiment",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "tunib/electra-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -75412,5 +75403,26 @@
 		"modelId": "gagan3012/distilbert-base-uncased-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "eugenesiow/han",
+		"private": false
+	},
+	{
+		"modelId": "sirpkkarisa/finalyear-bert-model",
+		"private": false
+	},
+	{
+		"modelId": "Nova/DialoGPT-medium-Lelouch",
+		"private": false
+	},
+	{
+		"modelId": "finiteautomata/robertuito-base-uncased-200k",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "finiteautomata/robertuito-base-cased",
+		"private": false
 	}
 ]
