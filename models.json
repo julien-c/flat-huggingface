@@ -13363,11 +13363,6 @@
 		"private": false
 	},
 	{
-		"modelId": "LeoCordoba/beto2beto-ccnews-titles-es",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
 		"modelId": "LeoCordoba/beto2beto-mlsum",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -13376,11 +13371,6 @@
 		"modelId": "LeoCordoba/beto2beto",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "LeoCordoba/mt5-small-ccnews-titles-es",
-		"private": false,
-		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "LeoCordoba/mt5-small-mlsum",
@@ -75684,5 +75674,15 @@
 		"modelId": "akdeniz27/bert-based-turkish-cased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "LeoCordoba/beto2beto-cc-news-es-titles",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "LeoCordoba/mt5-small-cc-news-es-titles",
+		"private": false,
+		"pipeline_tag": "summarization"
 	}
 ]
