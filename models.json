@@ -75579,7 +75579,7 @@
 	{
 		"modelId": "Manthan/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "moba/distilbert-base-uncased-finetuned-squad",
@@ -75590,7 +75590,12 @@
 		"private": false
 	},
 	{
-		"modelId": "bespin-jaehyeong/intent-recommender-test-roberta-small",
+		"modelId": "bespin-global/intent-recommender-test-roberta-small",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "grounddominator/DialoGpt-Large-Rick",
 		"private": false
 	}
 ]
