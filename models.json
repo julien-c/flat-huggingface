@@ -15601,7 +15601,7 @@
 	{
 		"modelId": "Nova/DialoGPT-medium-Lelouch",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "NovaChrono/twervy",
@@ -75542,7 +75542,8 @@
 	},
 	{
 		"modelId": "theomeb/prot_bert_bfd_netmhcpan41_pos_allelepseudoseq_pep",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "josephsachdeva/bert-base-cased-finetuned-wikitext2",
