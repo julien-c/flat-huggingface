@@ -1723,6 +1723,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "BSC-TeMU/roberta-base-bne-capitel-ner-plus",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "BSC-TeMU/roberta-base-bne-capitel-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -3524,6 +3529,11 @@
 	{
 		"modelId": "Erikaka/DialoGPT-small-harrypotter",
 		"private": false
+	},
+	{
+		"modelId": "Erikaka/DialoGPT-small-loki",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ErykWdowiak/GPTalian",
@@ -11881,6 +11891,14 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "Hemang/DialoGPT-small-mickey",
+		"private": false
+	},
+	{
+		"modelId": "Hemang/DialoGPT-small-mickeymouse",
+		"private": false
+	},
+	{
 		"modelId": "Henderson/2021-free-guy-online-pelicula-hd-espanol-y-latino-subtitulado",
 		"private": false
 	},
@@ -12521,6 +12539,10 @@
 	},
 	{
 		"modelId": "Jihyun22/roberta-base-finetuned-nli",
+		"private": false
+	},
+	{
+		"modelId": "Jikiwa/Rose-Brain",
 		"private": false
 	},
 	{
@@ -15190,6 +15212,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "NTUYG/SOTitle-Gen-T5",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "NTUYG/SOTitle-csharp-BART",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -15275,6 +15302,11 @@
 		"modelId": "Narrativa/mbart-large-50-finetuned-opus-pt-en-translation",
 		"private": false,
 		"pipeline_tag": "translation"
+	},
+	{
+		"modelId": "Narrativa/spanish-gpt2-finetuned-rap-lyrics",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Narrativa/t5-base-finetuned-totto-table-to-text",
@@ -15474,6 +15506,10 @@
 	},
 	{
 		"modelId": "Nickis/distilroberta-base-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Nickolay/sevbot",
 		"private": false
 	},
 	{
@@ -16834,6 +16870,15 @@
 		"modelId": "ReynaQuita/mbartcc25_trimmed",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Riad/finetuned-bert-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Riad/my-awesome-model",
+		"private": false
 	},
 	{
 		"modelId": "RicardoRei/mbart-m2m-mlqe",
@@ -19424,6 +19469,15 @@
 	{
 		"modelId": "Sunbird/sunbert",
 		"private": false
+	},
+	{
+		"modelId": "Sunnydx/BillCipher",
+		"private": false
+	},
+	{
+		"modelId": "Sunnydx/BillCipherBot",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "SuperApril12/TEST",
@@ -22588,6 +22642,11 @@
 	{
 		"modelId": "akahnn/helloWorld",
 		"private": false
+	},
+	{
+		"modelId": "akdeniz27/bert-base-turkish-cased-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "akdeniz27/bert-turkish-text-classification",
@@ -26101,6 +26160,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "anonsubms/msrp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "anonymous-german-nlp/german-gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -27212,6 +27276,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "avnish100/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "awl/pegasus_cnn",
 		"private": false
 	},
@@ -27648,6 +27717,10 @@
 	},
 	{
 		"modelId": "bburnskm/frog-and-toad",
+		"private": false
+	},
+	{
+		"modelId": "bcbach190/for-bot",
 		"private": false
 	},
 	{
@@ -37867,6 +37940,10 @@
 		"private": false
 	},
 	{
+		"modelId": "habu24/fdszgzsgz",
+		"private": false
+	},
+	{
 		"modelId": "habu24/itvpro",
 		"private": false
 	},
@@ -37989,6 +38066,10 @@
 	},
 	{
 		"modelId": "hanmaroo/xlm_roberta_large_korquad_v2",
+		"private": false
+	},
+	{
+		"modelId": "hannesh/vgg16_ecoset",
 		"private": false
 	},
 	{
@@ -39570,6 +39651,11 @@
 		"private": false
 	},
 	{
+		"modelId": "huggingartists/25-17",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/aaron-watson",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39623,6 +39709,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/burzum",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/chester-bennington",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39641,6 +39732,10 @@
 		"modelId": "huggingartists/denderty",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/dermot-kennedy",
+		"private": false
 	},
 	{
 		"modelId": "huggingartists/dj-artem-artemov",
@@ -39688,6 +39783,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/face",
+		"private": false
+	},
+	{
 		"modelId": "huggingartists/fascinoma",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39722,8 +39821,18 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/gspd",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/jim-morrison",
 		"private": false
+	},
+	{
+		"modelId": "huggingartists/john-lennon",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists/joji",
@@ -39745,6 +39854,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/krept-and-konan-bugzy-malone-sl-morisson-abra-cadabra-rv-and-snap-capone",
+		"private": false
+	},
+	{
 		"modelId": "huggingartists/lady-gaga",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39755,14 +39868,27 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/lil-peep",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/lil-uzi-vert",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/lizer",
+		"private": false
+	},
+	{
 		"modelId": "huggingartists/loverance",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/lovv66",
+		"private": false
 	},
 	{
 		"modelId": "huggingartists/lumen",
@@ -39794,6 +39920,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/obladaet",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/og-buda",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39804,7 +39935,22 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/pharaoh",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/placebo",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/platina",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/queen",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39828,6 +39974,15 @@
 	},
 	{
 		"modelId": "huggingartists/sid-sriram",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/skillet",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/slava-kpss",
 		"private": false
 	},
 	{
@@ -39921,6 +40076,10 @@
 		"modelId": "huggingartists/xxxtentacion",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/young-thug",
+		"private": false
 	},
 	{
 		"modelId": "huggingartists/yung-plague",
@@ -43610,6 +43769,11 @@
 	},
 	{
 		"modelId": "huggingtweets/fraskungfu",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/freakytheory-insprepositive-masterythink",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -55194,6 +55358,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "lysandre/Rose-Brain",
+		"private": false
+	},
+	{
 		"modelId": "lysandre/arxiv-nlp",
 		"private": false
 	},
@@ -55978,6 +56146,10 @@
 	},
 	{
 		"modelId": "malay-huggingface/xlnet-large-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/xlnet-tiny-bahasa-cased",
 		"private": false
 	},
 	{
@@ -57027,6 +57199,11 @@
 		"modelId": "microsoft/xtremedistil-l6-h384-uncased",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "midas/gupshup_h2e_mbart",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "midas/gupshup_h2e_pegasus",
@@ -61125,6 +61302,10 @@
 		"modelId": "omkar1309/RickBot",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "omnimokha/DialoGPT-small-jakeamal",
+		"private": false
 	},
 	{
 		"modelId": "onlplab/alephbert-base",
@@ -65289,6 +65470,10 @@
 		"private": false
 	},
 	{
+		"modelId": "sambelanz/shang-chi-the-movie",
+		"private": false
+	},
+	{
 		"modelId": "sambelanz/snac",
 		"private": false
 	},
@@ -67265,6 +67450,11 @@
 	{
 		"modelId": "sharmaniraj002/DialoGPT-small-harrypotter",
 		"private": false
+	},
+	{
+		"modelId": "shashank2123/t5-base-fine-tuned-for-Punctuation-Restoration",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "shashank2123/t5-finetuned-for-GEC",
@@ -73789,6 +73979,10 @@
 		"private": false
 	},
 	{
+		"modelId": "vymn/Rosa-Brain",
+		"private": false
+	},
+	{
 		"modelId": "vymn/Rose-Brain",
 		"private": false
 	},
@@ -75380,6 +75574,10 @@
 		"private": false
 	},
 	{
+		"modelId": "zhc/distilbert-base-uncased-finetuned-mrpc",
+		"private": false
+	},
+	{
 		"modelId": "zhe/sst2",
 		"private": false
 	},
@@ -75760,187 +75958,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "NTUYG/SOTitle-Gen-T5",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "zhc/distilbert-base-uncased-finetuned-mrpc",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/young-thug",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/john-lennon",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "anonsubms/msrp",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bcbach190/for-bot",
-		"private": false
-	},
-	{
-		"modelId": "Riad/my-awesome-model",
-		"private": false
-	},
-	{
-		"modelId": "akdeniz27/bert-base-turkish-cased-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "Riad/finetuned-bert-mrpc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Hemang/DialoGPT-small-mickey",
-		"private": false
-	},
-	{
-		"modelId": "Hemang/DialoGPT-small-mickeymouse",
-		"private": false
-	},
-	{
-		"modelId": "lysandre/Rose-Brain",
-		"private": false
-	},
-	{
-		"modelId": "Nickolay/sevbot",
-		"private": false
-	},
-	{
-		"modelId": "Jikiwa/Rose-Brain",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/platina",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "shashank2123/t5-base-fine-tuned-for-Punctuation-Restoration",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingartists/dermot-kennedy",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/obladaet",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/25-17",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/freakytheory-insprepositive-masterythink",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "midas/gupshup_h2e_mbart",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "avnish100/DialoGPT-small-rick",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "huggingartists/queen",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/face",
-		"private": false
-	},
-	{
-		"modelId": "Sunnydx/BillCipher",
-		"private": false
-	},
-	{
-		"modelId": "Erikaka/DialoGPT-small-loki",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "huggingartists/burzum",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "vymn/Rosa-Brain",
-		"private": false
-	},
-	{
-		"modelId": "Sunnydx/BillCipherBot",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "hannesh/vgg16_ecoset",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/lovv66",
-		"private": false
-	},
-	{
-		"modelId": "malay-huggingface/xlnet-tiny-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/gspd",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/lil-peep",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "omnimokha/DialoGPT-small-jakeamal",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/pharaoh",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/skillet",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "habu24/fdszgzsgz",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/lizer",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/krept-and-konan-bugzy-malone-sl-morisson-abra-cadabra-rv-and-snap-capone",
-		"private": false
-	},
-	{
-		"modelId": "sambelanz/shang-chi-the-movie",
+		"modelId": "huggingartists/linkin-park",
 		"private": false
 	}
 ]
