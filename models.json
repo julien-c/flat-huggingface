@@ -76042,12 +76042,13 @@
 	},
 	{
 		"modelId": "keyonvafa/compatible-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "pranavtharoor/test",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "PeppoCola/forzanapoli",
@@ -76056,5 +76057,10 @@
 	{
 		"modelId": "PeppoCola/ranstad-hackaton",
 		"private": false
+	},
+	{
+		"modelId": "chellver24/DialoGPT-medium-chizuru_ichinose6",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
