@@ -75767,7 +75767,8 @@
 	},
 	{
 		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test_noa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "huggingartists/yung-plague",
@@ -75803,5 +75804,15 @@
 	{
 		"modelId": "Arogya/koelectra-base-discriminator-finetuned-squad_kor_v1",
 		"private": false
+	},
+	{
+		"modelId": "huggingartists/vladimir-vysotsky",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/aaron-watson",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
