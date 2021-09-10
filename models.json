@@ -27206,10 +27206,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "avnish100/DialoGPT-small-rick",
-		"private": false
-	},
-	{
 		"modelId": "awl/pegasus_cnn",
 		"private": false
 	},
@@ -50801,128 +50797,6 @@
 		"modelId": "human-centered-summarization/financial-summarization-pegasus",
 		"private": false,
 		"pipeline_tag": "summarization"
-	},
-	{
-		"modelId": "huseinzol05/albert-base-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/albert-base-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/albert-large-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/albert-tiny-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/albert-tiny-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/bert-base-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/bert-base-bahasa-standard-cased-fix",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/bert-base-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/bert-large-bahasa-standard-cased-fix",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/bert-large-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/electra-base-discriminator-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/electra-base-generator-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/electra-small-discriminator-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/electra-small-generator-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/gpt2-117M-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/gpt2-345M-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/t5-base-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/t5-base-bahasa-summarization-cased",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huseinzol05/t5-large-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/t5-small-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/t5-small-bahasa-summarization-cased",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huseinzol05/t5-small-isi-penting-generator-bahasa-cased",
-		"private": false
-	},
-	{
-		"modelId": "huseinzol05/tiny-bert-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huseinzol05/xlnet-base-bahasa-cased",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huseinzol05/xlnet-base-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huseinzol05/xlnet-large-bahasa-standard-cased",
-		"private": false,
-		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "hushgeekart/testingModel",
@@ -75916,11 +75790,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "rajivratn/gupshup_h2e_mbart",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "Riad/finetuned-bert-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75966,7 +75835,8 @@
 	},
 	{
 		"modelId": "huggingartists/25-17",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingtweets/freakytheory-insprepositive-masterythink",
@@ -75975,6 +75845,25 @@
 	},
 	{
 		"modelId": "shashank2123/t5-small-fine-tuned-for-Punctuation-Restoration",
+		"private": false
+	},
+	{
+		"modelId": "midas/gupshup_h2e_mbart",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "avnish100/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "huggingartists/queen",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/face",
 		"private": false
 	}
 ]
