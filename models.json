@@ -20458,7 +20458,8 @@
 	},
 	{
 		"modelId": "TuhinColumbia/romancelanguagepoetry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "TuhinColumbia/russianpoetrymany",
@@ -75849,10 +75850,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "shashank2123/t5-small-fine-tuned-for-Punctuation-Restoration",
-		"private": false
-	},
-	{
 		"modelId": "midas/gupshup_h2e_mbart",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -75918,6 +75915,12 @@
 	},
 	{
 		"modelId": "huggingartists/pharaoh",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/skillet",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
