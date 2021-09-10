@@ -1723,6 +1723,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "BSC-TeMU/roberta-base-bne-capitel-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "BSC-TeMU/roberta-base-bne-capitel-pos",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -1741,6 +1746,11 @@
 		"modelId": "BSC-TeMU/roberta-base-ca",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "BSC-TeMU/roberta-large-bne-capitel-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "BSC-TeMU/roberta-large-bne-capitel-pos",
@@ -16585,11 +16595,6 @@
 	{
 		"modelId": "REZERO/DialoGPT-Medium-Saitama",
 		"private": false
-	},
-	{
-		"modelId": "REZERO/DialoGPT-medium-harrypotter",
-		"private": false,
-		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "RICH/rui-test",
@@ -75910,5 +75915,9 @@
 		"modelId": "huggingartists/lil-peep",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/pharaoh",
+		"private": false
 	}
 ]
