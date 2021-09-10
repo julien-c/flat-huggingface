@@ -1486,6 +1486,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Arogya/koelectra-base-discriminator-finetuned-squad_kor_v1",
+		"private": false
+	},
+	{
 		"modelId": "ArseniyBolotin/bert-multi-PAD-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -3093,6 +3097,11 @@
 		"modelId": "Dongjae/mrc2reader",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "Dongmin/testmodel",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Doquey/DialoGPT-small-Luisbot1",
@@ -23677,11 +23686,27 @@
 		"private": false
 	},
 	{
+		"modelId": "aman2304/distilbert-base-uncased-finetuned-mrpc",
+		"private": false
+	},
+	{
 		"modelId": "aman2304/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
 	{
+		"modelId": "aman2304/distilbert-base-uncased-finetuned-qnli",
+		"private": false
+	},
+	{
+		"modelId": "aman2304/distilbert-base-uncased-finetuned-rte",
+		"private": false
+	},
+	{
 		"modelId": "aman2304/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "aman2304/distilbert-base-uncased-finetuned-sst2",
 		"private": false
 	},
 	{
@@ -30226,6 +30251,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "connorboyle/bert-ner-i2b2",
+		"private": false
+	},
+	{
 		"modelId": "conversify/response-score",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -35818,6 +35847,14 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "fnlp/bart-base-chinese",
+		"private": false
+	},
+	{
+		"modelId": "fnlp/bart-large-chinese",
+		"private": false
+	},
+	{
 		"modelId": "formermagic/bart-base-python-1m",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -39536,7 +39573,17 @@
 		"private": false
 	},
 	{
+		"modelId": "huggingartists/aaron-watson",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/abba",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/agata-christie",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39561,6 +39608,11 @@
 	},
 	{
 		"modelId": "huggingartists/billy-talent",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/boris-grebenshikov",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39614,7 +39666,17 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/egor-letov",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/eminem",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/enigma",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39658,6 +39720,15 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/grigory-leps",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/jim-morrison",
+		"private": false
+	},
+	{
 		"modelId": "huggingartists/joji",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39668,6 +39739,16 @@
 	},
 	{
 		"modelId": "huggingartists/kehlani",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/kipelov",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/lady-gaga",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39697,6 +39778,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/mf-doom",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/michael-jackson",
 		"private": false
 	},
@@ -39707,6 +39793,11 @@
 	},
 	{
 		"modelId": "huggingartists/nervy",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/og-buda",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39726,6 +39817,11 @@
 	},
 	{
 		"modelId": "huggingartists/rihanna",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/scriptonite",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -39781,6 +39877,16 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/the-king-and-the-jester",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/the-velvet-underground",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/tom-waits",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -39800,12 +39906,27 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/van-morrison",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/veggietales",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/vladimir-vysotsky",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/xxxtentacion",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/yung-plague",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -57033,6 +57154,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "midas/gupshup_h2e_pegasus",
+		"private": false
+	},
+	{
 		"modelId": "mideind/IceBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -63796,9 +63921,17 @@
 		"private": false
 	},
 	{
+		"modelId": "rajesh1226/chaii",
+		"private": false
+	},
+	{
 		"modelId": "rajeshradhakrishnan/malayalam-wiki2021-BERTo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "rajivratn/gupshup_h2e_pegasus",
+		"private": false
 	},
 	{
 		"modelId": "rajratnpranesh/DCS_sanskrit_albert",
@@ -64247,6 +64380,10 @@
 	},
 	{
 		"modelId": "retiol/filmvoir",
+		"private": false
+	},
+	{
+		"modelId": "retiol/filmvoirhd",
 		"private": false
 	},
 	{
@@ -64850,6 +64987,11 @@
 	},
 	{
 		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test_noa",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -70093,6 +70235,11 @@
 		"private": false
 	},
 	{
+		"modelId": "suhasjain/DailoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "suhnylla/planes_airlines",
 		"private": false,
 		"pipeline_tag": "image-classification"
@@ -70268,6 +70415,10 @@
 		"modelId": "superb/pretrained-model-upload-template",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "superb/superb-submission",
+		"private": false
 	},
 	{
 		"modelId": "superb/wav2vec2-base-superb-er",
@@ -71904,6 +72055,10 @@
 	},
 	{
 		"modelId": "tonitt97/AIS-Classification",
+		"private": false
+	},
+	{
+		"modelId": "topbookcc/ChineseBERT-large",
 		"private": false
 	},
 	{
@@ -75735,138 +75890,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "aman2304/distilbert-base-uncased-finetuned-mrpc",
-		"private": false
-	},
-	{
-		"modelId": "aman2304/distilbert-base-uncased-finetuned-qnli",
-		"private": false
-	},
-	{
-		"modelId": "aman2304/distilbert-base-uncased-finetuned-rte",
-		"private": false
-	},
-	{
-		"modelId": "suhasjain/DailoGPT-small-harrypotter",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "huggingartists/enigma",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/the-king-and-the-jester",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/lady-gaga",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test_noa",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingartists/yung-plague",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "connorboyle/bert-ner-i2b2",
-		"private": false
-	},
-	{
-		"modelId": "Dongmin/testmodel",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "huggingartists/mf-doom",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "rajivratn/gupshup_h2e_pegasus",
-		"private": false
-	},
-	{
-		"modelId": "topbookcc/ChineseBERT-large",
-		"private": false
-	},
-	{
-		"modelId": "midas/gupshup_h2e_pegasus",
-		"private": false
-	},
-	{
-		"modelId": "Arogya/koelectra-base-discriminator-finetuned-squad_kor_v1",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/vladimir-vysotsky",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/aaron-watson",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/grigory-leps",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "aman2304/distilbert-base-uncased-finetuned-sst2",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/og-buda",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "fnlp/bart-base-chinese",
-		"private": false
-	},
-	{
-		"modelId": "superb/superb-submission",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/scriptonite",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/kipelov",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/van-morrison",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingartists/egor-letov",
-		"private": false
-	},
-	{
-		"modelId": "retiol/filmvoirhd",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/jim-morrison",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/the-velvet-underground",
+		"modelId": "Brybzlee/Leez_pre",
 		"private": false
 	}
 ]
