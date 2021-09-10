@@ -75917,11 +75917,16 @@
 	},
 	{
 		"modelId": "akdeniz27/bert-base-turkish-cased-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "rajivratn/gupshup_h2e_mbart",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Riad/finetuned-bert-mrpc",
+		"private": false
 	}
 ]
