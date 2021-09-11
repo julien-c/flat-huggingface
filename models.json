@@ -26166,7 +26166,7 @@
 	{
 		"modelId": "anonsubms/msrp",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "anonymous-german-nlp/german-gpt2",
@@ -76065,6 +76065,26 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "megagonlabs/bimeanvae-amzn",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "megagonlabs/bimeanvae-yelp",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "megagonlabs/optimus-yelp",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "megagonlabs/optimus-amzn",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
 		"modelId": "huggingartists/the-the-pigs",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -76079,6 +76099,10 @@
 	},
 	{
 		"modelId": "tobiaslee/bert-2l-768h-uncased",
+		"private": false
+	},
+	{
+		"modelId": "anonsubms/lm_giga",
 		"private": false
 	}
 ]
