@@ -26166,7 +26166,7 @@
 	{
 		"modelId": "anonsubms/msrp",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "anonymous-german-nlp/german-gpt2",
@@ -75591,10 +75591,6 @@
 		"private": false
 	},
 	{
-		"modelId": "zhc/distilbert-base-uncased-finetuned-mrpc",
-		"private": false
-	},
-	{
 		"modelId": "zhe/sst2",
 		"private": false
 	},
@@ -76103,7 +76099,8 @@
 	},
 	{
 		"modelId": "anonsubms/lm_giga",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Bosio/full-sentence-distillroberta3-finetuned-wikitext2",
@@ -76118,5 +76115,15 @@
 		"modelId": "midas/gupshup_h2e_gpt",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "midas/gupshup_h2e_t5",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "zhc/distilbert-base-uncased-finetuned-mrpc-test",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
