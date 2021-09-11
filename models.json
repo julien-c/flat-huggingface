@@ -56130,11 +56130,13 @@
 	},
 	{
 		"modelId": "malay-huggingface/bert-large-bahasa-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "malay-huggingface/bert-tiny-bahasa-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "malay-huggingface/bigbird-base-abstractive-summarization-bahasa-cased",
@@ -76265,5 +76267,9 @@
 		"modelId": "pistachiocow/RoyTBenBot",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/21-savage",
+		"private": false
 	}
 ]
