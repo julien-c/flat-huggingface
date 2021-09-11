@@ -76245,7 +76245,8 @@
 	},
 	{
 		"modelId": "blizrys/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "blizrys/distilbert-base-uncased-finetuned-mnli",
@@ -76289,6 +76290,15 @@
 	},
 	{
 		"modelId": "huggingartists/arctic-monkeys",
+		"private": false
+	},
+	{
+		"modelId": "hama/Doctor_Bot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "huggingartists/ghostmane",
 		"private": false
 	}
 ]
