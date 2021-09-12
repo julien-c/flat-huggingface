@@ -27302,7 +27302,8 @@
 	},
 	{
 		"modelId": "avioo1/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "avneet/distilbert-base-uncased-finetuned-cola",
@@ -53448,10 +53449,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "junnyu/bert",
-		"private": false
-	},
-	{
 		"modelId": "junnyu/bert_chinese_mc_base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -72510,11 +72507,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "ttop324/kogpt_clone",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "ttumyche/bluebert",
 		"private": false
 	},
@@ -76352,6 +76344,14 @@
 	},
 	{
 		"modelId": "tarikul/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "pwnagepineapples/DialoGPT-small-deep-donger-2",
+		"private": false
+	},
+	{
+		"modelId": "ttop324/kogpt2_novel",
 		"private": false
 	}
 ]
