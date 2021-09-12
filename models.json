@@ -76542,6 +76542,16 @@
 	},
 	{
 		"modelId": "blizrys/biobert-v1.1-finetuned-pubmedqa",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "blizrys/biobert-v1.1-finetuned-pubmedqa-adapter",
 		"private": false
+	},
+	{
+		"modelId": "sarme/SingleReportQL",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
