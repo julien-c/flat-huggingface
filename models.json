@@ -73107,15 +73107,7 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-ko-sp-8k-small-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-koen-bbpe-40k-small-discriminator",
 		"private": false
 	},
 	{
@@ -76646,10 +76638,15 @@
 	},
 	{
 		"modelId": "eugenesiow/bart-paraphrase",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Hemang/DialoGPT-small-mickeymousebot",
+		"private": false
+	},
+	{
+		"modelId": "tyoyo/fidt5-base-ja-real-estate-qa",
 		"private": false
 	}
 ]
