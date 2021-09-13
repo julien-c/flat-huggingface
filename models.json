@@ -28582,10 +28582,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "blizrys/biobert-v1.1-finetuned-pubmedqa-adapter",
-		"private": false
-	},
-	{
 		"modelId": "blizrys/biobert-v1.1-finetuned-pubmedqa",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -76661,10 +76657,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Rajiv1/DialoGPT-small-harrypotter",
-		"private": false
-	},
-	{
 		"modelId": "JorgeSarry/est5base",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -76687,11 +76679,19 @@
 	},
 	{
 		"modelId": "TalTechNLP/voxlingua107-epaca-tdnn-ce",
-		"private": false,
-		"pipeline_tag": "audio-classification"
+		"private": false
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-ar-en-finetuned-13-9-ar-to-en",
+		"private": false
+	},
+	{
+		"modelId": "Spoon/DialoGPT-small-engineer",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "blizrys/biobert-v1.1-finetuned-pubmedqa-adapter",
 		"private": false
 	}
 ]
