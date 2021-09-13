@@ -1698,7 +1698,8 @@
 	},
 	{
 		"modelId": "Axcel/DialoGPT-small-rick",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Ayran/DialoGPT-small-gandalf",
@@ -21083,7 +21084,7 @@
 	{
 		"modelId": "Vilnius-Lithuania-iGEM/Albumin",
 		"private": false,
-		"pipeline_tag": "translation"
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Violeta/ArmBERTa",
@@ -68656,10 +68657,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sisi/my_tun_trained",
-		"private": false
-	},
-	{
 		"modelId": "sismetanin/mbart_large-financial_phrasebank",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -76775,10 +76772,16 @@
 	},
 	{
 		"modelId": "akdeniz27/convbert-base-turkish-cased-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sisi/my_tun_trained_2",
 		"private": false
 	},
 	{
 		"modelId": "ELiRF/NASCA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
