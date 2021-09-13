@@ -14081,6 +14081,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-13-9-ar-to-en",
+		"private": false
+	},
+	{
 		"modelId": "MaryaAI/opus-mt-en-ro-finetuned-en-to-ro",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -28137,6 +28141,11 @@
 		"modelId": "bertin-project/bertin-roberta-base-spanish",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-410b4823-9f5f-4bdd-a3ba-0797254b80f0",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "bespin-global/intent-recommender-90a3bacf-d379-422b-a32e-e05093e40699",
@@ -46665,6 +46674,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/lux_capital",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/lynnbee01",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -51936,6 +51950,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "indolem/indobertweet-base-uncased",
+		"private": false
+	},
+	{
 		"modelId": "indonesian-nlp/wav2vec2-large-xlsr-indonesian-baseline",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -56028,11 +56046,21 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "m-lin20/base",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "m-lin20/dummy-model",
 		"private": false
 	},
 	{
 		"modelId": "m-lin20/dummy1-model",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "m-lin20/try",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -68083,15 +68111,6 @@
 		"private": false
 	},
 	{
-		"modelId": "shashank2123/distilbert-base-cased-finetuned-punctuation-restoration",
-		"private": false
-	},
-	{
-		"modelId": "shashank2123/t5-base-fine-tuned-for-Punctuation-Restoration",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "shashank2123/t5-finetuned-for-GEC",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -70584,6 +70603,10 @@
 		"modelId": "stanleychu2/roberta-fever",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "stanleychu2/t5_user_simulator",
+		"private": false
 	},
 	{
 		"modelId": "stanlochten/t5-KGQgen",
@@ -76628,26 +76651,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "m-lin20/try",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "m-lin20/base",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "bespin-global/intent-recommender-410b4823-9f5f-4bdd-a3ba-0797254b80f0",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "stanleychu2/t5_user_simulator",
-		"private": false
-	},
-	{
-		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-13-9-ar-to-en",
+		"modelId": "eugenesiow/bart-paraphrase",
 		"private": false
 	}
 ]
