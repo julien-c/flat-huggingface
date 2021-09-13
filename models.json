@@ -76571,7 +76571,8 @@
 	},
 	{
 		"modelId": "Arogya/kobert-finetuned-squad_kor_v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "swordfish/Transformer_book-reader",
@@ -76590,5 +76591,14 @@
 		"modelId": "m-lin20/aa",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Vampiro/DialoGPT-small-dante_a",
+		"private": false
+	},
+	{
+		"modelId": "Aftabhussain/Tomato_Leaf_Classifier",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	}
 ]
