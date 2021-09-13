@@ -1251,19 +1251,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Amirosein/distilbert",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Amirosein/dummy-model",
-		"private": false
-	},
-	{
-		"modelId": "Amirosein/model_name",
-		"private": false
-	},
-	{
 		"modelId": "Amirosein/roberta",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -76708,11 +76695,8 @@
 	},
 	{
 		"modelId": "Vilnius-Lithuania-iGEM/Albumin",
-		"private": false
-	},
-	{
-		"modelId": "Vilnius-Lithuania-iGEM/tes",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "huggingface-course/codeparrot-test2",
@@ -76750,6 +76734,20 @@
 	},
 	{
 		"modelId": "clips/mfaq",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "sisi/my_tun_trained",
 		"private": false
+	},
+	{
+		"modelId": "Axcel/DialoGPT-small-rick",
+		"private": false
+	},
+	{
+		"modelId": "Amirosein/distilbert_v1",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
