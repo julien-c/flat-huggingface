@@ -76867,7 +76867,8 @@
 	},
 	{
 		"modelId": "fabriceyhc/bert-base-uncased-ag_news",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "tunib/electra-ko-sp-8k-small-v2-discriminator",
@@ -76904,5 +76905,14 @@
 		"modelId": "nateraw/resnet18-random-classifier",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "huggingtweets/jamescharles-loganpaul-tanamongeau",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "fabriceyhc/bert-base-uncased-imdb",
+		"private": false
 	}
 ]
