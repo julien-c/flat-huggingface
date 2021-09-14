@@ -74954,7 +74954,8 @@
 	},
 	{
 		"modelId": "flexudy/conceptor-t5-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "macedonizer/al-gpt2",
@@ -75038,10 +75039,15 @@
 	},
 	{
 		"modelId": "Kryptone/Burobot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "knkarthick/bart-large-xsum-samsum",
+		"private": false
+	},
+	{
+		"modelId": "huggingface/bert-base-cased-wikitext2",
 		"private": false
 	}
 ]
