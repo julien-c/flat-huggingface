@@ -1492,20 +1492,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Arogya/kobert-finetuned-squad_kor_v1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Arogya/koelectra-base-discriminator-finetuned-squad_kor_v1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Arogya/koelectra-base-v3-finetuned-korquad-finetuned-squad_kor_v1",
-		"private": false
-	},
-	{
 		"modelId": "ArseniyBolotin/bert-multi-PAD-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -16877,6 +16863,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Rainiefantasy/GO1984_DistilBERT",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Rainiefantasy/HuggingFace_Model",
 		"private": false
 	},
@@ -24144,11 +24135,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-ner-few-shot-128-examples-split-2",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "andi611/bert-large-uncased-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -25611,6 +25597,11 @@
 		"modelId": "ayameRushia/gpt2-small-indonesia-fine-tuning-poem",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ayameRushia/wav2vec2-large-xlsr-indo-base",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "ayameRushia/wav2vec2-large-xlsr-indonesia",
@@ -32123,6 +32114,11 @@
 	},
 	{
 		"modelId": "fabriceyhc/bert-base-uncased-ag_news",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "fabriceyhc/bert-base-uncased-dbpedia_14",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -38847,6 +38843,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/4by3animetits",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/4pfviolet",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -40887,6 +40888,11 @@
 	},
 	{
 		"modelId": "huggingtweets/corpse_husband",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/cosm1cgrandma-glitchre-glitchre8",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -47773,6 +47779,11 @@
 		"private": false
 	},
 	{
+		"modelId": "huggingtweets/shonenpatties",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/shovelship",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -52595,6 +52606,10 @@
 		"private": false
 	},
 	{
+		"modelId": "korca/roberta-base-meaning-match",
+		"private": false
+	},
+	{
 		"modelId": "kornosk/bert-election2020-twitter-stance-biden-KE-MLM",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -54233,6 +54248,11 @@
 	{
 		"modelId": "m-ali-awan/distilbert-base-uncased-finetuned-cola",
 		"private": false
+	},
+	{
+		"modelId": "m-lin20/satellite-instrument-bert",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "m-polignano-uniba/bert_uncased_L-12_H-768_A-12_italian_alb3rt0",
@@ -71364,6 +71384,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "tunib/electra-base-v1",
+		"private": false
+	},
+	{
 		"modelId": "tunib/electra-ko-sp-8k-small-v2-discriminator",
 		"private": false
 	},
@@ -74902,42 +74926,17 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "huggingtweets/shonenpatties",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/4by3animetits",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/cosm1cgrandma-glitchre-glitchre8",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "fabriceyhc/bert-base-uncased-dbpedia_14",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Rainiefantasy/GO1984_DistilBERT",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "ayameRushia/wav2vec2-large-xlsr-indo-base",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "m-lin20/satellite-instrument-bert",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "korca/roberta-base-meaning-match",
+		"modelId": "arogyaGurkha/koelectra-base-v3-finetuned-korquad-finetuned-squad_kor_v1",
 		"private": false
+	},
+	{
+		"modelId": "arogyaGurkha/kobert-finetuned-squad_kor_v1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "arogyaGurkha/koelectra-base-discriminator-finetuned-squad_kor_v1",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
