@@ -16864,7 +16864,8 @@
 	},
 	{
 		"modelId": "Rainiefantasy/GO1984_DistilBERT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Rainiefantasy/HuggingFace_Model",
@@ -74940,6 +74941,15 @@
 	},
 	{
 		"modelId": "riccardode/political_bias",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "fabriceyhc/bert-base-uncased-yahoo_answers_topics",
+		"private": false
+	},
+	{
+		"modelId": "Nilav/layoutlmv2-finetuned-funsd-test",
 		"private": false
 	}
 ]
