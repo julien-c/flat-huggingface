@@ -75043,6 +75043,20 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "razent/spbert-mlm-zero",
+		"private": false
+	},
+	{
+		"modelId": "razent/spbert-mlm-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "razent/spbert-mlm-wso-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "knkarthick/bart-large-xsum-samsum",
 		"private": false
 	},
@@ -75050,5 +75064,9 @@
 		"modelId": "huggingface/bert-base-cased-wikitext2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "retiol/repelisver",
+		"private": false
 	}
 ]
