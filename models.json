@@ -38700,10 +38700,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "huggingface-course/codeparrot-test2",
-		"private": false
-	},
-	{
 		"modelId": "huggingfans/Electra_small_index_epochs3_maxLen512_loss0.19",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75078,7 +75074,8 @@
 	},
 	{
 		"modelId": "Rainiefantasy/GO1984_BERTUncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "PELISPLUS-Sin-tiempo-para-morir-/Espanol-Latino",
@@ -75092,5 +75089,10 @@
 	{
 		"modelId": "PeppoCola/distilbert-base-uncased-finetuned-cola",
 		"private": false
+	},
+	{
+		"modelId": "huggingface-course/codeparrot-ds",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
