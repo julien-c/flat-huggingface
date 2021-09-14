@@ -13299,11 +13299,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Kryptone/Buro",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "Kryptone/monikAI-Unstable",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -75029,10 +75024,24 @@
 	},
 	{
 		"modelId": "huggingface/gpt2-wikitext2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Treasvon69/DialoGPT-small-ChiakiNanami",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "knkarthick/model_name",
+		"private": false
+	},
+	{
+		"modelId": "Kryptone/Burobot",
+		"private": false
+	},
+	{
+		"modelId": "knkarthick/bart-large-xsum-samsum",
 		"private": false
 	}
 ]
