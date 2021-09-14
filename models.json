@@ -54235,11 +54235,6 @@
 		"private": false
 	},
 	{
-		"modelId": "m-lin20/dummy1-model",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "m-polignano-uniba/bert_uncased_L-12_H-768_A-12_italian_alb3rt0",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -71369,31 +71364,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-ko-sp-8k-small-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "tunib/electra-ko-sp-8k-small-v2-discriminator",
 		"private": false
 	},
 	{
 		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-koen-bbpe-40k-small-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-koen-bbpe-40k-small-v2-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-koen-cbpe-40k-small-discriminator",
-		"private": false
-	},
-	{
-		"modelId": "tunib/electra-koen-sp-40k-small-discriminator",
 		"private": false
 	},
 	{
@@ -74943,7 +74918,8 @@
 	},
 	{
 		"modelId": "fabriceyhc/bert-base-uncased-dbpedia_14",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Rainiefantasy/GO1984_DistilBERT",
