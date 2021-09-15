@@ -56451,7 +56451,8 @@
 	},
 	{
 		"modelId": "mishig/GPT-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "mishig/my-awesome-model",
@@ -75331,5 +75332,10 @@
 	{
 		"modelId": "ziedsb19/tunbert_zied",
 		"private": false
+	},
+	{
+		"modelId": "huggingartists/mikhail-gorshenev",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
