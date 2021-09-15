@@ -75392,7 +75392,8 @@
 	},
 	{
 		"modelId": "abdouaziiz/soraberta",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Rocketknight1/t5-small-finetuned-xsum",
@@ -75413,13 +75414,12 @@
 		"private": false
 	},
 	{
-		"modelId": "chrommium/my-awesome-model2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "nntadotzip/test_5pcsquad_trained",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "KrispyIChris/DialoGPT-small-harrypotter",
+		"private": false
 	}
 ]
