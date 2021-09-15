@@ -75339,7 +75339,8 @@
 	},
 	{
 		"modelId": "dhairya2303/finetuned-bert-mrpc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingartists/gunna",
@@ -75415,12 +75416,21 @@
 		"private": false
 	},
 	{
+		"modelId": "dhairya2303/bert-base-uncased-emotion_holler",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Rocketknight1/opus-mt-en-ROMANCE-finetuned-en-to-ro",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus",
+		"private": false
+	},
+	{
+		"modelId": "Ryanar/Zeldachatbot",
 		"private": false
 	}
 ]
