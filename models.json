@@ -14153,6 +14153,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "MaryaAI/opus-mt-ar-en-finetuned-opus-wiki-15-9-ar-to-en",
+		"private": false
+	},
+	{
 		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-13-9-ar-to-en",
 		"private": false
 	},
@@ -26365,6 +26369,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "bespin-global/intent-recommender-3edc3d9a-d2ca-42cf-903b-1a55bfde5bd9",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "bespin-global/intent-recommender-410b4823-9f5f-4bdd-a3ba-0797254b80f0",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -29553,6 +29562,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "darthboii/DialoGPT-small-Rick",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "darubramha/hi-LyricsGPT2",
 		"private": false
 	},
@@ -31181,7 +31195,17 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "elyza/bbpmt5-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "elyza/bbpmt5-large",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "elyza/bbpmt5ja-base",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -56426,6 +56450,10 @@
 		"private": false
 	},
 	{
+		"modelId": "mishig/GPT-3",
+		"private": false
+	},
+	{
 		"modelId": "mishig/my-awesome-model",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -62768,6 +62796,10 @@
 		"modelId": "pspatel2/storygen",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "pttpau/DialoGPT-small-harrypotter",
+		"private": false
 	},
 	{
 		"modelId": "pucpr/bioBERTpt-squad-v1.1-portuguese",
@@ -75290,37 +75322,5 @@
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "mishig/GPT-3",
-		"private": false
-	},
-	{
-		"modelId": "elyza/bbpmt5ja-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "elyza/bbpmt5-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bespin-global/intent-recommender-3edc3d9a-d2ca-42cf-903b-1a55bfde5bd9",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "pttpau/DialoGPT-small-harrypotter",
-		"private": false
-	},
-	{
-		"modelId": "MaryaAI/opus-mt-ar-en-finetuned-opus-wiki-15-9-ar-to-en",
-		"private": false
-	},
-	{
-		"modelId": "darthboii/DialoGPT-small-Rick",
-		"private": false,
-		"pipeline_tag": "conversational"
 	}
 ]
