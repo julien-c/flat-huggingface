@@ -31173,26 +31173,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "elyza/bbpmt5ja-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "elyza/bbpmt5ja-large",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "elyza/mt5ja-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "elyza/mt5ja-large",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "emanuelscaglione/performerbert-base-uncased",
 		"private": false
 	},
@@ -75340,11 +75320,13 @@
 	},
 	{
 		"modelId": "ftshijt/ESPnet2_pretrained_model_ftshijt_thchs30_tts_train_raw_phn_pypinyin_g2p_phone_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "ftshijt/ESPnet2_pretrained_model_ftshijt_aishell3_tts_train_raw_phn_pypinyin_g2p_phone_train.loss.best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "TheManySaintsOfNewark/Ganzer-Film-The-Many-Saints-of-Newark-Stream-Deutsch-kostenlos",
@@ -75375,6 +75357,10 @@
 	},
 	{
 		"modelId": "kipiiler/RickBot-medium",
+		"private": false
+	},
+	{
+		"modelId": "TheLongSentance/t5_mimic_nt1_1m_tk200_r2p5_c15_sp1_3_nbn_chkpnt5000",
 		"private": false
 	}
 ]
