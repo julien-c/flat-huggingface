@@ -52816,10 +52816,6 @@
 		"private": false
 	},
 	{
-		"modelId": "korca/roberta-base-meaning-match",
-		"private": false
-	},
-	{
 		"modelId": "kornosk/bert-election2020-twitter-stance-biden-KE-MLM",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75252,5 +75248,13 @@
 		"modelId": "nateraw/resnet50-beans-sagemaker",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "korca/roberta-base-mm",
+		"private": false
+	},
+	{
+		"modelId": "korca/bert-base-mm",
+		"private": false
 	}
 ]
