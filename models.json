@@ -67147,10 +67147,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sisi/my_tun_trained_2",
-		"private": false
-	},
-	{
 		"modelId": "sismetanin/mbart_large-financial_phrasebank",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75287,7 +75283,8 @@
 	},
 	{
 		"modelId": "Naturealbe/DialoGPT-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "bigscience/tr3g-760M-v2-tensorboard",
@@ -75326,5 +75323,9 @@
 		"modelId": "knkarthick/bart-large-xsum-samsum",
 		"private": false,
 		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "tunib/electra-ko-wp-35k-base-v2",
+		"private": false
 	}
 ]
