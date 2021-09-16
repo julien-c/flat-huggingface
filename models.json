@@ -75421,10 +75421,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus",
-		"private": false
-	},
-	{
 		"modelId": "TheLongSentance/t5_mimic_nt1_1m_tk200_r2p5_c15_sp1_1_nbn_lr1e4c_chkpnt20000",
 		"private": false
 	},
@@ -75487,7 +75483,24 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus2",
+		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus",
+		"private": false
+	},
+	{
+		"modelId": "Ife/CA-ES",
+		"private": false
+	},
+	{
+		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-headlines_X",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "csalamea/roberta-base-bne-finetuned-amazon_reviews_multi",
+		"private": false
+	},
+	{
+		"modelId": "chrommium/bert-base-multilingual-cased-finetuned-headlines_X",
 		"private": false
 	}
 ]
