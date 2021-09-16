@@ -38446,7 +38446,8 @@
 	},
 	{
 		"modelId": "huggingartists/50-cent",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists/5nizza",
@@ -75740,10 +75741,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "knkarthick/test1",
-		"private": false
-	},
-	{
 		"modelId": "huggingartists/sia",
 		"private": false
 	},
@@ -75753,6 +75750,24 @@
 	},
 	{
 		"modelId": "gchhablani/fnet-base-finetuned-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Monsia/Camembert-tweet-classefication",
+		"private": false
+	},
+	{
+		"modelId": "akdeniz27/bert-base-hungarian-cased-ner",
+		"private": false
+	},
+	{
+		"modelId": "Rocketknight1/distilbert-base-uncased-finetuned-squad",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "knkarthick/test1",
 		"private": false
 	}
 ]
