@@ -3397,7 +3397,8 @@
 	},
 	{
 		"modelId": "Edaiplay/edaiplay-t5model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Edomonndo/opus-mt-en-ro-finetuned-en-to-ro",
@@ -26133,6 +26134,22 @@
 	},
 	{
 		"modelId": "bayartsogt/checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "bayartsogt/mlub-bert-base-uncased-tr5meaning",
+		"private": false
+	},
+	{
+		"modelId": "bayartsogt/mlub-bert-large-cased-tr5do30ep25s42",
+		"private": false
+	},
+	{
+		"modelId": "bayartsogt/mlub-bert-large-uncased-tr5do20ep25s42",
+		"private": false
+	},
+	{
+		"modelId": "bayartsogt/mlub-bert-large-uncased-tr5do30ep25",
 		"private": false
 	},
 	{
@@ -75693,7 +75710,8 @@
 	},
 	{
 		"modelId": "Rifky/IndoBERT-FakeNews",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Rocketknight1/bert-base-uncased-finetuned-swag",
@@ -75717,11 +75735,21 @@
 		"private": false
 	},
 	{
+		"modelId": "huggingartists/ddt",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gchhablani/fnet-base-finetuned-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "knkarthick/test1",
 		"private": false
 	},
 	{
-		"modelId": "huggingartists/ddt",
+		"modelId": "huggingartists/sia",
 		"private": false
 	}
 ]
