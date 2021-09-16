@@ -75688,12 +75688,7 @@
 	{
 		"modelId": "phantom-deluxe/dialoGPT-harry",
 		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "dexhrestha/NepDistilBERT",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "bigscience/tr4b-350M-tensorboard",
@@ -75706,7 +75701,8 @@
 	},
 	{
 		"modelId": "fjluque/roberta-base-bne-finetuned-amazon_reviews_multi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TheLongSentance/t5_mimic_final_chkpnt25000",
@@ -75718,6 +75714,18 @@
 	},
 	{
 		"modelId": "Rocketknight1/bert-base-uncased-finetuned-swag",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3m-1B3-pile-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "TheLongSentance/t5_mimic_final_chkpnt30000",
+		"private": false
+	},
+	{
+		"modelId": "dexhrestha/NepDistilBERT",
 		"private": false
 	}
 ]
