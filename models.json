@@ -30425,11 +30425,6 @@
 		"private": false
 	},
 	{
-		"modelId": "dhairya2303/bert-base-uncased-emotion_holler",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "dhairya2303/finetuned-bert-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75836,6 +75831,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "lewtun/superb-s3prl-superb-test-org__test-submission-with-weights-asr-ceaac01d",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "gchhablani/bert-base-cased-finetuned-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75846,6 +75846,37 @@
 	},
 	{
 		"modelId": "gchhablani/bert-base-cased-finetuned-wnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Rocketknight1/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "malay-huggingface/t5-small-spelling-correction-bahasa-cased",
 		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/t5-tiny-spelling-correction-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/t5-super-tiny-spelling-correction-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/t5-super-tiny-segmentation-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/t5-super-super-tiny-segmentation-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/fnet-base-finetuned-wnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
