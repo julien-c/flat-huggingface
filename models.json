@@ -75285,10 +75285,6 @@
 		"pipeline_tag": "summarization"
 	},
 	{
-		"modelId": "tunib/electra-ko-wp-35k-base-v2",
-		"private": false
-	},
-	{
 		"modelId": "knkarthick/meeting-summary-samsum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -75396,7 +75392,8 @@
 	},
 	{
 		"modelId": "KrispyIChris/DialoGPT-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "dhairya2303/bert-base-uncased-emotion_holler",
@@ -75485,10 +75482,6 @@
 		"private": false
 	},
 	{
-		"modelId": "tlkh/metaphor-t5-large",
-		"private": false
-	},
-	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75500,6 +75493,23 @@
 	},
 	{
 		"modelId": "Ife/CA-ES",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "arkothiwala/test-pegasus-finetuned-news",
+		"private": false
+	},
+	{
+		"modelId": "alvis/m2m",
+		"private": false
+	},
+	{
+		"modelId": "Jzz/FidicBERT",
+		"private": false
+	},
+	{
+		"modelId": "alvis/model_name",
 		"private": false
 	}
 ]
