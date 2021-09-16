@@ -75877,12 +75877,18 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gchhablani/fnet-base-finetuned-wnli",
+		"modelId": "mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gchhablani/bert-base-cased-finetuned-cola",
-		"private": false
+		"modelId": "huggingtweets/postgohst",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gchhablani/fnet-base-finetuned-wnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
