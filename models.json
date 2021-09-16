@@ -75646,15 +75646,21 @@
 		"private": false
 	},
 	{
-		"modelId": "knkarthick/test1",
-		"private": false
-	},
-	{
 		"modelId": "pp/bert-base-cased-emotion",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "TheLongSentance/t5_mimic_final_chkpnt15000",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/fnet-base-finetuned-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "knkarthick/test1",
 		"private": false
 	}
 ]
