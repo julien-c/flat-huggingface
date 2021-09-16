@@ -15606,7 +15606,7 @@
 	{
 		"modelId": "Naturealbe/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Naveen-k/KanBERTo",
@@ -67409,10 +67409,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sisi/my_tun_trained_2",
-		"private": false
-	},
-	{
 		"modelId": "sismetanin/mbart_large-financial_phrasebank",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -75787,7 +75783,8 @@
 	},
 	{
 		"modelId": "BenWitter/DialoGPT-small-Tyrion",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "CAUKiel/JavaBERT-uncased",
@@ -75796,6 +75793,19 @@
 	},
 	{
 		"modelId": "CAUKiel/JavaBERT",
+		"private": false
+	},
+	{
+		"modelId": "Rocketknight1/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Rashid11/DialoGPT-small-rick",
+		"private": false
+	},
+	{
+		"modelId": "Monsia/CamembertTweetClassefication",
 		"private": false
 	}
 ]
