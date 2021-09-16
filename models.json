@@ -12952,10 +12952,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Jzz/FIDIC_BERT",
-		"private": false
-	},
-	{
 		"modelId": "KAIHATSU/DialoGPT-small-rick",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -75506,7 +75502,8 @@
 	},
 	{
 		"modelId": "Jzz/FidicBERT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "alvis/model_name",
@@ -75519,6 +75516,7 @@
 	},
 	{
 		"modelId": "Ife/ES-PT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
