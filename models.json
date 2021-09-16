@@ -21116,7 +21116,8 @@
 	},
 	{
 		"modelId": "Vampiro/DialoGPT-small-dante_b",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Vamsi/T5_Paraphrase_Paws",
@@ -75518,5 +75519,14 @@
 		"modelId": "Ife/ES-PT",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-915b6cbc-bade-4310-bec6-6ee3bfc07da9",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Ife/PT-ES",
+		"private": false
 	}
 ]
