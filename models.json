@@ -75663,7 +75663,8 @@
 	},
 	{
 		"modelId": "gchhablani/fnet-base-finetuned-mrpc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-2",
@@ -75686,7 +75687,8 @@
 	},
 	{
 		"modelId": "phantom-deluxe/dialoGPT-harry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "dexhrestha/NepDistilBERT",
@@ -75700,6 +75702,22 @@
 	{
 		"modelId": "T-Systems-onsite/mt5-small-sum-de-en-v2",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "fjluque/roberta-base-bne-finetuned-amazon_reviews_multi",
+		"private": false
+	},
+	{
+		"modelId": "TheLongSentance/t5_mimic_final_chkpnt25000",
+		"private": false
+	},
+	{
+		"modelId": "Rifky/IndoBERT-FakeNews",
+		"private": false
+	},
+	{
+		"modelId": "Rocketknight1/bert-base-uncased-finetuned-swag",
+		"private": false
 	}
 ]
