@@ -75569,7 +75569,7 @@
 	{
 		"modelId": "tosin/dialogpt_mwoz",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "TheLongSentance/t5_mimic_final_chkpnt75000",
@@ -75577,8 +75577,7 @@
 	},
 	{
 		"modelId": "tlkh/t5-metaphor-large",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"private": false
 	},
 	{
 		"modelId": "Vitafeu/DialoGPT-medium-ricksanchez",
@@ -75601,7 +75600,8 @@
 	},
 	{
 		"modelId": "tyoyo/bbpmt5ja-base-real-estate-qa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "TheLongSentance/t5_mimic_final_chkpnt150000",
@@ -75664,5 +75664,24 @@
 	{
 		"modelId": "gchhablani/fnet-base-finetuned-mrpc",
 		"private": false
+	},
+	{
+		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-2",
+		"private": false
+	},
+	{
+		"modelId": "longcld/t5-small-e2e-qa-full",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-29ec8e94-3507-457a-b8d1-6cef3bc1e374",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-b9315a9f-5691-4fbd-87ee-4982773ccbae",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
