@@ -75580,16 +75580,13 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-base-ko-en",
-		"private": false
-	},
-	{
 		"modelId": "knkarthick/test1",
 		"private": false
 	},
 	{
 		"modelId": "Vitafeu/DialoGPT-medium-ricksanchez",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "raruidol/PlayerANchess",
@@ -75604,5 +75601,9 @@
 		"modelId": "raruidol/GameANchess",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "tyoyo/bbpmt5ja-base-real-estate-qa",
+		"private": false
 	}
 ]
