@@ -71203,18 +71203,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "tlkh/distilroberta-base-ag_news",
-		"private": false
-	},
-	{
-		"modelId": "tlkh/distilroberta-base-glue-cola",
-		"private": false
-	},
-	{
-		"modelId": "tlkh/distilroberta-base-yelp_polarity",
-		"private": false
-	},
-	{
 		"modelId": "tmck/test",
 		"private": false
 	},
@@ -75483,24 +75471,35 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus",
-		"private": false
-	},
-	{
-		"modelId": "Ife/CA-ES",
-		"private": false
-	},
-	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-headlines_X",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "csalamea/roberta-base-bne-finetuned-amazon_reviews_multi",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "transfaeries/Twilight-Sparkle-GPT",
 		"private": false
 	},
 	{
-		"modelId": "chrommium/bert-base-multilingual-cased-finetuned-headlines_X",
+		"modelId": "tlkh/metaphor-t5-large",
+		"private": false
+	},
+	{
+		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-sent_in_rus",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "longcld/t5-small-e2e-qa",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Ife/CA-ES",
 		"private": false
 	}
 ]
