@@ -35707,10 +35707,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "gogamza/kobart-base-v2",
-		"private": false
-	},
-	{
 		"modelId": "gogamza/kobart-summarization",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -76048,5 +76044,10 @@
 	{
 		"modelId": "uyeongjae/distilgpt2-finetuned-wikitext2",
 		"private": false
+	},
+	{
+		"modelId": "EthanChen0418/domain-cls-nine-classes",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
