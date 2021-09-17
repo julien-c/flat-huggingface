@@ -59312,11 +59312,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "muirkat/silm-text-gen",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "mujerry/bert-base-uncased-finetuned-QnA",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -76256,6 +76251,10 @@
 	},
 	{
 		"modelId": "avioo1/distilbert-base-cased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "muirkat/tolkien-mythopoeic-gen",
 		"private": false
 	}
 ]
