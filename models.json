@@ -30522,6 +30522,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "diiogo/wiki-roberta",
+		"private": false
+	},
+	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -75914,7 +75918,8 @@
 	},
 	{
 		"modelId": "gchhablani/bert-base-cased-finetuned-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Jikiwa/test-dynamic",
@@ -75931,6 +75936,40 @@
 	},
 	{
 		"modelId": "huggingtweets/naisu9k",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "diiogo/beberta",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "RuRI/Talkmodel01",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "katyakatsy/tronto_exist",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "linydub/bart-large-samsum",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "katyakatsy/tronto_debug_bertoverflow",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "katyakatsy/tronto_cvss_score",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/ihavesexhourly",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
