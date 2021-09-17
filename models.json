@@ -4859,7 +4859,8 @@
 	},
 	{
 		"modelId": "GiAk/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Giannis/distilbert-base-uncased-finetuned-ner",
@@ -75982,11 +75983,13 @@
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-4000-9-16_more_ingredient",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-6000-9-16_more_ingredient",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-8000-9-16_more_ingredient",
@@ -76007,10 +76010,6 @@
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-14000-9-16_more_ingredient",
-		"private": false
-	},
-	{
-		"modelId": "Celebis/DialoGPT-small-Phoenix",
 		"private": false
 	}
 ]
