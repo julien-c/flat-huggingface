@@ -75584,7 +75584,8 @@
 	},
 	{
 		"modelId": "tlkh/t5-metaphor-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Vitafeu/DialoGPT-medium-ricksanchez",
@@ -76003,7 +76004,8 @@
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-10000-9-16_more_ingredient",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-12000-9-16_more_ingredient",
@@ -76011,6 +76013,22 @@
 	},
 	{
 		"modelId": "Media1129/keyword-tag-model-14000-9-16_more_ingredient",
+		"private": false
+	},
+	{
+		"modelId": "tunib/electra-ko-small",
+		"private": false
+	},
+	{
+		"modelId": "tunib/electra-ko-base",
+		"private": false
+	},
+	{
+		"modelId": "tunib/electra-ko-en-small",
+		"private": false
+	},
+	{
+		"modelId": "tunib/electra-ko-en-base",
 		"private": false
 	}
 ]
