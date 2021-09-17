@@ -76169,10 +76169,16 @@
 	},
 	{
 		"modelId": "athar/1-model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "DaNLP/da-bert-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "DaNLP/da-xlmr-ned",
 		"private": false
 	}
 ]
