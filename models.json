@@ -76437,7 +76437,8 @@
 	},
 	{
 		"modelId": "Kaotu999/DialoGPT-small-TonyStark",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lvwerra/codeparrot-mistral-init",
@@ -76451,10 +76452,16 @@
 	},
 	{
 		"modelId": "lvwerra/codeparrot-vanilla",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "gsarti/t5-base-it-v3",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "manandey/gpt2-entity",
 		"private": false
 	}
 ]
