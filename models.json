@@ -76331,7 +76331,18 @@
 		"private": false
 	},
 	{
+		"modelId": "zhangsan/autonlp-imdbsentiment-10732268",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "clee7/layoutlm-finetune-sroie",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "huggingtweets/ai_hexcrawl-dril_gpt2-drilbot_neo",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
