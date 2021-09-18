@@ -4885,11 +4885,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "GiAk/distilbert-base-uncased-finetuned-cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Giannis/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
@@ -39003,7 +38998,8 @@
 	},
 	{
 		"modelId": "huggingartists/kanye-west",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists/kasta",
@@ -76519,5 +76515,9 @@
 		"modelId": "huggingtweets/spdustin",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gchhablani/fnet-base-finetuned-qqp",
+		"private": false
 	}
 ]
