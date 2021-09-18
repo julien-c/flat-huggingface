@@ -17116,7 +17116,7 @@
 	{
 		"modelId": "Rashid11/DialoGPT-small-rick",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Ratul/sci_ner",
@@ -76287,7 +76287,8 @@
 	},
 	{
 		"modelId": "Frederick0291/t5-small-finetuned-xsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "huggingartists/mating-ritual",
@@ -76414,6 +76415,10 @@
 	},
 	{
 		"modelId": "shuqi/seed-encoder",
+		"private": false
+	},
+	{
+		"modelId": "Kaotu999/DialoGPT-small-TonyStark",
 		"private": false
 	}
 ]
