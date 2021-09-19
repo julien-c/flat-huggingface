@@ -76566,11 +76566,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "gchhablani/bert-base-cased-finetuned-rte",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "tolgaand/tolgaand",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -76614,7 +76609,7 @@
 	{
 		"modelId": "PhilipTheGreat/DiabloGPT-small-Traveller",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "avioo1/roberta-base-squad2-finetuned-squad",
@@ -76627,5 +76622,10 @@
 	{
 		"modelId": "lagodw/redditbot_gpt2_v2",
 		"private": false
+	},
+	{
+		"modelId": "gchhablani/bert-base-cased-finetuned-rte",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
