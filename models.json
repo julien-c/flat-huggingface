@@ -1525,7 +1525,8 @@
 	},
 	{
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-2",
@@ -76671,5 +76672,14 @@
 		"modelId": "sivavee-train/iac-v1",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ashwinchandran13/DialoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "nntadotzip/xlnet-base-cased-XLNetQuestionAnsweringSimple-SQuAD-10percent-v1",
+		"private": false
 	}
 ]
