@@ -73773,7 +73773,8 @@
 	},
 	{
 		"modelId": "vitvit/xlm-roberta-base-finetuned-heb_HebrewSentiment",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "vitvit/xlm-roberta-base-finetuned-ner",
@@ -76580,17 +76581,9 @@
 		"private": false
 	},
 	{
-		"modelId": "nntadotzip/xlnet-base-cased-XLNetQASimple-10percentSQuAD",
-		"private": false
-	},
-	{
 		"modelId": "huggingartists/coldplay",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "nntadotzip/xlnet-base-cased-XLNetQuestionAnsweringSimple-SQuAD-10percentage",
-		"private": false
 	},
 	{
 		"modelId": "ericchchiu/dummy-model",
@@ -76630,25 +76623,38 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "minsiam/DialoGPT-small-harrypotter",
-		"private": false
-	},
-	{
 		"modelId": "thinhda/chatbot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "eclare/DialoGPT-small-SCHAEFER",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Istiaque190515/harry_bot_discord",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "zinary/DialoGPT-small-rick_v2",
+		"private": false
+	},
+	{
+		"modelId": "Soundside/Road_trip",
+		"private": false
+	},
+	{
+		"modelId": "Soundside/Road",
+		"private": false
+	},
+	{
+		"modelId": "minsiam/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "sivavee-train/iac",
 		"private": false
 	}
 ]
