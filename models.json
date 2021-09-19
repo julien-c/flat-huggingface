@@ -37681,11 +37681,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "henryu-lin/bart-large-cnn-samsum",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
 		"modelId": "henryu-lin/bart-large-samsum",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -76558,7 +76553,8 @@
 	},
 	{
 		"modelId": "Treasvon69/DialoGPT-medium-ChiakiNanami",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Canadiancaleb/jessebot",
@@ -76566,6 +76562,16 @@
 	},
 	{
 		"modelId": "Canadiancaleb/DialoGPT-small-jesse",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "jeanlks/DialogGPT-small-pato",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "nntadotzip/XLNetQASimple-10pcSQuAD",
 		"private": false
 	}
 ]
