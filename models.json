@@ -76346,7 +76346,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Bagus/wav2vec2-xlsr-greek-speech-emotion-recognition",
@@ -76876,6 +76877,18 @@
 	},
 	{
 		"modelId": "flank/aquasmall",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/mirror-bert-base-uncased-sentence-drophead",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/mirror-roberta-base-sentence-drophead",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/mirror-roberta-base-sentence",
 		"private": false
 	}
 ]
