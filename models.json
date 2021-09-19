@@ -73768,10 +73768,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "vitvit/XLMR_FineTuned_Eng_NER",
-		"private": false
-	},
-	{
 		"modelId": "vitvit/alephbert-base-finetuned-heb_HebrewSentiment",
 		"private": false
 	},
@@ -76630,7 +76626,8 @@
 	},
 	{
 		"modelId": "gchhablani/bert-base-cased-finetuned-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "minsiam/DialoGPT-small-harrypotter",
@@ -76638,10 +76635,15 @@
 	},
 	{
 		"modelId": "thinhda/chatbot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "eclare/DialoGPT-small-SCHAEFER",
+		"private": false
+	},
+	{
+		"modelId": "zinary/DialoGPT-small-rick",
 		"private": false
 	}
 ]
