@@ -76755,7 +76755,7 @@
 	{
 		"modelId": "Duugu/alexia-bot-test",
 		"private": false,
-		"pipeline_tag": "conversational"
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "vitvit/alephbert-base-finetuned-ner",
@@ -76782,5 +76782,14 @@
 	{
 		"modelId": "Naturealbe/DialoGPT-small-tonystark",
 		"private": false
+	},
+	{
+		"modelId": "Daiki/scibert_scivocab_uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/bert-base-cased-finetuned-stsb",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
