@@ -76447,12 +76447,9 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "jasper/DialoGPT-large-homersimpson",
-		"private": false
-	},
-	{
 		"modelId": "GiAk/distilbert-base-uncased-finetuned-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Mulin/my_wolf_model",
@@ -76793,11 +76790,28 @@
 		"private": false
 	},
 	{
-		"modelId": "jogonba2/POCTS",
+		"modelId": "ridwanpratama/DialoGPT-small-misaki",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "jasper/DialoGPT-large-homersimpson",
 		"private": false
 	},
 	{
-		"modelId": "ridwanpratama/DialoGPT-small-misaki",
+		"modelId": "nntadotzip/xlnet-base-cased-XLNetQuestionAnsweringSimple-SQuAD-20percent",
+		"private": false
+	},
+	{
+		"modelId": "ZunaHexus/DialoGPT-small-joshua",
+		"private": false
+	},
+	{
+		"modelId": "ridwanpratama/DialoGPT-misaki",
+		"private": false
+	},
+	{
+		"modelId": "FreakyNobleGas/DialoGPT-medium-HarryPotter",
 		"private": false
 	}
 ]
