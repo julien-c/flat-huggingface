@@ -76426,11 +76426,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "GiAk/distilbert-base-uncased-finetuned-mnli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Mulin/my_wolf_model",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -77507,7 +77502,8 @@
 	},
 	{
 		"modelId": "dominiqueblok/roberta-base-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "huggingartists/jah-khalib",
@@ -77538,6 +77534,15 @@
 	},
 	{
 		"modelId": "formermagic/codet5-small",
+		"private": false
+	},
+	{
+		"modelId": "Rocketknight1/distilgpt2-finetuned-wikitext2",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sanyu/anada",
 		"private": false
 	}
 ]
