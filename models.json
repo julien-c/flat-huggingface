@@ -31593,11 +31593,6 @@
 		"private": false
 	},
 	{
-		"modelId": "emil2000/dialogpt-for-french-language",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "emilyalsentzer/Bio_ClinicalBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -76863,14 +76858,6 @@
 		"private": false
 	},
 	{
-		"modelId": "flank/DialoGPT-small-Aqua",
-		"private": false
-	},
-	{
-		"modelId": "flank/aquasmall",
-		"private": false
-	},
-	{
 		"modelId": "cambridgeltl/mirror-bert-base-uncased-sentence-drophead",
 		"private": false
 	},
@@ -77484,7 +77471,8 @@
 	},
 	{
 		"modelId": "Aruden/DialoGPT-medium-harry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "huggingartists/zemfira",
@@ -77507,5 +77495,13 @@
 		"modelId": "huggingartists/machine-gun-kelly",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "emil2000/dialogpt-for-french-language",
+		"private": false
+	},
+	{
+		"modelId": "matthias-wright/stylegan2",
+		"private": false
 	}
 ]
