@@ -77591,7 +77591,7 @@
 	{
 		"modelId": "jogonba2/POCTS-Spanish",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "Cheatham/xlm-roberta-large-finetunedEUJAV",
@@ -77599,6 +77599,16 @@
 	},
 	{
 		"modelId": "Cheatham/xlm-roberta-large-finetuned",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "declerck/model_name",
 		"private": false
+	},
+	{
+		"modelId": "JorgeSarry/est5summarize",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
