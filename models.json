@@ -76916,7 +76916,8 @@
 	},
 	{
 		"modelId": "GiAk/distilbert-base-uncased-finetuned-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Jacobo/grc-roberta-base",
@@ -77449,6 +77450,10 @@
 	},
 	{
 		"modelId": "avioo1/electra-base-squad2-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "satyaalmasian/temporal_tagger_roberta2roberta",
 		"private": false
 	}
 ]
