@@ -77405,6 +77405,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "bvanaken/clinical-assertion-negation-bert",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "dusaaaa/DialoGPT-small-rm",
 		"private": false
 	},
@@ -77415,7 +77420,8 @@
 	},
 	{
 		"modelId": "Corvus/DialoGPT-medium-CaptainPrice",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Frederick0291/t5-small-finetuned-xsum-finetuned-billsum",
@@ -77431,6 +77437,10 @@
 	},
 	{
 		"modelId": "gniemiec/t5-small-finetuned-xsum",
+		"private": false
+	},
+	{
+		"modelId": "Kiinitix/Butler-chatbot",
 		"private": false
 	}
 ]
