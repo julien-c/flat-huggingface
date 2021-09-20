@@ -77555,7 +77555,8 @@
 	},
 	{
 		"modelId": "lighteternal/stsb-xlm-r-greek-transfer",
-		"private": false
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "princeton-nlp/densephrases-multi-query-nq",
@@ -77600,6 +77601,11 @@
 	},
 	{
 		"modelId": "piyushdubey/DialoGPT-Mi",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "GiAk/roberta-base-bne-finetuned-sst2",
 		"private": false
 	}
 ]
