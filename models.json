@@ -77438,7 +77438,8 @@
 	},
 	{
 		"modelId": "gniemiec/t5-small-finetuned-xsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Kiinitix/Butler-chatbot",
@@ -77468,6 +77469,15 @@
 	},
 	{
 		"modelId": "satyaalmasian/temporal_tagger_BERT_tokenclassifier",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "satyaalmasian/temporal_tagger_BERTCRF_tokenclassifier",
+		"private": false
+	},
+	{
+		"modelId": "satyaalmasian/temporal_tagger_DATEBERT_tokenclassifier",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	}
