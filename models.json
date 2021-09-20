@@ -77519,10 +77519,25 @@
 	},
 	{
 		"modelId": "deval/bert-base-NER-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Rei/DialoGPT-medium-kurisu",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "jeanlks/DialogGPT-small-gayvid",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "formermagic/codet5-large",
+		"private": false
+	},
+	{
+		"modelId": "formermagic/codet5-small",
 		"private": false
 	}
 ]
