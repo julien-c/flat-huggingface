@@ -77917,7 +77917,8 @@
 	},
 	{
 		"modelId": "lighteternal/nli-xlm-r-greek",
-		"private": false
+		"private": false,
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "mengsay/t5-small-t5small-gigaword",
@@ -77941,5 +77942,10 @@
 	{
 		"modelId": "Ye/albert_finetuned_ye",
 		"private": false
+	},
+	{
+		"modelId": "Frederick0291/931N",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
