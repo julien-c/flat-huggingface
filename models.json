@@ -76317,11 +76317,6 @@
 		"private": false
 	},
 	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "Bagus/wav2vec2-xlsr-greek-speech-emotion-recognition",
 		"private": false
 	},
@@ -77950,7 +77945,8 @@
 	},
 	{
 		"modelId": "deval/bert-base-uncased-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "huggingtweets/hurricanenita",
@@ -77961,5 +77957,9 @@
 		"modelId": "huggingtweets/sarahksilverman",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "bigscience/tr6b-350M-prefix-lm-tensorboard",
+		"private": false
 	}
 ]
