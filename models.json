@@ -62214,7 +62214,8 @@
 	},
 	{
 		"modelId": "pere/flax-bart-nb-nn",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "pere/nb-nn-dev",
@@ -77785,10 +77786,15 @@
 	},
 	{
 		"modelId": "gniemiec/mt5-small-finetuned-xsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "bewarren/model_name",
+		"private": false
+	},
+	{
+		"modelId": "cmcmaster/deberta-finetuned-austin",
 		"private": false
 	}
 ]
