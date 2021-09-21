@@ -22122,24 +22122,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "aapot/albert-large-v2-finnish",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "aapot/convbert-base-finnish",
-		"private": false
-	},
-	{
-		"modelId": "aapot/deberta-v2-large-finnish",
-		"private": false
-	},
-	{
-		"modelId": "aapot/roberta-large-finnish",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "aapot/wav2vec2-large-xlsr-53-finnish",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -77960,6 +77942,54 @@
 	},
 	{
 		"modelId": "bigscience/tr6b-350M-prefix-lm-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat",
+		"private": false
+	},
+	{
+		"modelId": "taoroalin/classifier-18aug-train",
+		"private": false
+	},
+	{
+		"modelId": "MCUxDaredevil/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/boss_lady_fenja-ladyfenja_promo",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "redwoodresearch/classifier-18aug-train",
+		"private": false
+	},
+	{
+		"modelId": "Finnish-NLP/convbert-base-finnish",
+		"private": false
+	},
+	{
+		"modelId": "Finnish-NLP/deberta-v2-large-finnish",
+		"private": false
+	},
+	{
+		"modelId": "Finnish-NLP/albert-large-v2-finnish",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "hrc/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "Finnish-NLP/roberta-large-finnish",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "elyza/bbpmt5ja-base-real-estate-qa",
 		"private": false
 	}
 ]
