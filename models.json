@@ -31299,7 +31299,8 @@
 	},
 	{
 		"modelId": "ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "ehddnr301/bert-base-ehddnr-ynat",
@@ -78011,6 +78012,10 @@
 	},
 	{
 		"modelId": "redwoodresearch/classifier-DUMMY",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr1-13B-data",
 		"private": false
 	}
 ]
