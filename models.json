@@ -77440,11 +77440,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "Aruden/DialoGPT-medium-harry",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "huggingartists/zemfira",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -77776,7 +77771,8 @@
 	},
 	{
 		"modelId": "Frederick0291/t5-small-finetuned-billsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Awsaf/DialoGPT-medium-eren",
@@ -77785,6 +77781,10 @@
 	},
 	{
 		"modelId": "kumaran/textsummarizer",
+		"private": false
+	},
+	{
+		"modelId": "gniemiec/mt5-small-finetuned-xsum",
 		"private": false
 	}
 ]
