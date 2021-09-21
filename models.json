@@ -60284,6 +60284,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "nguyenvulebinh/vietnames-dialect-speech-detection",
+		"private": false
+	},
+	{
 		"modelId": "nguyenvulebinh/wav2vec2-base-vietnamese-250h",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -77685,7 +77689,8 @@
 	},
 	{
 		"modelId": "mengsay/t5-small-finetuned-gigaword",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "victorescosta/distilbert-base-uncased-finetuned-squad",
