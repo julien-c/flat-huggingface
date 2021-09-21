@@ -26788,10 +26788,6 @@
 		"private": false
 	},
 	{
-		"modelId": "bigscience/tr1-13B-checkpoints",
-		"private": false
-	},
-	{
 		"modelId": "bigscience/tr1-13B-codecarbon",
 		"private": false
 	},
@@ -77483,7 +77479,8 @@
 	},
 	{
 		"modelId": "formermagic/codet5-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Rocketknight1/distilgpt2-finetuned-wikitext2",
@@ -78026,7 +78023,8 @@
 	},
 	{
 		"modelId": "meowzila/DialoGPT-small-DeepDogeBot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "redwoodresearch/classifier_DUMMY_2",
