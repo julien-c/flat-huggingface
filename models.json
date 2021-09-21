@@ -77925,7 +77925,8 @@
 	},
 	{
 		"modelId": "IMSyPP/hate_speech_targets_slo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Awsaf/large-eren",
@@ -77934,6 +77935,11 @@
 	},
 	{
 		"modelId": "banden/DialoGPT-medium-RickBot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Ye/albert_finetuned_ye",
 		"private": false
 	}
 ]
