@@ -21307,10 +21307,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Uri/scrolls-tokenizer",
-		"private": false
-	},
-	{
 		"modelId": "Username1/Mourinhio-medium",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -77818,7 +77814,8 @@
 	},
 	{
 		"modelId": "InfoCoV/Cro-CoV-cseBERT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "devparikh142003/DialoGPT-small-harrypotter",
@@ -77853,10 +77850,45 @@
 	},
 	{
 		"modelId": "worms3401/DialoGPT-small-Eleonora",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ThePixOne/retBERT",
+		"private": false
+	},
+	{
+		"modelId": "mengsay/bart-base-finetuned-gigaword",
+		"private": false
+	},
+	{
+		"modelId": "Maelstrom77/bert-base-uncased-snli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "mengsay/bart-base-bart-base-gigaword",
+		"private": false
+	},
+	{
+		"modelId": "tau/scrolls-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "Jongwon/t5-base-it",
+		"private": false
+	},
+	{
+		"modelId": "Jongwon/t5-tiny-it",
+		"private": false
+	},
+	{
+		"modelId": "Maelstrom77/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Maelstrom77/roberta-large-mnli",
 		"private": false
 	}
 ]
