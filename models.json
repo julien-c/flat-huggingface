@@ -30579,11 +30579,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "dexhrestha/NepDistilBERT",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "dextter/dex-model",
 		"private": false
 	},
@@ -78119,5 +78114,10 @@
 	{
 		"modelId": "Bagus/wav2vec2-xlsr-japanese-speech-emotion-recognition",
 		"private": false
+	},
+	{
+		"modelId": "dexhrestha/nep-distillbert-sentiment",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
