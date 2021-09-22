@@ -65829,11 +65829,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "scales-okn/dev-docket-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "scaperex/online-harassment-bert",
 		"private": false
 	},
@@ -78201,7 +78196,8 @@
 	},
 	{
 		"modelId": "digit82/kogpt2-summarization",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Gouzi/distilgpt2-finetuned-wikitext2",
