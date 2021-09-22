@@ -77743,7 +77743,8 @@
 	},
 	{
 		"modelId": "cmcmaster/deberta-finetuned-austin",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "jogonba2/POCTS-2",
@@ -78131,5 +78132,10 @@
 	{
 		"modelId": "wisdomify/wisdomify",
 		"private": false
+	},
+	{
+		"modelId": "gchhablani/bert-large-cased-finetuned-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
