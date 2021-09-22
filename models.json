@@ -56511,11 +56511,13 @@
 	},
 	{
 		"modelId": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "microsoft/CodeGPT-small-java-adaptedGPT2",
@@ -78044,11 +78046,25 @@
 		"private": false
 	},
 	{
+		"modelId": "Dandara/bertimbau-socioambiental",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "AJ/DialoGPT-small-ricksanchez",
+		"private": false
+	},
+	{
+		"modelId": "zyl1024/bert-base-cased-finetuned-qqp",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Zeus/DialoGPT-small-root",
 		"private": false
 	},
 	{
-		"modelId": "flank/aquabotfinal",
+		"modelId": "TuhinColumbia/multiopus",
 		"private": false
 	}
 ]
