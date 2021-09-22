@@ -13043,6 +13043,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Jikiwa/testing",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Jikiwa/text-files-2",
 		"private": false
 	},
@@ -49054,6 +49059,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/rishiosaur",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/ritaradostitz",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -69700,6 +69710,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "small/DialoGPT-small-meat",
+		"private": false
+	},
+	{
 		"modelId": "smanjil/German-MedBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -77756,17 +77770,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "huggingtweets/rishiosaur",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "small/DialoGPT-small-meat",
+		"modelId": "anton-l/gpt-j-tiny-random",
 		"private": false
 	},
 	{
-		"modelId": "Jikiwa/testing",
-		"private": false,
-		"pipeline_tag": "text-classification"
+		"modelId": "adityavithaldas/distilbert-base-uncased-finetuned-ner",
+		"private": false
 	}
 ]
