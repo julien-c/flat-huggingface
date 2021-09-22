@@ -26324,6 +26324,11 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rs-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -29213,11 +29218,6 @@
 	},
 	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-headlines_X",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-key_sents_x",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
