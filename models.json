@@ -39383,11 +39383,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "huggingface-course/codeparrot-ds",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "huggingfans/Electra_small_index_epochs3_maxLen512_loss0.19",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -78152,5 +78147,14 @@
 		"modelId": "gchhablani/bert-large-cased-finetuned-wnli",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "gchhablani/fnet-large-finetuned-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huggingface-course/codeparrot-ds",
+		"private": false
 	}
 ]
