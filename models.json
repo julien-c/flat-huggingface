@@ -76285,7 +76285,8 @@
 	},
 	{
 		"modelId": "Bagus/wav2vec2-xlsr-greek-speech-emotion-recognition",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "Chakita/KROBERT",
@@ -78043,7 +78044,8 @@
 	},
 	{
 		"modelId": "GamerMan02/DialoGPT-medium-gamerbot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Dandara/bertimbau-socioambiental",
@@ -78066,5 +78068,19 @@
 	{
 		"modelId": "TuhinColumbia/multiopus",
 		"private": false
+	},
+	{
+		"modelId": "mutamuta/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "nbroad/RAG_harry_potter",
+		"private": false
+	},
+	{
+		"modelId": "jinbbong/kobert-esg-e3-v2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
