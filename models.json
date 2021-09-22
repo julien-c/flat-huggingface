@@ -29603,11 +29603,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "cmcmaster/deberta-finetuned-austin",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "cmqzg/first",
 		"private": false
 	},
@@ -77800,10 +77795,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-key_sents_x",
-		"private": false
-	},
-	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-key_sents",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -77814,7 +77805,8 @@
 	},
 	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-key_sents_3l",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "espnet/Dan_Berrebbi_aishell4_asr",
