@@ -31490,11 +31490,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "eliza-dukim/bert-base-finetuned-sts",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "eliza-dukim/bert-base-finetuned-ynat",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -78152,19 +78147,7 @@
 		"private": false
 	},
 	{
-		"modelId": "eliza-dukim/bert-base-finetuned-sts-new",
-		"private": false
-	},
-	{
 		"modelId": "erdody/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "eliza-dukim/bert-base-finetuned-sts-new2",
-		"private": false
-	},
-	{
-		"modelId": "eliza-dukim/bert-base-finetuned-sts-new3",
 		"private": false
 	},
 	{
@@ -78175,5 +78158,10 @@
 	{
 		"modelId": "pucpr/tempclin-biobertpt-all",
 		"private": false
+	},
+	{
+		"modelId": "eliza-dukim/bert-base-finetuned-sts-deprecated",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
