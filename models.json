@@ -78607,7 +78607,8 @@
 	},
 	{
 		"modelId": "gerulata/slovakbert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "google/multiberts-seed-4-140k",
@@ -78691,6 +78692,10 @@
 	},
 	{
 		"modelId": "google/multiberts-seed-4-1900k",
+		"private": false
+	},
+	{
+		"modelId": "BrunoNogueira/kung_fu_panda",
 		"private": false
 	}
 ]
