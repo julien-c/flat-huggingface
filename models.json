@@ -78064,11 +78064,34 @@
 		"private": false
 	},
 	{
-		"modelId": "saattrupdan/nbailab-base-scandi-ner-dane",
+		"modelId": "zgotter/bert-base-finetuned-ynat",
 		"private": false
 	},
 	{
-		"modelId": "zgotter/bert-base-finetuned-ynat",
+		"modelId": "jinbbong/kobert-esg-e3-v3",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "rishi03/t5data-epoc7",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-scandi-ner-dane-norne-nb",
 		"private": false
+	},
+	{
+		"modelId": "tunib/electra-koen-sp-40k",
+		"private": false
+	},
+	{
+		"modelId": "wicharnkeisei/xlm-roberta-large-squad2-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-ner-da",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
