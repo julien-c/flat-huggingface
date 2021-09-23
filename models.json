@@ -66545,7 +66545,8 @@
 	},
 	{
 		"modelId": "saattrupdan/nbailab-base-scandi-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "sabhi/t5-base-qa-qg",
@@ -78051,6 +78052,19 @@
 	},
 	{
 		"modelId": "hiiamsid/sentence_similarity_spanish_es",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "google/multiberts-seed-22",
+		"private": false
+	},
+	{
+		"modelId": "google/multiberts-seed-23",
+		"private": false
+	},
+	{
+		"modelId": "google/multiberts-seed-24",
 		"private": false
 	}
 ]
