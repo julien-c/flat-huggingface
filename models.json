@@ -78833,11 +78833,22 @@
 	},
 	{
 		"modelId": "sgugger/test-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "aditeyabaral/bert-hinglish-small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingtweets/60secondrevit",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "sgugger/test-bert-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
