@@ -36345,11 +36345,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gchhablani/fnet-large-finetuned-cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "gchhablani/fnet-large-finetuned-mrpc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -77888,10 +77883,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gchhablani/bert-large-cased-finetuned-stsb",
-		"private": false
-	},
-	{
 		"modelId": "rishi03/t5k2t-epoc50",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -77905,5 +77896,9 @@
 		"modelId": "carloronsi/test_qna_ita",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "gchhablani/fnet-large-finetuned-cola",
+		"private": false
 	}
 ]
