@@ -78091,17 +78091,13 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "saattrupdan/nbailab-base-ner-da-nb",
-		"private": false
-	},
-	{
 		"modelId": "wicharnkeisei/wangchanberta-base-wiki-20210520-spm-finetune-qa-finetuned-squad",
 		"private": false
 	},
 	{
 		"modelId": "banden/DialoGPT-small-LokiBot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "wicharnkeisei/xlm-roberta-base-squad2-finetuned-squad",
@@ -78117,6 +78113,10 @@
 	},
 	{
 		"modelId": "TrOCR/trocr_handwritten_base_iam",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-ner-scandi-balanced",
 		"private": false
 	}
 ]
