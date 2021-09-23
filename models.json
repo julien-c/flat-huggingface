@@ -36221,11 +36221,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "gchhablani/bert-large-cased-finetuned-wnli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "gchhablani/fnet-base-finetuned-cola",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -57655,7 +57650,8 @@
 	},
 	{
 		"modelId": "mengsay/t5-small-t5small-gigaword",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "meowzila/DialoGPT-medium-DeepJakeBot",
@@ -77865,6 +77861,20 @@
 	},
 	{
 		"modelId": "rishi03/k1t-test",
+		"private": false
+	},
+	{
+		"modelId": "BigSalmon/GoodMaskResults",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "gchhablani/bert-large-cased-finetuned-wnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Orodrethxvx/DialoGPT-small-harrybotter",
 		"private": false
 	}
 ]
