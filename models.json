@@ -37706,11 +37706,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "gsarti/t5-base-it-v3",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "gsarti/t5-base-it",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -77899,6 +77894,12 @@
 	},
 	{
 		"modelId": "gchhablani/fnet-large-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "gsarti/it5-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
