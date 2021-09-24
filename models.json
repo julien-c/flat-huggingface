@@ -31707,7 +31707,8 @@
 	},
 	{
 		"modelId": "diiogo/roberta-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
@@ -63460,6 +63461,11 @@
 		"modelId": "olastor/mcn-en-smm4h",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "olirods/zuri",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "oliverguhr/german-sentiment-bert",
