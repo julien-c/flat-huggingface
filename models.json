@@ -78978,7 +78978,8 @@
 	},
 	{
 		"modelId": "amine/dziribert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Adi2K/Priv-Consent",
@@ -78995,10 +78996,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "ThomasSimonini/t5-end2end-question-generation",
-		"private": false
-	},
-	{
 		"modelId": "lagodw/redditbot_gpt2_short",
 		"private": false
 	},
@@ -79006,5 +79003,17 @@
 		"modelId": "huggingtweets/elonmusk-lynaldencontact-naval",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "anowakowski/poleval2021-qe-nonblind",
+		"private": false
+	},
+	{
+		"modelId": "gsh/headline-summ-chinese",
+		"private": false
+	},
+	{
+		"modelId": "mishig/tiny-detr-mobilenetsv3-panoptic",
+		"private": false
 	}
 ]
