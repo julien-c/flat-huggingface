@@ -21312,6 +21312,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "ThomasSimonini/t5-end-to-end-question-generation",
+		"private": false
+	},
+	{
 		"modelId": "ThoracicCosine/DialoGPT-small-harrypotter",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -27640,6 +27644,10 @@
 		"private": false
 	},
 	{
+		"modelId": "bigscience/tr6c-350M-prefix-lm-reset-attention-mask-tensorboard",
+		"private": false
+	},
+	{
 		"modelId": "bigscience/tr7b-350M-alibi-tensorboard",
 		"private": false
 	},
@@ -27853,6 +27861,10 @@
 		"modelId": "blanchefort/rubert-base-cased-sentiment",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "blee/distilbert-base-uncased-finetuned-squad",
+		"private": false
 	},
 	{
 		"modelId": "blinjrm/finsent",
@@ -29223,6 +29235,10 @@
 		"modelId": "chellver24/DialoGPT-small-chizuru_ichinose2",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "chenhl0810/bert-qa-squad-test",
+		"private": false
 	},
 	{
 		"modelId": "chenhl0810/norwegian-t5-base",
@@ -57950,6 +57966,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "maniacGhost24/MichaelScott-bot-push-small",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "manishiitg/bart-recruit-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -58982,6 +59003,10 @@
 		"modelId": "microsoft/prophetnet-large-uncased",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "microsoft/trocr-base-handwritten",
+		"private": false
 	},
 	{
 		"modelId": "microsoft/unihanlm-base",
@@ -65499,6 +65524,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "pranaydeeps/Ancient-Greek-BERT",
+		"private": false
+	},
+	{
 		"modelId": "prao/distilbert-base-uncased-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -66992,6 +67021,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "rifkat/uztext_568Mb_Roberta_BPE",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "rigo-ramos/biobert",
 		"private": false
 	},
@@ -67044,6 +67078,10 @@
 	},
 	{
 		"modelId": "rishi312/DialoGPT-small-HarryPotter",
+		"private": false
+	},
+	{
+		"modelId": "rishib/layoutlmv2-invoice",
 		"private": false
 	},
 	{
@@ -67341,6 +67379,14 @@
 		"modelId": "rti-international/rota",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "rubenskx/DiabloGPT-small-witcher",
+		"private": false
+	},
+	{
+		"modelId": "rubenskx/witcher",
+		"private": false
 	},
 	{
 		"modelId": "ruby/wav2vec2-base-robust",
@@ -78864,47 +78910,5 @@
 		"modelId": "zyl1024/bert-base-cased-finetuned-qqp",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "chenhl0810/bert-qa-squad-test",
-		"private": false
-	},
-	{
-		"modelId": "maniacGhost24/MichaelScott-bot-push-small",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "microsoft/trocr-base-handwritten",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr6c-350M-prefix-lm-reset-attention-mask-tensorboard",
-		"private": false
-	},
-	{
-		"modelId": "rifkat/uztext_568Mb_Roberta_BPE",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "pranaydeeps/Ancient-Greek-BERT",
-		"private": false
-	},
-	{
-		"modelId": "ThomasSimonini/t5-end-to-end-question-generation",
-		"private": false
-	},
-	{
-		"modelId": "blee/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "rishib/layoutlmv2-invoice",
-		"private": false
-	},
-	{
-		"modelId": "rubenskx/witcher",
-		"private": false
 	}
 ]
