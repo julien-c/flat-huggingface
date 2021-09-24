@@ -470,6 +470,14 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "AJ/rick-ai",
+		"private": false
+	},
+	{
+		"modelId": "AJ/rick-bot",
+		"private": false
+	},
+	{
 		"modelId": "AK/ak_nlp",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -1366,6 +1374,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "Andrija/SRoBERTa-XL",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Andrija/SRoBERTa-base-NER",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -1719,6 +1732,11 @@
 	{
 		"modelId": "Aurora/community.afpglobal",
 		"private": false
+	},
+	{
+		"modelId": "AvatarXD/DialoGPT-medium-Blitzo",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Aviora/news2vec",
@@ -2161,6 +2179,11 @@
 		"modelId": "BrianTin/MTBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "BrunoNogueira/DialoGPT-kungfupanda",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Bryson575x/riceboi",
@@ -4064,6 +4087,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Freych/DialoGPT-small-xinyan",
+		"private": false
+	},
+	{
 		"modelId": "Frikallo/BATbot",
 		"private": false
 	},
@@ -5615,6 +5642,10 @@
 	},
 	{
 		"modelId": "Haz/PL",
+		"private": false
+	},
+	{
+		"modelId": "Hcbyte/DialoGPT-medium-harrypotter",
 		"private": false
 	},
 	{
@@ -12520,6 +12551,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "HungChau/bert_concept_extraction_kp20k_v1.0",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "HungChau/bert_concept_extraction_v1.0",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -14849,6 +14885,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "Mehrad1/DiabloGPT-medium-Ron",
+		"private": false
+	},
+	{
 		"modelId": "Meli/GPT2-Prompt",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -15715,6 +15755,10 @@
 		"modelId": "Mierln/SmartHarry",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "MightyCoderX/DialoGPT-medium-EdwardElric",
+		"private": false
 	},
 	{
 		"modelId": "Mihneo/romanian_bert_news",
@@ -22490,6 +22534,11 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "ZAFuzzy/DialoGPT-medium-Fatty",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "ZAKok97/test",
 		"private": false
 	},
@@ -23283,6 +23332,16 @@
 		"modelId": "aditeyabaral/Yashi-IG-aditeyabaral-main",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "aditeyabaral/bert-hinglish-big",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "aditeyabaral/bert-hinglish-small",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "aditya6332/rickbot",
@@ -26397,6 +26456,10 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/gpt2-wikitext2",
+		"private": false
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -27588,6 +27651,14 @@
 	},
 	{
 		"modelId": "bigscience/tr7b-350M-alibi-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr8-104B-data",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr8-104B-logs",
 		"private": false
 	},
 	{
@@ -37288,6 +37359,10 @@
 		"private": false
 	},
 	{
+		"modelId": "google/multiberts-seed-0-2000k",
+		"private": false
+	},
+	{
 		"modelId": "google/multiberts-seed-0-200k",
 		"private": false
 	},
@@ -37397,6 +37472,10 @@
 	},
 	{
 		"modelId": "google/multiberts-seed-1-1900k",
+		"private": false
+	},
+	{
+		"modelId": "google/multiberts-seed-1-2000k",
 		"private": false
 	},
 	{
@@ -40770,6 +40849,11 @@
 		"private": false
 	},
 	{
+		"modelId": "huggingartists/logic",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/loud-luxury",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -41296,6 +41380,11 @@
 	},
 	{
 		"modelId": "huggingtweets/5uppps",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/60secondrevit",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -46663,6 +46752,11 @@
 	},
 	{
 		"modelId": "huggingtweets/js_thrill",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/jschlatt",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -63542,6 +63636,11 @@
 		"private": false
 	},
 	{
+		"modelId": "osanseviero/fasttext_nearest",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "osanseviero/flair-ner-english",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -64998,6 +65097,16 @@
 		"private": false
 	},
 	{
+		"modelId": "piotr-rybak/poleval2021-task4-herbert-large-encoder",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "piotr-rybak/poleval2021-task4-plt5-base-qa",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "pistachiocow/RoyTBenBot",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -65425,6 +65534,14 @@
 		"private": false
 	},
 	{
+		"modelId": "princeton-nlp/densephrases-multi-query-ay2",
+		"private": false
+	},
+	{
+		"modelId": "princeton-nlp/densephrases-multi-query-kilt-multi",
+		"private": false
+	},
+	{
 		"modelId": "princeton-nlp/densephrases-multi-query-multi",
 		"private": false
 	},
@@ -65442,6 +65559,10 @@
 	},
 	{
 		"modelId": "princeton-nlp/densephrases-multi-query-trec",
+		"private": false
+	},
+	{
+		"modelId": "princeton-nlp/densephrases-multi-query-wow",
 		"private": false
 	},
 	{
@@ -69596,6 +69717,21 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "sgugger/test-bert-finetuned-ner-accelerate",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sgugger/test-bert-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sgugger/test-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "sgugger/test_dynamic_model",
 		"private": false
 	},
@@ -69906,6 +70042,56 @@
 	},
 	{
 		"modelId": "shiyue/roberta-large-pyrxsum",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold1",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold3",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold4",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold5",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold1",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold3",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold4",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold5",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -73505,6 +73691,10 @@
 	},
 	{
 		"modelId": "tekodukunnangendiseh/ikyuhjmyhjgfjfgj",
+		"private": false
+	},
+	{
+		"modelId": "tekodukunnangendiseh/regrfgdsgvdsg",
 		"private": false
 	},
 	{
@@ -78570,6 +78760,10 @@
 		"private": false
 	},
 	{
+		"modelId": "ziqingyang/cross-lingual-retrieval",
+		"private": false
+	},
+	{
 		"modelId": "zitterbewegung/DialoGPT-medium-ja",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -78677,197 +78871,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "piotr-rybak/poleval2021-task4-herbert-large-encoder",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "tekodukunnangendiseh/regrfgdsgvdsg",
-		"private": false
-	},
-	{
-		"modelId": "Mehrad1/DiabloGPT-medium-Ron",
-		"private": false
-	},
-	{
-		"modelId": "piotr-rybak/poleval2021-task4-plt5-base-qa",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bigscience/tr8-104B-data",
-		"private": false
-	},
-	{
-		"modelId": "google/multiberts-seed-0-2000k",
-		"private": false
-	},
-	{
-		"modelId": "BrunoNogueira/DialoGPT-kungfupanda",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "princeton-nlp/densephrases-multi-query-wow",
-		"private": false
-	},
-	{
-		"modelId": "princeton-nlp/densephrases-multi-query-ay2",
-		"private": false
-	},
-	{
-		"modelId": "princeton-nlp/densephrases-multi-query-kilt-multi",
-		"private": false
-	},
-	{
-		"modelId": "MightyCoderX/DialoGPT-medium-EdwardElric",
-		"private": false
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold1",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "huggingtweets/jschlatt",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold3",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold4",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "google/multiberts-seed-1-2000k",
-		"private": false
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-examples-fold5",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold1",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold3",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold4",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "shiyue/roberta-large-realsumm-by-systems-fold5",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "athar/gpt2-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/fasttext_nearest",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "huggingartists/logic",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "ZAFuzzy/DialoGPT-medium-Fatty",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Andrija/SRoBERTa-XL",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "sgugger/test-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "aditeyabaral/bert-hinglish-small",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huggingtweets/60secondrevit",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "sgugger/test-bert-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "sgugger/test-bert-finetuned-ner-accelerate",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "AvatarXD/DialoGPT-medium-Blitzo",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "AJ/rick-bot",
-		"private": false
-	},
-	{
-		"modelId": "AJ/rick-ai",
-		"private": false
-	},
-	{
-		"modelId": "Hcbyte/DialoGPT-medium-harrypotter",
-		"private": false
-	},
-	{
-		"modelId": "bigscience/tr8-104B-logs",
-		"private": false
-	},
-	{
-		"modelId": "ziqingyang/cross-lingual-retrieval",
-		"private": false
-	},
-	{
-		"modelId": "HungChau/bert_concept_extraction_kp20k_v1.0",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "aditeyabaral/bert-hinglish-big",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Freych/DialoGPT-small-xinyan",
+		"modelId": "chenhl0810/bert-qa-squad-test",
 		"private": false
 	}
 ]
