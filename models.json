@@ -59000,10 +59000,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "microsoft/trocr-base-handwritten",
-		"private": false
-	},
-	{
 		"modelId": "microsoft/unihanlm-base",
 		"private": false
 	},
@@ -78933,6 +78929,7 @@
 	},
 	{
 		"modelId": "philschmid/MiniLM-L6-H384-uncased-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
