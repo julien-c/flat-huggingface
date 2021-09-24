@@ -79091,15 +79091,17 @@
 	},
 	{
 		"modelId": "Koro/DialoGPT-small-rickandmorty",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Koro/DialoGPT-medium-rickandmorty",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "chrommium/my-awesome-model5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
