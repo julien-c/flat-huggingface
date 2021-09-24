@@ -23334,16 +23334,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "aditeyabaral/bert-hinglish-big",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "aditeyabaral/bert-hinglish-small",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "aditya6332/rickbot",
 		"private": false
 	},
@@ -78899,10 +78889,23 @@
 	},
 	{
 		"modelId": "rifkat/uztext_568Mb_Roberta_BPE",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "pranaydeeps/Ancient-Greek-BERT",
+		"private": false
+	},
+	{
+		"modelId": "ThomasSimonini/t5-end-to-end-question-generation",
+		"private": false
+	},
+	{
+		"modelId": "blee/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "rishib/layoutlmv2-invoice",
 		"private": false
 	}
 ]
