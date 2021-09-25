@@ -55980,7 +55980,8 @@
 	},
 	{
 		"modelId": "lagodw/redditbot_gpt2_short",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lagodw/redditbot_gpt2_v2",
@@ -79402,6 +79403,11 @@
 	},
 	{
 		"modelId": "huggingtweets/veganseltzer",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/wyatt_privilege",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
