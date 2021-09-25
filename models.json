@@ -79190,10 +79190,24 @@
 	},
 	{
 		"modelId": "Hamas/DialoGPT-large-Jake",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "spockinese/DialoGPT-small-sherlock",
+		"private": false
+	},
+	{
+		"modelId": "asahi417/question-answer-generation-squad-t5-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "pere/norwegian-roberta-base-highlr-512",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/mt5-small-finetuned-news",
 		"private": false
 	}
 ]
