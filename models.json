@@ -22055,11 +22055,13 @@
 	},
 	{
 		"modelId": "VietAI/gpt-j-6B-vietnamese-news",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "VietAI/gpt-neo-1.3B-vietnamese-news",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Vigneswaran978999/adhu",
@@ -79138,6 +79140,10 @@
 	},
 	{
 		"modelId": "google/multiberts-seed-2-2000k",
+		"private": false
+	},
+	{
+		"modelId": "google/multiberts-seed-3-2000k",
 		"private": false
 	}
 ]
