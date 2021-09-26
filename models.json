@@ -79561,20 +79561,25 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "shivammishra287/DialoGPT-medium-HarryPotter",
-		"private": false
-	},
-	{
 		"modelId": "JihyunLEE/bert-base-uncased-finetuned-swag",
 		"private": false
 	},
 	{
 		"modelId": "Davlan/mbart50-large-yor-eng-mt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "huggingtweets/aly__dixon-haleyosomething-svpino",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "shivammishra287/DialoGPT-medium-HarryPotter",
+		"private": false
+	},
+	{
+		"modelId": "ZhaoyiGUAN/Bert_Fintuning_Test1",
+		"private": false
 	}
 ]
