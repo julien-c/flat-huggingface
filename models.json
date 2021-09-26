@@ -26645,11 +26645,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/rob-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -79641,7 +79636,8 @@
 	},
 	{
 		"modelId": "uyharold86/DialoGPT-small-RickAndMorty",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "keenyou/t5-small-finetuned-xsum",
@@ -79651,5 +79647,9 @@
 		"modelId": "athar/rob1-modelbd2",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Rocketknight1/distilroberta-base-finetuned-wikitext2",
+		"private": false
 	}
 ]
