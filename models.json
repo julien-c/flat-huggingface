@@ -26650,6 +26650,11 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rob1-modelbd",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -79546,15 +79551,16 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "shivammishra287/DialoGPT-medium-HarryPotter",
-		"private": false
-	},
-	{
 		"modelId": "Davlan/mbart50-large-eng-yor-mt",
 		"private": false
 	},
 	{
 		"modelId": "JDS22/DialoGPT-medium-HarryPotterBot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "shivammishra287/DialoGPT-medium-HarryPotter",
 		"private": false
 	}
 ]
