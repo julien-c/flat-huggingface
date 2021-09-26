@@ -29866,11 +29866,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "cmcmaster/deberta-base-austin",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "cmqzg/first",
 		"private": false
 	},
@@ -79446,6 +79441,12 @@
 	},
 	{
 		"modelId": "suwani/try_connll-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "napoler/chinese_roberta_L-2_H-512_relative_key_query_token_type_100",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
