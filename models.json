@@ -26650,11 +26650,6 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/rob1-modelbd",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -58147,15 +58142,18 @@
 	},
 	{
 		"modelId": "malay-huggingface/albert-base-bahasa-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "malay-huggingface/albert-large-bahasa-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "malay-huggingface/albert-tiny-bahasa-cased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "malay-huggingface/bert-base-bahasa-cased",
@@ -79522,7 +79520,8 @@
 	},
 	{
 		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test_noa-finetuned-ja-to-en_test_noa_alvel",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Shz/distilbert-base-uncased-finetuned-qqp",
@@ -79534,7 +79533,8 @@
 	},
 	{
 		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Kleinopp/bert",
@@ -79552,15 +79552,29 @@
 	},
 	{
 		"modelId": "Davlan/mbart50-large-eng-yor-mt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "JDS22/DialoGPT-medium-HarryPotterBot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "shivammishra287/DialoGPT-medium-HarryPotter",
 		"private": false
+	},
+	{
+		"modelId": "JihyunLEE/bert-base-uncased-finetuned-swag",
+		"private": false
+	},
+	{
+		"modelId": "Davlan/mbart50-large-yor-eng-mt",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/aly__dixon-haleyosomething-svpino",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
