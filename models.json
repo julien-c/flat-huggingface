@@ -26520,6 +26520,16 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rob-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "athar/rob1-model-4096",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -79446,6 +79456,11 @@
 	},
 	{
 		"modelId": "napoler/chinese_roberta_L-2_H-512_relative_key_query_token_type_100",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "athar/rob1-modelbd",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	}
