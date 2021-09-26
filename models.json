@@ -21358,7 +21358,8 @@
 	},
 	{
 		"modelId": "ThomasSimonini/t5-end2end-question-generation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "ThomasSimonini/t5-end2end-questions-generation",
@@ -79437,5 +79438,14 @@
 		"modelId": "jinbbong/kobert-esg-e3",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jinbbong/kobert-esg-e5-v2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "suwani/try_connll-finetuned-ner",
+		"private": false
 	}
 ]
