@@ -13286,11 +13286,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "Kamakshigari/autonlp-Test_11-3801062",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "HueJanus/DialoGPT-medium-ricksanchez",
 		"private": false
 	},
@@ -79858,10 +79853,20 @@
 	},
 	{
 		"modelId": "athar/robertabase14-4096",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "saattrupdan/nbailab-base-ner-da-sv-no",
 		"private": false
+	},
+	{
+		"modelId": "elishowk/fasttext_test2",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/shamscharania",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
