@@ -32061,6 +32061,10 @@
 		"pipeline_tag": "zero-shot-classification"
 	},
 	{
+		"modelId": "diiogo/wiki-roberta",
+		"private": false
+	},
+	{
 		"modelId": "dispix/test-model",
 		"private": false
 	},
@@ -79839,7 +79843,8 @@
 	},
 	{
 		"modelId": "elishowk/fasttext_test2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "feature-extraction"
 	},
 	{
 		"modelId": "huggingtweets/shamscharania",
@@ -79857,6 +79862,14 @@
 	},
 	{
 		"modelId": "bigscience/tr4c-1B3-rotary-oscar-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "SirBastianXVII/DialoGPT-small-TVD",
+		"private": false
+	},
+	{
+		"modelId": "hiiii23/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
