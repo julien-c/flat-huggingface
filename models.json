@@ -65047,7 +65047,8 @@
 	},
 	{
 		"modelId": "pere/norwegian-roberta-base-highlr-512",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "pere/norwegian-roberta-base-highlr",
@@ -79708,5 +79709,28 @@
 	{
 		"modelId": "Mafab-hu/Videa-HU-Venom-2.-VErontO-2021-HD-TELJES-Online-filmek-magyarul",
 		"private": false
+	},
+	{
+		"modelId": "AJ/rick-sanchez-bot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "stanfordnlp/corenlp-hungaran",
+		"private": false
+	},
+	{
+		"modelId": "AJ/rick-discord-bot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "stanfordnlp/corenlp-italian",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/timm-resnet18-imagenette-5-epochs",
+		"private": false,
+		"pipeline_tag": "image-classification"
 	}
 ]
