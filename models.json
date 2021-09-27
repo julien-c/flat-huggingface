@@ -3599,6 +3599,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Edaiplay/edaiplay-t5model",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "EMBEDDIA/bertic-tweetsentiment",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -30026,7 +30031,8 @@
 	},
 	{
 		"modelId": "clandestinpocnew/ERECgpT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "clem/autonlp-test3-2101782",
@@ -75889,10 +75895,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tunib/electra-ko-wp-35k-small-discriminator",
-		"private": false
-	},
-	{
 		"modelId": "trueto/medbert-kd-chinese",
 		"private": false
 	},
@@ -79799,6 +79801,7 @@
 	},
 	{
 		"modelId": "ZhaoyiGUAN/Bert_cn_finetuning_1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
