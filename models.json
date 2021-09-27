@@ -70545,7 +70545,8 @@
 	},
 	{
 		"modelId": "sgugger/marian-finetuned-kde4-en-to-fr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sgugger/my-bert-model",
@@ -79887,5 +79888,10 @@
 	{
 		"modelId": "naram92/distilbert-base-uncased-finetuned-ner",
 		"private": false
+	},
+	{
+		"modelId": "Wikidepia/gpt2-tgspam",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
