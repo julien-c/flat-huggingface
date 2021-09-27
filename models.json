@@ -79891,10 +79891,40 @@
 	},
 	{
 		"modelId": "vesteinn/XLMR-ENIS-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "MAUtastic/DialoGPT-medium-RickandMortyBot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "bigscience/tr3m-1B3-pile-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3d-1B3-oscar-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "bigscience/tr3e-1B3-c4-checkpoints",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/autoencoder-keras-mnist-demo",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-dummy-sequential-demo",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-dummy-functional-demo",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/keras-dummy-model-mixin-demo",
 		"private": false
 	}
 ]
