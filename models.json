@@ -32041,15 +32041,6 @@
 		"private": false
 	},
 	{
-		"modelId": "diiogo/araberta-base",
-		"private": false
-	},
-	{
-		"modelId": "diiogo/beberta",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "diiogo/roberta-test",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -64431,7 +64422,8 @@
 	},
 	{
 		"modelId": "osanseviero/fasttext_test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "feature-extraction"
 	},
 	{
 		"modelId": "osanseviero/flair-ner-english",
@@ -70742,7 +70734,8 @@
 	},
 	{
 		"modelId": "shahrukhx01/bert-multitask-query-classifiers",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql",
@@ -79873,5 +79866,21 @@
 		"modelId": "zyl1024/bert-base-cased-finetuned-qqp",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "uer/bart-chinese-8-960-cluecorpussmall",
+		"private": false
+	},
+	{
+		"modelId": "uer/bart-chinese-6-960-cluecorpussmall",
+		"private": false
+	},
+	{
+		"modelId": "sunglasses-ai/sentpair",
+		"private": false
+	},
+	{
+		"modelId": "clopezno/SoftwareNodel",
+		"private": false
 	}
 ]
