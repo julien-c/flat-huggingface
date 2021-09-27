@@ -79798,10 +79798,24 @@
 	},
 	{
 		"modelId": "vesteinn/IceBERT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate",
+		"private": false
+	},
+	{
+		"modelId": "athar/rob1-modelbd3",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "MaryaAI/opus-mt-ar-en-finetuned-27-9-ar-to-en",
+		"private": false
+	},
+	{
+		"modelId": "doctorai-in/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
