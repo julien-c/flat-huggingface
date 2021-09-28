@@ -80316,7 +80316,8 @@
 	},
 	{
 		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr-accelerate",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-100000",
@@ -80342,6 +80343,11 @@
 	},
 	{
 		"modelId": "stanford-crfm/durin-x343-checkpoint-100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanford-crfm/durin-x343-checkpoint-200000",
 		"private": false
 	}
 ]
