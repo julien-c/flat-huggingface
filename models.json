@@ -70855,7 +70855,8 @@
 	},
 	{
 		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sgugger/test-ner",
@@ -80296,10 +80297,19 @@
 	},
 	{
 		"modelId": "lewtun/minilm-finetuned-imdb-accelerate",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "rhtnr/ssgtrh",
 		"private": false
 	},
 	{
-		"modelId": "SmellyBelly/DialoGPT-small-harrypotter",
+		"modelId": "rhtnr/erhthh",
+		"private": false
+	},
+	{
+		"modelId": "HackyHackyMan/DialoGPT-small-harrypotter",
 		"private": false
 	}
 ]
