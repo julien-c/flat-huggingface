@@ -5250,11 +5250,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "GiAk/roberta-base-bne-finetuned-ciberbullying-spanish",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Giannis/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
@@ -73144,6 +73139,11 @@
 		"private": false
 	},
 	{
+		"modelId": "stanford-crfm/battlestar-x49-checkpoint-100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "stanfordnlp/CoreNLP",
 		"private": false
 	},
@@ -79986,5 +79986,14 @@
 	{
 		"modelId": "remoyson/test-model-hf",
 		"private": false
+	},
+	{
+		"modelId": "leopold/bert-base-uncased-finetuned-01",
+		"private": false
+	},
+	{
+		"modelId": "JonatanGk/roberta-base-bne-finetuned-ciberbullying-spanish",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
