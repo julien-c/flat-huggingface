@@ -5659,6 +5659,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "HashireSoriYo/Lelouch_Chatbot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -22744,6 +22749,10 @@
 		"modelId": "Yanzhu/bertweetfr-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Yanzhu/bertweetfr_ner",
+		"private": false
 	},
 	{
 		"modelId": "Yashwanth/test-trainer",
@@ -73270,6 +73279,14 @@
 		"private": false
 	},
 	{
+		"modelId": "stanford-crfm/arwen-x21-checkpoint-300000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/arwen-x21-checkpoint-400000",
+		"private": false
+	},
+	{
 		"modelId": "stanford-crfm/battlestar-x49-checkpoint-100000",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -80157,17 +80174,5 @@
 		"modelId": "zyl1024/bert-base-cased-finetuned-qqp",
 		"private": false,
 		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Yanzhu/bertweetfr_ner",
-		"private": false
-	},
-	{
-		"modelId": "HashireSoriYo/Lelouch_Chatbot",
-		"private": false
-	},
-	{
-		"modelId": "stanford-crfm/arwen-x21-checkpoint-300000",
-		"private": false
 	}
 ]
