@@ -25375,11 +25375,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "amine/dziribert",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "aminezeggaf/EmotionAnalysisAmine",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -30012,6 +30007,11 @@
 	{
 		"modelId": "clagator/biobert_v1.1_pubmed_nli_sts",
 		"private": false
+	},
+	{
+		"modelId": "clandestinpocnew/ERECgpT",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "clarin-pl/fastText-kgr10",
@@ -79983,5 +79983,9 @@
 		"modelId": "huggingtweets/maxfleit-sahil",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "manu/layoutxlm-finetuned-illuin-2048",
+		"private": false
 	}
 ]
