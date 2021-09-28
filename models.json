@@ -25571,7 +25571,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pthe-mit-movie-with-neg-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat",
@@ -80310,11 +80311,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "SunsetCat/DialoGPT-small-laurabot",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr-accelerate",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -80348,6 +80344,19 @@
 	},
 	{
 		"modelId": "stanford-crfm/durin-x343-checkpoint-200000",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/dndomme",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanford-crfm/durin-x343-checkpoint-300000",
+		"private": false
+	},
+	{
+		"modelId": "MickyMike/GraphCodeBERT-C",
 		"private": false
 	}
 ]
