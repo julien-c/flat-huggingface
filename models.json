@@ -70856,7 +70856,7 @@
 	{
 		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "sgugger/test-ner",
@@ -80317,5 +80317,18 @@
 		"modelId": "SunsetCat/DialoGPT-small-laurabot",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr-accelerate",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-200000",
+		"private": false
 	}
 ]
