@@ -80177,7 +80177,8 @@
 	},
 	{
 		"modelId": "stanford-crfm/beren-x49-checkpoint-100000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "WurmWillem/Rick",
@@ -80185,6 +80186,15 @@
 	},
 	{
 		"modelId": "phdf33/ClipediaBERT-base",
+		"private": false
+	},
+	{
+		"modelId": "Ebtihal/AraDiaBERTo_V2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "stanford-crfm/beren-x49-checkpoint-200000",
 		"private": false
 	}
 ]
