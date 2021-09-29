@@ -80542,7 +80542,7 @@
 	{
 		"modelId": "NanniKirby/DialoGPT-medium-bapi",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "SaulLu/tr7b-350M-validation-alibi-tensorboard",
@@ -80550,6 +80550,20 @@
 	},
 	{
 		"modelId": "bigscience/tr7b-350M-validation-alibi-tensorboard",
+		"private": false
+	},
+	{
+		"modelId": "rishi03/t5data-epoc30",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "cointegrated/rubert-base-cased-dp-paraphrase-detection",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Hamas/DialoGPT-large-jake3",
 		"private": false
 	}
 ]
