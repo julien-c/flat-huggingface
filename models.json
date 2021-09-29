@@ -80596,7 +80596,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-langid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "gokulkarthik/distilbert-base-uncased-finetuned-squad",
@@ -80604,6 +80605,15 @@
 	},
 	{
 		"modelId": "Rocketknight1/bert-base-cased-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "cuongtran/RobertaTextSummarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "nid989/specter_dual_attn",
 		"private": false
 	}
 ]
