@@ -80391,7 +80391,8 @@
 	},
 	{
 		"modelId": "vesteinn/IceBERT-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000",
@@ -80403,6 +80404,10 @@
 	},
 	{
 		"modelId": "mse30/bart_cnn",
+		"private": false
+	},
+	{
+		"modelId": "mse30/bart-large-finetuned-cnn",
 		"private": false
 	}
 ]
