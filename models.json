@@ -22165,6 +22165,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UBIAI/scibert_ScienceIE4",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -80503,6 +80508,23 @@
 	},
 	{
 		"modelId": "bigscience/tr8b-104B-pile-logs",
+		"private": false
+	},
+	{
+		"modelId": "oguz/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/led-zeppelin",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "fyc132/lfs",
+		"private": false
+	},
+	{
+		"modelId": "Lilya/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	}
 ]
