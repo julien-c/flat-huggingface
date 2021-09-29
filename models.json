@@ -2056,11 +2056,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "BigSalmon/IntroductionGPT",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "BigSalmon/Neo",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -80409,5 +80404,15 @@
 	{
 		"modelId": "mse30/bart-large-finetuned-cnn",
 		"private": false
+	},
+	{
+		"modelId": "zgotter/bert_two_sent_classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "tlkh/program-synthesis-gpt-neo-125m",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
