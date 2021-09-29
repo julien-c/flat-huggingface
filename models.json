@@ -4053,10 +4053,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Filosofas/DialoGPT-medium-PALPATINE",
-		"private": false
-	},
-	{
 		"modelId": "Finnish-NLP/albert-large-v2-finnish",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -22163,11 +22159,6 @@
 		"modelId": "UBC-NLP/MARBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "UBIAI/scibert_ScienceIE4",
-		"private": false,
-		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
@@ -80569,7 +80560,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-langid",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "milenadavideson/Sin-tiempo-para-morir-2021-online-en-espanol-y-latino",
@@ -80589,6 +80581,22 @@
 	},
 	{
 		"modelId": "Pelicula/Sin-tiempo-para-morir-2021-Pelicula-Completa-Online-Gratis",
+		"private": false
+	},
+	{
+		"modelId": "Filosofas/DialoGPT-medium-PALPATINE",
+		"private": false
+	},
+	{
+		"modelId": "Filosofas/PALPATINE",
+		"private": false
+	},
+	{
+		"modelId": "jespinosalo/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "elyza/bbpmt5ja-large-rcqa-real-estate-qa",
 		"private": false
 	}
 ]
