@@ -80644,7 +80644,8 @@
 	},
 	{
 		"modelId": "theChanChanMan/DialoGPT-small-chandler",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "namanrana16/DialoGPT-small-TrumpBot",
@@ -80653,11 +80654,21 @@
 	},
 	{
 		"modelId": "dweb/deberta-base-CoLA",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "WurmWillem/DialoGPT-medium-RickandMorty3",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "huggingartists/mayot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "jgammack/bert-base-uncased-eam",
+		"private": false
 	}
 ]
