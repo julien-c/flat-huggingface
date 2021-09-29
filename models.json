@@ -55661,6 +55661,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "junnyu/bert",
+		"private": false
+	},
+	{
 		"modelId": "junnyu/bert_chinese_mc_base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -80369,14 +80373,9 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "KringleClaus/kringle",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "Tanhim/translation-En2De",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-200000",
@@ -80384,6 +80383,26 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pwhatisthe-mit-movie-with-neg-with-repeat",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/eowyn-x777-checkpoint-300000",
+		"private": false
+	},
+	{
+		"modelId": "vesteinn/IceBERT-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000",
+		"private": false
+	},
+	{
+		"modelId": "zzclynn/bert_test",
+		"private": false
+	},
+	{
+		"modelId": "mse30/bart_cnn",
 		"private": false
 	}
 ]
