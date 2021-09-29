@@ -22178,6 +22178,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/scibert_ScienceIE4",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -80440,5 +80445,14 @@
 	{
 		"modelId": "zzclynn/bert_test",
 		"private": false
+	},
+	{
+		"modelId": "sachinl0har/DialoGPT-small-acronoid",
+		"private": false
+	},
+	{
+		"modelId": "cointegrated/rubert-base-cased-nli-twoway",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
