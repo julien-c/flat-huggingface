@@ -77821,11 +77821,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "vesteinn/IceBERT-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "vesteinn/IceBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -80482,5 +80477,14 @@
 	{
 		"modelId": "um8r1/testcmv",
 		"private": false
+	},
+	{
+		"modelId": "hiiamsid/est5-base",
+		"private": false
+	},
+	{
+		"modelId": "vesteinn/IceBERT-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
