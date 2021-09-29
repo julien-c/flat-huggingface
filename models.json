@@ -57026,7 +57026,7 @@
 	{
 		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "lewtun/mt5-small-finetuned-mlsum",
@@ -80502,7 +80502,8 @@
 	},
 	{
 		"modelId": "gsarti/bert-gpt2-italian",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "bigscience/tr8b-104B-pile-logs",
@@ -80535,6 +80536,10 @@
 	},
 	{
 		"modelId": "abhisht/DialoGPT-medium-Emilybot",
+		"private": false
+	},
+	{
+		"modelId": "NanniKirby/DialoGPT-medium-bapi",
 		"private": false
 	}
 ]
