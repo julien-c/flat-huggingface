@@ -80551,7 +80551,8 @@
 	},
 	{
 		"modelId": "BearThreat/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "milenadavideson/Sin-tiempo-para-morir-2021-online-en-espanol-y-latino",
@@ -80601,7 +80602,8 @@
 	},
 	{
 		"modelId": "gokulkarthik/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Rocketknight1/bert-base-cased-finetuned-wikitext2",
@@ -80614,6 +80616,10 @@
 	},
 	{
 		"modelId": "nid989/specter_dual_attn",
+		"private": false
+	},
+	{
+		"modelId": "vesteinn/IceBERT-finetuned-ner",
 		"private": false
 	}
 ]
