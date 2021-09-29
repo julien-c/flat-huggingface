@@ -80472,7 +80472,8 @@
 	},
 	{
 		"modelId": "MickyMike/graphcodebert-c",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "um8r1/testcmv",
@@ -80480,11 +80481,20 @@
 	},
 	{
 		"modelId": "hiiamsid/est5-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "vesteinn/IceBERT-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Taarieq/bert-base-uncased-finetuned-swag",
+		"private": false
+	},
+	{
+		"modelId": "cyclone/cyclone-ner",
+		"private": false
 	}
 ]
