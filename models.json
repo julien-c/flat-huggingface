@@ -25948,11 +25948,6 @@
 		"private": false
 	},
 	{
-		"modelId": "anton-l/wav2vec2-base-langid",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
 		"modelId": "anton-l/wav2vec2-large-xlsr-53-chuvash",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -57021,7 +57016,8 @@
 	},
 	{
 		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es",
@@ -80564,6 +80560,18 @@
 	},
 	{
 		"modelId": "Hamas/DialoGPT-large-jake3",
+		"private": false
+	},
+	{
+		"modelId": "BearThreat/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-langid",
+		"private": false
+	},
+	{
+		"modelId": "milenadavideson/Sin-tiempo-para-morir-2021-online-en-espanol-y-latino",
 		"private": false
 	}
 ]
