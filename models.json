@@ -4053,6 +4053,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Filosofas/DialoGPT-medium-PALPATINE",
+		"private": false
+	},
+	{
 		"modelId": "Finnish-NLP/albert-large-v2-finnish",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -5522,6 +5526,11 @@
 		"modelId": "HackMIT/double-agent",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "HackyHackyMan/DialoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Hadron/DialoGPT-medium-nino",
@@ -13803,6 +13812,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Kceilord/autonlp-tc-13522454",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "Keen/DialoGPT-small-potter",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -14799,6 +14813,10 @@
 		"modelId": "Mamatha/agri-gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "MandoNYC/love",
+		"private": false
 	},
 	{
 		"modelId": "Mandy/DialoGPT-small-Mikasa",
@@ -15935,7 +15953,7 @@
 		"private": false
 	},
 	{
-		"modelId": "MickyMike/CodeBertXGLUE",
+		"modelId": "MickyMike/GraphCodeBERT-C",
 		"private": false
 	},
 	{
@@ -21044,6 +21062,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "Tanhim/translation-En2De",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
 		"modelId": "Tatyana/rubert-base-cased-sentiment-new",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -25568,6 +25591,10 @@
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pthe-mit-movie-with-neg-with-repeat",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pwhatisthe-mit-movie-with-neg-with-repeat",
+		"private": false
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat",
@@ -43078,6 +43105,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/balcobops-liyrex_irl-waitforgot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/banjocatt",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -44858,6 +44890,11 @@
 	},
 	{
 		"modelId": "huggingtweets/dkulchar",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/dndomme",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -47905,6 +47942,11 @@
 	},
 	{
 		"modelId": "huggingtweets/laptopmicdrop",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/laura_the_loser",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -56011,6 +56053,14 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "keenyou/bart-base-finetuned-xsum",
+		"private": false
+	},
+	{
+		"modelId": "keenyou/bart-base-finetunedbart",
+		"private": false
+	},
+	{
 		"modelId": "keenyou/t5-small-finetuned-xsum",
 		"private": false
 	},
@@ -56178,6 +56228,10 @@
 		"modelId": "kloon99/KML_Software_License_v1",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "kloon99/gpt2-wikitext2",
+		"private": false
 	},
 	{
 		"modelId": "kloon99/test",
@@ -56978,6 +57032,11 @@
 	{
 		"modelId": "lewtun/metnet-test",
 		"private": false
+	},
+	{
+		"modelId": "lewtun/minilm-finetuned-imdb-accelerate",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate",
@@ -62324,6 +62383,14 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "mse30/bart-large-finetuned-cnn",
+		"private": false
+	},
+	{
+		"modelId": "mse30/bart_cnn",
+		"private": false
+	},
+	{
 		"modelId": "mso/mso",
 		"private": false
 	},
@@ -63209,6 +63276,11 @@
 		"modelId": "nbouali/flaubert-base-uncased-finetuned-cooking",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ncats/EpiExtract4GARD",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "ncduy/bert-base-cased-wikitext2",
@@ -67902,6 +67974,14 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "rhtnr/erhthh",
+		"private": false
+	},
+	{
+		"modelId": "rhtnr/ssgtrh",
+		"private": false
+	},
+	{
 		"modelId": "ricardo-filho/BERT-pt-faquad-finetuned-squad-v1.1-pt",
 		"private": false
 	},
@@ -70849,6 +70929,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr-accelerate",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -73425,6 +73510,23 @@
 		"private": false
 	},
 	{
+		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-200000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-300000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-400000",
+		"private": false
+	},
+	{
 		"modelId": "stanford-crfm/darkmatter-x343-checkpoint-100000",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -73440,6 +73542,40 @@
 	},
 	{
 		"modelId": "stanford-crfm/darkmatter-x343-checkpoint-400000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/durin-x343-checkpoint-100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanford-crfm/durin-x343-checkpoint-200000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/durin-x343-checkpoint-300000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/durin-x343-checkpoint-400000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/eowyn-x777-checkpoint-100000",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "stanford-crfm/eowyn-x777-checkpoint-200000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/eowyn-x777-checkpoint-300000",
+		"private": false
+	},
+	{
+		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000",
 		"private": false
 	},
 	{
@@ -76000,6 +76136,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "tlkh/program-synthesis-gpt-neo-125m",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "tlkh/t5-metaphor-large",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -77658,6 +77799,11 @@
 		"modelId": "vesteinn/IceBERT-QA",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "vesteinn/IceBERT-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "vesteinn/IceBERT",
@@ -79692,6 +79838,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "zgotter/bert_two_sent_classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "zgotter/test",
 		"private": false
 	},
@@ -80287,157 +80438,7 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "lewtun/minilm-finetuned-imdb-accelerate",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "rhtnr/ssgtrh",
-		"private": false
-	},
-	{
-		"modelId": "rhtnr/erhthh",
-		"private": false
-	},
-	{
-		"modelId": "HackyHackyMan/DialoGPT-small-harrypotter",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "sgugger/test-marian-finetuned-kde4-en-to-fr-accelerate",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-100000",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-200000",
-		"private": false
-	},
-	{
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-300000",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/laura_the_loser",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-400000",
-		"private": false
-	},
-	{
-		"modelId": "stanford-crfm/durin-x343-checkpoint-100000",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "stanford-crfm/durin-x343-checkpoint-200000",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/dndomme",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "stanford-crfm/durin-x343-checkpoint-300000",
-		"private": false
-	},
-	{
-		"modelId": "MickyMike/GraphCodeBERT-C",
-		"private": false
-	},
-	{
-		"modelId": "stanford-crfm/durin-x343-checkpoint-400000",
-		"private": false
-	},
-	{
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-100000",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Tanhim/translation-En2De",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-200000",
-		"private": false
-	},
-	{
-		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pwhatisthe-mit-movie-with-neg-with-repeat",
-		"private": false
-	},
-	{
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-300000",
-		"private": false
-	},
-	{
-		"modelId": "vesteinn/IceBERT-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000",
-		"private": false
-	},
-	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "mse30/bart_cnn",
-		"private": false
-	},
-	{
-		"modelId": "mse30/bart-large-finetuned-cnn",
-		"private": false
-	},
-	{
-		"modelId": "zgotter/bert_two_sent_classifier",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "tlkh/program-synthesis-gpt-neo-125m",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "keenyou/bart-base-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "ncats/EpiExtract4GARD",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "keenyou/bart-base-finetunedbart",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/balcobops-liyrex_irl-waitforgot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "MandoNYC/love",
-		"private": false
-	},
-	{
-		"modelId": "kloon99/gpt2-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "Filosofas/DialoGPT-medium-PALPATINE",
 		"private": false
 	}
 ]
