@@ -15949,14 +15949,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "MickyMike/CT5",
-		"private": false
-	},
-	{
-		"modelId": "MickyMike/GraphCodeBERT-C",
-		"private": false
-	},
-	{
 		"modelId": "Midhunkrishna/DialoGPT-small-bjk",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -63675,6 +63667,11 @@
 		"private": false
 	},
 	{
+		"modelId": "nielsr/language-perceiver",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "nielsr/layoutlmv2-finetuned-funsd-test",
 		"private": false
 	},
@@ -63692,9 +63689,17 @@
 		"private": false
 	},
 	{
+		"modelId": "nielsr/multimodal-perceiver",
+		"private": false
+	},
+	{
 		"modelId": "nielsr/nt5-small-rc1",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "nielsr/optical-flow-perceiver",
+		"private": false
 	},
 	{
 		"modelId": "nielsr/segformer-b0-finetuned-ade-512-512",
@@ -63706,6 +63711,14 @@
 	},
 	{
 		"modelId": "nielsr/test",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/vision-perceiver-fourier",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/vision-perceiver",
 		"private": false
 	},
 	{
@@ -65588,12 +65601,22 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "pedropei/aspect-level-certainty",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "pedropei/live-demo-question-intimacy",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "pedropei/question-intimacy",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "pedropei/sentence-level-certainty",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -80465,6 +80488,15 @@
 	},
 	{
 		"modelId": "freetzram/DialogGPT-small-Po_kungfupanda",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/cyrusshepard-fastfwdco-lilyraynyc",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "MickyMike/graphcodebert-c",
 		"private": false
 	}
 ]
