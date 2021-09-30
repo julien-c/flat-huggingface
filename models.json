@@ -64597,7 +64597,8 @@
 	},
 	{
 		"modelId": "obito69/DialoGPT-small-Doctorstrange",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "obsei-ai/sell-buy-intent-classifier-bert-mini",
@@ -80884,5 +80885,10 @@
 	{
 		"modelId": "VulcanBin/DialoGPT-small-cortana",
 		"private": false
+	},
+	{
+		"modelId": "Rocketknight1/distilbert-base-cased-finetuned-imdb",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
