@@ -22231,6 +22231,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -80828,5 +80833,13 @@
 		"modelId": "Calamituff/DialoGPT-medium-kia",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "vesteinn/open-qa-icelandic-densephrases",
+		"private": false
+	},
+	{
+		"modelId": "vesteinn/open-qa-icelandic-english-densephrase",
+		"private": false
 	}
 ]
