@@ -5601,11 +5601,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Hamas/DialoGPT-large-jake3",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "Han11/test",
 		"private": false
 	},
@@ -25678,7 +25673,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pmlm-mit_restaurant-with-neg-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pthe-mit-movie-with-neg-with-repeat",
@@ -80857,6 +80853,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "efederici/it5-base-Summarization",
+		"private": false,
+		"pipeline_tag": "summarization"
+	},
+	{
 		"modelId": "huggingtweets/fastfwdco",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -80911,18 +80912,34 @@
 	},
 	{
 		"modelId": "AnonymousSub/cline-emanuals-techqa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Jonesy/JohnnyTest",
 		"private": false
 	},
 	{
-		"modelId": "efederici/it5-base-sum",
+		"modelId": "Hamas/DialoGPT-large-jake3",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "AnonymousSub/cline-techqa",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "rohitsroch/hybrid_hbh_bart-base_icsi_sum",
 		"private": false
 	},
 	{
-		"modelId": "rohitsroch/hybrid_hbh_bart-base_icsi",
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pthe-mit_restaurant-with-neg-with-repeat",
 		"private": false
+	},
+	{
+		"modelId": "AnonymousSub/declutr-emanuals-techqa",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
