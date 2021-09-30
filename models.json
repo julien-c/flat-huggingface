@@ -64598,7 +64598,7 @@
 	{
 		"modelId": "obito69/DialoGPT-small-Doctorstrange",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "obsei-ai/sell-buy-intent-classifier-bert-mini",
@@ -64959,14 +64959,6 @@
 	},
 	{
 		"modelId": "osanseviero/en_core_web_trf",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/en_ner_fashion-0.0.0",
-		"private": false
-	},
-	{
-		"modelId": "osanseviero/en_ner_fashion",
 		"private": false
 	},
 	{
@@ -80884,11 +80876,17 @@
 	},
 	{
 		"modelId": "VulcanBin/DialoGPT-small-cortana",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Rocketknight1/distilbert-base-cased-finetuned-imdb",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "osanseviero/en_ner_fashion",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
