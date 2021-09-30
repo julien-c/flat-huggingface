@@ -54663,6 +54663,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "jgammack/eam-tokenizer",
+		"private": false
+	},
+	{
 		"modelId": "jgonik/nlp-puzzle-v2",
 		"private": false
 	},
@@ -80949,7 +80953,24 @@
 		"private": false
 	},
 	{
+		"modelId": "jgammack/bert-base-uncased-eam",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "diogenet/grc_ud_perseus_trf",
+		"private": false
+	},
+	{
+		"modelId": "adubrou/telecoms-xnli",
+		"private": false
+	},
+	{
+		"modelId": "walket1239/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "fergusq/finbert-finnsentiment",
 		"private": false
 	}
 ]
