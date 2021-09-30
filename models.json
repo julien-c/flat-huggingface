@@ -80892,8 +80892,7 @@
 	},
 	{
 		"modelId": "jinmang2/roberta-ko-ner",
-		"private": false,
-		"pipeline_tag": "text-classification"
+		"private": false
 	},
 	{
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad-d5716d28",
@@ -80936,7 +80935,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pthe-mit_restaurant-with-neg-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "AnonymousSub/declutr-emanuals-techqa",
@@ -81005,5 +81005,9 @@
 		"modelId": "rohitsroch/hybrid_hbh_t5-small_ami_sum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pwhatisthe-mit_restaurant-with-neg-with-repeat",
+		"private": false
 	}
 ]
