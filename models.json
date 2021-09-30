@@ -32334,10 +32334,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "diogenet/grc_ud_perseus_trf",
-		"private": false
-	},
-	{
 		"modelId": "diptanu/fBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -57238,11 +57234,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "lewtun/distillbert-base-uncased-distilled-squad-v1",
 		"private": false
 	},
@@ -80893,5 +80884,19 @@
 		"modelId": "jinmang2/roberta-ko-ner",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad-d5716d28",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "diogenet/grc_ud_perseus_trf",
+		"private": false
+	},
+	{
+		"modelId": "Rocketknight1/test-bert-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
