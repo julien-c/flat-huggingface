@@ -80789,10 +80789,17 @@
 	},
 	{
 		"modelId": "symanto/mpnet-base-snli-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "minwhoo/bart-base-negative-claim-generation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "AetherIT/DialoGPT-small-Hal",
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
