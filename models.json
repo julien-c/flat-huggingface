@@ -57196,11 +57196,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "lewtun/distilbert-base-uncased-distilled-squad-v1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad-v1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -80849,5 +80844,10 @@
 		"modelId": "cointegrated/rubert-tiny-bilingual-nli",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
