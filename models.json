@@ -80877,7 +80877,7 @@
 	{
 		"modelId": "VulcanBin/DialoGPT-small-cortana",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Rocketknight1/distilbert-base-cased-finetuned-imdb",
@@ -80888,5 +80888,10 @@
 		"modelId": "osanseviero/en_ner_fashion",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "jinmang2/roberta-ko-ner",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
