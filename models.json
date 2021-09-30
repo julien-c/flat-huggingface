@@ -80718,11 +80718,8 @@
 	},
 	{
 		"modelId": "orri/IceBERT-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "sultan/ArabicTransformer-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Eunhui/bert-base-cased-wikitext2",
@@ -80732,5 +80729,17 @@
 		"modelId": "huggingtweets/clamtime-lazar181",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "breezedeus/cnocr",
+		"private": false
+	},
+	{
+		"modelId": "sultan/ArabicTransformer-large",
+		"private": false
+	},
+	{
+		"modelId": "nguyennh2908/bert-base-uncased-finetuned-squad",
+		"private": false
 	}
 ]
