@@ -81129,16 +81129,24 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "anton-l/wav2vec2-base-lang-id",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
 		"modelId": "blmoistawinde/echecker_clotho_audiocaps_base",
 		"private": false
 	},
 	{
 		"modelId": "huggingartists/lazy-jay",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "halimara/model_sentence_bert",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-lang-id",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/sundara-karma",
 		"private": false
 	}
 ]
