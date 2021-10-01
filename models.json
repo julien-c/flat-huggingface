@@ -59763,11 +59763,6 @@
 		"private": false
 	},
 	{
-		"modelId": "meowzila/DialoGPT-small-DeepDogeBot",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "mercerchen/hf_ds_recipe",
 		"private": false
 	},
@@ -67096,7 +67091,8 @@
 	},
 	{
 		"modelId": "pritoms/distilgpt2-finetuned-wikitext2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "pritoms/distilroberta-base-finetuned-wikitext2",
@@ -80950,7 +80946,8 @@
 	},
 	{
 		"modelId": "Jonesy/DialoGPT-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "jgammack/bert-base-uncased-eam",
@@ -81008,6 +81005,27 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pwhatisthe-mit_restaurant-with-neg-with-repeat",
+		"private": false
+	},
+	{
+		"modelId": "adalbertojunior/roberta-portuguese-cased-128",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "soyeon/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "Jonesy/DialoGPT-small_JT",
+		"private": false
+	},
+	{
+		"modelId": "stevhliu/distilbert-base-uncased-imdb",
+		"private": false
+	},
+	{
+		"modelId": "KingCodeSquid/Octavian",
 		"private": false
 	}
 ]
