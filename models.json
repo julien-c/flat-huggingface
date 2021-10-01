@@ -81246,7 +81246,8 @@
 	},
 	{
 		"modelId": "Culmenus/XLMR-ENIS-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "jgammack/mtl-tokenizer",
@@ -81259,7 +81260,8 @@
 	},
 	{
 		"modelId": "jgammack/mtl-bert-base-uncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "sultan/ArabicTransformer-large",
@@ -81279,6 +81281,7 @@
 	},
 	{
 		"modelId": "Rocketknight1/test-marian-finetuned-kde4-en-to-fr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
