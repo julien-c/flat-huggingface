@@ -81308,10 +81308,15 @@
 	},
 	{
 		"modelId": "bergurth/XLMR-ENIS-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Kryptone/monikAI-again",
+		"private": false
+	},
+	{
+		"modelId": "indridinn/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	}
 ]
