@@ -32934,10 +32934,6 @@
 		"pipeline_tag": "summarization"
 	},
 	{
-		"modelId": "echarlaix/bart-large-cnn-r2-20.6-d44-hybrid",
-		"private": false
-	},
-	{
 		"modelId": "echarlaix/bert-base-dynamic-quant-test",
 		"private": false
 	},
@@ -81179,10 +81175,29 @@
 	},
 	{
 		"modelId": "eliza-dukim/para-kqc-sim",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "etalab-ia/ranker_question-text-fr_base_camembert",
+		"private": false
+	},
+	{
+		"modelId": "echarlaix/bart-large-cnn-r2-19.6-d23-hybrid-not-compiled",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "lewtun/bert-base-japanese-char-finetuned-amazon-jap",
+		"private": false
+	},
+	{
+		"modelId": "Mousumi/finetuned_pegasus",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Stevenn/test",
 		"private": false
 	}
 ]
