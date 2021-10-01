@@ -74659,10 +74659,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sultan/ArabicTransformer-large",
-		"private": false
-	},
-	{
 		"modelId": "sultan/ArabicTransformer-small",
 		"private": false
 	},
@@ -80996,7 +80992,8 @@
 	},
 	{
 		"modelId": "chrommium/xlm-roberta-large-finetuned-sent_in_news",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "rohitsroch/hybrid_hbh_t5-small_ami_sum",
@@ -81026,6 +81023,15 @@
 	},
 	{
 		"modelId": "KingCodeSquid/Octavian",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/mnogoznaal",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "erikedwards4/roberta",
 		"private": false
 	}
 ]
