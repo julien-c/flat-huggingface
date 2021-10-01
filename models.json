@@ -81344,10 +81344,17 @@
 	},
 	{
 		"modelId": "USSC/DialoGPT-medium-Dream",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Mousumi/finetuned_bart",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "jgammack/mtl-paraphraser",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
