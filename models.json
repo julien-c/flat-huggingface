@@ -65121,10 +65121,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "orri/IceBERT_ice_NE",
-		"private": false
-	},
-	{
 		"modelId": "orri/XLMR-ENIS-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -81237,7 +81233,8 @@
 	},
 	{
 		"modelId": "Rocketknight1/mt5-small-finetuned-amazon-en-es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "cambridgeltl/mbert-lang-sft-bxr-small",
@@ -81245,6 +81242,14 @@
 	},
 	{
 		"modelId": "baigne/Mega-HD-720p-Ver-Online-Venom-Habra-Matanza-2021-PELICULA-completa-en-espanol-latino",
+		"private": false
+	},
+	{
+		"modelId": "baigne/HD-720p-Ver-Online-Venom-Habra-Matanza-2021-PELICULA-completa-en-espanol-latino",
+		"private": false
+	},
+	{
+		"modelId": "Culmenus/XLMR-ENIS-finetuned-ner",
 		"private": false
 	}
 ]
