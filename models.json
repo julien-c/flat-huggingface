@@ -81283,7 +81283,8 @@
 	},
 	{
 		"modelId": "finiteautomata/beto-cased-news-nocontext",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "kmfoda/my-awesome-model",
@@ -81313,6 +81314,10 @@
 	},
 	{
 		"modelId": "indridinn/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "naram92/distilgpt2-finetuned-wikitext2",
 		"private": false
 	}
 ]
