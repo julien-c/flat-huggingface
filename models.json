@@ -81130,7 +81130,8 @@
 	},
 	{
 		"modelId": "blmoistawinde/echecker_clotho_audiocaps_base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingartists/lazy-jay",
@@ -81164,6 +81165,10 @@
 	},
 	{
 		"modelId": "trisitc/huggingface-starter",
+		"private": false
+	},
+	{
+		"modelId": "defex/distilgpt2-generation-of-movie-reviews",
 		"private": false
 	}
 ]
