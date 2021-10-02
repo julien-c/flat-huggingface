@@ -1407,7 +1407,8 @@
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-XL-NER",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-XL",
@@ -81256,5 +81257,9 @@
 		"modelId": "andi611/distilbert-base-uncased-ner-conll2003",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-Pistherea-conll2003-with-neg-with-repeat",
+		"private": false
 	}
 ]
