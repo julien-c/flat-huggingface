@@ -74215,11 +74215,13 @@
 	},
 	{
 		"modelId": "stanford-crfm/durin-x343-checkpoint-300000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/durin-x343-checkpoint-400000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-100000",
@@ -74228,7 +74230,8 @@
 	},
 	{
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-200000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-300000",
@@ -81261,5 +81264,14 @@
 		"modelId": "dexhrestha/Nepali-DistilBERT",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-ner",
+		"private": false
 	}
 ]
