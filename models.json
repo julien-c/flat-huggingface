@@ -74240,7 +74240,8 @@
 	},
 	{
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/expanse-x777-checkpoint-100000",
@@ -81273,7 +81274,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-ner",
@@ -81281,11 +81283,13 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-half-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-quarter-ner",
@@ -81298,5 +81302,10 @@
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-sixteenth-ner",
 		"private": false
+	},
+	{
+		"modelId": "w11wo/gpt2-medium-indo-kids-stories",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
