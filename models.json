@@ -54940,11 +54940,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "jgammack/eam-paraphraser",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "jgammack/eam-tokenizer",
 		"private": false
 	},
@@ -81376,5 +81371,10 @@
 	{
 		"modelId": "Teng/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "jgammack/eam-paraphraser",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	}
 ]
