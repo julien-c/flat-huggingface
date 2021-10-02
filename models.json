@@ -81307,10 +81307,15 @@
 	},
 	{
 		"modelId": "indridinn/XLMR-ENIS-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "charsiu/w2v2_FS_10ms",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/gizmo",
 		"private": false
 	}
 ]
