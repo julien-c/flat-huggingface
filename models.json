@@ -81279,7 +81279,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-ner",
@@ -81304,7 +81305,7 @@
 		"private": false
 	},
 	{
-		"modelId": "w11wo/gpt2-medium-indo-kids-stories",
+		"modelId": "bookbot/gpt2-indo-medium-kids-stories",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
