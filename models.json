@@ -74481,7 +74481,8 @@
 	},
 	{
 		"modelId": "stanford-crfm/expanse-x777-checkpoint-400000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanfordnlp/CoreNLP",
@@ -81578,5 +81579,9 @@
 		"modelId": "Elron/bleurt-tiny-512",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "LARACHNIDE/DialogGPT-small-sw2",
+		"private": false
 	}
 ]
