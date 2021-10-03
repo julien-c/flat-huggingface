@@ -32182,11 +32182,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "defex/distilgpt2-generation-of-movie-reviews",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "dehio/question-generation",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -81326,7 +81321,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/declutr-s10-AR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "AnonymousSub/consert-s10-AR",
@@ -81401,5 +81397,33 @@
 		"modelId": "upskyy/kobart-summarization",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-sentiment",
+		"private": false
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-sentiment",
+		"private": false
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+		"private": false
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-sentiment",
+		"private": false
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-poetry",
+		"private": false
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-poetry",
+		"private": false
+	},
+	{
+		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-poetry",
+		"private": false
 	}
 ]
