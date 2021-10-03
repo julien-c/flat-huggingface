@@ -81488,7 +81488,8 @@
 	},
 	{
 		"modelId": "sankalptambe/layoutlmv2-finetuned-funsd-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Guyen/model_name",
@@ -81496,7 +81497,8 @@
 	},
 	{
 		"modelId": "Elron/bleurt-base-128",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Uvindu/Uvindu-chat-bot",
@@ -81512,6 +81514,10 @@
 	},
 	{
 		"modelId": "Elron/bleurt-large-512",
+		"private": false
+	},
+	{
+		"modelId": "Jungwoo/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
