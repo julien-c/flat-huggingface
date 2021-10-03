@@ -2367,7 +2367,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-poetry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-sentiment",
@@ -2386,7 +2387,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-poetry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-sentiment",
@@ -2405,7 +2407,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-poetry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
@@ -2434,7 +2437,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-poetry",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-quarter",
@@ -38167,6 +38171,10 @@
 		"modelId": "gniemiec/t5-small-finetuned-xsum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "gogamza/kobart-base-v2",
+		"private": false
 	},
 	{
 		"modelId": "gogamza/kobart-summarization",
