@@ -74296,11 +74296,13 @@
 	},
 	{
 		"modelId": "stanford-crfm/alias-x21-checkpoint-300000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/alias-x21-checkpoint-400000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/arwen-x21-checkpoint-100000",
@@ -74334,11 +74336,13 @@
 	},
 	{
 		"modelId": "stanford-crfm/battlestar-x49-checkpoint-300000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/battlestar-x49-checkpoint-400000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/beren-x49-checkpoint-100000",
@@ -74372,11 +74376,13 @@
 	},
 	{
 		"modelId": "stanford-crfm/caprica-x81-checkpoint-300000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/caprica-x81-checkpoint-400000",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-100000",
@@ -81511,7 +81517,8 @@
 	},
 	{
 		"modelId": "Elron/bleurt-large-128",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Elron/bleurt-large-512",
@@ -81546,5 +81553,27 @@
 		"modelId": "aditeyabaral/maple-distilbert-base-cased",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Transabrar/distilroberta-base-finetuned-corpusDS",
+		"private": false
+	},
+	{
+		"modelId": "Rajeev064/bert2gpt2",
+		"private": false
+	},
+	{
+		"modelId": "Elron/bleurt-tiny-128",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "GideonMcKinlay/PhoenixWrightBot",
+		"private": false
+	},
+	{
+		"modelId": "Elron/bleurt-tiny-512",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
