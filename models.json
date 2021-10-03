@@ -81458,6 +81458,12 @@
 	},
 	{
 		"modelId": "Ruizhou/bert-base-uncased-finetuned-mrpc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "kmfoda/trainer",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
