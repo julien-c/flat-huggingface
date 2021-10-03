@@ -35605,11 +35605,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "finiteautomata/beto-cased-news",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "finiteautomata/beto-emotion-analysis",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -81588,5 +81583,10 @@
 		"modelId": "upskyy/kobart-summarization-v2",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "finiteautomata/betonews-tweetcontext",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
