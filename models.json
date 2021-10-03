@@ -81306,10 +81306,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "charsiu/w2v2_FS_10ms",
-		"private": false
-	},
-	{
 		"modelId": "huggingartists/gizmo",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -81320,7 +81316,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/declutr-emanuals-s10-AR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingartists/bones",
@@ -81337,11 +81334,13 @@
 	},
 	{
 		"modelId": "AnonymousSub/cline-emanuals-s10-AR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "AnonymousSub/cline-s10-AR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "AnonymousSub/declutr-emanuals-s10-SR",
@@ -81378,7 +81377,11 @@
 		"private": false
 	},
 	{
-		"modelId": "charsiu/w2v2_fc_10ms",
+		"modelId": "charsiu/en_w2v2_fs_10ms",
+		"private": false
+	},
+	{
+		"modelId": "charsiu/en_w2v2_fc_10ms",
 		"private": false
 	}
 ]
