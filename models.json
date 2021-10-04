@@ -57189,21 +57189,6 @@
 		"private": false
 	},
 	{
-		"modelId": "kmfoda/my-awesome-model",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "kmfoda/t5-base",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "kmfoda/trainer",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "kmfoda/wav2vec2-large-xlsr-arabic",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -81792,7 +81777,8 @@
 	},
 	{
 		"modelId": "Maelstrom77/roberta-large-qqp",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "naram92/distilroberta-base-finetuned-wikitext2",
@@ -81800,6 +81786,22 @@
 	},
 	{
 		"modelId": "charsiu/en_w2v2_fs_32k",
+		"private": false
+	},
+	{
+		"modelId": "Narshion/bert-base-multilingual-cased-mwach",
+		"private": false
+	},
+	{
+		"modelId": "Maelstrom77/roberta-large-mrpc",
+		"private": false
+	},
+	{
+		"modelId": "charsiu/en_w2v2_fs_20ms",
+		"private": false
+	},
+	{
+		"modelId": "thorduragust/IceBERT-finetuned-ner",
 		"private": false
 	}
 ]
