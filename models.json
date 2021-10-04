@@ -81777,10 +81777,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "naram92/distilroberta-base-finetuned-wikitext2",
-		"private": false
-	},
-	{
 		"modelId": "charsiu/en_w2v2_fs_32k",
 		"private": false
 	},
@@ -81832,15 +81828,25 @@
 	},
 	{
 		"modelId": "bestvater/distilbert-kav-stance",
-		"private": false
-	},
-	{
-		"modelId": "diiogo/electra-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "mrm8488/electricidad-small-finetuned-medical-diagnostics",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "aditeyabaral/maple-bert-large-cased",
+		"private": false
+	},
+	{
+		"modelId": "gulumis/roberta-base-bne-finetuned-amazon_reviews_multi",
+		"private": false
+	},
+	{
+		"modelId": "naram92/distilroberta-base-finetuned-wikitext2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
