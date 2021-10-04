@@ -13604,10 +13604,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "JonatanGk/roberta-base-ca-finetuned-mnli",
-		"private": false
-	},
-	{
 		"modelId": "JonathanCmitchell/model_name",
 		"private": false
 	},
@@ -26049,7 +26045,8 @@
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-conll2003-with-neg-with-repeat",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "andi611/bert-large-uncased-whole-word-masking-squad2-with-ner-mit-movie-with-neg-with-repeat",
@@ -57192,10 +57189,6 @@
 		"private": false
 	},
 	{
-		"modelId": "kmfoda/colab_model",
-		"private": false
-	},
-	{
 		"modelId": "kmfoda/my-awesome-model",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -81794,10 +81787,19 @@
 	},
 	{
 		"modelId": "defex/distilgpt2-movie-review-generation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Maelstrom77/roberta-large-qqp",
+		"private": false
+	},
+	{
+		"modelId": "naram92/distilroberta-base-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "charsiu/en_w2v2_fs_32k",
 		"private": false
 	}
 ]
