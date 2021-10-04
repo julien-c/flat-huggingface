@@ -81809,7 +81809,7 @@
 	{
 		"modelId": "MagmaCubes1133/DialoGPT-large-rick",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Ferial/distilbert-base-uncased-finetuned-ner",
@@ -81829,5 +81829,18 @@
 		"modelId": "TuhinColumbia/QAGenmodelBARTELI5CC",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bestvater/distilbert-kav-stance",
+		"private": false
+	},
+	{
+		"modelId": "diiogo/electra-base",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/electricidad-small-finetuned-medical-diagnostics",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
