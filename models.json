@@ -81677,10 +81677,6 @@
 		"private": false
 	},
 	{
-		"modelId": "izumi-lab/test",
-		"private": false
-	},
-	{
 		"modelId": "anferico/bert-for-patents",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -81744,11 +81740,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "nucci/sv_pipeline",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "sarme/ReportQL-base",
 		"private": false
 	},
@@ -81764,5 +81755,28 @@
 	{
 		"modelId": "izumi-lab/electra-small-paper-japanese-discriminator-fin",
 		"private": false
+	},
+	{
+		"modelId": "izumi-lab/electra-small-paper-japanese-generator-fin",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "KBLab/swedish-spacy-pipeline",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "kmfoda/colab_model",
+		"private": false
+	},
+	{
+		"modelId": "izumi-lab/electra-small-japanese-discriminator",
+		"private": false
+	},
+	{
+		"modelId": "izumi-lab/electra-small-japanese-generator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
