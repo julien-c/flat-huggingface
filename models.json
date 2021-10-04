@@ -39764,11 +39764,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "grata-ml/description_generator",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "graviraja/covid_squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -81804,11 +81799,8 @@
 	},
 	{
 		"modelId": "thorduragust/IceBERT-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "Abdulrahman/ClassicAraBert",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "speechbrain/voxlingua107_ecapa",
@@ -81816,6 +81808,26 @@
 	},
 	{
 		"modelId": "MagmaCubes1133/DialoGPT-large-rick",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Ferial/distilbert-base-uncased-finetuned-ner",
 		"private": false
+	},
+	{
+		"modelId": "mrm8488/electricidad-base-finetuned-medical-diagnostics",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "TuhinColumbia/QAGenmodelBARTELI5CC",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
