@@ -81750,7 +81750,8 @@
 	},
 	{
 		"modelId": "Maelstrom77/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "izumi-lab/electra-small-paper-japanese-discriminator-fin",
@@ -81778,5 +81779,14 @@
 		"modelId": "izumi-lab/electra-small-japanese-generator",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "izumi-lab/electra-small-paper-japanese-generator",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "izumi-lab/electra-small-paper-japanese-discriminator",
+		"private": false
 	}
 ]
