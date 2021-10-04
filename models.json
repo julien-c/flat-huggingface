@@ -81740,18 +81740,29 @@
 	},
 	{
 		"modelId": "parthsinha/DialoGPT-small-rickandmorty",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "nucci/sv_pipeline",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "sarme/ReportQL-base",
 		"private": false
 	},
 	{
-		"modelId": "Kryptone/BunnyGirlRin",
+		"modelId": "Maelstrom77/bert-base-uncased-mnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Maelstrom77/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+		"private": false
+	},
+	{
+		"modelId": "izumi-lab/electra-small-paper-japanese-discriminator-fin",
 		"private": false
 	}
 ]
