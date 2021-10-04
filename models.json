@@ -81896,16 +81896,21 @@
 	},
 	{
 		"modelId": "Dawit/DialogGPT-small-ironman",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "MrE/DialoGPT-medium-SARGE",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "JonatanGk/roberta-base-ca-finetuned-cyberbullying-catalan",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bashar/distilbert-base-uncased-finetuned-ner",
+		"private": false
 	}
 ]
