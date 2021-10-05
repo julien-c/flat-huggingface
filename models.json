@@ -33792,6 +33792,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "eliza-dukim/roberta-large-second",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "elliotsmith/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -82059,11 +82064,44 @@
 	},
 	{
 		"modelId": "naram92/distilgpt2-finetuned-mydata",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-0",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-1",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ppx/123",
+		"private": false
+	},
+	{
+		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-3",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-4",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "andi611/bert-large-uncased-whole-word-masking-ner-conll2003",
+		"private": false
+	},
+	{
+		"modelId": "speechbrain/si-snr-estimator",
+		"private": false
 	}
 ]
