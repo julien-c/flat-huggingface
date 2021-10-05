@@ -81983,7 +81983,20 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "tunib/electra-ko-wp-32k-large",
+		"private": false
+	},
+	{
 		"modelId": "mrp/simcse-model-distil-m-bert",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "mrp/simcse-model-m-bert-thai-cased",
+		"private": false
+	},
+	{
+		"modelId": "mrp/simcse-model-roberta-base-thai",
 		"private": false
 	}
 ]
