@@ -15189,7 +15189,8 @@
 	},
 	{
 		"modelId": "MariamD/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "MarianaSahagun/testmodel",
@@ -82130,7 +82131,8 @@
 	},
 	{
 		"modelId": "ueb1/IceBERT-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Fiddi/distilbert-base-uncased-finetuned-ner",
@@ -82140,5 +82142,14 @@
 		"modelId": "rgr4y/DialoGPT-small-antivax",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "inywer/DialoGPT-small-awazimuruk",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "ueb1/XLMR-ENIS-finetuned-ner",
+		"private": false
 	}
 ]
