@@ -13626,7 +13626,8 @@
 	},
 	{
 		"modelId": "JonatanGk/roberta-base-ca-finetuned-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "JonathanCmitchell/model_name",
@@ -13649,14 +13650,6 @@
 		"modelId": "Jonesy/DialoGPT-small",
 		"private": false,
 		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Jonesy/DialoGPT-small_JT",
-		"private": false
-	},
-	{
-		"modelId": "Jonesy/JohnnyTest",
-		"private": false
 	},
 	{
 		"modelId": "Jonghyun/model_test",
@@ -82092,10 +82085,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "muhtasham/TajBERTo",
-		"private": false
-	},
-	{
 		"modelId": "lucia/distilbert-base-cased-finetuned",
 		"private": false
 	},
@@ -82127,6 +82116,10 @@
 	},
 	{
 		"modelId": "PurpleJacketGuy/DialoGPT-small-jarvis",
+		"private": false
+	},
+	{
+		"modelId": "muhtasham/TajBERTo",
 		"private": false
 	}
 ]
