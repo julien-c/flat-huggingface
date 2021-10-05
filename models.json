@@ -30563,11 +30563,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "chrommium/my-awesome-model5",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "chrommium/rubert-base-cased-sentence-finetuned-headlines_X",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -57163,11 +57158,6 @@
 		"private": false
 	},
 	{
-		"modelId": "khalidsaifullaah/gpt2-bn-oscar",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "khalidsaifullaah/roberta-bengali-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -82130,8 +82120,17 @@
 		"private": false
 	},
 	{
-		"modelId": "Kryptone/Rin",
+		"modelId": "Kryptone/RinAI",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "jaeyoung/klue_mln_train_only_train",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "PurpleJacketGuy/DialoGPT-small-jarvis",
+		"private": false
 	}
 ]
