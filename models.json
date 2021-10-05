@@ -14336,11 +14336,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Kryptone/Rin",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "Kryptone/monikAI-Unstable",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -32888,6 +32883,10 @@
 	},
 	{
 		"modelId": "diiogo/arabert-utils",
+		"private": false
+	},
+	{
+		"modelId": "diiogo/electra-base",
 		"private": false
 	},
 	{
@@ -81917,10 +81916,6 @@
 		"private": false
 	},
 	{
-		"modelId": "belenaguirre/bigbird-pegasus-large-bigpatent-finetuned-xsum",
-		"private": false
-	},
-	{
 		"modelId": "huggingtweets/beaniemaxi-loopifyyy-punk6529",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -81944,10 +81939,6 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-v2",
-		"private": false
-	},
-	{
-		"modelId": "belenaguirre/pegasus-xsum-finetuned-xsum",
 		"private": false
 	},
 	{
@@ -81991,7 +81982,8 @@
 	},
 	{
 		"modelId": "thorduragust/XLMR-ENIS-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "nielsr/trocr-large-printed",
@@ -81999,6 +81991,52 @@
 	},
 	{
 		"modelId": "inywer/DialogGPT-small-awazimuruk",
+		"private": false
+	},
+	{
+		"modelId": "adalbertojunior/test-128-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "SkolkovoInstitute/roberta_toxicity_classifier",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ThomasSimonini/stable-baselines3-a2c-LunarLander-v2",
+		"private": false
+	},
+	{
+		"modelId": "sisi/tuniberto",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-pretrained-demo",
+		"private": false
+	},
+	{
+		"modelId": "Kryptone/Rin",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "jaeyoung/klue_mln_train",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "mosesmulwa/DialoGPT-small-harry_potter",
+		"private": false
+	},
+	{
+		"modelId": "muhtasham/TajBERTo",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "nlp-en-es/roberta-base-bne-finetuned-sqac",
 		"private": false
 	}
 ]
