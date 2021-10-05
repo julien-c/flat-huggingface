@@ -81847,6 +81847,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "AhmedBou/TuniBert",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "keenyou/bert-base-uncased-finetuned-swag",
 		"private": false
 	},
@@ -81857,7 +81862,8 @@
 	},
 	{
 		"modelId": "chrommium/sbert_large-finetuned-sent_in_news_sents_3lab",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huggingface-course/code-search-net-tokenizer",
