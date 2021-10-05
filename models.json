@@ -1588,7 +1588,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/declutr-s10-SR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "AnonymousSub/declutr-techqa",
@@ -81965,7 +81966,8 @@
 	},
 	{
 		"modelId": "LenaT/distilgpt2-finetuned-wikitext2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "nielsr/trocr-large-handwritten",
@@ -81981,6 +81983,10 @@
 	},
 	{
 		"modelId": "ThomasSimonini/test",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/trocr-base-printed",
 		"private": false
 	}
 ]
