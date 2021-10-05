@@ -1549,7 +1549,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/consert-s10-SR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "AnonymousSub/consert-techqa",
@@ -82037,6 +82038,32 @@
 	},
 	{
 		"modelId": "nlp-en-es/roberta-base-bne-finetuned-sqac",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "mosesmulwa/DialoGPT-small-harry_potter1",
 		"private": false
+	},
+	{
+		"modelId": "ThomasSimonini/stable-baselines3-ppo-LunarLander-v2",
+		"private": false
+	},
+	{
+		"modelId": "mosesmulwa/DialoGPT-small-harry_potter2",
+		"private": false
+	},
+	{
+		"modelId": "mosesmulwa/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "naram92/distilgpt2-finetuned-mydata",
+		"private": false
+	},
+	{
+		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-0",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
