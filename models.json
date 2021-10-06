@@ -30047,11 +30047,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "carloronsi/test_qna_ita",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "carlota/foreclosure_test_1",
 		"private": false
 	},
@@ -82242,38 +82237,56 @@
 	},
 	{
 		"modelId": "CLTL/icf-levels-att",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-ber",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-enr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-etn",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-fac",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-ins",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-mbw",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CLTL/icf-levels-stm",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Nokia/nlgp-natural",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "cointegrated/rut5-base-quiz",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "mmoradi/Robust-Biomed-RoBERTa-RelationClassification",
 		"private": false
 	}
 ]
