@@ -1110,6 +1110,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Akashamba/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "Akashpb13/xlsr_maltese_wav2vec2",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -2509,6 +2513,56 @@
 	{
 		"modelId": "CLS/WubiBERT_models",
 		"private": false
+	},
+	{
+		"modelId": "CLTL/icf-domains",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-adm",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-att",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-ber",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-enr",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-etn",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-fac",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-ins",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-mbw",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "CLTL/icf-levels-stm",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CM-CA/Cartman",
@@ -12706,6 +12760,11 @@
 		"pipeline_tag": "translation"
 	},
 	{
+		"modelId": "Helsinki-NLP/opus-tatoeba-en-tr",
+		"private": false,
+		"pipeline_tag": "translation"
+	},
+	{
 		"modelId": "Helsinki-NLP/opus-tatoeba-es-zh",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -12967,6 +13026,11 @@
 	},
 	{
 		"modelId": "HungChau/bert_concept_extraction_iir_from_kp20k_v1.0",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "HungChau/bert_concept_extraction_iir_from_kp20k_v1.1",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
@@ -13596,6 +13660,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Joanna88/Quenya",
+		"private": false
+	},
+	{
 		"modelId": "Jodsa/camembert_clf",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -14039,6 +14107,14 @@
 		"modelId": "Kail91/DialoGPT-small-PeraltaBot",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Kaivalya2107/WizardBot",
+		"private": false
+	},
+	{
+		"modelId": "Kaivalya2107/YerAWizard",
+		"private": false
 	},
 	{
 		"modelId": "KakoSi/Smolmm3",
@@ -15094,6 +15170,10 @@
 		"private": false
 	},
 	{
+		"modelId": "MahmoodQa/1",
+		"private": false
+	},
+	{
 		"modelId": "Mahnoud/gpen",
 		"private": false
 	},
@@ -15214,6 +15294,10 @@
 	},
 	{
 		"modelId": "Margarita/ArmBERTa1",
+		"private": false
+	},
+	{
+		"modelId": "MariamD/distilbert-base-uncased-finetuned-legal_data",
 		"private": false
 	},
 	{
@@ -17060,6 +17144,16 @@
 		"modelId": "NoLawz/DialoGPT-medium-spongebob",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Nokia/nlgp-docstring",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Nokia/nlgp-natural",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Noman/layoutlmv2",
@@ -23153,6 +23247,10 @@
 		"modelId": "Wikidepia/marian-nmt-enid",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Wikidepia/quartznet-indonesian",
+		"private": false
 	},
 	{
 		"modelId": "WikinewsSum/bart-large-cnn-multi-en-wiki-news",
@@ -31148,6 +31246,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "cointegrated/rut5-base-quiz",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "cointegrated/rut5-base",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -33015,6 +33118,10 @@
 		"private": false
 	},
 	{
+		"modelId": "diyoraharsh06/model_name",
+		"private": false
+	},
+	{
 		"modelId": "djstrong/bg_cs_pl_ru_cased_L-12_H-768_A-12",
 		"private": false
 	},
@@ -33976,6 +34083,16 @@
 	{
 		"modelId": "enelpi/med-electra-small-discriminator",
 		"private": false
+	},
+	{
+		"modelId": "enelpol/poleval2021-task2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "enelpol/poleval2021-task3",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "enimai/specter_double_attention",
@@ -42567,6 +42684,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/nautilus-pompilius",
+		"private": false
+	},
+	{
 		"modelId": "huggingartists/nervy",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -42770,6 +42891,11 @@
 	},
 	{
 		"modelId": "huggingartists/the-velvet-underground",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/the-weeknd",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -44951,6 +45077,11 @@
 	},
 	{
 		"modelId": "huggingtweets/clovizio",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/clwsr",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -51624,6 +51755,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/restrictedwop",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/reverse_city",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -55022,6 +55158,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "jaeyoung/klue_mln_train_alldata",
+		"private": false
+	},
+	{
 		"modelId": "jaeyoung/klue_mln_train_only_train",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -55836,6 +55976,11 @@
 	{
 		"modelId": "jinmang2/roberta-ko-ner",
 		"private": false
+	},
+	{
+		"modelId": "jinmang2/roberta-large-re-tapt-20300",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "jinmang2/textcnn-ko-dialect-classifier",
@@ -61638,6 +61783,10 @@
 		"private": false
 	},
 	{
+		"modelId": "mmoradi/Robust-Biomed-RoBERTa-RelationClassification",
+		"private": false
+	},
+	{
 		"modelId": "mnaylor/base-bert-finetuned-mtsamples",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -66526,6 +66675,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "pashin/DialoGPT-small-ironman2",
+		"private": false
+	},
+	{
 		"modelId": "patricklai14/tapt_citation",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -69579,6 +69732,10 @@
 		"private": false
 	},
 	{
+		"modelId": "risingodegua/hate-speech-detector",
+		"private": false
+	},
+	{
 		"modelId": "riteshpatil732/mobileappdevelopment",
 		"private": false
 	},
@@ -70603,6 +70760,10 @@
 		"modelId": "sankalptambe/layoutlmv2-finetuned-funsd-test",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "sankalptambe/layoutlmv2-finetuned-funsd-v2",
+		"private": false
 	},
 	{
 		"modelId": "santhoshkolloju/ans_gen",
@@ -72764,6 +72925,10 @@
 		"private": false
 	},
 	{
+		"modelId": "shokiokita/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "shonuff/DialoGPT-medium-konosuba",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -73063,6 +73228,10 @@
 	},
 	{
 		"modelId": "sirpkkarisa/finalyear-bert-model",
+		"private": false
+	},
+	{
+		"modelId": "sisi/tunberto_ar",
 		"private": false
 	},
 	{
@@ -76074,6 +76243,10 @@
 		"private": false
 	},
 	{
+		"modelId": "suzuki/my-new-shiny-tokenizer",
+		"private": false
+	},
+	{
 		"modelId": "sv/gpt2-finetuned-nft-shakes-seuss-2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -78051,6 +78224,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "tscholak/1wnr382e",
+		"private": false
+	},
+	{
 		"modelId": "tscholak/2e826ioa",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -78302,6 +78479,11 @@
 		"modelId": "typeform/squeezebert-mnli",
 		"private": false,
 		"pipeline_tag": "zero-shot-classification"
+	},
+	{
+		"modelId": "tyqiangz/indobert-lite-large-p2-smsa",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "tyqiangz/xlm-roberta-base-finetuned-chaii",
@@ -78830,6 +79012,10 @@
 		"modelId": "urduhack/roberta-urdu-small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "usami/distilbert-base-uncased-finetuned-squad",
+		"private": false
 	},
 	{
 		"modelId": "userSE075/news_class",
@@ -80095,7 +80281,21 @@
 		"private": false
 	},
 	{
+		"modelId": "wbmitcast/bermodel01",
+		"private": false
+	},
+	{
 		"modelId": "wbmitcast/bert_finetuning_test_0925",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "wbmitcast/mymode03",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "wbmitcast/mymodel04",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -81088,6 +81288,10 @@
 		"modelId": "yosuke/bert-base-japanese-char",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "yougang/t5-small-finetuned-xsum",
+		"private": false
 	},
 	{
 		"modelId": "young/BertForFinance",
@@ -82113,206 +82317,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "usami/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "yougang/t5-small-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "jinmang2/roberta-large-re-tapt-20300",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "MahmoodQa/1",
-		"private": false
-	},
-	{
-		"modelId": "shokiokita/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/clwsr",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "huggingtweets/restrictedwop",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "CLTL/icf-domains",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wbmitcast/bermodel01",
-		"private": false
-	},
-	{
-		"modelId": "enelpol/poleval2021-task3",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "suzuki/my-new-shiny-tokenizer",
-		"private": false
-	},
-	{
-		"modelId": "tyqiangz/indobert-lite-large-p2-smsa",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Kaivalya2107/WizardBot",
-		"private": false
-	},
-	{
-		"modelId": "Helsinki-NLP/opus-tatoeba-en-tr",
-		"private": false,
-		"pipeline_tag": "translation"
-	},
-	{
-		"modelId": "CLTL/icf-levels-adm",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wbmitcast/mymode03",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "pashin/DialoGPT-small-ironman2",
-		"private": false
-	},
-	{
-		"modelId": "Kaivalya2107/YerAWizard",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/nautilus-pompilius",
-		"private": false
-	},
-	{
-		"modelId": "enelpol/poleval2021-task2",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "wbmitcast/mymodel04",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Wikidepia/quartznet-indonesian",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/the-weeknd",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "sankalptambe/layoutlmv2-finetuned-funsd-v2",
-		"private": false
-	},
-	{
-		"modelId": "MariamD/distilbert-base-uncased-finetuned-legal_data",
-		"private": false
-	},
-	{
-		"modelId": "diyoraharsh06/model_name",
-		"private": false
-	},
-	{
-		"modelId": "CLTL/icf-levels-att",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-ber",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-enr",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-etn",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-fac",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-ins",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-mbw",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "CLTL/icf-levels-stm",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Nokia/nlgp-natural",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "cointegrated/rut5-base-quiz",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "mmoradi/Robust-Biomed-RoBERTa-RelationClassification",
-		"private": false
-	},
-	{
-		"modelId": "tscholak/1wnr382e",
-		"private": false
-	},
-	{
-		"modelId": "Nokia/nlgp-docstring",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Akashamba/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "risingodegua/hate-speech-detector",
-		"private": false
-	},
-	{
-		"modelId": "HungChau/bert_concept_extraction_iir_from_kp20k_v1.1",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "sisi/tunberto_ar",
-		"private": false
-	},
-	{
-		"modelId": "Joanna88/Quenya",
 		"private": false
 	}
 ]
