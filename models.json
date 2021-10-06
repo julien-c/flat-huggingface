@@ -82395,15 +82395,12 @@
 	},
 	{
 		"modelId": "castorini/afriberta_base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "castorini/afriberta_large",
-		"private": false
-	},
-	{
-		"modelId": "Kryptone/MarijAI",
 		"private": false,
-		"pipeline_tag": "conversational"
+		"pipeline_tag": "fill-mask"
 	}
 ]
