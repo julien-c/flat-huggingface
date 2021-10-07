@@ -82553,7 +82553,8 @@
 	},
 	{
 		"modelId": "Transabrar/distilroberta-base-finetuned-abr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "huggingartists/sum-41",
@@ -82575,6 +82576,15 @@
 	},
 	{
 		"modelId": "nateraw/deleteme-test-model-repo",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/fnet-large-finetuned-stsb",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Morfeo/bert-base-uncased-finetuned-swag",
 		"private": false
 	}
 ]
