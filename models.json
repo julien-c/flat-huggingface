@@ -59013,7 +59013,8 @@
 	},
 	{
 		"modelId": "lincoln/barthez-squadFR-fquad-piaf-question-generation",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "lincoln/flaubert-mlsum-topic-classification",
@@ -64533,7 +64534,8 @@
 	},
 	{
 		"modelId": "nateraw/keras-cats-vs-dogs",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "nateraw/keras-dummy-functional-demo",
@@ -82541,6 +82543,10 @@
 	},
 	{
 		"modelId": "bonebambi/DialoGPT-small-arthurmorgan",
+		"private": false
+	},
+	{
+		"modelId": "dkurt/openvino-openai-gpt",
 		"private": false
 	}
 ]
