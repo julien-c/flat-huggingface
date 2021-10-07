@@ -549,6 +549,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Abolior/audiobot",
+		"private": false
+	},
+	{
 		"modelId": "AbyV/test",
 		"private": false
 	},
@@ -14897,6 +14901,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Lurka/DialoGPT-medium-kon",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "Luyu/bert-base-mdoc-bm25",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -16537,6 +16546,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Mona/DialoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "Monerok/gerger",
 		"private": false
 	},
@@ -16560,6 +16574,14 @@
 	},
 	{
 		"modelId": "MoonJae/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "Morfeo/distilgpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Morfeo/distilroberta-base-finetuned-wikitext2",
 		"private": false
 	},
 	{
@@ -20827,6 +20849,11 @@
 	{
 		"modelId": "Sawaki/gpt2-QD",
 		"private": false
+	},
+	{
+		"modelId": "Saz/DialoGPT-small-paimon",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Schnosch/DialoGPT-small-harrypotter",
@@ -27176,9 +27203,19 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "arjunth2001/priv_ftc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "arjunth2001/priv_qna",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "arjunth2001/priv_sum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "arjunv786/a-fancy-model-name",
@@ -29532,6 +29569,11 @@
 		"private": false
 	},
 	{
+		"modelId": "bs-modeling-metadata/website_metadata_exp_1_model_100k_checkpoint",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "bsc/roberta-base-ca-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -30498,6 +30540,10 @@
 		"modelId": "cfisicaro/distilbert-base-uncased-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "cgawron/vit-base-beans",
+		"private": false
 	},
 	{
 		"modelId": "chain/yoloyolo",
@@ -41712,6 +41758,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "hiiamsid/est5-base-qg",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "hiiamsid/est5-base",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -42275,6 +42326,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingartists/bryan-adams",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingartists/burzum",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -42561,6 +42617,11 @@
 	{
 		"modelId": "huggingartists/krept-and-konan-bugzy-malone-sl-morisson-abra-cadabra-rv-and-snap-capone",
 		"private": false
+	},
+	{
+		"modelId": "huggingartists/kurt-cobain",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists/lady-gaga",
@@ -42935,6 +42996,11 @@
 	},
 	{
 		"modelId": "huggingartists/the-king-and-the-jester",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/the-sugarcubes",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -54964,6 +55030,11 @@
 		"private": false
 	},
 	{
+		"modelId": "inywer/DialoGPT-medium-ettengiv",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "inywer/DialoGPT-medium-leirbag",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -56996,6 +57067,16 @@
 		"pipeline_tag": "structured-data-classification"
 	},
 	{
+		"modelId": "juliensimon/autonlp-imdb-sentiment-analysis-15862661",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "juliensimon/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "julioburgos/xlm-roberta-base",
 		"private": false
 	},
@@ -57160,6 +57241,11 @@
 	},
 	{
 		"modelId": "jxuhf/roberta-base-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "k-partha/bert_extravert_bio",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -58925,6 +59011,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "lincoln/barthez-squadFR-fquad-piaf-question-generation",
+		"private": false
+	},
+	{
 		"modelId": "lincoln/flaubert-mlsum-topic-classification",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -60656,6 +60746,10 @@
 		"private": false
 	},
 	{
+		"modelId": "maureengatu/maize_leaf_disease_classifier",
+		"private": false
+	},
+	{
 		"modelId": "maurice/PolitBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -61845,7 +61939,23 @@
 		"private": false
 	},
 	{
+		"modelId": "mmoradi/Robust-Biomed-RoBERTa-QuestionAnswering",
+		"private": false
+	},
+	{
 		"modelId": "mmoradi/Robust-Biomed-RoBERTa-RelationClassification",
+		"private": false
+	},
+	{
+		"modelId": "mmoradi/Robust-Biomed-RoBERTa-SemanticSimilarity",
+		"private": false
+	},
+	{
+		"modelId": "mmoradi/Robust-Biomed-RoBERTa-TextClassification",
+		"private": false
+	},
+	{
+		"modelId": "mmoradi/Robust-Biomed-RoBERTa-TextualInference",
 		"private": false
 	},
 	{
@@ -67660,6 +67770,26 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "philschmid/BERT-Banking77",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "philschmid/BERT-tweet-eval-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "philschmid/DistilBERT-Banking77",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "philschmid/DistilBERT-tweet-eval-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "philschmid/Infinity_cpu_MiniLM_L6_H384_uncased_sst2",
 		"private": false
 	},
@@ -67669,6 +67799,11 @@
 	},
 	{
 		"modelId": "philschmid/MiniLM-L6-H384-uncased-sst2",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "philschmid/RoBERTa-Banking77",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -67893,6 +68028,10 @@
 		"modelId": "piyushdubey/DialoGPT-Mi",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "pjallais/SentimentAnalysis",
+		"private": false
 	},
 	{
 		"modelId": "pkoiralap/bert-e",
@@ -76322,6 +76461,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "svanhvit/XLMR-ENIS-finetuned-ner-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "sven1977/test_model",
 		"private": false
 	},
@@ -77644,6 +77787,10 @@
 		"private": false
 	},
 	{
+		"modelId": "theta/person_type_zh",
+		"private": false
+	},
+	{
 		"modelId": "thetlwin/DialoGPT-small-ironman",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -77808,6 +77955,10 @@
 	},
 	{
 		"modelId": "timshen/test",
+		"private": false
+	},
+	{
+		"modelId": "timslams666/DialoGPT-small-rick",
 		"private": false
 	},
 	{
@@ -80402,6 +80553,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "whatsai/k2t-test3",
+		"private": false
+	},
+	{
 		"modelId": "whher/german-gpt2-romantik",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -82387,157 +82542,7 @@
 		"private": false
 	},
 	{
-		"modelId": "k-partha/bert_extravert_bio",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "arjunth2001/priv_sum",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "inywer/DialoGPT-medium-ettengiv",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "arjunth2001/priv_ftc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Saz/DialoGPT-small-paimon",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "juliensimon/dummy-model",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "huggingartists/bryan-adams",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "hiiamsid/est5-base-qg",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "bs-modeling-metadata/website_metadata_exp_1_model_100k_checkpoint",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "mmoradi/Robust-Biomed-RoBERTa-QuestionAnswering",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/kurt-cobain",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "theta/person_type_zh",
-		"private": false
-	},
-	{
-		"modelId": "maureengatu/maize_leaf_disease_classifier",
-		"private": false
-	},
-	{
-		"modelId": "mmoradi/Robust-Biomed-RoBERTa-SemanticSimilarity",
-		"private": false
-	},
-	{
-		"modelId": "svanhvit/XLMR-ENIS-finetuned-ner-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "juliensimon/autonlp-imdb-sentiment-analysis-15862661",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Morfeo/distilgpt2-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "whatsai/k2t-test3",
-		"private": false
-	},
-	{
-		"modelId": "huggingartists/the-sugarcubes",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "cgawron/vit-base-beans",
-		"private": false
-	},
-	{
-		"modelId": "Mona/DialoGPT-small-harrypotter",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Morfeo/distilroberta-base-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "mmoradi/Robust-Biomed-RoBERTa-TextClassification",
-		"private": false
-	},
-	{
-		"modelId": "mmoradi/Robust-Biomed-RoBERTa-TextualInference",
-		"private": false
-	},
-	{
-		"modelId": "lincoln/barthez-squadFR-fquad-piaf-question-generation",
-		"private": false
-	},
-	{
-		"modelId": "philschmid/BERT-Banking77",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "philschmid/RoBERTa-Banking77",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "philschmid/DistilBERT-Banking77",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "philschmid/DistilBERT-tweet-eval-emotion",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "pjallais/SentimentAnalysis",
-		"private": false
-	},
-	{
-		"modelId": "philschmid/BERT-tweet-eval-emotion",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Abolior/audiobot",
-		"private": false
-	},
-	{
-		"modelId": "gb-developer/DialoGPT-small-harry1",
-		"private": false
-	},
-	{
-		"modelId": "timslams666/DialoGPT-small-rick",
+		"modelId": "fuliucansheng/smallscript",
 		"private": false
 	}
 ]
