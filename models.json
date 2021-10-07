@@ -82612,7 +82612,8 @@
 	},
 	{
 		"modelId": "Lurka/DialoGPT-medium-isseibot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "suzuki/distilbert-base-uncased-finetuned-ner",
@@ -82620,6 +82621,15 @@
 	},
 	{
 		"modelId": "unicamp-dl/multilingual-MiniLM-L6-v2-en-msmarco",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Trixzy/DialoGPT-small-rick1",
+		"private": false
+	},
+	{
+		"modelId": "suzuki/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
