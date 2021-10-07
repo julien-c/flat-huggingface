@@ -14903,7 +14903,7 @@
 	{
 		"modelId": "Lurka/DialoGPT-medium-kon",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Luyu/bert-base-mdoc-bm25",
@@ -77959,7 +77959,8 @@
 	},
 	{
 		"modelId": "timslams666/DialoGPT-small-rick",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "titusbensigar/model_name",
@@ -82542,7 +82543,12 @@
 		"private": false
 	},
 	{
-		"modelId": "fuliucansheng/smallscript",
+		"modelId": "fuliucansheng/small_tools",
 		"private": false
+	},
+	{
+		"modelId": "sisi/tunibert_ar",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
