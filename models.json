@@ -82428,7 +82428,8 @@
 	},
 	{
 		"modelId": "bs-modeling-metadata/website_metadata_exp_1_model_100k_checkpoint",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "mmoradi/Robust-Biomed-RoBERTa-QuestionAnswering",
@@ -82454,6 +82455,11 @@
 	{
 		"modelId": "svanhvit/XLMR-ENIS-finetuned-ner-finetuned-ner",
 		"private": false
+	},
+	{
+		"modelId": "juliensimon/autonlp-imdb-sentiment-analysis-15862661",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Morfeo/distilgpt2-finetuned-wikitext2",
@@ -82507,5 +82513,23 @@
 		"modelId": "philschmid/DistilBERT-Banking77",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "philschmid/DistilBERT-tweet-eval-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "pjallais/SentimentAnalysis",
+		"private": false
+	},
+	{
+		"modelId": "philschmid/BERT-tweet-eval-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Abolior/audiobot",
+		"private": false
 	}
 ]
