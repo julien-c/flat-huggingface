@@ -82603,7 +82603,8 @@
 	},
 	{
 		"modelId": "unicamp-dl/mt5-base-en-msmarco",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "suzuki/distilgpt2-finetuned-wikitext2",
@@ -82611,6 +82612,14 @@
 	},
 	{
 		"modelId": "Lurka/DialoGPT-medium-isseibot",
+		"private": false
+	},
+	{
+		"modelId": "suzuki/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "unicamp-dl/multilingual-MiniLM-L6-v2-en-msmarco",
 		"private": false
 	}
 ]
