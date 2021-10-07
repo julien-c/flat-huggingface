@@ -55785,6 +55785,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "jgammack/bert-base-uncased-eam",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "jgammack/eam-paraphraser",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
@@ -82626,7 +82631,8 @@
 	},
 	{
 		"modelId": "Trixzy/DialoGPT-small-rick1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "suzuki/distilbert-base-uncased-finetuned-squad",
