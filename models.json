@@ -64383,11 +64383,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "naram92/distilgpt2-finetuned-mydata",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "naram92/distilgpt2-finetuned-wikitext2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -82595,6 +82590,7 @@
 	},
 	{
 		"modelId": "naram92/all-mpnet-base-v2-finetuned-mydata",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
