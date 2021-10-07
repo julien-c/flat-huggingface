@@ -58146,7 +58146,8 @@
 	},
 	{
 		"modelId": "lagodw/plotly_gpt_neo_1_3B",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lagodw/reddit_bert",
@@ -78656,15 +78657,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "tyoyo/bbpmt5ja-base-real-estate-qa",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "tyoyo/bbpmt5ja-large-real-estate-qa",
-		"private": false
-	},
-	{
 		"modelId": "typeform/distilbert-base-uncased-mnli",
 		"private": false,
 		"pipeline_tag": "zero-shot-classification"
@@ -82550,5 +82542,9 @@
 		"modelId": "sisi/tunibert_ar",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "bonebambi/DialoGPT-small-arthurmorgan",
+		"private": false
 	}
 ]
