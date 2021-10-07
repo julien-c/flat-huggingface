@@ -58737,10 +58737,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "lhbonifacio/mt5-base-multi-msmarco",
-		"private": false
-	},
-	{
 		"modelId": "lhoestq/distilbert-base-uncased-finetuned-absa-as",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -82594,10 +82590,19 @@
 	},
 	{
 		"modelId": "Andrija/SRoBERTa-F",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "suzuki/bert-base-cased-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "suzuki/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "unicamp-dl/mt5-base-en-msmarco",
 		"private": false
 	}
 ]
