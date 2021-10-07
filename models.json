@@ -82613,7 +82613,7 @@
 	{
 		"modelId": "Lurka/DialoGPT-medium-isseibot",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "suzuki/distilbert-base-uncased-finetuned-ner",
@@ -82630,6 +82630,14 @@
 	},
 	{
 		"modelId": "suzuki/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "suzuki/bert-base-uncased-finetuned-swag",
+		"private": false
+	},
+	{
+		"modelId": "naram92/all-mpnet-base-v2-finetuned-mydata",
 		"private": false
 	}
 ]
