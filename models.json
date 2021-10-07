@@ -15316,7 +15316,8 @@
 	},
 	{
 		"modelId": "MariamD/distilbert-base-uncased-finetuned-legal_data",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "MariamD/distilbert-base-uncased-finetuned-squad",
@@ -82586,5 +82587,10 @@
 	{
 		"modelId": "Morfeo/bert-base-uncased-finetuned-swag",
 		"private": false
+	},
+	{
+		"modelId": "pashin/DialoGPT-small-ironman-2",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
