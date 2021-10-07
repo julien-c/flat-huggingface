@@ -4187,6 +4187,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Emran/ClinicalBERT_ICD10_Categories",
+		"private": false
+	},
+	{
 		"modelId": "Enes3774/gpt",
 		"private": false
 	},
@@ -23029,6 +23033,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "VincentButterfield/DialoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "Vinhngx/norwegian-roberta-base",
 		"private": false
 	},
@@ -27162,6 +27171,16 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "arjun3816/autonlp-sam_summarization1-15492651",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "arjunth2001/priv_qna",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "arjunv786/a-fancy-model-name",
 		"private": false
 	},
@@ -27708,12 +27727,22 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "aubmindlab/bert-base-arabertv02-twitter",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "aubmindlab/bert-base-arabertv02",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "aubmindlab/bert-base-arabertv2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "aubmindlab/bert-large-arabertv02-twitter",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -30179,6 +30208,21 @@
 	{
 		"modelId": "casinobike/online_gambling",
 		"private": false
+	},
+	{
+		"modelId": "castorini/afriberta_base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "castorini/afriberta_large",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "castorini/afriberta_small",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "castorini/ance-dpr-context-multi",
@@ -55994,6 +56038,11 @@
 		"private": false
 	},
 	{
+		"modelId": "jinmang2/roberta-large-klue-re-tapt-vocab50004",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "jinmang2/roberta-large-re-tapt-20300",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -58012,6 +58061,10 @@
 	},
 	{
 		"modelId": "lagodw/plotly_gpt_neo1_3B",
+		"private": false
+	},
+	{
+		"modelId": "lagodw/plotly_gpt_neo_1_3B",
 		"private": false
 	},
 	{
@@ -63040,6 +63093,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "mrm8488/clinical-roberta-base-spanish-finetuned-diagnostics",
+		"private": false
+	},
+	{
 		"modelId": "mrm8488/codeBERTaJS",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -63412,6 +63469,10 @@
 		"modelId": "mrm8488/roberta-base-1B-1-finetuned-squadv2",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "mrm8488/roberta-base-biomedical-spanish-diagnostics",
+		"private": false
 	},
 	{
 		"modelId": "mrm8488/roberta-base-bne-finetuned-sqac",
@@ -76724,6 +76785,30 @@
 		"private": false
 	},
 	{
+		"modelId": "tau/luna-base-1024",
+		"private": false
+	},
+	{
+		"modelId": "tau/luna-base-16384",
+		"private": false
+	},
+	{
+		"modelId": "tau/luna-base-2048",
+		"private": false
+	},
+	{
+		"modelId": "tau/luna-base-32768",
+		"private": false
+	},
+	{
+		"modelId": "tau/luna-base-4096",
+		"private": false
+	},
+	{
+		"modelId": "tau/luna-base-8192",
+		"private": false
+	},
+	{
 		"modelId": "tau/scrolls-tokenizer",
 		"private": false
 	},
@@ -82338,85 +82423,5 @@
 	{
 		"modelId": "zzclynn/bert_test",
 		"private": false
-	},
-	{
-		"modelId": "aubmindlab/bert-base-arabertv02-twitter",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "mrm8488/clinical-roberta-base-spanish-finetuned-diagnostics",
-		"private": false
-	},
-	{
-		"modelId": "aubmindlab/bert-large-arabertv02-twitter",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "mrm8488/roberta-base-biomedical-spanish-diagnostics",
-		"private": false
-	},
-	{
-		"modelId": "lagodw/plotly_gpt_neo_1_3B",
-		"private": false
-	},
-	{
-		"modelId": "tau/luna-base-1024",
-		"private": false
-	},
-	{
-		"modelId": "tau/luna-base-2048",
-		"private": false
-	},
-	{
-		"modelId": "tau/luna-base-4096",
-		"private": false
-	},
-	{
-		"modelId": "tau/luna-base-8192",
-		"private": false
-	},
-	{
-		"modelId": "tau/luna-base-16384",
-		"private": false
-	},
-	{
-		"modelId": "tau/luna-base-32768",
-		"private": false
-	},
-	{
-		"modelId": "jinmang2/roberta-large-klue-re-tapt-vocab50004",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "castorini/afriberta_small",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "castorini/afriberta_base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "castorini/afriberta_large",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Emran/ClinicalBERT_ICD10_Categories",
-		"private": false
-	},
-	{
-		"modelId": "VincentButterfield/DialoGPT-small-harrypotter",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "arjunth2001/priv_qna",
-		"private": false,
-		"pipeline_tag": "question-answering"
 	}
 ]
