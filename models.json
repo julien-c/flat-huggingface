@@ -37395,7 +37395,8 @@
 	},
 	{
 		"modelId": "formermagic/codet5-xl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "formermagic/codet5x-base",
@@ -55147,7 +55148,8 @@
 	},
 	{
 		"modelId": "izumi-lab/bert-small-japanese",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "izumi-lab/electra-small-japanese-discriminator",
@@ -82657,5 +82659,9 @@
 		"modelId": "k-partha/decision_bert_bio",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "francoMG/sara-qa",
+		"private": false
 	}
 ]
