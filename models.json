@@ -33200,6 +33200,10 @@
 		"private": false
 	},
 	{
+		"modelId": "diiogo/arabert-base",
+		"private": false
+	},
+	{
 		"modelId": "diiogo/arabert-utils",
 		"private": false
 	},
@@ -82880,10 +82884,20 @@
 	},
 	{
 		"modelId": "finiteautomata/betonews-bodycontext",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "tscholak/3vnuv1vf",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "huggingartists/yung-lean",
+		"private": false
+	},
+	{
+		"modelId": "Laezor/DialoGPT-small-yakuza_0",
 		"private": false
 	}
 ]
