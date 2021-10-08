@@ -82629,7 +82629,13 @@
 		"private": false
 	},
 	{
-		"modelId": "k-partha/bert_extravert_bio",
-		"private": false
+		"modelId": "jgammack/eam-paraphraser",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "k-partha/extrabert_bio",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
