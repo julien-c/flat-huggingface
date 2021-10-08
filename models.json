@@ -55142,7 +55142,8 @@
 	},
 	{
 		"modelId": "izumi-lab/bert-small-japanese-fin",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "izumi-lab/bert-small-japanese",
@@ -82640,10 +82641,21 @@
 	},
 	{
 		"modelId": "raynardj/roberta-pubmed",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2",
 		"private": false
+	},
+	{
+		"modelId": "k-partha/curiosity_bert_bio",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "k-partha/decision_bert_bio",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
