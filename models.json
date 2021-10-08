@@ -33201,7 +33201,8 @@
 	},
 	{
 		"modelId": "diiogo/arabert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "diiogo/arabert-utils",
@@ -40207,6 +40208,11 @@
 		"modelId": "gpt2-adstext/gpt2-adstext",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "grata-ml/description_generator",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "graviraja/covid_squad",
@@ -82866,7 +82872,8 @@
 	},
 	{
 		"modelId": "svanhvit/XLMR-ENIS-finetuned-conll_ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Ujjawal/bert-base-uncased-finetuned-resume",
@@ -82894,10 +82901,12 @@
 	},
 	{
 		"modelId": "huggingartists/yung-lean",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Laezor/DialoGPT-small-yakuza_0",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
