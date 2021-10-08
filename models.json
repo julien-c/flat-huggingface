@@ -21434,6 +21434,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Sunbird/sunbird-en-lg",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Sunnydx/BillCipher",
 		"private": false
 	},
@@ -33200,15 +33205,6 @@
 		"private": false
 	},
 	{
-		"modelId": "diiogo/arabert-base",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "diiogo/arabert-utils",
-		"private": false
-	},
-	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -40208,11 +40204,6 @@
 		"modelId": "gpt2-adstext/gpt2-adstext",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "grata-ml/description_generator",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "graviraja/covid_squad",
@@ -82908,5 +82899,9 @@
 		"modelId": "Laezor/DialoGPT-small-yakuza_0",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/the-notorious-big",
+		"private": false
 	}
 ]
