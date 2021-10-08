@@ -14576,10 +14576,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Laezor/DiabloGPT-small-witcher",
-		"private": false
-	},
-	{
 		"modelId": "Lalita/marianmt-th-zh_cn",
 		"private": false,
 		"pipeline_tag": "translation"
@@ -82828,10 +82824,19 @@
 	},
 	{
 		"modelId": "recobo/agriculture-bert-uncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Roberta55/my-new-shiny-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-large-repro-960h-libri-120k-steps",
+		"private": false
+	},
+	{
+		"modelId": "ami-wav2vec2/ami_model_dummy",
 		"private": false
 	}
 ]
