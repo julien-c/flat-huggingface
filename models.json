@@ -33220,10 +33220,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "diiogo/roberta-wiki",
-		"private": false
-	},
-	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -83009,7 +83005,7 @@
 	{
 		"modelId": "rayschwartz/my-classification-text",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "gchhablani/fnet-large-finetuned-cola-copy",
@@ -83040,7 +83036,8 @@
 	},
 	{
 		"modelId": "Whitez/DialoGPT-small-twety",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingtweets/bitfinexed",
