@@ -31383,12 +31383,12 @@
 	{
 		"modelId": "cointegrated/rubert-base-cased-nli-twoway",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "cointegrated/rubert-tiny-bilingual-nli",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "cointegrated/rubert-tiny-sentiment-balanced",
@@ -82980,6 +82980,14 @@
 	},
 	{
 		"modelId": "risingodegua/scikit-learn-models",
+		"private": false
+	},
+	{
+		"modelId": "savior/bert-model",
+		"private": false
+	},
+	{
+		"modelId": "savior/bert-model-a",
 		"private": false
 	}
 ]
