@@ -62942,7 +62942,7 @@
 	{
 		"modelId": "mra1ster/DialoGPT_scully_small",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "mrhamry/bert-base-uncased-finetuned-squad",
@@ -74967,7 +74967,7 @@
 	{
 		"modelId": "srirachasenpai/DialoGPT-medium-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "srosy/distilbert-base-uncased-finetuned-ner",
@@ -82907,7 +82907,8 @@
 		"private": false
 	},
 	{
-		"modelId": "Wikidepia/indobert-lite-puncrestore",
-		"private": false
+		"modelId": "Wikidepia/id-restore-punctuation",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
