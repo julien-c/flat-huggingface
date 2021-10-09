@@ -69563,6 +69563,11 @@
 		"private": false
 	},
 	{
+		"modelId": "rayschwartz/classifier",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "razent/SciFive-base-PMC",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -83004,8 +83009,7 @@
 	},
 	{
 		"modelId": "rayschwartz/my-classification-text",
-		"private": false,
-		"pipeline_tag": "text-classification"
+		"private": false
 	},
 	{
 		"modelId": "gchhablani/fnet-large-finetuned-cola-copy",
@@ -83037,7 +83041,7 @@
 	{
 		"modelId": "Whitez/DialoGPT-small-twety",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "huggingtweets/bitfinexed",
