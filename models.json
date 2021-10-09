@@ -82934,6 +82934,12 @@
 	},
 	{
 		"modelId": "mse30/bart-base-finetuned-cnn",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "mse30/bart-base-finetuned-multinews",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
