@@ -77119,11 +77119,6 @@
 		"private": false
 	},
 	{
-		"modelId": "tau/led-16384",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "tau/led-2048",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -83079,5 +83074,10 @@
 	{
 		"modelId": "bigscience/tr8b-104B-logs",
 		"private": false
+	},
+	{
+		"modelId": "tau/led-base-16384",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
