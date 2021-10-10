@@ -83129,7 +83129,8 @@
 	},
 	{
 		"modelId": "ruriko/konoaqua",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "nitumarch/Big-small-harrypotter",
@@ -83177,6 +83178,15 @@
 	},
 	{
 		"modelId": "Transabrar/roberta-large-finetuned-abr",
+		"private": false
+	},
+	{
+		"modelId": "GKLMIP/bert-myanmar-small-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "GKLMIP/bert-myanmar-base-uncased",
 		"private": false
 	}
 ]
