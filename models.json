@@ -22639,18 +22639,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Transabrar/distilroberta-base-finetuned-bero",
-		"private": false
-	},
-	{
-		"modelId": "Transabrar/distilroberta-base-finetuned-corpus101",
-		"private": false
-	},
-	{
-		"modelId": "Transabrar/distilroberta-base-finetuned-corpusDS",
-		"private": false
-	},
-	{
 		"modelId": "TrimPeachu/Deadpool",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -41960,7 +41948,8 @@
 	},
 	{
 		"modelId": "hiiii23/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "himanshu-dutta/pycoder-gpt2",
@@ -83132,5 +83121,9 @@
 		"modelId": "ruriko/bacqua",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "ruriko/konoaqua",
+		"private": false
 	}
 ]
