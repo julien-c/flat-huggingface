@@ -22949,6 +22949,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -83169,5 +83174,9 @@
 		"modelId": "seamew/Hotel_bert_d1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Transabrar/roberta-large-finetuned-abr",
+		"private": false
 	}
 ]
