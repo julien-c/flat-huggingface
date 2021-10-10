@@ -83266,7 +83266,8 @@
 	},
 	{
 		"modelId": "KringleClaus/Dialog-santa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "nateraw/quickdraw-model",
@@ -83292,5 +83293,9 @@
 		"modelId": "armheb/DNA_bert_3",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "mse30/bart-base-finetuned-arxiv",
+		"private": false
 	}
 ]
