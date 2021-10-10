@@ -83103,7 +83103,8 @@
 	},
 	{
 		"modelId": "ruriko/konodio",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "radhikasethi2011/indic-bert-finetuned-wikitext2",
@@ -83115,11 +83116,13 @@
 	},
 	{
 		"modelId": "gchhablani/fnet-large-finetuned-cola-copy4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "JonatanGk/roberta-base-bne-finetuned-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "tidy/detect",
@@ -83127,6 +83130,7 @@
 	},
 	{
 		"modelId": "ruriko/bacqua",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	}
 ]
