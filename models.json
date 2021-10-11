@@ -554,6 +554,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Abi9x/DiabloGPT-large-Axel",
+		"private": false
+	},
+	{
 		"modelId": "Abolior/audiobot",
 		"private": false
 	},
@@ -31690,6 +31694,10 @@
 		"private": false
 	},
 	{
+		"modelId": "cosmic/Rick",
+		"private": false
+	},
+	{
 		"modelId": "cosmicray001/prod-harry",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -34582,11 +34590,6 @@
 	{
 		"modelId": "espejelomar/dummy",
 		"private": false
-	},
-	{
-		"modelId": "espejelomar/fastai_dummy",
-		"private": false,
-		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "espejelomar/s-BETO",
@@ -55738,32 +55741,7 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-BC2GM",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-euadr",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-renet",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-BC2GM",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-NCBI-disease",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "jambo/biobert-base-cased-v1.1-finetuned-euadr",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -57443,11 +57421,6 @@
 		"modelId": "julien-c/wine-quality",
 		"private": false,
 		"pipeline_tag": "structured-data-classification"
-	},
-	{
-		"modelId": "juliensimon/autonlp-imdb-sentiment-analysis-15862661",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "juliensimon/dummy-model",
@@ -60925,6 +60898,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "manu/layoutxlm-finetuned-illuin-sw220",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -61903,6 +61881,26 @@
 		"modelId": "microsoft/prophetnet-large-uncased",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "microsoft/trocr-base-handwritten",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/trocr-base-printed",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/trocr-base-stage1",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/trocr-large-handwritten",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/trocr-large-printed",
+		"private": false
 	},
 	{
 		"modelId": "microsoft/unihanlm-base",
@@ -69611,6 +69609,10 @@
 		"private": false
 	},
 	{
+		"modelId": "radhikasethi2011/distilgpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
 		"modelId": "radhikasethi2011/indic-bert-finetuned-wikitext2",
 		"private": false
 	},
@@ -70867,6 +70869,10 @@
 		"modelId": "saattrupdan/nbailab-base-ner-scandi",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-sent-scandi",
+		"private": false
 	},
 	{
 		"modelId": "sabhi/t5-base-qa-qg",
@@ -74198,6 +74204,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "siti/Venom-2-Film-StreamingOnline",
+		"private": false
+	},
+	{
 		"modelId": "sivavee-train/iac-v1",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -77402,6 +77412,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "tanishqg5325/matscibert",
+		"private": false
+	},
+	{
 		"modelId": "tankhead200/J123897",
 		"private": false
 	},
@@ -77602,6 +77616,11 @@
 		"modelId": "tau/splinter-large",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "tau/t5-v1.1-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "tau/t5-v1_1-large-rss",
@@ -80025,7 +80044,20 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "usami/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "usami/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "usami/model2",
+		"private": false
+	},
+	{
+		"modelId": "usami/model_name",
 		"private": false
 	},
 	{
@@ -81165,6 +81197,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "w11wo/indonesian-roberta-base-smsa-voc-adapt-lm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "w11wo/javanese-bert-small-imdb-classifier",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -81515,6 +81552,10 @@
 	},
 	{
 		"modelId": "woolee/nlptest",
+		"private": false
+	},
+	{
+		"modelId": "woosukji/kogpt2-resume",
 		"private": false
 	},
 	{
@@ -82712,6 +82753,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "zgotter/gpt2-test",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "zgotter/test",
 		"private": false
 	},
@@ -82775,6 +82821,10 @@
 	},
 	{
 		"modelId": "zhaochongshan/bert_cn_finetunning",
+		"private": false
+	},
+	{
+		"modelId": "zhaojiwang/gpt2-wikitext2",
 		"private": false
 	},
 	{
@@ -83327,82 +83377,8 @@
 		"private": false
 	},
 	{
-		"modelId": "zhaojiwang/gpt2-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "zgotter/gpt2-test",
+		"modelId": "espejelomar/fastai-pet-breeds-classification",
 		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Abi9x/DiabloGPT-large-Axel",
-		"private": false
-	},
-	{
-		"modelId": "radhikasethi2011/distilgpt2-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "microsoft/trocr-base-printed",
-		"private": false
-	},
-	{
-		"modelId": "microsoft/trocr-large-printed",
-		"private": false
-	},
-	{
-		"modelId": "microsoft/trocr-base-stage1",
-		"private": false
-	},
-	{
-		"modelId": "microsoft/trocr-base-handwritten",
-		"private": false
-	},
-	{
-		"modelId": "microsoft/trocr-large-handwritten",
-		"private": false
-	},
-	{
-		"modelId": "manu/layoutxlm-finetuned-illuin-sw220",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "cosmic/Rick",
-		"private": false
-	},
-	{
-		"modelId": "usami/model_name",
-		"private": false
-	},
-	{
-		"modelId": "w11wo/indonesian-roberta-base-smsa-voc-adapt-lm",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "usami/model2",
-		"private": false
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-sent-scandi",
-		"private": false
-	},
-	{
-		"modelId": "usami/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "siti/Venom-2-Film-StreamingOnline",
-		"private": false
-	},
-	{
-		"modelId": "woosukji/kogpt2-resume",
-		"private": false
-	},
-	{
-		"modelId": "tanishqg5325/matscibert",
-		"private": false
+		"pipeline_tag": "image-classification"
 	}
 ]
