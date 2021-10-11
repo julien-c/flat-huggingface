@@ -83218,7 +83218,8 @@
 	},
 	{
 		"modelId": "JonatanGk/roberta-base-ca-finetuned-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Lazaro97/results",
@@ -83307,7 +83308,7 @@
 	{
 		"modelId": "unicamp-dl/translation-pt-en-t5",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "jogonba2/bart-JES-xsum",
@@ -83334,7 +83335,7 @@
 	{
 		"modelId": "unicamp-dl/translation-en-pt-t5",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "suwani/BERT_NER_Ep5_PAD_75-finetuned-ner",
