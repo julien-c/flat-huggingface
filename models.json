@@ -31696,7 +31696,7 @@
 	{
 		"modelId": "cosmic/DialoGPT-Rick",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "cosmic/Rick",
@@ -59408,7 +59408,8 @@
 	},
 	{
 		"modelId": "lincoln/camembert-squadFR-fquad-piaf-answer-extraction",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "lincoln/flaubert-mlsum-topic-classification",
@@ -70896,7 +70897,8 @@
 	},
 	{
 		"modelId": "saattrupdan/nbailab-base-sent-scandi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "sabhi/t5-base-qa-qg",
@@ -83240,6 +83242,10 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
+		"private": false
+	},
+	{
+		"modelId": "nikhilpatil2532000/DialoGPT-small-harrypotter",
 		"private": false
 	}
 ]
