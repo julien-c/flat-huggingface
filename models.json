@@ -74660,7 +74660,8 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad",
@@ -83387,6 +83388,11 @@
 	},
 	{
 		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-deepGDAE",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "snc/sk_tag_web_md",
 		"private": false
 	}
 ]
