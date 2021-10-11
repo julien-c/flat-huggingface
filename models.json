@@ -83245,6 +83245,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "hongjehong/hjh_kobart_summarizer",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "maximedb/test",
 		"private": false
 	},
@@ -83255,5 +83260,18 @@
 	{
 		"modelId": "V3RX2000/distilbert-base-uncased-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "microsoft/unispeech-large-1500h-cv",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/unispeech-large-multi-lingual-1500h-cv",
+		"private": false
+	},
+	{
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-deepGDAE-snp-data-binary",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
