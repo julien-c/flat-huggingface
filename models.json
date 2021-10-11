@@ -83251,7 +83251,8 @@
 	},
 	{
 		"modelId": "saattrupdan/nbailab-base-sent-scandi-only-scandeval-datasets",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "V3RX2000/distilbert-base-uncased-finetuned-squad",
@@ -83308,16 +83309,15 @@
 		"private": false
 	},
 	{
-		"modelId": "jogonba2/bart-JES-xsum",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "bigscience/T0_11B",
 		"private": false
 	},
 	{
 		"modelId": "Emran/ClinicalBERT_ICD10_Categories2",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-sent-scandi-with-all-datasets",
 		"private": false
 	}
 ]
