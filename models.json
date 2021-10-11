@@ -71711,10 +71711,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sd/model_name",
-		"private": false
-	},
-	{
 		"modelId": "sdfghdfh/xvxdfhbdfjhn",
 		"private": false
 	},
@@ -83331,10 +83327,12 @@
 	},
 	{
 		"modelId": "suwani/BERT_NER_Ep5-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "unicamp-dl/translation-en-pt-t5",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
