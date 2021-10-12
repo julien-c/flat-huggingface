@@ -55884,16 +55884,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-deepGDAE-snp-data-binary-finetuned-CustomGAD",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-deepGDAE-snp-data-binary",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-deepGDAE",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -83510,5 +83500,19 @@
 		"modelId": "S34NtheGuy/DialoGPT-small-Harry282",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "sisi/tun_trans_final",
+		"private": false
+	},
+	{
+		"modelId": "jambo/microsoftBio-snp-customGene",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jambo/microsoftBio-snp",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
