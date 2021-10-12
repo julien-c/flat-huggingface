@@ -4227,10 +4227,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Emran/ClinicalBERT_ICD10_Categories2",
-		"private": false
-	},
-	{
 		"modelId": "Enes3774/gpt",
 		"private": false
 	},
@@ -13528,7 +13524,8 @@
 	},
 	{
 		"modelId": "Jacobo/grc_bert_base_greek",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Jacobo/grc_bert_multilingual_perseus",
@@ -83542,7 +83539,8 @@
 	},
 	{
 		"modelId": "yliu337/t5_fillmask_src_hyp_format",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "bespin-global/klue-roberta-large-mrc",
@@ -83563,6 +83561,14 @@
 	},
 	{
 		"modelId": "cambridgeltl/mbert-lang-sft-hau-small",
+		"private": false
+	},
+	{
+		"modelId": "scottykwok/wav2vec2-large-xlsr-cantonese",
+		"private": false
+	},
+	{
+		"modelId": "Emran/ClinicalBERT_ICD10_Full",
 		"private": false
 	}
 ]
