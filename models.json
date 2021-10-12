@@ -56844,20 +56844,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "jogonba2/POCTS",
-		"private": false,
-		"pipeline_tag": "summarization"
-	},
-	{
-		"modelId": "jogonba2/bart-JES-cnn_dailymail",
-		"private": false
-	},
-	{
-		"modelId": "jogonba2/bart-JES-xsum",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "jogp10/DialoGPT-medium-arya",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -83531,11 +83517,29 @@
 	},
 	{
 		"modelId": "Ayran/DialoGPT-small-harry-potter-1-through-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "jambo/microsoftBio-snp-finetuned-customChemical",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "MM98/bert-base-parsbert-uncased-finetuned-summary",
+		"private": false
+	},
+	{
+		"modelId": "MM98/mt5-small-finetuned-summary",
+		"private": false
+	},
+	{
+		"modelId": "adit94/paper_classification_test",
+		"private": false
+	},
+	{
+		"modelId": "jogonba2/bart-JES-cnndm",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
