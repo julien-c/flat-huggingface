@@ -21367,10 +21367,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "SoLID/EVIL-Assembly",
-		"private": false
-	},
-	{
 		"modelId": "Soapsy/DialoGPT-mid-cartman",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -83386,10 +83382,16 @@
 	},
 	{
 		"modelId": "edmondz/layoutlmv2-finetuned-funsd-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "THUMT/mGPT",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "shokiokita/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	}
 ]
