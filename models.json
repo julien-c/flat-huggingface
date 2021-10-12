@@ -1915,7 +1915,8 @@
 	},
 	{
 		"modelId": "Ayran/DialoGPT-medium-harry-potter-1-through-3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Ayran/DialoGPT-small-gandalf",
@@ -56350,11 +56351,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "jgammack/eam-paraphraser",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "jgammack/mtl-bert-base-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -83569,6 +83565,22 @@
 	},
 	{
 		"modelId": "Emran/ClinicalBERT_ICD10_Full",
+		"private": false
+	},
+	{
+		"modelId": "MM98/mt5-small-finetuned-summary",
+		"private": false
+	},
+	{
+		"modelId": "MM98/mt5-small-finetuned-summary-2",
+		"private": false
+	},
+	{
+		"modelId": "ken11/mbart-ja-en",
+		"private": false
+	},
+	{
+		"modelId": "Tvk18/WIKI_BOT",
 		"private": false
 	}
 ]
