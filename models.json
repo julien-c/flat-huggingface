@@ -55884,16 +55884,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-deepGDAE",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-renet",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "jamesmark/mark",
 		"private": false
 	},
@@ -83512,6 +83502,16 @@
 	},
 	{
 		"modelId": "jambo/microsoftBio-snp",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jambo/microsoftBio-renet",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jambo/microsoftBio-deepGDAE_GAD",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
