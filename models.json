@@ -83351,7 +83351,23 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "alvinkobe/DialoGPT-medium-KST",
-		"private": false
+		"modelId": "alvinkobe/DialoGPT-small-KST",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "woolee/fine_tuned_example_model",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "swapnil165/DialoGPT-small-Rick",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "V3RX2000/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
