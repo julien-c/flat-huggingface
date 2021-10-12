@@ -23035,6 +23035,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -83328,6 +83333,25 @@
 	},
 	{
 		"modelId": "jogonba2/bart-JES-xsum",
+		"private": false
+	},
+	{
+		"modelId": "SoLID/sgd-response-generator",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "KENNETHFOO/DialoGPT-medium-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "aditeyabaral/distilbert-hinglish-big",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "alvinkobe/DialoGPT-medium-KST",
 		"private": false
 	}
 ]
