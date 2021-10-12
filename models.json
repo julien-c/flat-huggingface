@@ -15179,11 +15179,6 @@
 		"private": false
 	},
 	{
-		"modelId": "MM98/mt5-small-finetuned-summary",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "MM98/t5-small-finetuned-xsum",
 		"private": false
 	},
@@ -26498,7 +26493,8 @@
 	},
 	{
 		"modelId": "ami-wav2vec2/ami-dummy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
