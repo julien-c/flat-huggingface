@@ -73533,7 +73533,8 @@
 	},
 	{
 		"modelId": "shokiokita/distilbert-base-uncased-finetuned-mrpc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "shokiokita/distilbert-base-uncased-finetuned-squad",
@@ -83416,6 +83417,11 @@
 	},
 	{
 		"modelId": "gauravtripathy/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bond-007/notimetodie",
 		"private": false
 	}
 ]
