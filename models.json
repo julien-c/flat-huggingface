@@ -19020,6 +19020,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "SAPOSS/password-model",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "SCS/Fine-tuned-JCSD",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -83426,7 +83431,8 @@
 	},
 	{
 		"modelId": "brandon25/deberta-base-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2-finetuned-squad-v2",
@@ -83444,5 +83450,14 @@
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_12102021",
 		"private": false
+	},
+	{
+		"modelId": "mamlong34/t5_large_race_cosmos_qa",
+		"private": false
+	},
+	{
+		"modelId": "Helsinki-NLP/opus-tatoeba-en-ja",
+		"private": false,
+		"pipeline_tag": "translation"
 	}
 ]
