@@ -26501,10 +26501,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ami-wav2vec2/ami_model_dummy",
-		"private": false
-	},
-	{
 		"modelId": "amild01/GPT2-german-chefkoch",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -74806,7 +74802,8 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_12102021",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad",
@@ -82217,27 +82214,12 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "yliu337/nonfilter_maskQA",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "yliu337/noun_chunker",
 		"private": false,
 		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "yliu337/sliding_window_token_both_ctx",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "yliu337/t5_maskQA",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "yliu337/t5_neg_filter_bothcontext",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -83550,15 +83532,28 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "ScRUFFYBuNNY/DialoGPT-small-RickBot",
-		"private": false
-	},
-	{
 		"modelId": "cambridgeltl/mbert-lang-sft-en-small",
 		"private": false
 	},
 	{
 		"modelId": "cambridgeltl/mbert-task-sft-masakhaner",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/xlmr-task-sft-nli",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-500-samples",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ami-wav2vec2/ami_vocab_and_preprocessing",
+		"private": false
+	},
+	{
+		"modelId": "yliu337/t5_fillmask_src_hyp_format",
 		"private": false
 	}
 ]
