@@ -13520,8 +13520,7 @@
 	},
 	{
 		"modelId": "Jacobo/grc_bert_multilingual_perseus",
-		"private": false,
-		"pipeline_tag": "token-classification"
+		"private": false
 	},
 	{
 		"modelId": "Jacobo/grc_ud_perseus_lg",
@@ -83376,6 +83375,16 @@
 	},
 	{
 		"modelId": "bespin-global/klue-bert-base-mrc",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "V3RX2000/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "edmondz/layoutlmv2-finetuned-funsd-test",
 		"private": false
 	}
 ]
