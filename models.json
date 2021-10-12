@@ -83493,7 +83493,8 @@
 	},
 	{
 		"modelId": "sisi/tun_trans_final",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "jambo/microsoftBio-snp-customGene",
@@ -83525,6 +83526,16 @@
 	},
 	{
 		"modelId": "jinbbong/koelectra-esg-e5",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Ayran/DialoGPT-small-harry-potter-1-through-3",
 		"private": false
+	},
+	{
+		"modelId": "jambo/microsoftBio-snp-finetuned-customChemical",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
