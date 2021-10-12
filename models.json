@@ -23034,6 +23034,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "UBIAI/en_scibert_ScienceIE",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "UWB-AIR/Czert-A-base-uncased",
 		"private": false
 	},
@@ -83327,7 +83332,8 @@
 	},
 	{
 		"modelId": "jogonba2/bart-JES-xsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "SoLID/sgd-response-generator",
@@ -83380,6 +83386,10 @@
 	},
 	{
 		"modelId": "edmondz/layoutlmv2-finetuned-funsd-test",
+		"private": false
+	},
+	{
+		"modelId": "THUMT/mGPT",
 		"private": false
 	}
 ]
