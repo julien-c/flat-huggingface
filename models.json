@@ -65000,7 +65000,8 @@
 	},
 	{
 		"modelId": "nadzma/T5-base-French-financial-news-summarization",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "naiyalee/DialoGPT-small-neku",
@@ -83527,11 +83528,6 @@
 		"private": false
 	},
 	{
-		"modelId": "bespin-global/klue-roberta-large",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "cambridgeltl/mbert-lang-sft-en-small",
 		"private": false
 	},
@@ -83554,6 +83550,15 @@
 	},
 	{
 		"modelId": "yliu337/t5_fillmask_src_hyp_format",
+		"private": false
+	},
+	{
+		"modelId": "bespin-global/klue-roberta-large-mrc",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "SauravMaheshkar/chaii-bert-multi-cased-finetuned-xquadv1",
 		"private": false
 	}
 ]
