@@ -18636,6 +18636,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Razan/QAIDeptModel",
+		"private": false
+	},
+	{
 		"modelId": "Razor/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -20716,11 +20720,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "Sahajtomar/GELECTRAQA",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "Sahajtomar/German_Zeroshot",
 		"private": false,
 		"pipeline_tag": "zero-shot-classification"
@@ -20732,11 +20731,6 @@
 	},
 	{
 		"modelId": "Sahajtomar/french_semantic",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "Sahajtomar/sts-GBERT-de",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
@@ -21797,6 +21791,11 @@
 		"modelId": "T-Systems-onsite/mt5-small-sum-de-en-v2",
 		"private": false,
 		"pipeline_tag": "summarization"
+	},
+	{
+		"modelId": "THUMT/mGPT",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "TIgb/girlfriend_uwu",
@@ -23656,10 +23655,6 @@
 		"modelId": "WikinewsSum/t5-base-with-title-multi-fr-wiki-news",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Willie/YOlOv5_yellow_strips",
-		"private": false
 	},
 	{
 		"modelId": "Williwaw/prac",
@@ -30507,6 +30502,10 @@
 		"modelId": "canwenxu/evil_gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "caoxu/BERT-4layer-en",
+		"private": false
 	},
 	{
 		"modelId": "caps1994/DialoGPT-small-chrisbot-caps1994",
@@ -41588,6 +41587,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "heejun/t5-small-finetuned-xsum",
+		"private": false
+	},
+	{
 		"modelId": "hegdeashwin/test-model",
 		"private": false
 	},
@@ -41609,6 +41612,10 @@
 	},
 	{
 		"modelId": "heliart/LegalTech_classifier",
+		"private": false
+	},
+	{
+		"modelId": "heliart/PhishingEmailGeneration",
 		"private": false
 	},
 	{
@@ -58320,6 +58327,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-squad",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "kloon99/KML_Software_License_v1",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -59890,6 +59902,11 @@
 	{
 		"modelId": "loredanaiamnitchi/proiect_lft",
 		"private": false
+	},
+	{
+		"modelId": "loubau/WoBERT",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "louwjlab/distilbert-base-uncased-finetuned-squad",
@@ -71222,14 +71239,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "s4sarath/Albert",
-		"private": false
-	},
-	{
-		"modelId": "s4sarath/malayalam",
-		"private": false
-	},
-	{
 		"modelId": "saafpk/saafpk",
 		"private": false
 	},
@@ -73111,6 +73120,11 @@
 	},
 	{
 		"modelId": "serdarakyol/interpress-turkish-news-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "serenay/autonlp-Emotion-14722565",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -79444,6 +79458,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "ttop324/kogpt2jnovel",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "ttop324/kogpt2novel",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -83625,21 +83644,73 @@
 		"private": false
 	},
 	{
-		"modelId": "heejun/t5-small-finetuned-xsum",
+		"modelId": "pritoms/gpt-neo-2.7B-finetuned-wikitext2",
 		"private": false
 	},
 	{
-		"modelId": "THUMT/mGPT",
+		"modelId": "tftransformers/albert-base-v2",
+		"private": false
+	},
+	{
+		"modelId": "daveripper0020/essaygpt2",
+		"private": false
+	},
+	{
+		"modelId": "pritoms/gpt-neo-1.3B-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "pritoms/gpt2-large-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "oppdagelseoo/Ver-Venom-2-2021-pelicula-COMPLETA-en-espanol-latino",
+		"private": false
+	},
+	{
+		"modelId": "erwanln/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Emran/ClinicalBERT_ICD10_Full_200_epoch",
+		"private": false
+	},
+	{
+		"modelId": "smallbenchnlp/BERT-small",
+		"private": false
+	},
+	{
+		"modelId": "sciarrilli/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "tekodukunnangendiseh/thjtghfgj",
+		"private": false
+	},
+	{
+		"modelId": "sciarrilli/biobert-base-cased-v1.2-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "huggingartists/andre-3000",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "caoxu/BERT-4layer-en",
-		"private": false
+		"modelId": "jgammack/EAM-sentence-embedder",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "ttop324/kogpt2jnovel",
+		"modelId": "Sahajtomar/German-semantic",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "Sahajtomar/German-question-answer-Electra",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
