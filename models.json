@@ -2213,11 +2213,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "BigSalmon/Parentheses",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "BigSalmon/PhraseBerta",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -83600,5 +83595,15 @@
 	{
 		"modelId": "s4sarath/Albert",
 		"private": false
+	},
+	{
+		"modelId": "BigSalmon/FormalBerta",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "BigSalmon/ParaphraseParentheses",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
