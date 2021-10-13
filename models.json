@@ -29199,6 +29199,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "bigscience/T0p_11B",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "bigscience/T0pp_11B",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -83689,11 +83694,6 @@
 		"private": false
 	},
 	{
-		"modelId": "saattrupdan/verdict-classifier-trinary",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "GKLMIP/roberta-hindi-devanagari",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -84027,5 +84027,14 @@
 	{
 		"modelId": "joyebright/Top6-without-mixing",
 		"private": false
+	},
+	{
+		"modelId": "athar/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/verdict-classifier-en",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
