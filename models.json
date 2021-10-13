@@ -29089,11 +29089,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "bespin-global/klue-roberta-large-mrc",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "bestminerevah/DialoGPT-small-thetenthdoctor",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -83758,7 +83753,8 @@
 	},
 	{
 		"modelId": "Craig/paraphrase-MiniLM-L6-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "feature-extraction"
 	},
 	{
 		"modelId": "LoganKilpatrick/BasicFluxjlModel",
@@ -83772,5 +83768,9 @@
 		"modelId": "srirachasenpai/DialoGPT-medium-harrypotter",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Ganesh/nderstand",
+		"private": false
 	}
 ]
