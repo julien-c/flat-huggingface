@@ -79044,7 +79044,8 @@
 	},
 	{
 		"modelId": "toasthans/Test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "toastynews/electra-hongkongese-base-discriminator",
@@ -83635,5 +83636,10 @@
 	{
 		"modelId": "caoxu/BERT-4layer-en",
 		"private": false
+	},
+	{
+		"modelId": "ttop324/kogpt2jnovel",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
