@@ -83793,7 +83793,7 @@
 	{
 		"modelId": "MrGentle/DialoGPT-Delta",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "SauravMaheshkar/xlm-multi-roberta-large-chaii",
@@ -83964,10 +83964,19 @@
 	},
 	{
 		"modelId": "SauravMaheshkar/distilbert-multi-finetuned-for-xqua-on-chaii",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "joyebright/Top2-with-mixing",
+		"private": false
+	},
+	{
+		"modelId": "joyebright/Top3-with-mixing",
+		"private": false
+	},
+	{
+		"modelId": "joyebright/Top4-with-mixing",
 		"private": false
 	}
 ]
