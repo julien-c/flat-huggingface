@@ -15586,7 +15586,8 @@
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-13-10-en-to-ar",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-dummyData-10-10-ar-to-en",
@@ -57719,7 +57720,8 @@
 	},
 	{
 		"modelId": "joyebright/Top1-with-without-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top2-with-mixing",
@@ -84112,6 +84114,10 @@
 	},
 	{
 		"modelId": "yugasa/yugasabot",
+		"private": false
+	},
+	{
+		"modelId": "patrickxchong/bert-tiny-bahasa-cased-sentiment",
 		"private": false
 	}
 ]
