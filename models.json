@@ -84161,7 +84161,8 @@
 	},
 	{
 		"modelId": "Luciano/bert-base-portuguese-cased-finetuned-tcu-acordaos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "Rajnish/summary",
@@ -84173,6 +84174,23 @@
 	},
 	{
 		"modelId": "smallbenchnlp/bert-small",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "saattrupdan/verdict-classifier-trinary",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/verdict-classifier",
+		"private": false
+	},
+	{
+		"modelId": "sontn122/checkpoint-1000-finetuned-squad-v2_14102021",
+		"private": false
+	},
+	{
+		"modelId": "sontn122/checkpoint-1000-finetuned-squad-v2_14102021_1",
 		"private": false
 	}
 ]
