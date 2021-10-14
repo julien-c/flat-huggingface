@@ -33852,7 +33852,8 @@
 	},
 	{
 		"modelId": "dhtocks/tunib-electra-stereotype-classifier",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "di6ora/BERT",
@@ -57721,39 +57722,48 @@
 	},
 	{
 		"modelId": "joyebright/Top2-with-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top2-without-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top3-with-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top3-without-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top4-with-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top4-without-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top5-with-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top5-without-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top6-with-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "joyebright/Top6-without-mixing",
@@ -84110,11 +84120,6 @@
 		"private": false
 	},
 	{
-		"modelId": "patrickxchong/bert-tiny-bahasa-cased-sentiment",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "GUOKP/spam_model",
 		"private": false
 	},
@@ -84146,7 +84151,8 @@
 	},
 	{
 		"modelId": "mrm8488/roberta-large-finetuned-suicide-depression",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Tangyaoxiang/distilbert-base-uncased-finetuned-squad",
@@ -84154,10 +84160,19 @@
 	},
 	{
 		"modelId": "vesteinn/XLMR-ENIS-finetuned-stsb",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Luciano/bert-base-portuguese-cased-finetuned-tcu-acordaos",
+		"private": false
+	},
+	{
+		"modelId": "Rajnish/summary",
+		"private": false
+	},
+	{
+		"modelId": "davanstrien/testgpt2",
 		"private": false
 	}
 ]
