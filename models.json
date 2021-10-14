@@ -74979,10 +74979,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "smallbenchnlp/BERT-small",
-		"private": false
-	},
-	{
 		"modelId": "smallbenchnlp/roberta-small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -84161,7 +84157,7 @@
 	{
 		"modelId": "vesteinn/XLMR-ENIS-finetuned-stsb",
 		"private": false,
-		"pipeline_tag": "text-classification"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "Luciano/bert-base-portuguese-cased-finetuned-tcu-acordaos",
@@ -84173,6 +84169,10 @@
 	},
 	{
 		"modelId": "davanstrien/testgpt2",
+		"private": false
+	},
+	{
+		"modelId": "smallbenchnlp/bert-small",
 		"private": false
 	}
 ]
