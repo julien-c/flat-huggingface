@@ -15075,10 +15075,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "Luciano/bert-large-portuguese-cased-finetuned-tcu-acordaos",
-		"private": false
-	},
-	{
 		"modelId": "Luciano/bertimbau-base-lener_br",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -18766,6 +18762,19 @@
 		"modelId": "Recognai/distilbert-base-es-multilingual-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Recognai/selectra_medium",
+		"private": false
+	},
+	{
+		"modelId": "Recognai/selectra_small",
+		"private": false
+	},
+	{
+		"modelId": "Recognai/zeroshot_selectra_small",
+		"private": false,
+		"pipeline_tag": "zero-shot-classification"
 	},
 	{
 		"modelId": "RecordedFuture/Swedish-NER",
