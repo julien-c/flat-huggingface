@@ -4735,10 +4735,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "GUOKP/multiHeadsClassifier-spam",
-		"private": false
-	},
-	{
 		"modelId": "Gabriel/bert-swe-qa-finetune-kb",
 		"private": false
 	},
@@ -57761,7 +57757,8 @@
 	},
 	{
 		"modelId": "joyebright/Top6-without-mixing",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "jpcorb20/pegasus-large-reddit_tifu-samsum-256",
@@ -84118,6 +84115,15 @@
 	},
 	{
 		"modelId": "patrickxchong/bert-tiny-bahasa-cased-sentiment",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "GUOKP/spam_model",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/sciencebits",
 		"private": false
 	}
 ]
