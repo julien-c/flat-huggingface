@@ -26835,7 +26835,8 @@
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
@@ -84730,5 +84731,13 @@
 		"modelId": "ufal/byt5-small-multilexnorm2021-da",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-test",
+		"private": false
+	},
+	{
+		"modelId": "amauboussin/toxicity-testl",
+		"private": false
 	}
 ]
