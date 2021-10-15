@@ -65708,7 +65708,8 @@
 	},
 	{
 		"modelId": "nadzma/T5-long-extraction-UK-annual-reports",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "naiyalee/DialoGPT-small-neku",
@@ -84451,33 +84452,9 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "nielsr/segformer-b0-finetuned-cityscapes-768-768",
-		"private": false
-	},
-	{
 		"modelId": "kizunasunhy/fnet-base-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "nielsr/segformer-b1-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nielsr/segformer-b2-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nielsr/segformer-b3-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nielsr/segformer-b4-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nielsr/segformer-b5-finetuned-cityscapes-1024-1024",
-		"private": false
 	},
 	{
 		"modelId": "saugat/distilroberta-base-finetuned-hehealth",
@@ -84581,6 +84558,30 @@
 	},
 	{
 		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-640-1280",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-768-768",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b1-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b2-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b3-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b4-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b5-finetuned-cityscapes-1024-1024",
 		"private": false
 	}
 ]
