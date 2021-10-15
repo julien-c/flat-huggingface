@@ -26763,7 +26763,8 @@
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin0",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
@@ -84364,6 +84365,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "kbhugging/autonlp-text2sql-18413372",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "bigscience/T0pp",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -84377,5 +84383,24 @@
 		"modelId": "bigscience/T0p",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-0e871b9f-b533-4e8d-9add-26fb9a1ae300",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-01275163-54f0-4660-80f4-9d03c2711c51",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-b8a1f7b5-24eb-4c16-89e4-0cdd0194eb23",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "tumao/test_model",
+		"private": false
 	}
 ]
