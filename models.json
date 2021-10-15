@@ -27325,54 +27325,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "anton-l/sew-d-base-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-base-plus-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-base-plus-400k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-400k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-k127-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-k127-400k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-small-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-tiny-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-mid-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-small-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-tiny-100k",
-		"private": false
-	},
-	{
 		"modelId": "anton-l/wav2vec2-base-960h",
 		"private": false
 	},
@@ -76001,7 +75953,7 @@
 	{
 		"modelId": "spacy/es_core_news_sm",
 		"private": false,
-		"pipeline_tag": "token-classification"
+		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "spacy/es_dep_news_trf",
@@ -76397,6 +76349,11 @@
 		"modelId": "spockinese/DialoGPT-small-sherlock",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "spotify/autonlp-huggingface-demo-song-lyrics-18923587",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "spuun/kek",
@@ -84656,6 +84613,62 @@
 	},
 	{
 		"modelId": "hf-internal-testing/tiny-random-unispeech-sat",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-tiny-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-small-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-mid-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-tiny-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-small-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-k127-400k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-400k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-k127-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-base-plus-400k",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-19964-samples",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-base-plus-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-base-100k",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2",
 		"private": false
 	}
 ]
