@@ -2825,6 +2825,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Ching/negation_detector",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "ChristopherA08/IndoELECTRA",
 		"private": false
 	},
@@ -4761,6 +4766,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "GUOKP/sentiment_model",
+		"private": false
+	},
+	{
 		"modelId": "GUOKP/spam_model",
 		"private": false
 	},
@@ -4934,6 +4943,14 @@
 	},
 	{
 		"modelId": "Gastron/asr-crdnn-librispeech",
+		"private": false
+	},
+	{
+		"modelId": "Gauravbpt93/model_name",
+		"private": false
+	},
+	{
+		"modelId": "Gauravbpt93/sql_analyzer",
 		"private": false
 	},
 	{
@@ -14992,6 +15009,10 @@
 		"private": false
 	},
 	{
+		"modelId": "LockonZero/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "LoganKilpatrick/BasicFluxjlModel",
 		"private": false
 	},
@@ -17586,6 +17607,10 @@
 		"modelId": "Obscurity/DialoGPT-Medium-707",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Ocelma/Test",
+		"private": false
 	},
 	{
 		"modelId": "Ochiroo/tiny_mn_gpt",
@@ -24966,6 +24991,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "adelgasmi/autonlp-kpmg_nlp-18833547",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "adilism/wav2vec2-large-xlsr-kazakh",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -26781,6 +26811,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin1",
+		"private": false
+	},
+	{
 		"modelId": "amild01/GPT2-german-chefkoch",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -27289,6 +27323,54 @@
 		"modelId": "anton-l/megatron-11b",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "anton-l/sew-d-base-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-base-plus-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-base-plus-400k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-mid-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-mid-400k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-mid-k127-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-mid-k127-400k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-small-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-d-tiny-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-mid-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-small-100k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/sew-tiny-100k",
+		"private": false
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-960h",
@@ -29283,6 +29365,11 @@
 	},
 	{
 		"modelId": "bespin-global/intent-recommender-0e871b9f-b533-4e8d-9add-26fb9a1ae300",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-200ad18f-2b26-43bd-b42c-6d4da266dd89",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -34072,6 +34159,11 @@
 		"modelId": "digio/Twitter4SSE",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "digit82/dialog-sbert-base",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "digit82/kogpt2-summarization",
@@ -42491,6 +42583,10 @@
 		"private": false
 	},
 	{
+		"modelId": "hf-internal-testing/tiny-random-unispeech",
+		"private": false
+	},
+	{
 		"modelId": "hf-internal-testing/tiny-random-visual_bert",
 		"private": false
 	},
@@ -44278,6 +44374,10 @@
 		"modelId": "huggingface/prunebert-base-uncased-6-finepruned-w-distil-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "huggingface-course/bert-base-uncased-tokenizer-without-adapted-normalizer",
+		"private": false
 	},
 	{
 		"modelId": "huggingface-course/code-search-net-tokenizer",
@@ -56520,6 +56620,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "jakewallin82/first-bert",
+		"private": false
+	},
+	{
 		"modelId": "jakobwes/xlm_roberta_squad_v1.1",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -56536,6 +56640,10 @@
 	},
 	{
 		"modelId": "jama/4964dsgfs",
+		"private": false
+	},
+	{
+		"modelId": "jamalash/test",
 		"private": false
 	},
 	{
@@ -56588,6 +56696,10 @@
 	},
 	{
 		"modelId": "jamesw/model_name",
+		"private": false
+	},
+	{
+		"modelId": "jamiewjm/cprnn",
 		"private": false
 	},
 	{
@@ -56918,6 +57030,11 @@
 		"private": false
 	},
 	{
+		"modelId": "jeniakim/hedgehog",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "jeniya/BERTOverflow",
 		"private": false
 	},
@@ -56966,6 +57083,10 @@
 		"modelId": "jgammack/EAM-sentence-embedder",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "jgammack/EAM-tokenizer",
+		"private": false
 	},
 	{
 		"modelId": "jgammack/mtl-bert-base-uncased",
@@ -58307,6 +58428,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "juliensimon/autonlp-song-lyrics-18753423",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "juliensimon/dummy-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -58904,9 +59030,24 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "kizunasunhy/bert-base-cased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "kizunasunhy/fnet-base-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "kizunasunhy/test-squad-trained-finetuned-squad",
@@ -60012,6 +60153,10 @@
 	},
 	{
 		"modelId": "lhoestq/test-albert-upload",
+		"private": false
+	},
+	{
+		"modelId": "lhthanhdat/bot",
 		"private": false
 	},
 	{
@@ -61523,6 +61668,10 @@
 	},
 	{
 		"modelId": "malay-huggingface/pegasus-small-abstractive-summarization-bahasa-cased",
+		"private": false
+	},
+	{
+		"modelId": "malay-huggingface/suarakami-models",
 		"private": false
 	},
 	{
@@ -64450,6 +64599,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "mrm8488/bert-tiny-finetuned-fake-news-detection",
+		"private": false
+	},
+	{
 		"modelId": "mrm8488/bert-tiny-finetuned-sms-spam-detection",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -64694,6 +64847,10 @@
 		"modelId": "mrm8488/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "mrm8488/distilroberta-base-finetuned-fake-news-detection",
+		"private": false
 	},
 	{
 		"modelId": "mrm8488/distilroberta-base-finetuned-suicide-depression",
@@ -66694,6 +66851,10 @@
 		"private": false
 	},
 	{
+		"modelId": "nick2580/BlogBot",
+		"private": false
+	},
+	{
 		"modelId": "nicocesar/helloworld",
 		"private": false
 	},
@@ -67350,6 +67511,90 @@
 	},
 	{
 		"modelId": "nvidia/megatron-gpt2-345m",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/mit-b0",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/mit-b1",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/mit-b2",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/mit-b3",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/mit-b4",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/mit-b5",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b0-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-512-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-640-1280",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-768-768",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b1-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b1-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b2-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b2-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b3-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b3-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b4-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b4-finetuned-cityscapes-1024-1024",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b5-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "nvidia/segformer-b5-finetuned-cityscapes-1024-1024",
 		"private": false
 	},
 	{
@@ -72602,6 +72847,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "saugat/distilroberta-base-finetuned-hehealth",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "sauravchakraborty/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	},
@@ -75588,6 +75838,10 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_14102021",
+		"private": false
+	},
+	{
+		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021-finetuned-squad-v2_15102021_1",
 		"private": false
 	},
 	{
@@ -79341,6 +79595,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "tftransformers/albert-base-v1",
+		"private": false
+	},
+	{
 		"modelId": "tftransformers/albert-base-v2",
 		"private": false
 	},
@@ -81041,6 +81299,10 @@
 	},
 	{
 		"modelId": "usami/model_name",
+		"private": false
+	},
+	{
+		"modelId": "usami/t5-small-finetuned-xsum",
 		"private": false
 	},
 	{
@@ -84393,261 +84655,7 @@
 		"private": false
 	},
 	{
-		"modelId": "jamalash/test",
-		"private": false
-	},
-	{
-		"modelId": "jakewallin82/first-bert",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/albert-base-v1",
-		"private": false
-	},
-	{
-		"modelId": "mrm8488/distilroberta-base-finetuned-fake-news-detection",
-		"private": false
-	},
-	{
-		"modelId": "usami/t5-small-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "Gauravbpt93/model_name",
-		"private": false
-	},
-	{
-		"modelId": "Gauravbpt93/sql_analyzer",
-		"private": false
-	},
-	{
-		"modelId": "jamiewjm/cprnn",
-		"private": false
-	},
-	{
-		"modelId": "digit82/dialog-sbert-base",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin1",
-		"private": false
-	},
-	{
-		"modelId": "nick2580/BlogBot",
-		"private": false
-	},
-	{
-		"modelId": "hf-internal-testing/tiny-random-unispeech",
-		"private": false
-	},
-	{
-		"modelId": "huggingface-course/bert-base-uncased-tokenizer-without-adapted-normalizer",
-		"private": false
-	},
-	{
-		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "kizunasunhy/bert-base-cased-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "kizunasunhy/fnet-base-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "saugat/distilroberta-base-finetuned-hehealth",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "juliensimon/autonlp-song-lyrics-18753423",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "mrm8488/bert-tiny-finetuned-fake-news-detection",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-tiny-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-small-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-mid-100k",
-		"private": false
-	},
-	{
-		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021-finetuned-squad-v2_15102021_1",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b0-finetuned-ade-512-512",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b1-finetuned-ade-512-512",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b2-finetuned-ade-512-512",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b3-finetuned-ade-512-512",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b4-finetuned-ade-512-512",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b5-finetuned-ade-512-512",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/mit-b0",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/mit-b1",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/mit-b2",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/mit-b3",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/mit-b4",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/mit-b5",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-512-1024",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-640-1280",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-768-768",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b1-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b2-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b3-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b4-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "nvidia/segformer-b5-finetuned-cityscapes-1024-1024",
-		"private": false
-	},
-	{
-		"modelId": "bespin-global/intent-recommender-200ad18f-2b26-43bd-b42c-6d4da266dd89",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "lhthanhdat/bot",
-		"private": false
-	},
-	{
-		"modelId": "adelgasmi/autonlp-kpmg_nlp-18833547",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "LockonZero/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-tiny-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-small-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-k127-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-base-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-base-plus-100k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-400k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-k127-400k",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-base-plus-400k",
-		"private": false
-	},
-	{
-		"modelId": "GUOKP/sentiment_model",
-		"private": false
-	},
-	{
-		"modelId": "Ching/negation_detector",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "jeniakim/hedgehog",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "malay-huggingface/suarakami-models",
-		"private": false
-	},
-	{
-		"modelId": "jgammack/EAM-tokenizer",
+		"modelId": "hf-internal-testing/tiny-random-unispeech-sat",
 		"private": false
 	}
 ]
