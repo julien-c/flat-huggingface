@@ -12983,6 +12983,11 @@
 		"private": false
 	},
 	{
+		"modelId": "HieuLV3/QA_UIT_xlm_roberta_large",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "Hinova/bert-base-chinese-finetuned-sst2",
 		"private": false
 	},
@@ -13937,6 +13942,11 @@
 	},
 	{
 		"modelId": "Jonesy/DialoGPT-small_FG",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Jonesy/DialoGPT-small_JT",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
@@ -15104,6 +15114,11 @@
 		"modelId": "Luciano/bertimbau-large-lener_br",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Luciano/gpt2-small-portuguese-finetuned-tcu-acordaos",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Luckyseeker/distilbert-base-uncased-finetuned-ner",
@@ -17078,6 +17093,10 @@
 	},
 	{
 		"modelId": "NareshPS/test",
+		"private": false
+	},
+	{
+		"modelId": "Narrativa/bert-tiny-finetuned-fake-news-detection",
 		"private": false
 	},
 	{
@@ -25096,6 +25115,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "adrianmoses/mastering-transformers-book-bert",
+		"private": false
+	},
+	{
 		"modelId": "adriansyahdr/adrBert-base-p1",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -28211,6 +28234,54 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "asapp/sew-d-base-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-base-plus-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-base-plus-400k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-400k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-k127-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-k127-400k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-small-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-tiny-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-mid-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-small-100k",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-tiny-100k",
+		"private": false
+	},
+	{
 		"modelId": "asbabazi/new",
 		"private": false
 	},
@@ -28241,11 +28312,6 @@
 		"modelId": "asgadgdaf/text-generator-norge-1",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "asherknight/DialoGPT-medium-eve",
-		"private": false,
-		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ashish-shrivastava/dont-know-response",
@@ -33301,6 +33367,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "davanstrien/gpt-19th-century-book-titles-non-fiction",
+		"private": false
+	},
+	{
 		"modelId": "davanstrien/testgpt2",
 		"private": false
 	},
@@ -34986,6 +35056,11 @@
 	},
 	{
 		"modelId": "eli4s/Bert-L12-h384-A6",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "eli4s/chaii",
 		"private": false,
 		"pipeline_tag": "fill-mask"
 	},
@@ -42533,6 +42608,10 @@
 	},
 	{
 		"modelId": "hf-internal-testing/tiny-random-transfo-xl",
+		"private": false
+	},
+	{
+		"modelId": "hf-internal-testing/tiny-random-unispeech-sat",
 		"private": false
 	},
 	{
@@ -56975,6 +57054,11 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
+		"modelId": "jegorkitskerkin/dialogpt-twitter-ubuntu",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "jegorkitskerkin/mlm_model",
 		"private": false
 	},
@@ -60011,7 +60095,17 @@
 		"private": false
 	},
 	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-19964-samples",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-500-samples",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -72071,6 +72165,10 @@
 	},
 	{
 		"modelId": "saafpk/saafpk",
+		"private": false
+	},
+	{
+		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2",
 		"private": false
 	},
 	{
@@ -84617,113 +84715,5 @@
 	{
 		"modelId": "zzclynn/bert_test",
 		"private": false
-	},
-	{
-		"modelId": "hf-internal-testing/tiny-random-unispeech-sat",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-tiny-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-small-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-mid-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-tiny-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-small-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-mid-k127-400k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-mid-400k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-mid-k127-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-mid-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-base-plus-400k",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-19964-samples",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "asapp/sew-d-base-plus-100k",
-		"private": false
-	},
-	{
-		"modelId": "asapp/sew-d-base-100k",
-		"private": false
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2",
-		"private": false
-	},
-	{
-		"modelId": "adrianmoses/mastering-transformers-book-bert",
-		"private": false
-	},
-	{
-		"modelId": "HieuLV3/QA_UIT_xlm_roberta_large",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "jegorkitskerkin/dialogpt-twitter-ubuntu",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Narrativa/bert-tiny-finetuned-fake-news-detection",
-		"private": false
-	},
-	{
-		"modelId": "davanstrien/gpt-19th-century-book-titles-non-fiction",
-		"private": false
-	},
-	{
-		"modelId": "Luciano/gpt2-small-portuguese-finetuned-tcu-acordaos",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lewtun/xlm-roberta-base-finetuned-marc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "asherknight/DialoGPT-medium-eve-upgraded",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "eli4s/chaii",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "Jonesy/DialoGPT-small_JT",
-		"private": false,
-		"pipeline_tag": "conversational"
 	}
 ]
