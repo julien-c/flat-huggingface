@@ -34106,6 +34106,10 @@
 		"private": false
 	},
 	{
+		"modelId": "diiogo/electra-base",
+		"private": false
+	},
+	{
 		"modelId": "dimsplendid/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -84467,11 +84471,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "juliensimon/autonlp-song-lyrics-50-18773458",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "mrm8488/bert-tiny-finetuned-fake-news-detection",
 		"private": false
 	},
@@ -84632,5 +84631,10 @@
 	{
 		"modelId": "GUOKP/sentiment_model",
 		"private": false
+	},
+	{
+		"modelId": "Ching/negation_detector",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	}
 ]
