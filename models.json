@@ -84461,12 +84461,9 @@
 		"private": false
 	},
 	{
-		"modelId": "SaulLu/bert-base-uncased-tokenizer-without-normalizer",
-		"private": false
-	},
-	{
 		"modelId": "digit82/dialog-sbert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin1",
@@ -84482,6 +84479,31 @@
 	},
 	{
 		"modelId": "nick2580/BlogBot",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/segformer-b3-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "hf-internal-testing/tiny-random-unispeech",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/segformer-b4-finetuned-ade-512-512",
+		"private": false
+	},
+	{
+		"modelId": "huggingface-course/bert-base-uncased-tokenizer-without-adapted-normalizer",
+		"private": false
+	},
+	{
+		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-ner",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "nielsr/segformer-b5-finetuned-ade-640-640",
 		"private": false
 	}
 ]
