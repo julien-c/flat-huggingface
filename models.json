@@ -72809,11 +72809,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "sciarrilli/distilbert-base-uncased-finetuned-ner",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "scikit-learn-examples/example",
 		"private": false,
 		"pipeline_tag": "structured-data-classification"
@@ -82961,7 +82956,8 @@
 	},
 	{
 		"modelId": "ydshieh/bert2bert-cnn_dailymail-fp16",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "ydshieh/flax-vision-encoder-decoder-vit-gpt2-coco-en",
@@ -83069,7 +83065,8 @@
 	},
 	{
 		"modelId": "yiyanghkust/finbert-tone",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "yjc/roberta-base",
@@ -84410,6 +84407,18 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
+		"private": false
+	},
+	{
+		"modelId": "jamalash/test",
+		"private": false
+	},
+	{
+		"modelId": "jakewallin82/first-bert",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/albert-base-v1",
 		"private": false
 	}
 ]
