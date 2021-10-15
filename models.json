@@ -84300,7 +84300,8 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "saattrupdan/verdict-classifier",
@@ -84359,7 +84360,8 @@
 	},
 	{
 		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-15_01-00",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "asherknight/DialoGPT-medium-eve",
@@ -84368,6 +84370,11 @@
 	},
 	{
 		"modelId": "huggingartists/shadowraze",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "hakurei/c1-6B",
 		"private": false
 	}
 ]
