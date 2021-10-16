@@ -33394,7 +33394,8 @@
 	},
 	{
 		"modelId": "davanstrien/gpt-19th-century-book-titles-non-fiction",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "davanstrien/testgpt2",
@@ -34240,6 +34241,11 @@
 	{
 		"modelId": "digitalepidemiologylab/covid-twitter-bert",
 		"private": false
+	},
+	{
+		"modelId": "diiogo/arabert-base",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "diiogo/arabert-utils",
@@ -84850,7 +84856,16 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "gagandeepkundi/autonlp-text-classification-19984005",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "MariamD/my-awesome-model",
+		"private": false
+	},
+	{
+		"modelId": "emre/jurisprudence-textgen-gpt-2",
 		"private": false
 	}
 ]
