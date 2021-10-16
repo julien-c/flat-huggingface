@@ -84755,7 +84755,8 @@
 	},
 	{
 		"modelId": "ninahrostozova/xlm-roberta-base-finetuned-marc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ashish-chouhan/xlm-roberta-base-finetuned-marc",
@@ -84800,5 +84801,18 @@
 	{
 		"modelId": "gerardozq/biobert_v1.1_pubmed-finetuned-squad",
 		"private": false
+	},
+	{
+		"modelId": "DongHyoungLee/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Woonn/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "huggingartists/6ix9ine",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
