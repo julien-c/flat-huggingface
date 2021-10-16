@@ -3182,6 +3182,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Cuevana2/Ver-Madres-paralelas-2021-pelicula-COMPLETA-en-espanol-latino",
+		"private": false
+	},
+	{
 		"modelId": "Culmenus/IceBERT-finetuned-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -15600,6 +15604,14 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "MariamD/t5-base-finetuned-QA-legal_data",
+		"private": false
+	},
+	{
+		"modelId": "MariamD/trained_model",
+		"private": false
+	},
+	{
 		"modelId": "MarianaSahagun/testmodel",
 		"private": false
 	},
@@ -21289,6 +21301,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "SauravMaheshkar/rembert-maxseq-384-docstride-128-chaii",
+		"private": false
+	},
+	{
 		"modelId": "SauravMaheshkar/roberta-base-chaii",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -26837,6 +26853,10 @@
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin1",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin2",
+		"private": false
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
@@ -39854,6 +39874,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "gogamza/kobart-base-v1",
+		"private": false
+	},
+	{
 		"modelId": "gogamza/kobart-base-v2",
 		"private": false
 	},
@@ -40820,6 +40844,10 @@
 		"modelId": "google/muril-base-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "google/muril-large-cased",
+		"private": false
 	},
 	{
 		"modelId": "google/pegasus-aeslc",
@@ -60111,6 +60139,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-test",
+		"private": false
+	},
+	{
 		"modelId": "lewtun/xlm-roberta-base-finetuned-marc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -60833,6 +60865,11 @@
 	{
 		"modelId": "ludens/infinite-story",
 		"private": false
+	},
+	{
+		"modelId": "ludowoods/KujouSara",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "luffycodes/TAG_mems_str_128_lr_2e5_wd_01_block_512_train_bsz_6_topk_100_lambdah_0_w103",
@@ -74620,6 +74657,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "shainaraza/Shaina",
+		"private": false
+	},
+	{
 		"modelId": "shakil071/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	},
@@ -76608,6 +76649,10 @@
 		"modelId": "ssam/DialoGPT-small-RickmfSanchez",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "ssascas/Ver-Madres-paralelas-2021-pelicula-COMPLETA-en-espanol-latino",
+		"private": false
 	},
 	{
 		"modelId": "sshleifer/bart-large-fp32",
@@ -78906,6 +78951,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "tbonegg/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
 		"modelId": "tbrasil/classificador_de_atendimento_2_classes_v1.1",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -81138,6 +81187,11 @@
 	},
 	{
 		"modelId": "uer/t5-v1_1-small-chinese-cluecorpussmall",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "ufal/byt5-small-multilexnorm2021-da",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -84661,60 +84715,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "google/muril-large-cased",
-		"private": false
-	},
-	{
-		"modelId": "ufal/byt5-small-multilexnorm2021-da",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-test",
-		"private": false
-	},
-	{
-		"modelId": "MariamD/t5-base-finetuned-QA-legal_data",
-		"private": false
-	},
-	{
-		"modelId": "MariamD/trained_model",
-		"private": false
-	},
-	{
-		"modelId": "shainaraza/Shaina",
-		"private": false
-	},
-	{
-		"modelId": "gogamza/kobart-base-v1",
-		"private": false
-	},
-	{
-		"modelId": "ludowoods/KujouSara",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "ssascas/Ver-Madres-paralelas-2021-pelicula-COMPLETA-en-espanol-latino",
-		"private": false
-	},
-	{
-		"modelId": "Cuevana2/Ver-Madres-paralelas-2021-pelicula-COMPLETA-en-espanol-latino",
-		"private": false
-	},
-	{
-		"modelId": "SauravMaheshkar/rembert-maxseq-384-docstride-128-chaii",
-		"private": false
-	},
-	{
-		"modelId": "tbonegg/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin2",
 		"private": false
 	}
 ]
