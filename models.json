@@ -82935,7 +82935,8 @@
 	},
 	{
 		"modelId": "woosukji/kogpt2-resume",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "workshopso/aitest",
@@ -84760,7 +84761,8 @@
 	},
 	{
 		"modelId": "ashish-chouhan/xlm-roberta-base-finetuned-marc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Aliskin/xlm-roberta-base-finetuned-marc",
@@ -84776,7 +84778,8 @@
 	},
 	{
 		"modelId": "Yuri/xlm-roberta-base-finetuned-marc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "laura7s/xlm-roberta-base-finetuned-marc",
@@ -84784,15 +84787,18 @@
 	},
 	{
 		"modelId": "jaygala24/xlm-roberta-base-finetuned-marc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "MaxNLP/xlm-roberta-base-finetuned-marc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-de",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "meghna103/xlm-roberta-base-finetuned-marc",
@@ -84804,7 +84810,8 @@
 	},
 	{
 		"modelId": "DongHyoungLee/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Woonn/distilbert-base-uncased-finetuned-cola",
@@ -84814,5 +84821,9 @@
 		"modelId": "huggingartists/6ix9ine",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Transabrar/scibert_scivocab_uncased-finetuned-scibero",
+		"private": false
 	}
 ]
