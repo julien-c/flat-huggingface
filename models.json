@@ -81426,7 +81426,8 @@
 	},
 	{
 		"modelId": "usami/t5-small-finetuned-xsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "userSE075/news_class",
@@ -84719,11 +84720,6 @@
 		"private": false
 	},
 	{
-		"modelId": "gwima/DialoGPT-small-majima",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "gwima/DialoGPT-small-ryanmajima",
 		"private": false
 	},
@@ -84893,6 +84889,19 @@
 	},
 	{
 		"modelId": "espejelomar/prueba",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/rias_hot",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gwima/Mistakes",
+		"private": false
+	},
+	{
+		"modelId": "gwima/ryan",
 		"private": false
 	}
 ]
