@@ -85061,7 +85061,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/consert-emanuals-s10-SR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Vaibhavbrkn/grammer_classiffication",
@@ -85100,6 +85101,19 @@
 	},
 	{
 		"modelId": "tau/t5-v1.1-large",
+		"private": false
+	},
+	{
+		"modelId": "ltrctelugu/ltrc-roberta",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "huggingartists/bushido-zho",
+		"private": false
+	},
+	{
+		"modelId": "pere/norwegian-gpt2-social",
 		"private": false
 	}
 ]
