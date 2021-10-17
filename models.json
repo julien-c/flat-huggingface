@@ -84981,12 +84981,18 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "naclbit/gpt-j-japanese-6.8b",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "junnyu/ernie_gram",
 		"private": false
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-did-madar26",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-did-madar6",
@@ -85004,5 +85010,9 @@
 		"modelId": "huggingartists/ramil",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "tsdocode/gpt-python-code-qa",
+		"private": false
 	}
 ]
