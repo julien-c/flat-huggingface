@@ -84962,11 +84962,13 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-pos-egy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-pos-glf",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "thatoneguy266/die",
@@ -84976,5 +84978,9 @@
 		"modelId": "thatoneguy267/bruhpleasehelpme",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "junnyu/ernie_gram",
+		"private": false
 	}
 ]
