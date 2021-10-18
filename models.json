@@ -28762,6 +28762,11 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rob-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -85496,11 +85501,12 @@
 		"private": false
 	},
 	{
-		"modelId": "athar/train_gad_model",
-		"private": false
+		"modelId": "yongzx/gpt2-finetuned-oscar-fr",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "yongzx/gpt2-finetuned-oscar-fr",
+		"modelId": "jacklin/cqe",
 		"private": false
 	}
 ]
