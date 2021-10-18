@@ -78841,7 +78841,8 @@
 	},
 	{
 		"modelId": "suzuki/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "suzuki/distilgpt2-finetuned-wikitext2",
@@ -85353,10 +85354,15 @@
 	},
 	{
 		"modelId": "erwanln/bert-base-multilingual-cased_finetuned_app_bancaires",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Anonymreign/savagebeta",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/results",
 		"private": false
 	}
 ]
