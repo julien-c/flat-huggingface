@@ -29721,6 +29721,16 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "bigscience/T0_original_task_only",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "bigscience/T0_single_prompt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "bigscience/T0p",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -85140,7 +85150,8 @@
 	},
 	{
 		"modelId": "tal-yifat/injury-report-distilgpt2-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "tekodukunnangendiseh/tuytyghtghfhfh",
@@ -85165,5 +85176,10 @@
 	{
 		"modelId": "green/t5-small-finetuned-xsum",
 		"private": false
+	},
+	{
+		"modelId": "adalbertojunior/test-128-uncased-2",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
