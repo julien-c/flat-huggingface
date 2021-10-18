@@ -57556,10 +57556,6 @@
 		"pipeline_tag": "sentence-similarity"
 	},
 	{
-		"modelId": "jgammack/mtl-tokenizer",
-		"private": false
-	},
-	{
 		"modelId": "jgonik/nlp-puzzle-v2",
 		"private": false
 	},
@@ -85369,6 +85365,20 @@
 	},
 	{
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "nn007/IMDB-sentiment-analysis",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "gsarti/opus-tatoeba-eng-pol",
+		"private": false
+	},
+	{
+		"modelId": "jgammack/MTL-tokenizer",
 		"private": false
 	}
 ]
