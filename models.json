@@ -85330,7 +85330,8 @@
 	},
 	{
 		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-18_12-12",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "cambridgeltl/trans-encoder-bi-simcse-bert-base",
@@ -85363,6 +85364,11 @@
 	},
 	{
 		"modelId": "lewtun/results",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion",
 		"private": false
 	}
 ]
