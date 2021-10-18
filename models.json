@@ -72683,20 +72683,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "saattrupdan/nbailab-base-sent-da",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-sent-scandi-only-scandeval-datasets",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-sent-scandi-with-all-datasets",
-		"private": false
-	},
-	{
 		"modelId": "saattrupdan/verdict-classifier-en",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -85338,7 +85324,39 @@
 		"private": false
 	},
 	{
-		"modelId": "saattrupdan/nbailab-base-ner-da",
+		"modelId": "saattrupdan/nbailab-base-ner-da-no-sv",
+		"private": false
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-18_12-12",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/trans-encoder-bi-simcse-bert-base",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/trans-encoder-bi-simcse-roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/trans-encoder-bi-simcse-roberta-large",
+		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/trans-encoder-bi-simcse-bert-large",
+		"private": false
+	},
+	{
+		"modelId": "erwanln/bert-base-multilingual-casedfine_tune_app_bancaires",
+		"private": false
+	},
+	{
+		"modelId": "erwanln/bert-base-multilingual-cased_finetuned_app_bancaires",
+		"private": false
+	},
+	{
+		"modelId": "Anonymreign/savagebeta",
 		"private": false
 	}
 ]
