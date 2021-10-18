@@ -2504,15 +2504,18 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-pos-egy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-pos-glf",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-pos-msa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-sentiment",
@@ -2536,15 +2539,18 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-pos-egy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-pos-glf",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-pos-msa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-sentiment",
@@ -2593,7 +2599,8 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-pos-msa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
@@ -2637,11 +2644,13 @@
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-pos-egy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-pos-glf",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-pos-msa",
@@ -85280,6 +85289,14 @@
 	},
 	{
 		"modelId": "Eduardsvintusevskij/Anna",
+		"private": false
+	},
+	{
+		"modelId": "christmasdecoration/lights",
+		"private": false
+	},
+	{
+		"modelId": "luigisbrother/wav2vec2-common_voice-tr-demo-dist",
 		"private": false
 	}
 ]
