@@ -42609,7 +42609,8 @@
 	},
 	{
 		"modelId": "heliart/PhishingEmailGeneration",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "heliart/Verdict_Recognizer",
@@ -85297,6 +85298,10 @@
 	},
 	{
 		"modelId": "luigisbrother/wav2vec2-common_voice-tr-demo-dist",
+		"private": false
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-18_09-32",
 		"private": false
 	}
 ]
