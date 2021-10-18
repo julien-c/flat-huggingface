@@ -21147,6 +21147,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "Salesforce/mixqg-3b",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "Salesforce/mixqg-large",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -27074,7 +27079,8 @@
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin3",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
@@ -85295,14 +85301,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-18_11-20",
-		"private": false
-	},
-	{
-		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-18_11-29",
-		"private": false
-	},
-	{
 		"modelId": "saattrupdan/nbailab-base-ner-da-no-sv",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -85374,10 +85372,6 @@
 		"private": false
 	},
 	{
-		"modelId": "yazdipour/text-to-sparql-t5-base-2021-10-18_14-40",
-		"private": false
-	},
-	{
 		"modelId": "aditeyabaral/addpretrained-bert-hinglish-big",
 		"private": false
 	},
@@ -85390,8 +85384,21 @@
 		"private": false
 	},
 	{
+		"modelId": "Salesforce/mixqg-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "erwanln/bert-base-multilingual-cased_tuned2_app",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaot1k/DialoGPT-small-Wanda",
+		"private": false
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-base-2021-10-18_16-15",
+		"private": false
 	}
 ]
