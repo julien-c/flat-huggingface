@@ -57537,6 +57537,11 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "jgammack/EAM-sentence-embedder",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
 		"modelId": "jgammack/EAM-tokenizer",
 		"private": false
 	},
@@ -85383,6 +85388,11 @@
 	},
 	{
 		"modelId": "helmi0695/det5-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "maxspaziani/bert-base-italian-uncased-finetuned-ComunaliRoma",
 		"private": false
 	}
 ]
