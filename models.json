@@ -4406,6 +4406,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Emanuel/autonlp-pos-tag-bosque",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "Emi2160/DialoGPT-small-Neku",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -14072,6 +14077,11 @@
 	},
 	{
 		"modelId": "JonatanGk/roberta-base-ca-finetuned-cyberbullying-catalan",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "JonatanGk/roberta-base-ca-finetuned-hate-speech-offensive-catalan",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -28721,6 +28731,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "astarostap/autonlp-antisemitism-2-21194454",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "astarostap/distilbert-cased-antisemitic-tweets",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -39405,6 +39420,16 @@
 		"modelId": "gagan3012/keytotext",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "gagan3012/model",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gagan3012/pickuplines",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "gagan3012/project-code-py-micro",
@@ -52069,6 +52094,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/muratpak",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/murderlinart",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -60973,6 +61003,10 @@
 		"modelId": "light/small-rickk",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "lighteternal/PubMedBERT",
+		"private": false
 	},
 	{
 		"modelId": "lighteternal/SSE-TUC-mt-el-en-cased",
@@ -72818,6 +72852,10 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "saattrupdan/nbailab-base-ner-da-no",
+		"private": false
+	},
+	{
 		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -76375,6 +76413,10 @@
 		"modelId": "sohel/ob-model-1",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "soikit/distilgpt2-finetuned-wikitext2",
+		"private": false
 	},
 	{
 		"modelId": "sokui/test",
@@ -85401,44 +85443,7 @@
 		"private": false
 	},
 	{
-		"modelId": "JonatanGk/roberta-base-ca-finetuned-hate-speech-offensive-catalan",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Emanuel/autonlp-pos-tag-bosque",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "soikit/distilgpt2-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/muratpak",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "astarostap/autonlp-antisemitism-2-21194454",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "gagan3012/model",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lighteternal/PubMedBERT",
-		"private": false
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-ner-da-no",
-		"private": false
-	},
-	{
-		"modelId": "gagan3012/pickuplines",
+		"modelId": "akdeniz27/xlm-roberta-base-turkish-ner",
 		"private": false
 	}
 ]
