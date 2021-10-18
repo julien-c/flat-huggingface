@@ -35046,7 +35046,8 @@
 	},
 	{
 		"modelId": "echarlaix/bert-base-dynamic-quant-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid",
@@ -85378,10 +85379,19 @@
 	},
 	{
 		"modelId": "erwanln/bert-base-multilingual-cased_tuned_app",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "aditeyabaral/addpretrained-bert-hinglish-big",
+		"private": false
+	},
+	{
+		"modelId": "aditeyabaral/addpretrained-bert-hinglish-small",
+		"private": false
+	},
+	{
+		"modelId": "aditeyabaral/addpretrained-roberta-hinglish-big",
 		"private": false
 	}
 ]
