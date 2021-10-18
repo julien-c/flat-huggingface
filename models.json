@@ -57537,11 +57537,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "jgammack/EAM-sentence-embedder",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
 		"modelId": "jgammack/EAM-tokenizer",
 		"private": false
 	},
@@ -85375,10 +85370,19 @@
 	},
 	{
 		"modelId": "gsarti/opus-tatoeba-eng-pol",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "jgammack/MTL-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "maximedb/test-2",
+		"private": false
+	},
+	{
+		"modelId": "helmi0695/det5-base",
 		"private": false
 	}
 ]
