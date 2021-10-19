@@ -4406,6 +4406,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "Elzen7/DialoGPT-medium-harrypotter",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "Emanuel/autonlp-pos-tag-bosque",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -6189,6 +6194,10 @@
 	},
 	{
 		"modelId": "HaitaoYang/bert_cn_finetuning",
+		"private": false
+	},
+	{
+		"modelId": "Haley/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	},
 	{
@@ -15869,6 +15878,11 @@
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-13-10-en-to-ar",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-19-10-en-to-ar",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -30262,14 +30276,29 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "bioformers/bioformer-cased-v1.0-bc2gm",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "bioformers/bioformer-cased-v1.0-mnli",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "bioformers/bioformer-cased-v1.0-ncbi-disease",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "bioformers/bioformer-cased-v1.0-qnli",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bioformers/bioformer-cased-v1.0-squad1",
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "bioformers/bioformer-cased-v1.0",
@@ -31921,6 +31950,10 @@
 		"modelId": "ceshine/t5-paraphrase-quora-paws",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "cestwc/bart-base-cnn",
+		"private": false
 	},
 	{
 		"modelId": "cestwc/roberta-base-cnn",
@@ -42088,6 +42121,10 @@
 		"modelId": "gyre/200wordrpgmodel",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "gyung/distilbert-base-uncased-finetuned-cola",
+		"private": false
 	},
 	{
 		"modelId": "h1t0ro/hayden",
@@ -72409,6 +72446,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "rifkat/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "rifkat/pubchem_1M",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -79530,6 +79571,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "tarsofranarin/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
 		"modelId": "tartuNLP/EstBERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -82974,6 +83019,10 @@
 		"private": false
 	},
 	{
+		"modelId": "vinteralex24/alexv_model_name",
+		"private": false
+	},
+	{
 		"modelId": "violentometro/violentometro-model",
 		"private": false
 	},
@@ -83458,6 +83507,11 @@
 	{
 		"modelId": "wangchena/example_model",
 		"private": false
+	},
+	{
+		"modelId": "wangfan/jdt-fin-roberta-wwm",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "wangj2/domaingen",
@@ -84087,6 +84141,11 @@
 	},
 	{
 		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_00-01",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-12_RAW",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -85553,67 +85612,7 @@
 		"private": false
 	},
 	{
-		"modelId": "wangfan/jdt-fin-roberta-wwm",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "vinteralex24/alexv_model_name",
-		"private": false
-	},
-	{
-		"modelId": "bioformers/bioformer-cased-v1.0-squad1",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "tarsofranarin/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-19-10-en-to-ar",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "rifkat/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "gyung/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "Elzen7/DialoGPT-medium-harrypotter",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-12_RAW",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "Haley/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "bioformers/bioformer-cased-v1.0-bc2gm",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "bioformers/bioformer-cased-v1.0-ncbi-disease",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-56_SameTkzr",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "cestwc/bart-base-cnn",
+		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_08-40_lr1",
 		"private": false
 	}
 ]
