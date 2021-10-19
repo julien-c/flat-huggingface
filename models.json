@@ -67702,10 +67702,6 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
-		"modelId": "nielsr/beit-test",
-		"private": false
-	},
-	{
 		"modelId": "nielsr/canine-c",
 		"private": false
 	},
@@ -85748,7 +85744,8 @@
 	},
 	{
 		"modelId": "masakhane/mt5-large-fr-mos-mt",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Luciano/gpt2-small-portuguese-finetuned-peticoes",
@@ -85768,7 +85765,8 @@
 	},
 	{
 		"modelId": "dobbytk/letr-sol-profanity-filter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "huyongquan/m4",
@@ -85780,6 +85778,10 @@
 	},
 	{
 		"modelId": "nielsr/beit-large-finetuned-ade20k",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/beit-base-finetuned-ade20k",
 		"private": false
 	}
 ]
