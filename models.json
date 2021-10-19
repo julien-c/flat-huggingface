@@ -72513,7 +72513,8 @@
 	},
 	{
 		"modelId": "ringabelle/bert-base-cased-finetuned-COVID-tweets",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "ringabelle/bert-base-cased-finetuned-wikitext2",
@@ -85715,7 +85716,8 @@
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne-capitel-pos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/RoBERTalex",
@@ -85758,6 +85760,26 @@
 	},
 	{
 		"modelId": "huyongquan/m2",
+		"private": false
+	},
+	{
+		"modelId": "huyongquan/m3",
+		"private": false
+	},
+	{
+		"modelId": "dobbytk/letr-sol-profanity-filter",
+		"private": false
+	},
+	{
+		"modelId": "huyongquan/m4",
+		"private": false
+	},
+	{
+		"modelId": "meghana/hitalm-xlmroberta-finetuned",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/beit-large-finetuned-ade20k",
 		"private": false
 	}
 ]
