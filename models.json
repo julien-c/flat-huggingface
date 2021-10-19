@@ -37644,11 +37644,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "feconroses/autonlp-SaaS_Topic_Detection-99369",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "feifan/opus-mt-en-ro-finetuned-en-to-ro",
 		"private": false
 	},
@@ -85689,11 +85684,13 @@
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-large-bne-capitel-pos",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-large-bne-capitel-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne",
@@ -85823,6 +85820,7 @@
 	},
 	{
 		"modelId": "cestwc/bart-base-cnn-denoise",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
