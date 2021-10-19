@@ -1280,11 +1280,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Alireza1044/Theseus-CoLA",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Alireza1044/albert-base-v2-cola",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -4612,11 +4607,6 @@
 	{
 		"modelId": "Ferial/distilbert-base-uncased-finetuned-ner",
 		"private": false
-	},
-	{
-		"modelId": "Fhrozen/test_an4",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "Fiddi/distilbert-base-uncased-finetuned-ner",
@@ -85846,15 +85836,20 @@
 	},
 	{
 		"modelId": "beomi/korean-hatespeech-multilabel",
-		"private": false
-	},
-	{
-		"modelId": "Alireza1044/Theseus-STSB",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "kornesh/roberta-base-ta-oscar",
 		"private": false
+	},
+	{
+		"modelId": "Fhrozen/test_an4",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/Theseus-rte",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
