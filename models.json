@@ -45100,10 +45100,6 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
-		"modelId": "huggingface-course/bert-base-uncased-tokenizer-without-adapted-normalizer",
-		"private": false
-	},
-	{
 		"modelId": "huggingface-course/code-search-net-tokenizer",
 		"private": false
 	},
@@ -85849,7 +85845,8 @@
 	},
 	{
 		"modelId": "yazdipour/text-to-sparql-t5-base-2021-10-19_15-35_lastDS",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "deepset/bert-small-mm_retrieval-question_encoder",
@@ -85898,6 +85895,22 @@
 	},
 	{
 		"modelId": "l3cube-pune/hate-bert-hasoc-marathi",
+		"private": false
+	},
+	{
+		"modelId": "Science-geek32/DialoGPT-small-doctor2.0",
+		"private": false
+	},
+	{
+		"modelId": "huggingface-course/bert-base-uncased-tokenizer-without-normalizer",
+		"private": false
+	},
+	{
+		"modelId": "huggingface-course/albert-tokenizer-without-normalizer",
+		"private": false
+	},
+	{
+		"modelId": "finiteautomata/bertweet-hate-speech",
 		"private": false
 	}
 ]
