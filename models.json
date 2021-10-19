@@ -84369,11 +84369,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-19_10-17_lastDS",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "ybybybybybybyb/autonlp-revanalysis-6711455",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -85826,11 +85821,6 @@
 		"private": false
 	},
 	{
-		"modelId": "yazdipour/text-to-sparql-t5-base-2021-10-19_15-35_lastDS",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "deepset/bert-small-mm_retrieval-question_encoder",
 		"private": false
 	},
@@ -85881,7 +85871,8 @@
 	},
 	{
 		"modelId": "Science-geek32/DialoGPT-small-doctor2.0",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "huggingface-course/bert-base-uncased-tokenizer-without-normalizer",
@@ -85978,5 +85969,19 @@
 		"modelId": "aditeyabaral/sentencetransformer-roberta-hinglish-small",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "yazdipour/sparql-qald9-t5-base-2021-10-19_23-02",
+		"private": false
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-base",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-small",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
