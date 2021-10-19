@@ -85680,7 +85680,8 @@
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-large-bne-sqac",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-large-bne-capitel-pos",
@@ -85773,10 +85774,6 @@
 		"private": false
 	},
 	{
-		"modelId": "nielsr/beit-base-finetuned-ade20k",
-		"private": false
-	},
-	{
 		"modelId": "maximedb/autonlp-vaccinchat-22134694",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -85822,5 +85819,17 @@
 		"modelId": "cestwc/bart-base-cnn-denoise",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "icelab/spaceTransformers",
+		"private": false
+	},
+	{
+		"modelId": "nielsr/beit-base-finetuned-ade20k",
+		"private": false
+	},
+	{
+		"modelId": "meghana/hitalmqa-finetuned-squad",
+		"private": false
 	}
 ]
