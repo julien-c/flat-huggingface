@@ -85572,7 +85572,8 @@
 	},
 	{
 		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-19-10-en-to-ar",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "rifkat/distilbert-base-uncased-finetuned-squad",
@@ -85585,7 +85586,7 @@
 	{
 		"modelId": "Elzen7/DialoGPT-medium-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-12_RAW",
@@ -85605,5 +85606,14 @@
 		"modelId": "bioformers/bioformer-cased-v1.0-ncbi-disease",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-56_SameTkzr",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "cestwc/bart-base-cnn",
+		"private": false
 	}
 ]
