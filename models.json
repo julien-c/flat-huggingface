@@ -30272,11 +30272,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "bioformers/bioformer-cased-v1.0-squad2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
 		"modelId": "bioformers/bioformer-cased-v1.0",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -85567,6 +85562,31 @@
 	},
 	{
 		"modelId": "bioformers/bioformer-cased-v1.0-squad1",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "tarsofranarin/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-19-10-en-to-ar",
+		"private": false
+	},
+	{
+		"modelId": "rifkat/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "gyung/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Elzen7/DialoGPT-medium-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-12_RAW",
 		"private": false
 	}
 ]
