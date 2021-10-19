@@ -85861,7 +85861,8 @@
 	},
 	{
 		"modelId": "Luciano/bert-base-portuguese-cased-finetuned-peticoes",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "deepset/bert-small-mm_retrieval-passage_encoder",
@@ -85873,10 +85874,19 @@
 	},
 	{
 		"modelId": "doc2query/stackexchange-t5-base-v1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "deepset/bert-small-mm_retrieval-table_encoder",
+		"private": false
+	},
+	{
+		"modelId": "Jungwoo/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "finiteautomata/beto-hate-speech",
 		"private": false
 	}
 ]
