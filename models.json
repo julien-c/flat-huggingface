@@ -84340,10 +84340,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "yazdipour/text-to-sparql-t5-lc-quad-v2",
-		"private": false
-	},
-	{
 		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-15_01-00",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -85948,11 +85944,6 @@
 		"private": false
 	},
 	{
-		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_22-32",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "aditeyabaral/additionalpretrained-roberta-hinglish-big",
 		"private": false
 	},
@@ -85972,7 +85963,8 @@
 	},
 	{
 		"modelId": "yazdipour/sparql-qald9-t5-base-2021-10-19_23-02",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "yazdipour/text-to-sparql-t5-base",
@@ -85981,6 +85973,11 @@
 	},
 	{
 		"modelId": "yazdipour/text-to-sparql-t5-small",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-small-qald9",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	}
