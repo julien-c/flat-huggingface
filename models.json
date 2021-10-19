@@ -63164,7 +63164,8 @@
 	},
 	{
 		"modelId": "maxspaziani/bert-base-italian-xxl-uncased-finetuned-ComunaliRoma",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "maxspaziani/distilroberta-base-finetuned-wikitext2",
@@ -85887,11 +85888,16 @@
 	},
 	{
 		"modelId": "finiteautomata/beto-hate-speech",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Science-geek32/DialoGPT-small-doctor",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "l3cube-pune/hate-bert-hasoc-marathi",
+		"private": false
 	}
 ]
