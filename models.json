@@ -34942,6 +34942,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "doc2query/all-with_prefix-t5-base-v1",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "docketanalyzer/distilroberta-base-ddcl",
 		"private": false
 	},
@@ -43574,6 +43579,16 @@
 		"modelId": "hiiamsid/BETO_es_binary_classification",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "hiiamsid/autonlp-Summarization-20684327",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "hiiamsid/autonlp-Summarization-20684328",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "hiiamsid/est5-base-qg",
@@ -62929,6 +62944,10 @@
 		"private": false
 	},
 	{
+		"modelId": "masakhane/mbart50-large-fr-mos-mt",
+		"private": false
+	},
+	{
 		"modelId": "masapasa/vit-base-patch16-imagenette",
 		"private": false
 	},
@@ -67680,6 +67699,10 @@
 		"modelId": "nielsr/beit-large-patch16-224-pt22k-ft22k",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "nielsr/beit-test",
+		"private": false
 	},
 	{
 		"modelId": "nielsr/canine-c",
@@ -72488,6 +72511,14 @@
 		"private": false
 	},
 	{
+		"modelId": "ringabelle/bert-base-cased-finetuned-COVID-tweets",
+		"private": false
+	},
+	{
+		"modelId": "ringabelle/bert-base-cased-finetuned-wikitext2",
+		"private": false
+	},
+	{
 		"modelId": "rinna/japanese-gpt2-medium",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -73660,6 +73691,10 @@
 	},
 	{
 		"modelId": "saschavhd/GPT-Neo",
+		"private": false
+	},
+	{
+		"modelId": "sastrozero/inggis",
 		"private": false
 	},
 	{
@@ -83942,6 +83977,10 @@
 		"private": false
 	},
 	{
+		"modelId": "xiaodai/testing",
+		"private": false
+	},
+	{
 		"modelId": "xiaoguoer/bert-base-cased",
 		"private": false
 	},
@@ -84151,6 +84190,11 @@
 	},
 	{
 		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_07-12_RAW",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_08-40_lr1",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	},
@@ -85617,21 +85661,19 @@
 		"private": false
 	},
 	{
-		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_08-40_lr1",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "sastrozero/inggis",
+		"modelId": "tftransformers/bert-base-cased",
 		"private": false
 	},
 	{
-		"modelId": "doc2query/all-with_prefix-t5-base-v1",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"modelId": "tftransformers/bert-base-uncased",
+		"private": false
 	},
 	{
-		"modelId": "xiaodai/testing",
+		"modelId": "tftransformers/bert-large-cased",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/bert-large-uncased",
 		"private": false
 	}
 ]
