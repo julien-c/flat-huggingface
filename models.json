@@ -30390,10 +30390,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "biu-nlp/SuperPAL",
-		"private": false
-	},
-	{
 		"modelId": "biu-nlp/alephbert-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -35975,11 +35971,6 @@
 	{
 		"modelId": "ervis/test",
 		"private": false
-	},
-	{
-		"modelId": "erwanln/bert-base-multilingual-cased_tuned2_app",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "eshaoliu/dayumodel",
@@ -85668,19 +85659,23 @@
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne-capitel-ner-plus",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-biomedical-clinical-es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-biomedical-es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne-capitel-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-ca",
@@ -85704,11 +85699,13 @@
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne-sqac",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-bne-capitel-pos",
@@ -85782,6 +85779,31 @@
 	},
 	{
 		"modelId": "nielsr/beit-base-finetuned-ade20k",
+		"private": false
+	},
+	{
+		"modelId": "masakhane/mt5-large-mos-fr-mt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "yazdipour/text-to-sparql-t5-base-2021-10-19_12-15_lastDS",
+		"private": false
+	},
+	{
+		"modelId": "yongzx/gpt2-finetuned-oscar-ko",
+		"private": false
+	},
+	{
+		"modelId": "masakhane/m2m100-large-fr-mos-mt",
+		"private": false
+	},
+	{
+		"modelId": "masakhane/m2m100-large-mos-fr-mt",
+		"private": false
+	},
+	{
+		"modelId": "renny/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	}
 ]
