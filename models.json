@@ -85526,14 +85526,20 @@
 	},
 	{
 		"modelId": "tiennvcs/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "SPGT/LiveSafe-DialoGPT",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "speechbrain/REAL-M-sisnr-estimator-main",
+		"private": false
+	},
+	{
+		"modelId": "tiennvcs/bert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
