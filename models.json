@@ -15327,7 +15327,8 @@
 	},
 	{
 		"modelId": "Luciano/gpt2-small-portuguese-finetuned-peticoes",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Luciano/gpt2-small-portuguese-finetuned-tcu-acordaos",
@@ -25413,18 +25414,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "aditeyabaral/addpretrained-bert-hinglish-big",
-		"private": false
-	},
-	{
-		"modelId": "aditeyabaral/addpretrained-bert-hinglish-small",
-		"private": false
-	},
-	{
-		"modelId": "aditeyabaral/addpretrained-roberta-hinglish-big",
-		"private": false
-	},
-	{
 		"modelId": "aditeyabaral/bert-hinglish-big",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -25463,11 +25452,6 @@
 		"modelId": "aditeyabaral/roberta-hinglish-small",
 		"private": false,
 		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "aditeyabaral/sentencetransformer-bert-hinglish-big",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
 	},
 	{
 		"modelId": "aditya6332/rickbot",
@@ -33639,10 +33623,6 @@
 		"private": false
 	},
 	{
-		"modelId": "danielsaggau/bigbird-pegasus-large-arxiv-finetuned-xsum",
-		"private": false
-	},
-	{
 		"modelId": "danildany/DialoGPT-small-MichaelScott",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -37559,7 +37539,8 @@
 	},
 	{
 		"modelId": "facebook/wav2vec2-large-xlsr-53",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "facebook/wav2vec2-large",
@@ -85854,11 +85835,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Alireza1044/Theseus-rte",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "soikit/chinese-bert-wwm-chinese_bert_wwm1",
 		"private": false
 	},
@@ -85880,6 +85856,27 @@
 	},
 	{
 		"modelId": "biu-nlp/superpal",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Luciano/bert-base-portuguese-cased-finetuned-peticoes",
+		"private": false
+	},
+	{
+		"modelId": "deepset/bert-small-mm_retrieval-passage_encoder",
+		"private": false
+	},
+	{
+		"modelId": "Watlo/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
+		"modelId": "doc2query/stackexchange-t5-base-v1",
+		"private": false
+	},
+	{
+		"modelId": "deepset/bert-small-mm_retrieval-table_encoder",
 		"private": false
 	}
 ]
