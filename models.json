@@ -85531,7 +85531,8 @@
 	},
 	{
 		"modelId": "speechbrain/REAL-M-sisnr-estimator-main",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-to-audio"
 	},
 	{
 		"modelId": "tiennvcs/bert-base-uncased-finetuned-squad",
@@ -85543,6 +85544,11 @@
 	},
 	{
 		"modelId": "bespin-global/intent-recommender-1a93aaf9-9282-4304-9936-c2d4aed6011c",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "bespin-global/intent-recommender-37d6f86c-2c3b-4f06-9ca6-3b612d0c7945",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
