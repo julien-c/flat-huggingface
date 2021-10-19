@@ -31953,10 +31953,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "cestwc/bart-base-cnn",
-		"private": false
-	},
-	{
 		"modelId": "cestwc/roberta-base-cnn",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -85679,11 +85675,13 @@
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-base-ca",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-large-bne",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "PlanTL-GOB-ES/roberta-large-bne-sqac",
@@ -85782,6 +85780,11 @@
 		"private": false
 	},
 	{
+		"modelId": "maximedb/autonlp-vaccinchat-22134694",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "masakhane/mt5-large-mos-fr-mt",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -85795,15 +85798,31 @@
 		"private": false
 	},
 	{
-		"modelId": "masakhane/m2m100-large-fr-mos-mt",
-		"private": false
-	},
-	{
-		"modelId": "masakhane/m2m100-large-mos-fr-mt",
-		"private": false
-	},
-	{
 		"modelId": "renny/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Jeska/autonlp-vaccinfaq-22144706",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "doc2query/all-t5-base-v1",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "masakhane/m2m100_418M-fr-mos-mt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "masakhane/m2m100_418M-mos-fr-mt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "cestwc/bart-base-cnn-denoise",
 		"private": false
 	}
 ]
