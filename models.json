@@ -86285,11 +86285,6 @@
 		"private": false
 	},
 	{
-		"modelId": "maximedb/paws-x-all",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "speechbrain/emotion-recognition-wav2vec2-IEMOCAP",
 		"private": false
 	},
@@ -86300,7 +86295,8 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-finetuned-ks",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "Woonn/kogpt2-base-v2-finetuned-sst2",
@@ -86321,10 +86317,20 @@
 	},
 	{
 		"modelId": "icelab/spaceroberta_CR",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "Alireza1044/Theseus-qnli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "mrm8488/electricidad-small-fake-news",
+		"private": false
+	},
+	{
+		"modelId": "maximedb/paws-x-all",
 		"private": false
 	}
 ]
