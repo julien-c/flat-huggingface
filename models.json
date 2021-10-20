@@ -58110,15 +58110,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "jgammack/EAM-sentence-embedder",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "jgammack/EAM-tokenizer",
-		"private": false
-	},
-	{
 		"modelId": "jgammack/MTL-bert-base-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -86412,12 +86403,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "jgammack/EAM-bert-base-uncased",
-		"private": false,
-		"pipeline_tag": "fill-mask"
+		"modelId": "l3cube-pune/hate-multi-roberta-hasoc-hindi",
+		"private": false
 	},
 	{
-		"modelId": "l3cube-pune/hate-multi-roberta-hasoc-hindi",
+		"modelId": "NDugar/finetuned-bert-mrpc",
 		"private": false
 	}
 ]
