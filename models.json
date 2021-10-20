@@ -77662,10 +77662,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "speechbrain/emotion-recognition-wav2vec2",
-		"private": false
-	},
-	{
 		"modelId": "speechbrain/google_speech_command_xvector",
 		"private": false,
 		"pipeline_tag": "audio-classification"
@@ -86284,18 +86280,28 @@
 	},
 	{
 		"modelId": "cestwc/roberta-base-cnn-mlm",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "cestwc/roberta-base-cnn-tc",
 		"private": false
 	},
 	{
-		"modelId": "chaitanya97/wav2vec2-large-xlsr-hindi-demo-colab",
+		"modelId": "bl4ck-sun/gpt2-persian-finetuned-story-gpt2",
 		"private": false
 	},
 	{
-		"modelId": "bl4ck-sun/gpt2-persian-finetuned-story-gpt2",
+		"modelId": "maximedb/paws-x-all",
 		"private": false
+	},
+	{
+		"modelId": "speechbrain/emotion-recognition-wav2vec2-IEMOCAP",
+		"private": false
+	},
+	{
+		"modelId": "icelab/spacescibert_CR",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
