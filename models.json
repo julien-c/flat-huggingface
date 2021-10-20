@@ -32097,11 +32097,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ccdv/lsg-base-4096",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "ccoreilly/wav2vec2-large-100k-voxpopuli-catala",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -86264,15 +86259,22 @@
 	},
 	{
 		"modelId": "ufal/byt5-small-multilexnorm2021-tr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "ufal/byt5-small-multilexnorm2021-trde",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "icelab/spacebert_CR",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "ccdv/lsg-base-4096",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
