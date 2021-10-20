@@ -86201,10 +86201,6 @@
 		"private": false
 	},
 	{
-		"modelId": "nbroad/xlmr-bigbird-hi3",
-		"private": false
-	},
-	{
 		"modelId": "ufal/byt5-small-multilexnorm2021-de",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -86285,7 +86281,8 @@
 	},
 	{
 		"modelId": "cestwc/roberta-base-cnn-tc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "bl4ck-sun/gpt2-persian-finetuned-story-gpt2",
@@ -86293,7 +86290,8 @@
 	},
 	{
 		"modelId": "maximedb/paws-x-all",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "speechbrain/emotion-recognition-wav2vec2-IEMOCAP",
@@ -86303,5 +86301,13 @@
 		"modelId": "icelab/spacescibert_CR",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "nielsr/beit-base-finetuned-ade20k",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-finetuned-ks",
+		"private": false
 	}
 ]
