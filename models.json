@@ -78788,7 +78788,8 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-it",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ja",
@@ -86377,7 +86378,7 @@
 	{
 		"modelId": "Luxiere/DialoGPT-medium-tyrion",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "soikit/chinese-bert-wwm-chinese_bert_wwm2",
@@ -86398,8 +86399,21 @@
 		"private": false
 	},
 	{
+		"modelId": "l3cube-pune/hate-roberta-hasoc-hindi",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "chaitanya97/germany_training",
+		"private": false
+	},
+	{
 		"modelId": "jaesun/distilbert-base-uncased-finetuned-cola",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jgammack/EAM-bert-base-uncased",
+		"private": false
 	}
 ]
