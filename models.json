@@ -34960,6 +34960,10 @@
 		"private": false
 	},
 	{
+		"modelId": "diiogo/electra-base",
+		"private": false
+	},
+	{
 		"modelId": "diiogo/roberta-test",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -60559,7 +60563,8 @@
 	},
 	{
 		"modelId": "l3cube-pune/hate-bert-hasoc-marathi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "l41n/c3rbs",
@@ -64997,7 +65002,8 @@
 	},
 	{
 		"modelId": "monologg/kobigbird-bert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "monologg/kocharelectra-base-discriminator",
@@ -86351,11 +86357,13 @@
 	},
 	{
 		"modelId": "bochaowei/t5-small-finetuned-xsum-wei1",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "p208p2002/bart-drcd-qg-hl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "youngbin/distilbert-base-uncased-finetuned-cola",
@@ -86368,7 +86376,8 @@
 	},
 	{
 		"modelId": "Luxiere/DialoGPT-medium-tyrion",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "soikit/chinese-bert-wwm-chinese_bert_wwm2",
@@ -86381,10 +86390,16 @@
 	},
 	{
 		"modelId": "maximedb/paws-x-all-x-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "youngbin/kcbert-base-finetuned-nsmc",
 		"private": false
+	},
+	{
+		"modelId": "jaesun/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
