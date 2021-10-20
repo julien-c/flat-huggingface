@@ -86154,10 +86154,20 @@
 	},
 	{
 		"modelId": "akdeniz27/mbert-base-albanian-cased-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "kimboyworkman/first_model",
 		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-base-demo-colab-dummy",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/ssarahbel",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
