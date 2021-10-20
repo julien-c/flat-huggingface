@@ -78686,7 +78686,8 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-es",
@@ -86438,6 +86439,11 @@
 	},
 	{
 		"modelId": "sachdevkartik/DialoGPT-small-rick",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "CurtisBowser/DialoGPT-small-sora",
 		"private": false
 	}
 ]
