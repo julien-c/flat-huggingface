@@ -30740,7 +30740,8 @@
 	},
 	{
 		"modelId": "bochaowei/t5-small-finetuned-xsum-wei0",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "boek/bert-base-finetuned-nli",
@@ -60118,7 +60119,8 @@
 	},
 	{
 		"modelId": "klue/bert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "klue/roberta-base",
@@ -86322,7 +86324,8 @@
 	},
 	{
 		"modelId": "mrm8488/electricidad-small-fake-news",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "maximedb/paws-x-all",
@@ -86336,6 +86339,11 @@
 	{
 		"modelId": "nsanghi/wav2vec2-large-xlsr-turkish-demo-colab",
 		"private": false
+	},
+	{
+		"modelId": "Monsia/autonlp-tweets-classification-23044997",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "chaitanya97/german_training",
