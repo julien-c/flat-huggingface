@@ -86307,11 +86307,6 @@
 		"private": false
 	},
 	{
-		"modelId": "climatebert/distilroberta-base-climate-s-d",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "icelab/spaceroberta_CR",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -86444,6 +86439,7 @@
 	},
 	{
 		"modelId": "CurtisBowser/DialoGPT-small-sora",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
