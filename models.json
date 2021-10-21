@@ -78930,7 +78930,8 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-es",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-et",
@@ -86672,7 +86673,8 @@
 	},
 	{
 		"modelId": "cestwc/roberta-base-cnn-mlmhglr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "abhishek/autonlp-hindi-question-answering-23865268",
@@ -86957,10 +86959,19 @@
 	},
 	{
 		"modelId": "AyushPJ/ai-club-inductions-21-nlp-roBERTa-base-squad-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "AnonymousSub/unsup-consert-papers-bert",
+		"private": false
+	},
+	{
+		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-en-dummy",
+		"private": false
+	},
+	{
+		"modelId": "sanqiang/qa_3b",
 		"private": false
 	}
 ]
