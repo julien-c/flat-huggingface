@@ -74726,16 +74726,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "seanbenhur/manglish-offensive-language-identification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "seanbenhur/tanglish-offensive-language-identification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "seanbethard/autonlp-summarization_model-8771942",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -86567,11 +86557,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "seanbenhur/kanglish-offensive-language-identification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "Prabhudayala/opus-mt-en-ro-finetuned-en-to-ro",
 		"private": false
 	},
@@ -86634,6 +86619,18 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-timit-ft",
+		"private": false
+	},
+	{
+		"modelId": "seanbenhur/weights_misc",
+		"private": false
+	},
+	{
+		"modelId": "DongHyoungLee/kogpt2-base-v2-finetuned-kogpt2_nsmc_single_sentence_classification",
+		"private": false
+	},
+	{
+		"modelId": "histinct7002/distilbert-base-uncased-finetuned-cola",
 		"private": false
 	}
 ]
