@@ -86899,7 +86899,8 @@
 	},
 	{
 		"modelId": "saugat/distilroberta-base-finetuned-yulusa-hehealth",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "uclanlp/plbart-multi_task-strong",
@@ -86917,7 +86918,8 @@
 	},
 	{
 		"modelId": "valhalla/T0pp-flax-test",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Sin/MY_MODEL_NAME",
@@ -86925,6 +86927,23 @@
 	},
 	{
 		"modelId": "dsanchezunir/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "aditeyabaral/additionalpretrained-roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "aditeyabaral/sentencetransformer-roberta-base",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "maximedb/drclipsbis",
+		"private": false
+	},
+	{
+		"modelId": "Elainelau9913/distilbert-base-uncased-finetuned-squad",
 		"private": false
 	}
 ]
