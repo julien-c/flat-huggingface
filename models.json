@@ -86579,7 +86579,8 @@
 	},
 	{
 		"modelId": "tiennvcs/distilbert-base-uncased-finetuned-infovqa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-finetuned-ks",
@@ -86636,6 +86637,23 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_21102021_aug-finetuned-squad-v2_21102021_aug_1",
+		"private": false
+	},
+	{
+		"modelId": "joehdownardkainos/autonlp-intent-modelling-21895237",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "wicho/distilbert-base-uncased-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-all",
+		"private": false
+	},
+	{
+		"modelId": "gchhablani/plbart-multi_task-all",
 		"private": false
 	}
 ]
