@@ -86501,7 +86501,8 @@
 	},
 	{
 		"modelId": "bochaowei/t5-small-finetuned-xsum-wei2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "tucan9389/distilbert-base-uncased-finetuned-cola",
@@ -86534,6 +86535,11 @@
 		"modelId": "jaesun/kogpt2-base-v2-finetuned-nsmc",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "brimeggi/inexis-bot",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "pbatchu/wav2vec2-base-demo-colab",
