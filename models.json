@@ -86657,11 +86657,13 @@
 	},
 	{
 		"modelId": "furyhawk/t5-small-finetuned-xsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "patrickvonplaten/unispeech-sat-large-timit-ft",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "dukeme/DialoGPT-small-RDBotv1",
@@ -86834,10 +86836,84 @@
 	},
 	{
 		"modelId": "vuiseng9/bert-base-uncased-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "uclanlp/plbart-single_task-all-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-all-generation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-java",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-python",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-ruby",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-go",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-php",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-js",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-compiled",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-weak",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-static",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-dynamic",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_22102021_aug",
+		"private": false
+	},
+	{
+		"modelId": "saugat/distilroberta-base-finetuned-yulusa-hehealth",
+		"private": false
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-strong",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-multi_task-interpreted",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
 	}
