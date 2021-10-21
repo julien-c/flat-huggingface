@@ -86539,7 +86539,8 @@
 	},
 	{
 		"modelId": "MINYOUNG/distilbert-base-uncased-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "andrliu/wav2vec2-base-timit-demo-colab",
@@ -86600,6 +86601,20 @@
 	},
 	{
 		"modelId": "liangtaiwan/t5-v1_1-lm100k-large",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "tiennvcs/distilbert-base-uncased-finetuned-infovqa",
+		"private": false
+	},
+	{
+		"modelId": "Alireza1044/Theseus-mrpc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-finetuned-ks",
 		"private": false
 	}
 ]
