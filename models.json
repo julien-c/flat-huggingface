@@ -86558,7 +86558,8 @@
 	},
 	{
 		"modelId": "patrickvonplaten/unispeech-sat-base-plus-timit-ft",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "pritoms/distilgpt2-finetuned-mit-lecture",
@@ -86567,7 +86568,8 @@
 	},
 	{
 		"modelId": "seanbenhur/kanglish-offensive-language-identification",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Prabhudayala/opus-mt-en-ro-finetuned-en-to-ro",
@@ -86627,6 +86629,11 @@
 	},
 	{
 		"modelId": "aditeyabaral/sentencetransformer-bert-base-cased",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-base-timit-ft",
 		"private": false
 	}
 ]
