@@ -63491,16 +63491,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "masakhane/mt5-large-fr-mos-mt",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "masakhane/mt5-large-mos-fr-mt",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "masapasa/vit-base-patch16-imagenette",
 		"private": false
 	},
@@ -86650,10 +86640,21 @@
 	},
 	{
 		"modelId": "uclanlp/plbart-multi_task-all",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "gchhablani/plbart-multi_task-all",
 		"private": false
+	},
+	{
+		"modelId": "masakhane/mt5-base-mos-fr-mt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "masakhane/mt5-base-fr-mos-mt",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
