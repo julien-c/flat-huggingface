@@ -27453,7 +27453,8 @@
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_single-vumichien",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "amild01/GPT2-german-chefkoch",
@@ -80411,10 +80412,6 @@
 		"modelId": "tartuNLP/EstBERT_XPOS_128",
 		"private": false,
 		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "tarudesu/viBERT4news-constructive-speech-detection",
-		"private": false
 	},
 	{
 		"modelId": "tasnimsamir/mbart-large-cc25-ar-en-finetuned-AR_Dialects-to-MSA",
