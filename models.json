@@ -86763,6 +86763,17 @@
 	},
 	{
 		"modelId": "uclanlp/plbart-single_task-compiled-summarization",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-compiled-generation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-dynamic-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
