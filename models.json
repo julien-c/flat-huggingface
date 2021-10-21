@@ -86565,7 +86565,8 @@
 	},
 	{
 		"modelId": "Roberta55/deberta-base-mnli-finetuned-cola",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "patrickvonplaten/unispeech-sat-base-plus-timit-ft",
@@ -86573,10 +86574,19 @@
 	},
 	{
 		"modelId": "pritoms/distilgpt2-finetuned-mit-lecture",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "seanbenhur/kanglish-offensive-language-identification",
+		"private": false
+	},
+	{
+		"modelId": "Prabhudayala/opus-mt-en-ro-finetuned-en-to-ro",
+		"private": false
+	},
+	{
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_single-vumichien2",
 		"private": false
 	}
 ]
