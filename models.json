@@ -64598,10 +64598,6 @@
 		"private": false
 	},
 	{
-		"modelId": "milyiyo/distilbert-base-uncased-finetuned-squad",
-		"private": false
-	},
-	{
 		"modelId": "mingchen7/bert-question-answering",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -86615,7 +86611,8 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-timit-fine-tuned",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "jawaharreddy247/wav2vec2-large-xlsr-hindhi-demo-colab",
@@ -86659,6 +86656,10 @@
 	},
 	{
 		"modelId": "furyhawk/t5-small-finetuned-xsum",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/unispeech-sat-large-timit-ft",
 		"private": false
 	}
 ]
