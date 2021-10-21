@@ -18505,12 +18505,9 @@
 		"private": false
 	},
 	{
-		"modelId": "PurpleJacketGuy/My_JARVIS",
-		"private": false
-	},
-	{
-		"modelId": "PurpleJacketGuy/My_Jarvis_1",
-		"private": false
+		"modelId": "PurpleJacketGuy/My_Jarvis_2",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Pyjay/bert-base-dutch-cased-finetuned-gv",
@@ -31074,11 +31071,6 @@
 		"private": false
 	},
 	{
-		"modelId": "brimeggi/inexis-bot",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "brimeggi/testbot2",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -42283,10 +42275,6 @@
 		"modelId": "graviraja/covidbert_squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "green/t5-small-finetuned-xsum",
-		"private": false
 	},
 	{
 		"modelId": "groadabike/ConvTasNet_DAMP-VSEP_enhboth",
@@ -86802,7 +86790,8 @@
 	},
 	{
 		"modelId": "maximedb/drclips",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "uclanlp/plbart-single_task-strong-generation",
@@ -86916,5 +86905,21 @@
 		"modelId": "uclanlp/plbart-multi_task-interpreted",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Sin/DialoGPT-small-joshua",
+		"private": false
+	},
+	{
+		"modelId": "valhalla/T0pp-flax-test",
+		"private": false
+	},
+	{
+		"modelId": "Sin/MY_MODEL_NAME",
+		"private": false
+	},
+	{
+		"modelId": "dsanchezunir/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-squad",
+		"private": false
 	}
 ]
