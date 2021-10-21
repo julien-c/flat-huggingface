@@ -31336,15 +31336,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "cactode/gpt2_urbandict_textgen_large",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "cactode/gtp2_urbandict_distill",
-		"private": false
-	},
-	{
 		"modelId": "cahya/bert-base-indonesian-1.5G",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -86555,6 +86546,12 @@
 	},
 	{
 		"modelId": "jaesun/kogpt2-base-v2-finetuned-nsmc",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "cactode/gpt2_urbandict_textgen_torch",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	}
 ]
