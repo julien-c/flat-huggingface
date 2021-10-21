@@ -58293,6 +58293,20 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "jgammack/EAM-bert-base-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jgammack/EAM-sentence-embedder",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "jgammack/EAM-tokenizer",
+		"private": false
+	},
+	{
 		"modelId": "jgammack/MTL-bert-base-uncased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -86787,5 +86801,44 @@
 	{
 		"modelId": "maximedb/drclips",
 		"private": false
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-strong-generation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-strong-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-static-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-static-generation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-weak-generation",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-weak-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "vuiseng9/bert-base-uncased-squad",
+		"private": false
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-all-summarization",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
