@@ -77903,7 +77903,8 @@
 	},
 	{
 		"modelId": "speechbrain/emotion-recognition-wav2vec2-IEMOCAP",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "speechbrain/google_speech_command_xvector",
@@ -86719,5 +86720,30 @@
 	{
 		"modelId": "codingforgood/wav2vec2-base-timit-demo-colab",
 		"private": false
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-js_en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-php_en",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-en_java",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-en_ruby",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "uclanlp/plbart-single_task-en_python",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
