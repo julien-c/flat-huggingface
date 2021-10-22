@@ -27863,6 +27863,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "anditya/xlm-roberta-base-finetuned-marc-en",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "andreas800/hgf_models",
 		"private": false
 	},
@@ -60078,6 +60083,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "junxtjx/roberta-base_TER",
+		"private": false
+	},
+	{
 		"modelId": "junzai/bert_finetuning_test",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -62232,6 +62241,10 @@
 		"private": false
 	},
 	{
+		"modelId": "loretoparisi/wav2vec2-base-finetuned-ks",
+		"private": false
+	},
+	{
 		"modelId": "loubau/WoBERT",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -62483,6 +62496,10 @@
 	},
 	{
 		"modelId": "luqmanaqil/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "lvargas/tutorial",
 		"private": false
 	},
 	{
@@ -67655,6 +67672,10 @@
 		"modelId": "nadzma/T5-long-extraction-UK-annual-reports",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "nadzma/finetuned-T5-French-financial-news-summarization",
+		"private": false
 	},
 	{
 		"modelId": "naiyalee/DialoGPT-small-neku",
@@ -74176,6 +74197,10 @@
 	},
 	{
 		"modelId": "sadana1og/tha-bert-qa",
+		"private": false
+	},
+	{
+		"modelId": "sadiaq/stuff",
 		"private": false
 	},
 	{
@@ -87207,31 +87232,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "junxtjx/roberta-base_TER",
-		"private": false
-	},
-	{
-		"modelId": "lvargas/tutorial",
-		"private": false
-	},
-	{
-		"modelId": "nadzma/finetuned-T5-French-financial-news-summarization",
-		"private": false
-	},
-	{
-		"modelId": "anditya/xlm-roberta-base-finetuned-marc-en",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "loretoparisi/wav2vec2-base-finetuned-ks",
-		"private": false
-	},
-	{
-		"modelId": "cointegrated/roberta-base-gyafc-formality-classifier",
 		"private": false
 	}
 ]
