@@ -2031,6 +2031,11 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "AyushPJ/ai-club-inductions-21-nlp-ELECTRA-base-squad",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "AyushPJ/ai-club-inductions-21-nlp-XLNet",
 		"private": false
 	},
@@ -2869,6 +2874,10 @@
 		"modelId": "CZWin32768/xlm-align",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "Caddy/UD",
+		"private": false
 	},
 	{
 		"modelId": "Callidior/bert2bert-base-arxiv-titlegen",
@@ -4327,6 +4336,14 @@
 		"private": false
 	},
 	{
+		"modelId": "Edwardlzy/albert-base-v2-finetuned-cola",
+		"private": false
+	},
+	{
+		"modelId": "Edwardlzy/albert-base-v2-finetuned-mnli",
+		"private": false
+	},
+	{
 		"modelId": "Eeeeee/DialoGPT-small-harry",
 		"private": false
 	},
@@ -4684,6 +4701,10 @@
 	},
 	{
 		"modelId": "Faky/DialoGPT-small-RickBot",
+		"private": false
+	},
+	{
+		"modelId": "Famaral97/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
 	{
@@ -16263,6 +16284,10 @@
 	},
 	{
 		"modelId": "Mehrad1/DiabloGPT-medium-Ron",
+		"private": false
+	},
+	{
+		"modelId": "Mehrdad/test",
 		"private": false
 	},
 	{
@@ -34063,6 +34088,10 @@
 		"private": false
 	},
 	{
+		"modelId": "cytochrome/gpt2-wikitext2",
+		"private": false
+	},
+	{
 		"modelId": "d4niel92/xlm-roberta-base-finetuned-marc-en",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -36421,6 +36450,10 @@
 		"modelId": "emilyalsentzer/Bio_Discharge_Summary_BERT",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "emma19/speech-recognition",
+		"private": false
 	},
 	{
 		"modelId": "empushy/gpt2-alerts",
@@ -63519,6 +63552,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "mamlong34/gpt_neo_1_3B_race",
+		"private": false
+	},
+	{
 		"modelId": "mamlong34/t5_base_race_cosmos_qa",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -64853,6 +64890,10 @@
 	},
 	{
 		"modelId": "microsoft/unispeech-large-1500h-cv",
+		"private": false
+	},
+	{
+		"modelId": "microsoft/unispeech-large-fr-ft",
 		"private": false
 	},
 	{
@@ -67498,6 +67539,10 @@
 		"modelId": "muhtasham/TajBERTo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "muhtasham/wav2vec2-large-xlsr-53-turkish",
+		"private": false
 	},
 	{
 		"modelId": "muirkat/tolkien-mythopoeic-gen",
@@ -70727,6 +70772,11 @@
 		"private": false
 	},
 	{
+		"modelId": "patrickvonplaten/sat-base",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "patrickvonplaten/sew-d-tiny-100k-demo-colab",
 		"private": false
 	},
@@ -70777,6 +70827,11 @@
 		"private": false
 	},
 	{
+		"modelId": "patrickvonplaten/unispeech-large-1500h-cv-timit",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "patrickvonplaten/unispeech-large-multi-lingual-1500h-cv-demo-colab",
 		"private": false
 	},
@@ -70814,6 +70869,10 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-libri-100h",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-base-random",
 		"private": false
 	},
 	{
@@ -70896,6 +70955,11 @@
 	{
 		"modelId": "patrickvonplaten/wav2vec2-pretrained-demo",
 		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-random",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-reproduce",
@@ -75451,6 +75515,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "sefaozalpadl/stop_the_steal_relevancy_analysis-binary",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "seguinanto/brevert",
 		"private": false
 	},
@@ -77027,6 +77096,11 @@
 		"modelId": "siebert/sentiment-roberta-large-english",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "sienog/autonlp-mt5-xlsum-25085641",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "sifclairhelix/DialoGPT-small-harrypot",
@@ -80174,6 +80248,10 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "suhruth/test_model",
+		"private": false
+	},
+	{
 		"modelId": "sukritin/hindi-bert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -82207,7 +82285,16 @@
 		"private": false
 	},
 	{
+		"modelId": "tiennvcs/bert-base-uncased-finetuned-docvqa",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
 		"modelId": "tiennvcs/bert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "tiennvcs/bert-large-uncased-finetuned-docvqa",
 		"private": false
 	},
 	{
@@ -87386,93 +87473,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "tiennvcs/bert-base-uncased-finetuned-docvqa",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "sefaozalpadl/stop_the_steal_relevancy_analysis-binary",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Caddy/UD",
-		"private": false
-	},
-	{
-		"modelId": "muhtasham/wav2vec2-large-xlsr-53-turkish",
-		"private": false
-	},
-	{
-		"modelId": "emma19/speech-recognition",
-		"private": false
-	},
-	{
-		"modelId": "Famaral97/distilbert-base-uncased-finetuned-ner",
-		"private": false
-	},
-	{
-		"modelId": "suhruth/test_model",
-		"private": false
-	},
-	{
-		"modelId": "tiennvcs/bert-large-uncased-finetuned-docvqa",
-		"private": false
-	},
-	{
-		"modelId": "patrickvonplaten/wav2vec2-base-random",
-		"private": false
-	},
-	{
-		"modelId": "patrickvonplaten/wav2vec2-random",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "patrickvonplaten/sat-base",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "microsoft/unispeech-large-fr-ft",
-		"private": false
-	},
-	{
-		"modelId": "sienog/autonlp-mt5-xlsum-25085641",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "patrickvonplaten/unispeech-large-1500h-cv-timit",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "mamlong34/gpt_neo_1_3B_race",
-		"private": false
-	},
-	{
-		"modelId": "cytochrome/gpt2-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "Mehrdad/test",
-		"private": false
-	},
-	{
-		"modelId": "Edwardlzy/albert-base-v2-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "AyushPJ/ai-club-inductions-21-nlp-ELECTRA-base-squad",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "Edwardlzy/albert-base-v2-finetuned-mnli",
 		"private": false
 	}
 ]
