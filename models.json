@@ -79687,39 +79687,48 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ru",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sk",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sme",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-sv",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-swl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ta",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-te",
@@ -80761,7 +80770,7 @@
 	{
 		"modelId": "tal-yifat/injury-report-test",
 		"private": false,
-		"pipeline_tag": "fill-mask"
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "tals/albert-base-mnli",
@@ -87441,6 +87450,10 @@
 	},
 	{
 		"modelId": "Mehrdad/test",
+		"private": false
+	},
+	{
+		"modelId": "Edwardlzy/albert-base-v2-finetuned-cola",
 		"private": false
 	}
 ]
