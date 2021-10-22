@@ -67745,7 +67745,7 @@
 	{
 		"modelId": "nadzma/T5-long-extraction-UK-annual-reports",
 		"private": false,
-		"pipeline_tag": "text2text-generation"
+		"pipeline_tag": "summarization"
 	},
 	{
 		"modelId": "nadzma/finetuned-T5-French-financial-news-summarization",
@@ -87367,7 +87367,8 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-random",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "patrickvonplaten/sat-base",
@@ -87375,6 +87376,10 @@
 	},
 	{
 		"modelId": "microsoft/unispeech-large-fr-ft",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/unispeech-large-1500h-cv-timit",
 		"private": false
 	}
 ]
