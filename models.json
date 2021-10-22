@@ -484,7 +484,7 @@
 	{
 		"modelId": "AJ-Dude/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "AK/ak_nlp",
@@ -61027,7 +61027,8 @@
 	},
 	{
 		"modelId": "l3cube-pune/hate-multi-roberta-hasoc-hindi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "l3cube-pune/hate-roberta-hasoc-hindi",
@@ -87123,6 +87124,11 @@
 		"private": false
 	},
 	{
+		"modelId": "pruthviraj1991/autonlp-fin_news_3-24375437",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "aheba31/test-predictor",
 		"private": false
 	},
@@ -87132,6 +87138,10 @@
 	},
 	{
 		"modelId": "mamlong34/t5_larg_race_cosmos_qa",
+		"private": false
+	},
+	{
+		"modelId": "maximedb/drclips128",
 		"private": false
 	}
 ]
