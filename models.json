@@ -33242,10 +33242,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "cmcmaster/deberta-adr",
-		"private": false
-	},
-	{
 		"modelId": "cmqzg/first",
 		"private": false
 	},
@@ -87082,6 +87078,11 @@
 	},
 	{
 		"modelId": "adalbertojunior/test-256-uncased",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "truong9499/wav2vec2-base-timit-demo-colab",
 		"private": false
 	}
 ]
