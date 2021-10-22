@@ -22766,6 +22766,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Teepika/dummy-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "Teepika/finetuned-bert-mrpc",
 		"private": false
 	},
@@ -77807,7 +77812,8 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_22102021_aug",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad",
@@ -87057,10 +87063,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "Teepika/dummy-model",
 		"private": false
 	}
 ]
