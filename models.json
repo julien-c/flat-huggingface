@@ -87099,7 +87099,8 @@
 	},
 	{
 		"modelId": "Ranger/Dial0GPT-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Teepika/Mini-Sentence-Transformer-Fine-Tuned",
@@ -87113,5 +87114,9 @@
 		"modelId": "ami-wav2vec2/ami-dummy-vumichien",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
+		"modelId": "Teepika/Distil-Sentence-Transformer-Fine-Tuned",
+		"private": false
 	}
 ]
