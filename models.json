@@ -35385,6 +35385,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "diiogo/electra-base",
+		"private": false
+	},
+	{
 		"modelId": "diiogo/roberta-test",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -79429,43 +79433,53 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-af",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ar",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-be",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-bg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ca",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-cop",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-cs",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-cu",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-cy",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-da",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-de",
@@ -79474,7 +79488,8 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-el",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-en",
@@ -79488,31 +79503,38 @@
 	},
 	{
 		"modelId": "stanfordnlp/stanza-et",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-eu",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-fa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-fi",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-fo",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-fr",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-fro",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "stanfordnlp/stanza-ga",
@@ -87386,6 +87408,14 @@
 	},
 	{
 		"modelId": "patrickvonplaten/unispeech-large-1500h-cv-timit",
+		"private": false
+	},
+	{
+		"modelId": "mamlong34/gpt_neo_1_3B_race",
+		"private": false
+	},
+	{
+		"modelId": "cytochrome/gpt2-wikitext2",
 		"private": false
 	}
 ]
