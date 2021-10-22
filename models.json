@@ -1641,7 +1641,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/declutr-roberta-papers",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "AnonymousSub/declutr-s10-AR",
@@ -34353,7 +34354,8 @@
 	},
 	{
 		"modelId": "danwilbury/xlm-roberta-base-finetuned-marc-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "danyaljj/gpt2_question_answering_squad2",
@@ -34481,7 +34483,8 @@
 	},
 	{
 		"modelId": "daveccampbell/xlm-roberta-base-finetuned-marc-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "daveni/twitter-xlm-roberta-emotion-es",
@@ -61315,7 +61318,8 @@
 	},
 	{
 		"modelId": "laurauzcategui/xlm-roberta-base-finetuned-marc-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "laurievb/distilbert-base-uncased-finetuned-ner",
@@ -67483,10 +67487,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "muhtasham/wav2vec2-large-xlsr-53-demo-colab",
-		"private": false
-	},
-	{
 		"modelId": "muirkat/tolkien-mythopoeic-gen",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -73448,7 +73448,8 @@
 	},
 	{
 		"modelId": "reza/xlm-roberta-base-finetuned-marc-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "rfulton/hackMITfinished",
@@ -75432,11 +75433,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "sefaozalpadl/autonlp-stop_the_steal_relevancy_analysis-23995359",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "sefaozalpadl/election_relevancy_best",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -76565,7 +76561,8 @@
 	},
 	{
 		"modelId": "shaer/xlm-roberta-base-finetuned-marc-en-test-run",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "shahjaidev/bert-base-uncased-finetuned-swag",
@@ -87318,6 +87315,15 @@
 	},
 	{
 		"modelId": "tiennvcs/bert-base-uncased-finetuned-docvqa",
+		"private": false
+	},
+	{
+		"modelId": "sefaozalpadl/stop_the_steal_relevancy_analysis-binary",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "Caddy/UD",
 		"private": false
 	}
 ]
