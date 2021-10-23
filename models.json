@@ -32725,10 +32725,6 @@
 		"private": false
 	},
 	{
-		"modelId": "chaitanya97/german_training_own",
-		"private": false
-	},
-	{
 		"modelId": "chaitanya97/germany_training",
 		"private": false
 	},
@@ -57791,11 +57787,13 @@
 	},
 	{
 		"modelId": "indobenchmark/indobart-v2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "indobenchmark/indobart",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "indobenchmark/indobert-base-p1",
