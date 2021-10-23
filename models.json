@@ -518,7 +518,7 @@
 	{
 		"modelId": "ATGdev/DialoGPT-small-harrypotter",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "ATGdev/ai_ironman",
@@ -87572,5 +87572,10 @@
 		"modelId": "KoichiYasuoka/chinese-roberta-large-upos",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "BigSalmon/FormalRobertaa",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
