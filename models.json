@@ -87965,6 +87965,47 @@
 	},
 	{
 		"modelId": "espnet/kan-bayashi_jvs_jvs010_vits_prosody",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_tsukuyomi_tts_finetune_full_band_jsut_vits_raw_phn_jaconv_pyopenjtalk_prosody_latest",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_tsukuyomi_full_band_vits_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_libritts_tts_train_xvector_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_libritts_xvector_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_joint_conformer_fastspeech2_hifigan_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_finetune_joint_conformer_fastspeech2_hifigan_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_joint_train_conformer_fastspeech2_hifigan",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
 	}
 ]
