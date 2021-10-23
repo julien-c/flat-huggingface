@@ -87523,7 +87523,8 @@
 	},
 	{
 		"modelId": "tiennvcs/bert-base-uncased-finetuned-infovqa",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "tiennvcs/bert-large-uncased-finetuned-infovqa",
@@ -87531,6 +87532,14 @@
 	},
 	{
 		"modelId": "keenyou/finetune-medical-nli",
+		"private": false
+	},
+	{
+		"modelId": "vcapp/hello-world",
+		"private": false
+	},
+	{
+		"modelId": "hfl/cino-large",
 		"private": false
 	}
 ]
