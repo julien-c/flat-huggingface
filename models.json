@@ -29412,6 +29412,11 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rob-model",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -87779,7 +87784,8 @@
 	},
 	{
 		"modelId": "dkleczek/papuGaPT2-finetuned-wierszyki",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lewtun/distilbert-base-uncased-distilled-clinc",
@@ -87829,5 +87835,88 @@
 		"modelId": "espnet/kan-bayashi_jvs_jvs010_vits_accent_with_pause",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_full_band_vits_raw_phn_pypinyin_g2p_phone_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_full_band_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "human/model_name_human_test",
+		"private": false
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_vits_raw_phn_pypinyin_g2p_phone_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tacotron2_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_transformer_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_transformer_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_tacotron2_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_transformer_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_multi_spk_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "Edwardlzy/albert-base-v2-finetuned-swag",
+		"private": false
 	}
 ]
