@@ -382,6 +382,15 @@
 		"private": false
 	},
 	{
+		"modelId": "2umm3r/bert-base-uncased-finetuned-cls",
+		"private": false
+	},
+	{
+		"modelId": "2umm3r/distilbert-base-uncased-finetuned-cola",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "3koozy/gpt2-HxH",
 		"private": false
 	},
@@ -4358,6 +4367,14 @@
 	},
 	{
 		"modelId": "Edwardlzy/albert-base-v2-finetuned-sst2",
+		"private": false
+	},
+	{
+		"modelId": "Edwardlzy/albert-base-v2-finetuned-swag",
+		"private": false
+	},
+	{
+		"modelId": "Edwardlzy/checkpoint-8144-finetuned-squad",
 		"private": false
 	},
 	{
@@ -14846,6 +14863,11 @@
 		"private": false
 	},
 	{
+		"modelId": "Kirili4ik/ruDialoGpt3-medium-finetuned-telegram",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "Kirsty/DialoGPT-small-harrypotter",
 		"private": false
 	},
@@ -22128,6 +22150,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Sheel/DialoGPT-small-harrypotter",
+		"private": false
+	},
+	{
 		"modelId": "ShenSeanchen/NLP",
 		"private": false
 	},
@@ -22917,11 +22943,23 @@
 		"private": false
 	},
 	{
+		"modelId": "Teepika/Sentence-Transformer-Check",
+		"private": false
+	},
+	{
+		"modelId": "Teepika/Sentence-Transformer-F",
+		"private": false
+	},
+	{
 		"modelId": "Teepika/Sentence-Transformer-Fine-Tuned",
 		"private": false
 	},
 	{
 		"modelId": "Teepika/Sentence-Transformer-Fine-Tuned2",
+		"private": false
+	},
+	{
+		"modelId": "Teepika/Sentence-Transformer-Fine-Tuned3",
 		"private": false
 	},
 	{
@@ -24256,6 +24294,10 @@
 		"modelId": "Vaibhavbrkn/question-gen",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Vaibhavbrkn/results",
+		"private": false
 	},
 	{
 		"modelId": "Vaibhavbrkn/t5-summarization",
@@ -25872,6 +25914,10 @@
 		"private": false
 	},
 	{
+		"modelId": "aditeyabaral/additionalpretrained-xlm-roberta-base",
+		"private": false
+	},
+	{
 		"modelId": "aditeyabaral/bert-hinglish-big",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -25948,6 +25994,11 @@
 	},
 	{
 		"modelId": "aditeyabaral/sentencetransformer-roberta-hinglish-small",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "aditeyabaral/sentencetransformer-xlm-roberta-base",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
@@ -26515,6 +26566,10 @@
 		"modelId": "akdeniz27/xlm-roberta-base-turkish-ner",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "akey3/DialoGPT-small-Rick",
+		"private": false
 	},
 	{
 		"modelId": "akhooli/gpt2-ar-poetry-aub",
@@ -29412,6 +29467,10 @@
 		"private": false
 	},
 	{
+		"modelId": "athar/rob-model-finetuned-squad",
+		"private": false
+	},
+	{
 		"modelId": "athar/rob-model",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -30215,6 +30274,11 @@
 		"private": false
 	},
 	{
+		"modelId": "beomi/beep-KcELECTRA-base-bias",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "beomi/beep-KcELECTRA-base-hate",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -30224,12 +30288,32 @@
 		"private": false
 	},
 	{
+		"modelId": "beomi/beep-kcbert-base-bias",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "beomi/beep-kcbert-base-hate",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "beomi/beep-klue-roberta-base-bias",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "beomi/beep-klue-roberta-base-hate",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "beomi/beep-koelectra-base-v3-discriminator-bias",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "beomi/beep-koelectra-base-v3-discriminator-hate",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -32516,6 +32600,10 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "castorini/tct_colbert-msmarco-cqe",
+		"private": false
+	},
+	{
 		"modelId": "castorini/tct_colbert-msmarco",
 		"private": false
 	},
@@ -32726,6 +32814,10 @@
 		"private": false
 	},
 	{
+		"modelId": "chaitanya97/custom_german",
+		"private": false
+	},
+	{
 		"modelId": "chambliss/distilbert-for-food-extraction",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -32741,9 +32833,21 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "chandank/bart-base-bart-base-finetuned-xsum",
+		"private": false
+	},
+	{
 		"modelId": "chandank/bart-base-finetuned-xsum",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "chandank/bart-large-bart-base-finetuned-xsum",
+		"private": false
+	},
+	{
+		"modelId": "chandank/bart-large-finetuned-kaggle-news-summary",
+		"private": false
 	},
 	{
 		"modelId": "chansderek/model_name",
@@ -33262,6 +33366,15 @@
 	{
 		"modelId": "clagator/biobert_v1.1_pubmed_nli_sts",
 		"private": false
+	},
+	{
+		"modelId": "clairesb/chatbot",
+		"private": false
+	},
+	{
+		"modelId": "clairesb/kb",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "clarin-pl/fastText-kgr10",
@@ -34069,6 +34182,10 @@
 	},
 	{
 		"modelId": "csukuangfj/conformer_ctc",
+		"private": false
+	},
+	{
+		"modelId": "csukuangfj/cudnn",
 		"private": false
 	},
 	{
@@ -34951,6 +35068,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "ddddd/EDCLasVegas",
+		"private": false
+	},
+	{
 		"modelId": "ddemszky/Feb25_09-02-16_combined_education_dataset_02252021.json_6.25e-05_hist1_cand4_bert-base-uncased_ne1_nsp1",
 		"private": false
 	},
@@ -35616,6 +35737,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "dkleczek/papuGaPT2-finetuned-wierszyki",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "dkleczek/papuGaPT2",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -36105,6 +36231,11 @@
 	},
 	{
 		"modelId": "educhav/Elijah-DialoGPT-small",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "educhav/J-DialoGPT-small",
 		"private": false,
 		"pipeline_tag": "conversational"
 	},
@@ -36852,6 +36983,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "espnet/Yushi_Ueda_mini_librispeech_diar_train_diar_raw_max_epoch20_valid.acc.best",
+		"private": false
+	},
+	{
 		"modelId": "espnet/anogkongda-librimix_enh_train_raw_valid.si_snr.ave",
 		"private": false,
 		"pipeline_tag": "audio-to-audio"
@@ -36986,6 +37121,11 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_csmsc_full_band_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_csmsc_tacotron2",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -37011,12 +37151,27 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_full_band_vits_raw_phn_pypinyin_g2p_phone_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_csmsc_tts_train_tacotron2_raw_phn_pypinyin_g2p_phone_train.loss.best",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/kan-bayashi_csmsc_tts_train_transformer_raw_phn_pypinyin_g2p_phone_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_tts_train_vits_raw_phn_pypinyin_g2p_phone_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_csmsc_vits",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37032,6 +37187,16 @@
 	},
 	{
 		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_accent_with_pause",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_tacotron2_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_transformer_prosody",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37056,6 +37221,16 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_jsut_full_band_vits_accent_with_pause",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_full_band_vits_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_jsut_tacotron2",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -37067,6 +37242,11 @@
 	},
 	{
 		"modelId": "espnet/kan-bayashi_jsut_tacotron2_accent_with_pause",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tacotron2_prosody",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37086,6 +37266,11 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_jsut_transformer_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -37101,12 +37286,22 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37141,12 +37336,27 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_full_band_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_full_band_vits_raw_phn_jaconv_pyopenjtalk_prosody_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_accent_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37166,7 +37376,62 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_transformer_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_jsut_tts_train_transformer_raw_phn_jaconv_pyopenjtalk_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_tts_train_vits_raw_phn_jaconv_pyopenjtalk_prosody_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_vits_accent_with_pause",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jsut_vits_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jvs_jvs001_vits_accent_with_pause",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jvs_jvs010_vits_accent_with_pause",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jvs_jvs010_vits_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jvs_tts_finetune_jvs001_jsut_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_latest",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jvs_tts_finetune_jvs010_jsut_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_latest",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_jvs_tts_finetune_jvs010_jsut_vits_raw_phn_jaconv_pyopenjtalk_prosody_latest",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37201,12 +37466,22 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_libritts_tts_train_xvector_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_libritts_xvector_conformer_fastspeech2",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/kan-bayashi_libritts_xvector_trasnformer",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_libritts_xvector_vits",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37226,12 +37501,27 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_joint_train_conformer_fastspeech2_hifigan",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_ljspeech_tacotron2",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/kan-bayashi_ljspeech_transformer",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_finetune_joint_conformer_fastspeech2_hifigan_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37251,12 +37541,42 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_joint_conformer_fastspeech2_hifigan_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.best",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
 	{
 		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_transformer_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_ljspeech_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_tsukuyomi_full_band_vits_prosody",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_tsukuyomi_tts_finetune_full_band_jsut_vits_raw_phn_jaconv_pyopenjtalk_prosody_latest",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_full_band_multi_spk_vits",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -37301,6 +37621,16 @@
 		"pipeline_tag": "text-to-speech"
 	},
 	{
+		"modelId": "espnet/kan-bayashi_vctk_multi_spk_vits",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_full_band_multi_spk_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
 		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_conformer_fastspeech2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -37332,6 +37662,11 @@
 	},
 	{
 		"modelId": "espnet/kan-bayashi_vctk_tts_train_gst_xvector_tacotron2_raw_phn_tacotron_g2p_en_no_space_train.loss.ave",
+		"private": false,
+		"pipeline_tag": "text-to-speech"
+	},
+	{
+		"modelId": "espnet/kan-bayashi_vctk_tts_train_multi_spk_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
 	},
@@ -43587,6 +43922,10 @@
 		"private": false
 	},
 	{
+		"modelId": "harshit345/wav2vec2-base-timit-demo-colab",
+		"private": false
+	},
+	{
 		"modelId": "hartzeer/rtefsdfsdf",
 		"private": false
 	},
@@ -44446,6 +44785,10 @@
 		"modelId": "himanshu-dutta/pycoder-gpt2",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "hireddivas/ellen-bot",
+		"private": false
 	},
 	{
 		"modelId": "hiroshi-matsuda-rit/bert-base-japanese-basic-char-v2",
@@ -45656,6 +45999,11 @@
 	},
 	{
 		"modelId": "huggingartists/snoop-dogg",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingartists/sqwore",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -49019,6 +49367,11 @@
 	},
 	{
 		"modelId": "huggingtweets/dril-methwaffles-someduckingguy",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/dril-praisegodbarbon",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -53370,6 +53723,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/nikkihaleyfan93",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/nillster",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -57237,6 +57595,10 @@
 		"private": false
 	},
 	{
+		"modelId": "human/model_name_human_test",
+		"private": false
+	},
+	{
 		"modelId": "human-centered-summarization/financial-summarization-pegasus",
 		"private": false,
 		"pipeline_tag": "summarization"
@@ -59936,6 +60298,11 @@
 		"pipeline_tag": "image-classification"
 	},
 	{
+		"modelId": "juanmsuarez/bertweet_ner_dir",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "juliamendelsohn/framing_immigration_specific",
 		"private": false
 	},
@@ -61469,12 +61836,22 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "laxya007/gpt2_BRM",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "laxya007/gpt2_BSA_Leg_ipr_OE",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "laxya007/gpt2_BSA_Leg_ipr_OE_OS",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "laxya007/gpt2_BSA_Legal_Initiproject_OE_OS_BRM",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -61620,6 +61997,16 @@
 	},
 	{
 		"modelId": "lewtun/bert-large-uncased-wwm-finetuned-boolq",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/distilbert-base-uncased-distilled-clinc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-clinc",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	},
@@ -62638,6 +63025,10 @@
 		"private": false
 	},
 	{
+		"modelId": "luffycodes/bb_narataka_roberta_large_nli_bsz_16_bb_bsz_16_nli_lr_1e5_bb_lr_1e5",
+		"private": false
+	},
+	{
 		"modelId": "luhua/chinese_pretrain_mrc_macbert_large",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -62748,6 +63139,11 @@
 		"modelId": "lvwerra/gpt2-medium-taboo",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "lysandre/Rose-Brain",
@@ -63373,6 +63769,10 @@
 		"modelId": "madlag/bert-large-uncased-wwm-squadv2-x2.63-f82.6-d16-hybrid-v1",
 		"private": false,
 		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "madnesso/distilbert-base-uncased-finetuned-cola",
+		"private": false
 	},
 	{
 		"modelId": "maelfabien/marcel_customer_service",
@@ -64058,6 +64458,11 @@
 	{
 		"modelId": "matheusntg/character-bert-pt-small",
 		"private": false
+	},
+	{
+		"modelId": "mathew/layoutlmv2-finetuned-funsd-1024",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "matprado/DialoGPT-small-rick-sanchez",
@@ -68670,6 +69075,11 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "nepalprabin/xlm-roberta-base-finetuned-marc-en",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "neuralmind/bert-base-portuguese-cased",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -69162,6 +69572,14 @@
 		"modelId": "nkul/gpt2-frens",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "nlokam/DialoGPT-small-harry-2",
+		"private": false
+	},
+	{
+		"modelId": "nlokam/DialoGPT-small-harry",
+		"private": false
 	},
 	{
 		"modelId": "nlp-en-es/bertin-large-finetuned-sqac",
@@ -72550,6 +72968,10 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "prows12/wav2vec2-base-timit-demo-test_jong",
+		"private": false
+	},
+	{
 		"modelId": "proxyht/mdsister-news-100",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -72603,6 +73025,18 @@
 		"modelId": "proycon/robbert2-pos-cased-deepfrog-nld",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "pruthviraj1991/distilbart-cnn-12-6-finetuned-xsum",
+		"private": false
+	},
+	{
+		"modelId": "pruthviraj1991/distilbart-cnn-12-6-finetuned",
+		"private": false
+	},
+	{
+		"modelId": "pruthviraj1991/t5-base-finetuned",
+		"private": false
 	},
 	{
 		"modelId": "psblade/DialoGPT-medium-PotterBot",
@@ -74065,6 +74499,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "roivian/manningLp",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "ronalddt/test",
 		"private": false
 	},
@@ -74809,6 +75248,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "sanjanareddy226/JakeBot",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "sanjaycode/demo-model",
 		"private": false
 	},
@@ -74880,6 +75324,10 @@
 		"modelId": "sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "sapra24/wav2vec2-base-timit-demo-colab",
+		"private": false
 	},
 	{
 		"modelId": "sapthrishi007/xlm-roberta-large-mnli-xnli",
@@ -78104,6 +78552,11 @@
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-base-finetuned-squad",
+		"private": false,
+		"pipeline_tag": "question-answering"
+	},
+	{
+		"modelId": "sontn122/xlm-roberta-large-aug_2",
 		"private": false,
 		"pipeline_tag": "question-answering"
 	},
@@ -81563,6 +82016,11 @@
 		"pipeline_tag": "structured-data-classification"
 	},
 	{
+		"modelId": "templates/text-classification",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "templates/text-to-image",
 		"private": false,
 		"pipeline_tag": "text-to-image"
@@ -82111,6 +82569,22 @@
 		"private": false
 	},
 	{
+		"modelId": "tftransformers/albert-xlarge-v1",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/albert-xlarge-v2",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/albert-xxlarge-v1",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/albert-xxlarge-v2",
+		"private": false
+	},
+	{
 		"modelId": "tftransformers/bert-base-cased",
 		"private": false
 	},
@@ -82119,11 +82593,51 @@
 		"private": false
 	},
 	{
+		"modelId": "tftransformers/bert-large-cased-whole-word-masking",
+		"private": false
+	},
+	{
 		"modelId": "tftransformers/bert-large-cased",
 		"private": false
 	},
 	{
+		"modelId": "tftransformers/bert-large-uncased-whole-word-masking",
+		"private": false
+	},
+	{
 		"modelId": "tftransformers/bert-large-uncased",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/gpt2-large",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/gpt2-medium",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/gpt2",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/roberta-base",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/roberta-large",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/t5-base",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/t5-large",
+		"private": false
+	},
+	{
+		"modelId": "tftransformers/t5-small",
 		"private": false
 	},
 	{
@@ -87579,516 +88093,11 @@
 		"private": false
 	},
 	{
-		"modelId": "beomi/beep-koelectra-base-v3-discriminator-hate",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "beomi/beep-klue-roberta-base-bias",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "beomi/beep-koelectra-base-v3-discriminator-bias",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "sanjanareddy226/JakeBot",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "beomi/beep-kcbert-base-bias",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "beomi/beep-KcELECTRA-base-bias",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "akey3/DialoGPT-small-Rick",
+		"modelId": "luffycodes/bb_narataka_roberta_large_nli_bsz_16_bb_bsz_16_nli_lr_1e5_bb_lr_1e5_norm_bb_mlm_loss",
 		"private": false
 	},
 	{
-		"modelId": "laxya007/gpt2_BRM",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "pruthviraj1991/distilbart-cnn-12-6-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "nepalprabin/xlm-roberta-base-finetuned-marc-en",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "sontn122/xlm-roberta-large-aug_2",
-		"private": false,
-		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "2umm3r/distilbert-base-uncased-finetuned-cola",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "tftransformers/bert-large-cased-whole-word-masking",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/bert-large-uncased-whole-word-masking",
-		"private": false
-	},
-	{
-		"modelId": "laxya007/gpt2_BSA_Legal_Initiproject_OE_OS_BRM",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "tftransformers/gpt2",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/gpt2-medium",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/gpt2-large",
-		"private": false
-	},
-	{
-		"modelId": "Kirili4ik/ruDialoGpt3-medium-finetuned-telegram",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "2umm3r/bert-base-uncased-finetuned-cls",
-		"private": false
-	},
-	{
-		"modelId": "pruthviraj1991/distilbart-cnn-12-6-finetuned",
-		"private": false
-	},
-	{
-		"modelId": "pruthviraj1991/t5-base-finetuned",
-		"private": false
-	},
-	{
-		"modelId": "Vaibhavbrkn/results",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/roberta-base",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/roberta-large",
-		"private": false
-	},
-	{
-		"modelId": "prows12/wav2vec2-base-timit-demo-test_jong",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/albert-xlarge-v1",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/albert-xlarge-v2",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/albert-xxlarge-v1",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/albert-xxlarge-v2",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/t5-small",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/t5-base",
-		"private": false
-	},
-	{
-		"modelId": "tftransformers/t5-large",
-		"private": false
-	},
-	{
-		"modelId": "templates/text-classification",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Edwardlzy/checkpoint-8144-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-clinc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "chaitanya97/custom_german",
-		"private": false
-	},
-	{
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "Teepika/Sentence-Transformer-Fine-Tuned3",
-		"private": false
-	},
-	{
-		"modelId": "Teepika/Sentence-Transformer-F",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/dril-praisegodbarbon",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Teepika/Sentence-Transformer-Check",
-		"private": false
-	},
-	{
-		"modelId": "castorini/tct_colbert-msmarco-cqe",
-		"private": false
-	},
-	{
-		"modelId": "Sheel/DialoGPT-small-harrypotter",
-		"private": false
-	},
-	{
-		"modelId": "nlokam/DialoGPT-small-harry",
-		"private": false
-	},
-	{
-		"modelId": "espnet/Yushi_Ueda_mini_librispeech_diar_train_diar_raw_max_epoch20_valid.acc.best",
-		"private": false
-	},
-	{
-		"modelId": "hireddivas/ellen-bot",
-		"private": false
-	},
-	{
-		"modelId": "dkleczek/papuGaPT2-finetuned-wierszyki",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lewtun/distilbert-base-uncased-distilled-clinc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "nlokam/DialoGPT-small-harry-2",
-		"private": false
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_full_band_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_vits_accent_with_pause",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_full_band_vits_accent_with_pause",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jvs_tts_finetune_jvs001_jsut_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_latest",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jvs_tts_finetune_jvs010_jsut_vits_raw_phn_jaconv_pyopenjtalk_accent_with_pause_latest",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jvs_jvs001_vits_accent_with_pause",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jvs_jvs010_vits_accent_with_pause",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_ljspeech_vits",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_csmsc_tts_train_full_band_vits_raw_phn_pypinyin_g2p_phone_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_csmsc_full_band_vits",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "human/model_name_human_test",
-		"private": false
-	},
-	{
-		"modelId": "espnet/kan-bayashi_csmsc_tts_train_vits_raw_phn_pypinyin_g2p_phone_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_csmsc_vits",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_tacotron2_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tacotron2_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_transformer_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_transformer_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_tacotron2_teacher_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_tacotron2_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_conformer_fastspeech2_transformer_teacher_raw_phn_jaconv_pyopenjtalk_prosody_train.loss.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_conformer_fastspeech2_transformer_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_vctk_tts_train_multi_spk_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "Edwardlzy/albert-base-v2-finetuned-swag",
-		"private": false
-	},
-	{
-		"modelId": "athar/rob-model-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "espnet/kan-bayashi_vctk_multi_spk_vits",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_vctk_tts_train_full_band_multi_spk_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_vctk_full_band_multi_spk_vits",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_vits_raw_phn_jaconv_pyopenjtalk_prosody_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_tts_train_full_band_vits_raw_phn_jaconv_pyopenjtalk_prosody_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_vits_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jsut_full_band_vits_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jvs_tts_finetune_jvs010_jsut_vits_raw_phn_jaconv_pyopenjtalk_prosody_latest",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_jvs_jvs010_vits_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_tsukuyomi_tts_finetune_full_band_jsut_vits_raw_phn_jaconv_pyopenjtalk_prosody_latest",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_tsukuyomi_full_band_vits_prosody",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_libritts_tts_train_xvector_vits_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_libritts_xvector_vits",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_ljspeech_tts_train_joint_conformer_fastspeech2_hifigan_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_ljspeech_tts_finetune_joint_conformer_fastspeech2_hifigan_raw_phn_tacotron_g2p_en_no_space_train.total_count.ave",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_ljspeech_joint_train_conformer_fastspeech2_hifigan",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan",
-		"private": false,
-		"pipeline_tag": "text-to-speech"
-	},
-	{
-		"modelId": "harshit345/wav2vec2-base-timit-demo-colab",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/nikkihaleyfan93",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "juanmsuarez/bertweet_ner_dir",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "sapra24/wav2vec2-base-timit-demo-colab",
-		"private": false
-	},
-	{
-		"modelId": "chandank/bart-large-finetuned-kaggle-news-summary",
-		"private": false
-	},
-	{
-		"modelId": "chandank/bart-large-bart-base-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "chandank/bart-base-bart-base-finetuned-xsum",
-		"private": false
-	},
-	{
-		"modelId": "roivian/manningLp",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "madnesso/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "ddddd/EDCLasVegas",
-		"private": false
-	},
-	{
-		"modelId": "csukuangfj/cudnn",
-		"private": false
-	},
-	{
-		"modelId": "educhav/J-DialoGPT-small",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "huggingartists/sqwore",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "aditeyabaral/additionalpretrained-xlm-roberta-base",
-		"private": false
-	},
-	{
-		"modelId": "aditeyabaral/sentencetransformer-xlm-roberta-base",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "mathew/layoutlmv2-finetuned-funsd-1024",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/kb",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "luffycodes/bb_narataka_roberta_large_nli_bsz_16_bb_bsz_16_nli_lr_1e5_bb_lr_1e5",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/chatbot",
+		"modelId": "luffycodes/bb_narataka_roberta_large_nli_bsz_16_bb_bsz_16_nli_lr_2e5_bb_lr_2e5",
 		"private": false
 	}
 ]
