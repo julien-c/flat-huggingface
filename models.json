@@ -35829,11 +35829,6 @@
 		"private": false
 	},
 	{
-		"modelId": "dobbytk/SoL-BERT",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "dobbytk/letr-sol-profanity-filter",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -88163,5 +88158,47 @@
 		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de-fr",
 		"private": false,
 		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "dobbytk/KSL-BERT",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-fr",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "Emily/distilbert-base-uncased-finetuned-squad",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biosyn-sapbert-ncbi-disease",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biosyn-biobert-ncbi-disease",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biosyn-biobert-bc5cdr-disease",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biosyn-sapbert-bc5cdr-disease",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biosyn-sapbert-bc5cdr-chemical",
+		"private": false
+	},
+	{
+		"modelId": "dmis-lab/biosyn-biobert-bc5cdr-chemical",
+		"private": false
+	},
+	{
+		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-it",
+		"private": false
 	}
 ]
