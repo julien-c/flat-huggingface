@@ -40729,11 +40729,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "gagandeepkundi/autonlp-india-question-quality-20044024",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "gagandeepkundi/latam-question-quality",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -88145,6 +88140,7 @@
 	},
 	{
 		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
