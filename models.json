@@ -88209,11 +88209,17 @@
 	},
 	{
 		"modelId": "TransQuest/monotransquest-hter-en_any",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "ydshieh/vit-gpt2-coco-en",
 		"private": false,
 		"pipeline_tag": "image-classification"
+	},
+	{
+		"modelId": "groovychoons/biasmodel",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
