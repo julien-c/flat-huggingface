@@ -86642,7 +86642,8 @@
 	},
 	{
 		"modelId": "ydshieh/vit-gpt2-coco-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "image-classification"
 	},
 	{
 		"modelId": "ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt",
@@ -88104,10 +88105,6 @@
 		"pipeline_tag": "translation"
 	},
 	{
-		"modelId": "huaen/question_detection",
-		"private": false
-	},
-	{
 		"modelId": "GucciMaster/mathgpt",
 		"private": false
 	},
@@ -88138,5 +88135,14 @@
 		"modelId": "gsarti/it5-base-oscar",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Crasher222/autonlp-kaggle-test-25805800",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "huaen/question_detection",
+		"private": false
 	}
 ]
