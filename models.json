@@ -61940,11 +61940,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "lewtun/bert-base-uncased-finetuned-clinc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "lewtun/bert-base-uncased-finetuned-imdb",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -88221,5 +88216,14 @@
 	{
 		"modelId": "castorini/tct_colbert-v2-msmarco-cqe",
 		"private": false
+	},
+	{
+		"modelId": "cambridgeltl/clbert-base-uncased",
+		"private": false
+	},
+	{
+		"modelId": "transformersbook/bert-base-uncased-finetuned-clinc",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
