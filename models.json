@@ -88118,18 +88118,25 @@
 	},
 	{
 		"modelId": "tftransformers/t5-small",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "tftransformers/t5-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "tftransformers/t5-large",
-		"private": false
+		"private": false,
+		"pipeline_tag": "translation"
 	},
 	{
 		"modelId": "huaen/question_detection",
+		"private": false
+	},
+	{
+		"modelId": "GucciMaster/mathgpt",
 		"private": false
 	}
 ]
