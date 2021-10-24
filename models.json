@@ -61955,11 +61955,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "lewtun/distilbert-base-uncased-distilled-clinc",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-clinc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -88223,6 +88218,15 @@
 	},
 	{
 		"modelId": "transformersbook/bert-base-uncased-finetuned-clinc",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "cambridgeltl/clbert-base-chinese",
+		"private": false
+	},
+	{
+		"modelId": "transformersbook/distilbert-base-uncased-distilled-clinc",
 		"private": false,
 		"pipeline_tag": "text-classification"
 	}
