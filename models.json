@@ -63061,38 +63061,13 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "lvwerra/codeparrot-even",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lvwerra/codeparrot-mistral-full",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lvwerra/codeparrot-mistral-init",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "lvwerra/codeparrot-small-vocabulary",
 		"private": false
-	},
-	{
-		"modelId": "lvwerra/codeparrot-vanilla",
-		"private": false,
-		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "lvwerra/codeparrot",
 		"private": false,
 		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "lvwerra/distilbert-base-multilingual-cased-finetuned-squad-v2",
-		"private": false,
-		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "lvwerra/gpt2-imdb-ctrl",
@@ -88199,6 +88174,12 @@
 	},
 	{
 		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-it",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-en",
+		"private": false,
+		"pipeline_tag": "token-classification"
 	}
 ]
