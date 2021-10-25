@@ -88494,7 +88494,8 @@
 	},
 	{
 		"modelId": "liangtaiwan/t5-v1_1-lm100k-xl",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-repro-timit",
@@ -88510,6 +88511,14 @@
 	},
 	{
 		"modelId": "kwang2049/TSDAE-cqadupstack2nli_stsb",
+		"private": false
+	},
+	{
+		"modelId": "kwang2049/TSDAE-twitterpara2nli_stsb",
+		"private": false
+	},
+	{
+		"modelId": "kwang2049/TSDAE-scidocs2nli_stsb",
 		"private": false
 	}
 ]
