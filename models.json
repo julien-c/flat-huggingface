@@ -88288,10 +88288,6 @@
 		"private": false
 	},
 	{
-		"modelId": "liangtaiwan/t5-v1_1-lm100k-xl",
-		"private": false
-	},
-	{
 		"modelId": "ThatSkyFox/DialoGPT-large-joshuaBot",
 		"private": false
 	},
@@ -88402,7 +88398,8 @@
 	},
 	{
 		"modelId": "lvwerra/pegasus-samsum",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "harshit345/wav2vec2-large-xlsr-hindi-demo-colab",
@@ -88486,5 +88483,33 @@
 		"modelId": "giganticode/bert-base-code_comments",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "AndreLiu1225/t5-news-summarizer",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-base-repro-960h-libri-85k-steps",
+		"private": false
+	},
+	{
+		"modelId": "liangtaiwan/t5-v1_1-lm100k-xl",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-base-repro-timit",
+		"private": false
+	},
+	{
+		"modelId": "kwang2049/TSDAE-askubuntu2nli_stsb",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/roberta-large-fake-news-detection-spanish",
+		"private": false
+	},
+	{
+		"modelId": "kwang2049/TSDAE-cqadupstack2nli_stsb",
+		"private": false
 	}
 ]
