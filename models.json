@@ -88570,11 +88570,12 @@
 	},
 	{
 		"modelId": "espnet/siddhana_slurp_new_asr_train_asr_conformer_raw_en_word_valid.acc.ave_10best",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "espnet/siddhana_fsc_asr_train_asr_hubert_transformer_adam_specaug_raw_en_word_valid.acc.ave_5best",
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
+		"pipeline_tag": "audio-classification"
 	}
 ]
