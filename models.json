@@ -71670,7 +71670,8 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-repro-timit",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-base-robust",
@@ -88540,11 +88541,6 @@
 		"private": false
 	},
 	{
-		"modelId": "lvwerra/pegasus-samsum-test",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin4",
 		"private": false
 	},
@@ -88556,5 +88552,10 @@
 		"modelId": "dukeme/DialoGPT-small-RDBotv1",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "transformersbook/pegasus-samsum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
