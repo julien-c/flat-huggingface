@@ -33653,6 +33653,26 @@
 		"private": false
 	},
 	{
+		"modelId": "climatebert/distilroberta-base-climate-d-s",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "climatebert/distilroberta-base-climate-d",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "climatebert/distilroberta-base-climate-f",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "climatebert/distilroberta-base-climate-s",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "cling371/modeling_test",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -88672,6 +88692,10 @@
 	},
 	{
 		"modelId": "nikitam/mbert-xdm-en-it",
+		"private": false
+	},
+	{
+		"modelId": "kshrestha/pegasus-large-finetuned-xsum",
 		"private": false
 	}
 ]
