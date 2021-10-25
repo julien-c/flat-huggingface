@@ -1424,7 +1424,8 @@
 	},
 	{
 		"modelId": "AndreLiu1225/t5-news",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "Andres2015/HiggingFaceTest",
@@ -88362,7 +88363,8 @@
 	},
 	{
 		"modelId": "giganticode/bert-base-StackOverflow-comments_2M",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "teacookies/autonlp-more_fine_tune_24465520-26265911",
@@ -88390,11 +88392,13 @@
 	},
 	{
 		"modelId": "giganticode/bert-base-StackOverflow-comments_1M",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "giganticode/bert-large-StackOverflow-comments_1M",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "lvwerra/pegasus-samsum",
@@ -88431,7 +88435,8 @@
 	},
 	{
 		"modelId": "suha1234/pegasus_covid19",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "anton-l/sew-d-mid-k127-400k-ft-ls100h",
@@ -88446,7 +88451,33 @@
 		"private": false
 	},
 	{
+		"modelId": "usamazaheer/DialoGPT-small-harrypotter",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "giganticode/roberta-base-ar_miner",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "mrm8488/roberta-large-fake-news",
+		"private": false
+	},
+	{
 		"modelId": "danielvasic/en_acnl_electra_pipeline",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/roberta-large-fake-news-hp",
+		"private": false
+	},
+	{
+		"modelId": "giganticode/bert-base-ar_miner",
+		"private": false
+	},
+	{
+		"modelId": "mrm8488/roberta-base-fake-news-hp",
 		"private": false
 	}
 ]
