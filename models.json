@@ -33533,15 +33533,6 @@
 		"private": false
 	},
 	{
-		"modelId": "clairesb/chatbot",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/kb",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "clairesb/kindness_bot_repo",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -37946,12 +37937,12 @@
 	{
 		"modelId": "espnet/siddhana_fsc_asr_train_asr_hubert_transformer_adam_specaug_raw_en_word_valid.acc.ave_5best",
 		"private": false,
-		"pipeline_tag": "audio-classification"
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "espnet/siddhana_slurp_new_asr_train_asr_conformer_raw_en_word_valid.acc.ave_10best",
 		"private": false,
-		"pipeline_tag": "audio-classification"
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "espnet/su_openslr36",
@@ -82534,10 +82525,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "tensorcat/stylegan3-t-danbooru",
-		"private": false
-	},
-	{
 		"modelId": "tensorspeech/tts-fastspeech-ljspeech-en",
 		"private": false,
 		"pipeline_tag": "text-to-speech"
@@ -88707,30 +88694,11 @@
 	},
 	{
 		"modelId": "clairesb/kindness_bot",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/kindness_bot_repository",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/kaybee_repo",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/kaybee_repository",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/kaybee_repository_final",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "athar/biomed_roberta_base-finetuned-squad",
-		"private": false
-	},
-	{
-		"modelId": "clairesb/DialoGPT-small-kaybee",
 		"private": false
 	}
 ]
