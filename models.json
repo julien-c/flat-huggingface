@@ -67811,7 +67811,8 @@
 	},
 	{
 		"modelId": "mrm8488/roberta-large-fake-news-detection-spanish",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "mrm8488/roberta-large-fake-news-hp",
@@ -88518,10 +88519,12 @@
 	},
 	{
 		"modelId": "sparki/kinkyfurs-gpt2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "napoler/bart-chinese-6-960-words-pkuseg",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
