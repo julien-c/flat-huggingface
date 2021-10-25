@@ -2302,7 +2302,8 @@
 	},
 	{
 		"modelId": "Bhumika/roberta-base-finetuned-sst2",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "BigBoy/model",
@@ -78705,18 +78706,6 @@
 		"private": false
 	},
 	{
-		"modelId": "sontn122/checkpoint-1000-finetuned-squad-v2_14102021",
-		"private": false
-	},
-	{
-		"modelId": "sontn122/checkpoint-1000-finetuned-squad-v2_14102021_1",
-		"private": false
-	},
-	{
-		"modelId": "sontn122/checkpoint-2000-finetuned-squad-v2_14102021_2",
-		"private": false
-	},
-	{
 		"modelId": "sontn122/xlm-roberta-base-finetuned-squad",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -78739,10 +78728,6 @@
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_12102021",
 		"private": false,
 		"pipeline_tag": "question-answering"
-	},
-	{
-		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_14102021",
-		"private": false
 	},
 	{
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021",
@@ -88303,6 +88288,10 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
+		"private": false
+	},
+	{
+		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021-aug_2",
 		"private": false
 	}
 ]
