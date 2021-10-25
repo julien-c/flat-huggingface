@@ -4615,7 +4615,8 @@
 	},
 	{
 		"modelId": "Emily/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "Emirhan/51k-finetuned-bert-model",
@@ -67504,11 +67505,6 @@
 		"private": false
 	},
 	{
-		"modelId": "mrm8488/electricidad-small-fake-news",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "mrm8488/electricidad-small-finetuned-medical-diagnostics",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -88317,6 +88313,15 @@
 	},
 	{
 		"modelId": "furunkel/bert-base-StackOverflow-comments_2M",
+		"private": false
+	},
+	{
+		"modelId": "Narrativaai/fake-news-detection-spanish",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "giganticode/bert-base-StackOverflow-comments_2M",
 		"private": false
 	}
 ]
