@@ -1635,7 +1635,8 @@
 	},
 	{
 		"modelId": "AnonymousSub/declutr-biomed-roberta-papers",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "AnonymousSub/declutr-emanuals-s10-AR",
@@ -60517,10 +60518,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "junnyu/ernie_gram",
-		"private": false
-	},
-	{
 		"modelId": "junnyu/mpnet",
 		"private": false
 	},
@@ -88297,5 +88294,10 @@
 	{
 		"modelId": "hy310/wav2vec2-base-timit-demo",
 		"private": false
+	},
+	{
+		"modelId": "Salesforce/codet5-base-multi-sum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
