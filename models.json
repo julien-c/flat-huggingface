@@ -88410,7 +88410,8 @@
 	},
 	{
 		"modelId": "peter2000/xlm-roberta-base-finetuned-marc-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "mental/mental-bert-base-uncased",
@@ -88474,10 +88475,16 @@
 	},
 	{
 		"modelId": "giganticode/bert-base-ar_miner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "mrm8488/roberta-base-fake-news-hp",
 		"private": false
+	},
+	{
+		"modelId": "giganticode/bert-base-code_comments",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	}
 ]
