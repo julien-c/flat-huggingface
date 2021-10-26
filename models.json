@@ -75275,7 +75275,8 @@
 	},
 	{
 		"modelId": "saattrupdan/contract-ner-model-da",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "saattrupdan/nbailab-base-ner-da-no-sv",
@@ -88808,7 +88809,8 @@
 	},
 	{
 		"modelId": "lighteternal/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-mnli",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "luffycodes/bb_narataka_roberta_large_nli_bsz_16_bb_bsz_16_nli_lr_1e5_bb_lr_1e5_wu_10k",
@@ -88881,16 +88883,12 @@
 	},
 	{
 		"modelId": "Divyesh/DialoGPT-small-HarryPotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "Tejas003/test",
 		"private": false
-	},
-	{
-		"modelId": "cointegrated/roberta-large-cola-krishna2020",
-		"private": false,
-		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "student-shriman/t5-small-finetuned-xsum",
@@ -88898,6 +88896,10 @@
 	},
 	{
 		"modelId": "moohosny/shelonbot",
+		"private": false
+	},
+	{
+		"modelId": "Jalal/pidin-english-asr-model",
 		"private": false
 	}
 ]
