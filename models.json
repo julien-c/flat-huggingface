@@ -3231,7 +3231,8 @@
 	},
 	{
 		"modelId": "CodeDanCode/CartmenBot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "CodeDanCode/SP-KyleBot",
@@ -34670,7 +34671,8 @@
 	},
 	{
 		"modelId": "danielvasic/en_acnl_roberta_pipeline",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "danildany/DialoGPT-small-MichaelScott",
@@ -88880,15 +88882,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "Divyesh/DialoGPT-small-HarryPotter",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Tejas003/test",
-		"private": false
-	},
-	{
 		"modelId": "student-shriman/t5-small-finetuned-xsum",
 		"private": false
 	},
@@ -88922,7 +88915,8 @@
 	},
 	{
 		"modelId": "moohosny/sheldor-bot",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "SkolkovoInstitute/russian_toxicity_classifier",
@@ -88946,5 +88940,18 @@
 		"modelId": "VariableZee/DialoGPT-small-ivylia03",
 		"private": false,
 		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "Tejas003/distillbert_base_uncased_amazon_food_review_sentiment_300",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-xlarge-129-common_voice-tr-demo",
+		"private": false
+	},
+	{
+		"modelId": "chaitanya97/german_pretrained",
+		"private": false
 	}
 ]
