@@ -88932,11 +88932,6 @@
 		"pipeline_tag": "conversational"
 	},
 	{
-		"modelId": "Tejas003/distillbert_base_uncased_amazon_food_review_sentiment_300",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "patrickvonplaten/wav2vec2-xlarge-129-common_voice-tr-demo",
 		"private": false
 	},
@@ -88959,18 +88954,36 @@
 	},
 	{
 		"modelId": "yoelvis/topical-segmentation-sensitive",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "assij/wav2vec2-common_voice-tr-demo",
 		"private": false
 	},
 	{
-		"modelId": "ttop324/wav2vec2-live-japanese-translator",
+		"modelId": "vs4vijay/Vizard",
 		"private": false
 	},
 	{
-		"modelId": "merve/stanza-test",
+		"modelId": "merve/stanza-en",
+		"private": false
+	},
+	{
+		"modelId": "KoichiYasuoka/bert-large-japanese-luw-upos",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "mohosny/DialoGPT-small-joshua",
+		"private": false
+	},
+	{
+		"modelId": "ttop324/testr",
+		"private": false
+	},
+	{
+		"modelId": "Tejas003/distillbert_base_uncased_amazon_food_review_sentiment_300",
 		"private": false
 	}
 ]
