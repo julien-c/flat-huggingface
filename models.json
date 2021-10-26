@@ -88944,10 +88944,6 @@
 		"private": false
 	},
 	{
-		"modelId": "ekkasilina/small_baseline",
-		"private": false
-	},
-	{
 		"modelId": "KoichiYasuoka/bert-base-japanese-luw-upos",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -88967,7 +88963,8 @@
 	},
 	{
 		"modelId": "merve/stanza-en",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "KoichiYasuoka/bert-large-japanese-luw-upos",
@@ -88983,7 +88980,13 @@
 		"private": false
 	},
 	{
-		"modelId": "Tejas003/distillbert_base_uncased_amazon_food_review_sentiment_300",
-		"private": false
+		"modelId": "ekkasilina/small_baseline",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Tejas003/distillbert_base_uncased_amazon_review_sentiment_300",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
