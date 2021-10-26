@@ -2587,7 +2587,8 @@
 	},
 	{
 		"modelId": "Broadus20/DialoGPT-small-harrypotter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "BrunoNogueira/DialoGPT-kungfupanda",
@@ -89034,10 +89035,14 @@
 	{
 		"modelId": "Broadus20/DialoGPT-small-joshua",
 		"private": false,
-		"pipeline_tag": "text-generation"
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "Jikiwa/local_dir3",
+		"private": false
+	},
+	{
+		"modelId": "x06bettylan/distilbert-base-uncased-finetuned-aave_sae",
 		"private": false
 	}
 ]
