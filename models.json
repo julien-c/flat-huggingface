@@ -75464,30 +75464,6 @@
 		"private": false
 	},
 	{
-		"modelId": "saattrupdan/contract-ner-model-da",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-ner-da-no-sv",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-ner-da-no",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2-no-misc",
-		"private": false
-	},
-	{
-		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "saattrupdan/nbailab-base-ner-scandi",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -75731,7 +75707,8 @@
 	},
 	{
 		"modelId": "saintseer121323/DialoGPT-small-kotonoha",
-		"private": false
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "sajjad/edge",
@@ -89029,6 +89006,7 @@
 	},
 	{
 		"modelId": "maxpower/my-awesome-model",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	}
 ]
