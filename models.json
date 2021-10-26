@@ -15949,10 +15949,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "Madan/test",
-		"private": false
-	},
-	{
 		"modelId": "MadhanKumar/DialoGPT-small-HarryPotter",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -33778,6 +33774,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "clearword/t5-small-disfluency",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "clee7/layoutlm-finetune-sroie",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -45735,7 +45736,8 @@
 	},
 	{
 		"modelId": "huggingartists/arctic-monkeys",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "huggingartists/ariana-grande",
@@ -89008,5 +89010,9 @@
 		"modelId": "maxpower/my-awesome-model",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "sheldorconq/Sheldor-Conqueror",
+		"private": false
 	}
 ]
