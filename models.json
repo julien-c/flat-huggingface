@@ -40510,7 +40510,8 @@
 	},
 	{
 		"modelId": "fnlp/elasticbert-base",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "formermagic/bart-base-python-1m",
@@ -89050,6 +89051,10 @@
 	},
 	{
 		"modelId": "jiel30/distilbert-base-uncased-finetuned-ner",
+		"private": false
+	},
+	{
+		"modelId": "peter2000/xlm-roberta-base-finetuned-ecoicop",
 		"private": false
 	}
 ]
