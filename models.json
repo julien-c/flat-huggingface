@@ -28646,26 +28646,6 @@
 		"private": false
 	},
 	{
-		"modelId": "anton-l/sew-d-base-plus-400k-ft-ls100h",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-400k-ft-ls100h",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-k127-400k-ft-ls100h",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-d-tiny-100k-ft-ls100h",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/sew-tiny-100k-ft-ls100h",
-		"private": false
-	},
-	{
 		"modelId": "anton-l/wav2vec2-base-960h",
 		"private": false
 	},
@@ -33234,7 +33214,8 @@
 	},
 	{
 		"modelId": "chinhon/t5-base-fbwriter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "chinhon/t5-small-fbwriter",
@@ -34677,6 +34658,11 @@
 	{
 		"modelId": "danielf0123/distilbert-base-uncased-finetuned-ner",
 		"private": false
+	},
+	{
+		"modelId": "danielmantisnlp/autonlp-oms-test-24515532",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "danielo200/model_danielo",
@@ -72050,11 +72036,6 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "patrickvonplaten/wa2vec2-xlarge-...-common_voice-tr-demo",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
 		"modelId": "patrickvonplaten/wav2vec2-base-100h-13K-steps",
 		"private": false
 	},
@@ -89046,19 +89027,48 @@
 	},
 	{
 		"modelId": "peter2000/xlm-roberta-base-finetuned-ecoicop",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "slider/sup_simcse",
 		"private": false
 	},
 	{
-		"modelId": "patrickvonplaten/wav2vec2-xlarge-...-common_voice-tr-demo-2",
+		"modelId": "acat/wav2vec2-base-timit-demo-colab",
+		"private": false
+	},
+	{
+		"modelId": "fnlp/elasticbert-large",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-xlarge-...-common_voice-tr-demo",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
-		"modelId": "acat/wav2vec2-base-timit-demo-colab",
+		"modelId": "patrickvonplaten/sew-small-100k-timit",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-base-plus-400k-ft-ls100h",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-k127-400k-ft-ls100h",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-mid-400k-ft-ls100h",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-d-tiny-100k-ft-ls100h",
+		"private": false
+	},
+	{
+		"modelId": "asapp/sew-tiny-100k-ft-ls100h",
 		"private": false
 	}
 ]
