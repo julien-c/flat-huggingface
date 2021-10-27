@@ -33749,6 +33749,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "clearword/t5-small-disfluency",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "clee7/layoutlm-finetune-sroie",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -72106,7 +72111,8 @@
 	},
 	{
 		"modelId": "patrickvonplaten/sew-mid-100k-librispeech-clean-100h-ft",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "patrickvonplaten/sew-small-100k-timit",
@@ -89213,10 +89219,23 @@
 	},
 	{
 		"modelId": "Nehc/gpt2_priest_ru",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "SajjadAyoubi/distil-bigbert-uncased",
+		"private": false
+	},
+	{
+		"modelId": "JorisCos/VAD_Net",
+		"private": false
+	},
+	{
+		"modelId": "Truflase/gpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "mklucifer/DialoGPT-small-DEADPOOL",
 		"private": false
 	}
 ]
