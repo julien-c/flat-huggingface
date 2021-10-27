@@ -13645,11 +13645,6 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
 		"modelId": "HungChau/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
@@ -66173,11 +66168,6 @@
 		"private": false
 	},
 	{
-		"modelId": "miesnerjacob/trends-classifier_08-16-2021",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "miggytrindiad/sample",
 		"private": false
 	},
@@ -89268,11 +89258,16 @@
 		"pipeline_tag": "audio-classification"
 	},
 	{
-		"modelId": "facebook/ic",
+		"modelId": "facebook/ic_gan",
 		"private": false
 	},
 	{
-		"modelId": "facebook/ic_gan",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "vijayv500/DialoGPT-small-Big-Bang-Theory-TV-Show",
 		"private": false
 	}
 ]
