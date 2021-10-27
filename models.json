@@ -89050,15 +89050,18 @@
 	},
 	{
 		"modelId": "asapp/sew-d-mid-k127-400k-ft-ls100h",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "asapp/sew-d-mid-400k-ft-ls100h",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "asapp/sew-d-tiny-100k-ft-ls100h",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "asapp/sew-tiny-100k-ft-ls100h",
@@ -89135,5 +89138,18 @@
 		"modelId": "flozi00/t5-base-query-generator",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "Maelstrom77/Vibert-test1",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "cwh/gpt2-large-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/sew-mid-100k-librispeech-clean-100h-ft",
+		"private": false
 	}
 ]
