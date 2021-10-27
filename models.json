@@ -89288,12 +89288,13 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "lvwerra/bert-base-uncased-issues-128",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "anton-l/wav2vec2-base-ft-keyword-spotting",
 		"private": false,
 		"pipeline_tag": "audio-classification"
-	},
-	{
-		"modelId": "lvwerra/bert-base-uncased-issues-128",
-		"private": false
 	}
 ]
