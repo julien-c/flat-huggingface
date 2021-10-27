@@ -84403,7 +84403,8 @@
 	},
 	{
 		"modelId": "ttop324/wav2vec2-live-japanese",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "ttumyche/bluebert",
@@ -89065,11 +89066,25 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "jakobwes/my-awesome-model",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "chandank/bart-base-finetuned-kagglenews-entityfiltering",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "pablouribe/bertstem",
 		"private": false
 	},
 	{
 		"modelId": "nateraw/lit-test",
+		"private": false
+	},
+	{
+		"modelId": "nateraw/lit-demo",
 		"private": false
 	}
 ]
