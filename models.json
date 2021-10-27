@@ -68748,10 +68748,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "muhtasham/wav2vec2-large-xlsr-53-turkish",
-		"private": false
-	},
-	{
 		"modelId": "muirkat/tolkien-mythopoeic-gen",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -89293,11 +89289,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "lvwerra/bert-base-uncased-issues-128",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "anton-l/wav2vec2-base-ft-keyword-spotting",
 		"private": false,
 		"pipeline_tag": "audio-classification"
@@ -89310,5 +89301,19 @@
 		"modelId": "anton-l/hubert-base-ft-keyword-spotting",
 		"private": false,
 		"pipeline_tag": "audio-classification"
+	},
+	{
+		"modelId": "lvwerra/bert-base-uncased-issues-128-issues-128",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "BigSalmon/ParaphraseParentheses2.0",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "anton-l/sew-mid-100k-ft-keyword-spotting",
+		"private": false
 	}
 ]
