@@ -33272,7 +33272,8 @@
 	},
 	{
 		"modelId": "chinhon/distilgpt2-sgnews",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "chinhon/headline_writer",
@@ -89197,15 +89198,20 @@
 		"private": false
 	},
 	{
-		"modelId": "Nehc/Priest",
-		"private": false
-	},
-	{
-		"modelId": "kiyoung2/roberta-large-qa",
-		"private": false
-	},
-	{
 		"modelId": "philschmid/pt-tblard-tf-allocine",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "assij/wav2vec2-common_voice-tr-demo-dist",
+		"private": false
+	},
+	{
+		"modelId": "mklucifer/DiabloGPT-medium-DEADPOOL",
+		"private": false
+	},
+	{
+		"modelId": "Nehc/gpt2_priest_ru",
 		"private": false
 	}
 ]
