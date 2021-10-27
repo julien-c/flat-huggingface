@@ -21785,7 +21785,8 @@
 	},
 	{
 		"modelId": "SajjadAyoubi/distil-bigbert-uncased",
-		"private": false
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "SajjadAyoubi/xlm-roberta-large-fa-qa",
@@ -59444,10 +59445,6 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
-		"modelId": "jbarry/irish-roberta-base",
-		"private": false
-	},
-	{
 		"modelId": "jcblaise/bert-tagalog-base-cased-WWM",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -89254,5 +89251,10 @@
 	{
 		"modelId": "zzclynn/bert_test",
 		"private": false
+	},
+	{
+		"modelId": "mse30/bart-base-finetuned-xsum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	}
 ]
