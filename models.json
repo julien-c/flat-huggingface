@@ -33191,18 +33191,6 @@
 		"private": false
 	},
 	{
-		"modelId": "chinhon/t5-small-finetuned-fb-writer",
-		"private": false
-	},
-	{
-		"modelId": "chinhon/t5-small-finetuned-fbwriter",
-		"private": false
-	},
-	{
-		"modelId": "chinhon/t5-small-finetuned-xsum",
-		"private": false
-	},
-	{
 		"modelId": "chip/DialoGPT-small-chizuru",
 		"private": false,
 		"pipeline_tag": "conversational"
@@ -88968,7 +88956,8 @@
 	},
 	{
 		"modelId": "chinhon/t5-small-fbwriter",
-		"private": false
+		"private": false,
+		"pipeline_tag": "text2text-generation"
 	},
 	{
 		"modelId": "nateraw/lit-mnist-demo",
