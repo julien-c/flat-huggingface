@@ -89076,10 +89076,6 @@
 		"private": false
 	},
 	{
-		"modelId": "chinhon/pegasus-newsroom-headline_writer_pegasus_newsroom",
-		"private": false
-	},
-	{
 		"modelId": "chinhon/pegasus-newsroom-headline_writer",
 		"private": false
 	},
@@ -89098,7 +89094,8 @@
 	},
 	{
 		"modelId": "suwani/BERT_NER_Ep6_PAD_50-finetuned-ner",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "doc2query/S2ORC-t5-base-v1",
@@ -89107,6 +89104,10 @@
 	},
 	{
 		"modelId": "chinhon/distilgpt2-sgnews",
+		"private": false
+	},
+	{
+		"modelId": "Mahmoud97/Temp",
 		"private": false
 	}
 ]
