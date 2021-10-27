@@ -89262,11 +89262,6 @@
 		"private": false
 	},
 	{
-		"modelId": "anton-l/distilhubert-ft-common-language",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
 		"modelId": "Raintree/wav2vec2-base-timit-demo-colab",
 		"private": false
 	},
@@ -89280,6 +89275,20 @@
 	},
 	{
 		"modelId": "huggingtweets/universal_lucas-void_vomicae",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "anton-l/distilhubert-ft-common-language",
+		"private": false,
+		"pipeline_tag": "audio-classification"
+	},
+	{
+		"modelId": "flareau/distilgpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "huggingtweets/void_vomicae",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	}
