@@ -28152,7 +28152,8 @@
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin4",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_single-vumichien",
@@ -33776,6 +33777,11 @@
 		"modelId": "claudio75/xlm-roberta-base-finetuned-marc",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "clearword/t5-base-disfluency",
+		"private": false,
+		"pipeline_tag": "text-generation"
 	},
 	{
 		"modelId": "clee7/layoutlm-finetune-sroie",
