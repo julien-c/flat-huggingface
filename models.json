@@ -14100,16 +14100,6 @@
 		"private": false
 	},
 	{
-		"modelId": "Jatin-WIAI/Health_Relevance_Classifier",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "Jatin-WIAI/Health_Relevance_Classifier_hi",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "JavaWhiz/DialoGPT-Tony-Stark",
 		"private": false
 	},
@@ -28630,6 +28620,10 @@
 		"modelId": "antoiloui/netbert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "anton-l/distilhubert",
+		"private": false
 	},
 	{
 		"modelId": "anton-l/gpt-j-tiny-random",
@@ -65087,11 +65081,6 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
-		"modelId": "maxpower/my-awesome-model",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
 		"modelId": "maxspaziani/bert-base-italian-uncased-finetuned-ComunaliRoma",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -89046,7 +89035,8 @@
 	},
 	{
 		"modelId": "asapp/sew-d-base-plus-400k-ft-ls100h",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "asapp/sew-d-mid-k127-400k-ft-ls100h",
@@ -89132,7 +89122,8 @@
 	},
 	{
 		"modelId": "CLTL/gm-ner-xlmrbase",
-		"private": false
+		"private": false,
+		"pipeline_tag": "token-classification"
 	},
 	{
 		"modelId": "flozi00/t5-base-query-generator",
@@ -89150,6 +89141,31 @@
 	},
 	{
 		"modelId": "patrickvonplaten/sew-mid-100k-librispeech-clean-100h-ft",
+		"private": false
+	},
+	{
+		"modelId": "cwh/gpt2-medium-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Michael711/feinschwarz",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-129-turkish-colab",
+		"private": false
+	},
+	{
+		"modelId": "davanstrien/blbooks-good-ocr-tokenizer",
+		"private": false
+	},
+	{
+		"modelId": "gerardoalemanm/gpt-2-small-spanish",
+		"private": false
+	},
+	{
+		"modelId": "davanstrien/blbooks-bad-ocr-tokenizer",
 		"private": false
 	}
 ]
