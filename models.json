@@ -89283,7 +89283,8 @@
 	},
 	{
 		"modelId": "patrickvonplaten/sew-d-mid-400k-librispeech-clean-100h-ft",
-		"private": false
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
 		"modelId": "anton-l/hubert-base-ft-keyword-spotting",
@@ -89316,6 +89317,7 @@
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-ft-common-language",
-		"private": false
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	}
 ]
