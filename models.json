@@ -1125,6 +1125,10 @@
 		"pipeline_tag": "conversational"
 	},
 	{
+		"modelId": "Aidan8756/stephenKingModel",
+		"private": false
+	},
+	{
 		"modelId": "AidenGO/KDXF_Bert4MaskedLM",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -14513,6 +14517,10 @@
 		"private": false
 	},
 	{
+		"modelId": "JorisCos/VAD_Net",
+		"private": false
+	},
+	{
 		"modelId": "JosAbc123/Loken",
 		"private": false
 	},
@@ -17952,6 +17960,11 @@
 	},
 	{
 		"modelId": "Nehc/gpt2_lovecraft_ru",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "Nehc/gpt2_priest_ru",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -21771,6 +21784,10 @@
 		"pipeline_tag": "question-answering"
 	},
 	{
+		"modelId": "SajjadAyoubi/distil-bigbert-uncased",
+		"private": false
+	},
+	{
 		"modelId": "SajjadAyoubi/xlm-roberta-large-fa-qa",
 		"private": false,
 		"pipeline_tag": "question-answering"
@@ -24144,6 +24161,14 @@
 	},
 	{
 		"modelId": "Truflase/distilgpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Truflase/gpt2-finetuned-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "Truflase/gpt2-oblivion",
 		"private": false
 	},
 	{
@@ -29759,6 +29784,10 @@
 		"modelId": "assemblyai/distilbert-base-uncased-sst2",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "assij/wav2vec2-common_voice-tr-demo-dist",
+		"private": false
 	},
 	{
 		"modelId": "assij/wav2vec2-common_voice-tr-demo",
@@ -65217,6 +65246,11 @@
 		"private": false
 	},
 	{
+		"modelId": "maxpe/bertin-roberta-base-spanish_semeval18_emodetection",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "maxpe/twitter-roberta-base_semeval18_emodetection",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -66141,6 +66175,10 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "miesnerjacob/garm-classifier",
+		"private": false
+	},
+	{
 		"modelId": "miesnerjacob/trends-classifier_08-16-2021",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -66396,6 +66434,16 @@
 		"modelId": "mkhalifa/gpt2-biographies",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "mklucifer/DialoGPT-medium-DEADPOOL",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "mklucifer/DialoGPT-small-DEADPOOL",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "mkmoisio/xlm-r-cross-lingual-english-finnish-sts",
@@ -72985,6 +73033,11 @@
 	{
 		"modelId": "philschmid/infinity-sentiment",
 		"private": false
+	},
+	{
+		"modelId": "philschmid/pt-tblard-tf-allocine",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "philschmid/resnet50-cardamage-classifier",
@@ -89198,54 +89251,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "philschmid/pt-tblard-tf-allocine",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "assij/wav2vec2-common_voice-tr-demo-dist",
-		"private": false
-	},
-	{
-		"modelId": "Nehc/gpt2_priest_ru",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "SajjadAyoubi/distil-bigbert-uncased",
-		"private": false
-	},
-	{
-		"modelId": "JorisCos/VAD_Net",
-		"private": false
-	},
-	{
-		"modelId": "Truflase/gpt2-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "mklucifer/DialoGPT-small-DEADPOOL",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "Truflase/gpt2-oblivion",
-		"private": false
-	},
-	{
-		"modelId": "Aidan8756/stephenKingModel",
-		"private": false
-	},
-	{
-		"modelId": "mklucifer/DialoGPT-medium-DEADPOOL",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "maxpe/bertin-roberta-base-spanish_semeval18_emodetection",
 		"private": false
 	}
 ]
