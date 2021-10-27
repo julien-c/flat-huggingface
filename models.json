@@ -33749,11 +33749,6 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
-		"modelId": "clearword/t5-small-disfluency",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
 		"modelId": "clee7/layoutlm-finetune-sroie",
 		"private": false,
 		"pipeline_tag": "token-classification"
@@ -37095,7 +37090,8 @@
 	},
 	{
 		"modelId": "en/distilbert-base-uncased-finetuned-squad",
-		"private": false
+		"private": false,
+		"pipeline_tag": "question-answering"
 	},
 	{
 		"modelId": "enelpi/bert-question-answering-cased-squadv2_tr",
@@ -89214,11 +89210,6 @@
 		"private": false
 	},
 	{
-		"modelId": "mklucifer/DiabloGPT-medium-DEADPOOL",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
 		"modelId": "Nehc/gpt2_priest_ru",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -89246,6 +89237,15 @@
 	},
 	{
 		"modelId": "Aidan8756/stephenKingModel",
+		"private": false
+	},
+	{
+		"modelId": "mklucifer/DialoGPT-medium-DEADPOOL",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
+		"modelId": "maxpe/bertin-roberta-base-spanish_semeval18_emodetection",
 		"private": false
 	}
 ]
