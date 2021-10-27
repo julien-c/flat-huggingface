@@ -66169,11 +66169,6 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
-		"modelId": "mideind/IceBERT",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
 		"modelId": "miesnerjacob/garm-classifier",
 		"private": false
 	},
@@ -89256,6 +89251,16 @@
 	{
 		"modelId": "ntu-spml/distilhubert",
 		"private": false
+	},
+	{
+		"modelId": "mideind/IceBERT-igc",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "nlokam/DialoGPT-digibot-medium",
+		"private": false,
+		"pipeline_tag": "conversational"
 	},
 	{
 		"modelId": "anton-l/distilhubert-ft-keyword-spotting",
