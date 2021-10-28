@@ -74398,6 +74398,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "quangtran199hust/layoutlmv2_roige"
 	},
 	{
@@ -89402,10 +89403,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "chinhon/headline_writer2"
+	},
+	{
+		"private": false,
 		"modelId": "furyhawk/t5-small-finetuned-bbc-headline"
 	},
 	{
 		"private": false,
 		"modelId": "toanparadox/test_nlp"
+	},
+	{
+		"private": false,
+		"modelId": "z-uo/it5-squadv1-it"
 	}
 ]
