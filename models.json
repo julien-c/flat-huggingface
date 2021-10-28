@@ -33829,11 +33829,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "clearword/t5-base-disfluency"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clee7/layoutlm-finetune-sroie"
 	},
@@ -89533,5 +89528,18 @@
 	{
 		"private": false,
 		"modelId": "gngdb/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "minn/my-bert-mlm"
+	},
+	{
+		"private": false,
+		"modelId": "manu/fquad_crossencoder_keywords"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/pegasus-multi_news-headline"
 	}
 ]
