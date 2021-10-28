@@ -28778,11 +28778,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
-		"modelId": "anton-l/wav2vec2-base-ft-common-language"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
 		"modelId": "anton-l/wav2vec2-base-ft-keyword-spotting"
 	},
 	{
@@ -44545,6 +44540,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "hchc/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -89412,11 +89408,24 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
+		"pipeline_tag": "text-classification",
+		"modelId": "toanparadox/test_nlp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "z-uo/it5-squadv1-it"
 	},
 	{
 		"private": false,
 		"modelId": "quangtran199hust/layoutlmv2_e"
+	},
+	{
+		"private": false,
+		"modelId": "summerwins/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/wav2vec2-base-ft-common-language"
 	}
 ]
