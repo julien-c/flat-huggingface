@@ -2420,6 +2420,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "BigSalmon/ParaphraseParentheses2.0",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "BigSalmon/PhraseBerta",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -13645,6 +13650,16 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.1",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "HungChau/distilbert-base-uncased-finetuned-ner",
 		"private": false
 	},
@@ -14988,6 +15003,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Kizukym/DialoGPT-medium-kiruki",
+		"private": false
+	},
+	{
 		"modelId": "Kleinopp/bert",
 		"private": false
 	},
@@ -16007,6 +16026,11 @@
 	{
 		"modelId": "Mads/xlsr-demo",
 		"private": false
+	},
+	{
+		"modelId": "Maelstrom77/Vibert",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "Maelstrom77/bert-base-uncased-MRPC",
@@ -19451,6 +19475,10 @@
 	},
 	{
 		"modelId": "Rainiefantasy/HuggingFace_Model",
+		"private": false
+	},
+	{
+		"modelId": "Raintree/wav2vec2-base-timit-demo-colab",
 		"private": false
 	},
 	{
@@ -25448,6 +25476,10 @@
 		"private": false
 	},
 	{
+		"modelId": "Zichuu/spert",
+		"private": false
+	},
+	{
 		"modelId": "ZikXewen/wav2vec2-large-xlsr-53-thai-demo",
 		"private": false
 	},
@@ -26201,6 +26233,10 @@
 		"private": false
 	},
 	{
+		"modelId": "aditeyabaral/additionalpretrained-indic-bert",
+		"private": false
+	},
+	{
 		"modelId": "aditeyabaral/additionalpretrained-roberta-base",
 		"private": false
 	},
@@ -26242,6 +26278,11 @@
 		"pipeline_tag": "token-classification"
 	},
 	{
+		"modelId": "aditeyabaral/plum-distilbert-base-cased",
+		"private": false,
+		"pipeline_tag": "token-classification"
+	},
+	{
 		"modelId": "aditeyabaral/roberta-hinglish-big",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -26278,6 +26319,11 @@
 	},
 	{
 		"modelId": "aditeyabaral/sentencetransformer-distilbert-hinglish-small",
+		"private": false,
+		"pipeline_tag": "sentence-similarity"
+	},
+	{
+		"modelId": "aditeyabaral/sentencetransformer-indic-bert",
 		"private": false,
 		"pipeline_tag": "sentence-similarity"
 	},
@@ -28142,6 +28188,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin5",
+		"private": false
+	},
+	{
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_single-vumichien",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -28678,9 +28728,24 @@
 		"pipeline_tag": "fill-mask"
 	},
 	{
+		"modelId": "anton-l/distilhubert-ft-common-language",
+		"private": false,
+		"pipeline_tag": "audio-classification"
+	},
+	{
+		"modelId": "anton-l/distilhubert-ft-keyword-spotting",
+		"private": false,
+		"pipeline_tag": "audio-classification"
+	},
+	{
 		"modelId": "anton-l/gpt-j-tiny-random",
 		"private": false,
 		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "anton-l/hubert-base-ft-keyword-spotting",
+		"private": false,
+		"pipeline_tag": "audio-classification"
 	},
 	{
 		"modelId": "anton-l/megatron-11b",
@@ -28692,11 +28757,30 @@
 		"private": false
 	},
 	{
+		"modelId": "anton-l/sew-d-mid-400k-ft-keyword-spotting",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "anton-l/sew-mid-100k-ft-keyword-spotting",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "anton-l/wav2vec2-base-960h",
 		"private": false
 	},
 	{
 		"modelId": "anton-l/wav2vec2-base-finetuned-ks",
+		"private": false,
+		"pipeline_tag": "audio-classification"
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-ft-common-language",
+		"private": false
+	},
+	{
+		"modelId": "anton-l/wav2vec2-base-ft-keyword-spotting",
 		"private": false,
 		"pipeline_tag": "audio-classification"
 	},
@@ -38643,6 +38727,10 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "facebook/ic_gan",
+		"private": false
+	},
+	{
 		"modelId": "facebook/m2m100_1.2B",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
@@ -39627,6 +39715,10 @@
 	},
 	{
 		"modelId": "flank/aquabotmediumnew",
+		"private": false
+	},
+	{
+		"modelId": "flareau/distilgpt2-finetuned-wikitext2",
 		"private": false
 	},
 	{
@@ -44449,6 +44541,10 @@
 		"modelId": "hbredin/VoiceActivityDetection-PyanNet-DIHARD",
 		"private": false,
 		"pipeline_tag": "voice-activity-detection"
+	},
+	{
+		"modelId": "hchc/distilbert-base-uncased-finetuned-cola",
+		"private": false
 	},
 	{
 		"modelId": "hcjang1987/distilbert-base-uncased-finetuned-cola",
@@ -57504,6 +57600,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "huggingtweets/universal_lucas-void_vomicae",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
 		"modelId": "huggingtweets/unkledell",
 		"private": false,
 		"pipeline_tag": "text-generation"
@@ -57695,6 +57796,11 @@
 	},
 	{
 		"modelId": "huggingtweets/vitalikbuterin",
+		"private": false,
+		"pipeline_tag": "text-generation"
+	},
+	{
+		"modelId": "huggingtweets/void_vomicae",
 		"private": false,
 		"pipeline_tag": "text-generation"
 	},
@@ -59104,6 +59210,11 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "jaesun/kcbert-base-finetuned-klue-nli",
+		"private": false,
+		"pipeline_tag": "text-classification"
+	},
+	{
 		"modelId": "jaesun/kcbert-base-finetuned-nsmc",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -59112,6 +59223,10 @@
 		"modelId": "jaesun/kogpt2-base-v2-finetuned-nsmc",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "jaesun/my-new-shiny-tokenizer",
+		"private": false
 	},
 	{
 		"modelId": "jaeyoung/distilbert-base-uncased-finetuned-squad",
@@ -60021,6 +60136,14 @@
 		"private": false
 	},
 	{
+		"modelId": "jipiration/bert-base-cased-wikitext2",
+		"private": false
+	},
+	{
+		"modelId": "jipiration/gpt2-wikitext2",
+		"private": false
+	},
+	{
 		"modelId": "jirmauritz/bert-multilingual-emoji",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -60600,6 +60723,10 @@
 		"modelId": "jordimas/julibert",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jordn/thing",
+		"private": false
 	},
 	{
 		"modelId": "jorgeecardona/gumbel_softmax",
@@ -61219,6 +61346,11 @@
 		"modelId": "jwouts/belabBERT_115k",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "jwuthri/autonlp-shipping_status_2-27366103",
+		"private": false,
+		"pipeline_tag": "text-classification"
 	},
 	{
 		"modelId": "jx88/xlm-roberta-base-finetuned-marc-en-j-run",
@@ -63720,6 +63852,11 @@
 		"private": false
 	},
 	{
+		"modelId": "lvwerra/bert-base-uncased-issues-128-issues-128",
+		"private": false,
+		"pipeline_tag": "fill-mask"
+	},
+	{
 		"modelId": "lvwerra/bert-imdb",
 		"private": false,
 		"pipeline_tag": "text-classification"
@@ -65991,6 +66128,10 @@
 		"private": false
 	},
 	{
+		"modelId": "microsoft/mdeberta-v3-base",
+		"private": false
+	},
+	{
 		"modelId": "microsoft/mpnet-base",
 		"private": false,
 		"pipeline_tag": "fill-mask"
@@ -66147,6 +66288,11 @@
 		"modelId": "midas/gupshup_h2e_t5_mtl",
 		"private": false,
 		"pipeline_tag": "text2text-generation"
+	},
+	{
+		"modelId": "mideind/IceBERT-igc",
+		"private": false,
+		"pipeline_tag": "fill-mask"
 	},
 	{
 		"modelId": "miesnerjacob/garm-classifier",
@@ -68666,6 +68812,11 @@
 		"pipeline_tag": "text2text-generation"
 	},
 	{
+		"modelId": "mse30/bart-base-finetuned-xsum",
+		"private": false,
+		"pipeline_tag": "text2text-generation"
+	},
+	{
 		"modelId": "mse30/bart-large-finetuned-cnn",
 		"private": false
 	},
@@ -68746,6 +68897,10 @@
 		"modelId": "muhtasham/TajBERTo",
 		"private": false,
 		"pipeline_tag": "fill-mask"
+	},
+	{
+		"modelId": "muhtasham/wav2vec2-large-xlsr-53-turkish",
+		"private": false
 	},
 	{
 		"modelId": "muirkat/tolkien-mythopoeic-gen",
@@ -70367,6 +70522,11 @@
 		"pipeline_tag": "text-generation"
 	},
 	{
+		"modelId": "nlokam/DialoGPT-digibot-medium",
+		"private": false,
+		"pipeline_tag": "conversational"
+	},
+	{
 		"modelId": "nlokam/DialoGPT-small-harry-2",
 		"private": false
 	},
@@ -70738,6 +70898,10 @@
 		"modelId": "ntrnghia/stsb_vn",
 		"private": false,
 		"pipeline_tag": "text-classification"
+	},
+	{
+		"modelId": "ntu-spml/distilhubert",
+		"private": false
 	},
 	{
 		"modelId": "nucklehead/deepspeech-ht",
@@ -72107,6 +72271,11 @@
 		"pipeline_tag": "automatic-speech-recognition"
 	},
 	{
+		"modelId": "patrickvonplaten/sew-d-mid-400k-librispeech-clean-100h-ft",
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition"
+	},
+	{
 		"modelId": "patrickvonplaten/sew-d-small-100k-timit",
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition"
@@ -72285,6 +72454,10 @@
 	},
 	{
 		"modelId": "patrickvonplaten/wav2vec2-large-repro-960h-libri-120k-steps",
+		"private": false
+	},
+	{
+		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-129-tr-colab",
 		"private": false
 	},
 	{
@@ -74204,6 +74377,10 @@
 	},
 	{
 		"modelId": "quachmaiboi/distilbert-base-uncased-finetuned-text",
+		"private": false
+	},
+	{
+		"modelId": "quangtran199hust/layoutlmv2_roige",
 		"private": false
 	},
 	{
@@ -84607,6 +84784,10 @@
 		"pipeline_tag": "text-classification"
 	},
 	{
+		"modelId": "tucan9389/my-new-shiny-tokenizer",
+		"private": false
+	},
+	{
 		"modelId": "tucker/DialoGPT-small-harrypotter",
 		"private": false
 	},
@@ -86429,6 +86610,10 @@
 	},
 	{
 		"modelId": "vijayethuraj/model_name",
+		"private": false
+	},
+	{
+		"modelId": "vijayv500/DialoGPT-small-Big-Bang-Theory-TV-Show",
 		"private": false
 	},
 	{
@@ -89196,192 +89381,6 @@
 	},
 	{
 		"modelId": "zzclynn/bert_test",
-		"private": false
-	},
-	{
-		"modelId": "mse30/bart-base-finetuned-xsum",
-		"private": false,
-		"pipeline_tag": "text2text-generation"
-	},
-	{
-		"modelId": "ntu-spml/distilhubert",
-		"private": false
-	},
-	{
-		"modelId": "mideind/IceBERT-igc",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "nlokam/DialoGPT-digibot-medium",
-		"private": false,
-		"pipeline_tag": "conversational"
-	},
-	{
-		"modelId": "anton-l/distilhubert-ft-keyword-spotting",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
-		"modelId": "facebook/ic_gan",
-		"private": false
-	},
-	{
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "vijayv500/DialoGPT-small-Big-Bang-Theory-TV-Show",
-		"private": false
-	},
-	{
-		"modelId": "Raintree/wav2vec2-base-timit-demo-colab",
-		"private": false
-	},
-	{
-		"modelId": "microsoft/mdeberta-v3-base",
-		"private": false
-	},
-	{
-		"modelId": "jordn/thing",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/universal_lucas-void_vomicae",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "anton-l/distilhubert-ft-common-language",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
-		"modelId": "flareau/distilgpt2-finetuned-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "huggingtweets/void_vomicae",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "Maelstrom77/Vibert",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jwuthri/autonlp-shipping_status_2-27366103",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "anton-l/wav2vec2-base-ft-keyword-spotting",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
-		"modelId": "patrickvonplaten/sew-d-mid-400k-librispeech-clean-100h-ft",
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition"
-	},
-	{
-		"modelId": "anton-l/hubert-base-ft-keyword-spotting",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
-		"modelId": "lvwerra/bert-base-uncased-issues-128-issues-128",
-		"private": false,
-		"pipeline_tag": "fill-mask"
-	},
-	{
-		"modelId": "BigSalmon/ParaphraseParentheses2.0",
-		"private": false,
-		"pipeline_tag": "text-generation"
-	},
-	{
-		"modelId": "anton-l/sew-mid-100k-ft-keyword-spotting",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "anton-l/sew-d-mid-400k-ft-keyword-spotting",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "muhtasham/wav2vec2-large-xlsr-53-turkish",
-		"private": false
-	},
-	{
-		"modelId": "anton-l/wav2vec2-base-ft-common-language",
-		"private": false,
-		"pipeline_tag": "audio-classification"
-	},
-	{
-		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-129-tr-colab",
-		"private": false
-	},
-	{
-		"modelId": "Kizukym/DialoGPT-medium-kiruki",
-		"private": false
-	},
-	{
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.1",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "aditeyabaral/additionalpretrained-indic-bert",
-		"private": false
-	},
-	{
-		"modelId": "aditeyabaral/plum-distilbert-base-cased",
-		"private": false,
-		"pipeline_tag": "token-classification"
-	},
-	{
-		"modelId": "aditeyabaral/sentencetransformer-indic-bert",
-		"private": false,
-		"pipeline_tag": "sentence-similarity"
-	},
-	{
-		"modelId": "Zichuu/spert",
-		"private": false
-	},
-	{
-		"modelId": "hchc/distilbert-base-uncased-finetuned-cola",
-		"private": false
-	},
-	{
-		"modelId": "jaesun/my-new-shiny-tokenizer",
-		"private": false
-	},
-	{
-		"modelId": "quangtran199hust/layoutlmv2_roige",
-		"private": false
-	},
-	{
-		"modelId": "jaesun/kcbert-base-finetuned-klue-nli",
-		"private": false,
-		"pipeline_tag": "text-classification"
-	},
-	{
-		"modelId": "jipiration/gpt2-wikitext2",
-		"private": false
-	},
-	{
-		"modelId": "tucan9389/my-new-shiny-tokenizer",
-		"private": false
-	},
-	{
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin5",
-		"private": false
-	},
-	{
-		"modelId": "jipiration/bert-base-cased-wikitext2",
 		"private": false
 	}
 ]
