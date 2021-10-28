@@ -14970,10 +14970,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kiltk/model27-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "KingCodeSquid/Octavian"
 	},
 	{
@@ -89475,11 +89471,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "wicharnkeisei/xlm-roberta-base-squad2-finetuned-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jaesun/kogpt-finetuned-klue-nli"
 	},
@@ -89490,6 +89481,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "dkurt/bert-large-uncased-whole-word-masking-squad-int8-0001"
 	},
 	{
@@ -89503,5 +89495,15 @@
 	{
 		"private": false,
 		"modelId": "jaeyoung/roberta-large-wiki"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "wicharnkeisei/thai-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jaeyoung/notuse"
 	}
 ]
