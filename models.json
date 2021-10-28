@@ -33369,6 +33369,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-newsroom-headline_writer"
 	},
 	{
@@ -33834,6 +33835,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "claudio75/xlm-roberta-base-finetuned-marc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "clearword/t5-base-disfluency"
 	},
 	{
 		"private": false,
@@ -89484,5 +89490,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Narrativaai/fake-news-detection-spanish"
+	},
+	{
+		"private": false,
+		"modelId": "dkurt/bert-large-uncased-whole-word-masking-squad-int8-0001"
 	}
 ]
