@@ -33741,6 +33741,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "clairegu/wav2vec2-large-xlsr-amira-spanish"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "clairesb/kindness_bot"
 	},
@@ -89499,6 +89504,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/sew-d-small-100k-ft-timit-2"
 	},
 	{
@@ -89542,5 +89548,9 @@
 	{
 		"private": false,
 		"modelId": "chinhon/pegasus-multi_news-headline"
+	},
+	{
+		"private": false,
+		"modelId": "en/bert-large-uncased-whole-word-masking-finetuned-squad-finetuned-squad"
 	}
 ]
