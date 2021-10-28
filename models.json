@@ -89496,10 +89496,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "BossLee/T5_GEC"
-	},
-	{
-		"private": false,
 		"modelId": "lukew/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -89519,11 +89515,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "BossLee/t5-gec"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mawic/my-awesome-model"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/sew-d-small-100k-ft-timit-2"
 	}
 ]
