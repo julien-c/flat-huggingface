@@ -65358,11 +65358,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "maxpower/my-awesome-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "maxspaziani/bert-base-italian-uncased-finetuned-ComunaliRoma"
 	},
@@ -89509,6 +89504,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/sew-d-small-100k-ft-timit"
 	},
 	{
@@ -89518,6 +89514,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lvwerra/bert-base-uncased-issues-128"
+	},
+	{
+		"private": false,
+		"modelId": "BossLee/t5-gec"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mawic/my-awesome-model"
 	}
 ]
