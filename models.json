@@ -33834,11 +33834,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "clearword/t5-base-disfluency"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clee7/layoutlm-finetune-sroie"
 	},
@@ -89505,5 +89500,22 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jaeyoung/notuse"
+	},
+	{
+		"private": false,
+		"modelId": "Andrej/new-dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "koala/bert-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "koala/roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "juliensimon/amazon-reviews-classification"
 	}
 ]
