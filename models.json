@@ -89456,7 +89456,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "setiadia/DialogGPT-small-HPBot"
 	},
 	{
@@ -89465,6 +89465,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lvwerra/bert-base-uncased-issues-128"
+	},
+	{
+		"private": false,
+		"modelId": "furyhawk/t5-base-finetuned-bbc-headline"
+	},
+	{
+		"private": false,
+		"modelId": "wicho/my-new-shiny-tokenizer"
 	}
 ]
