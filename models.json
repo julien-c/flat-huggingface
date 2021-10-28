@@ -21789,11 +21789,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "SajjadAyoubi/distil-bigbert-uncased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "SajjadAyoubi/xlm-roberta-large-fa-qa"
 	},
@@ -89524,5 +89519,10 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/sew-d-small-100k-ft-timit"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "SajjadAyoubi/distil-bigbird-fa-zwnj"
 	}
 ]
