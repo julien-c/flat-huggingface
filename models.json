@@ -33842,6 +33842,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "clearword/t5-base-disfluency"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clee7/layoutlm-finetune-sroie"
 	},
@@ -89418,6 +89423,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "quangtran199hust/layoutlmv2_e"
 	},
 	{
@@ -89426,6 +89432,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "anton-l/wav2vec2-base-ft-common-language"
+	},
+	{
+		"private": false,
+		"modelId": "celtics1863/env_bert"
 	}
 ]
