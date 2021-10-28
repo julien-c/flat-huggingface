@@ -17834,11 +17834,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Narrativaai/fake-news-detection-spanish"
-	},
-	{
-		"private": false,
 		"modelId": "Narshion/bert-base-multilingual-cased-mwach"
 	},
 	{
@@ -68373,11 +68368,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mrm8488/roberta-large-fake-news-detection-spanish"
-	},
-	{
-		"private": false,
 		"modelId": "mrm8488/roberta-large-fake-news-hp"
 	},
 	{
@@ -89478,6 +89468,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "wicharnkeisei/xlm-roberta-base-squad2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "jaesun/kogpt2-base-v2-finetuned-klue-nli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jaesun/kogpt-finetuned-klue-nli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Narrativaai/fake-news-detection-spanish"
 	}
 ]
