@@ -89385,6 +89385,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "celtics1863/env_bert"
 	},
 	{
@@ -89543,6 +89544,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "manu/fquad_crossencoder_keywords"
 	},
 	{
@@ -89552,5 +89554,27 @@
 	{
 		"private": false,
 		"modelId": "en/bert-large-uncased-whole-word-masking-finetuned-squad-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "beg99/OPsporilerOrNot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jaeyoung/klue-roberta-large-wiki-mlm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "miesnerjacob/garm-bart-large-classifier-10-28-2021"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/eighteenth-century-albert"
+	},
+	{
+		"private": false,
+		"modelId": "2early4coffee/DialoGPT-small-deadpool"
 	}
 ]
