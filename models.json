@@ -89476,11 +89476,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mawic/my-awesome-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/sew-d-small-100k-ft-timit-2"
 	},
@@ -89561,16 +89556,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "brunodorneles/ner_model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "cointegrated/rubert-tiny2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "miesnerjacob/youtube-garm-bart-large"
+		"modelId": "JerukPurut/DialoGPT-small-natwithaheart"
 	},
 	{
 		"private": false,
-		"modelId": "JerukPurut/DialoGPT-small-natwithaheart"
+		"pipeline_tag": "text-classification",
+		"modelId": "mawic/electra-german-emotions"
 	}
 ]
