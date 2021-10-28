@@ -33829,6 +33829,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "clearword/t5-base-disfluency"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clee7/layoutlm-finetune-sroie"
 	},
@@ -89526,5 +89531,9 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/sew-d-small-100k-ft-timit-2"
+	},
+	{
+		"private": false,
+		"modelId": "Khalidnassiri/distilbert-base-uncased-finetuned-squad"
 	}
 ]
