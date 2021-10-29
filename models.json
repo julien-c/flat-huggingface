@@ -13847,6 +13847,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "IliaAltmark/1"
+	},
+	{
+		"private": false,
 		"modelId": "IlyaGusev/gen_title_tg_bottleneck"
 	},
 	{
@@ -25028,6 +25032,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Wikidepia/sponsorblock"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "WikinewsSum/bart-large-cnn-multi-en-wiki-news"
 	},
@@ -25500,6 +25509,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Zeer0/DialoGPT-small-ZerO"
+	},
+	{
+		"private": false,
+		"modelId": "Zelalem-Getahun/wav2vec2-large-xlsr-turkish-demo-colab"
 	},
 	{
 		"private": false,
@@ -31537,6 +31550,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bl4ck-sun/gpt2-persian-gpt2-pairfive"
+	},
+	{
+		"private": false,
 		"modelId": "bl4ck-sun/per_story"
 	},
 	{
@@ -33146,6 +33163,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "celtics1863/env-bert-chinese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "celtics1863/env-bert-cls-chinese"
 	},
 	{
 		"private": false,
@@ -35004,6 +35026,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "danielvasic/hr_hroberta_pipeline"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "danildany/DialoGPT-small-MichaelScott"
 	},
@@ -35305,6 +35331,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/albert_1700_tokenizer"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "davanstrien/bl-books-genre"
 	},
@@ -35318,11 +35348,23 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/distilroberta_1700_tok"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/distilroberta_1700_tokenizer"
+	},
+	{
+		"private": false,
 		"modelId": "davanstrien/eighteenth-century-albert-tokenizer"
 	},
 	{
 		"private": false,
 		"modelId": "davanstrien/testgpt2"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/tokenizer"
 	},
 	{
 		"private": false,
@@ -44725,6 +44767,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "hbredin/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
 		"modelId": "hbshih/test"
 	},
 	{
@@ -49118,6 +49164,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/cnn-elonmusk-kanyewest"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/cnn"
 	},
 	{
@@ -52001,6 +52052,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/incantalupo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/incharmuese-sadsocrates-vvangone"
 	},
 	{
 		"private": false,
@@ -57403,6 +57459,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/thewenbo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/theytooknedward"
 	},
 	{
@@ -58292,6 +58353,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/yieee_nagitaco"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/yierpaen"
 	},
 	{
 		"private": false,
@@ -59580,7 +59646,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "jambo/microsoftBio-deepGDAE_GAD"
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-associations"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-associations_multiclass"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jambo/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-relevant"
 	},
 	{
 		"private": false,
@@ -62186,6 +62262,16 @@
 	{
 		"private": false,
 		"modelId": "korca/roberta-base-mm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kormilitzin/en_core_med7_lg"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kormilitzin/en_core_med7_trf"
 	},
 	{
 		"private": false,
@@ -65277,8 +65363,27 @@
 	},
 	{
 		"private": false,
+		"modelId": "manu/fquad-bool-lepetit-x3-crossencoder"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "manu/fquad_crossencoder_keywords"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "manu/fquad_crossencoder_keywords_minilml2v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "manu/fquad_crossencoder_keywords_tinybert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "manu/fquad_crossencoder_minilml2v2"
 	},
 	{
 		"private": false,
@@ -70863,11 +70968,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "nkul/gpt2-frens"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "nlokam/DialoGPT-digibot-medium"
 	},
 	{
 		"private": false,
@@ -79028,6 +79128,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "shoraii/ganime"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "shortneyrules/bert-case-cased"
 	},
@@ -82381,6 +82485,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sumba/roberta-base-squad2-finetuned-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sumedh/wav2vec2-large-xlsr-marathi"
 	},
@@ -85021,6 +85129,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "transformersbook/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "transformersbook/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "transformersbook/pegasus-samsum"
 	},
@@ -87383,6 +87501,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "voidism/12to6_distilbert"
+	},
+	{
+		"private": false,
+		"modelId": "voize/fnet-small-german"
 	},
 	{
 		"private": false,
@@ -89836,112 +89958,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Wikidepia/sponsorblock"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "transformersbook/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "sumba/roberta-base-squad2-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/tokenizer"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/albert_1700_tokenizer"
-	},
-	{
-		"private": false,
-		"modelId": "shoraii/ganime"
-	},
-	{
-		"private": false,
-		"modelId": "Zelalem-Getahun/wav2vec2-large-xlsr-turkish-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "hbredin/wav2vec2-base-finetuned-ks"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/yierpaen"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/thewenbo"
-	},
-	{
-		"private": false,
-		"modelId": "voize/fnet-small-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "transformersbook/distilbert-base-uncased-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad_crossencoder_keywords_tinybert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad_crossencoder_keywords_minilml2v2"
-	},
-	{
-		"private": false,
-		"modelId": "IliaAltmark/1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/cnn-elonmusk-kanyewest"
-	},
-	{
-		"private": false,
-		"modelId": "bl4ck-sun/gpt2-persian-gpt2-pairfive"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/incharmuese-sadsocrates-vvangone"
-	},
-	{
-		"private": false,
-		"modelId": "celtics1863/env-bert-cls-chinese"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad_crossencoder_minilml2v2"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/distilroberta_1700_tokenizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "kormilitzin/en_core_med7_lg"
-	},
-	{
-		"private": false,
-		"modelId": "kormilitzin/en_core_med7_trf"
-	},
-	{
-		"private": false,
-		"modelId": "manu/fquad-bool-lepetit-x3-crossencoder"
 	}
 ]
