@@ -64211,11 +64211,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lvwerra/bert-base-uncased-issues-128"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "lvwerra/bert-imdb"
 	},
@@ -64250,26 +64245,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "lvwerra/pegasus-samsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de-fr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-fr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-it"
 	},
 	{
 		"private": false,
@@ -89941,5 +89916,30 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jakobwes/finance-gpt2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-de-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-it"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "transformersbook/bert-base-uncased-issues-128"
 	}
 ]
