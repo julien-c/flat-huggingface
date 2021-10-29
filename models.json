@@ -41191,6 +41191,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "furyhawk/t5-base-finetuned-bbc"
 	},
 	{
@@ -64273,11 +64274,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-en"
 	},
 	{
@@ -65380,16 +65376,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "manu/fquad_crossencoder_minilml2v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/layoutxlm-finetuned-illuin-1024"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/layoutxlm-finetuned-illuin-sw220"
 	},
 	{
 		"private": false,
@@ -89971,5 +89957,14 @@
 	{
 		"private": false,
 		"modelId": "lucianommartins/msft-lucianomartins"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-de"
 	}
 ]
