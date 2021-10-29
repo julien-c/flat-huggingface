@@ -62983,11 +62983,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-clinc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb-accelerate"
 	},
@@ -89897,5 +89892,19 @@
 	{
 		"private": false,
 		"modelId": "voize/fnet-small-german"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "transformersbook/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "manu/fquad_crossencoder_keywords_tinybert"
+	},
+	{
+		"private": false,
+		"modelId": "manu/fquad_crossencoder_keywords_minilml2v2"
 	}
 ]
