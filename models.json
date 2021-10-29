@@ -60022,20 +60022,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "jgammack/EAM-bert-base-uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jgammack/EAM-sentence-embedder"
-	},
-	{
-		"private": false,
-		"modelId": "jgammack/EAM-tokenizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/MTL-bert-base-uncased"
 	},
 	{
@@ -89873,5 +89859,21 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "transformersbook/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "sumba/roberta-base-squad2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/albert_1700_tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "shoraii/ganime"
 	}
 ]
