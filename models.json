@@ -62189,10 +62189,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kormilitzin/en_core_med7_lg"
-	},
-	{
-		"private": false,
 		"modelId": "kornesh/indic-bert"
 	},
 	{
@@ -79342,11 +79338,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "sisi/tuniberto"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sismetanin/mbart_large-financial_phrasebank"
 	},
@@ -89939,5 +89930,18 @@
 	{
 		"private": false,
 		"modelId": "davanstrien/distilroberta_1700_tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kormilitzin/en_core_med7_lg"
+	},
+	{
+		"private": false,
+		"modelId": "kormilitzin/en_core_med7_trf"
+	},
+	{
+		"private": false,
+		"modelId": "manu/fquad-bool-lepetit-x3-crossencoder"
 	}
 ]
