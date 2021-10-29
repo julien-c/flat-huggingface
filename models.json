@@ -13842,6 +13842,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Ignacio/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"modelId": "IlyaGusev/gen_title_tg_bottleneck"
 	},
 	{
@@ -16092,6 +16096,16 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maelstrom77/roberta-large-snli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Maelstrom77/snlibert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Maelstrom77/vibert"
 	},
 	{
 		"private": false,
@@ -23051,6 +23065,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "TAOC0002/bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "THUMT/mGPT"
 	},
@@ -28252,6 +28270,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "amirhossein1376/wav2vec2-xlsr53-persian-v1"
+	},
+	{
+		"private": false,
 		"modelId": "amitesh863/fin_embeds"
 	},
 	{
@@ -31306,6 +31328,10 @@
 	{
 		"private": false,
 		"modelId": "bigscience/tr8b-104B-pile-logs"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr9-1B3-swiglu-logs"
 	},
 	{
 		"private": false,
@@ -34939,6 +34965,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "danielkim/klue-longformer-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "danielkim/klue-longformer-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "danielmantisnlp/autonlp-oms-test-24515532"
 	},
@@ -34959,6 +34995,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "danielvasic/en_acnl_roberta_pipeline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "danielvasic/hr_bertic_pipeline"
 	},
 	{
 		"private": false,
@@ -35086,6 +35127,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "danurahul/distil"
+	},
+	{
+		"private": false,
+		"modelId": "danurahul/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -35269,6 +35314,10 @@
 	{
 		"private": false,
 		"modelId": "davanstrien/blbooks-good-ocr-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/eighteenth-century-albert-tokenizer"
 	},
 	{
 		"private": false,
@@ -36586,6 +36635,10 @@
 	{
 		"private": false,
 		"modelId": "drelso/word_embedding_baseline"
+	},
+	{
+		"private": false,
+		"modelId": "drjiadu/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -41088,6 +41141,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "furyhawk/t5-base-finetuned-bbc-headline"
+	},
+	{
+		"private": false,
+		"modelId": "furyhawk/t5-base-finetuned-bbc"
 	},
 	{
 		"private": false,
@@ -58560,6 +58617,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "iamrajatroy/eng-fr-translation"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "iamtarun/wav2vec-osr"
 	},
@@ -59309,6 +59370,20 @@
 	{
 		"private": false,
 		"modelId": "jacklin/distillbert-qa-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jacksee/biochem-model-first"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jacksee/biochem-model-firstv2"
+	},
+	{
+		"private": false,
+		"modelId": "jacksee/biochem_model_first"
 	},
 	{
 		"private": false,
@@ -61829,6 +61904,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kenyano/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
 		"modelId": "keoncheol/gc-tokenizer"
 	},
 	{
@@ -62921,11 +63000,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
@@ -65919,6 +65993,10 @@
 	{
 		"private": false,
 		"modelId": "merve/deberta-finetuned-sentiment"
+	},
+	{
+		"private": false,
+		"modelId": "merve/pet-segmentation"
 	},
 	{
 		"private": false,
@@ -69361,6 +69439,10 @@
 	{
 		"private": false,
 		"modelId": "namejjl/test001"
+	},
+	{
+		"private": false,
+		"modelId": "namnd00/wav2vec2_malay"
 	},
 	{
 		"private": false,
@@ -74274,6 +74356,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "proffbeat/chatbot"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "progg/shopping-list-ner"
 	},
@@ -76091,6 +76177,21 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test"
 	},
 	{
@@ -76205,6 +76306,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sadakmed/conj-bert-large-cased"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "sadakmed/distiluse-base-multilingual-cased-v1"
 	},
@@ -76216,6 +76321,10 @@
 	{
 		"private": false,
 		"modelId": "sadakmed/dpr-passage_encoder-spanish"
+	},
+	{
+		"private": false,
+		"modelId": "sadakmed/triplet-bert-base-cased"
 	},
 	{
 		"private": false,
@@ -78750,6 +78859,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "shiqing/opus-mt-en-zh-finetuned-en-to-zh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "shivam/mbart-large-50-finetuned-en-mr"
 	},
 	{
@@ -78793,6 +78907,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "shivangi/distilgpt2"
+	},
+	{
+		"private": false,
+		"modelId": "shivangibithel/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -89748,121 +89866,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "danurahul/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "jacksee/biochem_model_first"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "jacksee/biochem-model-first"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "jacksee/biochem-model-firstv2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "danielkim/klue-longformer-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "danielvasic/hr_bertic_pipeline"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "danielkim/klue-longformer-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "shiqing/opus-mt-en-zh-finetuned-en-to-zh"
-	},
-	{
-		"private": false,
-		"modelId": "Ignacio/distilbert-base-uncased-finetuned-cola"
+		"pipeline_tag": "text-classification",
+		"modelId": "Wikidepia/sponsorblock"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "Maelstrom77/vibert"
-	},
-	{
-		"private": false,
-		"modelId": "proffbeat/chatbot"
-	},
-	{
-		"private": false,
-		"modelId": "amirhossein1376/wav2vec2-xlsr53-persian-v1"
-	},
-	{
-		"private": false,
-		"modelId": "drjiadu/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "sadakmed/conj-bert-large-cased"
-	},
-	{
-		"private": false,
-		"modelId": "sadakmed/triplet-bert-base-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Maelstrom77/snlibert"
-	},
-	{
-		"private": false,
-		"modelId": "TAOC0002/bert"
-	},
-	{
-		"private": false,
-		"modelId": "furyhawk/t5-base-finetuned-bbc"
-	},
-	{
-		"private": false,
-		"modelId": "iamrajatroy/eng-fr-translation"
-	},
-	{
-		"private": false,
-		"modelId": "merve/pet-segmentation"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/tr9-1B3-swiglu-logs"
-	},
-	{
-		"private": false,
-		"modelId": "namnd00/wav2vec2_malay"
-	},
-	{
-		"private": false,
-		"modelId": "shivangibithel/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/eighteenth-century-albert-tokenizer"
+		"modelId": "transformersbook/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
