@@ -40857,7 +40857,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "fnlp/bart-base-chinese"
 	},
 	{
@@ -65982,6 +65981,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "merve/pet-segmentation"
 	},
 	{
@@ -89883,5 +89883,15 @@
 	{
 		"private": false,
 		"modelId": "hbredin/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/yierpaen"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/thewenbo"
 	}
 ]
