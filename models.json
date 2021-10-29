@@ -65364,10 +65364,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "manu/fquad-bool-lepetit-x3-crossencoder"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "manu/fquad_crossencoder_keywords_minilml2v2"
 	},
@@ -89957,10 +89953,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "manu/fquad-bool-multilingual-minilml12-crossencoder"
 	},
 	{
 		"private": false,
 		"modelId": "danielvasic/hr_sroberta_pipeline"
+	},
+	{
+		"private": false,
+		"modelId": "terri1102/wav2vec2-base-timit-demo-colab"
 	}
 ]
