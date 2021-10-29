@@ -64264,11 +64264,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-all"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "lvwerra/xlm-roberta-base-finetuned-panx-de-fr"
 	},
 	{
@@ -65361,21 +65356,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "manraf/DialoGPT-smmall-harrypotter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad_crossencoder_keywords_minilml2v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad_crossencoder_keywords_tinybert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad_crossencoder_minilml2v2"
 	},
 	{
 		"private": false,
@@ -89943,11 +89923,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "manu/fquad-bool-multilingual-minilml12-crossencoder"
-	},
-	{
-		"private": false,
 		"modelId": "danielvasic/hr_sroberta_pipeline"
 	},
 	{
@@ -89966,5 +89941,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "transformersbook/xlm-roberta-base-finetuned-panx-all"
 	}
 ]
