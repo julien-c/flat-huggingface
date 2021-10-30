@@ -15036,10 +15036,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kizukym/DialoGPT-medium-kiruki"
-	},
-	{
-		"private": false,
 		"modelId": "Kleinopp/bert"
 	},
 	{
@@ -89998,7 +89994,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Kizukym/DialoGPT-medium-whotao"
+		"pipeline_tag": "text-classification",
+		"modelId": "huaen/question_detection_user_utter"
+	},
+	{
+		"private": false,
+		"modelId": "span11/bert-base-uncased-finetuned-race"
 	}
 ]
