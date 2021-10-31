@@ -90200,6 +90200,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Kamel/DarijaBERT"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "orendar/en_he_base"
 	},
@@ -90240,6 +90245,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "hireddivas/dialoGPT-small-phil"
 	}
 ]
