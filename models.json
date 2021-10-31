@@ -90220,16 +90220,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "wesam266/distilroberta-base-finetuned-itu_MLM"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "clearword/t5-base-punctuate"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/ph4370n"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "hireddivas/dialoGPT-small-mulder"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/dril-kanyewest-ph4370n"
 	}
 ]
