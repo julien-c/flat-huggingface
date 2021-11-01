@@ -14939,6 +14939,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Kamel/DarijaBERT"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Kao/samyarn-bert-base-multilingual-cased"
 	},
@@ -90385,5 +90390,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ekkasilina/big_baseline"
+	},
+	{
+		"private": false,
+		"modelId": "aAronhun/DialoGPT-small-chicken_run"
 	}
 ]
