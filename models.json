@@ -90559,6 +90559,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pgperrone/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
 	{
@@ -90568,7 +90569,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "sgugger/bert-finetuned-cola"
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/angadc"
+	},
+	{
+		"private": false,
+		"modelId": "VJGamer/model_name"
 	}
 ]
