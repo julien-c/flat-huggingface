@@ -36338,6 +36338,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/arabert-base"
+	},
+	{
+		"private": false,
 		"modelId": "diiogo/electra-base"
 	},
 	{
@@ -90558,10 +90563,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ccdv/lsg-base-4096-fr"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sgugger/bert-finetuned-cola"
 	}
 ]
