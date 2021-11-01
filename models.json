@@ -24591,6 +24591,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "UBIAI/en_scibert_ScienceIE"
+	},
+	{
+		"private": false,
 		"modelId": "UWB-AIR/Czert-A-base-uncased"
 	},
 	{
@@ -85577,10 +85582,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "tsellam/testmodel"
-	},
-	{
-		"private": false,
 		"modelId": "tsosea/bert-base-uncased-finetuned-cola"
 	},
 	{
@@ -90449,5 +90450,14 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.0"
+	},
+	{
+		"private": false,
+		"modelId": "Malar/distilbert-base-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/hasanthehun"
 	}
 ]
