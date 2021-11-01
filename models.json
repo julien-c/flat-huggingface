@@ -13682,11 +13682,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/bert_concept_extraction_v1.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0"
 	},
 	{
@@ -90444,6 +90439,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "aheba31/zaion-K2-lvcsr"
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.0"
 	}
 ]
