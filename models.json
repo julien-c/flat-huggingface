@@ -33615,16 +33615,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/t5-base-fbwriter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/t5-small-fbwriter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "chip/DialoGPT-small-chizuru"
 	},
@@ -90340,11 +90330,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/t5-small-malay_headlines"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "mental/mental-roberta-base"
 	},
@@ -90393,14 +90378,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "aAronhun/DialoGPT-small-chicken_run"
-	},
-	{
-		"private": false,
 		"modelId": "longge/test"
 	},
 	{
 		"private": false,
 		"modelId": "run/bert_porn"
+	},
+	{
+		"private": false,
+		"modelId": "aAronhun/DialoGPT-small-chicken_run"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Maelstrom77/rtevib"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/pegasus-newsroom-malay_headlines"
 	}
 ]
