@@ -82746,6 +82746,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "sumba/roberta-base-squad2-finetuned-squad"
 	},
 	{
@@ -90342,10 +90343,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mental/mental-roberta-base"
 	},
 	{
 		"private": false,
 		"modelId": "openai/imagegpt-small"
+	},
+	{
+		"private": false,
+		"modelId": "chloeh13q/wav2vec2-base-finetuned-ks"
 	}
 ]
