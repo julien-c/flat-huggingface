@@ -28838,6 +28838,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "anshaj/paraphraser"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "anshengli2/DialogGPT-small-Bot"
 	},
@@ -90335,6 +90340,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/t5-small-malay_headlines"
 	},
 	{
@@ -90366,5 +90372,18 @@
 	{
 		"private": false,
 		"modelId": "shonenkov/rudalle-Malevich"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Barleysack/klue-roberta-LSTM"
+	},
+	{
+		"private": false,
+		"modelId": "mvonwyl/roberta-base-finetuned-squad2"
+	},
+	{
+		"private": false,
+		"modelId": "Summerbud/test"
 	}
 ]
