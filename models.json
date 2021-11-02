@@ -91007,6 +91007,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jinbbong/kbert_base_esg_e3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.0"
 	}
 ]
