@@ -90820,6 +90820,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Doohae/roberta"
 	},
 	{
@@ -90833,15 +90834,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "jambo/marker-associations-base"
-	},
-	{
-		"private": false,
 		"modelId": "mcpotato/42"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/roberta-small-japanese-aozora"
 	},
 	{
@@ -90856,5 +90853,18 @@
 	{
 		"private": false,
 		"modelId": "alangganggang/transformer_exercise_01"
+	},
+	{
+		"private": false,
+		"modelId": "osyvokon/xslr-commonvoice"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jambo/marker-associations-base"
+	},
+	{
+		"private": false,
+		"modelId": "Arkadiusz/Test-model"
 	}
 ]
