@@ -34552,6 +34552,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "coiour/mymodel001"
 	},
 	{
@@ -90773,10 +90774,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jinbbong/kobart-esg-e3-b32-v2"
 	},
 	{
 		"private": false,
 		"modelId": "Kasidit/aaa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bgoel4132/tweet-disaster-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "sberbank-ai/Sber-VQGAN"
 	}
 ]
