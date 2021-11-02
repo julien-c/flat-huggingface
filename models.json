@@ -90941,6 +90941,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "cointegrated/roberta_toxicity_classifier_v1"
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SkolkovoInstitute/roberta_toxicity_classifier_v1"
 	}
 ]
