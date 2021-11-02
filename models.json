@@ -1576,10 +1576,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Anomic/DialoGPT-medium-loki"
-	},
-	{
-		"private": false,
 		"modelId": "Anonymous/ReasonBERT-BERT"
 	},
 	{
@@ -90814,14 +90810,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "this-is-real/mrc-pretrained-roberta"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "this-is-real/mrc-pretrained-roberta-large-1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nws/test_model"
 	},
 	{
@@ -90831,5 +90825,36 @@
 	{
 		"private": false,
 		"modelId": "Danbi/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jambo/marker-associations-binary-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jambo/marker-associations-base"
+	},
+	{
+		"private": false,
+		"modelId": "mcpotato/42"
+	},
+	{
+		"private": false,
+		"modelId": "KoichiYasuoka/roberta-small-japanese-aozora"
+	},
+	{
+		"private": false,
+		"modelId": "Anomic/DialoGPT-medium-loki"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jambo/marker-associations-snp-binary-base"
+	},
+	{
+		"private": false,
+		"modelId": "alangganggang/transformer_exercise_01"
 	}
 ]
