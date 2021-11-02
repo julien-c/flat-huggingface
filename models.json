@@ -90916,16 +90916,31 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cointegrated/t5-paraphrase-paws-msrp-opinosis-paranmt"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingartists/the-grateful-dead"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Rocketknight1/bert-fine-tuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingartists/marillion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "SkolkovoInstitute/gpt2-base-gedi-detoxification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SkolkovoInstitute/t5-paraphrase-paws-msrp-opinosis-paranmt"
+	},
+	{
+		"private": false,
+		"modelId": "cointegrated/roberta_toxicity_classifier_v1"
 	}
 ]
