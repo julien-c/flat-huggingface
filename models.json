@@ -90707,6 +90707,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yzhou992/test_model2"
 	},
 	{
@@ -91073,5 +91074,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yzhou992/NetMind-20211103-448"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-small-japanese-luw-upos"
+	},
+	{
+		"private": false,
+		"modelId": "yzhou992/test_model3"
 	}
 ]
