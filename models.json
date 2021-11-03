@@ -30413,6 +30413,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "aszidon/distilbertcustom"
+	},
+	{
+		"private": false,
 		"modelId": "atahmasb/tf-layoutlm-base-uncased"
 	},
 	{
@@ -91251,6 +91256,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "denden/new_iloko"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "wicharnkeisei/bert-multi-cased-finetuned-xquadv1-finetuned-squad"
 	},
@@ -91265,7 +91274,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "miesnerjacob/youtube-garm-bart-large-11-03-2021"
 	},
 	{
@@ -91285,5 +91294,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Mary222/GPT2_RU_GAME"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "nlokam/DialoGPT-digibot3.0-new"
 	}
 ]
