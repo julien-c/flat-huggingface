@@ -29145,11 +29145,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "anshaj/paraphraser"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "anshengli2/DialogGPT-small-Bot"
 	},
@@ -91169,10 +91164,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "PeeweeTuna34/DialoGPT-small-harrypotter"
+		"pipeline_tag": "fill-mask",
+		"modelId": "jinbbong/kbert_base_esg_e10"
 	},
 	{
 		"private": false,
-		"modelId": "jinbbong/kbert_base_esg_e10"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "anshaj/newParaphraser"
 	}
 ]
