@@ -17981,6 +17981,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/ZSD-microsoft-v2xxlmnli"
 	},
 	{
@@ -73766,10 +73767,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-129-tr-colab"
-	},
-	{
-		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-129-turkish-colab"
 	},
 	{
@@ -91128,6 +91125,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sijpapi/my-awesome-model"
 	},
 	{
@@ -91139,5 +91137,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "kloon99/KML_Eula_generate_v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Irina/fantasy_GPT3Medium"
 	}
 ]
