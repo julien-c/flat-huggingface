@@ -91612,20 +91612,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "cocoaclef/DialoGPT-small-kohaku"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-chemprot-medium-scale"
 	},
 	{
 		"private": false,
-		"modelId": "gengui001/chinese_roberta_wwm_large_ext_fix_mlm"
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-chemprot-large-scale"
 	},
 	{
 		"private": false,
-		"modelId": "yxchar/tlm-chemprot-large-scale"
+		"modelId": "genggui001/chinese_roberta_wwm_large_ext_fix_mlm"
+	},
+	{
+		"private": false,
+		"modelId": "voidful/bart-base-chinese"
 	}
 ]
