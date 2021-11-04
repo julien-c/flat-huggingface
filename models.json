@@ -64076,11 +64076,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-squad-d5716d28"
 	},
@@ -64135,16 +64130,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lewtun/minilm-finetuned-imdb-accelerate"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -91569,6 +91554,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tlkh/t5_large_fp16_untuned"
 	},
 	{
@@ -91590,6 +91576,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Thejas/DialoGPT-small-elon"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "huggingface-course/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "huggingface-course/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "huggingface-course/mt5-finetuned-amazon-en-es-accelerate"
 	}
 ]
