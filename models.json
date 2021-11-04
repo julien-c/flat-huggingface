@@ -15608,10 +15608,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "LaiJY/DialoGPT-chatbot"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Lalita/marianmt-th-zh_cn"
 	},
@@ -18550,10 +18546,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "NikolajW/BaselineThesis"
-	},
-	{
-		"private": false,
-		"modelId": "NikolajW/BaselineThesis2"
 	},
 	{
 		"private": false,
@@ -34791,10 +34783,6 @@
 	{
 		"private": false,
 		"modelId": "coala/Art"
-	},
-	{
-		"private": false,
-		"modelId": "cocoaclef/DialoGPT-small-kohaku"
 	},
 	{
 		"private": false,
@@ -90808,6 +90796,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-hyp-large-scale"
 	},
 	{
@@ -91675,5 +91664,22 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "testing/autonlp-ingredient_sentiment_analysis-19126711"
+	},
+	{
+		"private": false,
+		"modelId": "poom-sci/WangchanBERTa-finetuned-sentiment"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-rct-20k-large-scale"
+	},
+	{
+		"private": false,
+		"modelId": "Wiam/wav2vec2-large-xlsr-arabic-demo-colab"
 	}
 ]
