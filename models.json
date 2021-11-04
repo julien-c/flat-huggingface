@@ -45022,11 +45022,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "hamzaMM/hamza-bert"
-	},
-	{
-		"private": false,
 		"modelId": "hamzab/codebert_code_search"
 	},
 	{
@@ -91503,6 +91498,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "wicharnkeisei/bert-multi-cased-finetuned-xquadv1-finetuned-thai-squad"
 	},
 	{
@@ -91565,5 +91561,35 @@
 	{
 		"private": false,
 		"modelId": "Wilson2021/bert_finetuning_test1007"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-amazon-medium-scale"
+	},
+	{
+		"private": false,
+		"modelId": "tlkh/t5_large_fp16_untuned"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-amazon-large-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "hamzaMM/Inappropriate-Filter"
+	},
+	{
+		"private": false,
+		"modelId": "Wilson2021/mymodel1007"
+	},
+	{
+		"private": false,
+		"modelId": "tlkh/t5_3B_fp16_untuned"
+	},
+	{
+		"private": false,
+		"modelId": "Thejas/DialoGPT-small-elon"
 	}
 ]
