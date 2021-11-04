@@ -36612,6 +36612,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "denden/iloko_model"
 	},
 	{
@@ -40217,10 +40218,6 @@
 	{
 		"private": false,
 		"modelId": "festival/no"
-	},
-	{
-		"private": false,
-		"modelId": "feynman94/bert-base-uncased-contracts-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -91346,10 +91343,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sadakmed/muss-en-wikilarge"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "wicharnkeisei/bert-base-thai-squad"
 	},
@@ -91363,6 +91356,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "CurtisBowser/DialoGPT-medium-sora-two"
+	},
+	{
+		"private": false,
+		"modelId": "feynman94/bert-base-uncased-contracts-for-QA-finetuned-on-squad"
 	}
 ]
