@@ -36691,6 +36691,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "denden/iloko_model"
 	},
 	{
@@ -88315,6 +88316,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "vblagoje/retribert-base-uncased"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vblagoje/roberta-base-english-upos"
 	},
@@ -90645,6 +90650,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-imdb-large-scale"
 	},
 	{
@@ -91497,5 +91503,9 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "Raintree/Wav2Vec2_AMED16K"
 	}
 ]
