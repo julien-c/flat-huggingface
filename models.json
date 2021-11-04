@@ -37679,11 +37679,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diiogo/roberta-base"
-	},
-	{
-		"private": false,
 		"modelId": "diiogo/roberta-test"
 	},
 	{
@@ -75260,6 +75255,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "poom-sci/WangchanBERTa-finetuned-sentiment"
 	},
 	{
@@ -91757,10 +91753,5 @@
 	{
 		"private": false,
 		"modelId": "Alstractor/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "cocoaclef/DialoGPT-small-kohaku"
 	}
 ]
