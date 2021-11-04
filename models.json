@@ -31256,6 +31256,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "beiluo/nlpload"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "bella/bert_finetuning_test"
 	},
@@ -36660,6 +36665,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "demdecuong/viHNews-bert"
+	},
+	{
+		"private": false,
+		"modelId": "denden/iloko-test"
 	},
 	{
 		"private": false,
@@ -46412,6 +46421,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "histinct7002/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -89267,6 +89277,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "wicharnkeisei/bert-multi-cased-finetuned-xquadv1-finetuned-thai-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "wicharnkeisei/distilbert-base-uncased-finetuned-squad"
 	},
@@ -91421,17 +91435,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "wicharnkeisei/bert-multi-cased-finetuned-xquadv1-finetuned-thai-squad"
-	},
-	{
-		"private": false,
-		"modelId": "denden/iloko-test"
-	},
-	{
-		"private": false,
-		"modelId": "beiluo/nlpload"
 	}
 ]
