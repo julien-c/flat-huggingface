@@ -73854,6 +73854,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hello_2b_3"
 	},
 	{
@@ -91626,6 +91627,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "voidful/bart-base-chinese"
 	},
 	{
@@ -91635,10 +91637,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-citation_intent-medium-scale"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-citation_intent-large-scale"
+	},
+	{
+		"private": false,
 		"modelId": "cocoaclef/DialoGPT-small-kohaku"
 	},
 	{
 		"private": false,
-		"modelId": "yxchar/tlm-citation_intent-medium-scale"
+		"modelId": "wicharnkeisei/xlm-roberta-large-squad2-finetuned-thai-squad"
 	}
 ]
