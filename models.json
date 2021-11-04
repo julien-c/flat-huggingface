@@ -88261,6 +88261,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "vblagoje/bart_eli5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "vblagoje/bert-base-searchqa"
 	},
@@ -88273,6 +88278,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vblagoje/bert-english-uncased-finetuned-pos"
+	},
+	{
+		"private": false,
+		"modelId": "vblagoje/retribert-base-uncased"
 	},
 	{
 		"private": false,
@@ -91438,10 +91447,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "AdharshJolly/HarryPotterBot-Model"
 	},
 	{
 		"private": false,
 		"modelId": "heima/mymodel"
+	},
+	{
+		"private": false,
+		"modelId": "Connorvr/BrightBot-small"
 	}
 ]
