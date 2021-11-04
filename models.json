@@ -1126,6 +1126,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ahmad/parsT5"
 	},
 	{
@@ -91330,6 +91331,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hello_2b_2"
 	},
 	{
@@ -91399,5 +91401,14 @@
 	{
 		"private": false,
 		"modelId": "nateraw/keras-mobilevit-xxs-flowers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Thejas/DialoGPT-small-Stewei"
+	},
+	{
+		"private": false,
+		"modelId": "Roy029/japanese-roberta-base-finetuned-wikitext2"
 	}
 ]
