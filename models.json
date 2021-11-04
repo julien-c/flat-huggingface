@@ -88297,6 +88297,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "vblagoje/bart_eli5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "vblagoje/bert-base-searchqa"
 	},
@@ -91528,6 +91533,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-ag-large-scale"
 	},
 	{
@@ -91536,15 +91542,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "Raintree/Wav2Vec2_AMED16K_SECOND"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "mishig/test_regex_searchreplace"
+	},
+	{
+		"private": false,
+		"modelId": "Raintree/Wav2Vec2_AMED16K_THIRD"
+	},
+	{
+		"private": false,
+		"modelId": "Mattias/mt5-small-german-v2-finetuned-mlsum"
 	}
 ]
