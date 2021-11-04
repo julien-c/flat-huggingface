@@ -15608,6 +15608,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "LaiJY/DialoGPTChatbot"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Lalita/marianmt-th-zh_cn"
 	},
@@ -25492,6 +25497,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Wiam/wav2vec2-large-xlsr-arabic-demo-colab"
+	},
+	{
+		"private": false,
 		"modelId": "WidadAwane/AraBert_Hate_Speech_Detecter"
 	},
 	{
@@ -34783,6 +34792,10 @@
 	{
 		"private": false,
 		"modelId": "coala/Art"
+	},
+	{
+		"private": false,
+		"modelId": "cocoaclef/DialoGPT-small-kohaku"
 	},
 	{
 		"private": false,
@@ -71965,6 +71978,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "nihaldsouza/pilot"
+	},
+	{
+		"private": false,
 		"modelId": "niji123/bert-glue-mrpc-test"
 	},
 	{
@@ -72790,6 +72807,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "oakkas/Dialge-small-harrypotter-oguz"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "obi/deid_bert_i2b2"
 	},
 	{
 		"private": false,
@@ -75216,6 +75238,10 @@
 	{
 		"private": false,
 		"modelId": "ponteineptique/latin-classical-small"
+	},
+	{
+		"private": false,
+		"modelId": "poom-sci/WangchanBERTa-finetuned-sentiment"
 	},
 	{
 		"private": false,
@@ -83572,6 +83598,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "stevhliu/t5-base-finetuned-billsum-ca_test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "stevhliu/t5-small-finetuned-billsum-ca_test"
 	},
@@ -85269,6 +85299,11 @@
 	{
 		"private": false,
 		"modelId": "teshnizi/bert-lossy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "testing/autonlp-ingredient_sentiment_analysis-19126711"
 	},
 	{
 		"private": false,
@@ -90826,6 +90861,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-rct-20k-large-scale"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-sciie-large-scale"
+	},
+	{
+		"private": false,
 		"modelId": "yyelirr/CalvinoCosmicomicsGEN"
 	},
 	{
@@ -91664,49 +91708,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "testing/autonlp-ingredient_sentiment_analysis-19126711"
-	},
-	{
-		"private": false,
-		"modelId": "poom-sci/WangchanBERTa-finetuned-sentiment"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "yxchar/tlm-rct-20k-large-scale"
-	},
-	{
-		"private": false,
-		"modelId": "Wiam/wav2vec2-large-xlsr-arabic-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "obi/deid_bert_i2b2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "LaiJY/DialoGPTChatbot"
-	},
-	{
-		"private": false,
-		"modelId": "cocoaclef/DialoGPT-small-kohaku"
-	},
-	{
-		"private": false,
-		"modelId": "nihaldsouza/pilot"
-	},
-	{
-		"private": false,
-		"modelId": "stevhliu/t5-large-finetuned-billsum-ca_test"
-	},
-	{
-		"private": false,
-		"modelId": "yxchar/tlm-sciie-large-scale"
 	}
 ]
