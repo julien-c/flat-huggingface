@@ -91676,10 +91676,37 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-rct-20k-large-scale"
 	},
 	{
 		"private": false,
 		"modelId": "Wiam/wav2vec2-large-xlsr-arabic-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "obi/deid_bert_i2b2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "LaiJY/DialoGPTChatbot"
+	},
+	{
+		"private": false,
+		"modelId": "cocoaclef/DialoGPT-small-kohaku"
+	},
+	{
+		"private": false,
+		"modelId": "nihaldsouza/pilot"
+	},
+	{
+		"private": false,
+		"modelId": "stevhliu/t5-large-finetuned-billsum-ca_test"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-sciie-large-scale"
 	}
 ]
