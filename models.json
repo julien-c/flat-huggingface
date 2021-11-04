@@ -86256,6 +86256,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tlkh/t5_3B_fp16_untuned"
 	},
 	{
@@ -91598,5 +91599,28 @@
 	{
 		"private": false,
 		"modelId": "professional/DialoGPT-small-joshua"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-chemprot-small-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "cocoaclef/DialoGPT-small-kohaku"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-chemprot-medium-scale"
+	},
+	{
+		"private": false,
+		"modelId": "gengui001/chinese_roberta_wwm_large_ext_fix_mlm"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-chemprot-large-scale"
 	}
 ]
