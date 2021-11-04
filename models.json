@@ -91336,11 +91336,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "raynardj/ner-gene-gp"
-	},
-	{
-		"private": false,
 		"modelId": "Exor/DialoGPT-small-harrypotter"
 	},
 	{
@@ -91396,6 +91391,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "nightheronry/layoutlmv2-finetuned-funsd-test"
 	},
 	{
@@ -91409,6 +91405,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Roy029/japanese-roberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "raynardj/ner-gene-dna-rna-jnlpba-pubmed"
 	}
 ]
