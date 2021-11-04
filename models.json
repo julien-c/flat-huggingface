@@ -1060,6 +1060,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "AdharshJolly/HarryPotterBot-Model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Adi2K/Priv-Consent"
 	},
@@ -3177,6 +3182,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Charlotte77/model_test"
+	},
+	{
+		"private": false,
 		"modelId": "ChauhanVipul/BERT"
 	},
 	{
@@ -3398,6 +3407,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Connor-tech/bert_cn_finetuning"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Connorvr/BrightBot-small"
 	},
 	{
 		"private": false,
@@ -15942,6 +15956,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "LucasS/robertaBaseABSA"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Lucdi90/DialoGPT-medium-XiaoBot"
 	},
 	{
 		"private": false,
@@ -36672,7 +36691,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "denden/iloko_model"
 	},
 	{
@@ -45571,6 +45589,11 @@
 	{
 		"private": false,
 		"modelId": "hehuan2112/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "heima/mymodel"
 	},
 	{
 		"private": false,
@@ -59543,6 +59566,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "iRonak/DialoGPT-small-joshua"
+	},
+	{
+		"private": false,
 		"modelId": "iamaliahmad/My_XLSR"
 	},
 	{
@@ -70917,6 +70944,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "nateraw/lightweight-gan-flowers-64"
+	},
+	{
+		"private": false,
 		"modelId": "nateraw/lit-demo"
 	},
 	{
@@ -71851,6 +71882,10 @@
 	{
 		"private": false,
 		"modelId": "niji123/bert-glue-mrpc-test"
+	},
+	{
+		"private": false,
+		"modelId": "nikhil6041/wav2vec2-large-xlsr-hindi-demo-colab"
 	},
 	{
 		"private": false,
@@ -73733,6 +73768,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hello_2b_2"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/hello_2b_3"
 	},
 	{
 		"private": false,
@@ -90601,6 +90640,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-ag-small-scale"
+	},
+	{
+		"private": false,
+		"modelId": "yxchar/tlm-imdb-large-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-imdb-medium-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-imdb-small-scale"
+	},
+	{
+		"private": false,
 		"modelId": "yyelirr/CalvinoCosmicomicsGEN"
 	},
 	{
@@ -90615,6 +90673,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yzhou992/NetMind-20211103-448"
+	},
+	{
+		"private": false,
+		"modelId": "yzhou992/NetMind-20211104-781"
 	},
 	{
 		"private": false,
@@ -91435,60 +91497,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "AdharshJolly/HarryPotterBot-Model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "heima/mymodel"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Connorvr/BrightBot-small"
-	},
-	{
-		"private": false,
-		"modelId": "nikhil6041/wav2vec2-large-xlsr-hindi-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "nateraw/lightweight-gan-flowers-64"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Lucdi90/DialoGPT-medium-XiaoBot"
-	},
-	{
-		"private": false,
-		"modelId": "yzhou992/NetMind-20211104-781"
-	},
-	{
-		"private": false,
-		"modelId": "Charlotte77/model_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "yxchar/tlm-imdb-small-scale"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "yxchar/tlm-imdb-medium-scale"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "yxchar/tlm-ag-small-scale"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/hello_2b_3"
 	}
 ]
