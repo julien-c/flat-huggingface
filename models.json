@@ -1420,6 +1420,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Alstractor/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"modelId": "Altidore/DuggFace"
 	},
 	{
@@ -1743,6 +1748,10 @@
 	{
 		"private": false,
 		"modelId": "AnonymousSub/dummy_2_parent"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/specter-model"
 	},
 	{
 		"private": false,
@@ -13525,6 +13534,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "translation",
+		"modelId": "Helsinki-NLP/opus-tatoeba-fi-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-tatoeba-he-fr"
 	},
 	{
@@ -19234,6 +19248,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "NikolajW/BaselineThesis"
 	},
 	{
@@ -32660,6 +32675,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/tr6f-1B3-oscar-no-loss-on-targets-only-logs"
+	},
+	{
+		"private": false,
 		"modelId": "bigscience/tr7a-1B3-alibi-checkpoints"
 	},
 	{
@@ -35488,6 +35507,11 @@
 	{
 		"private": false,
 		"modelId": "coala/Art"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "cocoaclef/DialoGPT-small-kohaku"
 	},
 	{
 		"private": false,
@@ -91743,25 +91767,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "Helsinki-NLP/opus-tatoeba-fi-en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Alstractor/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "cocoaclef/DialoGPT-small-kohaku"
-	},
-	{
-		"private": false,
-		"modelId": "AnonymousSub/specter-model"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/tr6f-1B3-oscar-no-loss-on-targets-only-logs"
+		"modelId": "castorini/azbert-base"
 	}
 ]
