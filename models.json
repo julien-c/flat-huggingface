@@ -31964,6 +31964,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/tr6e-1B3-pile-logs"
+	},
+	{
+		"private": false,
 		"modelId": "bigscience/tr7a-1B3-alibi-checkpoints"
 	},
 	{
@@ -34795,6 +34799,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "cocoaclef/DialoGPT-small-kohaku"
 	},
 	{
@@ -42693,6 +42698,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "genggui001/chinese_roberta_wwm_large_ext_fix_mlm"
 	},
 	{
@@ -59507,6 +59513,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "hugo/byt5-pt-1"
+	},
+	{
+		"private": false,
 		"modelId": "huichen2333/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -71286,10 +71296,6 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nates-test-org/adv_inception_v3"
-	},
-	{
-		"private": false,
-		"modelId": "nates-test-org/cait_m36_384"
 	},
 	{
 		"private": false,
@@ -90866,7 +90872,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-rct-20k-medium-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-rct-20k-small-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-sciie-large-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-sciie-medium-scale"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "yxchar/tlm-sciie-small-scale"
 	},
 	{
 		"private": false,
