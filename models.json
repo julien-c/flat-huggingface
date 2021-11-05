@@ -26257,11 +26257,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Wikidepia/sponsorblock-seg"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "WikinewsSum/bart-large-cnn-multi-en-wiki-news"
 	},
@@ -91810,5 +91805,23 @@
 	{
 		"private": false,
 		"modelId": "MountVoom/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Wikidepia/sponsorseg"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "aszidon/distilbertcustom2"
+	},
+	{
+		"private": false,
+		"modelId": "luomingshuang/icefall_asr_timit_tdnn_lstm_ctc"
+	},
+	{
+		"private": false,
+		"modelId": "luomingshuang/icefall_asr_timit_tdnn_ligru_ctc"
 	}
 ]
