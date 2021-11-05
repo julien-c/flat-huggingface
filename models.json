@@ -16616,11 +16616,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MarcBrun/DistilQA_basic"
-	},
-	{
-		"private": false,
 		"modelId": "Marco127/BertRepertoriDiscorsivi"
 	},
 	{
@@ -88853,6 +88848,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence"
 	},
 	{
@@ -92026,5 +92022,18 @@
 	{
 		"private": false,
 		"modelId": "callmeJ/mbart-large-50-many-to-many-mmt-finetuned-en-to-vie"
+	},
+	{
+		"private": false,
+		"modelId": "bcartisol/model"
+	},
+	{
+		"private": false,
+		"modelId": "callmeJ/opus-mt-en-vi-finetuned-en-to-vie"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MarcBrun/distilqa-basic1.0"
 	}
 ]
