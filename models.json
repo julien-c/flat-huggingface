@@ -26262,11 +26262,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Wikidepia/sponsorblock"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "WikinewsSum/bart-large-cnn-multi-en-wiki-news"
 	},
@@ -91806,5 +91801,10 @@
 	{
 		"private": false,
 		"modelId": "pbaylies/stylegan2-wikiart"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Wikidepia/sponsordet"
 	}
 ]
