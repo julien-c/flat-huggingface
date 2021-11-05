@@ -91895,7 +91895,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "chaitrabhat/DialoGPT-small-rick"
 	},
 	{
@@ -91913,10 +91913,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "lvwerra/codeparrot"
 	},
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-300m-mls-german-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "lvwerra/codeparrot-small"
 	}
 ]
