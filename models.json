@@ -61737,11 +61737,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "jason9693/soongsil-univ-gpt-v1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jasonwu/ToD-BERT-jnt"
 	},
@@ -92872,5 +92867,20 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "ismgar01/vit-base-cats-vs-dogs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jason9693/soongsil-bert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jason9693/soongsil-bert-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jason9693/SoongsilBERT-base-beep"
 	}
 ]
