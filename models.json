@@ -76747,7 +76747,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "professional/DialoGPT-small-joshua"
 	},
 	{
@@ -92826,10 +92826,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "gayanin/T5_Paraphrase_Paws-paraphrase-pubmed-paws"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhenghuabin/dummy_model"
 	},
@@ -92852,5 +92848,9 @@
 	{
 		"private": false,
 		"modelId": "Nawal/bert_blood"
+	},
+	{
+		"private": false,
+		"modelId": "Junmai/klue-roberta-large-copa-finetuned"
 	}
 ]
