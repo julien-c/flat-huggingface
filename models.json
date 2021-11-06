@@ -14303,15 +14303,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "Jacobo/grc_bert_base_greek"
-	},
-	{
-		"private": false,
-		"modelId": "Jacobo/grc_bert_multilingual_perseus"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "Jacobo/grc_ud_perseus_lg"
 	},
 	{
@@ -33391,6 +33382,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "briancporter/winogrande-roberta"
 	},
 	{
@@ -35020,6 +35012,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-newsroom-summarizer_02"
 	},
 	{
@@ -92626,5 +92619,50 @@
 	{
 		"private": false,
 		"modelId": "google/multiberts-seed_3-step_1600k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_3-step_1700k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_3-step_1800k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_3-step_1900k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_3-step_2000k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_4-step_0k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Jacobo/grc_ud_proiel_lg"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_4-step_20k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_4-step_40k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_4-step_60k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_4-step_80k"
+	},
+	{
+		"private": false,
+		"modelId": "google/multiberts-seed_4-step_100k"
 	}
 ]
