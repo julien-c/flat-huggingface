@@ -68694,6 +68694,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "midas/gupshup_e2e_gpt"
 	},
 	{
@@ -92920,6 +92921,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "midas/gupshup_e2e_mbart"
+	},
+	{
+		"private": false,
+		"modelId": "dgao/robust_seame_ntu"
 	}
 ]
