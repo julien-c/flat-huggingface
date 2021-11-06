@@ -41273,6 +41273,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "fgaim/tielectra-small-pos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "fhswf/bert_de_ner"
 	},
 	{
@@ -92946,5 +92951,9 @@
 	{
 		"private": false,
 		"modelId": "davinan/pico-bioelectra"
+	},
+	{
+		"private": false,
+		"modelId": "phailyoor/distilbert-base-uncased-finetuned-yahd"
 	}
 ]
