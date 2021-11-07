@@ -41249,6 +41249,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "fgaim/bert-base-ti-pos"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "fgaim/bert-base-ti-sentiment"
 	},
@@ -41259,11 +41264,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "fgaim/roberta-base-ti-sentiment"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "fgaim/roberta-base-tigrinya"
 	},
@@ -41271,6 +41271,26 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "fgaim/tielectra-small-pos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fgaim/tielectra-small-sentiment"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "fgaim/tielectra-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "fgaim/tiroberta-pos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fgaim/tiroberta-sentiment"
 	},
 	{
 		"private": false,
