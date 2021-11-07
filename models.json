@@ -79944,6 +79944,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "seanbenhur/kanglish-offensive-language-identification"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "seanbethard/autonlp-summarization_model-8771942"
 	},
@@ -93073,5 +93078,9 @@
 	{
 		"private": false,
 		"modelId": "Junmai/klue-roberta-large-copa-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "hugo/byt5-pt-v1"
 	}
 ]
