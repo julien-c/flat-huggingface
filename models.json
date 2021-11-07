@@ -90469,17 +90469,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "wicharnkeisei/bert-multi-cased-finetuned-xquadv1-finetuned-thai-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "wicharnkeisei/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "wicharnkeisei/thai-squad"
 	},
 	{
 		"private": false,
@@ -93029,7 +93019,17 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "ionite/DialoGPT-medium-McKayAI"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "wicharnkeisei/thai-xlm-roberta-base-squad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "wicharnkeisei/thai-bert-multi-cased-finetuned-xquadv1-finetuned-squad"
 	}
 ]
