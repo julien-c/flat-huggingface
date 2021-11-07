@@ -1915,20 +1915,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-1"
-	},
-	{
-		"private": false,
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned-3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "Ashkanmh/bert-base-parsbert-uncased-finetuned"
 	},
 	{
@@ -93083,10 +93069,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "chinhon/t5-large-summarizer_03"
+		"pipeline_tag": "text-classification",
+		"modelId": "bowipawan/bert-sentimental"
 	},
 	{
 		"private": false,
-		"modelId": "bowipawan/bert-sentimental"
+		"modelId": "chinhon/bart-large-cnn-summarizer_03"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nlptown/gpt2-book-descriptions-crime"
 	}
 ]
