@@ -92962,6 +92962,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ck46/camembert-base"
 	},
 	{
@@ -92975,6 +92976,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Akari/albert-base-v2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "MrE/DialoGPT-medium-SARGER3"
+	},
+	{
+		"private": false,
+		"modelId": "nlokam/digi2"
+	},
+	{
+		"private": false,
+		"modelId": "linyi/camebert-base-test"
+	},
+	{
+		"private": false,
+		"modelId": "linyi/dummy-model"
 	}
 ]
