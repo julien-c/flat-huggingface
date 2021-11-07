@@ -41250,26 +41250,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "fgaim/bert-base-ti-pos"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "fgaim/bert-base-ti-sentiment"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "fgaim/bert-base-tigrinya"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "fgaim/roberta-base-tigrinya"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "fgaim/tielectra-small-pos"
 	},
 	{
@@ -61413,6 +61393,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "jackragless/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -93026,6 +93007,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Xuhui/ToxDect-roberta-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "fgaim/tibert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "fgaim/tiroberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "fgaim/tibert-pos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fgaim/tibert-sentiment"
 	}
 ]
