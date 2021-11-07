@@ -16834,6 +16834,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Mattias/mt5-small-german-v3-finetuned-mlsum"
 	},
 	{
@@ -92990,10 +92991,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "linyi/camebert-base-test"
+		"pipeline_tag": "fill-mask",
+		"modelId": "linyi/dummy-model"
 	},
 	{
 		"private": false,
-		"modelId": "linyi/dummy-model"
+		"modelId": "rafiulrumy/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "benyong/testmodel"
+	},
+	{
+		"private": false,
+		"modelId": "xiongjie/face_expression_ja"
 	}
 ]
