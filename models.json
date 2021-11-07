@@ -34805,11 +34805,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-cnn-tc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "cestwc/roberta-base-cnn"
 	},
@@ -93064,10 +93059,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/spanbert-large-cased-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/distilbert-base-uncased-finetuned-ner"
 	},
@@ -93087,5 +93078,10 @@
 	{
 		"private": false,
 		"modelId": "Junmai/klue-roberta-large-copa-finetuned-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-tc"
 	}
 ]
