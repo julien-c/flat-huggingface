@@ -34924,10 +34924,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ccdv/legal-lsg-base-uncased-4096"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ccdv/legal-lsg-small-uncased-4096"
 	},
 	{
@@ -93461,5 +93463,14 @@
 	{
 		"private": false,
 		"modelId": "niss/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "remotejob/bert2bertv4_v1"
+	},
+	{
+		"private": false,
+		"modelId": "mmkamani/resnet18_imagenet"
 	}
 ]
