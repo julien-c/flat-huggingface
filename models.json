@@ -35771,6 +35771,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cmcmaster/deberta-base-austin"
+	},
+	{
+		"private": false,
 		"modelId": "cmqzg/first"
 	},
 	{
@@ -76416,6 +76421,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "pki/t5-small-finetuned-xsum"
 	},
 	{
@@ -93216,5 +93222,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Wiirin/BERT-finetuned-PubMed-FoodCancer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "philschmid/sagemaker-distilbert-emotion"
 	}
 ]
