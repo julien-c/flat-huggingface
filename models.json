@@ -93295,6 +93295,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner"
 	},
 	{
@@ -93312,6 +93313,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "lenaabalovoysen/voysen-camembert"
 	},
 	{
@@ -93322,5 +93324,9 @@
 	{
 		"private": false,
 		"modelId": "gayanin/t5-small-mlm-pubmed"
+	},
+	{
+		"private": false,
+		"modelId": "NLP-Search/final-model"
 	}
 ]
