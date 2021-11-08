@@ -26431,6 +26431,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Weelz/Paraphraser"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Weipeng/dummy-model"
 	},
@@ -93418,5 +93423,10 @@
 	{
 		"private": false,
 		"modelId": "jamilxt/hhhyy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abhishek/autonlp-toxic-new-30516963"
 	}
 ]
