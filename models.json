@@ -24176,6 +24176,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner"
 	},
 	{
@@ -28050,10 +28051,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ahmetbagci/bert2bert-turkish-paraphrase-generation"
-	},
-	{
-		"private": false,
-		"modelId": "ahnaf084/CBDNLP"
 	},
 	{
 		"private": false,
@@ -93261,6 +93258,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune1"
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.00005_4"
+	},
+	{
+		"private": false,
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.00005_8"
 	}
 ]
