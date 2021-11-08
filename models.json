@@ -76307,11 +76307,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "philschmid/sagemaker-distilbert-emotion"
-	},
-	{
-		"private": false,
 		"modelId": "philschmid/sentence_transformers__multi_qa_MiniLM_L6_cos_v1"
 	},
 	{
@@ -93356,6 +93351,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-mini-finetuned-qnli"
 	},
 	{
@@ -93396,6 +93392,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-tiny-finetuned-qnli"
 	},
 	{
@@ -93405,5 +93402,9 @@
 	{
 		"private": false,
 		"modelId": "M-FAC/bert-tiny-finetuned-stsb"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/sagemaker-distilbert-emotion"
 	}
 ]
