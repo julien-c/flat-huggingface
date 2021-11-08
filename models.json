@@ -93301,6 +93301,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/t5-small-mlm-pubmed"
 	},
 	{
@@ -93421,11 +93422,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jbarry/irish-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tamedai/t5-xl-de"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "raynardj/wenyanwen-ancient-translate-to-modern"
+	},
+	{
+		"private": false,
+		"modelId": "twistedmetal/fast-gan-cats"
 	}
 ]
