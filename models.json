@@ -93323,11 +93323,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tamedai/t5-large-de"
-	},
-	{
-		"private": false,
 		"modelId": "lysandre/text-files"
 	},
 	{
@@ -93352,38 +93347,47 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "M-FAC/bert-mini-finetuned-squadv2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-mini-finetuned-stsb"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-tiny-finetuned-mrpc"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-tiny-finetuned-qqp"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-tiny-finetuned-sst2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-mini-finetuned-mrpc"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-mini-finetuned-qqp"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-mini-finetuned-sst2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-tiny-finetuned-mnli"
 	},
 	{
@@ -93393,10 +93397,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "M-FAC/bert-tiny-finetuned-squadv2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M-FAC/bert-tiny-finetuned-stsb"
 	},
 	{
@@ -93407,5 +93413,9 @@
 	{
 		"private": false,
 		"modelId": "Voysen/voysen-roberta-0211"
+	},
+	{
+		"private": false,
+		"modelId": "CoachCarter/distilbert-base-uncased-finetuned-squad"
 	}
 ]
