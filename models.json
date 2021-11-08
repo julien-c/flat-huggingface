@@ -43530,6 +43530,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "gayanin/bart-paraphrase-pubmed"
+	},
+	{
+		"private": false,
 		"modelId": "gayanin/t5-finetuned-1.0"
 	},
 	{
@@ -93412,10 +93417,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Voysen/voysen-roberta-0211"
 	},
 	{
 		"private": false,
 		"modelId": "CoachCarter/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "tamedai/t5-xl-de"
+	},
+	{
+		"private": false,
+		"modelId": "raynardj/wenyanwen-ancient-translate-to-modern"
 	}
 ]
