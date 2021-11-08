@@ -93199,6 +93199,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "tkesonia/xlm-roberta-base-finetuned-marc-en"
 	},
 	{
@@ -93208,12 +93209,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "philschmid/sagemaker-distilbert-emotion"
+		"pipeline_tag": "fill-mask",
+		"modelId": "Leisa/dummy-model"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Leisa/dummy-model"
+		"pipeline_tag": "text-classification",
+		"modelId": "Wiirin/BERT-finetuned-PubMed-FoodCancer"
 	}
 ]
