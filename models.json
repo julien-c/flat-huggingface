@@ -14219,6 +14219,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "Irina/cyoa_GPT3Medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Irina/fantasy_GPT3Medium"
 	},
 	{
@@ -27394,6 +27399,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abhishek/autonlp-toxic-new-30516963"
+	},
+	{
+		"private": false,
 		"modelId": "abhishekjha2468/temp"
 	},
 	{
@@ -31646,6 +31656,11 @@
 	{
 		"private": false,
 		"modelId": "athar/biomed_roberta_base-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/bonhart"
 	},
 	{
 		"private": false,
@@ -38166,6 +38181,11 @@
 	{
 		"private": false,
 		"modelId": "diiogo/electra-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/roberta-base"
 	},
 	{
 		"private": false,
@@ -46274,6 +46294,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "hakurei/gpt-j-random-tinier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "hakurei/lit-6B"
 	},
 	{
 		"private": false,
@@ -62048,6 +62073,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "jamilxt/hhhyy"
+	},
+	{
+		"private": false,
 		"modelId": "janetworksbd/Prince"
 	},
 	{
@@ -65107,6 +65136,11 @@
 	{
 		"private": false,
 		"modelId": "laboro-ai/distilbert-base-japanese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lacai/roberta-large-dialog-narrative"
 	},
 	{
 		"private": false,
@@ -69584,6 +69618,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "mmkamani/resnet18_imagenet"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "mmm-da/anekdot_funny1_rugpt3Small"
 	},
@@ -73551,6 +73589,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "niss/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nithinholla/wav2vec2-large-xlsr-53-dutch"
 	},
@@ -73822,6 +73864,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "noobed/DialoGPT-small-astley"
+	},
+	{
+		"private": false,
+		"modelId": "noopurgupta03/IntentDetection"
 	},
 	{
 		"private": false,
@@ -78311,6 +78357,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "remotejob/bert2bertv4_v0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "remotejob/bert2bertv4_v1"
 	},
 	{
 		"private": false,
@@ -93426,51 +93477,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "hakurei/lit-6B"
-	},
-	{
-		"private": false,
-		"modelId": "jamilxt/hhhyy"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "abhishek/autonlp-toxic-new-30516963"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Irina/cyoa_GPT3Medium"
-	},
-	{
-		"private": false,
-		"modelId": "noopurgupta03/IntentDetection"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lacai/roberta-large-dialog-narrative"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/bonhart"
-	},
-	{
-		"private": false,
-		"modelId": "niss/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "remotejob/bert2bertv4_v1"
-	},
-	{
-		"private": false,
-		"modelId": "mmkamani/resnet18_imagenet"
 	}
 ]
