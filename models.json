@@ -93088,6 +93088,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "squish/BertHarmon"
 	},
 	{
@@ -93112,5 +93113,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Jacobo/dioBerto"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/bert-base-cased-no-mlm"
 	}
 ]
