@@ -24186,8 +24186,16 @@
 	},
 	{
 		"private": false,
+		"modelId": "StivenLancheros/roberta-large-bne-finetuned-ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/spanberta-base-cased-ner-conll02-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/xlm-roberta-large-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -29741,6 +29749,40 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin5"
+	},
+	{
+		"private": false,
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.00005_4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.00005_8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0001_4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0001_8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0005_4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0005_8"
 	},
 	{
 		"private": false,
@@ -43492,6 +43534,11 @@
 	{
 		"private": false,
 		"modelId": "gayanin/bart-finetuned-1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "gayanin/bart-mlm-pubmed"
 	},
 	{
 		"private": false,
@@ -60630,6 +60677,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "hugo/byt5-pt-v3"
+	},
+	{
+		"private": false,
 		"modelId": "huichen2333/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -65236,6 +65287,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "lemon234071/t5-base-Chinese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "lenaabalovoysen/voysen-camembert"
 	},
 	{
 		"private": false,
@@ -75505,6 +75561,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-large-common_voice-tr-demo"
+	},
+	{
+		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-large-lv60h-100h-2nd-try"
 	},
 	{
@@ -76256,6 +76317,11 @@
 	{
 		"private": false,
 		"modelId": "philschmid/resnet50-cardamage-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "philschmid/sagemaker-distilbert-emotion"
 	},
 	{
 		"private": false,
@@ -87591,6 +87657,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "tiennvcs/layoutlmv2-large-uncased-finetuned-infovqa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "tillfurger/twitter-sent"
 	},
@@ -93230,67 +93300,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lenaabalovoysen/voysen-camembert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.00005_4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.00005_8"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/xlm-roberta-large-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0005_4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0005_8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0001_4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-tune_0.0001_8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "gayanin/bart-mlm-pubmed"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-large-common_voice-tr-demo"
-	},
-	{
-		"private": false,
-		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin6"
-	},
-	{
-		"private": false,
-		"modelId": "hugo/byt5-pt-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "philschmid/sagemaker-distilbert-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/roberta-large-bne-finetuned-ner"
+		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner"
 	}
 ]
