@@ -38184,11 +38184,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diiogo/roberta-base"
-	},
-	{
-		"private": false,
 		"modelId": "diiogo/roberta-test"
 	},
 	{
@@ -93477,5 +93472,15 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Osiris/emotion_classifer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "NR/test2"
 	}
 ]
