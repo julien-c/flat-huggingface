@@ -93636,6 +93636,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "lucasresck/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -93658,5 +93659,19 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "sardinaerum/mt5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "edumunozsala/RuPERTa_base_sentiment_analysis_es"
+	},
+	{
+		"private": false,
+		"modelId": "redbasecap/chai_tamil_hindi_ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/t5-headline-de-282m"
 	}
 ]
