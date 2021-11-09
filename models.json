@@ -93505,6 +93505,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "XuguangAi/DialoGPT-small-harrypotter"
 	},
 	{
@@ -93524,6 +93525,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "veronica320/SPTE_disjoint_adjs_roberta-large-mnli_100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/SPTE_random_roberta-large-mnli_100"
 	}
 ]
