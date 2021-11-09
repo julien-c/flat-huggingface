@@ -65463,11 +65463,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lenaabalovoysen/voysen-camembert"
-	},
-	{
-		"private": false,
 		"modelId": "lenvl01/pegasus-reddit_tifu"
 	},
 	{
@@ -74190,10 +74185,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nvidia/segformer-b5-finetuned-ade-512-512"
-	},
-	{
-		"private": false,
 		"modelId": "nvidia/segformer-b5-finetuned-cityscapes-1024-1024"
 	},
 	{
@@ -79035,11 +79026,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "roivian/manningLp"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "rollingenots/EssayGPT"
 	},
 	{
 		"private": false,
@@ -87867,6 +87853,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "tiennvcs/layoutlmv2-large-uncased-finetuned-infovqa"
 	},
 	{
@@ -93620,7 +93607,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "WoutN2001/james3"
 	},
 	{
@@ -93639,5 +93626,18 @@
 	{
 		"private": false,
 		"modelId": "Jeska/BertjeWDialData"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "XSY/roberta-scarcasm-discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "WoutN2001/james6"
+	},
+	{
+		"private": false,
+		"modelId": "nvidia/segformer-b5-finetuned-ade-640-640"
 	}
 ]
