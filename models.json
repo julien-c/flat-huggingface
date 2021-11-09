@@ -66444,11 +66444,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lucasresck/bert-base-cased-ag-news"
-	},
-	{
-		"private": false,
 		"modelId": "lucia/distilbert-base-cased-finetuned"
 	},
 	{
@@ -89120,7 +89115,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "uer/albert-base-chinese-cluecorpussmall"
 	},
 	{
@@ -93478,5 +93472,14 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "XSY/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "jiyeon/bertshared-kor-base-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "lucasresck/bert-base-cased-ag-news"
 	}
 ]
