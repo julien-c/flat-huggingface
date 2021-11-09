@@ -33109,14 +33109,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "bigscience/tr5-1B3-multilingual-logs"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/tr5-1B3-multilingual-tensorboard"
-	},
-	{
-		"private": false,
 		"modelId": "bigscience/tr6-1B3-prefix-lm-tensorboard"
 	},
 	{
@@ -70036,11 +70028,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "monologg/kobigbird-bert-base-klue-nli"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "monologg/kobigbird-bert-base"
 	},
@@ -93639,6 +93626,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "XSY/roberta-scarcasm-discriminator"
 	},
 	{
@@ -93649,5 +93637,9 @@
 	{
 		"private": false,
 		"modelId": "lucasresck/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr5-1B3-multilingual-oscar-logs"
 	}
 ]
