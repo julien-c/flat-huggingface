@@ -43737,6 +43737,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "gayanin/bart-paraphrase-pubmed-1.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/bart-paraphrase-pubmed"
 	},
 	{
@@ -93713,5 +93718,20 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingartists/john-k-samson"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "nateraw/pasta-shapes"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lysandre/temp-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Sired/DialoGPT-small-trumpbot"
 	}
 ]
