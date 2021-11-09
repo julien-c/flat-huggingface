@@ -1944,6 +1944,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "AsimovMagic86/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Aspect11/DialoGPT-Medium-LiSBot"
 	},
@@ -6880,6 +6884,14 @@
 	{
 		"private": false,
 		"modelId": "Haus11/DialoGPT-small-obiwan"
+	},
+	{
+		"private": false,
+		"modelId": "HavokMaster/DialogGPT-small-Natasha"
+	},
+	{
+		"private": false,
+		"modelId": "HavokMaster/Natasha"
 	},
 	{
 		"private": false,
@@ -19778,6 +19790,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "Osiris/emotion_classifer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Osiris/neutral_non_neutral_classifier"
 	},
 	{
@@ -26740,6 +26757,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "XSY/roberta-scarcasm-discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "XSY/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
 		"modelId": "Xanlete/DialoGPT-small-harrypotter"
 	},
 	{
@@ -26778,6 +26804,16 @@
 	{
 		"private": false,
 		"modelId": "Xonlly/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "XuguangAi/DialoGPT-small-Rick"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "XuguangAi/DialoGPT-small-harrypotter"
 	},
 	{
 		"private": false,
@@ -35071,6 +35107,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-tc"
 	},
 	{
@@ -35353,6 +35394,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-multi_news-headline"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/pegasus-multi_news-malay_headlines_02"
 	},
 	{
 		"private": false,
@@ -44076,6 +44121,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "gias/prac_"
+	},
+	{
+		"private": false,
+		"modelId": "giftagiftcards/digital-gift-cards"
 	},
 	{
 		"private": false,
@@ -62182,6 +62231,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jaynlp/t5-large-samsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jaynlp/t5-large-transfer-qa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jayson31/DialoGPT-small-RickAndMorty"
 	},
@@ -62842,6 +62901,10 @@
 	{
 		"private": false,
 		"modelId": "jiwoo/Pinobot01"
+	},
+	{
+		"private": false,
+		"modelId": "jiyeon/bertshared-kor-base-finetuned"
 	},
 	{
 		"private": false,
@@ -64833,6 +64896,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "kshitiz/testing-bot-repo"
+	},
+	{
+		"private": false,
 		"modelId": "kshrestha/pegasus-large-finetuned-xsum"
 	},
 	{
@@ -66423,6 +66491,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "lucas-bo/DialogGPT-small-yoda"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "lucasresck/bert-base-cased-ag-news"
 	},
 	{
 		"private": false,
@@ -76794,6 +76867,10 @@
 	{
 		"private": false,
 		"modelId": "pourzare/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "pourzare/wav2vec2-large-xlsr-persian-demo-colab"
 	},
 	{
 		"private": false,
@@ -90204,8 +90281,38 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/EPC_disjoint_adjs_ADEPT_roberta-l_100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/EPC_random_ADEPT_roberta-l_100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/MPTE_disjoint_adjs_MPE_bert_100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/MPTE_random_MPE_bert_100"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "veronica320/QA-for-Event-Extraction"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/SPTE_disjoint_adjs_roberta-large-mnli_100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/SPTE_random_roberta-large-mnli_100"
 	},
 	{
 		"private": false,
@@ -93444,110 +93551,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Osiris/emotion_classifer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "XSY/t5-small-finetuned-xsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lucasresck/bert-base-cased-ag-news"
-	},
-	{
-		"private": false,
-		"modelId": "AsimovMagic86/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "chinhon/pegasus-multi_news-malay_headlines_02"
-	},
-	{
-		"private": false,
-		"modelId": "giftagiftcards/digital-gift-cards"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "veronica320/EPC_disjoint_adjs_ADEPT_roberta-l_100"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "XuguangAi/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "veronica320/EPC_random_ADEPT_roberta-l_100"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "veronica320/MPTE_random_MPE_bert_100"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "veronica320/MPTE_disjoint_adjs_MPE_bert_100"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "veronica320/SPTE_disjoint_adjs_roberta-large-mnli_100"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "veronica320/SPTE_random_roberta-large-mnli_100"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
-	},
-	{
-		"private": false,
-		"modelId": "pourzare/wav2vec2-large-xlsr-persian-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "jiyeon/bertshared-kor-base-finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "XuguangAi/DialoGPT-small-Rick"
-	},
-	{
-		"private": false,
-		"modelId": "jaynlp/t5-large-transfer-qa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "jaynlp/t5-large-samsum"
-	},
-	{
-		"private": false,
-		"modelId": "HavokMaster/DialogGPT-small-Natasha"
-	},
-	{
-		"private": false,
-		"modelId": "XSY/roberta-scarcasm-discriminator"
-	},
-	{
-		"private": false,
-		"modelId": "HavokMaster/Natasha"
-	},
-	{
-		"private": false,
-		"modelId": "kshitiz/testing-bot-repo"
 	}
 ]
