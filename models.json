@@ -43732,6 +43732,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "gayanin/bart-finetuned-pubmed"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/bart-mlm-pubmed"
 	},
 	{
@@ -43747,11 +43752,6 @@
 	{
 		"private": false,
 		"modelId": "gayanin/t5-finetuned-1.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "gayanin/t5-mlm-pubmed"
 	},
 	{
 		"private": false,
@@ -93754,5 +93754,9 @@
 	{
 		"private": false,
 		"modelId": "haji2438/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/xlmr-l-squad-ty-384-128"
 	}
 ]
