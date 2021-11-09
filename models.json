@@ -2125,7 +2125,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Ayran/DialoGPT-medium-harry-potter-1-through-4-plus-6-e18"
 	},
 	{
@@ -35075,6 +35075,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "celtics1863/env-bert-large-chinese"
 	},
 	{
@@ -93635,5 +93636,13 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "MoritzLaurer/DeBERTa-v3-mnli-fever-anli"
+	},
+	{
+		"private": false,
+		"modelId": "XSY/roberta-scarcasm-discriminator"
 	}
 ]
