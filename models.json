@@ -93562,6 +93562,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kamalkraj/BioELECTRA-PICO"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "monologg/kobigbird-bert-base-klue-nli"
 	},
@@ -93581,5 +93586,14 @@
 	{
 		"private": false,
 		"modelId": "Ayran/DialoGPT-medium-harry-potter-1-through-4-plus-6-e18"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Karissycloud/DialoGPT-medium-Cloud"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/5_gram_spanish_mls_kenlm"
 	}
 ]
