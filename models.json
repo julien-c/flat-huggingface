@@ -94038,11 +94038,18 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "nbroad/flax-muril-bb-base-chaii-f7"
+		"modelId": "tau/bart-base-16384"
 	},
 	{
 		"private": false,
-		"modelId": "tau/bart-base-16384"
+		"modelId": "tau/bart-base-32768"
+	},
+	{
+		"private": false,
+		"modelId": "sivasankalpp/dpr-multidoc2dial-structure-ctx-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "sivasankalpp/dpr-multidoc2dial-structure-question-encoder"
 	}
 ]
