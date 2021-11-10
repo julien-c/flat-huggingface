@@ -15689,16 +15689,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "LHF/FinEAS"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "LHF/finbert-regressor"
-	},
-	{
-		"private": false,
 		"modelId": "LIAMF-USP/aristo-roberta"
 	},
 	{
@@ -21142,6 +21132,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "RenZHU/t5-small-finetuned-xsum"
 	},
 	{
@@ -93822,5 +93813,13 @@
 	{
 		"private": false,
 		"modelId": "facebook/wav2vec2-lv-60-espeak-cv-ft"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/wav2vec2-xlsr-53-espeak-cv-ft"
+	},
+	{
+		"private": false,
+		"modelId": "Mrjaggu/flair_insurance"
 	}
 ]
