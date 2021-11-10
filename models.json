@@ -20090,6 +20090,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "PlanTL-GOB-ES/gpt2-base-bne"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "PlanTL-GOB-ES/gpt2-large-bne"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "PlanTL-GOB-ES/roberta-base-biomedical-clinical-es"
 	},
@@ -93886,5 +93896,10 @@
 	{
 		"private": false,
 		"modelId": "ydshieh/vit-base-patch16-224-in21k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jorgemariocalvo/roberta-base-bne-finetuned-amazon_reviews_multi"
 	}
 ]
