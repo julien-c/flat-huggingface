@@ -93867,6 +93867,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "ydshieh/vit-base-patch16-224"
 	},
 	{
@@ -93875,6 +93876,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maelstrom77/tempbin"
+	},
+	{
+		"private": false,
+		"modelId": "orionpenner/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "ydshieh/vit-base-patch16-224-in21k"
 	}
 ]
