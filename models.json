@@ -93995,6 +93995,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Rexhaif/rubert-base-srl"
 	},
 	{
@@ -94007,11 +94008,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "wesam266/distilbert-base-cased-finetuned-mlm"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jbarry/xlm-roberta-base-flax"
+	},
+	{
+		"private": false,
+		"modelId": "RahuramThiagarajan/rass"
 	}
 ]
