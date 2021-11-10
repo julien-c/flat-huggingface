@@ -14207,6 +14207,28 @@
 	},
 	{
 		"private": false,
+		"modelId": "Intel/bert-base-uncased-sparse-85-unstructured-pruneofa"
+	},
+	{
+		"private": false,
+		"modelId": "Intel/bert-base-uncased-sparse-90-unstructured-pruneofa"
+	},
+	{
+		"private": false,
+		"modelId": "Intel/bert-large-uncased-sparse-90-unstructured-pruneofa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Intel/bert-large-uncased-squadv1.1-sparse-90-unstructured"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Intel/distilbert-base-uncased-sparse-85-unstructured-pruneofa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Invincible/Chat_bot-Harrypotter-medium"
 	},
@@ -93877,6 +93899,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Voysen/2021-11-03-camembert-3sa-quotes-fr"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "ydshieh/vit-base-patch16-224"
 	},
@@ -93922,5 +93949,13 @@
 	{
 		"private": false,
 		"modelId": "rafiulrumy/wav2vec2-base-LIBRISPEECH-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "orionpenner/bert-base-cased-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "Pikachu/BrainPiano"
 	}
 ]
