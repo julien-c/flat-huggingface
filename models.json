@@ -20949,6 +20949,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "RahuramThiagarajan/rass"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Rai220/test1"
 	},
@@ -21204,6 +21208,11 @@
 	{
 		"private": false,
 		"modelId": "Renee/gpt2-chinese-lyric"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Rexhaif/rubert-base-srl"
 	},
 	{
 		"private": false,
@@ -27548,6 +27557,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "abhishek/autonlp-toxic-new-30516963"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abhishek/autonlp-toxsample-3182355"
 	},
 	{
 		"private": false,
@@ -46512,6 +46526,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "haji2438/bertweet-base-finetuned-IGtext"
+	},
+	{
+		"private": false,
 		"modelId": "haji2438/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -62501,6 +62520,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "jbarry/xlm-roberta-base-flax"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jcblaise/bert-tagalog-base-cased-WWM"
 	},
 	{
@@ -66349,6 +66373,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "life4free96/DialogGPT-med-TeiaMoranta"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ligang/bert_cn_finetuning"
 	},
@@ -67178,6 +67207,11 @@
 	{
 		"private": false,
 		"modelId": "lysandre/my-bert-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "lysandre/my-cool-arxiv-model"
 	},
 	{
 		"private": false,
@@ -83130,6 +83164,22 @@
 	},
 	{
 		"private": false,
+		"modelId": "sivasankalpp/dpr-multidoc2dial-structure-ctx-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "sivasankalpp/dpr-multidoc2dial-structure-question-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "sivasankalpp/dpr-multidoc2dial-token-ctx-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "sivasankalpp/dpr-multidoc2dial-token-question-encoder"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "sivavee-train/iac-v1"
 	},
@@ -86782,7 +86832,19 @@
 	},
 	{
 		"private": false,
+		"modelId": "tau/bart-base-16384"
+	},
+	{
+		"private": false,
+		"modelId": "tau/bart-base-32768"
+	},
+	{
+		"private": false,
 		"modelId": "tau/bart-base-4096"
+	},
+	{
+		"private": false,
+		"modelId": "tau/bart-base-8192"
 	},
 	{
 		"private": false,
@@ -91637,6 +91699,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "wesam266/distilbert-base-cased-finetuned-mlm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "wesam266/distilbert-base-uncased-finetuned-itu"
 	},
 	{
@@ -93994,67 +94061,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Rexhaif/rubert-base-srl"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "haji2438/bertweet-base-finetuned-IGtext"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "life4free96/DialogGPT-med-TeiaMoranta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "wesam266/distilbert-base-cased-finetuned-mlm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "jbarry/xlm-roberta-base-flax"
-	},
-	{
-		"private": false,
-		"modelId": "RahuramThiagarajan/rass"
-	},
-	{
-		"private": false,
-		"modelId": "sivasankalpp/dpr-multidoc2dial-token-ctx-encoder"
-	},
-	{
-		"private": false,
-		"modelId": "tau/bart-base-8192"
-	},
-	{
-		"private": false,
-		"modelId": "sivasankalpp/dpr-multidoc2dial-token-question-encoder"
-	},
-	{
-		"private": false,
-		"modelId": "tau/bart-base-16384"
-	},
-	{
-		"private": false,
-		"modelId": "tau/bart-base-32768"
-	},
-	{
-		"private": false,
-		"modelId": "sivasankalpp/dpr-multidoc2dial-structure-ctx-encoder"
-	},
-	{
-		"private": false,
-		"modelId": "sivasankalpp/dpr-multidoc2dial-structure-question-encoder"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "lysandre/my-cool-arxiv-model"
 	}
 ]
