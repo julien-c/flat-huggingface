@@ -94002,6 +94002,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "haji2438/bertweet-base-finetuned-IGtext"
 	},
 	{
@@ -94039,5 +94040,9 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "nbroad/flax-muril-bb-base-chaii-f7"
+	},
+	{
+		"private": false,
+		"modelId": "tau/bart-base-16384"
 	}
 ]
