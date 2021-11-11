@@ -94252,11 +94252,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "geckos/paraphrase_on_pegasus"
-	},
-	{
-		"private": false,
 		"modelId": "Ahmadvakili/A"
 	},
 	{
@@ -94289,5 +94284,27 @@
 	{
 		"private": false,
 		"modelId": "tau/bart-base-2048-no-grad-check"
+	},
+	{
+		"private": false,
+		"modelId": "Rush11/DialoGPT-small-HarryPotter"
+	},
+	{
+		"private": false,
+		"modelId": "tau/bart-base-8192-no-grad-check"
+	},
+	{
+		"private": false,
+		"modelId": "geckos/bart-fined-tuned-on-entailment-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "geckos/pegasus-fined-tuned-on-paraphrase"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate"
 	}
 ]
