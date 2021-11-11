@@ -94287,6 +94287,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Rush11/DialoGPT-small-HarryPotter"
 	},
 	{
@@ -94295,6 +94296,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "geckos/bart-fined-tuned-on-entailment-classification"
 	},
 	{
@@ -94306,5 +94308,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/bart-ad5-finetuned-xsum"
 	}
 ]
