@@ -26940,11 +26940,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "XuguangAi/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Xuhui/ToxDect-roberta-large"
 	},
@@ -94067,10 +94062,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "XuguangAi/DialoGPT-large-Leslie"
-	},
-	{
-		"private": false,
 		"modelId": "versae/byt5-base-finetuned-modernisa"
 	},
 	{
@@ -94084,15 +94075,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "ElijahPepe/DialoGPT-small-fubbot"
-	},
-	{
-		"private": false,
 		"modelId": "SanaaChomsky/Anime"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Culmenus/opus-mt-de-is-finetuned-de-to-is_nr2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "XuguangAi/DialoGPT-small-Leslie"
 	}
 ]
