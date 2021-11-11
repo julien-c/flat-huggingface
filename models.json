@@ -83955,7 +83955,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "token-classification",
 		"modelId": "spacy/en_core_web_lg"
 	},
 	{
@@ -94218,6 +94218,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "benjamin/roberta-large-wechsel-hindi"
 	},
 	{
@@ -94239,5 +94240,10 @@
 	{
 		"private": false,
 		"modelId": "healx/biomedical-dpr-qry-encoder"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "benjamin/roberta-large-wechsel-tamil"
 	}
 ]
