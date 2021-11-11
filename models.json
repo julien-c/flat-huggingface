@@ -47233,6 +47233,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "healx/biomedical-dpr-ctx-encoder"
+	},
+	{
+		"private": false,
 		"modelId": "healx/gpt-2-pubmed-large"
 	},
 	{
@@ -83981,7 +83985,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "token-classification",
 		"modelId": "spacy/es_core_news_sm"
 	},
 	{
@@ -94191,11 +94195,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tamedai/t5-headline-de-829m"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "banri/distilbert-base-uncased-finetuned-cola"
 	},
@@ -94224,5 +94223,21 @@
 	{
 		"private": false,
 		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
+	},
+	{
+		"private": false,
+		"modelId": "Botjallu/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/bart-ad3-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/bart-ad4-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "healx/biomedical-dpr-qry-encoder"
 	}
 ]
