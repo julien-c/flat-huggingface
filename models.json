@@ -35264,11 +35264,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-cnn-denoise"
-	},
-	{
-		"private": false,
 		"modelId": "cestwc/bert-base-uncased-bow"
 	},
 	{
@@ -94196,24 +94191,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "ajdafeta/bart-ad2-finetuned-xsum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "benjamin/roberta-large-wechsel-hindi"
 	},
 	{
 		"private": false,
 		"modelId": "Botjallu/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "ajdafeta/bart-ad3-finetuned-xsum"
-	},
-	{
-		"private": false,
-		"modelId": "ajdafeta/bart-ad4-finetuned-xsum"
 	},
 	{
 		"private": false,
@@ -94312,10 +94295,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ajdafeta/bart-ad5-finetuned-xsum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "geckos/bert-base-uncased-finetuned-cola"
 	},
@@ -94347,5 +94326,18 @@
 	{
 		"private": false,
 		"modelId": "vuiseng9/bert-base-uncased-squadv1-85.4-sparse"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-wo"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/muril-bigbird-large-2k"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-base-uncased-squadv1-72.9-sparse"
 	}
 ]
