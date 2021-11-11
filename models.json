@@ -90637,6 +90637,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "vblagoje/bart_eli5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "vblagoje/bert-base-searchqa"
 	},
@@ -94127,11 +94132,6 @@
 	{
 		"private": false,
 		"modelId": "chinhon/t5-large-rewriter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/t5-base-rewriter"
 	},
 	{
 		"private": false,
