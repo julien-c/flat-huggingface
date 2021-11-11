@@ -65944,11 +65944,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lewtun/minilm-finetuned-emotion"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lewtun/minilm-finetuned-imdb-accelerate"
 	},
@@ -94391,5 +94386,10 @@
 	{
 		"private": false,
 		"modelId": "Yah216/test-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "wesam266/distilbert-base-uncased-finetuned-mlm_v1"
 	}
 ]
