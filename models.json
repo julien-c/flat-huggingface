@@ -94187,10 +94187,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "StevenLimcorn/indo-roberta-indonli"
 	},
 	{
 		"private": false,
 		"modelId": "DeepPavlov/xlm-roberta-large-en-ru"
+	},
+	{
+		"private": false,
+		"modelId": "ami-wav2vec2/wav2vec2-base-ami_multi-nithin7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/t5-headline-de-829m"
+	},
+	{
+		"private": false,
+		"modelId": "banri/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "speech31/wav2vec2-base-timit-demo-test_jong"
 	}
 ]
