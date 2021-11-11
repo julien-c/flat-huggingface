@@ -94205,10 +94205,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
-	},
-	{
-		"private": false,
 		"modelId": "Botjallu/DialoGPT-small-harrypotter"
 	},
 	{
@@ -94234,7 +94230,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "huggingface-course/mt5-finetuned-amazon-en-es"
 	},
 	{
@@ -94256,6 +94252,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "geckos/paraphrase_on_pegasus"
 	},
 	{
@@ -94279,5 +94276,18 @@
 	{
 		"private": false,
 		"modelId": "busraa/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
+	},
+	{
+		"private": false,
+		"modelId": "tau/bart-base-4096-no-grad-check"
+	},
+	{
+		"private": false,
+		"modelId": "tau/bart-base-2048-no-grad-check"
 	}
 ]
