@@ -35634,11 +35634,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/t5-large-rewriter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "chip/DialoGPT-small-chizuru"
 	},
@@ -90767,6 +90762,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "vblagoje/retribert-base-uncased"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vblagoje/roberta-base-english-upos"
 	},
@@ -94166,5 +94165,9 @@
 	{
 		"private": false,
 		"modelId": "suhruth/test_model"
+	},
+	{
+		"private": false,
+		"modelId": "Fredy/wav2vec2-base-nonnative-vietnamese-demo-colab"
 	}
 ]
