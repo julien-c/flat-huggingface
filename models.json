@@ -41350,6 +41350,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "facebook/esm-1b"
+	},
+	{
+		"private": false,
 		"modelId": "facebook/hubert-base-ls960"
 	},
 	{
@@ -94653,5 +94658,31 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/simpingboisinc"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/bart-ajd2-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/simpingboisinc-sircantus"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "espnet/siddhana_fsc_unseen_asr_train_asr_hubert_transformer_adam_specaug_finetune_raw_en_word_valid.acc.ave_5best"
+	},
+	{
+		"private": false,
+		"modelId": "bs-modeling-metadata/html-metadata-exp1-subexp2-1929863"
+	},
+	{
+		"private": false,
+		"modelId": "bs-modeling-metadata/html-metadata-exp1-subexp3-1898197"
+	},
+	{
+		"private": false,
+		"modelId": "bs-modeling-metadata/html-metadata-exp1-subexp1-1857108"
 	}
 ]
