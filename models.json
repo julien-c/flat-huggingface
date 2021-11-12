@@ -15297,6 +15297,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Kairu/RICKBOT"
+	},
+	{
+		"private": false,
 		"modelId": "Kaivalya2107/WizardBot"
 	},
 	{
@@ -19382,6 +19387,10 @@
 	{
 		"private": false,
 		"modelId": "Nashwan/mybot"
+	},
+	{
+		"private": false,
+		"modelId": "NassimeBejaia/DetectTest"
 	},
 	{
 		"private": false,
@@ -24505,6 +24514,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-finetuned2-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner"
 	},
 	{
@@ -24515,6 +24529,11 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/distilroberta-base-finetuned-spanish-test1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
 	},
 	{
 		"private": false,
@@ -30011,6 +30030,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "alphai/en_pipeline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "alvaroalon2/biobert_chemical_ner"
 	},
 	{
@@ -32141,6 +32165,10 @@
 	{
 		"private": false,
 		"modelId": "avadhesh06/as"
+	},
+	{
+		"private": false,
+		"modelId": "aviator-neural/wav2vec2-large-xlsr-hindi-demo-colab"
 	},
 	{
 		"private": false,
@@ -35410,7 +35438,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-binary"
+	},
+	{
+		"private": false,
 		"modelId": "cestwc/roberta-base-bow"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-senary-temp"
 	},
 	{
 		"private": false,
@@ -36443,6 +36486,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "cointegrated/rubert-tiny2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "cointegrated/rut5-base-absum"
 	},
 	{
 		"private": false,
@@ -41781,6 +41829,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "facebook/wmt21-dense-24-wide-en-x"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "facebook/wmt21-dense-24-wide-x-en"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-squad"
 	},
@@ -44345,6 +44402,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "geckos/bert-base-uncased-finetuned-glue-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "geckos/pegasus-fined-tuned-on-paraphrase"
 	},
@@ -46330,6 +46392,10 @@
 	{
 		"private": false,
 		"modelId": "google-deepmind/alphafold-v2"
+	},
+	{
+		"private": false,
+		"modelId": "gooohjy/suicidal-electra"
 	},
 	{
 		"private": false,
@@ -64938,6 +65004,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kensho/5gram-spanish-kenLM"
+	},
+	{
+		"private": false,
 		"modelId": "kenyano/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -66086,6 +66156,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
 		"private": false,
@@ -68508,6 +68583,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "manu/micro2-cv-layoutxlm-finetuned-illuin"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad"
 	},
@@ -68695,6 +68774,34 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/byt5-base-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/byt5-base-fr-fon-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/byt5-base-fr-mos-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/byt5-base-mos-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/m2m100_418M-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/m2m100_418M-fr-fon-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/m2m100_418M-fr-mos-mt"
 	},
 	{
@@ -68705,12 +68812,32 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/mbart50-large-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/mbart50-large-fr-fon-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mbart50-large-fr-mos-mt"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mbart50-large-mos-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/mt5-base-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/mt5-base-fr-fon-mt"
 	},
 	{
 		"private": false,
@@ -76397,7 +76524,28 @@
 	},
 	{
 		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab-2"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab-demo"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-129-turkish-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-53-common_voice-tr-ft"
 	},
 	{
 		"private": false,
@@ -76436,6 +76584,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xlarge-...-common_voice-tr-demo"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-xls-r-1b-common_voice-tr-ft"
 	},
 	{
 		"private": false,
@@ -77544,6 +77696,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pradhyra/AWSBlogBert"
+	},
+	{
+		"private": false,
+		"modelId": "pragatipathak/dfb"
 	},
 	{
 		"private": false,
@@ -80142,6 +80298,10 @@
 	{
 		"private": false,
 		"modelId": "sagar/pretrained-FinBERT"
+	},
+	{
+		"private": false,
+		"modelId": "sageslayers/ielts_summarizer"
 	},
 	{
 		"private": false,
@@ -88319,6 +88479,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "tftransformers/roberta-base-no-mlm"
+	},
+	{
+		"private": false,
 		"modelId": "tftransformers/roberta-base"
 	},
 	{
@@ -91107,6 +91271,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/byt5-base-finetuned-modernisa"
 	},
 	{
@@ -94413,165 +94578,19 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-binary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "facebook/wmt21-dense-24-wide-x-en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-senary-temp"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/wmt21-dense-24-wide-en-x"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Kairu/RICKBOT"
-	},
-	{
-		"private": false,
-		"modelId": "NassimeBejaia/DetectTest"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-53-common_voice-tr-ft"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/mbart50-large-fr-fon-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/mbart50-large-fon-fr-mt"
-	},
-	{
-		"private": false,
-		"modelId": "pragatipathak/dfb"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-finetuned2-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "cointegrated/rut5-base-absum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/mt5-base-fr-fon-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/mt5-base-fon-fr-mt"
+		"modelId": "moorzeh/DialoGPT-small-harrypotter"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "geckos/bert-base-uncased-finetuned-glue-cola"
+		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/byt5-base-fr-fon-mt"
+		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/byt5-base-fon-fr-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/m2m100_418M-fr-fon-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/m2m100_418M-fon-fr-mt"
-	},
-	{
-		"private": false,
-		"modelId": "kensho/5gram-spanish-kenLM"
-	},
-	{
-		"private": false,
-		"modelId": "masakhane/byt5-base-fr-mos-mt"
-	},
-	{
-		"private": false,
-		"modelId": "masakhane/byt5-base-mos-fr-mt"
-	},
-	{
-		"private": false,
-		"modelId": "sageslayers/ielts_summarizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
-	},
-	{
-		"private": false,
-		"modelId": "aviator-neural/wav2vec2-large-xlsr-hindi-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-1b-common_voice-tr-ft"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "alphai/en_pipeline"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab"
-	},
-	{
-		"private": false,
-		"modelId": "gooohjy/suicidal-electra"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab-2"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab-demo"
-	},
-	{
-		"private": false,
-		"modelId": "tftransformers/roberta-base-no-mlm"
-	},
-	{
-		"private": false,
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"modelId": "manu/micro2-cv-layoutxlm-finetuned-illuin"
+		"modelId": "ab20211112/distilbert-base-uncased-finetuned-squad"
 	}
 ]
