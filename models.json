@@ -94401,6 +94401,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "wesam266/distilbert-base-uncased-finetuned-mlm_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.2"
 	}
 ]
