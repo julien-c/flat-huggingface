@@ -34591,6 +34591,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "calpt/adapter-bert-base-squad1"
 	},
 	{
@@ -94571,5 +94572,17 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab-demo"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/roberta-base-no-mlm"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-turkish-colab"
 	}
 ]
