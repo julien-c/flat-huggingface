@@ -94457,6 +94457,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-53-common_voice-tr-ft"
 	},
 	{
@@ -94500,6 +94501,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/byt5-base-fr-fon-mt"
 	},
 	{
@@ -94532,10 +94534,19 @@
 	},
 	{
 		"private": false,
+		"modelId": "kakaobrain/kogpt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
 	},
 	{
 		"private": false,
 		"modelId": "aviator-neural/wav2vec2-large-xlsr-hindi-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-xls-r-1b-common_voice-tr-ft"
 	}
 ]
