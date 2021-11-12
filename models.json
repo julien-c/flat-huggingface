@@ -94736,6 +94736,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ajdafeta/bart-finetuned-xsum"
 	},
 	{
@@ -94744,15 +94745,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "remotejob/gradientclassification_v0"
-	},
-	{
-		"private": false,
-		"modelId": "nbroad/flax-muril-large-1k"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.0"
+	},
+	{
+		"private": false,
+		"modelId": "amirhossein1376/pft-clf-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "mlubbad/test_modal"
 	}
 ]
