@@ -94485,6 +94485,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-finetuned2-ner"
 	},
 	{
@@ -94509,10 +94510,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-fr-fon-mt"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-fon-fr-mt"
 	},
 	{
@@ -94555,5 +94558,9 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/DA-bert"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
 	}
 ]
