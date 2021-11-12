@@ -3752,11 +3752,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "DCU-NLP/roberta-base-irish-cased-v1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "DHBaek/gpt2-stackoverflow-question-contents-generator"
 	},
@@ -13935,6 +13930,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-iir-v1.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.0-concept-extraction-kp20k-v1.0-concept-extraction-wikipedia-v1.0"
 	},
 	{
@@ -14001,6 +14001,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.1-concept-extraction-iir-v1.0"
 	},
 	{
 		"private": false,
@@ -14399,6 +14404,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ItoYagura/DialoGPT-medium-tohru"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
 	},
 	{
 		"private": false,
@@ -27538,6 +27548,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ab20211112/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
 		"modelId": "abais/bert-base-uncased-finetuned-swag"
 	},
 	{
@@ -33042,6 +33056,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bergurth/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "berkergurcay/10k-pretrained-bert-model"
 	},
@@ -35444,16 +35462,6 @@
 	{
 		"private": false,
 		"modelId": "cestwc/roberta-base-bow"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-senary-temp"
 	},
 	{
 		"private": false,
@@ -41838,6 +41846,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-squad"
 	},
@@ -43480,6 +43493,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "foundkim/topic_classifier"
+	},
+	{
+		"private": false,
+		"modelId": "fperez/pose"
 	},
 	{
 		"private": false,
@@ -65008,6 +65025,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kensho/testing_dummy_kenlm"
+	},
+	{
+		"private": false,
 		"modelId": "kenyano/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -66228,6 +66249,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "lewtun/mt5-finetuned-amazon-en-es-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -69980,6 +70005,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "miesnerjacob/trends-classifier-fine-tuned-11-12-2021"
+	},
+	{
+		"private": false,
 		"modelId": "miggytrindiad/sample"
 	},
 	{
@@ -73594,6 +73623,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "navjordj/gp2_no"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "navjordj/gpt2_no"
+	},
+	{
+		"private": false,
 		"modelId": "navjordj/norberta"
 	},
 	{
@@ -76586,6 +76625,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xlarge-...-common_voice-tr-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft"
 	},
 	{
 		"private": false,
@@ -88489,6 +88533,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "tftransformers/roberta-large-no-mlm"
+	},
+	{
+		"private": false,
 		"modelId": "tftransformers/roberta-large"
 	},
 	{
@@ -91289,6 +91337,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/modernisa-pre"
+	},
+	{
+		"private": false,
+		"modelId": "versae/mt5-base-finetuned-modernisa"
 	},
 	{
 		"private": false,
@@ -94580,68 +94632,26 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
-	},
-	{
-		"private": false,
-		"modelId": "lewtun/mt5-small-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
-		"modelId": "ab20211112/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "tftransformers/roberta-large-no-mlm"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft"
-	},
-	{
-		"private": false,
-		"modelId": "versae/mt5-base-finetuned-modernisa"
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-senary"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.1-concept-extraction-iir-v1.0"
+		"modelId": "cestwc/roberta-base-occ"
 	},
 	{
 		"private": false,
-		"modelId": "kensho/testing_dummy_kenlm"
-	},
-	{
-		"private": false,
-		"modelId": "bergurth/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "miesnerjacob/trends-classifier-fine-tuned-11-12-2021"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "navjordj/gpt2_no"
+		"modelId": "amjadkhatabi/mbart-large-50-many-to-many-mmt-finetuned-ar-to-en"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-cola"
+		"modelId": "ItuThesis2022MlviNikw/bert-base-uncased"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "navjordj/gp2_no"
-	},
-	{
-		"private": false,
-		"modelId": "fperez/pose"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-cased-concept-extraction-iir-v1.0"
+		"modelId": "huggingtweets/simpingboisinc"
 	}
 ]
