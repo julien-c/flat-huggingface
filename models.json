@@ -35416,31 +35416,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "cestwc/roberta-base-cnn-mlm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "cestwc/roberta-base-cnn-mlmhglr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-senary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-tc"
-	},
-	{
-		"private": false,
 		"modelId": "ceyda/clip-reply"
 	},
 	{
@@ -83626,6 +83601,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "sloobDev/DialoGPT-medium-dookie"
 	},
 	{
@@ -94464,5 +94440,24 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-binary"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/wmt21-dense-24-wide-x-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-senary-temp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
 	}
 ]
