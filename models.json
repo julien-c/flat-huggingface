@@ -36379,11 +36379,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "cocoaclef/DialoGPT-small-kohaku"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "codegram/calbert-base-uncased"
 	},
@@ -94703,5 +94698,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "kennykang/distil-pelobert-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "cocoaclef/DialoGPT-small-kohaku"
+	},
+	{
+		"private": false,
+		"modelId": "yuanm/bert-base-uncased-finetuned-mrpc"
 	}
 ]
