@@ -872,6 +872,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-conll2003_pos"
 	},
 	{
@@ -992,6 +993,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-sick"
 	},
 	{
@@ -65012,6 +65014,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "khailai/t5-grammar-fixer"
 	},
 	{
@@ -94550,5 +94553,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "alphai/en_pipeline"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"modelId": "gooohjy/suicidal-electra"
 	}
 ]
