@@ -44347,11 +44347,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "geckos/bert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "geckos/pegasus-fined-tuned-on-paraphrase"
 	},
@@ -94471,6 +94466,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeevesh8/sMLM-RoBERTa"
 	},
 	{
@@ -94507,6 +94503,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeevesh8/sMLM-bert"
 	},
 	{
@@ -94521,5 +94518,25 @@
 	{
 		"private": false,
 		"modelId": "masakhane/mt5-base-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"modelId": "geckos/bert-base-uncased-finetuned-glue-cola"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/byt5-base-fr-fon-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/byt5-base-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/m2m100_418M-fr-fon-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/m2m100_418M-fon-fr-mt"
 	}
 ]
