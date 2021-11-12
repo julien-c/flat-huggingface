@@ -68513,16 +68513,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/cv-layoutxlm-finetuned-illuin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/micro-cv-layoutxlm-finetuned-illuin"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad"
 	},
@@ -94584,5 +94574,9 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "manu/micro2-cv-layoutxlm-finetuned-illuin"
 	}
 ]
