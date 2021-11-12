@@ -94580,11 +94580,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "moorzeh/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ItuThesis2022MlviNikw/bert_uncased_L-2_H-128_A-2"
 	},
@@ -94616,5 +94611,37 @@
 	{
 		"private": false,
 		"modelId": "kensho/testing_dummy_kenlm"
+	},
+	{
+		"private": false,
+		"modelId": "bergurth/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "miesnerjacob/trends-classifier-fine-tuned-11-12-2021"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "navjordj/gpt2_no"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "navjordj/gp2_no"
+	},
+	{
+		"private": false,
+		"modelId": "fperez/pose"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-iir-v1.0"
 	}
 ]
