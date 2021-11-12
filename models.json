@@ -94580,6 +94580,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "moorzeh/DialoGPT-small-harrypotter"
 	},
 	{
@@ -94606,5 +94607,14 @@
 	{
 		"private": false,
 		"modelId": "versae/mt5-base-finetuned-modernisa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.1-concept-extraction-iir-v1.0"
+	},
+	{
+		"private": false,
+		"modelId": "kensho/testing_dummy_kenlm"
 	}
 ]
