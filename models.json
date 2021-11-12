@@ -94484,6 +94484,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mbart50-large-fon-fr-mt"
 	},
 	{
@@ -94496,10 +94497,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeevesh8/sMLM-256-LF"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeevesh8/DA-LF"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/sMLM-bert"
 	}
 ]
