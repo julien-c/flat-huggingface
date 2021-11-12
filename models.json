@@ -94506,6 +94506,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/byt5-base-fon-fr-mt"
 	},
 	{
@@ -94548,5 +94549,10 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-xls-r-1b-common_voice-tr-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "alphai/en_pipeline"
 	}
 ]
