@@ -68609,10 +68609,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "manu/micro2-cv-layoutxlm-finetuned-illuin"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad"
 	},
@@ -92566,6 +92562,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "wukevin/tcr-bert"
+	},
+	{
+		"private": false,
 		"modelId": "wws/demo"
 	},
 	{
@@ -94708,5 +94709,19 @@
 	{
 		"private": false,
 		"modelId": "yuanm/bert-base-uncased-finetuned-mrpc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.0"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/bart-ajd-12000-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cointegrated/rubert-tiny2-cedr-emotion-detection"
 	}
 ]
