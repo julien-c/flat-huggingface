@@ -94947,6 +94947,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ken11/bert-japanese-ner"
 	},
 	{
@@ -94955,6 +94956,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Modfiededition/bert-fine-tuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Soonhwan-Kwon/xlm-roberta-xlarge"
 	}
 ]
