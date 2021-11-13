@@ -27016,11 +27016,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "XSY/albert-base-v2-imdb-calssification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "XSY/albert-base-v2-scarcasm-discriminator"
 	},
 	{
@@ -41829,11 +41824,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "facebook/wmt21-dense-24-wide-x-en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -91321,6 +91311,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-finetuned-modernisa"
 	},
 	{
@@ -94772,10 +94763,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "model-mili/DialoGPT-small-Yukub"
 	},
 	{
 		"private": false,
-		"modelId": "Cloen/DialoGPT-SophIA"
+		"modelId": "jogonba2/barthez-frwiki-first_paragraph-min_words_50-min_categories_4_train"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "XSY/albert-base-v2-imdb-calssification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-cola"
 	}
 ]
