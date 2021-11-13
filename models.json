@@ -30308,6 +30308,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "amirhossein1376/pft-clf-finetuned"
 	},
 	{
@@ -63784,6 +63785,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jogonba2/barthez-frwiki-first_paragraph-min_words_50-min_categories_4_train"
 	},
 	{
@@ -94780,5 +94782,9 @@
 	{
 		"private": false,
 		"modelId": "LJ/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "dkhanh1702/distilbert-base-uncased-finetuned-squad"
 	}
 ]
