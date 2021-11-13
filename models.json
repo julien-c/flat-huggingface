@@ -19972,11 +19972,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "Osiris/emotion_classifer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "Osiris/neutral_non_neutral_classifier"
 	},
 	{
@@ -95008,5 +95003,10 @@
 	{
 		"private": false,
 		"modelId": "Ayoola/wav2vec2-large-xlsr-turkish-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Osiris/emotion_classifier"
 	}
 ]
