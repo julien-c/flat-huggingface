@@ -35517,16 +35517,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-senary"
-	},
-	{
-		"private": false,
 		"modelId": "ceyda/clip-reply"
 	},
 	{
@@ -81456,6 +81446,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "seanbenhur/tanglish-offensive-language-identification"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "seanbethard/autonlp-summarization_model-8771942"
 	},
@@ -94807,12 +94802,21 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "ajdafeta/bartnew-finetuned-xsum"
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/mymodel"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/mymodel"
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ-temp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
+		"modelId": "dedok/F"
 	}
 ]
