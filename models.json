@@ -94840,6 +94840,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ajdafeta/barttest-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "DCU-NLP/irish-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MisbaHF/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "aditeyabaral/additionalpretrained-contrastive-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "aditeyabaral/sentencetransformer-contrastive-roberta-base"
 	}
 ]
