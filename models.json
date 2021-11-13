@@ -94807,11 +94807,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/mymodel"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-occ-temp"
 	},
@@ -94861,5 +94856,9 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "aditeyabaral/sentencetransformer-contrastive-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "oigele/awesome_fb_model"
 	}
 ]
