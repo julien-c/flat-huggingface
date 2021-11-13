@@ -81447,6 +81447,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "seanbenhur/manglish-offensive-language-identification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "seanbenhur/tanglish-offensive-language-identification"
 	},
 	{
@@ -94818,5 +94823,23 @@
 	{
 		"private": false,
 		"modelId": "dedok/F"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ajdafeta/bartnew-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/xlm-roberta-base-lao-pos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "akdeniz27/roberta-base-cuad"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/barttest-finetuned-xsum"
 	}
 ]
