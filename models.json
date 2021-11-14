@@ -95255,10 +95255,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "lewtun/marian-finetuned-kde4-en-to-fr"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ylh1013/ja_chatbot"
+	},
+	{
+		"private": false,
+		"modelId": "xysmalobia/test-bert-finetuned-squad-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/marian-finetuned-kde4-en-to-fr-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "russellc/biobert-large-cased-v1.1-finetuned-deid"
 	}
 ]
