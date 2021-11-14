@@ -95126,6 +95126,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "m-lin20/satellite-instrument-roberta-NER"
 	},
 	{
@@ -95136,5 +95137,17 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aditeyabaral/finetuned-sail2017-additionalpretrained-distilbert-base-cased"
+	},
+	{
+		"private": false,
+		"modelId": "xysmalobia/sequence_classification"
+	},
+	{
+		"private": false,
+		"modelId": "rafaielazacchi/rafa"
+	},
+	{
+		"private": false,
+		"modelId": "khailai/t5-wav2vec2-punctuator-2"
 	}
 ]
