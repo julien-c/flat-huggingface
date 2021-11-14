@@ -32231,6 +32231,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/mymodel"
+	},
+	{
+		"private": false,
 		"modelId": "athar/rob-model-finetuned-squad"
 	},
 	{
@@ -95380,10 +95385,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-modernisa-lines-ptranslate"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-modernisa-lines-wd0.01-ptranslate"
 	},
 	{
@@ -95393,5 +95400,13 @@
 	{
 		"private": false,
 		"modelId": "Weiqin/roberta-large-finetuned-race-roberta"
+	},
+	{
+		"private": false,
+		"modelId": "rrtong/DialoGPT-medium-shang-chi"
+	},
+	{
+		"private": false,
+		"modelId": "Cloen/DialoGPT-SophIA"
 	}
 ]
