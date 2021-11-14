@@ -32231,11 +32231,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/mymodel"
-	},
-	{
-		"private": false,
 		"modelId": "athar/rob-model-finetuned-squad"
 	},
 	{
@@ -95403,6 +95398,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "rrtong/DialoGPT-medium-shang-chi"
 	},
 	{
@@ -95416,6 +95412,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jogonba2/barthez_wiki_sliding_single_paragraph_filtered-deft"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/xlmr-large-chaii-6f3"
 	}
 ]
