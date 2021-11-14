@@ -95020,11 +95020,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "sciarrilli/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "thesamuelpena/Dialog-medium-masterchief"
 	},
@@ -95034,6 +95029,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "khailai/model_output"
+		"modelId": "khailai/t5-wav2vec2-punctuator"
+	},
+	{
+		"private": false,
+		"modelId": "jogonba2/barthez_wiki_first_paragraph_filtered-deft"
 	}
 ]
