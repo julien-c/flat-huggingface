@@ -95025,6 +95025,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "phailyoor/distilbert-base-uncased-finetuned-yahd-twval"
 	},
 	{
@@ -95033,6 +95034,25 @@
 	},
 	{
 		"private": false,
-		"modelId": "jogonba2/barthez_deft_prueba"
+		"pipeline_tag": "text-classification",
+		"modelId": "sciarrilli/distilbert-base-uncased-cola"
+	},
+	{
+		"private": false,
+		"modelId": "akahana/gpt2-small-indonesia"
+	},
+	{
+		"private": false,
+		"modelId": "joejjohn/Joeind"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "kornesh/roberta-large-wechsel-hindi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "kornesh/roberta-large-wechsel-tamil"
 	}
 ]
