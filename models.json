@@ -95276,6 +95276,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "lewtun/bert-finetuned-squad"
 	},
 	{
@@ -95353,5 +95354,9 @@
 	{
 		"private": false,
 		"modelId": "log/DialoGPT-small-scott"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/bert-finetuned-squad-accelerate"
 	}
 ]
