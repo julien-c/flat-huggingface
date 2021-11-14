@@ -95231,6 +95231,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "xysmalobia/t5-finetuned-amazon-en"
 	},
 	{
@@ -95275,10 +95276,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "russellc/biobert-large-cased-v1.1-finetuned-deid"
-	},
-	{
-		"private": false,
 		"modelId": "lewtun/bert-finetuned-squad"
 	},
 	{
@@ -95304,6 +95301,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-1e-5"
+	},
+	{
+		"private": false,
+		"modelId": "AlekseyDorkin/xlm-roberta-large-en-ru-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-1e-4"
+	},
+	{
+		"private": false,
+		"modelId": "russellc/biobert-large-cased-v1.1-finetuned-deid"
 	}
 ]
