@@ -81278,11 +81278,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "sardinaerum/mt5-small-finetuned-xsum"
-	},
-	{
-		"private": false,
 		"modelId": "sarim/myModel"
 	},
 	{
@@ -95226,11 +95221,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "lewtun/bert-finetuned-ner"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aditeyabaral/finetuned-sail2017-indic-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "dhlpricing/MyRoBERTaMLM-cased-v1"
+	},
+	{
+		"private": false,
+		"modelId": "sardinaerum/mt5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/bert-finetuned-ner-accelerate"
 	}
 ]
