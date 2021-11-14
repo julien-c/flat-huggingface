@@ -94993,6 +94993,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-finetuned-modernisa-stanzas"
 	},
 	{
@@ -95035,5 +95036,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sciarrilli/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "thesamuelpena/Dialog-medium-masterchief"
+	},
+	{
+		"private": false,
+		"modelId": "phailyoor/distilbert-base-uncased-finetuned-yahd-twval"
 	}
 ]
