@@ -95897,6 +95897,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xlsr-53-common_voice-tr-ft-1h"
 	},
 	{
@@ -95954,10 +95955,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-append"
-	},
-	{
-		"private": false,
 		"modelId": "cambridgeltl/xlmr-lang-sft-ur-small"
 	},
 	{
@@ -95971,5 +95968,22 @@
 	{
 		"private": false,
 		"modelId": "izumi-lab/electra-base-japanese-discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "kennykang/distil-pelobert-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "sarahmiller137/slm_nerModel"
+	},
+	{
+		"private": false,
+		"modelId": "Pyroghy/DialoGPT-small-rin_tohsaka"
+	},
+	{
+		"private": false,
+		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-append"
 	}
 ]
