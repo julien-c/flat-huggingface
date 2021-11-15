@@ -80927,6 +80927,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2-no-misc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "saattrupdan/nbailab-base-ner-scandi"
 	},
 	{
@@ -95556,5 +95561,22 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DeepPavlov/xlm-roberta-large-en-ru-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "AshiNLP/Bert_model"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr7c-1B3-alibi-logs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ItuThesis2022MlviNikw/bert-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr7c-1B3-alibi-checkpoints"
 	}
 ]
