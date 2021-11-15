@@ -92619,6 +92619,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vkk1710/xlnet-base-cased-finetuned-qqp"
 	},
 	{
@@ -95900,6 +95901,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "izumi-lab/electra-base-japanese-generator"
 	},
 	{
@@ -95965,5 +95967,9 @@
 	{
 		"private": false,
 		"modelId": "cambridgeltl/xlmr-lang-sft-zh-small"
+	},
+	{
+		"private": false,
+		"modelId": "izumi-lab/electra-base-japanese-discriminator"
 	}
 ]
