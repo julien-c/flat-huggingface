@@ -1605,6 +1605,19 @@
 	},
 	{
 		"private": false,
+		"modelId": "AndrewChar/bert-finetuned-mrpc-first"
+	},
+	{
+		"private": false,
+		"modelId": "AndrewChar/bert-finetuned-mrpc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "AndrewChar/dummy-model"
+	},
+	{
+		"private": false,
 		"modelId": "Andrey78/my_model_nlp"
 	},
 	{
@@ -38406,6 +38419,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "davanstrien/bl-books-genre-fastai"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "davanstrien/bl-books-genre"
 	},
 	{
@@ -38427,6 +38445,11 @@
 	{
 		"private": false,
 		"modelId": "davanstrien/eighteenth-century-albert-tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "davanstrien/test"
 	},
 	{
 		"private": false,
@@ -74320,6 +74343,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "image-classification",
+		"modelId": "nateraw/my-cool-timm-model-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "nateraw/my-cool-timm-model"
 	},
 	{
@@ -77544,6 +77572,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-100m-mls-german-ft"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-300m-mls-german-ft"
 	},
@@ -78690,6 +78722,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pistachiocow/RoyTBenBot"
+	},
+	{
+		"private": false,
+		"modelId": "pitoneros/necesitamos_un_mejor_nombre"
 	},
 	{
 		"private": false,
@@ -92566,6 +92602,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/byt5-base-modernisa-lines-ptranslate"
 	},
 	{
@@ -96032,40 +96069,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nateraw/my-cool-timm-model-3"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/bert-finetuned-mrpc"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-100m-mls-german-ft"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/bert-finetuned-mrpc-first"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "AndrewChar/dummy-model"
-	},
-	{
-		"private": false,
-		"modelId": "pitoneros/necesitamos_un_mejor_nombre"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "davanstrien/bl-books-genre-fastai"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/test"
 	}
 ]
