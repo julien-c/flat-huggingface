@@ -74798,6 +74798,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nbroad/mt5-base-qgen"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nbroad/mt5-small-qgen"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ncats/EpiExtract4GARD"
 	},
@@ -96110,5 +96120,9 @@
 	{
 		"private": false,
 		"modelId": "bergurth/XLMR-ENIS-finetuned-coicop-classification3"
+	},
+	{
+		"private": false,
+		"modelId": "bergurth/XLMR-ENIS-finetuned-coicop-classification5"
 	}
 ]
