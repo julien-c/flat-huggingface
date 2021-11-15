@@ -17308,6 +17308,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Matthijsvanhof/bert-base-dutch-cased-finetuned-NER"
 	},
 	{
@@ -95771,6 +95772,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DaNLP/da-bert-hatespeech-classification"
 	},
 	{
@@ -95785,5 +95787,9 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "sakharok/lapka"
+	},
+	{
+		"private": false,
+		"modelId": "versae/mt5-modernisa-verses-ptranslate"
 	}
 ]
