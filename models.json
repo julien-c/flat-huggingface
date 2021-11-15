@@ -95880,7 +95880,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Edresson/wav2vec2-large-xlsr-coraa-portuguese"
 	},
 	{
@@ -95894,6 +95893,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "edichief/en_healthsea"
 	},
 	{
@@ -95986,6 +95986,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-append"
+		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-base"
+	},
+	{
+		"private": false,
+		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-base-test"
 	}
 ]
