@@ -868,6 +868,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/bert-base-uncased-pf-wikihop"
 	},
 	{
@@ -876,14 +877,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/bert-base-uncased-pf-wnut_17"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/bert-base-uncased-pf-yelp_polarity"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-anli_r3"
 	},
 	{
@@ -892,10 +896,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-boolq"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-cola"
 	},
 	{
@@ -904,14 +910,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-comqa"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-conll2000"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-conll2003"
 	},
 	{
@@ -929,30 +938,37 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-cq"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-drop"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-duorc_p"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-duorc_s"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-emo"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-emotion"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-fce_error_detection"
 	},
 	{
@@ -961,42 +977,52 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-hotpotqa"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-imdb"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-mit_movie_trivia"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-mnli"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-mrpc"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-multirc"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-newsqa"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-pmb_sem_tagging"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-qnli"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-qqp"
 	},
 	{
@@ -1009,6 +1035,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-quoref"
 	},
 	{
@@ -1017,22 +1044,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-record"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-rotten_tomatoes"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-rte"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-scicite"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-scitail"
 	},
 	{
@@ -1042,6 +1074,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-snli"
 	},
 	{
@@ -1050,18 +1083,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-squad"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-squad_v2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-sst2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-stsb"
 	},
 	{
@@ -1070,10 +1107,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-trec"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-ud_deprel"
 	},
 	{
@@ -1082,14 +1121,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-ud_pos"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-wic"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-wikihop"
 	},
 	{
@@ -1098,10 +1140,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-wnut_17"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-yelp_polarity"
 	},
 	{
@@ -95652,5 +95696,9 @@
 	{
 		"private": false,
 		"modelId": "NhatPham/vit-base-patch16-224-in21k-finetuned-ks"
+	},
+	{
+		"private": false,
+		"modelId": "Theivaprakasham/wav2vec2-base-timit-demo"
 	}
 ]
