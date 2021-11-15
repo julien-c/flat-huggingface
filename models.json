@@ -79407,7 +79407,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "raynardj/keywords-cangtou-chinese-poetry"
 	},
 	{
@@ -95329,6 +95328,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "yliu337/mt5_sliding_window_en"
 	},
 	{
@@ -95398,11 +95398,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "nbroad/xlmr-large-chaii-6f3"
-	},
-	{
-		"private": false,
 		"modelId": "bhuvaneswari/t5-small-finetuned-xsum"
 	},
 	{
@@ -95414,11 +95409,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-0.1-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "nbroad/1k-shuf-squad-chaii-6f2"
 	},
 	{
 		"private": false,
@@ -95448,14 +95438,30 @@
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/xlmr-large-chaii-6f4"
-	},
-	{
-		"private": false,
 		"modelId": "frtna/mt5-base-finetuned-en-to-ro"
 	},
 	{
 		"private": false,
 		"modelId": "frtna/mt5-small-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "Matthijsvanhof/bert-base-dutch-cased-finetuned-NER"
+	},
+	{
+		"private": false,
+		"modelId": "ajdafeta/ad-pegasus-finetuned-cnndm"
+	},
+	{
+		"private": false,
+		"modelId": "rafiulrumy/wav2vec2-large-xlsr-irish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "bhuvaneswari/t5-small-text_summarization"
+	},
+	{
+		"private": false,
+		"modelId": "wifis/Rossi"
 	}
 ]
