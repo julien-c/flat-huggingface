@@ -95879,18 +95879,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-common_voice-tr-ft-1h"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "edichief/en_healthsea"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xlsr-53-common_voice-tr-ft-1h"
 	},
 	{
 		"private": false,
@@ -95988,10 +95978,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Edresson/wav2vec2-large-xlsr-coraa-portuguese2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Edresson/wav2vec2-large-xlsr-coraa-portuguese"
 	},
@@ -96010,5 +95996,14 @@
 	{
 		"private": false,
 		"modelId": "versae/byt5-base-modernisa-lines-ptranslate"
+	},
+	{
+		"private": false,
+		"modelId": "versae/byt5-base-modernisa-lines-wd0.01-ptranslate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ychu4/distilbert-base-uncased-finetuned-cola"
 	}
 ]
