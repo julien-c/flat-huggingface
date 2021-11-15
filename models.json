@@ -81002,11 +81002,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "saattrupdan/nbailab-base-ner-scandi-v2-no-misc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "saattrupdan/nbailab-base-ner-scandi"
 	},
 	{
@@ -95712,10 +95707,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-modernisa-stanzas"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-modernisa-stanzas-wd0.01"
 	},
 	{
@@ -95761,5 +95758,9 @@
 	{
 		"private": false,
 		"modelId": "Mervtttt/Ges"
+	},
+	{
+		"private": false,
+		"modelId": "seanbenhur/tamil-offensive-language-identification"
 	}
 ]
