@@ -96052,10 +96052,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "AndrewChar/dummy-model"
 	},
 	{
 		"private": false,
 		"modelId": "pitoneros/necesitamos_un_mejor_nombre"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "davanstrien/bl-books-genre-fastai"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/test"
 	}
 ]
