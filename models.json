@@ -96277,5 +96277,15 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "XSY/albert-base-v2-fakenews-discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "abhishek/muril-large-chaii"
 	}
 ]
