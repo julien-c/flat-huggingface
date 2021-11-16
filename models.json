@@ -96525,7 +96525,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "tprincessazula/Dialog-GPT-small-harrypotter"
 	},
 	{
@@ -96544,5 +96544,14 @@
 	{
 		"private": false,
 		"modelId": "nazmartinovic/naz"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.2"
+	},
+	{
+		"private": false,
+		"modelId": "BigSalmon/MrLincoln2"
 	}
 ]
