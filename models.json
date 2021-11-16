@@ -96179,10 +96179,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/byt5-base-modernisa-verses"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/byt5-base-modernisa-verses-wd0.01"
 	},
 	{
@@ -96201,6 +96203,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Sindhu/muril-large-squad2"
 	},
 	{
@@ -96214,5 +96217,9 @@
 	{
 		"private": false,
 		"modelId": "tkesonia/xlm-roberta-large-xnli-anli-allai_proto"
+	},
+	{
+		"private": false,
+		"modelId": "mork/DialoGPT-small-RickAndMorty"
 	}
 ]
