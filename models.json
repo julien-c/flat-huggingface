@@ -3528,11 +3528,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Cloen/DialoGPT-SophIA"
-	},
-	{
-		"private": false,
 		"modelId": "Cloudy/DialoGPT-CJ-large"
 	},
 	{
@@ -29337,6 +29332,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ajdafeta/ad-pegasus-finetuned-cnndm"
 	},
 	{
@@ -96139,5 +96135,18 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nbroad/muril-bigbird-large-1k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "ionite/DialoGPT-medium-Sh0rtiAI"
+	},
+	{
+		"private": false,
+		"modelId": "MusserO/transformer-opus-fi-sv"
+	},
+	{
+		"private": false,
+		"modelId": "VectorMan/DialoGPT-small-Rick"
 	}
 ]
