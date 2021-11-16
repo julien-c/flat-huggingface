@@ -96099,6 +96099,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "SJSui/RickBot-Discord_AI"
 	},
 	{
@@ -96156,10 +96157,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/byt5-base-modernisa-stanzas-ptranslate"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/byt5-base-modernisa-stanzas-wd0.01-ptranslate"
 	},
 	{
@@ -96189,10 +96192,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Sindhu/rembert-squad2"
 	},
 	{
 		"private": false,
 		"modelId": "bigscience/tr8b-104B-debug"
+	},
+	{
+		"private": false,
+		"modelId": "Sindhu/muril-large-squad2"
+	},
+	{
+		"private": false,
+		"modelId": "tkesonia/xlm-roberta-large-xnli-anli-finetuned-xlm-roberta-ag"
 	}
 ]
