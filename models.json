@@ -28055,6 +28055,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ab20211112/gelectra-base-germanquad-finetuned-squad"
+	},
+	{
+		"private": false,
 		"modelId": "abais/bert-base-uncased-finetuned-swag"
 	},
 	{
@@ -40222,7 +40226,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
+		"pipeline_tag": "text-classification",
 		"modelId": "edichief/en_healthsea"
 	},
 	{
@@ -67645,11 +67649,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "lg/openinstruct_1k1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec-large-xlsr-tedx-pctn"
 	},
 	{
 		"private": false,
@@ -96333,5 +96332,17 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "Nevena/test-model"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/bp400-xlsr"
+	},
+	{
+		"private": false,
+		"modelId": "HueyNemud/berties"
 	}
 ]
