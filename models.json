@@ -82399,16 +82399,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "savasy/checkpoint-1875"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "savasy/model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "savasy/offLangDetectionTurkish"
 	},
 	{
@@ -96223,5 +96213,19 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/navalismhq"
+	},
+	{
+		"private": false,
+		"modelId": "jimnoneill/nlp_bio_ML"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "healx/biomedical-slot-filling-reader-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "healx/biomedical-slot-filling-reader-large"
 	}
 ]
