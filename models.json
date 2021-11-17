@@ -85338,6 +85338,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "snoop2head/KoGPT-Joong2"
 	},
 	{
@@ -96568,5 +96569,18 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Stevo/DiagloGPT-medium-spamton"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "bespin-global/klue-bert-base-aihub-mrc"
+	},
+	{
+		"private": false,
+		"modelId": "SJSui/AstroBot"
+	},
+	{
+		"private": false,
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.3"
 	}
 ]
