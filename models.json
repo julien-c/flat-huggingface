@@ -30737,11 +30737,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "alphai/en_pipeline"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "alvaroalon2/biobert_chemical_ner"
 	},
 	{
@@ -96646,6 +96641,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anas/Coqui-large-Arabic-vocabulary-stt-model"
 	},
 	{
@@ -96667,10 +96663,21 @@
 	},
 	{
 		"private": false,
-		"modelId": "JaviBJ/xlm-r-finetuned-toxic-political-tweets-es"
+		"modelId": "StivenLancheros/spanberta-base-cased-ner-conll02-finetuned-ner-finetuned-ner"
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/spanberta-base-cased-ner-conll02-finetuned-ner-finetuned-ner"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pki/t5-small-finetuned_xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "alphai/en_pipeline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Newtral/xlm-r-finetuned-toxic-political-tweets-es"
 	}
 ]
