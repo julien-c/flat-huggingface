@@ -25015,15 +25015,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/distilroberta-base-finetuned-spanish-test1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
 	},
 	{
@@ -30742,6 +30733,11 @@
 	{
 		"private": false,
 		"modelId": "alperbayram/first_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "alphai/en_pipeline"
 	},
 	{
 		"private": false,
@@ -68311,11 +68307,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "loubau/WoBERT"
-	},
-	{
-		"private": false,
 		"modelId": "louwjlab/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -90530,11 +90521,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "thusken/mt5-small-nl-summarization-wiki-lingua"
-	},
-	{
-		"private": false,
 		"modelId": "tianxing1994/test"
 	},
 	{
@@ -96633,11 +96619,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "thiliniprr/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "algomuffin/dummy"
 	},
@@ -96664,10 +96645,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/Run-2_1000"
 	},
 	{
 		"private": false,
-		"modelId": "loubau/GDH_Demo_3_processen"
+		"modelId": "anas/Coqui-large-Arabic-vocabulary-stt-model"
 	}
 ]
