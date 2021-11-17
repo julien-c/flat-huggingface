@@ -14923,6 +14923,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "JaviBJ/sagemaker-distilbert-emotion"
+	},
+	{
+		"private": false,
 		"modelId": "Jaxon/DialoGPT-small-Dipper"
 	},
 	{
@@ -15018,6 +15023,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataQA20k"
 	},
 	{
@@ -31152,6 +31158,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "amtam0/speech-timer"
+	},
+	{
+		"private": false,
+		"modelId": "amtam0/timer-ner-en"
 	},
 	{
 		"private": false,
@@ -79355,11 +79365,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "pki/t5-small-finetuned-xsum-finetuned-xsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "pki/t5-small-finetuned-xsum"
 	},
 	{
@@ -94294,6 +94299,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "wicho/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
 		"modelId": "wicho/my-new-shiny-tokenizer"
 	},
 	{
@@ -96647,11 +96656,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "amtam0/timer-ner-en"
-	},
-	{
-		"private": false,
-		"modelId": "wicho/distilbert-base-uncased-finetuned-squad"
+		"modelId": "ArzelaAscoli/test2"
 	},
 	{
 		"private": false,
@@ -96659,6 +96664,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "JaviBJ/sagemaker-distilbert-emotion"
+		"modelId": "facebook/wav2vec2-xls-r-2b-22-to-16"
 	}
 ]
