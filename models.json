@@ -40909,11 +40909,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "erica/KRM"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "erica/kc_900"
 	},
 	{
@@ -96607,5 +96602,10 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "microsoft/ssr-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "erica/krm_fin"
 	}
 ]
