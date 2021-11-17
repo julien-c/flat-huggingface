@@ -6660,6 +6660,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Gigworks/ASR_id"
+	},
+	{
+		"private": false,
 		"modelId": "Gilles/FongBERT"
 	},
 	{
@@ -14901,15 +14905,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-append"
-	},
-	{
-		"private": false,
 		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-base-e2-b32-l3e5"
-	},
-	{
-		"private": false,
-		"modelId": "JazibEijaz/bert-base-uncased-finetuned-semeval2020-task4b-base-test"
 	},
 	{
 		"private": false,
@@ -23790,11 +23786,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "SIKU-BERT/sikuroberta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "SJSui/RickBot-Discord_AI"
 	},
 	{
 		"private": false,
@@ -85334,15 +85325,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "snoop2head/KoGPT-Joong-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "snoop2head/KoGPT-Joong2"
-	},
-	{
-		"private": false,
 		"modelId": "snowneji/test-hf-autonlp"
 	},
 	{
@@ -96558,10 +96540,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "SJSui/NekuBot"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "codealtgeek/DiabloGPT-medium-rickmorty"
 	},
@@ -96577,10 +96555,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "SJSui/AstroBot"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "snoop2head/KoGPT-Joong-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "SJSui/RickBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-iir-v1.3"
 	}
 ]
