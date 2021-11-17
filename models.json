@@ -83045,6 +83045,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "scales-okn/deberta-v3-base-ptc"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "scales-okn/dev-disambiguation-triplet"
 	},
@@ -96665,11 +96670,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "speechbrain/asr-conformer-transformerlm-ksponspeech"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Cloen/DialoGPT-SophIA"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/commonvoice100-xlsr"
+	},
+	{
+		"private": false,
+		"modelId": "Gabsz/Gabi"
 	}
 ]
