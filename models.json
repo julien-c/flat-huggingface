@@ -3602,6 +3602,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Cloen/DialoGPT-SophIA"
+	},
+	{
+		"private": false,
 		"modelId": "Cloudy/DialoGPT-CJ-large"
 	},
 	{
@@ -5822,6 +5827,11 @@
 	{
 		"private": false,
 		"modelId": "Gametrock/DialoGPT-medium-rick"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "GammaPTest/e_bot"
 	},
 	{
 		"private": false,
@@ -14303,6 +14313,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2"
 	},
 	{
@@ -14394,6 +14409,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
 	},
 	{
 		"private": false,
@@ -15494,6 +15514,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Julianqll/DialoGPT-small-ricksanchez"
+	},
+	{
+		"private": false,
+		"modelId": "Juliet/Teste"
 	},
 	{
 		"private": false,
@@ -20173,6 +20197,11 @@
 	{
 		"private": false,
 		"modelId": "Nikhilshandilya9/Unet"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "NikolajMunch/danish-emotion-classification"
 	},
 	{
 		"private": false,
@@ -29290,6 +29319,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "aguilara42/silero-vad-wrapper"
+	},
+	{
+		"private": false,
 		"modelId": "ahanadeb/wav2vec2-large-indian-instrument-classification-5sec"
 	},
 	{
@@ -31230,6 +31263,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "amirharati/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "amirhossein1376/pft-clf-finetuned"
 	},
@@ -31257,6 +31294,11 @@
 	{
 		"private": false,
 		"modelId": "amitthombre/distilgpt2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/finetuned-ye-ar-en-v1"
 	},
 	{
 		"private": false,
@@ -31583,6 +31625,16 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "aniltrkkn/wav2vec2-large-xlsr-53-turkish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anindabitm/sagemaker-BioclinicalBERT-ADR"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "anindabitm/sagemaker-distilbert-emotion"
 	},
 	{
 		"private": false,
@@ -35664,6 +35716,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "callmeJ/mbart-large-cc25-finetuned-Kor-to-Vie"
+	},
+	{
+		"private": false,
 		"modelId": "callmeJ/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -37090,6 +37146,14 @@
 	{
 		"private": false,
 		"modelId": "christmasdecoration/lights"
+	},
+	{
+		"private": false,
+		"modelId": "christophalt/my-awesome-model"
+	},
+	{
+		"private": false,
+		"modelId": "christophalt/test-model"
 	},
 	{
 		"private": false,
@@ -40642,6 +40706,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "edumunozsala/RuPERTa_base_sentiment_analysis_es"
+	},
+	{
+		"private": false,
+		"modelId": "edumunozsala/Ruperta_encoder_decoder_es"
 	},
 	{
 		"private": false,
@@ -66962,6 +67030,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "korca/meaning-match-bert-large"
+	},
+	{
+		"private": false,
+		"modelId": "korca/meaning-match-roberta-large"
+	},
+	{
+		"private": false,
 		"modelId": "korca/roberta-base-mm"
 	},
 	{
@@ -70400,6 +70476,11 @@
 	{
 		"private": false,
 		"modelId": "marcelcastrobr/my-second-bert-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcelcastrobr/sagemaker-distilbert-emotion"
 	},
 	{
 		"private": false,
@@ -81027,6 +81108,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "rafiulrumy/fine_tune_wav2vec2-large-xlsr-chinese_China-colab"
+	},
+	{
+		"private": false,
+		"modelId": "rafiulrumy/wav2vec2-large-xlsr-chinese-china-colab"
+	},
+	{
+		"private": false,
 		"modelId": "ragarwal/args-me-biencoder-v1"
 	},
 	{
@@ -82017,6 +82106,11 @@
 	{
 		"private": false,
 		"modelId": "rjmohit/HateSpeechDetection"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "rjzevallos/LlamaRoBERTa"
 	},
 	{
 		"private": false,
@@ -85018,6 +85112,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "shamikbose89/mt5-small-finetuned-arxiv-cs"
+	},
+	{
+		"private": false,
 		"modelId": "sharad/transpin"
 	},
 	{
@@ -87058,10 +87156,6 @@
 	{
 		"private": false,
 		"modelId": "speechbrain/vad-crdnn-libriparty"
-	},
-	{
-		"private": false,
-		"modelId": "speechbrain/wav2vec2-base-cv-en"
 	},
 	{
 		"private": false,
@@ -90273,6 +90367,14 @@
 		"private": false,
 		"pipeline_tag": "text-to-speech",
 		"modelId": "tensorspeech/tts-tacotron2-thorsten-ger"
+	},
+	{
+		"private": false,
+		"modelId": "terificknight/Chat-Bot"
+	},
+	{
+		"private": false,
+		"modelId": "terificknight/DialoGPT-small-joshua"
 	},
 	{
 		"private": false,
@@ -97075,102 +97177,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "GammaPTest/e_bot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "anindabitm/sagemaker-distilbert-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "korca/meaning-match-roberta-large"
-	},
-	{
-		"private": false,
-		"modelId": "rafiulrumy/fine_tune_wav2vec2-large-xlsr-chinese_China-colab"
-	},
-	{
-		"private": false,
-		"modelId": "korca/meaning-match-bert-large"
-	},
-	{
-		"private": false,
-		"modelId": "rafiulrumy/wav2vec2-large-xlsr-chinese-china-colab"
-	},
-	{
-		"private": false,
-		"modelId": "terificknight/Chat-Bot"
-	},
-	{
-		"private": false,
-		"modelId": "terificknight/DialoGPT-small-joshua"
-	},
-	{
-		"private": false,
-		"modelId": "aguilara42/silero-vad-wrapper"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcelcastrobr/sagemaker-distilbert-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "edumunozsala/Ruperta_encoder_decoder_es"
-	},
-	{
-		"private": false,
-		"modelId": "amirharati/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "NikolajMunch/danish-emotion-classification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "anindabitm/sagemaker-BioclinicalBERT-ADR"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
-	},
-	{
-		"private": false,
-		"modelId": "christophalt/my-awesome-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
-	},
-	{
-		"private": false,
-		"modelId": "christophalt/test-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "amjadkhatabi/finetuned-ye-ar-en-v1"
-	},
-	{
-		"private": false,
-		"modelId": "shamikbose89/mt5-small-finetuned-arxiv-cs"
-	},
-	{
-		"private": false,
-		"modelId": "Juliet/Teste"
-	},
-	{
-		"private": false,
-		"modelId": "Cloen/DialoGPT-SophIA"
-	},
-	{
-		"private": false,
-		"modelId": "rjzevallos/LlamaRoBERTa"
+		"modelId": "dbmdz/bert-base-finnish-europeana-cased"
 	}
 ]
