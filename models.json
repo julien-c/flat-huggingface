@@ -97136,11 +97136,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
 	},
@@ -97156,5 +97151,14 @@
 	{
 		"private": false,
 		"modelId": "christophalt/test-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/finetuned-ye-ar-en-v1"
+	},
+	{
+		"private": false,
+		"modelId": "shamikbose89/mt5-small-finetuned-arxiv-cs"
 	}
 ]
