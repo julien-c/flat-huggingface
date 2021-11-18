@@ -96846,7 +96846,17 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Backedman/DialoGPT-small-Anika"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.3"
 	}
 ]
