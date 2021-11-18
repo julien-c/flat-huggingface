@@ -31185,6 +31185,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_0.00005_16"
 	},
 	{
@@ -97127,5 +97128,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "NikolajMunch/danish-emotion-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anindabitm/sagemaker-BioclinicalBERT-ADR"
 	}
 ]
