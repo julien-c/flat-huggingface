@@ -31086,6 +31086,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_0.00005_8"
 	},
 	{
@@ -37443,6 +37444,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clulab/roberta-timex-semeval"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cmcmaster/deberta-base-austin"
 	},
 	{
 		"private": false,
@@ -96795,10 +96801,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "wz6/wz6_ST1"
-	},
-	{
-		"private": false,
 		"modelId": "lgris/ted100-xlsr"
 	},
 	{
@@ -96816,19 +96818,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "wz6/wz6_test1"
-	},
-	{
-		"private": false,
 		"modelId": "Safeai/ksic"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "eunjin/fbert-mlm"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "eml914/streaming_transformer_asr_librispeech"
 	},
 	{
@@ -96840,5 +96834,15 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "BigSalmon/T52"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.2-concept-extraction-iir-v1.2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.2-concept-extraction-iir-v1.2"
 	}
 ]
