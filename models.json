@@ -97136,11 +97136,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
+	},
+	{
+		"private": false,
+		"modelId": "christophalt/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.2-concept-extraction-wikipedia-v1.2"
+	},
+	{
+		"private": false,
+		"modelId": "christophalt/test-model"
 	}
 ]
