@@ -2472,6 +2472,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Backedman/DialoGPT-small-Anika"
+	},
+	{
+		"private": false,
 		"modelId": "Badr/model1"
 	},
 	{
@@ -2744,12 +2749,27 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "BigSalmon/T52"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "BigSalmon/T5F"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "BigSalmon/T5Salmon"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "BigSalmon/T5Salmon2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "BigSalmon/TS3"
 	},
 	{
 		"private": false,
@@ -5324,6 +5344,11 @@
 	{
 		"private": false,
 		"modelId": "Fabby/gpt2-english-light-novel-titles"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "FabianGroeger/HotelBERT-small"
 	},
 	{
 		"private": false,
@@ -14279,7 +14304,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.2-concept-extraction-iir-v1.2"
 	},
 	{
 		"private": false,
@@ -14359,6 +14394,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0-concept-extraction-kp20k-v1.0"
 	},
 	{
@@ -14375,6 +14415,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.2-concept-extraction-iir-v1.2"
 	},
 	{
 		"private": false,
@@ -21511,6 +21556,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "RREXIONN/onetwo"
+	},
+	{
+		"private": false,
 		"modelId": "RTGuo/1st_model"
 	},
 	{
@@ -23930,6 +23979,10 @@
 	{
 		"private": false,
 		"modelId": "Sadaf/God"
+	},
+	{
+		"private": false,
+		"modelId": "Safeai/ksic"
 	},
 	{
 		"private": false,
@@ -34186,6 +34239,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/internal-states-peek"
+	},
+	{
+		"private": false,
 		"modelId": "bigscience/misc-test-data"
 	},
 	{
@@ -36879,6 +36936,10 @@
 	{
 		"private": false,
 		"modelId": "chnyangs/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "cho/bart-large-cnn-samsum"
 	},
 	{
 		"private": false,
@@ -40188,6 +40249,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "dreji18/mymodel"
+	},
+	{
+		"private": false,
 		"modelId": "drelso/word_embedding_baseline"
 	},
 	{
@@ -40938,6 +41004,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "eml914/streaming_transformer_asr_librispeech"
+	},
+	{
+		"private": false,
 		"modelId": "emma19/speech-recognition"
 	},
 	{
@@ -41155,6 +41226,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "erica/kob900"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "erica/krm_fin"
 	},
 	{
 		"private": false,
@@ -63949,6 +64025,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jamiewjm/CCGwGPT2extep2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jamiewjm/CCGwGPT2extep3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jamiewjm/CCGwGPT2extep5"
+	},
+	{
+		"private": false,
 		"modelId": "jamilxt/hhhyy"
 	},
 	{
@@ -64328,6 +64419,10 @@
 	{
 		"private": false,
 		"modelId": "jespinozaq/hamlet-chatbot"
+	},
+	{
+		"private": false,
+		"modelId": "jessiejohnson/wav2vec2-base-demo-colab-for-word-rec"
 	},
 	{
 		"private": false,
@@ -67900,6 +67995,18 @@
 	},
 	{
 		"private": false,
+		"modelId": "lgris/sid10-xlsr"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/ted100-xlsr"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/voxforge1-xlsr"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-large-xlsr-open-brazilian-portuguese-v2"
 	},
@@ -68280,6 +68387,11 @@
 	{
 		"private": false,
 		"modelId": "lindad2020/lindad2020"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "linkpipi/distilbert-base-uncased-finetuned-sst2"
 	},
 	{
 		"private": false,
@@ -74310,6 +74422,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "muhtasham/distilbert-base-uncased-finetuned-cuad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "muirkat/tolkien-mythopoeic-gen"
 	},
@@ -79414,7 +79530,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "pitoneros/NER_LAW_MONEY4"
+	},
+	{
+		"private": false,
 		"modelId": "pitoneros/necesitamos_un_mejor_nombre"
+	},
+	{
+		"private": false,
+		"modelId": "pitoneros/prue"
 	},
 	{
 		"private": false,
@@ -80517,6 +80642,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "qinluo/wobert-chinese-plus"
+	},
+	{
+		"private": false,
 		"modelId": "qlh/word2vec"
 	},
 	{
@@ -80717,11 +80847,19 @@
 	},
 	{
 		"private": false,
+		"modelId": "rafanegrette/t5_spa_gua"
+	},
+	{
+		"private": false,
 		"modelId": "rafio/argentina"
 	},
 	{
 		"private": false,
 		"modelId": "rafiulrumy/fine_tune_wav2vec2-large-xlsr-french-colab"
+	},
+	{
+		"private": false,
+		"modelId": "rafiulrumy/wav2vec2-large-xlsr-irish-colab"
 	},
 	{
 		"private": false,
@@ -88256,6 +88394,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "stmnk/codet5-small-code-summarization-python"
+	},
+	{
+		"private": false,
 		"modelId": "stocksenti/stocksentiBertFinancial"
 	},
 	{
@@ -89745,6 +89888,10 @@
 	{
 		"private": false,
 		"modelId": "tekodukunnangendiseh/ryghrfgbdfgh"
+	},
+	{
+		"private": false,
+		"modelId": "tekodukunnangendiseh/rytgyhrtfgfg"
 	},
 	{
 		"private": false,
@@ -91597,6 +91744,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "tucan9389/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "tucan9389/kcbert-base-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -96731,157 +96883,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "pitoneros/NER_LAW_MONEY4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "BigSalmon/T5F"
-	},
-	{
-		"private": false,
-		"modelId": "pitoneros/prue"
-	},
-	{
-		"private": false,
-		"modelId": "lgris/sid10-xlsr"
-	},
-	{
-		"private": false,
-		"modelId": "tekodukunnangendiseh/rytgyhrtfgfg"
-	},
-	{
-		"private": false,
-		"modelId": "rafanegrette/t5_spa_gua"
-	},
-	{
-		"private": false,
-		"modelId": "RREXIONN/onetwo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "tucan9389/kcbert-base-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "lgris/ted100-xlsr"
-	},
-	{
-		"private": false,
-		"modelId": "muhtasham/distilbert-base-uncased-finetuned-cuad"
-	},
-	{
-		"private": false,
-		"modelId": "lgris/voxforge1-xlsr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "stmnk/codet5-small-code-summarization-python"
-	},
-	{
-		"private": false,
-		"modelId": "Safeai/ksic"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "eml914/streaming_transformer_asr_librispeech"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "erica/krm_fin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "BigSalmon/T52"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.2-concept-extraction-iir-v1.2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.2-concept-extraction-iir-v1.2"
-	},
-	{
-		"private": false,
-		"modelId": "jessiejohnson/wav2vec2-base-demo-colab-for-word-rec"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Backedman/DialoGPT-small-Anika"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-cased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-wikipedia-v1.0-concept-extraction-iir-v1.3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "dreji18/mymodel"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "BigSalmon/TS3"
-	},
-	{
-		"private": false,
-		"modelId": "rafiulrumy/wav2vec2-large-xlsr-irish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "qinluo/wobert-chinese-plus"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "linkpipi/distilbert-base-uncased-finetuned-sst2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "FabianGroeger/HotelBERT-small"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/internal-states-peek"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "jamiewjm/CCGwGPT2extep3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "jamiewjm/CCGwGPT2extep5"
-	},
-	{
-		"private": false,
-		"modelId": "cho/bart-large-cnn-samsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "jamiewjm/CCGwGPT2extep2"
 	}
 ]
