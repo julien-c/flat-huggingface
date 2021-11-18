@@ -41172,11 +41172,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "erica/krm_fin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "ericchchiu/dummy-model"
 	},
 	{
@@ -96795,6 +96790,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "tucan9389/kcbert-base-finetuned-squad"
 	},
 	{
@@ -96825,5 +96821,24 @@
 	{
 		"private": false,
 		"modelId": "Safeai/ksic"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "eunjin/fbert-mlm"
+	},
+	{
+		"private": false,
+		"modelId": "eml914/streaming_transformer_asr_librispeech"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "erica/krm_fin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "BigSalmon/T52"
 	}
 ]
