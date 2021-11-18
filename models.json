@@ -96969,11 +96969,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/cv-layoutxlm-parser-micro"
-	},
-	{
-		"private": false,
 		"modelId": "huyue012/wav2vec2-base-cynthia-tedlium-2500-v2"
 	},
 	{
@@ -97000,5 +96995,19 @@
 	{
 		"private": false,
 		"modelId": "rory-hurley-gds/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Voysen/2021-11-12-camembert-3sa-quotes-fr"
+	},
+	{
+		"private": false,
+		"modelId": "Voysen/2021-11-12-roberta-3sa-quotes-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "manu/cv-layoutxlm-parser-macro"
 	}
 ]
