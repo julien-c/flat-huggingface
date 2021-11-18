@@ -33072,6 +33072,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/my12layermodel"
+	},
+	{
+		"private": false,
 		"modelId": "athar/rob-model-finetuned-squad"
 	},
 	{
@@ -97177,10 +97182,17 @@
 	},
 	{
 		"private": false,
-		"modelId": "amjadkhatabi/finetuned-ye-ar-en-v1-finetuned-ar-to-en"
+		"pipeline_tag": "fill-mask",
+		"modelId": "dbmdz/bert-base-swedish-europeana-cased"
 	},
 	{
 		"private": false,
-		"modelId": "dbmdz/bert-base-swedish-europeana-cased"
+		"pipeline_tag": "fill-mask",
+		"modelId": "dbmdz/bert-base-historic-english-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/finetuned-ye-ar-en-v2"
 	}
 ]
