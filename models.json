@@ -97189,17 +97189,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "maxidl/iML-distilbert-base-uncased-predictor"
-	},
-	{
-		"private": false,
 		"modelId": "sachinsachdeva/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "maxidl/iML-distilbert-base-uncased-selector"
 	},
 	{
 		"private": false,
@@ -97211,6 +97201,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "maxidl/iML-distilbert-base-uncased-select"
+	},
+	{
+		"private": false,
+		"modelId": "rory-hurley-gds/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "maxidl/iML-distilbert-base-uncased-predict"
 	}
 ]
