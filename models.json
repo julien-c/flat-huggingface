@@ -43103,6 +43103,48 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "facebook/wav2vec2-xls-r-1b-21-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "facebook/wav2vec2-xls-r-1b-en-to-15"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/wav2vec2-xls-r-1b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "facebook/wav2vec2-xls-r-2b-21-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "facebook/wav2vec2-xls-r-2b-22-to-16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "facebook/wav2vec2-xls-r-2b-en-to-15"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/wav2vec2-xls-r-2b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "facebook/wav2vec2-xls-r-300m-en-to-15"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/wav2vec2-xls-r-300m"
+	},
+	{
+		"private": false,
 		"modelId": "facebook/wav2vec2-xlsr-53-espeak-cv-ft"
 	},
 	{
@@ -65706,6 +65748,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "jrbarnard/t5-generate-answer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jroussin/gpt2-ontapdoc-gen"
 	},
 	{
 		"private": false,
@@ -97007,7 +97054,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/cv-layoutxlm-parser-macro"
+		"modelId": "callmeJ/mbart-large-50-many-to-many-mmt-finetuned-Kor-to-Vie"
 	}
 ]
