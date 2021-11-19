@@ -36750,11 +36750,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-wo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-bigram-senary"
 	},
@@ -97537,10 +97532,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "julsimon-test/reuters-summarization"
+		"modelId": "AlanDev/dall-e-better"
 	},
 	{
 		"private": false,
-		"modelId": "AlanDev/dall-e-better"
+		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-wo-temp"
+	},
+	{
+		"private": false,
+		"modelId": "cestwc/bart-base-wo"
 	}
 ]
