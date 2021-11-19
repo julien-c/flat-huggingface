@@ -24652,6 +24652,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Seonguk/textSummarization"
 	},
 	{
@@ -68987,6 +68988,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "loubau/WoBERT"
+	},
+	{
+		"private": false,
 		"modelId": "louwjlab/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -70859,6 +70865,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-ewe-fr-mt"
 	},
 	{
@@ -70868,6 +70875,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-fr-ewe-mt"
 	},
 	{
@@ -97461,15 +97469,23 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
-	},
-	{
-		"private": false,
 		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence-supercats"
 	},
 	{
 		"private": false,
 		"modelId": "hf-internal-testing/tiny-random-bert-tf-only"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mschwab/va_bert_classification"
+	},
+	{
+		"private": false,
+		"modelId": "Thatianexsilva/That"
+	},
+	{
+		"private": false,
+		"modelId": "Xibanya/AestheticCities"
 	}
 ]
