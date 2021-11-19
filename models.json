@@ -4196,6 +4196,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "DataikuNLP/tiny-random-bert"
+	},
+	{
+		"private": false,
 		"modelId": "Dave/twomad-model"
 	},
 	{
@@ -14358,6 +14362,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.0-concept-extraction-kp20k-v1.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.0-concept-extraction-kp20k-v1.3"
 	},
 	{
 		"private": false,
@@ -28322,6 +28331,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ab20211112/finetuned-subsidies"
+	},
+	{
+		"private": false,
 		"modelId": "ab20211112/gelectra-base-germanquad-finetuned-squad"
 	},
 	{
@@ -28406,6 +28419,11 @@
 	{
 		"private": false,
 		"modelId": "abhibisht89/neural-search-engine-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "abhibisht89/spanbert-large-cased-finetuned-ade_corpus_v2"
 	},
 	{
 		"private": false,
@@ -29192,6 +29210,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/Run_4_7000_t5-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "adityay1221/codet5-base_ep_10"
 	},
 	{
 		"private": false,
@@ -31057,6 +31080,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "alvp/alberti-bert-base-multilingual-cased"
+	},
+	{
+		"private": false,
+		"modelId": "alvp/alberti-stanzas"
+	},
+	{
+		"private": false,
 		"modelId": "amaleshv/gender_detection"
 	},
 	{
@@ -31123,6 +31154,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "amazon/bort"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "amazon-sagemaker-community/xlm-roberta-en-ru-emoji-v2"
 	},
 	{
 		"private": false,
@@ -40154,6 +40190,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "dksharp108/wav2vec2-base-hindi-demo-colab"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "dkurt/bert-large-uncased-whole-word-masking-squad-int8-0001"
 	},
@@ -48004,6 +48044,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "gorkemgoknar/gpt2-turkish-writer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "gorkemgoknar/gpt2chatbotenglish"
 	},
 	{
 		"private": false,
@@ -63810,6 +63855,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "iokru/c1-1.3B"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ionite/DialoGPT-medium-IoniteAI"
 	},
@@ -70567,6 +70616,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "marcelcastrobr/sagemaker-distilbert-emotion-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcelcastrobr/sagemaker-distilbert-emotion"
 	},
 	{
@@ -70715,7 +70769,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/byt5-base-ewe-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/byt5-base-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/byt5-base-fr-ewe-mt"
 	},
 	{
 		"private": false,
@@ -70735,7 +70799,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/m2m100_418M-ewe-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/m2m100_418M-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "masakhane/m2m100_418M-fr-ewe-mt"
 	},
 	{
 		"private": false,
@@ -70754,8 +70828,16 @@
 	},
 	{
 		"private": false,
+		"modelId": "masakhane/mbart50-large-ewe-fr-mt"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mbart50-large-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/mbart50-large-fr-ewe-mt"
 	},
 	{
 		"private": false,
@@ -70774,8 +70856,16 @@
 	},
 	{
 		"private": false,
+		"modelId": "masakhane/mt5-base-ewe-fr-mt"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-fon-fr-mt"
+	},
+	{
+		"private": false,
+		"modelId": "masakhane/mt5-base-fr-ewe-mt"
 	},
 	{
 		"private": false,
@@ -80059,6 +80149,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "poom-sci/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
 		"modelId": "poom-sci/speech_recog_test"
 	},
 	{
@@ -80923,6 +81017,21 @@
 		"private": false,
 		"pipeline_tag": "voice-activity-detection",
 		"modelId": "pyannote/segmentation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-deacc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-uncased"
 	},
 	{
 		"private": false,
@@ -82378,6 +82487,10 @@
 	{
 		"private": false,
 		"modelId": "ronalddt/test"
+	},
+	{
+		"private": false,
+		"modelId": "rory-hurley-gds/bert-hi-ner"
 	},
 	{
 		"private": false,
@@ -85378,6 +85491,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "shivam2121997/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
 		"modelId": "shivamaggr/exploring"
 	},
 	{
@@ -85429,6 +85546,15 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "shivkumarganesh/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "shivkumarganesh/vision-transformer-fmri-classification-ft"
+	},
+	{
+		"private": false,
+		"modelId": "shivkumarganesh/vision_transformer_fmri_classification_ft"
 	},
 	{
 		"private": false,
@@ -90188,6 +90314,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "teacookies/autonlp-roberta-base-squad2-24465525"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "team-writing-assistant/t5-base-c4jfleg"
 	},
 	{
 		"private": false,
@@ -97306,138 +97437,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DataikuNLP/tiny-random-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-iir-v1.0-concept-extraction-kp20k-v1.3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "team-writing-assistant/t5-base-c4jfleg"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "gorkemgoknar/gpt2chatbotenglish"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "amazon-sagemaker-community/xlm-roberta-en-ru-emoji-v2"
-	},
-	{
-		"private": false,
-		"modelId": "alvp/alberti-stanzas"
-	},
-	{
-		"private": false,
-		"modelId": "poom-sci/distilgpt2-finetuned-wikitext2"
-	},
-	{
-		"private": false,
-		"modelId": "dksharp108/wav2vec2-base-hindi-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "masakhane/mbart50-large-fr-ewe-mt"
-	},
-	{
-		"private": false,
-		"modelId": "masakhane/mbart50-large-ewe-fr-mt"
-	},
-	{
-		"private": false,
-		"modelId": "masakhane/mt5-base-fr-ewe-mt"
-	},
-	{
-		"private": false,
-		"modelId": "masakhane/mt5-base-ewe-fr-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/byt5-base-fr-ewe-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/byt5-base-ewe-fr-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/m2m100_418M-fr-ewe-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "masakhane/m2m100_418M-ewe-fr-mt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "abhibisht89/spanbert-large-cased-finetuned-ade_corpus_v2"
-	},
-	{
-		"private": false,
-		"modelId": "alvp/alberti-bert-base-multilingual-cased"
-	},
-	{
-		"private": false,
-		"modelId": "shivam2121997/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "pysentimiento/robertuito-base-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "pysentimiento/robertuito-base-uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "pysentimiento/robertuito-base-deacc"
-	},
-	{
-		"private": false,
-		"modelId": "shivkumarganesh/vision_transformer_fmri_classification_ft"
-	},
-	{
-		"private": false,
-		"modelId": "ab20211112/finetuned-subsidies"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "adityay1221/codet5-base_ep_10"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "shivkumarganesh/vision-transformer-fmri-classification-ft"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "alvp/autonlp-alberti-stanzas-finetuning-34308163"
-	},
-	{
-		"private": false,
-		"modelId": "rory-hurley-gds/bert-hi-ner"
-	},
-	{
-		"private": false,
-		"modelId": "iokru/c1-1.3B"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcelcastrobr/sagemaker-distilbert-emotion-2"
+		"modelId": "ying-tina/wav2vec2-base-timit-demo-colab"
 	}
 ]
