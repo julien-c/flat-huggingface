@@ -24643,6 +24643,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Seonguk/textSummarization"
 	},
 	{
@@ -29191,10 +29192,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/Run_4_7000_t5-base"
-	},
-	{
-		"private": false,
-		"modelId": "adityay1221/t5-v1_1-large_ep_5"
 	},
 	{
 		"private": false,
@@ -43777,22 +43774,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "finiteautomata/robertuito-base-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "finiteautomata/robertuito-base-deacc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "finiteautomata/robertuito-base-uncased-200k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "finiteautomata/robertuito-base-uncased"
 	},
 	{
 		"private": false,
@@ -97385,10 +97367,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/m2m100_418M-fr-ewe-mt"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/m2m100_418M-ewe-fr-mt"
 	},
 	{
@@ -97402,10 +97386,41 @@
 	},
 	{
 		"private": false,
-		"modelId": "rory-hurley-gds/bert-finetuned-ner"
+		"modelId": "shivam2121997/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
-		"modelId": "shivam2121997/distilbert-base-uncased-finetuned-squad"
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-deacc"
+	},
+	{
+		"private": false,
+		"modelId": "shivkumarganesh/vision_transformer_fmri_classification_ft"
+	},
+	{
+		"private": false,
+		"modelId": "ab20211112/finetuned-subsidies"
+	},
+	{
+		"private": false,
+		"modelId": "adityay1221/codet5-base_ep_10"
+	},
+	{
+		"private": false,
+		"modelId": "shivkumarganesh/vision-transformer-fmri-classification-ft"
+	},
+	{
+		"private": false,
+		"modelId": "rory-hurley-gds/bert-hi-ner"
 	}
 ]
