@@ -4196,10 +4196,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DataikuNLP/tiny-random-bert"
-	},
-	{
-		"private": false,
 		"modelId": "Dave/twomad-model"
 	},
 	{
@@ -63856,7 +63852,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "iokru/c1-1.3B"
 	},
 	{
@@ -66054,6 +66050,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "jsylee/scibert_scivocab_uncased-finetuned-ner"
 	},
 	{
@@ -72632,6 +72629,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mmcquade11/autonlp-imdb-test-21134453"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mmcquade11/autonlp-reuters-summarization-34018133"
 	},
 	{
 		"private": false,
@@ -97486,7 +97488,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "Muennighoff/tiny-random-bert"
+		"modelId": "Xibanya/AestheticCities"
 	},
 	{
 		"private": false,
@@ -97495,10 +97497,6 @@
 	{
 		"private": false,
 		"modelId": "shamikbose89/mt5-small-finetuned-arxiv-cs-finetuned-arxiv-cs-full"
-	},
-	{
-		"private": false,
-		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
 	},
 	{
 		"private": false,
@@ -97519,5 +97517,30 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner2.0"
+	},
+	{
+		"private": false,
+		"modelId": "Muennighoff/tiny-random-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "adityay1221/m2m100_418M_ep_10"
+	},
+	{
+		"private": false,
+		"modelId": "DataikuNLP/tiny-random-bert"
+	},
+	{
+		"private": false,
+		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence-subcats"
+	},
+	{
+		"private": false,
+		"modelId": "julsimon-test/reuters-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "AlanDev/dall-e-better"
 	}
 ]
