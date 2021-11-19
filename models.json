@@ -49344,6 +49344,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "hf-internal-testing/tiny-random-distilbert"
 	},
 	{
@@ -97460,6 +97461,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence-supercats"
+	},
+	{
+		"private": false,
+		"modelId": "hf-internal-testing/tiny-random-bert-tf-only"
 	}
 ]
