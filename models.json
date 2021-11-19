@@ -31255,6 +31255,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_0.0005_8"
 	},
 	{
@@ -97413,14 +97414,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/codet5-base_ep_10"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "shivkumarganesh/vision-transformer-fmri-classification-ft"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "alvp/autonlp-alberti-stanzas-finetuning-34308163"
+	},
+	{
+		"private": false,
 		"modelId": "rory-hurley-gds/bert-hi-ner"
+	},
+	{
+		"private": false,
+		"modelId": "iokru/c1-1.3B"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcelcastrobr/sagemaker-distilbert-emotion-2"
 	}
 ]
