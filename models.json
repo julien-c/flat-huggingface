@@ -97557,6 +97557,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "amazon-sagemaker-community/encoder_decoder_es"
 	},
 	{
@@ -97653,5 +97654,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jpabbuehl/sagemaker-distilbert-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "boris/dalle-mini-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "czuk/herbert-large-ner-nkjp"
 	}
 ]
