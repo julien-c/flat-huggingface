@@ -63855,6 +63855,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "iokru/c1-1.3B"
 	},
 	{
@@ -70828,6 +70829,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mbart50-large-ewe-fr-mt"
 	},
 	{
@@ -70837,6 +70839,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mbart50-large-fr-ewe-mt"
 	},
 	{
@@ -77311,10 +77314,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nws/test_model"
-	},
-	{
-		"private": false,
-		"modelId": "nykodmar/wav2vec2-large-xlsr-czech-1"
 	},
 	{
 		"private": false,
@@ -97451,5 +97450,9 @@
 	{
 		"private": false,
 		"modelId": "lunana/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "nykodmar/wav2vec2-large-xlsr-czech-1"
 	}
 ]
