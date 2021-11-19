@@ -85344,7 +85344,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "shamikbose89/mt5-small-finetuned-arxiv-cs"
 	},
 	{
@@ -97491,6 +97491,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "shamikbose89/mt5-small-finetuned-arxiv-cs-finetuned-arxiv-cs-full"
 	},
 	{
@@ -97551,6 +97552,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.0-concept-extraction-wikipedia-v1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jshu/gpt2-medium-ontapdoc-gen-2"
 	},
 	{
 		"private": false,
