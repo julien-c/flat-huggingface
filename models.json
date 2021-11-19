@@ -82471,6 +82471,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "rohansingh/autonlp-Fake-news-detection-system-29906871"
+	},
+	{
+		"private": false,
 		"modelId": "rohitkatlaa/Longformer-pcra-trained"
 	},
 	{
@@ -82733,11 +82738,6 @@
 	{
 		"private": false,
 		"modelId": "saafpk/saafpk"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "saattrupdan/contract-ner-model-da"
 	},
 	{
 		"private": false,
@@ -97546,5 +97546,15 @@
 	{
 		"private": false,
 		"modelId": "cestwc/bart-base-wo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.0-concept-extraction-wikipedia-v1.3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "saattrupdan/employment-contract-ner-da"
 	}
 ]
