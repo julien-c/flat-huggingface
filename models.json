@@ -97848,6 +97848,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Lauler/demformer"
 	},
 	{
@@ -97890,6 +97891,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Azuris/DialoGPT-small-envy"
+	},
+	{
+		"private": false,
+		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-additionalpretrained-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "YashBit/roberta-base-finetuned-sst2"
 	}
 ]
