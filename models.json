@@ -25325,10 +25325,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner2.0"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/spanberta-base-cased-ner-conll02-finetuned-ner"
 	},
@@ -97783,7 +97779,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cestwc/bart-base-wo"
 	},
 	{
@@ -97802,6 +97798,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Leisa/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -97810,11 +97807,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "majesus/RickBot2"
+		"modelId": "tekodukunnangendiseh/rtyhtghrtfghfh"
 	},
 	{
 		"private": false,
-		"modelId": "tekodukunnangendiseh/rtyhtghrtfghfh"
+		"modelId": "Leisa/distilbert-base-uncased-finetuned-imdb-accelerate"
 	}
 ]
