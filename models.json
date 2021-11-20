@@ -36922,11 +36922,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-wo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-bigram-senary"
 	},
@@ -97794,6 +97789,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "arvalinno/albert-base-v2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-wo-temm"
+	},
+	{
+		"private": false,
+		"modelId": "kumari121/wav2vec2-base-timit-demo-colab"
 	}
 ]
