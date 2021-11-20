@@ -80608,6 +80608,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "prithivida/grammar_error_correcter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "prithivida/grammar_error_correcter_v1"
 	},
 	{
@@ -82271,10 +82276,6 @@
 	{
 		"private": false,
 		"modelId": "rith87/distilbert-base-uncased-trained"
-	},
-	{
-		"private": false,
-		"modelId": "riversoft-brian/ner"
 	},
 	{
 		"private": false,
@@ -97719,14 +97720,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "riversoft-brian/ckip-ner-model-for-para"
+	},
+	{
+		"private": false,
 		"modelId": "trnt/test-trainer"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "trnt/twitter_emotions"
 	},
 	{
 		"private": false,
 		"modelId": "Ashagi/Ashvx"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ionite/DialoGPT-medium-McKayAI-v2"
+	},
+	{
+		"private": false,
+		"modelId": "akahana/gpt2-indonesia-pendongeng-handal"
 	}
 ]
