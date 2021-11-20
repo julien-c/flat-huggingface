@@ -36917,11 +36917,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-wo-temp"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-bigram-senary"
 	},
@@ -36933,16 +36928,6 @@
 	{
 		"private": false,
 		"modelId": "cestwc/roberta-base-bow"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ-tem"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
 	},
 	{
 		"private": false,
@@ -82733,11 +82718,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "rohansingh/autonlp-Fake-news-detection-system-29906871"
-	},
-	{
-		"private": false,
 		"modelId": "rohitkatlaa/Longformer-pcra-trained"
 	},
 	{
@@ -97800,5 +97780,19 @@
 	{
 		"private": false,
 		"modelId": "kumari121/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/bart-base-wo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ-temp"
+	},
+	{
+		"private": false,
+		"modelId": "cestwc/roberta-base-occ"
 	}
 ]
