@@ -31485,6 +31485,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/finetuned-ymn-ar-en-v2"
+	},
+	{
+		"private": false,
 		"modelId": "amjadkhatabi/mbart-large-50-many-to-many-mmt-finetuned-ar-to-en"
 	},
 	{
@@ -44140,7 +44145,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "flakje/DialoGPT-small-Marty"
 	},
 	{
@@ -97883,10 +97888,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "amjadkhatabi/opus-mt-ar-en-finetuned-ar-to-en"
-	},
-	{
-		"private": false,
 		"modelId": "arvalinno/distilbert-base-uncased-finetuned-indosquad-v2"
 	},
 	{
@@ -97896,10 +97897,31 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-additionalpretrained-roberta-base"
 	},
 	{
 		"private": false,
 		"modelId": "YashBit/roberta-base-finetuned-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "asdurigon/asdurigon"
+	},
+	{
+		"private": false,
+		"modelId": "amjadkhatabi/finetuned-ymn-ar-en-v2-finetuned-ar-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "kumari121/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "cointegrated/bart-base-detox-10000-7"
+	},
+	{
+		"private": false,
+		"modelId": "asdurigon/Hjhj"
 	}
 ]
