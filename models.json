@@ -31276,6 +31276,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_0.0005_16"
 	},
 	{
@@ -97729,6 +97730,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "akahana/gpt2-indonesia-pendongeng-handal"
 	},
 	{
@@ -97739,5 +97741,10 @@
 	{
 		"private": false,
 		"modelId": "adityay1221/m2m100_1.2B_ep_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "adityay1221/t5-base-finetuned-wikiSQL_ep_10"
 	}
 ]
