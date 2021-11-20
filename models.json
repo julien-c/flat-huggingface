@@ -80228,6 +80228,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "pixyz/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -83786,11 +83787,6 @@
 	{
 		"private": false,
 		"modelId": "satoseiji/hybridsato"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "satpalsr/t5-base-jfleg"
 	},
 	{
 		"private": false,
@@ -97829,5 +97825,10 @@
 	{
 		"private": false,
 		"modelId": "Lolamarcon/Migo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "IlyaGusev/rut5-base-sum-gazeta"
 	}
 ]
