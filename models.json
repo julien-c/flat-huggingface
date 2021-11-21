@@ -98191,11 +98191,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "edumunozsala/bertin2bertin_news_highlights"
-	},
-	{
-		"private": false,
 		"modelId": "Adityanawal/testmodel_1"
 	},
 	{
@@ -98250,5 +98245,10 @@
 	{
 		"private": false,
 		"modelId": "ueb1/IceBERT-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "mrm8488/deberta-v3-small-finetuned-squad"
 	}
 ]
