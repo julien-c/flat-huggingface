@@ -31418,6 +31418,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_0.0001_8"
 	},
 	{
@@ -97960,11 +97961,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Ulto/avengeeers"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "znak/DialoGPT-medium-verdigris"
+	},
+	{
+		"private": false,
+		"modelId": "Ulto/avengers"
 	}
 ]
