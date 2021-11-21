@@ -98059,10 +98059,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Abirate/bert_fine_tunded_cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "akahana/gpt2-indonesia-pemandu-senja"
 	},
@@ -98090,7 +98086,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/mo_turse"
+	},
+	{
+		"private": false,
 		"modelId": "Abirate/bert_fine_tuned_cola"
 	}
 ]
