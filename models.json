@@ -34055,16 +34055,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "basarends/dutch_medical_mbert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "basarends/dutch_medical_robbert"
-	},
-	{
-		"private": false,
 		"modelId": "bashar/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -37129,16 +37119,6 @@
 	{
 		"private": false,
 		"modelId": "cestwc/roberta-base-bow"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ-tem"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
 	},
 	{
 		"private": false,
@@ -98158,5 +98138,19 @@
 	{
 		"private": false,
 		"modelId": "wesam266/wav2vec2-large-xls-r-300m-en_non_native-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ-temm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
+		"modelId": "glafira/diodpepeep"
 	}
 ]
