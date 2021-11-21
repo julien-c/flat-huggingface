@@ -97741,17 +97741,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-wo-temm"
-	},
-	{
-		"private": false,
 		"modelId": "kumari121/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-wo"
 	},
 	{
 		"private": false,
@@ -97851,6 +97841,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "arvalinno/distilbert-base-uncased-finetuned-indosquad-v2"
 	},
 	{
@@ -97996,5 +97987,19 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-wo-temp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-wo"
+	},
+	{
+		"private": false,
+		"modelId": "Leisa/marian-finetuned-kde4-en-to-fr"
 	}
 ]
