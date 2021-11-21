@@ -98179,6 +98179,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "amjadkhatabi/large-common-ar-ymn-en"
+	},
+	{
+		"private": false,
 		"modelId": "KrishParikh/gpt2_imdb_movie_plots"
 	},
 	{
@@ -98199,6 +98204,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "rebeccakoganlee/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -98209,5 +98215,14 @@
 	{
 		"private": false,
 		"modelId": "Ulto/pythonCoPilot"
+	},
+	{
+		"private": false,
+		"modelId": "ellziez/me"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mrm8488/deberta-v3-small-finetuned-sst2"
 	}
 ]
