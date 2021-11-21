@@ -31582,6 +31582,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_0.0001_16"
 	},
 	{
@@ -98153,5 +98154,14 @@
 	{
 		"private": false,
 		"modelId": "glafira/diodpepeep"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "camilodefelipe/t5_squad_v1_es"
+	},
+	{
+		"private": false,
+		"modelId": "andreiliphdpr/distilbert-base-uncased-finetuned-ner"
 	}
 ]
