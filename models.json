@@ -40434,11 +40434,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "dhlpricing/MyRoBERTaMLM-cased-v1"
-	},
-	{
-		"private": false,
 		"modelId": "dhong/losad"
 	},
 	{
@@ -84477,6 +84472,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "scales-okn/deberta-v3-base-dtlm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "scales-okn/deberta-v3-base-ptc"
 	},
@@ -98709,6 +98709,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/bart-mlm-pubmed-45"
 	},
 	{
@@ -98727,6 +98728,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Peterard/distilbert_bug_classifier"
 	},
 	{
