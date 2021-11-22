@@ -98482,6 +98482,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "sguskin/dynamic_tinybert"
 	},
 	{
@@ -98493,5 +98494,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "shibing624/macbert4csc-base-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "papluca/xlm-roberta-base-finetuned-language-detection"
 	}
 ]
