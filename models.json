@@ -16382,10 +16382,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kryptone/GPT2Jaiden"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Kryptone/RinAI"
 	},
@@ -27293,6 +27289,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "UBC-NLP/MARBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "UBIAI/en_scibert_ScienceIE"
 	},
 	{
 		"private": false,
@@ -75828,11 +75829,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nadahlberg/qgen"
-	},
-	{
-		"private": false,
 		"modelId": "nadiafelix/LegalSentenceBertPT-BR"
 	},
 	{
@@ -98560,19 +98556,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "diiogo/albert-utils"
-	},
-	{
-		"private": false,
 		"modelId": "finiteautomata/robertuito-irony"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pysentimiento/robertuito-irony"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MarcBrun/ixambert-finetuned-squad-2"
+		"pipeline_tag": "text-classification",
+		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-additionalpretrained-indic-bert"
 	}
 ]
