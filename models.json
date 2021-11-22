@@ -98456,6 +98456,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "akahana/wav2vec2-base-indonesia"
+	},
+	{
+		"private": false,
 		"modelId": "hsekhalilian/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -98468,10 +98472,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "oliverguhr/fullstop-punctuation-multilang-large"
 	},
 	{
 		"private": false,
 		"modelId": "K-Mitsuhiro/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "shibing624/macbert-base-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "sguskin/dynamic_tinybert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "mrm8488/deberta-v3-small-finetuned-squadv2"
 	}
 ]
