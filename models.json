@@ -98318,6 +98318,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "austin/deberta-pretrained"
 	},
 	{
@@ -98481,16 +98482,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "shibing624/macbert-base-chinese"
-	},
-	{
-		"private": false,
 		"modelId": "sguskin/dynamic_tinybert"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "mrm8488/deberta-v3-small-finetuned-squadv2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "shibing624/macbert4csc-base-chinese"
 	}
 ]
