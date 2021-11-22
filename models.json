@@ -98624,6 +98624,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Jipski/Flos_gpt-2"
+	},
+	{
+		"private": false,
 		"modelId": "SophieTr/results"
 	},
 	{
@@ -98637,5 +98642,22 @@
 	{
 		"private": false,
 		"modelId": "FloKit/bert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "samantharhay/wav2vec2-base-zenodo-eval_zenodo_test"
+	},
+	{
+		"private": false,
+		"modelId": "gayanin/t5-small-mlm-pubmed-15"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Jacobo/grc_ud_perseus_dioberto"
+	},
+	{
+		"private": false,
+		"modelId": "apeguero/wav2vec2-large-xls-r-300m-tr-colab2"
 	}
 ]
