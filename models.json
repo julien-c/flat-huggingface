@@ -19075,12 +19075,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "MoritzLaurer/DeBERTa-v3-base-mnli"
 	},
 	{
@@ -98650,6 +98650,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/t5-small-mlm-pubmed-15"
 	},
 	{
@@ -98680,6 +98681,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/bart-mlm-pubmed-35"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/bert-large-cased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MoritzLaurer/MiniLM-L6-mnli-fever-docnli-ling-2c"
+	},
+	{
+		"private": false,
+		"modelId": "ErickMM98/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "AccurateIsaiah/DialoGPT-small-mozark"
 	}
 ]
