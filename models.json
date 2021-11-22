@@ -88804,6 +88804,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sszyr/finetuned-bert-bounti"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "st1992/bert-restore-punctuation"
 	},
@@ -98699,6 +98704,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "AccurateIsaiah/DialoGPT-small-mozark"
+	},
+	{
+		"private": false,
+		"modelId": "gayanin/bart-mlm-pubmed-45"
+	},
+	{
+		"private": false,
+		"modelId": "gayanin/t5-small-mlm-pubmed-35"
 	}
 ]
