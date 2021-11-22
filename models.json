@@ -98522,6 +98522,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pysentimiento/robertuito-emotion-analysis"
 	},
 	{
@@ -98531,5 +98532,10 @@
 	{
 		"private": false,
 		"modelId": "team-indain-image-caption/hindi-image-captioning"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-additionalpretrained-distilbert-base-cased"
 	}
 ]
