@@ -98421,11 +98421,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/my22model"
-	},
-	{
-		"private": false,
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_dropout_0.0003_8"
 	},
 	{
@@ -98439,5 +98434,18 @@
 	{
 		"private": false,
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_dropout_0.0001_16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ltrctelugu/ltrc-distilbert"
+	},
+	{
+		"private": false,
+		"modelId": "renBaikau/inf0rm"
+	},
+	{
+		"private": false,
+		"modelId": "renBaikau/alphaDelay"
 	}
 ]
