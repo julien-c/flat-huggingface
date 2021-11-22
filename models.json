@@ -98542,6 +98542,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "deepklarity/poster2plot"
 	},
 	{
@@ -98623,11 +98624,18 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Jipski/Flos_gpt-2"
+		"modelId": "SophieTr/results"
 	},
 	{
 		"private": false,
-		"modelId": "SophieTr/results"
+		"modelId": "samantharhay/wav2vec2-base-libir-zenodo-eval_zenodo_test"
+	},
+	{
+		"private": false,
+		"modelId": "gayanin/bart-mlm-pubmed-25"
+	},
+	{
+		"private": false,
+		"modelId": "FloKit/bert-base-uncased-finetuned-squad"
 	}
 ]
