@@ -98275,6 +98275,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Emanuel/twitter-emotion-deberta-v3-base"
 	},
 	{
@@ -98284,6 +98285,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Emanuel/bertweet-emotion-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Ulto/pythonCoPilot3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "teven/roberta_kelm_tekgen"
 	}
 ]
