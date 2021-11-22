@@ -29390,6 +29390,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-additionalpretrained-bert-base-cased"
 	},
 	{
@@ -98483,11 +98484,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "sguskin/dynamic_tinybert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "mrm8488/deberta-v3-small-finetuned-squadv2"
 	},
 	{
@@ -98498,5 +98494,18 @@
 	{
 		"private": false,
 		"modelId": "papluca/xlm-roberta-base-finetuned-language-detection"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Intel/dynamic_tinybert"
+	},
+	{
+		"private": false,
+		"modelId": "mit/abcd"
+	},
+	{
+		"private": false,
+		"modelId": "jenspt/test"
 	}
 ]
