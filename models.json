@@ -1604,6 +1604,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "AmitT/test"
+	},
+	{
+		"private": false,
 		"modelId": "Amro-Kamal/gpt"
 	},
 	{
@@ -3551,6 +3555,10 @@
 	{
 		"private": false,
 		"modelId": "ChauhanVipul/BERT"
+	},
+	{
+		"private": false,
+		"modelId": "Cheapestmedsshop/Buymodafinilus"
 	},
 	{
 		"private": false,
@@ -6892,6 +6900,10 @@
 	{
 		"private": false,
 		"modelId": "Gigworks/ASR_ko"
+	},
+	{
+		"private": false,
+		"modelId": "Gigworks/ASR_zh"
 	},
 	{
 		"private": false,
@@ -25605,6 +25617,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner-false"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-large-cased-finetuned-ner"
 	},
 	{
@@ -28678,6 +28700,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ZiweiG/ziwei-bertimdb-prob"
+	},
+	{
+		"private": false,
+		"modelId": "Zixiang/chinese-roberta-wwm-ext-large"
 	},
 	{
 		"private": false,
@@ -37503,6 +37529,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
 		"modelId": "ceyda/clip-reply"
 	},
 	{
@@ -41670,6 +41701,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ehcalabres/vit-base-patch16-style-transfer-224"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition"
 	},
@@ -42279,6 +42314,16 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "erica/krm_fin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "erica/krm_sa2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "erica/krm_sa3"
 	},
 	{
 		"private": false,
@@ -47428,6 +47473,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "gonced8/pegasus-qa"
+	},
+	{
+		"private": false,
+		"modelId": "goodfellowliu/SRCNN"
 	},
 	{
 		"private": false,
@@ -68158,6 +68207,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "korca/meaning-match-bert-base"
+	},
+	{
+		"private": false,
 		"modelId": "korca/meaning-match-bert-large"
 	},
 	{
@@ -79058,6 +79111,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
+		"modelId": "osanseviero/fasttext_embedding"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "osanseviero/fasttext_english"
 	},
 	{
@@ -79552,6 +79610,11 @@
 	{
 		"private": false,
 		"modelId": "papercore-dev/tts-ko"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "papluca/xlm-roberta-base-language-detection"
 	},
 	{
 		"private": false,
@@ -81183,6 +81246,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "pitoneros/NER_MEDICAL"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "pitoneros/NER_MEDICAL2"
 	},
 	{
 		"private": false,
@@ -83975,6 +84043,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "rywerth/Rupi-or-Not-Rupi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-th_test"
 	},
 	{
 		"private": false,
@@ -98914,78 +98987,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "Gigworks/ASR_zh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "pitoneros/NER_MEDICAL2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-th_test"
-	},
-	{
-		"private": false,
-		"modelId": "Zixiang/chinese-roberta-wwm-ext-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ"
-	},
-	{
-		"private": false,
-		"modelId": "korca/meaning-match-bert-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "erica/krm_sa2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "papluca/xlm-roberta-base-language-detection"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "erica/krm_sa3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "osanseviero/fasttext_embedding"
-	},
-	{
-		"private": false,
-		"modelId": "Cheapestmedsshop/Buymodafinilus"
-	},
-	{
-		"private": false,
-		"modelId": "ehcalabres/vit-base-patch16-style-transfer-224"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner-false"
-	},
-	{
-		"private": false,
-		"modelId": "goodfellowliu/SRCNN"
-	},
-	{
-		"private": false,
-		"modelId": "AmitT/test"
 	}
 ]
