@@ -24999,6 +24999,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Seonguk/textSummarization"
 	},
 	{
@@ -37493,11 +37494,6 @@
 	{
 		"private": false,
 		"modelId": "cestwc/roberta-base-bow"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-occ-tem"
 	},
 	{
 		"private": false,
@@ -98929,14 +98925,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "erica/krm_sa"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-th_test"
 	},
 	{
 		"private": false,
 		"modelId": "Zixiang/chinese-roberta-wwm-ext-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-occ"
+	},
+	{
+		"private": false,
+		"modelId": "erica/krm_sa"
 	}
 ]
