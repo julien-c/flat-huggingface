@@ -634,6 +634,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "AccurateIsaiah/DialoGPT-small-jefftastic"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AccurateIsaiah/DialoGPT-small-mozark"
 	},
@@ -1672,6 +1677,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "AndrewChar/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "AndrewChar/marian-finetuned-kde4-en-to-fr"
 	},
 	{
 		"private": false,
@@ -4019,6 +4028,14 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Culmenus/opus-mt-de-is-finetuned-de-to-is"
+	},
+	{
+		"private": false,
+		"modelId": "Culmenus/opus-mt-de-is-finetuned-de-to-is_35g65cc"
+	},
+	{
+		"private": false,
+		"modelId": "Culmenus/opus-mt-de-is-finetuned-de-to-is_35g65cc_2"
 	},
 	{
 		"private": false,
@@ -27585,6 +27602,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Vaibhavbrkn/Paraphrase"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Vaibhavbrkn/grammer_classiffication"
 	},
@@ -29578,6 +29599,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-xlm-roberta-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aditeyabaral/finetuned-iitpmovie-additionalpretrained-distilbert-base-cased"
 	},
 	{
 		"private": false,
@@ -31993,6 +32019,10 @@
 	{
 		"private": false,
 		"modelId": "amtam0/timer-ner-fr"
+	},
+	{
+		"private": false,
+		"modelId": "an0ushka/StockBot"
 	},
 	{
 		"private": false,
@@ -41678,6 +41708,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "egonzalez/model"
+	},
+	{
+		"private": false,
+		"modelId": "ehcalabres/distilgpt2-abc-music-generation"
 	},
 	{
 		"private": false,
@@ -66802,6 +66836,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "josedlhm/trump-speeches"
+	},
+	{
+		"private": false,
+		"modelId": "josedlhm/your-model-name"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "josephgatto/paint_doctor_description_identification"
 	},
@@ -69752,6 +69794,10 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ligolab/DxRoberta"
+	},
+	{
+		"private": false,
+		"modelId": "liii/nanami"
 	},
 	{
 		"private": false,
@@ -83330,6 +83376,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ricardo-filho/bert-base-portuguese-cased-finetuned-ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "ricardo-filho/bert-base-portuguese-cased-nli-assin-2"
 	},
@@ -83357,6 +83408,10 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "ricardo-filho/bertimbau_base_snli_mnrl"
+	},
+	{
+		"private": false,
+		"modelId": "ricardo-filho/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -84029,6 +84084,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
+	},
+	{
+		"private": false,
+		"modelId": "saadch/first_trial"
 	},
 	{
 		"private": false,
@@ -87614,6 +87673,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "skakacz/model1"
+	},
+	{
+		"private": false,
 		"modelId": "skifmiami/skif"
 	},
 	{
@@ -89419,6 +89482,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "staceythompson/autonlp-myclassification-fortext-16332728"
+	},
+	{
+		"private": false,
+		"modelId": "stalevna/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
 		"private": false,
@@ -95593,6 +95660,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "vesteinn/fasttext_is_skipgram_dim300"
+	},
+	{
+		"private": false,
 		"modelId": "vesteinn/open-qa-icelandic-densephrases"
 	},
 	{
@@ -98958,76 +99029,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "josedlhm/trump-speeches"
-	},
-	{
-		"private": false,
-		"modelId": "saadch/first_trial"
-	},
-	{
-		"private": false,
-		"modelId": "josedlhm/your-model-name"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/marian-finetuned-kde4-en-to-fr"
-	},
-	{
-		"private": false,
-		"modelId": "vesteinn/fasttext_is_skipgram_dim300"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "AccurateIsaiah/DialoGPT-small-jefftastic"
-	},
-	{
-		"private": false,
-		"modelId": "Vaibhavbrkn/Paraphrase"
-	},
-	{
-		"private": false,
-		"modelId": "skakacz/model1"
-	},
-	{
-		"private": false,
-		"modelId": "ricardo-filho/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ricardo-filho/bert-base-portuguese-cased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "liii/nanami"
-	},
-	{
-		"private": false,
-		"modelId": "stalevna/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"modelId": "ehcalabres/distilgpt2-abc-music-generation"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "aditeyabaral/finetuned-iitpmovie-additionalpretrained-distilbert-base-cased"
-	},
-	{
-		"private": false,
-		"modelId": "Culmenus/opus-mt-de-is-finetuned-de-to-is_35g65cc"
-	},
-	{
-		"private": false,
-		"modelId": "Culmenus/opus-mt-de-is-finetuned-de-to-is_35g65cc_2"
-	},
-	{
-		"private": false,
-		"modelId": "an0ushka/StockBot"
 	}
 ]
