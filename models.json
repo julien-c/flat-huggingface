@@ -98940,10 +98940,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "erica/krm_sa"
-	},
-	{
-		"private": false,
 		"modelId": "korca/meaning-match-bert-base"
 	},
 	{
@@ -98954,5 +98950,19 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "papluca/xlm-roberta-base-language-detection"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "erica/krm_sa3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "osanseviero/fasttext_embedding"
 	}
 ]
