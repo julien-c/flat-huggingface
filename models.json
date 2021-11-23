@@ -99127,6 +99127,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-cased-swa"
 	},
 	{
@@ -99181,5 +99182,18 @@
 	{
 		"private": false,
 		"modelId": "UwUMann/BadGermanGPT-2"
+	},
+	{
+		"private": false,
+		"modelId": "huggingfaceepita/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "huspacy/hu_core_news_lg"
+	},
+	{
+		"private": false,
+		"modelId": "chrommium/two-step-finetuning-sbert"
 	}
 ]
