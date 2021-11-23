@@ -83077,6 +83077,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "rebeccakoganlee/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-ner"
 	},
 	{
@@ -99093,6 +99094,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "uclanlp/plbart-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "uclanlp/plbart-csnet"
 	}
 ]
