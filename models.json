@@ -31920,6 +31920,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_dropout_0.0003_16"
 	},
 	{
@@ -99140,6 +99141,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/bert-base-cased-pcm"
 	},
 	{
@@ -99161,5 +99163,18 @@
 	{
 		"private": false,
 		"modelId": "caspillaga/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "vitusya/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "manred/LegalXLMRobertaVn"
+	},
+	{
+		"private": false,
+		"modelId": "UwUMann/BadGermanGPT-2"
 	}
 ]
