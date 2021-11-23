@@ -98798,10 +98798,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "akahana/roberta-base-indonesia"
-	},
-	{
-		"private": false,
 		"modelId": "NWoj/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -98872,6 +98868,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "annafavaro/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -98888,6 +98885,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/m2m100_418M_ep_5"
+	},
+	{
+		"private": false,
+		"modelId": "samantharhay/wav2vec2-base-myst-eval_myst_dev"
+	},
+	{
+		"private": false,
+		"modelId": "Gigworks/ASR_ko"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "eunjin/temp"
+	},
+	{
+		"private": false,
+		"modelId": "nateraw/resnet18-random-classifier-123"
 	}
 ]
