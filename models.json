@@ -7498,7 +7498,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text-classification",
 		"modelId": "Hellisotherpeople/debate2vec"
 	},
 	{
@@ -99101,5 +99101,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "uclanlp/plbart-csnet"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "liyijing024/hate_speech_target"
 	}
 ]
