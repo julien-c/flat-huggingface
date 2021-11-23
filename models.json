@@ -99191,6 +99191,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "huggingfaceepita/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -99217,6 +99218,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "adalbertojunior/test-256-uncased-2"
 	},
 	{
@@ -99227,5 +99229,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/planetmoney"
+	},
+	{
+		"private": false,
+		"modelId": "jb2k/bert-base-multilingual-cased-language-detection"
 	}
 ]
