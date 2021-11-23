@@ -38026,11 +38026,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "chrommium/helper-model-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "chrommium/helper-model"
 	},
 	{
@@ -99111,6 +99106,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-cased-kin"
 	},
 	{
@@ -99130,6 +99126,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-cased-ner-pcm"
 	},
 	{
@@ -99212,6 +99209,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "Annas/TheWorldMachine"
+		"modelId": "zayrex/wav2vec2-large-xlsr-ar"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wav2vec2-german-cv6-1b"
+	},
+	{
+		"private": false,
+		"modelId": "adalbertojunior/test-256-uncased-2"
 	}
 ]
