@@ -88657,6 +88657,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "spacy-hu/hu_core_news_lg"
+	},
+	{
+		"private": false,
 		"modelId": "span11/bert-base-uncased-finetuned-race"
 	},
 	{
@@ -99115,10 +99120,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-cased-ner-swa"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-cased-ner-kin"
 	},
 	{
@@ -99189,11 +99196,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "huspacy/hu_core_news_lg"
+		"pipeline_tag": "text-classification",
+		"modelId": "chrommium/two-step-finetuning-sbert"
 	},
 	{
 		"private": false,
-		"modelId": "chrommium/two-step-finetuning-sbert"
+		"modelId": "StivenLancheros/xlm-roberta-large-finetuned-ner-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "AccurateIsaiah/DialoGPT-small-mozarkv2"
 	}
 ]
