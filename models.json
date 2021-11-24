@@ -44725,11 +44725,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "finiteautomata/beto-hate-speech"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "finiteautomata/beto-headlines-sentiment-analysis"
 	},
 	{
@@ -44756,10 +44751,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "finiteautomata/robertuito-base-uncased-200k"
-	},
-	{
-		"private": false,
-		"modelId": "finiteautomata/robertuito-irony"
 	},
 	{
 		"private": false,
@@ -99455,6 +99446,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Plimpton/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -99464,5 +99456,13 @@
 	{
 		"private": false,
 		"modelId": "KaZyKa/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "sagteam/xlm-roberta-large-sag"
+	},
+	{
+		"private": false,
+		"modelId": "mahbubsabuj/distilbert-base-uncased-finetuned-ner"
 	}
 ]
