@@ -31983,11 +31983,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "amjadkhatabi/large-common-ar-ymn-en"
-	},
-	{
-		"private": false,
 		"modelId": "amjadkhatabi/mbart-large-50-many-to-many-mmt-finetuned-ar-to-en"
 	},
 	{
@@ -64937,11 +64932,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "ischool-greenai/bart-large-samsum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ishan/bert-base-uncased-mnli"
 	},
@@ -76102,6 +76092,31 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "muhtasham/TajBERTo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "muhtasham/autonlp-Doctor_DE-24595544"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "muhtasham/autonlp-Doctor_DE-24595545"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "muhtasham/autonlp-Doctor_DE-24595546"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "muhtasham/autonlp-Doctor_DE-24595547"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "muhtasham/autonlp-Doctor_DE-24595548"
 	},
 	{
 		"private": false,
@@ -99223,6 +99238,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "qanastek/pos-french"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Annas/the-world-machine"
 	},
@@ -99244,5 +99264,25 @@
 	{
 		"private": false,
 		"modelId": "samantharhay/wav2vec2-base-libir-myst-zenodo-eval_zenodo_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "josedlhm/new_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nouamanetazi/cover-letter-distilgpt2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "rwightman/test_model_rnv250"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "rwightman/test_model_rnv250b"
 	}
 ]
