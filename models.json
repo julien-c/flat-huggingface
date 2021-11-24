@@ -99540,6 +99540,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "flboehm/reddit-bert-sen"
 	},
 	{
@@ -99553,10 +99554,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "huggingface/transformers-metadata"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "hugo/byt5-en-v1"
 	}
 ]
