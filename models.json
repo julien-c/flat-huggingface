@@ -99321,6 +99321,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "josedlhm/trump_tweet"
 	},
 	{
@@ -99449,6 +99450,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "flboehm/reddit-bert-text"
 	},
 	{
@@ -99458,5 +99460,9 @@
 	{
 		"private": false,
 		"modelId": "Andi/bert-tt-ner"
+	},
+	{
+		"private": false,
+		"modelId": "KaZyKa/distilgpt2-finetuned-wikitext2"
 	}
 ]
