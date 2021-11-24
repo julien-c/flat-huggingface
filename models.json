@@ -14898,10 +14898,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "IliaAltmark/1"
-	},
-	{
-		"private": false,
 		"modelId": "IlyaGusev/gen_title_tg_bottleneck"
 	},
 	{
@@ -33221,21 +33217,6 @@
 	{
 		"private": false,
 		"modelId": "arminarj/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "arnolfokam/bert-base-cased-pcm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "arnolfokam/mbert-base-cased-ner-pcm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "arnolfokam/mbert-base-cased-pcm"
 	},
 	{
 		"private": false,
@@ -99308,6 +99289,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "huspacy/hu_core_news_lg"
+	},
+	{
+		"private": false,
 		"modelId": "kayraxe/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -99393,10 +99379,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "inaccel/yolov3_adas_pruned_0_9"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-uncased-ner-swa"
 	},
@@ -99416,6 +99398,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "flboehm/reddit_bert_text"
+	},
+	{
+		"private": false,
 		"modelId": "IDEA-CCNL/Erlangshen-1.3B"
 	},
 	{
@@ -99425,5 +99411,24 @@
 	{
 		"private": false,
 		"modelId": "IDEA-CCNL/Wenzhong-3.5B"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "arnolfokam/bert-base-uncased-pcm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "arnolfokam/mbert-base-uncased-pcm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "arnolfokam/mbert-base-uncased-ner-pcm"
+	},
+	{
+		"private": false,
+		"modelId": "vumichien/wav2vec2-xls-r-1b-ja"
 	}
 ]
