@@ -33789,16 +33789,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "athar/bert-base-cased-wikitext2"
-	},
-	{
-		"private": false,
 		"modelId": "athar/biomed_roberta_base-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/bonhart"
 	},
 	{
 		"private": false,
@@ -33812,11 +33803,6 @@
 	{
 		"private": false,
 		"modelId": "athar/gpt2-wikitext2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/my3layercolabpropmodel"
 	},
 	{
 		"private": false,
@@ -34958,11 +34944,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "bespin-global/klue-korsts-roberta-base-sentence-embedding"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "bespin-global/klue-roberta-base-mrc"
 	},
 	{
 		"private": false,
@@ -99284,5 +99265,18 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "rwightman/test_model_rnv250b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/my24_11model"
+	},
+	{
+		"private": false,
+		"modelId": "byeolcardi/ocr"
+	},
+	{
+		"private": false,
+		"modelId": "jessiejohnson/wav2vec2-base-timit-demo-colab_seg"
 	}
 ]
