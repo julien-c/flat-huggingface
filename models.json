@@ -27498,11 +27498,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "UBIAI/en_scibert_ScienceIE"
-	},
-	{
-		"private": false,
 		"modelId": "UWB-AIR/Czert-A-base-uncased"
 	},
 	{
@@ -99575,5 +99570,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/emirtarik"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jogonba2/barthez_wiki_first_paragraph_filtered-deft-linguistique"
 	}
 ]
