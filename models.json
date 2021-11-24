@@ -17035,14 +17035,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Lowin/chinese-bigbird-small"
-	},
-	{
-		"private": false,
-		"modelId": "Lowin/chinese-bigbird-tiny"
-	},
-	{
-		"private": false,
 		"modelId": "LucasLi/Transformer"
 	},
 	{
@@ -99456,16 +99448,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "sagteam/xlm-roberta-large-sag"
 	},
 	{
 		"private": false,
 		"modelId": "mahbubsabuj/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Lowin/chinese-bigbird-mini"
 	},
 	{
 		"private": false,
@@ -99478,5 +99466,27 @@
 	{
 		"private": false,
 		"modelId": "hizella/aBERT_v2"
+	},
+	{
+		"private": false,
+		"modelId": "Lowin/chinese-bigbird-wwm-base-4096"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Lowin/chinese-bigbird-base-4096"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Lowin/chinese-bigbird-mini-1024"
+	},
+	{
+		"private": false,
+		"modelId": "Lowin/chinese-bigbird-small-1024"
+	},
+	{
+		"private": false,
+		"modelId": "Lowin/chinese-bigbird-tiny-1024"
 	}
 ]
