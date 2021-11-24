@@ -31966,6 +31966,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-lv60-ami_multi-tune_dropout_0.0001_8"
 	},
 	{
@@ -34394,6 +34395,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "balamurugan1603/bert-finetuned-ner"
 	},
 	{
@@ -99433,10 +99435,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Charan17171/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
 		"modelId": "Hasanmuradbuet/bert-finetuned-mrpc"
 	},
 	{
@@ -99448,5 +99446,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/cupcakkesays"
+	},
+	{
+		"private": false,
+		"modelId": "flboehm/bert-finetuned-text"
+	},
+	{
+		"private": false,
+		"modelId": "dyemelyanov/xlm-roberta-base-cn"
 	}
 ]
