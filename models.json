@@ -33225,11 +33225,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "arnolfokam/bert-base-cased-kin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/bert-base-cased-pcm"
 	},
 	{
@@ -33241,11 +33236,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-cased-kin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "arnolfokam/mbert-base-cased-ner-kin"
 	},
 	{
 		"private": false,
@@ -65148,16 +65138,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "ivanlau/language-detect-xlm-roberta-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ivanlau/language-detection-fine-tuned-on-xlm-roberta-base"
-	},
-	{
-		"private": false,
-		"modelId": "ivanlau/small-language-detect-xlm-roberta-base"
 	},
 	{
 		"private": false,
@@ -99417,5 +99399,19 @@
 	{
 		"private": false,
 		"modelId": "IDEA-NCCL/Zhouwenwang-1.3B"
+	},
+	{
+		"private": false,
+		"modelId": "roygan/Wenzhong-3.5B"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "arnolfokam/mbert-base-uncased-ner-kin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "arnolfokam/bert-base-uncased-kin"
 	}
 ]
