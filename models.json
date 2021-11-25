@@ -81036,6 +81036,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pere/nb-roberta-base-scandinavian-long"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pere/norwegian-gpt2-social"
 	},
@@ -99689,5 +99694,13 @@
 	{
 		"private": false,
 		"modelId": "bobbydylan/gpt-j-6B-finetuned-cleanco-attempt4"
+	},
+	{
+		"private": false,
+		"modelId": "AndrewChar/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "khanhpd2/distilbert-emotion"
 	}
 ]
