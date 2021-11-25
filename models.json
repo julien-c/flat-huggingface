@@ -99488,6 +99488,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "boronbrown48/wangchanberta-sentiment-504-v3"
 	},
 	{
@@ -99549,6 +99550,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "DiegoAlysson/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -99593,7 +99595,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "RizqFarIDN/DialoGPT-small-harrypotter"
 	},
 	{
@@ -99603,5 +99605,13 @@
 	{
 		"private": false,
 		"modelId": "adhisetiawan/test-vit"
+	},
+	{
+		"private": false,
+		"modelId": "akahana/tiny-roberta-indonesia"
+	},
+	{
+		"private": false,
+		"modelId": "bobbydylan/gpt-j-6B-finetuned-cleanco-attempt3"
 	}
 ]
