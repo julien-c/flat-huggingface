@@ -84031,10 +84031,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "roygan/idea_megatron"
-	},
-	{
-		"private": false,
 		"modelId": "rpekala/sample_test"
 	},
 	{
@@ -99307,10 +99303,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "roygan/Wenzhong-3.5B"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "arnolfokam/mbert-base-uncased-ner-kin"
 	},
@@ -99357,10 +99349,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "IDEA-CCNL/Yuyuan-3.5B"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "IDEA-CCNL/Wenzhong-3.5B"
 	},
 	{
@@ -99590,5 +99584,10 @@
 	{
 		"private": false,
 		"modelId": "bobbydylan/gpt-j-6B-finetuned-cleanco-attempt2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "raynardj/classical-chinese-punctuation-guwen-biaodian"
 	}
 ]
