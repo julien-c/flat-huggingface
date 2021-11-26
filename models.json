@@ -20572,6 +20572,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/nb-roberta-base-scandinavian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/nb-roberta-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NbAiLab/nb-t5-base"
 	},
@@ -99989,5 +99999,9 @@
 	{
 		"private": false,
 		"modelId": "mmekias/vit-base-beans"
+	},
+	{
+		"private": false,
+		"modelId": "jenspt/byt5_ft_error_only"
 	}
 ]
