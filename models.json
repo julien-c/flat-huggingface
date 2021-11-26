@@ -77025,16 +77025,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nadzma/T5-base-French-financial-news-summarization"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "nadzma/T5-long-extraction-UK-annual-reports"
-	},
-	{
-		"private": false,
 		"modelId": "nadzma/finetuned-T5-French-financial-news-summarization"
 	},
 	{
@@ -100029,10 +100019,61 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moussaKam/frugalscore_tiny_bert-base_bert-score"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moussaKam/frugalscore_small_bert-base_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_medium_bert-base_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_tiny_roberta_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/myallpm25_11model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_small_roberta_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_medium_roberta_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_tiny_deberta_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_small_deberta_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/frugalscore_medium_deberta_bert-score"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "vesteinn/german-icelandic-translation"
+	},
+	{
+		"private": false,
+		"modelId": "adhisetiawan/vit-resisc45"
 	}
 ]
