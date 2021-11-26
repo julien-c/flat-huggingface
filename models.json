@@ -41989,11 +41989,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "edichief/en_healthsea"
-	},
-	{
-		"private": false,
 		"modelId": "edie/new-dummy-model"
 	},
 	{
@@ -100082,10 +100077,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "arnav7633/DialoGPT-medium-tony_stark"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "IlyaGusev/rugpt3medium_sum_gazeta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "manu/doc-parserv2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "edichief/en_healthsea"
 	}
 ]
