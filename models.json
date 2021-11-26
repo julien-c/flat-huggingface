@@ -100029,11 +100029,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/myallpm25_11model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moussaKam/frugalscore_small_roberta_bert-score"
 	},
@@ -100138,5 +100133,29 @@
 	{
 		"private": false,
 		"modelId": "Jour/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-roberta-hinglish-big"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/amelamelcia"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cambridgeltl/trans-encoder-cross-simcse-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aditeyabaral/finetuned-iitp_pdt_review-distilbert-hinglish-big"
+	},
+	{
+		"private": false,
+		"modelId": "cambridgeltl/trans-encoder-cross-simcse-bert-base"
 	}
 ]
