@@ -100156,6 +100156,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "cambridgeltl/trans-encoder-cross-simcse-bert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cambridgeltl/trans-encoder-cross-simcse-bert-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cambridgeltl/trans-encoder-cross-simcse-roberta-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/myallpmpu26_11model"
+	},
+	{
+		"private": false,
+		"modelId": "TurkuNLP/sbert-cased-finnish-paraphrase"
 	}
 ]
