@@ -100157,11 +100157,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/myallpmpu26_11model"
-	},
-	{
-		"private": false,
 		"modelId": "TurkuNLP/sbert-cased-finnish-paraphrase"
 	},
 	{
@@ -100182,11 +100177,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/myallcollection26_11model"
+		"modelId": "emfa/model1_test"
 	},
 	{
 		"private": false,
-		"modelId": "emfa/model1_test"
+		"pipeline_tag": "text-generation",
+		"modelId": "Jipski/MegStuart_gpt-2"
+	},
+	{
+		"private": false,
+		"modelId": "baby-oogway/wav2vec2-common_voice-oogway"
 	}
 ]
