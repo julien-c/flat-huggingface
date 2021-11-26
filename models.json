@@ -100002,6 +100002,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jenspt/byt5_ft_error_only"
 	},
 	{
@@ -100016,5 +100017,9 @@
 	{
 		"private": false,
 		"modelId": "ammr/roberta-base-bne-finetuned-amazon_reviews_multi"
+	},
+	{
+		"private": false,
+		"modelId": "aseifert/t5-base-jfleg-wi-onnx-quantized"
 	}
 ]
