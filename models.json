@@ -100015,6 +100015,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bochrasaffar/T5_description_generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moussaKam/tiny_bert-base_bert-score"
+	},
+	{
+		"private": false,
+		"modelId": "inaccel/yolov3_adas_pruned_0_9"
+	},
+	{
+		"private": false,
+		"modelId": "moussaKam/frugalscore_tiny_bert-base_bert-score"
+	},
+	{
+		"private": false,
+		"modelId": "moussaKam/frugalscore_small_bert-base_bert-score"
 	}
 ]
