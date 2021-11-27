@@ -72813,6 +72813,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-en-zu-mt"
 	},
 	{
@@ -72847,6 +72848,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "masakhane/mt5-base-zu-en-mt"
 	},
 	{
@@ -100282,6 +100284,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tiagohatta/opus-mt-de-en-finetuned-de-to-en-first"
 	},
 	{
@@ -100291,5 +100294,10 @@
 	{
 		"private": false,
 		"modelId": "Benicio/t5-small-finetuned-en-to-ru"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Jipski/Flos_gpt-2_erw"
 	}
 ]
