@@ -15018,7 +15018,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "IlyaGusev/rugpt3medium_sum_gazeta"
 	},
 	{
@@ -100331,6 +100331,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rg089/distilbart-summarization"
 	},
 	{
@@ -100347,6 +100348,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "rg089/bert_newspaper_source"
 	},
 	{
@@ -100369,10 +100371,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Hok-Shing/temp-mdl-01-finetuned-classification"
+		"modelId": "oumaima/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
-		"modelId": "oumaima/distilbert-base-uncased-finetuned-squad"
+		"pipeline_tag": "question-answering",
+		"modelId": "bhavikardeshna/multilingual-bert-base-cased-english"
 	}
 ]
