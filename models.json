@@ -100326,6 +100326,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "bhadresh-savani/distilbert-base-go-emotion"
 	},
 	{
@@ -100338,10 +100339,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "avanish/language_model_pytorch_gpt2"
-	},
-	{
-		"private": false,
 		"modelId": "collarad/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -100350,15 +100347,19 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "bhavikardeshna/multilingual-bert-arabic"
-	},
-	{
-		"private": false,
 		"modelId": "rg089/bert_newspaper_source"
 	},
 	{
 		"private": false,
 		"modelId": "rg089/t5-headline-generation"
+	},
+	{
+		"private": false,
+		"modelId": "bhavikardeshna/multilingual-bert-base-cased-chinese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "bhavikardeshna/multilingual-bert-base-cased-arabic"
 	}
 ]
