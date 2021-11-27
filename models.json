@@ -100353,6 +100353,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rg089/t5-headline-generation"
 	},
 	{
@@ -100377,5 +100378,13 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "bhavikardeshna/multilingual-bert-base-cased-english"
+	},
+	{
+		"private": false,
+		"modelId": "bhavikardeshna/multilingual-bert-base-cased-german"
+	},
+	{
+		"private": false,
+		"modelId": "supriano/t5-small-finetuned-en-to-de"
 	}
 ]
