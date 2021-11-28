@@ -83117,11 +83117,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "prithivida/grammar_error_correcter_v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "prithivida/informal_to_formal_styletransfer"
 	},
 	{
@@ -100493,6 +100488,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "kaisugi/scibert-csabstruct"
+	},
+	{
+		"private": false,
+		"modelId": "benmrtnz27/DialoGPT-small-misato"
 	}
 ]
