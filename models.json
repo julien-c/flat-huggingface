@@ -27037,6 +27037,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ThePixOne/EconBERTa"
+	},
+	{
+		"private": false,
 		"modelId": "ThePixOne/retBERT"
 	},
 	{
@@ -48056,6 +48061,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/eca_resnet26t"
 	},
 	{
@@ -48160,38 +48166,47 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet101"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet152"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet18"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet26"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet26d"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet34"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet34d"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet50"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "glasses/resnet50d"
 	},
 	{
@@ -69223,10 +69238,6 @@
 	{
 		"private": false,
 		"modelId": "knkarthick/t5-small-finetuned-xsum"
-	},
-	{
-		"private": false,
-		"modelId": "koala/bert-base-uncased"
 	},
 	{
 		"private": false,
@@ -100881,7 +100892,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/debertav3-mnli-snli-anli"
 	},
 	{
@@ -100908,5 +100919,74 @@
 	{
 		"private": false,
 		"modelId": "glasses/resnet34d.git"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "koala/bert-large-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/resnet50.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/resnet50d.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/resnet101.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/resnet152.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/resnet200.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/se_resnet18.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/se_resnet34.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/se_resnet50.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/se_resnet101.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/se_resnet152.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/eca_resnet18t.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/eca_resnet26t.git"
+	},
+	{
+		"private": false,
+		"modelId": "glasses/eca_resnet50t.git"
+	},
+	{
+		"private": false,
+		"modelId": "tekodukunnangendiseh/tyhtghfghfh"
+	},
+	{
+		"private": false,
+		"modelId": "ThePixOne/EconBERTa-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "koala/distilbert-base-uncased"
 	}
 ]
