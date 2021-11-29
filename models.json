@@ -2816,6 +2816,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Biasface/DDDC"
+	},
+	{
+		"private": false,
 		"modelId": "BigBoy/model"
 	},
 	{
@@ -27117,6 +27122,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ThePixOne/EconBERTa-finetuned-mrpc"
 	},
 	{
@@ -41776,6 +41782,11 @@
 	{
 		"private": false,
 		"modelId": "diiogo/electra-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/roberta-base"
 	},
 	{
 		"private": false,
@@ -101020,5 +101031,9 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "ThePixOne/EconBERTa-finetuned-qnli"
 	}
 ]
