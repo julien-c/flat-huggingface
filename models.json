@@ -45392,11 +45392,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "finiteautomata/robertuito-base-uncased-200k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "finiteautomata/robertuitonews-cased-tweetcontext"
 	},
 	{
@@ -87562,6 +87557,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "setu4993/LaBSE"
 	},
 	{
@@ -100707,5 +100703,14 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/MrLincoln6"
+	},
+	{
+		"private": false,
+		"modelId": "gumgo91/IUPAC_BERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pysentimiento/robertuito-base-uncased-200k"
 	}
 ]
