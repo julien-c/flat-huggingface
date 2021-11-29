@@ -27621,6 +27621,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "TurkuNLP/sbert-cased-finnish-paraphrase"
 	},
 	{
@@ -32499,6 +32500,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ammr/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
 	{
@@ -91963,6 +91965,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "studio-ousia/mluke-base"
+	},
+	{
+		"private": false,
 		"modelId": "studios/TES"
 	},
 	{
@@ -100773,5 +100779,9 @@
 	{
 		"private": false,
 		"modelId": "raynardj/xlsearch-cross-lang-search-zh-vs-classicical-cn"
+	},
+	{
+		"private": false,
+		"modelId": "korca/meaning-match-electra-large"
 	}
 ]
