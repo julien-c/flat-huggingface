@@ -65582,14 +65582,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "inaccel/resnet50"
-	},
-	{
-		"private": false,
-		"modelId": "inaccel/yolov3_adas_pruned_0_9"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "indigo-ai/BERTino"
 	},
@@ -100867,6 +100859,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "Narsil/pet-segmentation"
+	},
+	{
+		"private": false,
+		"modelId": "marcosscarpim/t5-small-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "inaccel/yolov3_adas_pruned_0_9"
+	},
+	{
+		"private": false,
+		"modelId": "inaccel/resnet50"
 	}
 ]
