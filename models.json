@@ -27626,6 +27626,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "TurkuNLP/sbert-uncased-finnish-paraphrase"
 	},
 	{
@@ -32191,6 +32192,11 @@
 	{
 		"private": false,
 		"modelId": "alyssa99s/h"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "am4nsolanki/autonlp-text-hateful-memes-36789092"
 	},
 	{
 		"private": false,
@@ -72830,11 +72836,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad"
 	},
@@ -100783,5 +100784,9 @@
 	{
 		"private": false,
 		"modelId": "korca/meaning-match-electra-large"
+	},
+	{
+		"private": false,
+		"modelId": "bhadresh-savani/distilbert-base-uncased-go-emotion"
 	}
 ]
