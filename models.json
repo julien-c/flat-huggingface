@@ -543,14 +543,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ARATHI/Electra_small"
-	},
-	{
-		"private": false,
-		"modelId": "ARATHI/electra-small-discriminator-finetuned-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "ARTeLab/it5-summarization-fanpage-128"
 	},
@@ -28206,6 +28198,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Vivek/GPT2_GSM8k"
 	},
 	{
@@ -100844,10 +100837,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ARATHI/electra-small-discriminator-basemodel-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Cedille/boris"
 	},
@@ -100857,15 +100846,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "rafterpri/wav2vec2-large-xls-r-300m-it-colab"
-	},
-	{
-		"private": false,
 		"modelId": "BigSalmon/MrLincoln7"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "pandyaved98/DialoGPT-small-AlchemyBot"
 	},
 	{
