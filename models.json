@@ -99551,6 +99551,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ykliu1892/translation-en-pt-t5-finetuned-Duolingo"
 	},
 	{
@@ -101484,6 +101485,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "not7even/DialoGPT-small-7evenpool"
 	},
 	{
@@ -101534,6 +101536,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "NDugar/3epoch-3large"
 	},
 	{
@@ -101543,5 +101546,14 @@
 	{
 		"private": false,
 		"modelId": "Jour/marian-finetuned-kde4-en-to-fr-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mmcquade11-test/reuters-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "Biasface/DDDC2"
 	}
 ]
