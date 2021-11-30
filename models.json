@@ -38479,6 +38479,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-ternary"
 	},
 	{
@@ -81274,11 +81275,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "pablouribe/bertstem-copus-adm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "pablouribe/bertstem-copus-presenting"
 	},
 	{
@@ -95935,6 +95931,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "turing-usp/FinBertPTBR"
 	},
 	{
@@ -101441,14 +101438,57 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv2-80p"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "kco4776/soongsil-bert-wellness"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/celebrimbor-gpt2-medium-x81-checkpoint-210000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pablouribe/bertstem-copus-administration"
+	},
+	{
+		"private": false,
+		"modelId": "danringwald/wav2phon"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "springml111/Pegasus_Paraphrase_model"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/durin-gpt2-medium-x343-checkpoint-210000"
+	},
+	{
+		"private": false,
+		"modelId": "samantharhay/wav2vec2-base-libir-zenodo-eval_zenodo_test_2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "springml111/T5_Paraphrase_model"
+	},
+	{
+		"private": false,
+		"modelId": "danringwald/tmpm2s6xfq3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/hel_ql-shahdashrf_-sinnerslayerr-witheredstrings"
+	},
+	{
+		"private": false,
+		"modelId": "danringwald/am_tokenizer"
 	}
 ]
