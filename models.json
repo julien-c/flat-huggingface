@@ -90595,10 +90595,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "speechbrain/SLU-direct-SLURP-wav2vec-enc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "speechbrain/asr-conformer-transformerlm-ksponspeech"
 	},
@@ -101221,6 +101217,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bvanaken/CORe-clinical-diagnosis-prediction"
+	},
+	{
+		"private": false,
 		"modelId": "sid1hant/trans"
 	},
 	{
@@ -101297,5 +101298,21 @@
 	{
 		"private": false,
 		"modelId": "ffsouza/tiny-mbart-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "ffsouza/tiny-mbart-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "project2you/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "speechbrain/SLU-direct-SLURP-hubert-enc"
+	},
+	{
+		"private": false,
+		"modelId": "pritoms/paraphrase-multilingual-MiniLM-L12-v2-sentencetransformer-code"
 	}
 ]
