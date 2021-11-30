@@ -20708,10 +20708,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Nason/distilbert-base-uncased-finetuned-mnli"
-	},
-	{
-		"private": false,
 		"modelId": "Natej815/BookProject"
 	},
 	{
@@ -101289,6 +101285,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ffsouza/tiny-mbart-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
 	},
 	{
@@ -101495,10 +101492,26 @@
 	},
 	{
 		"private": false,
-		"modelId": "springml111/Pegasus_Paraphrase_demo"
+		"modelId": "danringwald/phonetic-am"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777-checkpoint-210000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/alias-gpt2-small-x21-checkpoint-210000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/battlestar-gpt2-small-x49-checkpoint-210000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/caprica-gpt2-small-x81-checkpoint-210000"
 	}
 ]
