@@ -101290,6 +101290,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-sqac_v2"
 	},
 	{
@@ -101369,6 +101370,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tyoyo/t5-base-TEDxJP-1body-10context"
+	},
+	{
+		"private": false,
+		"modelId": "hsekhalilian/wav2vec2-large-xls-r-300m-persian-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/alias-gpt2-small-x21-checkpoint-10"
+	},
+	{
+		"private": false,
+		"modelId": "cambridgeltl/xlmr-task-sft-nli-ms"
 	}
 ]
