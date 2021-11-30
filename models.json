@@ -101272,11 +101272,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-sqac_v2"
-	},
-	{
-		"private": false,
 		"modelId": "emanjavacas/MacBERTh"
 	},
 	{
@@ -101401,10 +101396,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-sqac-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Cedille/fr-boris"
 	},
@@ -101485,7 +101476,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "not7even/DialoGPT-small-7evenpool"
 	},
 	{
@@ -101536,7 +101527,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/3epoch-3large"
 	},
 	{
@@ -101554,6 +101545,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Biasface/DDDC2"
+	},
+	{
+		"private": false,
+		"modelId": "WidadAwane/Nips_Roberta-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac"
 	}
 ]
