@@ -101324,6 +101324,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bvanaken/CORe-clinical-mortality-prediction"
+	},
+	{
+		"private": false,
 		"modelId": "mofawzy/argpt2-goodreads"
 	},
 	{
@@ -101332,10 +101337,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "asahi417/question-generation-squad-t5-base-multitask"
 	},
 	{
 		"private": false,
 		"modelId": "asahi417/question-generation-squad-t5-large-multitask"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/xy9-teste"
+	},
+	{
+		"private": false,
+		"modelId": "sxj/bert-finetuned-long-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "manu/doc-parserv2-100p"
 	}
 ]
