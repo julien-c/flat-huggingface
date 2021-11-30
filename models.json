@@ -101259,6 +101259,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv2-60p"
 	},
 	{
@@ -101267,11 +101268,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "s3h/arabic-grammar-corrections"
+		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-squac_v2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-spa-squad2-es-finetuned-sqac"
+		"modelId": "MinnaLee/gpt2-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "oci/gweh"
 	}
 ]
