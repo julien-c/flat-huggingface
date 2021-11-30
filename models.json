@@ -101209,6 +101209,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv2-20p"
+	},
+	{
+		"private": false,
+		"modelId": "sid1hant/trans"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "rafagudinov/ru_rent_estate_ads"
 	}
 ]
