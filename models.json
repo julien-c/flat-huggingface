@@ -35251,6 +35251,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "batterydata/bert-base-qa"
+	},
+	{
+		"private": false,
 		"modelId": "baursafi/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -69224,6 +69229,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "kaporter/bert-base-uncased-finetuned-squad"
 	},
 	{
@@ -101596,5 +101602,9 @@
 	{
 		"private": false,
 		"modelId": "zloelias/rubert-tiny2-lenta-ru-finetuned-clf"
+	},
+	{
+		"private": false,
+		"modelId": "rovai/chatbotone"
 	}
 ]
