@@ -101297,6 +101297,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ffsouza/tiny-mbart-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
 	},
 	{
@@ -101314,5 +101315,14 @@
 	{
 		"private": false,
 		"modelId": "pritoms/paraphrase-multilingual-MiniLM-L12-v2-sentencetransformer-code"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abhishek/autonlp-bbc-news-classification-37229289"
+	},
+	{
+		"private": false,
+		"modelId": "mofawzy/argpt2-goodreads"
 	}
 ]
