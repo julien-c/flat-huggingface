@@ -98306,16 +98306,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "w11wo/x-indoroberta-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "w11wo/x-indoroberta-xxl"
-	},
-	{
-		"private": false,
 		"modelId": "w414313506/disease-ner"
 	},
 	{
@@ -101136,5 +101126,10 @@
 	{
 		"private": false,
 		"modelId": "faizankhan29/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "martin-ha/toxic-comment-model"
 	}
 ]
