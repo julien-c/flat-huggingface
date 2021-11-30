@@ -101401,6 +101401,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "kenlevine/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -101560,5 +101561,9 @@
 		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/2epochv3mlni"
+	},
+	{
+		"private": false,
+		"modelId": "habibmatar/gpt2-wikitext2"
 	}
 ]
