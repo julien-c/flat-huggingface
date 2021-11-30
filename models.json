@@ -75338,10 +75338,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mmcquade11-test/reuters-summarization"
-	},
-	{
-		"private": false,
 		"modelId": "mmekias/vit-base-beans"
 	},
 	{
@@ -101388,6 +101384,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/arwen-gpt2-medium-x21-checkpoint-10"
 	},
 	{
@@ -101405,5 +101402,9 @@
 	{
 		"private": false,
 		"modelId": "kco4776/kogpt-chat"
+	},
+	{
+		"private": false,
+		"modelId": "achoo/distilbert-base-uncased-finetuned-squad"
 	}
 ]
