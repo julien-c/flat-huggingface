@@ -69386,6 +69386,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kinit/slovakbert-pos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "kinit/slovakbert-sentiment-twitter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "kinit/slovakbert-sts-stsb"
+	},
+	{
+		"private": false,
 		"modelId": "kipiiler/DialoGPT-medium-Rick"
 	},
 	{
