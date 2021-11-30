@@ -36845,6 +36845,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bozelosp/sent-sci-irrelevance"
+	},
+	{
+		"private": false,
 		"modelId": "bpietroiu/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -101153,10 +101158,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kco4776/kogpt_chat"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "BogdanKuloren/checkpoint-10500-finetuned-ner"
 	},
@@ -101400,5 +101401,9 @@
 	{
 		"private": false,
 		"modelId": "cambridgeltl/mbert-task-sft-pos-ms"
+	},
+	{
+		"private": false,
+		"modelId": "kco4776/kogpt-chat"
 	}
 ]
