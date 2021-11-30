@@ -41766,11 +41766,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diiogo/roberta-base"
-	},
-	{
-		"private": false,
 		"modelId": "diiogo/roberta-test"
 	},
 	{
@@ -101047,5 +101042,10 @@
 	{
 		"private": false,
 		"modelId": "alexrfelicio/t5-small-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ffsouza/tiny-mbart-length-128-finetuned-en-to-ro"
 	}
 ]
