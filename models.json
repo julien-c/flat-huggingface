@@ -101355,11 +101355,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv2-100p"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "abhishek/autonlp-bbc-roberta-37249301"
+	},
+	{
+		"private": false,
+		"modelId": "Raphaelg9/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "tyoyo/t5-base-TEDxJP-1body-10context"
 	}
 ]
