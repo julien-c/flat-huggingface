@@ -101513,15 +101513,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "wandemberg-eld/opus-mt-en-de-finetuned-en-to-de"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/1epochv3"
 	},
 	{
 		"private": false,
 		"modelId": "glasses/resnet101"
+	},
+	{
+		"private": false,
+		"modelId": "saurk/mytestmodel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ffsouza/tiny-mbart-length-96-learning_rate-2e-05-weight_decay-0.02-finetuned-en-to-ro"
 	}
 ]
