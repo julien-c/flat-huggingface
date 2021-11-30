@@ -3643,11 +3643,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Cedille/boris"
-	},
-	{
-		"private": false,
 		"modelId": "Certified-Zoomer/DialoGPT-small-rick"
 	},
 	{
@@ -101405,6 +101400,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/arwen-gpt2-medium-x21-checkpoint-210000"
 	},
 	{
@@ -101413,6 +101409,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Cedille/fr-boris"
 	},
 	{
@@ -101425,6 +101422,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pablouribe/bertstem-copus-guiding"
+	},
+	{
+		"private": false,
+		"modelId": "NT/wav2vec2-common-voice-ja"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/beren-gpt2-medium-x49-checkpoint-210000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "hugorosen/flaubert_base_uncased-xnli-sts"
+	},
+	{
+		"private": false,
+		"modelId": "manu/doc-parserv2-80p"
+	},
+	{
+		"private": false,
+		"modelId": "kco4776/soongsil-bert-wellness"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/celebrimbor-gpt2-medium-x81-checkpoint-210000"
 	}
 ]
