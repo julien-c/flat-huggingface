@@ -41041,11 +41041,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "davanstrien/bl-books-genre"
-	},
-	{
-		"private": false,
 		"modelId": "davanstrien/blbooks-bad-ocr-tokenizer"
 	},
 	{
@@ -82967,10 +82962,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pfluo/icefall_aishell_model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pgperrone/dummy-model"
 	},
@@ -101840,6 +101831,38 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/bert-base-turkish-cased_multinli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "dpetrini/t5-tiny-random-finetuned-ru-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "emrecan/dbmdz_bert-base-turkish-cased_allnli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "emrecan/distilbert-base-turkish-cased_multinli_tr"
+	},
+	{
+		"private": false,
+		"modelId": "YuAnthony/AudioCaption"
+	},
+	{
+		"private": false,
+		"modelId": "manu/doc-parserv2-longrun"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "BritishLibraryLabs/bl-books-genre"
+	},
+	{
+		"private": false,
+		"modelId": "emrecan/bert-base-turkish-cased_snli_tr"
 	}
 ]
