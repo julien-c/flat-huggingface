@@ -26210,10 +26210,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/mluke-base-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
 	},
@@ -26226,10 +26222,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/spanberta-base-cased-ner-conll02-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/xlm-roberta-base-finetuned-ner-false-finetuned-ner-false"
 	},
 	{
 		"private": false,
@@ -101845,7 +101837,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/distilbert-base-turkish-cased_multinli_tr"
 	},
 	{
@@ -101864,15 +101856,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/bert-base-turkish-cased_snli_tr"
 	},
 	{
 		"private": false,
-		"modelId": "pfluo/icefall_aishell_model"
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/convbert-base-turkish-mc4-cased_multinli_tr"
 	},
 	{
 		"private": false,
-		"modelId": "emrecan/convbert-base-turkish-mc4-cased_multinli_tr"
+		"modelId": "BSen/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "pfluo/icefall_aishell_model"
 	}
 ]
