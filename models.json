@@ -73504,6 +73504,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "marcosscarpim/t5-small-finetuned-en-to-ro"
 	},
 	{
@@ -101920,11 +101921,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/battlestar-gpt2-small-x49"
-	},
-	{
-		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-xls-r-phoneme-300m-tr"
 	},
 	{
@@ -101935,11 +101931,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/distilbert-base-turkish-cased_snli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "rovai/medium-chat-1"
 	},
 	{
 		"private": false,
@@ -101956,5 +101947,22 @@
 	{
 		"private": false,
 		"modelId": "feidie/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "rovai/chatbotmedium1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/battlestar-gpt2-small-x49"
+	},
+	{
+		"private": false,
+		"modelId": "feidie/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "dansbecker/my-test-repo"
 	}
 ]
