@@ -101831,7 +101831,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/bert-base-turkish-cased_multinli_tr"
 	},
 	{
@@ -101854,6 +101854,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv2-longrun"
 	},
 	{
@@ -101863,6 +101864,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/bert-base-turkish-cased_snli_tr"
+	},
+	{
+		"private": false,
+		"modelId": "pfluo/icefall_aishell_model"
+	},
+	{
+		"private": false,
+		"modelId": "emrecan/convbert-base-turkish-mc4-cased_multinli_tr"
 	}
 ]
