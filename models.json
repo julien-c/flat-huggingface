@@ -79669,14 +79669,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nielsr/vilt-base-finetuned-vqa"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/vilt-base-mlm-itm"
-	},
-	{
-		"private": false,
 		"modelId": "nielsr/vision-perceiver-conv"
 	},
 	{
@@ -102062,10 +102054,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "rajeshradhakrishnan/contradictory-watson-multi-kaggle"
 	},
 	{
 		"private": false,
 		"modelId": "aretw0/opus-mt-en-ro-finetuned-en-to-ro_fp16False_batch8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "rovai/chatbotmedium4"
+	},
+	{
+		"private": false,
+		"modelId": "ykliu1892/translation-en-pt-t5-Duolingo-Subtitles"
+	},
+	{
+		"private": false,
+		"modelId": "Gustking/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "alexrfelicio/t5-small-finetuned2-en-to-de"
 	}
 ]
