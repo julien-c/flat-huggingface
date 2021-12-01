@@ -102175,6 +102175,37 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "jimregan/BERTreach-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "wandemberg-eld/opus-mt-en-de-finetuned-en-to-de-model-2"
+	},
+	{
+		"private": false,
+		"modelId": "speechbrain/sepformer-whamr-enhancement"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/MrLincoln11"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/t5-small-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/t5-small-finetuned-en-to-ro-batch8"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/t5-small-finetuned-en-to-ro-epoch.175"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/t5-small-finetuned-en-to-ro-epoch.04375"
 	}
 ]
