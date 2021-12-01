@@ -34647,11 +34647,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/12model"
-	},
-	{
-		"private": false,
 		"modelId": "athar/biomed_roberta_base-finetuned-squad"
 	},
 	{
@@ -102052,6 +102047,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/notram-bert-norwegian-cased-080321"
 	},
 	{
@@ -102073,6 +102069,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emfa/model1_test"
 	},
 	{
@@ -102185,6 +102182,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-to-audio",
 		"modelId": "speechbrain/sepformer-whamr-enhancement"
 	},
 	{
@@ -102207,5 +102205,21 @@
 	{
 		"private": false,
 		"modelId": "aretw0/t5-small-finetuned-en-to-ro-epoch.04375"
+	},
+	{
+		"private": false,
+		"modelId": "emrecan/dbmdz_distilbert-base-turkish-cased_allnli_tr"
+	},
+	{
+		"private": false,
+		"modelId": "jimregan/electra-base-irish-cased-discriminator-v1-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "bob80333/wav2vec2-large-xls-r-300m-ja-en-st"
+	},
+	{
+		"private": false,
+		"modelId": "vjeronymo2/my-awesome-model"
 	}
 ]
