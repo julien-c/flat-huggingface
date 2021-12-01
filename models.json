@@ -87448,6 +87448,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "scales-okn/roberta-tiny-cased-dtlm"
+	},
+	{
+		"private": false,
 		"modelId": "scaperex/online-harassment-bert"
 	},
 	{
@@ -101983,15 +101988,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "scales-okn/deberta-v3-base-oan"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTjeDIAL"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "rovai/chatbotmedium2"
 	},
 	{
@@ -102014,5 +102016,13 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/phoneme_test_tr"
+	},
+	{
+		"private": false,
+		"modelId": "samantharhay/wav2vec2-base-myst-zenodo_eval_zenodo_test"
+	},
+	{
+		"private": false,
+		"modelId": "samantharhay/wav2vec2-base-libir-myst-_eval_myst_dev"
 	}
 ]
