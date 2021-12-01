@@ -34668,6 +34668,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -102298,6 +102303,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "rovai/AI"
 	},
 	{
@@ -102311,5 +102317,9 @@
 	{
 		"private": false,
 		"modelId": "ffsouza/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/phoneme_test_4_sv"
 	}
 ]
