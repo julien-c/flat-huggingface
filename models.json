@@ -101849,12 +101849,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/convbert-base-turkish-mc4-cased_multinli_tr"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/convbert-base-turkish-mc4-cased_snli_tr"
 	},
 	{
@@ -101873,11 +101873,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "emrecan/bert-base-turkish-cased_allnli_tr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "rossanez/t5-small-finetuned-de-en-nofp16"
 	},
@@ -101892,7 +101887,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/bert-base-multilingual-cased_multinli_tr"
 	},
 	{
@@ -101901,7 +101896,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/bert-base-multilingual-cased_snli_tr"
 	},
 	{
@@ -101918,7 +101913,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/distilbert-base-turkish-cased_snli_tr"
 	},
 	{
@@ -102169,5 +102164,13 @@
 	{
 		"private": false,
 		"modelId": "aretw0/t5-small-finetuned-en-to-ro-fp16False-batch16-epoch.175"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/t5-small-finetuned-en-to-ro-fp16False-batch16-epoch.021875"
+	},
+	{
+		"private": false,
+		"modelId": "ThePixOne/EconBERTa-finetuned-mnli"
 	}
 ]
