@@ -102007,6 +102007,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "KBLab/bart-base-swedish-cased"
 	},
 	{
@@ -102032,5 +102033,39 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/phoneme_test_2_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "rovai/chatbotmedium3"
+	},
+	{
+		"private": false,
+		"modelId": "zloelias/distilrubert-tiny-cased-conversational-kinopoisk-reviews-finetuned-clf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "zloelias/bert-base-uncased-kinopoisk-reviews-finetuned-clf"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "hankzhong/electra-small-discriminator-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/phoneme_test_3_tr"
+	},
+	{
+		"private": false,
+		"modelId": "rajeshradhakrishnan/contradictory-watson-multi-kaggle"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/opus-mt-en-ro-finetuned-en-to-ro_fp16False_batch8"
 	}
 ]
