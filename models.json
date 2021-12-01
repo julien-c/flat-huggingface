@@ -20894,27 +20894,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/nb-roberta-base-scandinavian"
-	},
-	{
-		"private": false,
-		"modelId": "NbAiLab/nb-roberta-base-social"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/nb-roberta-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NbAiLab/nb-t5-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/test"
 	},
 	{
 		"private": false,
@@ -101878,11 +101859,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/flax-community-nordic-roberta-wiki"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/convbert-base-turkish-mc4-cased_multinli_tr"
 	},
 	{
 		"private": false,
 		"modelId": "emrecan/convbert-base-turkish-mc4-cased_snli_tr"
+	},
+	{
+		"private": false,
+		"modelId": "Emmanuel/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "rossanez/t5-small-finetuned-de-en-lr2e-4"
+	},
+	{
+		"private": false,
+		"modelId": "rossanez/t5-small-finetuned-de-en-wd-01"
 	}
 ]
