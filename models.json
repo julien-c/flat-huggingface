@@ -101892,6 +101892,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rossanez/t5-small-finetuned-de-en-epochs5"
 	},
 	{
@@ -101900,6 +101901,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/bert-base-multilingual-cased_multinli_tr"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
+	},
+	{
+		"private": false,
+		"modelId": "emrecan/bert-base-multilingual-cased_snli_tr"
 	}
 ]
