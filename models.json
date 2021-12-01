@@ -101685,6 +101685,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "amyma21/sincere_question_classification"
 	},
 	{
@@ -101693,6 +101694,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tyoyo/t5-base-TEDxJP-6body-0context"
+	},
+	{
+		"private": false,
+		"modelId": "Radella/quora_helpful_answers_detection"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Radella/quora_helpful_answers_classifier"
+	},
+	{
+		"private": false,
+		"modelId": "Dragonjack/test"
 	}
 ]
