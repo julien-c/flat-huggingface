@@ -7437,14 +7437,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "HJHGJGHHG/paddle-fnet-base"
-	},
-	{
-		"private": false,
-		"modelId": "HJHGJGHHG/paddle-fnet-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "HJK/PickupLineGenerator"
 	},
@@ -101869,6 +101861,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/convbert-base-turkish-mc4-cased_snli_tr"
 	},
 	{
@@ -101882,6 +101875,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rossanez/t5-small-finetuned-de-en-wd-01"
+	},
+	{
+		"private": false,
+		"modelId": "emrecan/bert-base-turkish-cased_allnli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "rossanez/t5-small-finetuned-de-en-nofp16"
+	},
+	{
+		"private": false,
+		"modelId": "rossanez/t5-small-finetuned-de-en-epochs5"
 	}
 ]
