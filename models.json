@@ -101648,15 +101648,29 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "rovai/Chat_pytorch1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rossanez/t5-small-finetuned-de-en-256-epochs2"
 	},
 	{
 		"private": false,
 		"modelId": "adeelahmad/model_name"
+	},
+	{
+		"private": false,
+		"modelId": "prows12/wav2vec2-large-xls-r-300m-japanese-colab-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Qiaozhen/fake-news-detector"
+	},
+	{
+		"private": false,
+		"modelId": "rossanez/t5-small-finetuned-de-en-256-epochs5"
 	}
 ]
