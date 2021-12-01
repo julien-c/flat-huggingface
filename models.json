@@ -86319,6 +86319,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test"
+	},
+	{
+		"private": false,
 		"modelId": "saadch/first_trial"
 	},
 	{
@@ -102302,5 +102307,9 @@
 	{
 		"private": false,
 		"modelId": "bigscience/tr3o-1B3-pile-no-dropout-checkpoints"
+	},
+	{
+		"private": false,
+		"modelId": "ffsouza/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
 	}
 ]
