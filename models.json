@@ -102050,6 +102050,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/phoneme_test_3_tr"
 	},
 	{
@@ -102060,6 +102061,10 @@
 	{
 		"private": false,
 		"modelId": "aretw0/opus-mt-en-ro-finetuned-en-to-ro_fp16False_batch8"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/notram-bert-norwegian-cased-080321"
 	},
 	{
 		"private": false,
@@ -102077,5 +102082,18 @@
 	{
 		"private": false,
 		"modelId": "alexrfelicio/t5-small-finetuned2-en-to-de"
+	},
+	{
+		"private": false,
+		"modelId": "emfa/model1_test"
+	},
+	{
+		"private": false,
+		"modelId": "aretw0/mbart-large-cc25-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mrm8488/deberta-v3-small-finetuned-hate_speech18"
 	}
 ]
