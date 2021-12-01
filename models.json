@@ -101911,6 +101911,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/bert-base-multilingual-cased_snli_tr"
 	},
 	{
@@ -101919,6 +101920,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/battlestar-gpt2-small-x49"
 	},
 	{
@@ -101928,5 +101930,15 @@
 	{
 		"private": false,
 		"modelId": "zloelias/rubert-base-cased-sentiment-rusentiment-kinopoisk-reviews-finetuned-clf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "emrecan/distilbert-base-turkish-cased_snli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "rovai/medium-chat-1"
 	}
 ]
