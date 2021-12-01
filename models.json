@@ -101950,7 +101950,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "rovai/chatbotmedium1"
 	},
 	{
@@ -101972,6 +101972,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "dpetrini/t5-small-finetuned-ro-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/binance"
+	},
+	{
+		"private": false,
+		"modelId": "scales-okn/deberta-v3-base-oan"
 	}
 ]
