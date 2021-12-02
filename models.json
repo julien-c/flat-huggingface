@@ -43722,46 +43722,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/bert-base-multilingual-cased_multinli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/bert-base-multilingual-cased_snli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/bert-base-turkish-cased_multinli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/bert-base-turkish-cased_snli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/convbert-base-turkish-mc4-cased_multinli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/convbert-base-turkish-mc4-cased_snli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/distilbert-base-turkish-cased_multinli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "emrecan/distilbert-base-turkish-cased_snli_tr"
-	},
-	{
-		"private": false,
 		"modelId": "en/bert-large-uncased-whole-word-masking-finetuned-squad-finetuned-squad"
 	},
 	{
@@ -102596,10 +102556,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emrecan/bert-base-multilingual-cased_allnli_tr"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "hugo/byt5-en-v6"
 	},
 	{
@@ -102641,6 +102603,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "ionite/DialoGPT-large-Sh0rtiAI-v2"
 	},
 	{
@@ -102654,5 +102617,57 @@
 	{
 		"private": false,
 		"modelId": "Incwu/mymodels"
+	},
+	{
+		"private": false,
+		"modelId": "convaise/t5-paraphraser-en"
+	},
+	{
+		"private": false,
+		"modelId": "rtoguchi/t5-small-finetuned-en-to-ro-dataset_20"
+	},
+	{
+		"private": false,
+		"modelId": "rtoguchi/t5-small-finetuned-en-to-ro-weight_decay_0.001"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/bert-base-turkish-cased-snli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/bert-base-turkish-cased-multinli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/bert-base-multilingual-cased-multinli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/distilbert-base-turkish-cased-snli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/bert-base-multilingual-cased-snli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/convbert-base-turkish-mc4-cased-snli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/convbert-base-turkish-mc4-cased-multinli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/distilbert-base-turkish-cased-multinli_tr"
 	}
 ]
