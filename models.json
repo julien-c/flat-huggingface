@@ -43752,21 +43752,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "emrecan/dbmdz_bert-base-turkish-cased_allnli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "emrecan/dbmdz_convbert-base-turkish-mc4-cased_allnli_tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "emrecan/dbmdz_distilbert-base-turkish-cased_allnli_tr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/distilbert-base-turkish-cased_multinli_tr"
 	},
@@ -102621,5 +102606,33 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch8-epochs3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pietrotrope/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/distilbert-base-uncased-finetuned-sst2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/convbert-base-turkish-mc4-cased-allnli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/distilbert-base-turkish-cased-allnli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "emrecan/bert-base-turkish-cased-allnli_tr"
+	},
+	{
+		"private": false,
+		"modelId": "Gastron/lp-initial-aed-short"
 	}
 ]
