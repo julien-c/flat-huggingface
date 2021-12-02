@@ -29770,6 +29770,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "abhilash1910/FinancialLongPegasus"
 	},
 	{
@@ -102513,10 +102514,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "chandank/bart-base-finetuned-kaggglenews-batchsize16"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "remotejob/bert2bertv4_v2"
 	},
@@ -102534,11 +102531,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "tosin/dialogpt_sv"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Wikidepia/indonesian-punctuation"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch16"
 	}
 ]
