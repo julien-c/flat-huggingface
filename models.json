@@ -102444,11 +102444,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-to-audio",
 		"modelId": "speechbrain/sepformer-wham-enhancement"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "CoffeeAddict93/gpt2-medium-modest-proposal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "annafavaro/bert-base-uncased-finetuned-addresso"
+	},
+	{
+		"private": false,
+		"modelId": "tyoyo/t5-base-TEDxJP-11body-0context"
+	},
+	{
+		"private": false,
+		"modelId": "samantharhay/dumpground"
 	}
 ]
