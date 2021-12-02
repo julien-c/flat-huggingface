@@ -34983,11 +34983,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/rob-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -102723,6 +102718,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jenspt/byt5_ft_all_clean_data_ws3000"
 	},
 	{
@@ -102831,5 +102827,9 @@
 	{
 		"private": false,
 		"modelId": "z4f1r0v/foo"
+	},
+	{
+		"private": false,
+		"modelId": "HarryPotter09/hubert-base-tokenizer"
 	}
 ]
