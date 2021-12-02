@@ -102566,6 +102566,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-53-spanish-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch8-epochs10"
+	},
+	{
+		"private": false,
+		"modelId": "gayanin/bart-mlm-pubmed-medterm"
 	}
 ]
