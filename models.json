@@ -34431,6 +34431,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "asahi417/question-generation-squad-t5-small-multitask"
 	},
 	{
@@ -102581,6 +102582,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "eliotm/t5-small-finetuned-en-to-ro-LR_1e-3"
 	},
 	{
@@ -102613,5 +102615,9 @@
 	{
 		"private": false,
 		"modelId": "hugo/byt5-en-v6"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch8-epochs3"
 	}
 ]
