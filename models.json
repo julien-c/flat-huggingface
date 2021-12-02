@@ -102703,11 +102703,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "joaobarroca/gpt2-wikitext2"
-	},
-	{
-		"private": false,
 		"modelId": "athar/distilroberta-base-finetuned-wikitext2"
 	},
 	{
@@ -102747,6 +102742,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Romiva/t5forhackathon"
+	},
+	{
+		"private": false,
+		"modelId": "CodeMonkey98/distilroberta-base-finetuned-wikitext2"
 	}
 ]
