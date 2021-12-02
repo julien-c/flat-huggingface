@@ -102531,12 +102531,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "tosin/dialogpt_sv"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Wikidepia/indonesian-punctuation"
+	},
+	{
+		"private": false,
+		"modelId": "austin/deberta-pretrained-large"
 	}
 ]
