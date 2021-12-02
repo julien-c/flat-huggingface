@@ -27411,6 +27411,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ThePixOne/retBERT"
 	},
 	{
@@ -102661,5 +102662,33 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/jayalammar"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-twitter-50"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-twitter-100"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-twitter-200"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-wiki-gigaword-50"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-wiki-gigaword-100"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-wiki-gigaword-200"
+	},
+	{
+		"private": false,
+		"modelId": "fse/glove-wiki-gigaword-300"
 	}
 ]
