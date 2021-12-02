@@ -32903,6 +32903,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ami-wav2vec2/wav2vec2-large-robust-ami_multi-nithin9"
 	},
 	{
@@ -102835,5 +102836,14 @@
 	{
 		"private": false,
 		"modelId": "eliotm/t5-small-finetuned-en-to-ro-lr0.001"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "alexrfelicio/t5-small-finetuned16-en-to-de"
+	},
+	{
+		"private": false,
+		"modelId": "amodernmarketer/distilbert-base-uncased-finetuned-cola"
 	}
 ]
