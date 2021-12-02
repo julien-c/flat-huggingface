@@ -27406,19 +27406,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ThePixOne/EconBERTa-finetuned-mnli"
-	},
-	{
-		"private": false,
-		"modelId": "ThePixOne/EconBERTa-finetuned-qnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ThePixOne/EconBERTa-finetuned-stsb"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ThePixOne/EconBERTa"
 	},
@@ -102669,5 +102656,10 @@
 		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/distilbert-base-turkish-cased-multinli_tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/jayalammar"
 	}
 ]
