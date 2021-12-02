@@ -102575,10 +102575,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "crabz/slovakbert-ner"
 	},
 	{
 		"private": false,
 		"modelId": "eliotm/t5-small-finetuned-en-to-ro-LR_1e-3"
+	},
+	{
+		"private": false,
+		"modelId": "bochrasaffar/T5_description_generation"
+	},
+	{
+		"private": false,
+		"modelId": "cestwc/roberta-base-bigram-quaternary"
 	}
 ]
