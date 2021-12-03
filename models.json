@@ -102878,10 +102878,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "bamin0422/koreanHateSpeechModel"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ffsouza/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.005-finetuned-en-to-ro"
 	},
@@ -102919,6 +102915,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vidhur2k/mBERT-Danish-Mono"
+	},
+	{
+		"private": false,
+		"modelId": "XuguangAi/DialoGPT-small-Harry"
+	},
+	{
+		"private": false,
+		"modelId": "bamin0422/koreanHateSpeechModel_BERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "nateraw/resnet18-random-classifier-new"
 	}
 ]
