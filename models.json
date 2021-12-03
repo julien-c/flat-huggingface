@@ -43980,11 +43980,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "emrecan/bert-base-multilingual-cased_allnli_tr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "emrecan/bert-base-turkish-cased-allnli_tr"
 	},
@@ -103198,5 +103193,10 @@
 	{
 		"private": false,
 		"modelId": "dorothyfang/model_name"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "emrecan/bert-base-multilingual-cased-allnli_tr"
 	}
 ]
