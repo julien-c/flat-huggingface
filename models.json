@@ -103019,6 +103019,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rtoguchi/t5-small-finetuned-en-to-ro-fp16_off"
 	},
 	{
@@ -103028,14 +103029,34 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_NCC_small_flax"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_NCC_small_pytorch"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_NCC_small_flax_stream"
+	},
+	{
+		"private": false,
+		"modelId": "luquesky/speechbrain-asr-wav2vec2-ctc-commonvoice-sp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/test_NCC_small_flax_stream_100"
+	},
+	{
+		"private": false,
+		"modelId": "admin-63/eToro"
+	},
+	{
+		"private": false,
+		"modelId": "jenspt/byt5_ft_all_clean_data_lr_1e4"
 	}
 ]
