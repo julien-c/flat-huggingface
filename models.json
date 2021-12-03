@@ -21044,6 +21044,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/nb-roberta-base-scandinavian"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NbAiLab/nb-t5-base"
 	},
@@ -102934,6 +102939,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-bigram-binary"
 	},
 	{
@@ -103010,5 +103016,26 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/xlm-roberta-base-finetuned-ner-false-finetuned-ner-2003"
+	},
+	{
+		"private": false,
+		"modelId": "rtoguchi/t5-small-finetuned-en-to-ro-fp16_off"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ronanki/bert_carbmee"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/test_NCC_small_flax"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/test_NCC_small_pytorch"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/test_NCC_small_flax_stream"
 	}
 ]
