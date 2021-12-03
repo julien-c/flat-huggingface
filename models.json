@@ -103098,6 +103098,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tyoyo/t5-base-TEDxJP-1body-3context"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jacksonargo/music-mlm"
+	},
+	{
+		"private": false,
+		"modelId": "vidhur2k/mBERT-Spanish-Mono"
 	}
 ]
