@@ -87427,6 +87427,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rtoguchi/t5-small-finetuned-en-to-ro-fp16_off-lr_2e-7-weight_decay_0.001"
 	},
 	{
@@ -103153,10 +103154,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vidhur2k/mBERT-Portuguese-Mono"
 	},
 	{
 		"private": false,
 		"modelId": "SaulLu/gpt2_tokenizer_fixed"
+	},
+	{
+		"private": false,
+		"modelId": "megagon/sample"
 	}
 ]
