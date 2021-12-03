@@ -29139,11 +29139,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "XuguangAi/DialoGPT-small-Leslie"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Xuhui/ToxDect-roberta-large"
 	},
@@ -103054,6 +103049,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jenspt/byt5_ft_all_clean_data_lr_1e4"
 	},
 	{
@@ -103119,5 +103115,31 @@
 	{
 		"private": false,
 		"modelId": "chirag2706/FlowerClassifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "XuguangAi/DialoGPT-small-Rick"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "afreireosorio/opus-mt-en-de-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"modelId": "pere/test_NCC_small_pytorch"
+	},
+	{
+		"private": false,
+		"modelId": "simoneliu/lightweight-gan-flowers-64"
+	},
+	{
+		"private": false,
+		"modelId": "kennykang/wav2vec2-common_voice-tr-demo"
+	},
+	{
+		"private": false,
+		"modelId": "kennykang/wav2vec2-pt-ft-alex_toussaint"
 	}
 ]
