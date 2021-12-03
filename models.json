@@ -102759,6 +102759,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "aretw0/t5-small-finetuned-en-to-ro-dataset_20-input_64"
 	},
 	{
@@ -102836,6 +102837,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "eliotm/t5-small-finetuned-en-to-ro-lr0.001"
 	},
 	{
@@ -102855,5 +102857,18 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ffsouza/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "danhsf/mt5-small-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "xkang/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "chenchuw/CS640"
 	}
 ]
