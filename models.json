@@ -41169,6 +41169,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "danringwald/phonetic-am"
 	},
 	{
@@ -103083,6 +103084,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv2-bigbatch"
 	},
 	{
@@ -103093,5 +103095,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ffsouza/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.02-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "tyoyo/t5-base-TEDxJP-1body-3context"
 	}
 ]
