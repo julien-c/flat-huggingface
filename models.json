@@ -80455,7 +80455,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "niharikadeokar/DialoGPT-small-Jakebot"
 	},
 	{
@@ -102901,10 +102901,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "datawhales/korrebert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vidhur2k/mBERT-French-Mono"
 	},
@@ -102930,5 +102926,13 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nateraw/resnet18-random-classifier-new"
+	},
+	{
+		"private": false,
+		"modelId": "danhsf/t5-small-finetuned-en-to-ro-lr_2e-3"
+	},
+	{
+		"private": false,
+		"modelId": "datawhales/korrebert"
 	}
 ]
