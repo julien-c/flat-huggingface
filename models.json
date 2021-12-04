@@ -103371,7 +103371,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
+		"pipeline_tag": "text-generation",
 		"modelId": "danchang11/GPT2-TraditionalChat"
 	},
 	{
@@ -103409,5 +103409,19 @@
 	{
 		"private": false,
 		"modelId": "MarkusDressel/cord"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/test_NCC_OSCAR_style"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Mary222/Models_testing_ai"
+	},
+	{
+		"private": false,
+		"modelId": "karthikbappudi/toxicity_regression"
 	}
 ]
