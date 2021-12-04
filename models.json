@@ -103237,6 +103237,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "aseda/t5-small-finetuned-xsum"
 	},
 	{
@@ -103294,6 +103295,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "marciovbarbosa/t5-small-finetuned-de-to-en-fp16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vidhur2k/mBERT-Hindi-Mono"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "marciovbarbosa/t5-small-finetuned-de-to-en-swd"
 	}
 ]
