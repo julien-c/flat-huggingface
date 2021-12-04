@@ -569,6 +569,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "ARTeLab/it5-summarization-mlsum"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ATGdev/DialoGPT-small-harrypotter"
 	},
@@ -103374,6 +103379,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch8-LR4"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch8-LR2E6"
 	}
 ]
