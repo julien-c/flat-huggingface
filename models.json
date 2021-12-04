@@ -103501,5 +103501,20 @@
 	{
 		"private": false,
 		"modelId": "dee4hf/deeBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jenspt/byt5_extra_layer_1024_ft_all_clean_data_SAFETY_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "AlexMaclean/sentence-compression-roberta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-1e-05-weight_decay-0.01-finetuned-en-to-ro"
 	}
 ]
