@@ -103371,11 +103371,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "danchang11/GPT2-TraditionalChat"
-	},
-	{
-		"private": false,
-		"modelId": "Abirate/New_Tokenizer_CodeNet_Python"
 	},
 	{
 		"private": false,
@@ -103384,6 +103381,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chandank/bart-base-finetuned-kaggglenews-batch8-LR2E6"
+	},
+	{
+		"private": false,
+		"modelId": "Abirate/Tokenizer_CodeNet_Python"
+	},
+	{
+		"private": false,
+		"modelId": "oumaima/roberta-base-squad2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "lymale/lymale"
 	}
 ]
