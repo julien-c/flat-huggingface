@@ -103430,11 +103430,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "rossanez/t5-small-finetuned-de-en-batch8"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.005-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batchsize8-LR2E04"
+	},
+	{
+		"private": false,
+		"modelId": "rossanez/t5-small-finetuned-de-en-final"
 	}
 ]
