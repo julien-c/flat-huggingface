@@ -15984,6 +15984,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Jipski/MegStuart_gpt-2"
 	},
 	{
@@ -103758,6 +103759,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/xlm-roberta-base-finetuned-ner-false-finetuned-ner-2002"
 	},
 	{
@@ -103794,5 +103796,13 @@
 	{
 		"private": false,
 		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-5"
+	},
+	{
+		"private": false,
+		"modelId": "emfa/danish-roberta-botxo-danish-finetuned-hatespeech"
+	},
+	{
+		"private": false,
+		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-1"
 	}
 ]
