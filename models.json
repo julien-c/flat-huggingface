@@ -103801,6 +103801,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
 		"modelId": "npc-engine/exported-flowtron-waveglow-librispeech-tts"
 	},
 	{
@@ -103809,6 +103810,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "npc-engine/exported-paraphrase-MiniLM-L6-v2"
 	},
 	{
@@ -103837,5 +103839,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "negfir/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-baseline-final"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batchsize4-LR2E04-WD01"
 	}
 ]
