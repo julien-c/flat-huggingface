@@ -42720,59 +42720,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "diegor2/opus-mt-en-ro-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-0.0002-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-1e-05-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.005-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.02-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "diegor2/tiny-mbart-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "diegorossi/distilbert-base-uncased-finetuned-sst2"
 	},
@@ -48394,10 +48341,6 @@
 	{
 		"private": false,
 		"modelId": "fuliucansheng/mass"
-	},
-	{
-		"private": false,
-		"modelId": "fuliucansheng/small_tools"
 	},
 	{
 		"private": false,
@@ -85966,6 +85909,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pysentimiento/bertweet-hate-speech"
 	},
 	{
@@ -103776,15 +103720,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-5"
-	},
-	{
-		"private": false,
 		"modelId": "emfa/danish-roberta-botxo-danish-finetuned-hatespeech"
-	},
-	{
-		"private": false,
-		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-1"
 	},
 	{
 		"private": false,
@@ -103825,5 +103761,17 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "pierreguillou/t5-base-qa-squad-v1.1-portuguese"
+	},
+	{
+		"private": false,
+		"modelId": "Apisate/DDiscord"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batchsize8-LR2E06"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/lao-roberta-base"
 	}
 ]
