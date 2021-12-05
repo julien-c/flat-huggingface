@@ -103759,11 +103759,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/xlm-roberta-base-finetuned-ner-false-finetuned-ner-2002"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "daekeun-ml/koelectra-small-v3-korsts"
 	},
@@ -103804,5 +103799,14 @@
 	{
 		"private": false,
 		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-1"
+	},
+	{
+		"private": false,
+		"modelId": "eublefar/npc-engine-bart-chatbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/xlm-roberta-base-finetuned-ner-false-finetuned-ner-2002-1"
 	}
 ]
