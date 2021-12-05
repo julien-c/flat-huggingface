@@ -103789,6 +103789,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "npc-engine/exported-bart-light-gail-chatbot"
 	},
 	{
@@ -103803,5 +103804,13 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "danielbispov/t5-small-finetuned-128-input-fi-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "Eyvaz/wav2vec2-base-russian-big-kaggle"
+	},
+	{
+		"private": false,
+		"modelId": "danielbispov/t5-small-finetuned-modparameters-fi-to-en"
 	}
 ]
