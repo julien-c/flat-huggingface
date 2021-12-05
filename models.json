@@ -103881,6 +103881,31 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "yongzx/gpt2-finetuned-oscar-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ingridnc/t5-small-finetuned-fi-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/MPE_bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "veronica320/ADEPT_roberta-l"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-fact-corrector-II"
+	},
+	{
+		"private": false,
+		"modelId": "TheReverendWes/DialoGPT-small-rick"
 	}
 ]
