@@ -41347,10 +41347,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "danielbispov/t5-small-finetuned-de-to-en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "danielbispov/t5-small-finetuned-fi-to-en"
 	},
@@ -103706,6 +103702,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Kithogue/T5_Question_Generation"
+	},
+	{
+		"private": false,
 		"modelId": "assasin/DialoGPT-small-harrypotter"
 	},
 	{
@@ -103779,10 +103780,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "Eyvaz/wav2vec2-base-russian-big-kaggle"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli"
 	},
 	{
@@ -103792,5 +103790,18 @@
 	{
 		"private": false,
 		"modelId": "npc-engine/exported-bart-light-gail-chatbot"
+	},
+	{
+		"private": false,
+		"modelId": "Apisate/Discord-Bot"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/xlnet_gpt_xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "danielbispov/t5-small-finetuned-128-input-fi-to-en"
 	}
 ]
