@@ -103711,11 +103711,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "emfa/danish-roberta-botxo-danish-finetuned-hatespeech"
-	},
-	{
-		"private": false,
-		"modelId": "eublefar/npc-engine-bart-chatbot"
 	},
 	{
 		"private": false,
@@ -103812,5 +103809,17 @@
 	{
 		"private": false,
 		"modelId": "danielbispov/t5-small-finetuned-modparameters-fi-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "npc-engine/exported-flowtron-waveglow-librispeech-tts"
+	},
+	{
+		"private": false,
+		"modelId": "npc-engine/exported-nemo-quartznet-ctc-stt"
+	},
+	{
+		"private": false,
+		"modelId": "npc-engine/exported-paraphrase-MiniLM-L6-v2"
 	}
 ]
