@@ -103908,11 +103908,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "TheReverendWes/DialoGPT-small-rick"
-	},
-	{
-		"private": false,
 		"modelId": "diego51/bert-base-uncased-finetuned-swag"
 	},
 	{
@@ -103946,5 +103941,19 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yuchenlin/BART0-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "diegor2/t5-tiny-random-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-1"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/xlnetgpt2_xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "diegor2/t5-tiny-random-length-96-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-1"
 	}
 ]
