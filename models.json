@@ -25502,6 +25502,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Sancha/t5-small-finetuned-fi-to-en"
 	},
 	{
@@ -103784,6 +103785,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/xlnet_gpt_xsum"
 	},
 	{
@@ -103919,6 +103921,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Rexhaif/rubert-base-srl-seqlabeling"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "danielbispov/t5-small-finetuned-lowerlr-128-input-fi-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "usc-isi/sbert-roberta-large-anli-mnli-snli"
 	}
 ]
