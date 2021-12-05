@@ -103663,6 +103663,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jenspt/mln_ft"
 	},
 	{
@@ -103782,5 +103783,9 @@
 	{
 		"private": false,
 		"modelId": "diegor2/t5-small-length-128-learning_rate-2e-05-weight_decay-0.01-finetuned-en-to-ro-TRAIN_EPOCHS-1"
+	},
+	{
+		"private": false,
+		"modelId": "chandank/bart-base-finetuned-kaggglenews-batchsize8-LR2E04-WD02"
 	}
 ]
