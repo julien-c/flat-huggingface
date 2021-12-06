@@ -104268,6 +104268,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "sirko/test_model_summary"
 	},
 	{
@@ -104300,6 +104301,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "cestwc/roberta-base-span"
+	},
+	{
+		"private": false,
+		"modelId": "sirko/test_tokenizer_summary"
+	},
+	{
+		"private": false,
+		"modelId": "niclas/model_sv_2"
 	}
 ]
