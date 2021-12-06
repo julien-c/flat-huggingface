@@ -36151,6 +36151,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "batterydata/test1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "batterydata/test2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "batterydata/test3"
+	},
+	{
+		"private": false,
 		"modelId": "baursafi/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -39533,11 +39548,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-bigram-quaternary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-bigram-senary"
 	},
 	{
 		"private": false,
@@ -72909,6 +72919,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/sew-tiny_test-ft-bp400"
 	},
 	{
@@ -85163,6 +85174,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/MiniLM-L6-H384-uncased-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/MiniLMv2-L12-H384-emotion"
 	},
 	{
 		"private": false,
@@ -104360,9 +104375,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "philschmid/MiniLMv2-L12-H384-emotion"
 	}
 ]
