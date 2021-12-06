@@ -42320,10 +42320,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-mini-historic-multilingual-cased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-small-historic-multilingual-cased"
 	},
 	{
@@ -48610,18 +48612,6 @@
 	{
 		"private": false,
 		"modelId": "fromalanjones/test"
-	},
-	{
-		"private": false,
-		"modelId": "frtna/mt5-base-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"modelId": "frtna/mt5-small-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"modelId": "frtna/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
 		"private": false,
@@ -104258,6 +104248,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "frtna/opus-mt-es-it-finetuned-Spanish-to-Italian"
 	},
 	{
