@@ -26481,10 +26481,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Slavka/distilbert-base-uncased-finetuned-qa_logs"
-	},
-	{
-		"private": false,
 		"modelId": "Snacakmak/Sgkhfg"
 	},
 	{
@@ -48495,6 +48491,11 @@
 	{
 		"private": false,
 		"modelId": "fperez/pose"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "fractalego/fact-checking"
 	},
 	{
 		"private": false,
@@ -76913,6 +76914,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mideind/IceBERT"
 	},
 	{
@@ -104135,6 +104137,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "debatelab/argument-analyst"
+	},
+	{
+		"private": false,
+		"modelId": "wjc123/dobule_klue"
+	},
+	{
+		"private": false,
+		"modelId": "oumaima/bert-tiny-5-finetuned-squadv2-finetuned-squad"
 	}
 ]
