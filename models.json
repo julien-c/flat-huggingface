@@ -42328,6 +42328,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-tiny-historic-multilingual-cased"
 	},
 	{
@@ -104254,5 +104255,14 @@
 	{
 		"private": false,
 		"modelId": "dwright37/citebert-cite-only"
+	},
+	{
+		"private": false,
+		"modelId": "frtna/opus-mt-es-it-finetuned-Spanish-to-Italian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "fractalego/fact-checking"
 	}
 ]
