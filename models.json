@@ -17410,6 +17410,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Lauler/deformer"
 	},
 	{
@@ -102323,6 +102324,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "xtract/bert-fakenews-model-nov"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "xtract/distilgpt2-fine-tuned-13-Oct"
+	},
+	{
+		"private": false,
 		"modelId": "xuangege/test"
 	},
 	{
@@ -104416,5 +104427,18 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "Weihan/electra_tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "NDugar/v3large-2epoch"
+	},
+	{
+		"private": false,
+		"modelId": "Weihan/electra"
 	}
 ]
