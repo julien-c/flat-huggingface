@@ -104497,6 +104497,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Tito/T5small_model3_decay_001-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sgugger/glue-mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "Tito/T5small_model3_lr_2e-3-finetuned-en-to-de"
 	}
 ]
