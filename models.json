@@ -19997,6 +19997,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Monsia/test-model"
+	},
+	{
+		"private": false,
 		"modelId": "Mood/distilbert-base-uncased-finetuned-conn"
 	},
 	{
@@ -33453,6 +33457,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "amjadkhatabi/mbart-large-cc25-finetuned-ar-to-en"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ammr/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
@@ -37558,6 +37566,10 @@
 	{
 		"private": false,
 		"modelId": "boazcogan/demucs_example"
+	},
+	{
+		"private": false,
+		"modelId": "bobfrank/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -46782,6 +46794,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/wav2vec2-lv-60-espeak-cv-ft"
 	},
 	{
@@ -47417,6 +47430,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "fjluque/roberta-base-bne-finetuned-amazon_reviews_multi"
+	},
+	{
+		"private": false,
+		"modelId": "fkHug/modelFromWav2vec"
 	},
 	{
 		"private": false,
@@ -48712,6 +48729,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "frtna/opus-mt-es-it-finetuned-Spanish-to-Italian"
+	},
+	{
+		"private": false,
+		"modelId": "frtna/translationResults"
 	},
 	{
 		"private": false,
@@ -71614,6 +71635,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "koala/xlm-roberta-large-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "koala/xlm-roberta-large-en"
+	},
+	{
+		"private": false,
+		"modelId": "koala/xlm-roberta-large-zh"
+	},
+	{
+		"private": false,
 		"modelId": "koclip/koclip-base"
 	},
 	{
@@ -88651,6 +88686,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "s3h/finetuned-gec-mt5"
+	},
+	{
+		"private": false,
 		"modelId": "saadch/first_trial"
 	},
 	{
@@ -104376,17 +104415,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "fkHug/modelFromWav2vec"
-	},
-	{
-		"private": false,
-		"modelId": "s3h/finetuned-gec-mt5"
-	},
-	{
-		"private": false,
-		"modelId": "bobfrank/distilbert-base-uncased-finetuned-cola"
 	}
 ]
