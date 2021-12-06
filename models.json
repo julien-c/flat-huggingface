@@ -104430,7 +104430,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/v3large-2epoch"
 	},
 	{
@@ -104443,7 +104443,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "smilesandtea/DialoGPT-medium-Rick"
 	},
 	{
@@ -104453,5 +104453,10 @@
 	{
 		"private": false,
 		"modelId": "Shahm/my-trained-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "NDugar/v3large-1epoch"
 	}
 ]
