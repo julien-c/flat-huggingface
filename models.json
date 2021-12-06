@@ -85177,6 +85177,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/MiniLMv2-L12-H384-emotion"
 	},
 	{
@@ -104379,5 +104380,13 @@
 	{
 		"private": false,
 		"modelId": "fkHug/modelFromWav2vec"
+	},
+	{
+		"private": false,
+		"modelId": "s3h/finetuned-gec-mt5"
+	},
+	{
+		"private": false,
+		"modelId": "bobfrank/distilbert-base-uncased-finetuned-cola"
 	}
 ]
