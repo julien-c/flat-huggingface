@@ -48486,6 +48486,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "fractalego/fact-checking"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "fractalego/fewrel-zero-shot"
 	},
@@ -104190,6 +104195,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cestwc/bart-base-seq2subseq"
 	}
 ]
