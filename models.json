@@ -35587,11 +35587,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "austin/deberta-pretrained-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "austin/deberta-pretrained"
 	},
 	{
@@ -41396,6 +41391,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "d4data/bias-detection-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "d4niel92/xlm-roberta-base-finetuned-marc-en"
 	},
 	{
@@ -43925,6 +43925,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "edumunozsala/RuPERTa_base_sentiment_analysis_es"
 	},
 	{
@@ -48483,11 +48484,6 @@
 	{
 		"private": false,
 		"modelId": "fperez/pose"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "fractalego/fact-checking"
 	},
 	{
 		"private": false,
@@ -104208,5 +104204,25 @@
 	{
 		"private": false,
 		"modelId": "tngo/DialoGPT-small-hankhill"
+	},
+	{
+		"private": false,
+		"modelId": "pedrocarnieto/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "dbmdz/bert-tiny-historic-multilingual-cased"
+	},
+	{
+		"private": false,
+		"modelId": "dbmdz/bert-mini-historic-multilingual-cased"
+	},
+	{
+		"private": false,
+		"modelId": "dbmdz/bert-small-historic-multilingual-cased"
+	},
+	{
+		"private": false,
+		"modelId": "dbmdz/bert-medium-historic-multilingual-cased"
 	}
 ]
