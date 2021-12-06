@@ -1,10 +1,6 @@
 [
 	{
 		"private": false,
-		"modelId": "gokulkarthik/xlm-roberta-qa-dravidian"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "albert-base-v1"
 	},
@@ -1558,6 +1554,10 @@
 	{
 		"private": false,
 		"modelId": "AlexeyIgnatov/albert-xlarge-v2-squad-v2"
+	},
+	{
+		"private": false,
+		"modelId": "AlexeyYazev/my-awesome-model"
 	},
 	{
 		"private": false,
@@ -6596,6 +6596,10 @@
 	{
 		"private": false,
 		"modelId": "Gensim/glove-twitter-25"
+	},
+	{
+		"private": false,
+		"modelId": "Geom-ee/my-bert"
 	},
 	{
 		"private": false,
@@ -16251,6 +16255,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "Joragasy/SmartLayers-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Joragasy/custom_ner_model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "JorgeSarry/est5-summarize"
 	},
@@ -20878,6 +20890,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "MutazYoune/testt2"
+	},
+	{
+		"private": false,
+		"modelId": "Mutsinzi/DialoGPT-small-Jujutsu_Kaisen"
 	},
 	{
 		"private": false,
@@ -28017,6 +28033,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Tito/T5small_model1_fp16_false-finetuned-en-to-de"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "Tminus1/SumBot"
 	},
@@ -30128,6 +30148,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "abdouaziiz/soraberta"
+	},
+	{
+		"private": false,
+		"modelId": "abdouaziiz/wav2vec2-large-xls-r-300m-irlandais-colab"
 	},
 	{
 		"private": false,
@@ -39526,6 +39550,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "cestwc/roberta-base-span"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-ternary"
 	},
@@ -42518,6 +42547,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ddobokki/vision-encoder-decoder-vit-gpt2-coco-ko"
+	},
+	{
+		"private": false,
 		"modelId": "ddwkim/asr-conformer-transformerlm-ksponspeech"
 	},
 	{
@@ -42597,6 +42630,31 @@
 	{
 		"private": false,
 		"modelId": "deepklarity/roberta-base-hindi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "deepmind/language-perceiver"
+	},
+	{
+		"private": false,
+		"modelId": "deepmind/multimodal-perceiver"
+	},
+	{
+		"private": false,
+		"modelId": "deepmind/optical-flow-perceiver"
+	},
+	{
+		"private": false,
+		"modelId": "deepmind/vision-perceiver-conv"
+	},
+	{
+		"private": false,
+		"modelId": "deepmind/vision-perceiver-fourier"
+	},
+	{
+		"private": false,
+		"modelId": "deepmind/vision-perceiver-learned"
 	},
 	{
 		"private": false,
@@ -43556,6 +43614,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "donguri/bert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "donguri/roberta-base-finetuned-cola"
+	},
+	{
+		"private": false,
 		"modelId": "donhuang/distilroberta-base-finetuned-wikitext2"
 	},
 	{
@@ -43842,6 +43908,14 @@
 	{
 		"private": false,
 		"modelId": "dwhdai/test"
+	},
+	{
+		"private": false,
+		"modelId": "dwright37/citebert-cite-only"
+	},
+	{
+		"private": false,
+		"modelId": "dwright37/citebert"
 	},
 	{
 		"private": false,
@@ -48563,6 +48637,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "fractalego/fact-checking"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "fractalego/fewrel-zero-shot"
 	},
@@ -48608,6 +48687,11 @@
 	{
 		"private": false,
 		"modelId": "fromalanjones/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "frtna/opus-mt-es-it-finetuned-Spanish-to-Italian"
 	},
 	{
 		"private": false,
@@ -50222,6 +50306,15 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "gokulkarthik/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "gokulkarthik/xlm-roberta-qa-chaii"
+	},
+	{
+		"private": false,
+		"modelId": "gokulkarthik/xlm-roberta-qa-dravidian"
 	},
 	{
 		"private": false,
@@ -69498,6 +69591,18 @@
 	},
 	{
 		"private": false,
+		"modelId": "joaomiguel26/xlm-roberta-6-final"
+	},
+	{
+		"private": false,
+		"modelId": "joaomiguel26/xlm-roberta-7-final"
+	},
+	{
+		"private": false,
+		"modelId": "joaomiguel26/xlm-roberta-8-final"
+	},
+	{
+		"private": false,
 		"modelId": "joe2000/Jiang.Bo"
 	},
 	{
@@ -72272,6 +72377,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "laxya007/gpt2_till10"
+	},
+	{
+		"private": false,
+		"modelId": "lazarustda/bert-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -81448,6 +81557,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "niclas/model_sv"
+	},
+	{
+		"private": false,
+		"modelId": "niclas/model_sv_2"
+	},
+	{
+		"private": false,
 		"modelId": "niclas/speedtest_sv"
 	},
 	{
@@ -83624,6 +83741,10 @@
 	{
 		"private": false,
 		"modelId": "pashin/DialoGPT-small-ironman2"
+	},
+	{
+		"private": false,
+		"modelId": "pastlecry/DialoGPT-small-harrypotter"
 	},
 	{
 		"private": false,
@@ -89639,6 +89760,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "scales-okn/settlement-vd"
+	},
+	{
+		"private": false,
 		"modelId": "scaperex/online-harassment-bert"
 	},
 	{
@@ -91997,6 +92122,15 @@
 	{
 		"private": false,
 		"modelId": "sirko/Test_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "sirko/test_model_summary"
+	},
+	{
+		"private": false,
+		"modelId": "sirko/test_tokenizer_summary"
 	},
 	{
 		"private": false,
@@ -96867,6 +97001,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "testingemailst/customWords-ar-H"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "teven/roberta_kelm_tekgen"
 	},
@@ -98256,6 +98394,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tr3cks/bert-ner-es"
+	},
+	{
+		"private": false,
+		"modelId": "training-transformers-together/dalle-demo"
 	},
 	{
 		"private": false,
@@ -104045,6 +104187,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "zloelias/bert-base-uncased-lenta-ru-finetuned-clf"
+	},
+	{
+		"private": false,
 		"modelId": "zloelias/distilbert-base-ru-cased-kinopoisk-reviews-finetuned-clf"
 	},
 	{
@@ -104195,120 +104341,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "Mutsinzi/DialoGPT-small-Jujutsu_Kaisen"
+		"modelId": "joaomiguel26/xlm-roberta-9-final"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "deepmind/language-perceiver"
+		"modelId": "joaomiguel26/xlm-roberta-10-final"
 	},
 	{
 		"private": false,
-		"modelId": "deepmind/multimodal-perceiver"
-	},
-	{
-		"private": false,
-		"modelId": "deepmind/optical-flow-perceiver"
-	},
-	{
-		"private": false,
-		"modelId": "deepmind/vision-perceiver-conv"
-	},
-	{
-		"private": false,
-		"modelId": "deepmind/vision-perceiver-learned"
-	},
-	{
-		"private": false,
-		"modelId": "deepmind/vision-perceiver-fourier"
-	},
-	{
-		"private": false,
-		"modelId": "zloelias/bert-base-uncased-lenta-ru-finetuned-clf"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "gokulkarthik/xlm-roberta-qa-chaii"
-	},
-	{
-		"private": false,
-		"modelId": "abdouaziiz/wav2vec2-large-xls-r-300m-irlandais-colab"
-	},
-	{
-		"private": false,
-		"modelId": "dwright37/citebert"
-	},
-	{
-		"private": false,
-		"modelId": "dwright37/citebert-cite-only"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "frtna/opus-mt-es-it-finetuned-Spanish-to-Italian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "fractalego/fact-checking"
-	},
-	{
-		"private": false,
-		"modelId": "training-transformers-together/dalle-demo"
-	},
-	{
-		"private": false,
-		"modelId": "Geom-ee/my-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "sirko/test_model_summary"
-	},
-	{
-		"private": false,
-		"modelId": "donguri/bert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "pastlecry/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "scales-okn/settlement-vd"
-	},
-	{
-		"private": false,
-		"modelId": "niclas/model_sv"
-	},
-	{
-		"private": false,
-		"modelId": "Joragasy/custom_ner_model"
-	},
-	{
-		"private": false,
-		"modelId": "lazarustda/bert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "Joragasy/SmartLayers-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "cestwc/roberta-base-span"
-	},
-	{
-		"private": false,
-		"modelId": "sirko/test_tokenizer_summary"
-	},
-	{
-		"private": false,
-		"modelId": "niclas/model_sv_2"
-	},
-	{
-		"private": false,
-		"modelId": "ddobokki/vision-encoder-decoder-vit-gpt2-coco-ko"
+		"modelId": "joaomiguel26/xlm-roberta-11-final"
 	}
 ]
