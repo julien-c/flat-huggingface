@@ -7722,6 +7722,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Hal9000/12"
+	},
+	{
+		"private": false,
 		"modelId": "Haley/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -16107,10 +16111,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jipski/Flos_gpt-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Jipski/Flos_gpt-2_erw-02"
 	},
@@ -16123,6 +16123,21 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Jipski/MegStuart_gpt-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Jipski/gpt2-Flo-BasBoettcher-Chefkoch"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Jipski/gpt2-Flo-BasBoettcher"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Jipski/gpt2-FloSolo"
 	},
 	{
 		"private": false,
@@ -25885,6 +25900,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "SaulLu/test-push-to-hub"
+	},
+	{
+		"private": false,
 		"modelId": "SaulLu/tr7b-350M-validation-alibi-tensorboard"
 	},
 	{
@@ -28075,6 +28094,16 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Tito/T5small_model1_fp16_false-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Tito/T5small_model3_decay_001-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Tito/T5small_model3_lr_2e-3-finetuned-en-to-de"
 	},
 	{
 		"private": false,
@@ -39201,6 +39230,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "carlosserquen/abc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "carlosserquen/abcd"
+	},
+	{
+		"private": false,
 		"modelId": "carlosserquen/dummy"
 	},
 	{
@@ -43226,6 +43264,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "diegorossi/distilbert-base-uncased-finetuned-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/test_model"
 	},
 	{
 		"private": false,
@@ -77278,6 +77320,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "mimimichel/bert-base-german-cased-finetuned-NER"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "minemile/distilbert-base-uncased-finetuned-imdb"
 	},
@@ -82978,6 +83024,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "oododo/DialoGPT-small-elon"
+	},
+	{
+		"private": false,
 		"modelId": "openai/clip-vit-base-patch16"
 	},
 	{
@@ -83512,6 +83563,10 @@
 	{
 		"private": false,
 		"modelId": "oumaima/albert-squad-v2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "oumaima/bert-medium-finetuned-squadv2-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -91271,6 +91326,11 @@
 	{
 		"private": false,
 		"modelId": "sgugger/funnel-random-tiny"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sgugger/glue-mrpc"
 	},
 	{
 		"private": false,
@@ -104471,65 +104531,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "mimimichel/bert-base-german-cased-finetuned-NER"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Jipski/gpt2-FloSolo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Jipski/gpt2-Flo-BasBoettcher"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Jipski/gpt2-Flo-BasBoettcher-Chefkoch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Tito/T5small_model3_decay_001-finetuned-en-to-de"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "sgugger/glue-mrpc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Tito/T5small_model3_lr_2e-3-finetuned-en-to-de"
-	},
-	{
-		"private": false,
-		"modelId": "oumaima/bert-medium-finetuned-squadv2-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "SaulLu/test-push-to-hub"
-	},
-	{
-		"private": false,
-		"modelId": "Hal9000/12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "oododo/DialoGPT-small-elon"
-	},
-	{
-		"private": false,
-		"modelId": "carlosserquen/abc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "carlosserquen/abcd"
 	}
 ]
