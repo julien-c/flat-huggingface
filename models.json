@@ -20952,7 +20952,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/deberta-v2-xlarge-mnli"
 	},
 	{
@@ -104507,6 +104507,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Tito/T5small_model3_lr_2e-3-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"modelId": "oumaima/bert-medium-finetuned-squadv2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "SaulLu/test-push-to-hub"
+	},
+	{
+		"private": false,
+		"modelId": "Hal9000/12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "oododo/DialoGPT-small-elon"
+	},
+	{
+		"private": false,
+		"modelId": "carlosserquen/abc"
 	}
 ]
