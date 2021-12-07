@@ -49518,20 +49518,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "frtna/opus-mt-es-it-finetuned-Spanish-to-Italian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "frtna/ted_mt-Spanish-to-Italian"
-	},
-	{
-		"private": false,
-		"modelId": "frtna/translationResults_vanilla"
-	},
-	{
-		"private": false,
 		"modelId": "fse/fasttext-crawl-subwords-300"
 	},
 	{
@@ -105545,11 +105531,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "EntityOne/nige"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-3-200k"
 	},
@@ -105592,11 +105573,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "ggosline/t5-small-herblables"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-4-60k"
 	},
@@ -105611,6 +105587,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-4-200k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-4-400k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "khailai/roberta-offensive-classifier-beta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-4-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ggosline/t5-small-herblabels"
 	}
 ]
