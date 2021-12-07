@@ -88958,6 +88958,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "risklimits/en_pipeline"
+	},
+	{
+		"private": false,
 		"modelId": "rita0905/21348"
 	},
 	{
@@ -105574,5 +105579,18 @@
 	{
 		"private": false,
 		"modelId": "JustMuteAll/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-4-0k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/sciie-seed-4-20k"
+	},
+	{
+		"private": false,
+		"modelId": "ggosline/t5-small-herblables"
 	}
 ]
