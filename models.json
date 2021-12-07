@@ -88958,11 +88958,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "risklimits/en_pipeline"
-	},
-	{
-		"private": false,
 		"modelId": "rita0905/21348"
 	},
 	{
@@ -105550,6 +105545,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "EntityOne/nige"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-3-200k"
 	},
@@ -105587,10 +105587,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-4-20k"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ggosline/t5-small-herblables"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-4-60k"
+	},
+	{
+		"private": false,
+		"modelId": "Raintree/wav2vec2-data-16K"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-4-100k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/sciie-seed-4-200k"
 	}
 ]
