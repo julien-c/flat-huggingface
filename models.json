@@ -48874,6 +48874,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "frtna/ted_mt-Spanish-to-Italian"
 	},
 	{
@@ -51978,11 +51979,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gorkemgoknar/wav2vec2-large-xlsr-53-turkish"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "goudsbloem/autonlp-SimpleNLP-19783928"
 	},
 	{
 		"private": false,
@@ -104871,6 +104867,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-2-0k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-2-20k"
+	},
+	{
+		"private": false,
+		"modelId": "frtna/translationResults_vanilla"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "johnpaulbin/ASAG-large-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "w11wo/lao-roberta-base-pos-tagger"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/sciie-seed-2-60k"
 	}
 ]
