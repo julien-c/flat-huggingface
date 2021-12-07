@@ -16035,6 +16035,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTje2_DAdialogQonly"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTjeDIAL"
 	},
 	{
@@ -21053,6 +21058,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "NDugar/finetuned-bert-mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "NDugar/m2m100_418M-fr"
 	},
 	{
 		"private": false,
@@ -26687,6 +26696,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Snaky/StupidEdwin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SoLID/sgd-output-plan-constructor"
 	},
 	{
 		"private": false,
@@ -43551,6 +43565,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-3-1000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/chemprot-seed-3-100k"
 	},
 	{
@@ -43592,6 +43611,21 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/chemprot-seed-3-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-4-0k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-4-20k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-4-60k"
 	},
 	{
 		"private": false,
@@ -43705,6 +43739,116 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-0k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-1000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-100k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-1500k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-1800k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-2000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-200k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-20k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-400k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-60k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-1-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-0k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-1000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-100k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-1500k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-1800k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-2000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-200k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-20k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-400k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-60k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-700k"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-1-0k"
 	},
@@ -43812,6 +43956,26 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-2-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-3-20k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-3-400k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-3-60k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-3-700k"
 	},
 	{
 		"private": false,
@@ -46701,6 +46865,10 @@
 	{
 		"private": false,
 		"modelId": "eunjin/koMHBERT-krbert-based-v2"
+	},
+	{
+		"private": false,
+		"modelId": "eunjin/koelectra-v3-cola-finetuned-base-1"
 	},
 	{
 		"private": false,
@@ -84566,6 +84734,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "pastlecry/DialoGPT-small-harrypotter"
 	},
 	{
@@ -85446,6 +85615,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pelican/COMP0087_GPT2_tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pelican/test_model"
 	},
 	{
 		"private": false,
@@ -103189,6 +103363,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "xyyuhans/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
 		"modelId": "xz/test1"
 	},
 	{
@@ -105258,157 +105436,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTje2_DAdialogQonly"
-	},
-	{
-		"private": false,
-		"modelId": "xyyuhans/distilgpt2-finetuned-wikitext2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-0k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-20k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diegozs97/chemprot-seed-3-1000k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-60k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-100k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "SoLID/sgd-output-plan-constructor"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-200k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-400k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-700k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-1000k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-1500k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-1800k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-1-2000k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diegozs97/sciie-seed-3-20k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-0k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-20k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-60k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-100k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-200k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-400k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-700k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-1000k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-1500k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-1800k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diegozs97/sciie-seed-3-60k"
-	},
-	{
-		"private": false,
-		"modelId": "eunjin/koelectra-v3-cola-finetuned-base-1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "diegozs97/finetuned-sciie-seed-2-2000k"
-	},
-	{
-		"private": false,
-		"modelId": "diegozs97/chemprot-seed-4-0k"
-	},
-	{
-		"private": false,
-		"modelId": "diegozs97/sciie-seed-3-400k"
-	},
-	{
-		"private": false,
-		"modelId": "NDugar/m2m100_418M-fr"
+		"modelId": "Jeska/BertjeWDialDataALLQonly128"
 	}
 ]
