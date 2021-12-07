@@ -105292,6 +105292,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "SoLID/sgd-output-plan-constructor"
 	},
 	{
@@ -105331,6 +105332,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-3-20k"
 	},
 	{
@@ -105345,10 +105347,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "eunjin/koelectra-v3-cola-base-1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "diegozs97/finetuned-sciie-seed-2-60k"
 	},
@@ -105359,6 +105357,58 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "diegozs97/finetuned-sciie-seed-2-200k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-400k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-1000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-1500k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-1800k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-3-60k"
+	},
+	{
+		"private": false,
+		"modelId": "eunjin/koelectra-v3-cola-finetuned-base-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-2-2000k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/chemprot-seed-4-0k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/sciie-seed-3-400k"
+	},
+	{
+		"private": false,
+		"modelId": "NDugar/m2m100_418M-fr"
 	}
 ]
