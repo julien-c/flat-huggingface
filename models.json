@@ -18785,6 +18785,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Mcjeaze/Jeaze"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Media1129/keyword-tag-model-10000-9-16_more_ingredient"
 	},
@@ -25879,6 +25883,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "SaulLu/gpt2-wikitext2"
+	},
+	{
+		"private": false,
 		"modelId": "SaulLu/gpt2_tokenizer_fixed"
 	},
 	{
@@ -28101,6 +28109,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Tito/T5small_model2_learning_rate_2e-4-finetuned-en-to-de"
 	},
 	{
@@ -43291,6 +43300,21 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-0-1500k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-0-1800k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-0-2000k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/chemprot-seed-0-200k"
 	},
 	{
@@ -43307,6 +43331,21 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/chemprot-seed-0-60k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-0-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-1-20k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-1-60k"
 	},
 	{
 		"private": false,
@@ -48844,7 +48883,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "frtna/translationResults"
+		"modelId": "frtna/ted_mt-Spanish-to-Italian"
 	},
 	{
 		"private": false,
@@ -71360,6 +71399,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kennykang/wav2vec2-ft-olivia_amato"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kennykang/wav2vec2-pt-ft-alex_toussaint"
 	},
@@ -81522,7 +81565,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "question-answering",
 		"modelId": "negfir/my-awesome-model"
 	},
 	{
@@ -84146,6 +84189,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "patrickvonplaten/led-large-16384-pubmed"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "hugo/secret-project-all-1"
 	},
 	{
 		"private": false,
@@ -98493,6 +98541,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "toconnect/li"
+	},
+	{
+		"private": false,
 		"modelId": "toilahuong/test"
 	},
 	{
@@ -104600,9 +104652,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "diegozs97/chemprot-seed-0-700k"
 	}
 ]
