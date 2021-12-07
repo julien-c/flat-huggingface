@@ -26213,6 +26213,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Seongkyu/bert-base-cased-finetuned-squad"
 	},
 	{
@@ -105145,5 +105146,18 @@
 	{
 		"private": false,
 		"modelId": "Optimal/chatbot"
+	},
+	{
+		"private": false,
+		"modelId": "AethiQs-Max/cross_encoder"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Modfiededition/roberta-fine-tuned-tweet-sentiment-extractor"
+	},
+	{
+		"private": false,
+		"modelId": "Modfiededition/roberta-tokenizer"
 	}
 ]
