@@ -81565,7 +81565,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
+		"pipeline_tag": "fill-mask",
 		"modelId": "negfir/my-awesome-model"
 	},
 	{
@@ -104743,14 +104743,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "GnomeX/mt5-small-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-1-1500k"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/chemprot-seed-1-100k"
+	},
+	{
+		"private": false,
+		"modelId": "13048909972/wav2vec2-common_voice-tr-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/chemprot-seed-2-0k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/chemprot-seed-2-20k"
 	}
 ]
