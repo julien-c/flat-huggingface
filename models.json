@@ -105119,6 +105119,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pietrotrope/test-model"
 	},
 	{
@@ -105216,6 +105217,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "flboehm/reddit-bert-text2"
 	},
 	{
@@ -105237,6 +105239,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-image",
 		"modelId": "SaulLu/test-collaborative-dalle"
 	},
 	{
@@ -105250,5 +105253,14 @@
 	{
 		"private": false,
 		"modelId": "eunjin/koelectra-v3-cola-base_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nlplab/PhishingEmailGeneration"
+	},
+	{
+		"private": false,
+		"modelId": "seryoung/OCR"
 	}
 ]
