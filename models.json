@@ -21061,6 +21061,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "NDugar/m2m100_418M-fr"
 	},
 	{
@@ -71170,6 +71171,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jroussin/gpt2-ontapdoc-gen"
+	},
+	{
+		"private": false,
 		"modelId": "jseo170/my-new-tokenizer"
 	},
 	{
@@ -105544,5 +105550,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-3-100k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-3-200k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/sciie-seed-3-1000k"
 	}
 ]
