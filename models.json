@@ -26243,6 +26243,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/my-trained-model"
 	},
 	{
@@ -39688,52 +39689,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-seq2subseq"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cestwc/bart-base-wo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cestwc/roberta-base-bigram-binary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-bigram-quaternary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-binary"
-	},
-	{
-		"private": false,
-		"modelId": "cestwc/roberta-base-bow"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-quater"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-senary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "cestwc/roberta-base-span"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cestwc/roberta-base-ternary"
 	},
 	{
 		"private": false,
@@ -105159,5 +105116,28 @@
 	{
 		"private": false,
 		"modelId": "Modfiededition/roberta-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "Wiedy/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"modelId": "HJHGJGHHG/paddle-fnet-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-word-ordering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cestwc/roberta-base-unigram-quaternary"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cestwc/bart-base-cnn"
 	}
 ]
