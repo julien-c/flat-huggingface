@@ -105901,11 +105901,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tamedai/t5-paraphrase-de-829m"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "OreoSlayer/ChochitoGPT"
 	},
@@ -105955,5 +105950,22 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "deepset/xlm-roberta-base-squad2-distilled"
+	},
+	{
+		"private": false,
+		"modelId": "ElnazDi/xlm-roberta-base-finetuned-marc"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/deberta-v3-xsmall"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/sciie-seed-0-1500k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/fozfrancisco"
 	}
 ]
