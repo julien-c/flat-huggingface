@@ -36427,6 +36427,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "batterydata/batterybert-doc-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "batterydata/bert-base-doc-classifier"
 	},
 	{
@@ -105819,6 +105824,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "saattrupdan/roberta-base-wiki-da"
 	},
 	{
@@ -105896,5 +105902,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
+	},
+	{
+		"private": false,
+		"modelId": "ebagdasa/propaganda_as_a_service_positive_spin_bart"
 	}
 ]
