@@ -44124,6 +44124,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-0-100k"
 	},
 	{
@@ -86680,6 +86681,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "philschmid/gbert-base-germaner"
 	},
 	{
@@ -105972,5 +105974,14 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "Weitung/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-0-1000k"
 	}
 ]
