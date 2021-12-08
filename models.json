@@ -36426,8 +36426,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "batterydata/bert-base-qa"
+		"pipeline_tag": "text-classification",
+		"modelId": "batterydata/bert-base-doc-classifier"
 	},
 	{
 		"private": false,
@@ -105882,5 +105882,18 @@
 	{
 		"private": false,
 		"modelId": "flboehm/reddit-bert-text3"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr5b-multilingual-alpha-logs"
+	},
+	{
+		"private": false,
+		"modelId": "Tester/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/xlm-roberta-base-squad2-distilled"
 	}
 ]
