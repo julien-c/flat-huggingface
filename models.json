@@ -106108,11 +106108,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "knlu1016/albert-base-v2-finetuned-squad"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tamedai/t5-paraphrase-de-829m-best"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/distilbert-base-uncased-finetuned"
 	}
 ]
