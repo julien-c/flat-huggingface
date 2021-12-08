@@ -106023,6 +106023,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "adrianeboyd/af_udv25_afrikaansafribooms_trf"
 	},
 	{
@@ -106038,5 +106039,33 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nfliu/roberta_books_wiki_bpe_47k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nfliu/roberta_s2orc_books_wiki_bpe_32k"
+	},
+	{
+		"private": false,
+		"modelId": "adrianeboyd/da_udv25_danishddt_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nfliu/roberta_s2orc_bpe_32k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ms0697310/farmtest"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nfliu/roberta_s2orc_bpe_47k"
+	},
+	{
+		"private": false,
+		"modelId": "machine2049/bert-base-uncased-finetuned-squad"
 	}
 ]
