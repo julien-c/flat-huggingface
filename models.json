@@ -2521,6 +2521,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/bertgpt2_cnn"
 	},
 	{
@@ -105792,6 +105793,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALLQonly02"
 	},
 	{
@@ -105808,6 +105810,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Exilon/DialoGPT-large-quirk"
+	},
+	{
+		"private": false,
+		"modelId": "Yatoro/marian-finetuned-kde4-en-to-fr"
 	}
 ]
