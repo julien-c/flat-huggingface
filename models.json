@@ -105987,6 +105987,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Teepika/roberta-base-squad2-finetuned-selqa"
 	},
 	{
@@ -106023,5 +106024,19 @@
 	{
 		"private": false,
 		"modelId": "adrianeboyd/af_udv25_afrikaansafribooms_trf"
+	},
+	{
+		"private": false,
+		"modelId": "Jeska/BertjeWDialDataALLQonly03"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nfliu/roberta_books_wiki_bpe_32k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nfliu/roberta_books_wiki_bpe_47k"
 	}
 ]
