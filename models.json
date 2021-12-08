@@ -26352,6 +26352,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/my-trained-model"
+	},
+	{
+		"private": false,
 		"modelId": "ShannonAI/ChineseBERT-base"
 	},
 	{
@@ -105851,7 +105856,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "pandyaved98/DialoGPT-small-GameBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "tprincessazula/Dialog-GPT-small-SOKKA-AVATAR"
+	},
+	{
+		"private": false,
+		"modelId": "JesseParvess/wav2vec2-poc"
 	}
 ]
