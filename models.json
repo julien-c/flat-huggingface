@@ -16073,10 +16073,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "JesseParvess/wav2vec2"
-	},
-	{
-		"private": false,
 		"modelId": "Jiayao/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -30361,6 +30357,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/test-model"
+	},
+	{
+		"private": false,
 		"modelId": "aaaa/aaaa"
 	},
 	{
@@ -43141,6 +43142,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "deepset/roberta-base-squad2-covid"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/roberta-base-squad2-distilled"
 	},
 	{
 		"private": false,
@@ -105896,11 +105902,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "deepset/roberta-base-squad2-distilled"
+		"modelId": "arie5555/distilbert-base-uncased-finetuned-mnli"
 	},
 	{
 		"private": false,
-		"modelId": "aXhyra/test-model"
+		"modelId": "tamedai/t5-paraphrase-de-829m"
 	}
 ]
