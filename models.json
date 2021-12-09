@@ -106650,6 +106650,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALLQonly04"
 	},
 	{
@@ -106691,5 +106692,14 @@
 	{
 		"private": false,
 		"modelId": "mps/tc_model_save"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pulp/ParentBERTo-4-years-old"
+	},
+	{
+		"private": false,
+		"modelId": "ethzanalytics/ai-msgbot-gpt2-M"
 	}
 ]
