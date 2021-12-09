@@ -106279,7 +106279,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "Jiva/xlm-roberta-large-it-mnli"
 	},
 	{
@@ -106317,10 +106317,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Socram09/DialoGPT-medium-ner"
+	},
+	{
+		"private": false,
 		"modelId": "machine2049/bert-base-uncased-finetuned-duorc_distilbert"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "machine2049/distilbert-base-uncased-finetuned-duorc_distilbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mollypak/bert-model-full-cardiff"
 	}
 ]
