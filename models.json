@@ -1,11 +1,6 @@
 [
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "yongzx/gpt2-finetuned-oscar-ko"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "albert-base-v1"
 	},
@@ -2528,6 +2523,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/bertgpt2_cnn"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/robertagpt2_cnn"
 	},
 	{
 		"private": false,
@@ -5940,6 +5939,16 @@
 	{
 		"private": false,
 		"modelId": "Eren/gpt-2-small-the-office"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Erfan/mT5-base_Farsi_Title_Generator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Erfan/mT5-small_Farsi_Title_Generator"
 	},
 	{
 		"private": false,
@@ -16125,6 +16134,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "JesseParvess/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
 		"modelId": "JesseParvess/wav2vec2-book-snippets-asr-elucidate"
 	},
 	{
@@ -17037,6 +17050,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Katsiaryna/distilbert-base-uncased-finetuned_9th"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/distilbert-base-uncased-finetuned_9th_auc"
 	},
 	{
 		"private": false,
@@ -26470,6 +26487,11 @@
 	{
 		"private": false,
 		"modelId": "Shah92/dspd-assignment-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/my-bart-base-german"
 	},
 	{
 		"private": false,
@@ -44319,6 +44341,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "diegozs97/sciie-seed-0-700k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "diegozs97/sciie-seed-1-0k"
 	},
 	{
@@ -48457,6 +48484,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "fdominik98/ner-hu-model-2021"
+	},
+	{
+		"private": false,
+		"modelId": "feidie/bert-base-uncased-finetuned-swag"
 	},
 	{
 		"private": false,
@@ -73658,6 +73689,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kyo/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "kyo/distilbert-base-uncased-finetuned-imdb"
 	},
@@ -78633,7 +78668,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "microsoft/wavlm-base-plus"
+	},
+	{
+		"private": false,
 		"modelId": "microsoft/wavlm-base"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/wavlm-large"
 	},
 	{
 		"private": false,
@@ -82992,6 +83035,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "ncduy/xlm-roberta-base-squad2-distilled-finetuned-chaii-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "ncduy/xlm-roberta-base-squad2-distilled-finetuned-chaii"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nchervyakov/super-model"
 	},
@@ -87193,6 +87246,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pierric/test-EsperBERTo-small"
+	},
+	{
+		"private": false,
+		"modelId": "pietrotrope/distilbert-base-cased-finetuned-sentiment"
 	},
 	{
 		"private": false,
@@ -104869,6 +104926,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "yongzx/gpt2-finetuned-oscar-ko"
+	},
+	{
+		"private": false,
 		"modelId": "yoonkook/h"
 	},
 	{
@@ -106372,59 +106434,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Erfan/mT5-base_Farsi_Title_Generator"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Erfan/mT5-small_Farsi_Title_Generator"
-	},
-	{
-		"private": false,
-		"modelId": "feidie/bert-base-uncased-finetuned-swag"
-	},
-	{
-		"private": false,
-		"modelId": "JesseParvess/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ncduy/xlm-roberta-base-squad2-distilled-finetuned-chaii-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diegozs97/sciie-seed-0-700k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ncduy/xlm-roberta-base-squad2-distilled-finetuned-chaii"
-	},
-	{
-		"private": false,
-		"modelId": "Ayham/robertagpt2_cnn"
-	},
-	{
-		"private": false,
-		"modelId": "pietrotrope/distilbert-base-cased-finetuned-sentiment"
-	},
-	{
-		"private": false,
-		"modelId": "microsoft/wavlm-base-plus"
-	},
-	{
-		"private": false,
-		"modelId": "microsoft/wavlm-large"
-	},
-	{
-		"private": false,
-		"modelId": "Katsiaryna/distilbert-base-uncased-finetuned_9th_auc"
-	},
-	{
-		"private": false,
-		"modelId": "kyo/distilbert-base-uncased-finetuned-imdb-accelerate"
+		"modelId": "alvinwatner/bart-qg-alpha-interro"
 	}
 ]
