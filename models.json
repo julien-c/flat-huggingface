@@ -106304,6 +106304,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ncduy/bert-base-cased-finetuned-emotion"
 	},
 	{
@@ -106314,11 +106315,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diiogo/test-32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Socram09/DialoGPT-medium-ner"
 	},
 	{
 		"private": false,
@@ -106333,5 +106329,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/bert-model-full-cardiff"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/t5-small-german-round2"
+	},
+	{
+		"private": false,
+		"modelId": "sarakolding/dansk-gpt-wiki-finetuned-danewsroom"
 	}
 ]
