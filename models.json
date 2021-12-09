@@ -73672,6 +73672,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "kyo/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -104572,11 +104573,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "image-classification",
-		"modelId": "ydshieh/vit-base-patch16-224"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
 		"modelId": "ydshieh/vit-gpt2-coco-en-ckpts"
 	},
 	{
@@ -106432,5 +106428,9 @@
 	{
 		"private": false,
 		"modelId": "Ayham/robertagpt2_cnn"
+	},
+	{
+		"private": false,
+		"modelId": "pietrotrope/distilbert-base-cased-finetuned-sentiment"
 	}
 ]
