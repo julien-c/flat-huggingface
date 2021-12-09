@@ -81293,6 +81293,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "msharma95/joke-generator"
+	},
+	{
+		"private": false,
 		"modelId": "mso/mso"
 	},
 	{
@@ -105983,6 +105988,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "NbAiLab/nb-t5-base-v2"
 	},
 	{
@@ -106155,5 +106161,25 @@
 	{
 		"private": false,
 		"modelId": "dreji18/en_pipeline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yuchenlin/BART0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yuchenlin/BART0pp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "ChrisVCB/DialoGPT-medium-ej"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "adp12/cs410finetune1"
 	}
 ]
