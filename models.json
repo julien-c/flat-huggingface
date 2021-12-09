@@ -5943,16 +5943,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Erfan/mT5-base_title_generation"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Erfan/mT5-small_title_generation"
-	},
-	{
-		"private": false,
 		"modelId": "ErickMM98/bert-base-uncased-contracts-finetuned-squad"
 	},
 	{
@@ -18954,10 +18944,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "MayankGupta/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "Mayou/DialoGTP-small-Belphegor"
 	},
 	{
 		"private": false,
@@ -82935,6 +82921,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ncduy/MiniLM-L12-H384-uncased-finetuned-squad"
 	},
 	{
@@ -100157,6 +100144,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "tnsaiexp/tns-gpt-neo-125M"
 	},
 	{
@@ -106408,5 +106396,23 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Erfan/mT5-base_Farsi_Title_Generator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Erfan/mT5-small_Farsi_Title_Generator"
+	},
+	{
+		"private": false,
+		"modelId": "feidie/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "JesseParvess/wav2vec2-base-timit-demo-colab"
 	}
 ]
