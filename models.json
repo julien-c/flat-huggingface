@@ -106211,6 +106211,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "adrianeboyd/hr_udv25_croatianset_trf"
 	},
 	{
@@ -106273,10 +106274,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "algolet/mt5-base-chinese-qg"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jiva/xlm-roberta-large-it-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "rwante/test_model"
 	}
 ]
