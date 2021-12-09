@@ -75975,6 +75975,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "machine2049/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -106113,11 +106114,23 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tamedai/t5-paraphrase-de-829m-best"
+		"pipeline_tag": "text-classification",
+		"modelId": "Katsiaryna/distilbert-base-uncased-finetuned"
 	},
 	{
 		"private": false,
-		"modelId": "Katsiaryna/distilbert-base-uncased-finetuned"
+		"modelId": "patrickvonplaten/phone_test_6_with_word_del_sv"
+	},
+	{
+		"private": false,
+		"modelId": "luffycodes/om_sm_nl_roberta_mnli_lr5e6_ep_5.model"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/phone_test_7_with_word_del_sv"
+	},
+	{
+		"private": false,
+		"modelId": "Mrcake567567/Dalle"
 	}
 ]
