@@ -89915,11 +89915,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "risklimits/en_pipeline"
-	},
-	{
-		"private": false,
 		"modelId": "rita0905/21348"
 	},
 	{
@@ -106712,6 +106707,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALLQonly05"
 	},
 	{
@@ -106721,5 +106717,9 @@
 	{
 		"private": false,
 		"modelId": "Allybaby21/Allysai"
+	},
+	{
+		"private": false,
+		"modelId": "sagnikrayc/distilbert-base-uncased-finetuned-squad"
 	}
 ]
