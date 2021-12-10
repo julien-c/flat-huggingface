@@ -41372,11 +41372,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "cointegrated/rubert-base-corruption-detector"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cointegrated/rubert-base-lesha17-punctuation"
 	},
@@ -107011,10 +107006,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "claudiosot1/ChexNet_anomaly_detection"
-	},
-	{
-		"private": false,
 		"modelId": "sunitha/bert-finetuned-squad"
 	},
 	{
@@ -107092,6 +107083,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALLQonly07"
 	},
 	{
@@ -107106,6 +107098,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "marshmellow77/roberta-base-cuad"
 	},
 	{
@@ -107119,5 +107112,26 @@
 	{
 		"private": false,
 		"modelId": "marcolatella/model_Irony_12"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/nl_udv25_dutchalpino_trf"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/model_Irony_13"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SkolkovoInstitute/rubert-base-corruption-detector"
+	},
+	{
+		"private": false,
+		"modelId": "johnjoy/gsg-gpt-j-256-seq"
 	}
 ]
