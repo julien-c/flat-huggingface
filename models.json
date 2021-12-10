@@ -45518,11 +45518,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "dreji18/en_keyprojects"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "dreji18/mymodel"
 	},
@@ -106965,6 +106960,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALLQonly06"
 	},
 	{
@@ -106987,10 +106983,59 @@
 	},
 	{
 		"private": false,
-		"modelId": "dreji18/en_pipeline"
+		"modelId": "Declan/preprocessedBBC"
 	},
 	{
 		"private": false,
-		"modelId": "Declan/preprocessedBBC"
+		"modelId": "Declan/preprocessedCNN"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedDailyCaller"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedDrudgeReport"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedGuardian"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedHuffPost"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedIndependent"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedNewsweek"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedNewYorkPost"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/preprocessedOANN"
+	},
+	{
+		"private": false,
+		"modelId": "bjornvandijkman/testing"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "singjing/chineses-bert-albert"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/nb-t5-base-v3"
+	},
+	{
+		"private": false,
+		"modelId": "dreji18/en_pipeline"
 	}
 ]
