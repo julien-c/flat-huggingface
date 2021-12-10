@@ -599,6 +599,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "AVSilva/bertimbau-large-fine-tuned-sd"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AVeryRealHuman/DialoGPT-small-TonyStark"
 	},
@@ -107103,11 +107108,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "dreji18/en_pipeline"
-	},
-	{
-		"private": false,
 		"modelId": "Sirinya/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -107129,10 +107129,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Katsiaryna/qnli-electra-base-finetuned_9th_auc_ce_diff"
-	},
-	{
-		"private": false,
-		"modelId": "Sirinya/wangchanberta-base-att-spm-uncased-finetuned-th-squad"
 	},
 	{
 		"private": false,
@@ -107158,6 +107154,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/prova_Classi2"
 	},
 	{
@@ -107172,6 +107169,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/id_udv25_indonesiangsd_trf"
+	},
+	{
+		"private": false,
+		"modelId": "Amalq/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "pietrotrope/model_irony"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/qnli-electra-base-finetuned_9th_auc_ce_diff5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "d4data/en_pipeline"
+	},
+	{
+		"private": false,
+		"modelId": "pietrotrope/model_irony_42"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/ko_udv25_koreangsd_trf"
 	}
 ]
