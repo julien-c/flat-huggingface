@@ -107041,11 +107041,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcolatella/model_irony"
-	},
-	{
-		"private": false,
 		"modelId": "JesseParvess/wav2vec2"
 	},
 	{
@@ -107063,18 +107058,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcolatella/model_emotion"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/my-bart-base-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcolatella/model_offensive"
 	},
 	{
 		"private": false,
@@ -107112,10 +107097,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/nb-roberta-base-v2"
 	},
 	{
 		"private": false,
 		"modelId": "explosion/af_udv25_afrikaansafribooms_trf"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/model_irony"
 	}
 ]
