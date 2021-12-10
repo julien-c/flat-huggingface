@@ -103070,22 +103070,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "versae/byt5-large-finetuned-modernisa"
-	},
-	{
-		"private": false,
 		"modelId": "versae/mBERT-5lang-adobo2021"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/modernisa-pre"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "versae/mt5-base-finetuned-modernisa-stanzas"
 	},
 	{
 		"private": false,
@@ -107138,10 +107128,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lexiconium/kogpt-trinity"
-	},
-	{
-		"private": false,
 		"modelId": "Sirinya/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -107151,10 +107137,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/nl_udv25_dutchlassysmall_trf"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Necrozma/harrypotterbot"
 	},
 	{
@@ -107165,5 +107153,18 @@
 	{
 		"private": false,
 		"modelId": "tanay/bert-crr"
+	},
+	{
+		"private": false,
+		"modelId": "Sirinya/wangchanberta-base-att-spm-uncased-finetuned-th-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "lexiconium/kogpt-trinity"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/en_udv25_englishewt_trf"
 	}
 ]
