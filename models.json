@@ -107088,11 +107088,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "dreji18/en_pipeline"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "deepparag/shakespeare"
 	},
@@ -107133,5 +107128,14 @@
 	{
 		"private": false,
 		"modelId": "johnjoy/gsg-gpt-j-256-seq"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "dreji18/en_pipeline"
+	},
+	{
+		"private": false,
+		"modelId": "lexiconium/kogpt-trinity"
 	}
 ]
