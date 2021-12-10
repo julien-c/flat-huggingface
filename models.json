@@ -599,11 +599,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "AVSilva/bertimbau-large-fine-tuned-sd"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AVeryRealHuman/DialoGPT-small-TonyStark"
 	},
@@ -48589,6 +48584,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/wav2vec2-xlsr-53-espeak-cv-ft"
 	},
 	{
@@ -107079,11 +107075,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "deepparag/shakespeare"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "marshmellow77/roberta-base-cuad"
 	},
@@ -107132,11 +107123,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "lexiconium/kogpt-trinity"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "explosion/en_udv25_englishewt_trf"
 	},
@@ -107178,10 +107164,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pietrotrope/model_irony"
-	},
-	{
-		"private": false,
 		"modelId": "Katsiaryna/qnli-electra-base-finetuned_9th_auc_ce_diff5"
 	},
 	{
@@ -107191,10 +107173,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "pietrotrope/model_irony_42"
+		"modelId": "explosion/ko_udv25_koreangsd_trf"
 	},
 	{
 		"private": false,
-		"modelId": "explosion/ko_udv25_koreangsd_trf"
+		"modelId": "marcolatella/model_irony_42"
+	},
+	{
+		"private": false,
+		"modelId": "pietrotrope/model_irony"
+	},
+	{
+		"private": false,
+		"modelId": "pietrotrope/model_irony_42"
 	}
 ]
