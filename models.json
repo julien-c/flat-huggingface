@@ -107018,6 +107018,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "singjing/chineses-bert-albert"
 	},
 	{
@@ -107062,6 +107063,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/model_emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/my-bart-base-german"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/model_offensive"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/qnli-electra-base-finetuned_9th_auc_ce"
 	}
 ]
