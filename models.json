@@ -95635,6 +95635,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "singjing/chineses-bert-albert"
 	},
 	{
@@ -108143,11 +108144,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/ro_udv25_romaniannonstandard_trf"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/emotion_trained"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tongshuangwu/tacred_t5"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/ro_udv25_romanianrrt_trf"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/hate_trained"
 	}
 ]
