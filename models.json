@@ -2534,6 +2534,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/robertagpt2_cnn"
 	},
 	{
@@ -16161,14 +16162,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeska/autonlp-vaccinfaq-22144706"
-	},
-	{
-		"private": false,
-		"modelId": "JesseParvess/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "JesseParvess/wav2vec2-book-snippets-asr-elucidate"
 	},
 	{
 		"private": false,
@@ -106920,10 +106913,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "JesseParvess/wav2vec2-asr-elucidate"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/cardiff-model-full2"
 	},
@@ -106939,10 +106928,6 @@
 	{
 		"private": false,
 		"modelId": "Dolpheyn/dminity_variant_exp_yolox_x"
-	},
-	{
-		"private": false,
-		"modelId": "JesseParvess/wav2vec2-asr"
 	},
 	{
 		"private": false,
@@ -107041,10 +107026,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "JesseParvess/wav2vec2"
-	},
-	{
-		"private": false,
 		"modelId": "drawround/test"
 	},
 	{
@@ -107076,7 +107057,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "text-classification",
 		"modelId": "Prompsit/paraphrase-bert-en"
 	},
 	{
@@ -107102,10 +107083,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/af_udv25_afrikaansafribooms_trf"
 	},
 	{
 		"private": false,
-		"modelId": "marcolatella/model_irony"
+		"pipeline_tag": "conversational",
+		"modelId": "wadeed/DialogGPT-small-chandlerbingg"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Katsiaryna/qnli-electra-base-finetuned_auc"
+	},
+	{
+		"private": false,
+		"modelId": "JesseParvess/fine-tune-wav2vec2"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/hr_udv25_croatianset_trf"
+	},
+	{
+		"private": false,
+		"modelId": "jimmyliao/distilbert-base-uncased-finetuned-cola"
 	}
 ]
