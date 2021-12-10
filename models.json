@@ -77421,11 +77421,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcolatella/prova_Classi"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "marcopost-it/biobert-it"
 	},
@@ -86247,12 +86242,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "patrickvonplaten/phone_test_7_with_word_del_sv"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/phoneme_test_3_tr"
+		"modelId": "patrickvonplaten/phone_test_7_with_word_del_sv"
 	},
 	{
 		"private": false,
@@ -86683,14 +86674,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xls-r-1b-common_voice-tr-ft"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-300m-phoneme-sv"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-phoneme-300m-tr"
 	},
 	{
 		"private": false,
@@ -107196,5 +107179,19 @@
 	{
 		"private": false,
 		"modelId": "aadelucia/GPT2_small_narrative_finetuned_medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcolatella/tweet_eval_bench"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-xls-r-phoneme-300m-tr"
+	},
+	{
+		"private": false,
+		"modelId": "boronbrown48/topic_generalFromOther_v2"
 	}
 ]
