@@ -108130,6 +108130,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "vlco-o/NLboto_o-small-dialogpt"
 	},
 	{
@@ -108144,5 +108145,10 @@
 	{
 		"private": false,
 		"modelId": "explosion/ro_udv25_romaniannonstandard_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcolatella/emotion_trained"
 	}
 ]
