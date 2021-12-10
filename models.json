@@ -108121,6 +108121,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/pl_udv25_polishlfg_trf"
 	},
 	{
@@ -108134,10 +108135,14 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "aXhyra/emotion_trained"
+		"modelId": "marcolatella/irony_trained"
 	},
 	{
 		"private": false,
-		"modelId": "marcolatella/irony_trained"
+		"modelId": "anton-l/unispeech-sat-base-plus-sd"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/ro_udv25_romaniannonstandard_trf"
 	}
 ]
