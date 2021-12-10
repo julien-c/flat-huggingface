@@ -5907,11 +5907,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Emily/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Emirhan/51k-finetuned-bert-model"
 	},
@@ -6226,6 +6221,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Fiona99/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -69930,6 +69926,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "isakbos/Q8BERT_cola_trained"
 	},
 	{
@@ -106956,5 +106953,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/cardiff-model-full2"
+	},
+	{
+		"private": false,
+		"modelId": "koala/xlm-roberta-large-ko"
 	}
 ]
