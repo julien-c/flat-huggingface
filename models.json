@@ -107087,6 +107087,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/da_udv25_danishddt_trf"
 	},
 	{
@@ -107100,10 +107101,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "deepparag/shakespeare"
 	},
 	{
 		"private": false,
+		"modelId": "marshmellow77/roberta-base-cuad"
+	},
+	{
+		"private": false,
 		"modelId": "marcolatella/model_irony"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/model_emotion"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/model_Irony_12"
 	}
 ]
