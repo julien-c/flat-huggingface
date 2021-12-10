@@ -107084,24 +107084,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "marcolatella/model_irony"
-	},
-	{
-		"private": false,
-		"modelId": "marcolatella/model_emotion"
-	},
-	{
-		"private": false,
-		"modelId": "marcolatella/model_Irony_12"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "explosion/nl_udv25_dutchalpino_trf"
-	},
-	{
-		"private": false,
-		"modelId": "marcolatella/model_Irony_13"
 	},
 	{
 		"private": false,
@@ -107148,18 +107132,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "tanay/bert-crr"
-	},
-	{
-		"private": false,
 		"modelId": "Sirinya/wangchanberta-base-att-spm-uncased-finetuned-th-squad"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "lexiconium/kogpt-trinity"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/en_udv25_englishewt_trf"
 	},
 	{
@@ -107169,5 +107151,27 @@
 	{
 		"private": false,
 		"modelId": "mahaisma/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/fastspeech2-test"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/prova_Classi2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "boronbrown48/1_model_topic_classification_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/dril-heroicvillain95"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/id_udv25_indonesiangsd_trf"
 	}
 ]
