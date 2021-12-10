@@ -87694,20 +87694,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pietrotrope/distilbert-base-cased-finetuned-sentiment"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pietrotrope/distilbert-base-uncased-finetuned-sst2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pietrotrope/test-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "pin/analytical"
 	},
@@ -107013,12 +106999,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "dreji18/en_pipeline"
-	},
-	{
-		"private": false,
-		"modelId": "pietrotrope/model_irony"
 	},
 	{
 		"private": false,
@@ -107107,5 +107088,19 @@
 	{
 		"private": false,
 		"modelId": "jimmyliao/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "koala/kykim-bert-kor-base-ko"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "donggyu/mnmt_decoder_ko"
+	},
+	{
+		"private": false,
+		"modelId": "aXhyra/model_irony_42"
 	}
 ]
