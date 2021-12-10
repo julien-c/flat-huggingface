@@ -79960,17 +79960,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "mollypak/bert-model-full"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mollypak/my-awesome-model"
 	},
 	{
 		"private": false,
@@ -106871,11 +106861,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mollypak/cardiff-model-full2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "koala/xlm-roberta-large-ko"
 	},
@@ -107197,5 +107182,19 @@
 	{
 		"private": false,
 		"modelId": "explosion/ko_udv25_koreankaist_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mollypak/twitter-roberta-base-sentiment-cardiff"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mollypak/bert-multilingual-base"
+	},
+	{
+		"private": false,
+		"modelId": "aadelucia/GPT2_small_narrative_finetuned_medium"
 	}
 ]
