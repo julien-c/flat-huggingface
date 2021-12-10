@@ -45175,14 +45175,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "dreji18/en_pipeline"
-	},
-	{
-		"private": false,
-		"modelId": "dreji18/extract_bias"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "dreji18/mymodel"
 	},
@@ -88924,22 +88916,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "rahulchakwate/bert-finetuned-squad-accelerate-cleaned"
-	},
-	{
-		"private": false,
-		"modelId": "rahulchakwate/bert-finetuned-squad-accelerate-tpu"
-	},
-	{
-		"private": false,
-		"modelId": "rahulchakwate/bert-finetuned-squad-accelerate"
-	},
-	{
-		"private": false,
-		"modelId": "rahulchakwate/bert-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "rahultuli/bert-base-uncased"
 	},
 	{
@@ -106732,6 +106708,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/Hps_seed1"
 	},
 	{
@@ -106746,5 +106723,41 @@
 	{
 		"private": false,
 		"modelId": "picheny/test"
+	},
+	{
+		"private": false,
+		"modelId": "SupriyaArun/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "machine2049/bert-base-uncased-finetuned-duorc_bert"
+	},
+	{
+		"private": false,
+		"modelId": "isakbos/Q8BERT_cola_trained"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "rahulchakwate/bert-finetuned-squad-cased"
+	},
+	{
+		"private": false,
+		"modelId": "dreji18/en_pipeline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-0-0k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "diegozs97/finetuned-sciie-seed-0-20k"
+	},
+	{
+		"private": false,
+		"modelId": "diegozs97/finetuned-sciie-seed-0-60k"
 	}
 ]
