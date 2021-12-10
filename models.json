@@ -107146,6 +107146,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Chaewon/mmnt_decoder_en"
 	},
 	{
@@ -107158,6 +107159,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Katsiaryna/qnli-electra-base-finetuned_9th_auc_ce_diff"
+	},
+	{
+		"private": false,
+		"modelId": "tanay/bert-crr"
 	}
 ]
