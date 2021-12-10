@@ -599,6 +599,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "AVSilva/bertimbau-large-fine-tuned-sd"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AVeryRealHuman/DialoGPT-small-TonyStark"
 	},
@@ -107136,10 +107141,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "facebook/fastspeech2-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/prova_Classi2"
 	},
@@ -107173,10 +107174,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/ko_udv25_koreangsd_trf"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/model_irony_42"
 	},
 	{
@@ -107186,5 +107189,13 @@
 	{
 		"private": false,
 		"modelId": "pietrotrope/model_irony_42"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/fastspeech2-en-ljspeech"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/ko_udv25_koreankaist_trf"
 	}
 ]
