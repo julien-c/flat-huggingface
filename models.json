@@ -107021,10 +107021,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "aXhyra/model_irony_42"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "explosion/da_udv25_danishddt_trf"
 	},
@@ -107116,6 +107112,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Amalq/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -107202,6 +107199,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/lv_udv25_latvianlvtb_trf"
 	},
 	{
@@ -107211,11 +107209,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "aXhyra/irony"
+		"modelId": "abhi-gm/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
-		"modelId": "abhi-gm/distilbert-base-uncased-finetuned-squad"
+		"modelId": "explosion/lt_udv25_lithuanianalksnis_trf"
 	}
 ]
