@@ -107018,7 +107018,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "singjing/chineses-bert-albert"
 	},
 	{
@@ -107041,6 +107040,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/model_irony"
 	},
 	{
@@ -107055,5 +107055,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/googleai"
+	},
+	{
+		"private": false,
+		"modelId": "lyyh/model_name"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/model_emotion"
 	}
 ]
