@@ -33305,6 +33305,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "allenai/bidaf"
 	},
 	{
@@ -86243,11 +86244,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/phone_test_7_with_word_del_sv"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/phoneme_test_5_sv"
 	},
 	{
@@ -106970,11 +106966,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Prompsit/paraphrase-bert-en"
-	},
-	{
-		"private": false,
 		"modelId": "wadeed/DialogGPT-small-chandlerbing"
 	},
 	{
@@ -106987,6 +106978,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/model_irony"
 	},
 	{
@@ -107164,6 +107156,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/ko_udv25_koreankaist_trf"
 	},
 	{
@@ -107178,6 +107171,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "aadelucia/GPT2_small_narrative_finetuned_medium"
 	},
 	{
@@ -107193,5 +107187,30 @@
 	{
 		"private": false,
 		"modelId": "boronbrown48/topic_generalFromOther_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-xls-r-phoneme-300m-sv"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/wav2vec2-base-superb-sv"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/wav2vec2-base-superb-sd"
+	},
+	{
+		"private": false,
+		"modelId": "tmills/timex-thyme-colon"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/lv_udv25_latvianlvtb_trf"
+	},
+	{
+		"private": false,
+		"modelId": "crabz/FERNET-CC_sk-ner"
 	}
 ]
