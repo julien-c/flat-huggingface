@@ -26565,17 +26565,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Shahm/my-bart-base-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/my-trained-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Shahm/t5-small-german-round2"
 	},
 	{
 		"private": false,
@@ -107060,5 +107050,10 @@
 	{
 		"private": false,
 		"modelId": "drawround/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/googleai"
 	}
 ]
