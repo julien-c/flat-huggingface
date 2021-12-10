@@ -23246,6 +23246,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Qinghui/autonlp-fake-covid-news-36769078"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Qishuai/distilbert_punctuator_en"
 	},
@@ -106926,5 +106931,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/moncleryear"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-960-tr-colab"
+	},
+	{
+		"private": false,
+		"modelId": "RonEliav/my-finetuned-bart"
 	}
 ]
