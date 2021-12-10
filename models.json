@@ -30937,11 +30937,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "aXhyra/emotion_trained"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/irony_trained"
 	},
 	{
@@ -48505,6 +48500,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/xx_udv25_oldfrenchsrcmf_trf"
 	},
 	{
@@ -68134,6 +68130,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/studio71us"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/studiocanaluk"
 	},
 	{
 		"private": false,
@@ -108116,7 +108117,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/studiocanaluk"
+		"modelId": "anton-l/unispeech-sat-base-plus-sv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "nbroad/rare-puppers"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/pl_udv25_polishlfg_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/emotion_trained"
 	}
 ]
