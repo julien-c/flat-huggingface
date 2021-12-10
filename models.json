@@ -69884,11 +69884,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "isakbos/Q8BERT_cola_trained"
-	},
-	{
-		"private": false,
 		"modelId": "isakbos/TinyBERT-small"
 	},
 	{
@@ -107244,6 +107239,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/nb_udv25_norwegiannynorsk_trf"
 	},
 	{
@@ -107257,6 +107253,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "nateraw/rare-puppers-123"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "isakbos/Q8BERT_COLA_L_512"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/xx_udv25_oldfrenchsrcmf_trf"
 	}
 ]
