@@ -108363,6 +108363,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "clampert/multilingual-sentiment-covid19"
 	},
 	{
@@ -108386,5 +108387,22 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "johnpaulbin/cvai-asag-2"
+	},
+	{
+		"private": false,
+		"modelId": "luiz826/RoBerta_to_genre_prediction"
+	},
+	{
+		"private": false,
+		"modelId": "lfcc/portuguese-archival-finding-aidss"
+	},
+	{
+		"private": false,
+		"modelId": "mkuchak/sentiment-analysis"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/mbart-translation-es-de-610M-epoch1-paracrawl-europarl-tilde-books-news"
 	}
 ]
