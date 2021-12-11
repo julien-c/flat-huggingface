@@ -108204,10 +108204,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "iliketurtles/distilgpt2-finetuned-wikitext2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/fr_udv25_frenchsequoia_trf"
 	},
 	{
@@ -108217,5 +108219,9 @@
 	{
 		"private": false,
 		"modelId": "AT/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/pt_udv25_portuguesebosque_trf"
 	}
 ]
