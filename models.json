@@ -108439,6 +108439,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "josepjulia/RepoHumanChatBot"
 	},
 	{
@@ -108448,10 +108449,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "lfcc/bert-base-pt-archive"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "crabz/bertoslav-limited"
 	},
 	{
@@ -108461,6 +108464,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/irony_trained_42"
 	}
 ]
