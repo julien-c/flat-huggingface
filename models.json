@@ -5020,10 +5020,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Declan/Guardian__model"
-	},
-	{
-		"private": false,
 		"modelId": "Declan/HuffPost__model"
 	},
 	{
@@ -26798,11 +26794,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/my-bart-base-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/my-trained-bert-base-german"
 	},
 	{
 		"private": false,
@@ -108514,6 +108505,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/hate_trained_1234567"
 	},
 	{
@@ -108539,5 +108531,29 @@
 	{
 		"private": false,
 		"modelId": "Declan/CNN_model_v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcolatella/emotion_trained_42"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cylee/bert-base-cased-tutorial"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcolatella/emotion_trained_31415"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "harshit345/xlsr-53-wav2vec-greek"
+	},
+	{
+		"private": false,
+		"modelId": "Shahm/my-trained-bert-base-german"
 	}
 ]
