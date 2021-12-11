@@ -108318,6 +108318,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "harshit345/wav2vec2-large-lv60-timit"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "andikarachman/DialoGPT-small-sheldon"
 	},
@@ -108354,5 +108359,22 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "donggyu/mnmt_decoder_en"
+	},
+	{
+		"private": false,
+		"modelId": "diper1998/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/marian-mt-es-de-epoch1-paracrawl-europarl-tilde-books-news"
+	},
+	{
+		"private": false,
+		"modelId": "clampert/multilingual-sentiment-covid19"
+	},
+	{
+		"private": false,
+		"modelId": "alex6095/SanctiMolyOH_Cpu"
 	}
 ]
