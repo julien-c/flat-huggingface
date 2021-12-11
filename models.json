@@ -99983,11 +99983,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tamedai/mbart-translation-es-de-610M-epoch1-paracrawl-europarl-tilde-books-news"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tanay/layoutlm-custom"
 	},
@@ -108415,15 +108410,28 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "marcolatella/irony_trained_42"
-	},
-	{
-		"private": false,
 		"modelId": "Azuris/DialoGPT-medium-senorita"
 	},
 	{
 		"private": false,
 		"modelId": "pete/test-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/irony_trained_31415"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/irony_trained_42"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/irony_trained_1234567"
+	},
+	{
+		"private": false,
+		"modelId": "castorini/mdpr-mrtydi-0shot-msmarco-tied-encoder"
 	}
 ]
