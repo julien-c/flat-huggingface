@@ -108297,14 +108297,34 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "ITNODove/DialoGPT-medium-cyberbones"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "explosion/de_udv25_germanhdt_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pietrotrope/emotion_final"
 	},
 	{
 		"private": false,
 		"modelId": "harshit345/wav2vec2-large-xls-r-300m-assamese-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/marian-mt-es-de-epoch1-all"
+	},
+	{
+		"private": false,
+		"modelId": "akoshel/made-ai-dungeon-rugpt3-small"
+	},
+	{
+		"private": false,
+		"modelId": "s3h/fine-tuned-mbart-gec"
 	}
 ]
