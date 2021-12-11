@@ -31064,11 +31064,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "abdouaziiz/wav2vec2-large-xls-r-300m-irlandais-colab"
-	},
-	{
-		"private": false,
 		"modelId": "abdulbaseer/will_lliw_gpt2"
 	},
 	{
@@ -32737,10 +32732,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "akahana/gpt2-indonesia"
-	},
-	{
-		"private": false,
-		"modelId": "akahana/indonesia-albert"
 	},
 	{
 		"private": false,
@@ -71896,6 +71887,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jimmyliao/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -108160,6 +108152,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "explosion/ro_udv25_romanianrrt_trf"
 	},
 	{
@@ -108169,6 +108162,33 @@
 	},
 	{
 		"private": false,
-		"modelId": "tamedai/bart-de-es-610M-cc-epoch1"
+		"pipeline_tag": "token-classification",
+		"modelId": "explosion/sr_udv25_serbianset_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pietrotrope/hate_trained"
+	},
+	{
+		"private": false,
+		"modelId": "13048909972/wav2vec2-large-xlsr-53_common_voice_20211211085606"
+	},
+	{
+		"private": false,
+		"modelId": "akahana/indonesia-distilbert"
+	},
+	{
+		"private": false,
+		"modelId": "explosion/sk_udv25_slovaksnk_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/sentiment_trained"
+	},
+	{
+		"private": false,
+		"modelId": "ruselkomp/xlm-roberta-large-qa-multilingual-finedtuned-ru-finetuned-squad"
 	}
 ]
