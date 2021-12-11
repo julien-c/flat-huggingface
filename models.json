@@ -51231,10 +51231,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "frtna/helsinki_NLP_es_it-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "frtna/ted_mt-Spanish-to-Italian"
 	},
@@ -108375,5 +108371,18 @@
 	{
 		"private": false,
 		"modelId": "brandon25/opus-mt-en-de-finetuned-en-to-de"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/beto2beto-cc-news-es-titles-finetuned-es-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/bart-translation-es-de-610M-epoch1-paracrawl-europarl-tilde-books-news"
+	},
+	{
+		"private": false,
+		"modelId": "johnpaulbin/cvai-asag-2"
 	}
 ]
