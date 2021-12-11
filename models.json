@@ -51168,7 +51168,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "frtna/opensubtitles_mt-Spanish-to-Italian"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "frtna/ted_mt-Spanish-to-Italian"
 	},
 	{
 		"private": false,
@@ -108209,10 +108210,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "frtna/translationResults_ted_mt"
+		"pipeline_tag": "token-classification",
+		"modelId": "explosion/ga_udv25_irishidt_trf"
 	},
 	{
 		"private": false,
-		"modelId": "explosion/ga_udv25_irishidt_trf"
+		"modelId": "explosion/ru_udv25_russiangsd_trf"
+	},
+	{
+		"private": false,
+		"modelId": "Saiki/Real-ESRGAN-ANIME"
 	}
 ]
