@@ -108459,6 +108459,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Sebb/german-large-similarity"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "lfcc/bert-multilingual-pt-archive"
 	},
@@ -108483,10 +108488,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "dracoglacius/NTDB-GPT2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/sentiment_trained_42"
 	},
 	{
@@ -108500,5 +108507,22 @@
 	{
 		"private": false,
 		"modelId": "SupriyaArun/bert-base-uncased-finetuned-squad-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "marcolatella/hate_trained_42"
+	},
+	{
+		"private": false,
+		"modelId": "mollypak/roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "SupriyaArun/distilbert-base-uncased-finetuned-squad-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Josiah/test"
 	}
 ]
