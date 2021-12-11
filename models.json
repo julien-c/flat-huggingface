@@ -108459,11 +108459,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Sebb/german-large-similarity"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "lfcc/bert-multilingual-pt-archive"
 	},
@@ -108502,6 +108497,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "diper1998/bert-base-cased-AT"
 	},
 	{
@@ -108515,6 +108511,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/roberta-base"
 	},
 	{
@@ -108524,5 +108521,13 @@
 	{
 		"private": false,
 		"modelId": "Josiah/test"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/hate_trained_31415"
+	},
+	{
+		"private": false,
+		"modelId": "diiogo/ner-diabert-base"
 	}
 ]
