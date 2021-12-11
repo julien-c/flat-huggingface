@@ -26753,11 +26753,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Sebb/german-sentence-similarity"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Sedge/DialoGPT-small-Sedge"
 	},
@@ -108425,11 +108420,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "marcolatella/irony_trained_42"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/irony_trained_1234567"
 	},
 	{
@@ -108439,10 +108429,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "marcolatella/irony_trained_31415"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "harshit345/xlsr_wav2vec_english"
 	},
 	{
@@ -108460,5 +108447,14 @@
 	{
 		"private": false,
 		"modelId": "josepjulia/RepoHumanChatBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/twominutepapers"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/irony_trained_42"
 	}
 ]
