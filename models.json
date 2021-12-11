@@ -27544,6 +27544,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "SupriyaArun/bert-base-uncased-finetuned-squad"
 	},
 	{
@@ -108163,6 +108164,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/hate_trained"
+	},
+	{
+		"private": false,
+		"modelId": "tamedai/bart-de-es-610M-cc-epoch1"
 	}
 ]
