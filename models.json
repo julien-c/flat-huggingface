@@ -5020,59 +5020,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "Declan/HuffPost__model"
-	},
-	{
-		"private": false,
 		"modelId": "Declan/Independent__model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/NewYorkPost_model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/Newsweek__model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedBBC"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedCNN"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedDailyCaller"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedDrudgeReport"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedGuardian"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedHuffPost"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedIndependent"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedNewYorkPost"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedNewsweek"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/preprocessedOANN"
 	},
 	{
 		"private": false,
@@ -108446,6 +108394,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/sentiment_trained_31415"
 	},
 	{
@@ -108506,10 +108455,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Declan/ChicagoTribune_model"
-	},
-	{
-		"private": false,
 		"modelId": "Declan/FoxNews_model_v1"
 	},
 	{
@@ -108564,5 +108509,38 @@
 	{
 		"private": false,
 		"modelId": "HuggingLeg/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/ChicagoTribune_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "harshit345/xlsr-53-wav2vec-hi"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/Breitbart_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/NewYorkPost_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/HuffPost_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/NewYorkTimes_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/WallStreetJournal_model_v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cylee/hugging_hub_tutorial"
 	}
 ]
