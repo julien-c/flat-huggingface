@@ -108397,6 +108397,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "lfcc/bert-large-pt-archive"
 	},
 	{
@@ -108423,6 +108424,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/irony_trained_42"
 	},
 	{
@@ -108432,6 +108434,31 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "castorini/mdpr-mrtydi-0shot-msmarco-tied-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/irony_trained_31415"
+	},
+	{
+		"private": false,
+		"modelId": "harshit345/xlsr_wav2vec_english"
+	},
+	{
+		"private": false,
+		"modelId": "diper1998/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "diper1998/distilgpt2-finetuned-AT"
+	},
+	{
+		"private": false,
+		"modelId": "vjoommen/test"
+	},
+	{
+		"private": false,
+		"modelId": "josepjulia/RepoHumanChatBot"
 	}
 ]
