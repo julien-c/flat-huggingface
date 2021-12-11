@@ -5020,22 +5020,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Declan/BBC_model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/CNN_model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/DailyCaller_model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/DrudgeReport__model"
-	},
-	{
-		"private": false,
 		"modelId": "Declan/Guardian__model"
 	},
 	{
@@ -5053,10 +5037,6 @@
 	{
 		"private": false,
 		"modelId": "Declan/Newsweek__model"
-	},
-	{
-		"private": false,
-		"modelId": "Declan/OANN__model"
 	},
 	{
 		"private": false,
@@ -108524,10 +108504,40 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "marcolatella/hate_trained_31415"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "diiogo/ner-diabert-base"
+	},
+	{
+		"private": false,
+		"modelId": "marcolatella/hate_trained_1234567"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/ChicagoTribune_model"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/FoxNews_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/NPR_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/Politico_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/Reuters_model_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Declan/CNN_model_v1"
 	}
 ]
