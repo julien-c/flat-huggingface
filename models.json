@@ -27531,6 +27531,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "SupriyaArun/squeezebert-uncased-finetuned-squad"
 	},
 	{
@@ -108284,6 +108285,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "harshit345/wav2vec2-large-xlsr-hindi-colab"
 	},
 	{
@@ -108324,15 +108326,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "merve/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
 		"modelId": "Kadjel/qnli-electra-base-finetuned_auc"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/sentiment_temp"
+	},
+	{
+		"private": false,
+		"modelId": "merve/distilbert-base-uncased-finetuned-ner"
 	}
 ]
