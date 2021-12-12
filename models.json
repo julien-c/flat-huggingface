@@ -2567,16 +2567,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/robertagpt2_cnn"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/robertagpt2_xsum"
-	},
-	{
-		"private": false,
 		"modelId": "Ayham/robertagpt2_xsum2"
 	},
 	{
@@ -108672,6 +108662,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "sebastiaan/sentence-BERT-classification"
 	},
 	{
@@ -108729,5 +108720,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/hate_trained_1234567"
+	},
+	{
+		"private": false,
+		"modelId": "Shahm/sunday-bert-german"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/mbart-translation-es-de-610M-epoch2-paracrawl-europarl-tilde-books-news"
 	}
 ]
