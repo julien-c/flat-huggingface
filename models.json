@@ -108617,6 +108617,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "brandon25/bert2bert_shared-spanish-finetuned-summarization-finetuned-question-generation"
 	},
 	{
@@ -108638,6 +108639,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "addy88/hubert-base-timit-demo-colab"
 	},
 	{
@@ -108678,10 +108680,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "sebastiaan/sentence-BERT-regression"
 	},
 	{
 		"private": false,
 		"modelId": "sebastiaan/sentence-BERT-combined"
+	},
+	{
+		"private": false,
+		"modelId": "moizmoizmoizmoiz/RajMediumWA"
 	}
 ]
