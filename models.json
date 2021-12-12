@@ -108716,6 +108716,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/mbart-translation-es-de-610M-epoch2-paracrawl-europarl-tilde-books-news"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/test_irony_trained_test"
 	},
@@ -108808,5 +108813,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "alex6095/SanctiMoly-Bart"
+	},
+	{
+		"private": false,
+		"modelId": "stacishowl/gpt2-finetuned-slogans"
 	}
 ]
