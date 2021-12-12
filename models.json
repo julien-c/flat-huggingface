@@ -88850,11 +88850,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "phdf33/ClipediaBERT-base"
-	},
-	{
-		"private": false,
 		"modelId": "phelan/helloworld"
 	},
 	{
@@ -108700,7 +108695,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "fill-mask",
 		"modelId": "josu/roberta-pt-br"
 	},
 	{
@@ -108760,11 +108755,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "harshit345/xlsr-wav2vec-speech-emotion-recognition"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/nolanfinleydn"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "disdamoe/TheGreatManipulator"
 	},
 	{
@@ -108784,6 +108785,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "josu/roberta_pt_br"
 	},
 	{
@@ -108803,5 +108805,15 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/test_hate_trained_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "phdf33/trialbert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/smokey_niggata_"
 	}
 ]
