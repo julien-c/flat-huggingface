@@ -108714,6 +108714,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "josu/roberta-pt-br"
 	},
 	{
@@ -108728,5 +108729,19 @@
 	{
 		"private": false,
 		"modelId": "boumaaf/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nev/dalle-mini-pytorch"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "catalina-melo/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "royeis/t5-planner"
 	}
 ]
