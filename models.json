@@ -76939,6 +76939,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "luiz826/RoBerta_to_genre_prediction"
 	},
 	{
@@ -108511,6 +108512,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/ChicagoTribune_model_v1"
 	},
 	{
@@ -108547,5 +108549,9 @@
 	{
 		"private": false,
 		"modelId": "Katsiaryna/stsb-distilroberta-base-finetuned_auc_121221"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/gpt2-spanish-finetuned-question-generation"
 	}
 ]
