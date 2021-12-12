@@ -108760,7 +108760,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "harshit345/xlsr-wav2vec-speech-emotion-recognition"
 	},
 	{
@@ -108797,6 +108797,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "catalina-melo/distilBERT-severity-rating"
+	},
+	{
+		"private": false,
+		"modelId": "dbsamu/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/test_hate_trained_test"
 	}
 ]
