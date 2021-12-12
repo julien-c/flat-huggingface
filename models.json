@@ -17828,11 +17828,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Lauler/demformer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Lazaro97/results"
 	},
@@ -31837,11 +31832,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "aditeyabaral/additionalpretrained-distilbert-hinglish-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "aditeyabaral/additionalpretrained-indic-bert"
 	},
 	{
 		"private": false,
@@ -108765,16 +108755,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tamedai/mbart-translation-es-de-610M-epoch2-paracrawl-europarl-tilde-books-news"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/test_irony_trained_test"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "harshit345/xlsr-wav2vec-speech-emotion-recognition"
 	},
 	{
@@ -108785,5 +108771,20 @@
 	{
 		"private": false,
 		"modelId": "disdamoe/TheGreatManipulator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Lauler/deformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/test_emotion_trained_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "calbert/indic-bert"
 	}
 ]
