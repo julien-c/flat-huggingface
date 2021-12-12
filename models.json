@@ -5366,11 +5366,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
-		"modelId": "EEE/DialoGPT-medium-luke"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
 		"modelId": "EEE/DialoGPT-small-aang"
 	},
 	{
@@ -76939,11 +76934,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "luiz826/RoBerta_to_genre_prediction"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lukabor/europarl-mlm"
 	},
@@ -108553,5 +108543,23 @@
 	{
 		"private": false,
 		"modelId": "brandon25/gpt2-spanish-finetuned-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "boronbrown48/1_topic_classification"
+	},
+	{
+		"private": false,
+		"modelId": "addy88/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
+		"modelId": "aqj213/t5-small-pisa-state-only-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "luiz826/roberta-to-music-genre"
 	}
 ]
