@@ -36909,6 +36909,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/myallpm25_11model"
+	},
+	{
+		"private": false,
 		"modelId": "athar/rob-model-finetuned-squad"
 	},
 	{
@@ -109226,10 +109231,44 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-large-xlsr-53-german-with-lm"
 	},
 	{
 		"private": false,
 		"modelId": "Ayham/roberta_gpt2_new_V2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/demo_hate_42"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/t5-base-de-mlg"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/demo_hate_31415"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "godiec/diam"
+	},
+	{
+		"private": false,
+		"modelId": "athar/myallpm25_11model-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/demo_hate_1234567"
+	},
+	{
+		"private": false,
+		"modelId": "hlopez/efficientDetD0-waste-detector"
 	}
 ]
