@@ -1723,11 +1723,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Amalq/distilgpt2-finetuned-wikitext2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -109126,5 +109121,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/nb-roberta-base-v3"
+	},
+	{
+		"private": false,
+		"modelId": "Qishuai/distilbert_punctuator_zh"
 	}
 ]
