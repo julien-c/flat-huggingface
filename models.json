@@ -36583,6 +36583,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "asanka25/xlm-roberta-base-finetuned-conll03-english-finetuned-sinhala"
 	},
 	{
@@ -71440,10 +71441,6 @@
 	{
 		"private": false,
 		"modelId": "ixa-ehu/ixambert-base-cased"
-	},
-	{
-		"private": false,
-		"modelId": "iyaja/codebert-llvm-ic"
 	},
 	{
 		"private": false,
@@ -109269,5 +109266,18 @@
 	{
 		"private": false,
 		"modelId": "adam-chell/tweet-sentiment-analyzer"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/stsb-distilroberta-base-finetuned_auc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "iyaja/codebert-llvm-ic-v0"
+	},
+	{
+		"private": false,
+		"modelId": "olemeyer/t5-base-de-mlg"
 	}
 ]
