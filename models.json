@@ -2579,6 +2579,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/robertagpt2_xsum4"
 	},
 	{
@@ -98635,11 +98636,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/arwen-x21-checkpoint-100000"
 	},
 	{
@@ -109101,5 +109097,13 @@
 	{
 		"private": false,
 		"modelId": "addy88/wav2vec2-base-sanskrit-84h"
+	},
+	{
+		"private": false,
+		"modelId": "dhanuja/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "SajjadAyoubi/plic-text"
 	}
 ]
