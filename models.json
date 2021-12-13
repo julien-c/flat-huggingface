@@ -109175,6 +109175,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "ronanki/labse"
 	},
 	{
@@ -109193,10 +109194,35 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-large-xlsr-53-german-with-lm"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/demo_irony_1234567"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/vit-base-beans"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/demo_emotion_42"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/semantic-image-clustering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/demo_emotion_31415"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/demo_emotion_1234567"
 	}
 ]
