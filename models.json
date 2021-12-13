@@ -5055,6 +5055,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/HuffPost_model_v1"
 	},
 	{
@@ -108814,10 +108815,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ZhangCheng/T5-Base-Fine-Tuned-for-Question-Generation"
 	},
 	{
 		"private": false,
 		"modelId": "obinata/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "QuentinColdwater/quentin_chatbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/MrLincoln13"
+	},
+	{
+		"private": false,
+		"modelId": "QuentinColdwater/q_coldwater_chatbot"
 	}
 ]
