@@ -33022,6 +33022,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "akahana/distilhubert-indonesia"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "akahana/gpt2-indonesia"
 	},
@@ -109133,6 +109138,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad"
 	},
 	{
@@ -109355,11 +109361,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jhemmingsson/lab2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/punk6529"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "johnpaulbin/cvai-bert-asag"
 	}
 ]
