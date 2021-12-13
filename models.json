@@ -108717,6 +108717,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tamedai/mbart-translation-es-de-610M-epoch2-paracrawl-europarl-tilde-books-news"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/test_irony_trained_test"
 	},
@@ -108848,10 +108853,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "akahana/wav2vec2-large-xls-r-300m-indonesia"
-	},
-	{
-		"private": false,
 		"modelId": "micky520/cyan"
 	},
 	{
@@ -108953,5 +108954,13 @@
 	{
 		"private": false,
 		"modelId": "justinqbui/bertweet-pretraining-covid-vaccine-tweets-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "akahana/wav2vec2-large-xls-r-300m-indonesia"
+	},
+	{
+		"private": false,
+		"modelId": "tabo/distilbert-base-uncased-finetuned-squad"
 	}
 ]
