@@ -95800,6 +95800,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "shainaraza/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -109124,6 +109125,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Qishuai/distilbert_punctuator_zh"
+	},
+	{
+		"private": false,
+		"modelId": "graviraja/distilbert-base-uncased-finetuned-squad"
 	}
 ]
