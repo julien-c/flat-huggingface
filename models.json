@@ -95792,11 +95792,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "shainaraza/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "shakil071/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -109127,11 +109122,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "SajjadAyoubi/pilc-vision"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "abdouaziiz/wav2vec2-xls-r-300m-wolof"
 	},
@@ -109275,5 +109265,10 @@
 	{
 		"private": false,
 		"modelId": "SajjadAyoubi/clip-fa-vision"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "shainaraza/covid_qa_distillbert"
 	}
 ]
