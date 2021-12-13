@@ -109046,6 +109046,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALLQonly09"
 	},
 	{
@@ -109075,6 +109076,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Evgeneus/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "jery33/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Lumos/yahoo1"
 	}
 ]
