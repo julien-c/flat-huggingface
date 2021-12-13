@@ -109290,6 +109290,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "jordanhagan/DialoGPT-medium-NegaNetizen"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yhavinga/t5-v1.1-large-dutch-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/test_w5_long"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/msmarco-MiniLM-L12-en-de-v1-finetuned_auc"
+	},
+	{
+		"private": false,
+		"modelId": "katanaml/bert-finetuned-mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "katanaml/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/stsb-roberta-base-finetuned_auc"
 	}
 ]
