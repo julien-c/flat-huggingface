@@ -26363,11 +26363,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "SajjadAyoubi/plic-text"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "SajjadAyoubi/xlm-roberta-large-fa-qa"
 	},
@@ -50243,6 +50238,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "fgaim/tielectra-small-sentiment"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "fgaim/tielectra-small-tquad-v1"
 	},
 	{
 		"private": false,
@@ -109159,10 +109159,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "SajjadAyoubi/plic-vision"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/floristree92"
 	},
@@ -109270,5 +109266,14 @@
 	{
 		"private": false,
 		"modelId": "hlopez/efficientDetD0-waste-detector"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "SajjadAyoubi/clip-fa-text"
+	},
+	{
+		"private": false,
+		"modelId": "SajjadAyoubi/clip-fa-vision"
 	}
 ]
