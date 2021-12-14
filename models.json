@@ -56205,11 +56205,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "harshit345/xlsr-wav2vec-speech-emotion-recognition"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "harshit345/xlsr_wav2vec_english"
 	},
@@ -109943,6 +109938,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "pierreguillou/ner-bert-base-cased-pt-lenerbr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "svsokol/opus-mt-ru-en-finetuned-en-to-ru"
 	}
 ]
