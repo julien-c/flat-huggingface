@@ -36245,6 +36245,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "arm-on/BERTweet-FA"
 	},
 	{
@@ -107598,10 +107599,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "yerevann/wav2vec2-large-xls-r-300m-hy-colab"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "yfyang/wav2vec2-base-timit-fine-tuned"
 	},
@@ -109476,5 +109473,17 @@
 	{
 		"private": false,
 		"modelId": "keras-io/time-series-anomaly-detection-autoencoder"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/deep-dream"
+	},
+	{
+		"private": false,
+		"modelId": "tabo/checkpoint-500-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/speaker-recognition-using-cnn"
 	}
 ]
