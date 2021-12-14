@@ -17360,6 +17360,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc"
 	},
 	{
@@ -42089,7 +42090,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentiment-analysis",
+		"pipeline_tag": "text-classification",
 		"modelId": "clampert/multilingual-sentiment-covid19"
 	},
 	{
@@ -109500,6 +109501,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/Test_run"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "juliusco/biobert-base-cased-v1.1-squad-finetuned-covdrobert"
+	},
+	{
+		"private": false,
+		"modelId": "benjamin/roberta-base-wechsel-german"
 	}
 ]
