@@ -2599,11 +2599,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_gpt2_new_V3"
-	},
-	{
-		"private": false,
 		"modelId": "Ayham/robertagpt2_xsum3"
 	},
 	{
@@ -109499,6 +109494,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "SergeiGKS/camembert-base-wikipedia-4gb-finetuned-job-ner"
 	},
 	{
@@ -109657,5 +109653,22 @@
 	{
 		"private": false,
 		"modelId": "justin871030/bert-base-uncased-goemotions-group"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/ppo-cartpole"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_gpt2_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "last/phase"
+	},
+	{
+		"private": false,
+		"modelId": "SEUN/test"
 	}
 ]
