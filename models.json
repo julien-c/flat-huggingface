@@ -109480,10 +109480,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "tabo/checkpoint-500-finetuned-squad"
 	},
 	{
 		"private": false,
 		"modelId": "keras-io/speaker-recognition-using-cnn"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTje2_DAdialogQonly09"
+	},
+	{
+		"private": false,
+		"modelId": "juliusco/distilbert-base-uncased-finetuned-covdrobert"
 	}
 ]
