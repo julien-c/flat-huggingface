@@ -109670,5 +109670,28 @@
 	{
 		"private": false,
 		"modelId": "SEUN/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "any0019/text_style_mlm_positive"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "any0019/text_style_mlm_negative"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "any0019/text_style_classifier"
+	},
+	{
+		"private": false,
+		"modelId": "kashinkabun/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "dimaKofnal/gpt3"
 	}
 ]
