@@ -27056,21 +27056,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Shahm/my-bart-base-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Shahm/my-trained-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/sunday-bert-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/t5-small-german"
 	},
 	{
@@ -109504,10 +109489,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "justin871030/bert-base-uncased-goemotions-ekman"
-	},
-	{
-		"private": false,
 		"modelId": "justin871030/bert-base-uncased-goemotions-group"
 	},
 	{
@@ -109586,6 +109567,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "benjamin/gpt2-wechsel-swahili"
 	},
 	{
@@ -109604,5 +109586,48 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/exp-twt456"
+	},
+	{
+		"private": false,
+		"modelId": "dhanuja/opus-mt-en-fr-finetuned-en-to-con"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mollypak/cardiff-xlm-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "yhavinga/nt5-v1.1-base-cased"
+	},
+	{
+		"private": false,
+		"modelId": "LanceaKing/vctk_gst_ecapa_transformer"
+	},
+	{
+		"private": false,
+		"modelId": "justin871030/bert-base-uncased-goemotions-group-ekman"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/bert-base-german"
+	},
+	{
+		"private": false,
+		"modelId": "xdcui/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/bart-base-german"
+	},
+	{
+		"private": false,
+		"modelId": "xdcui/dummy"
+	},
+	{
+		"private": false,
+		"modelId": "adityay1221/run_3"
 	}
 ]
