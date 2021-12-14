@@ -109800,6 +109800,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tamedai/bert-large-de-wsp-wwm"
 	},
 	{
@@ -109808,6 +109809,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "vlco-o/NLboto_o-aki-dialogpt"
+	},
+	{
+		"private": false,
+		"modelId": "carlosejimenez/wiki103_bert_small_k1000_e27"
+	},
+	{
+		"private": false,
+		"modelId": "carlosejimenez/wiki103_bert_small_k10_e27"
+	},
+	{
+		"private": false,
+		"modelId": "carlosejimenez/wiki103_bert_small_non_visual_only_e27"
+	},
+	{
+		"private": false,
+		"modelId": "carlosejimenez/wiki103_bert_small_visual_context_e27"
+	},
+	{
+		"private": false,
+		"modelId": "carlosejimenez/wiki103_bert_small_visual_only_e27"
 	}
 ]
