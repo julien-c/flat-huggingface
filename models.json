@@ -5401,11 +5401,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Doogie/wav2vec2-korea-doogie-test-02"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "Doohae/roberta"
 	},
@@ -42094,7 +42089,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "sentiment-analysis",
 		"modelId": "clampert/multilingual-sentiment-covid19"
 	},
 	{
@@ -109495,5 +109490,9 @@
 	{
 		"private": false,
 		"modelId": "juliusco/distilbert-base-uncased-finetuned-covdrobert"
+	},
+	{
+		"private": false,
+		"modelId": "woreom/wordbase"
 	}
 ]
