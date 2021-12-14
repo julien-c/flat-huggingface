@@ -109889,10 +109889,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "cgou/fin_RoBERTa-v1-finetuned-squad"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "manu/doc-parserv3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "S34NtheGuy/DialoGPT-medium-Mona"
 	}
 ]
