@@ -39217,11 +39217,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "blueberrycake/argueBERT"
-	},
-	{
-		"private": false,
 		"modelId": "blueshed/sentiment"
 	},
 	{
@@ -109862,6 +109857,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "negfir/Bertbase"
 	},
 	{
@@ -109880,5 +109876,23 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/move"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/presentation_emotion_31415"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aXhyra/presentation_emotion_1234567"
+	},
+	{
+		"private": false,
+		"modelId": "cgou/fin_RoBERTa-v1-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "manu/doc-parserv3"
 	}
 ]
