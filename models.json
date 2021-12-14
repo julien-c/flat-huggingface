@@ -36361,6 +36361,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "arshyajabbari/wav2vec2-large-xlsr-farsi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "artursz/wav2vec2-large-xls-r-300m-lv-v05"
 	},
 	{
@@ -109486,10 +109491,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "keras-io/speaker-recognition-using-cnn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTje2_DAdialogQonly09"
 	},
@@ -109533,11 +109534,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/Test_run_1"
 	},
 	{
 		"private": false,
 		"modelId": "ThePixOne/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "benschlagman/tapas_fine_tuning"
 	},
 	{
 		"private": false,
@@ -109560,22 +109566,43 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "benjamin/roberta-base-wechsel-swahili"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "benjamin/gpt2-wechsel-french"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "benjamin/gpt2-wechsel-german"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "benjamin/gpt2-wechsel-chinese"
 	},
 	{
 		"private": false,
 		"modelId": "benjamin/gpt2-wechsel-swahili"
+	},
+	{
+		"private": false,
+		"modelId": "dhanuja/opus-mt-en-ro-finetuned-en-to-con"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/graph-attention-nets"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/deep-q-network-breakout"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/exp-twt456"
 	}
 ]
