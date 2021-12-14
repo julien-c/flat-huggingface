@@ -5401,6 +5401,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Doogie/wav2vec2-korea-doogie-test-02"
 	},
 	{
@@ -109456,10 +109457,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "yarik921/Teflon_0.1"
 	},
 	{
 		"private": false,
 		"modelId": "juliusco/biobert-base-cased-v1.1-squad-finetuned-covdistilbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "juliusco/distilbert-base-uncased-finetuned-covdistilbert"
+	},
+	{
+		"private": false,
+		"modelId": "jiho0304/bad-korean-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/time-series-anomaly-detection-autoencoder"
 	}
 ]
