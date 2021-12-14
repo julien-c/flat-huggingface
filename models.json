@@ -107280,11 +107280,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "yhavinga/t5-v1.1-base-dutch"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yhk04150/SBERT"
 	},
@@ -109425,6 +109420,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Shushant/NepNewsBERT"
 	},
 	{
@@ -109437,15 +109433,32 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "justinqbui/ans-covid-vaccine-tweets-finetuned"
-	},
-	{
-		"private": false,
 		"modelId": "justin871030/bert-base-uncased-goemotions"
 	},
 	{
 		"private": false,
 		"modelId": "juliusco/distilbert-base-uncased-finetuned-biobert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yhavinga/t5-v1.1-base-dutch"
+	},
+	{
+		"private": false,
+		"modelId": "graviraja/bart-squad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "justinqbui/bertweet-covid-vaccine-tweets-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "yhavinga/t5-v1.1-base-dutch-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "TJ001/TJ"
 	}
 ]
