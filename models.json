@@ -2591,14 +2591,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ayham/roberta_gpt2_new"
-	},
-	{
-		"private": false,
-		"modelId": "Ayham/roberta_gpt2_new_V2"
-	},
-	{
-		"private": false,
 		"modelId": "Ayham/robertagpt2_xsum3"
 	},
 	{
@@ -72509,6 +72501,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jgammack/EAM-sentence-embedder"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/MTL-bert-base-uncased"
 	},
@@ -80425,16 +80422,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-to-text",
-		"modelId": "merve/image-captioning"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-segmentation",
-		"modelId": "merve/pet-segmentation"
-	},
-	{
-		"private": false,
 		"modelId": "merve/toonify-app"
 	},
 	{
@@ -86590,7 +86577,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "novusshu/DialoGPT-small-crypto"
 	},
 	{
@@ -109609,14 +109596,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "adityay1221/run_3"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/image-classification"
-	},
-	{
-		"private": false,
 		"modelId": "anton-l/unispeech-sat-base-sv"
 	},
 	{
@@ -109626,14 +109605,6 @@
 	{
 		"private": false,
 		"modelId": "justin871030/bert-base-uncased-goemotions-ekman"
-	},
-	{
-		"private": false,
-		"modelId": "anton-l/unispeech-sat-base-large-sv"
-	},
-	{
-		"private": false,
-		"modelId": "anton-l/unispeech-sat-base-large-sd"
 	},
 	{
 		"private": false,
@@ -109698,5 +109669,23 @@
 	{
 		"private": false,
 		"modelId": "hSterz/narrativeqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-segmentation",
+		"modelId": "keras-io/semantic-segmentation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-to-text",
+		"modelId": "keras-io/image-captioning"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/unispeech-sat-large-sv"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/unispeech-sat-large-sd"
 	}
 ]
