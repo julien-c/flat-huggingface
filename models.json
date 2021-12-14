@@ -109769,6 +109769,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jeska/BertjeWDialDataALL02"
 	},
 	{
@@ -109777,6 +109778,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ZhangCheng/T5v1.1-Base-Fine-Tuned-for-Question-Generation"
 	},
 	{
@@ -109834,10 +109836,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tamedai/bert-large-de-wsp-wwm"
 	},
 	{
 		"private": false,
 		"modelId": "Doogie/Waynehills-STT-doogie"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/fodase_bot-nomesdegato-nomesdj"
 	}
 ]
