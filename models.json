@@ -36706,6 +36706,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "asanka25/xlm-roberta-base-finetuned-conll03-english-finetuned-sinhala"
 	},
 	{
@@ -109440,10 +109441,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "winvoker/tmpwb97bb6a"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/alterhuss-zainabverse"
 	},
@@ -109454,10 +109451,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "candra/test-t5"
 	},
 	{
 		"private": false,
 		"modelId": "yarik921/Teflon_0.1"
+	},
+	{
+		"private": false,
+		"modelId": "juliusco/biobert-base-cased-v1.1-squad-finetuned-covdistilbert"
 	}
 ]
