@@ -46236,12 +46236,13 @@
 	},
 	{
 		"private": false,
-		"modelId": "diiogo/portuguese-roberta-base"
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/test-32"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "diiogo/test-32"
+		"modelId": "diiogo/xy9-teste"
 	},
 	{
 		"private": false,
@@ -49218,6 +49219,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "explosion/de_udv25_germanhdt_trf"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "explosion/en_healthsea"
 	},
 	{
 		"private": false,
@@ -109756,5 +109762,17 @@
 	{
 		"private": false,
 		"modelId": "gaga42gaga42/test"
+	},
+	{
+		"private": false,
+		"modelId": "Ngit/hbert-tx-sv"
+	},
+	{
+		"private": false,
+		"modelId": "Jeska/BertjeWDialDataALL02"
+	},
+	{
+		"private": false,
+		"modelId": "Ngit/xlnet-tx-sev"
 	}
 ]
