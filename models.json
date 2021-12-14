@@ -50510,11 +50510,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "fgaim/tibert-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "fgaim/tielectra-small-pos"
 	},
@@ -109735,6 +109730,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Rocketknight1/model-card-callback-test-new"
 	},
 	{
@@ -109800,11 +109796,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "tamedai/bert-large-de-wsp-wwm"
-	},
-	{
-		"private": false,
 		"modelId": "carlosejimenez/wiki103_bert_small_final_e27"
 	},
 	{
@@ -109831,5 +109822,22 @@
 	{
 		"private": false,
 		"modelId": "carlosejimenez/wiki103_bert_small_visual_only_e27"
+	},
+	{
+		"private": false,
+		"modelId": "Alerosae/SocratesGPT-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/lucca"
+	},
+	{
+		"private": false,
+		"modelId": "tamedai/bert-large-de-wsp-wwm"
+	},
+	{
+		"private": false,
+		"modelId": "Doogie/Waynehills-STT-doogie"
 	}
 ]
