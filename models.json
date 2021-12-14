@@ -110017,6 +110017,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vsb/jax_results"
+	},
+	{
+		"private": false,
+		"modelId": "HenryAI/KerasBERTv0.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "HenryAI/KerasBERTv1"
 	}
 ]
