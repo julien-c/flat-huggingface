@@ -23232,6 +23232,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "Prompsit/paraphrase-bert-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ProsusAI/finbert"
 	},
 	{
@@ -109532,5 +109537,18 @@
 	{
 		"private": false,
 		"modelId": "ThePixOne/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sonoisa/sentence-bert-base-ja-mean-tokens-v2"
+	},
+	{
+		"private": false,
+		"modelId": "ppxia/test_hub_model"
+	},
+	{
+		"private": false,
+		"modelId": "benjamin/roberta-base-wechsel-french"
 	}
 ]
