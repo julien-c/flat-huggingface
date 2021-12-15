@@ -37708,11 +37708,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "axuai/webgears-en-gpt-j-512-seq"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "ayameRushia/gpt2-medium-fine-tuning-indonesia-poem"
 	},
 	{
@@ -110309,11 +110304,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "axuai/webgears_gsg_en_de_prompt_v1.1_512_hf"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "honeyd3wy/kobart-titlenaming-v0.3"
 	},
@@ -110465,6 +110455,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "shainaraza/COVID-qa-finetuned-squad"
 	},
 	{
@@ -110560,5 +110551,9 @@
 	{
 		"private": false,
 		"modelId": "eublefar/bart-base-finetuned-light"
+	},
+	{
+		"private": false,
+		"modelId": "npc-engine/bart-base-mse-light"
 	}
 ]
