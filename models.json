@@ -110409,11 +110409,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "yaaqov/bertweet-apps"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Arkea/distilcamembert-base"
 	},
@@ -110421,10 +110416,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/CNN_model_v5"
-	},
-	{
-		"private": false,
-		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
 	},
 	{
 		"private": false,
@@ -110438,5 +110429,10 @@
 	{
 		"private": false,
 		"modelId": "yyyyy/12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
 	}
 ]
