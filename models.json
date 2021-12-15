@@ -22396,18 +22396,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ngit/hbert-tx-sv"
-	},
-	{
-		"private": false,
-		"modelId": "Ngit/roberta-tx-sev"
-	},
-	{
-		"private": false,
-		"modelId": "Ngit/xlnet-tx-sev"
-	},
-	{
-		"private": false,
 		"modelId": "NhatPham/my-new-shiny-tokenizer"
 	},
 	{
@@ -38449,6 +38437,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "benschlagman/tapas_fine_tuning"
 	},
 	{
@@ -110310,6 +110299,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Prompsit/paraphrase-roberta-es"
 	},
 	{
@@ -110333,6 +110323,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tricktreat/test"
 	},
 	{
@@ -110360,10 +110351,42 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "axuai/webgears_gsg_en_de_prompt_v1.1_512_hf"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "honeyd3wy/kobart-titlenaming-v0.3"
+	},
+	{
+		"private": false,
+		"modelId": "MOHAMADM80/1"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "tlanfer/arc"
+	},
+	{
+		"private": false,
+		"modelId": "MarcoUno77/mio"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Motahar/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "iamholmes/cuad_test"
 	}
 ]
