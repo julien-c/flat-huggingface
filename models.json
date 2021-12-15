@@ -5189,6 +5189,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/FoxNews_model_v2"
 	},
 	{
@@ -110335,6 +110336,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/spanberta-base-cased-finetuned2-nerconcat"
 	},
 	{
@@ -110434,5 +110436,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/roberta-large"
+	},
+	{
+		"private": false,
+		"modelId": "fhamborg/roberta-targeted-sentiment-classification-newsarticles"
 	}
 ]
