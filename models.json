@@ -1573,7 +1573,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text-generation",
 		"modelId": "Alerosae/SocratesGPT-2"
 	},
 	{
@@ -110397,11 +110397,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Arkea/distilcamembert"
-	},
-	{
-		"private": false,
 		"modelId": "tomoyuki/en_core_web_trf"
 	},
 	{
@@ -110416,5 +110411,23 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "yaaqov/bertweet-apps"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Arkea/distilcamembert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Declan/CNN_model_v5"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/arwen-gpt2-medium-x21"
+	},
+	{
+		"private": false,
+		"modelId": "juliagsy/tapas-fine-tuned"
 	}
 ]
