@@ -5209,6 +5209,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/HuffPost_model_v3"
 	},
 	{
@@ -110492,5 +110493,14 @@
 	{
 		"private": false,
 		"modelId": "Doogie/Waynehills-STT-doogie-server"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Monsia/test-model-lg-data"
+	},
+	{
+		"private": false,
+		"modelId": "SvyatoslavA/model_awara_text_classification"
 	}
 ]
