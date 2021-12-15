@@ -110117,6 +110117,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned2-nerconcat"
 	},
 	{
@@ -110226,5 +110227,10 @@
 	{
 		"private": false,
 		"modelId": "thisisishara/sinroberta-pretrained-oscar"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "vishnun/t5spellcorrector"
 	}
 ]
