@@ -73880,6 +73880,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jogonba2/mbarthez-davide_articles"
 	},
 	{
@@ -110315,11 +110316,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Optimal/DialoGPT-small-harry"
+		"modelId": "Prompsit/paraphrase-roberta-es"
 	},
 	{
 		"private": false,
-		"modelId": "Prompsit/paraphrase-roberta-es"
+		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_151221-5-001"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Declan/ChicagoTribune_model_v6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Optimal/Harry"
 	}
 ]
