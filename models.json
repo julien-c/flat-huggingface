@@ -5175,6 +5175,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/ChicagoTribune_model_v5"
 	},
 	{
@@ -110311,5 +110312,14 @@
 	{
 		"private": false,
 		"modelId": "Optimal/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Optimal/DialoGPT-small-harry"
+	},
+	{
+		"private": false,
+		"modelId": "Prompsit/paraphrase-roberta-es"
 	}
 ]
