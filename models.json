@@ -110250,6 +110250,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "inergi/wav2vec2-from-scratch-finetune-dummy"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jamescalam/bert-stsb-aug"
 	},
@@ -110274,5 +110279,25 @@
 	{
 		"private": false,
 		"modelId": "flboehm/reddit-bert-text4"
+	},
+	{
+		"private": false,
+		"modelId": "kennykang/wav2vec2-ft-alex_toussaint-more-classes-normalized_text"
+	},
+	{
+		"private": false,
+		"modelId": "zbabar/model_tokenize"
+	},
+	{
+		"private": false,
+		"modelId": "xkang/code-search-net-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "j20/je"
+	},
+	{
+		"private": false,
+		"modelId": "Nick96/B-A"
 	}
 ]
