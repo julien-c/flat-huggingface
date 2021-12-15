@@ -5149,6 +5149,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/CNN_model_v3"
 	},
 	{
@@ -104075,11 +104076,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-to-image",
-		"modelId": "training-transformers-together/collaborative-dalle"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "trangdieu/bert-large-retrained-2-epochs"
 	},
@@ -110343,5 +110339,31 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "honeyd3wy/kobart-titlenaming-v0.1"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/spanberta-base-cased-finetuned2-nerconcat"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "honeyd3wy/kobart-titlenaming-v0.2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-image",
+		"modelId": "training-transformers-together/dalle-demo-v1"
+	},
+	{
+		"private": false,
+		"modelId": "axuai/webgears_gsg_en_de_prompt_v1.1_512_hf"
+	},
+	{
+		"private": false,
+		"modelId": "honeyd3wy/kobart-titlenaming-v0.3"
 	}
 ]
