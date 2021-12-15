@@ -109453,11 +109453,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "zeonai/deepdelve-model1-qa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zer0sh0t/programmer_ai_v2"
 	},
@@ -110523,6 +110518,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "eddie5086/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_151221-top1"
+	},
+	{
+		"private": false,
+		"modelId": "charsiu/zh_xlsr_fc_20ms"
 	}
 ]
