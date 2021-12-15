@@ -76336,16 +76336,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "lassl/gpt2-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lassl/roberta-base"
-	},
-	{
-		"private": false,
 		"modelId": "last/phase"
 	},
 	{
@@ -102770,11 +102760,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
-		"modelId": "thefryingpan/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
 		"modelId": "theiconik/hermione-granger"
 	},
 	{
@@ -110023,15 +110008,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "HenryAI/KerasBERTv0.1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "HenryAI/KerasBERTv1"
-	},
-	{
-		"private": false,
 		"modelId": "jogonba2/mbarthez-davide_articles"
 	},
 	{
@@ -110043,5 +110019,33 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Jacobo/grc_ud_proiel_lg_etree"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/anvers1158"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/rokroka25"
+	},
+	{
+		"private": false,
+		"modelId": "JonathanLehner/Chatbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/iuditg"
+	},
+	{
+		"private": false,
+		"modelId": "kashinkabun/wav2vec2-base-timit-demo-colab1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "HenryAI/KerasBERT"
 	}
 ]
