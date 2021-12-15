@@ -5229,6 +5229,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/NPR_model_v2"
 	},
 	{
@@ -110555,5 +110556,10 @@
 	{
 		"private": false,
 		"modelId": "npc-engine/bart-base-mse-light"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/t5-small-german-sec"
 	}
 ]
