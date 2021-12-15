@@ -5199,6 +5199,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/FoxNews_model_v4"
 	},
 	{
@@ -110439,10 +110440,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "fhamborg/roberta-targeted-sentiment-classification-newsarticles"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Prompsit/paraphrase-bert-pt"
 	},
 	{
@@ -110452,5 +110455,18 @@
 	{
 		"private": false,
 		"modelId": "3zooze/Dd"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cmarkea/distilcamembert-base"
+	},
+	{
+		"private": false,
+		"modelId": "haotieu/mt-en-vi"
+	},
+	{
+		"private": false,
+		"modelId": "nlprime/multimodal-clf"
 	}
 ]
