@@ -5154,6 +5154,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/CNN_model_v4"
 	},
 	{
@@ -110257,6 +110258,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "raphaelmerx/marian-finetuned-en-map"
 	},
 	{
@@ -110381,12 +110383,38 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Motahar/dummy-model"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "iamholmes/cuad_test"
+	},
+	{
+		"private": false,
+		"modelId": "Amalq/gpt2-finetuned-MentalHealthReddit"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Arkea/distilcamembert"
+	},
+	{
+		"private": false,
+		"modelId": "tomoyuki/en_core_web_trf"
+	},
+	{
+		"private": false,
+		"modelId": "yaaqov/bertweet-fine-tuning-apps"
+	},
+	{
+		"private": false,
+		"modelId": "Araby/Arabic-TTS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "yaaqov/bertweet-apps"
 	}
 ]
