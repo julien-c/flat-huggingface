@@ -102832,10 +102832,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "thisisishara/codeparrot-ds"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "thomasdehaene/gpt2-large-dutch-finetune-oscar-10m-3epoch"
 	},
@@ -110131,6 +110127,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Breitbart_model_v4"
 	},
 	{
@@ -110227,16 +110224,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "thisisishara/sinroberta-pretrained-oscar"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "vishnun/t5spellcorrector"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "psrpsj/hash-tag-generation"
+		"pipeline_tag": "text-classification",
+		"modelId": "Motahar/distilbert-sst2-mahtab"
 	}
 ]
