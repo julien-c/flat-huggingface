@@ -1732,11 +1732,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Amalq/roberta-base-finetuned-schizophreniaReddit"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -5209,6 +5204,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/HuffPost_model_v2"
 	},
 	{
@@ -20827,15 +20823,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Monsia/camembert-fr-covid-tweet-sentiment-classification"
-	},
-	{
-		"private": false,
-		"modelId": "Monsia/repo_name"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Monsia/test-model-lg-data"
 	},
 	{
 		"private": false,
@@ -56591,26 +56578,6 @@
 	{
 		"private": false,
 		"modelId": "harshaVajapai/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "harshit345/wav2vec2-large-lv60-timit"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "harshit345/xlsr-53-wav2vec-greek"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "harshit345/xlsr-53-wav2vec-hi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "harshit345/xlsr_wav2vec_english"
 	},
 	{
 		"private": false,
@@ -106297,11 +106264,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "versae/modernisa-pre"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "versae/mt5-base-finetuned-modernisa"
 	},
 	{
@@ -110394,10 +110356,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Amalq/gpt2-finetuned-MentalHealthReddit"
-	},
-	{
-		"private": false,
 		"modelId": "tomoyuki/en_core_web_trf"
 	},
 	{
@@ -110517,5 +110475,22 @@
 	{
 		"private": false,
 		"modelId": "cestwc/bart-paranmt5m"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "hf-internal-testing/tiny-random-speech-encoder-decoder"
+	},
+	{
+		"private": false,
+		"modelId": "hf-internal-testing/tiny-random-vision-encoder-decoder"
+	},
+	{
+		"private": false,
+		"modelId": "Amalq/gpt2-finetuned-MentalHealthReddit"
+	},
+	{
+		"private": false,
+		"modelId": "Doogie/Waynehills-STT-doogie-server"
 	}
 ]
