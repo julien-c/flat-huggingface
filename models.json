@@ -110066,6 +110066,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "thefryingpan/gpt-neo-125M-splishy"
 	},
 	{
@@ -110088,5 +110089,18 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned2-nerconcat"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/msmarco-distilbert-margin-mse"
+	},
+	{
+		"private": false,
+		"modelId": "hiiamsid/hit5-base"
+	},
+	{
+		"private": false,
+		"modelId": "whitehahahah/test_bert"
 	}
 ]
