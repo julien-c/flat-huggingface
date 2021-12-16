@@ -110242,11 +110242,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "tricktreat/test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "honeyd3wy/kobart-titlenaming-v0.1"
 	},
@@ -110623,5 +110618,15 @@
 	{
 		"private": false,
 		"modelId": "lassl/roberta-ko-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "tricktreat/semeval_multilingual"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "candra/textgen-dummy"
 	}
 ]
