@@ -47043,6 +47043,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "diiogo/ner-diabert-base"
+	},
+	{
+		"private": false,
 		"modelId": "diiogo/roberta-test"
 	},
 	{
@@ -110990,10 +110995,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "tasosk/distilbert-base-uncased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Reuters_model_v5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "csarron/ViLT-VQAv2"
+	},
+	{
+		"private": false,
+		"modelId": "apohllo/czywiesz-context"
+	},
+	{
+		"private": false,
+		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_20000-top3-BCE"
 	}
 ]
