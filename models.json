@@ -110803,6 +110803,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_161221-top3"
 	},
 	{
@@ -110824,18 +110825,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Monsia/test-model-overft"
 	},
 	{
 		"private": false,
-		"modelId": "DWFlanagan/category-classifier"
-	},
-	{
-		"private": false,
-		"modelId": "DWFlanagan/category-classifier-2"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/Run_7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-2-bert"
+	},
+	{
+		"private": false,
+		"modelId": "bana513/opennmt-translator-en-hu"
+	},
+	{
+		"private": false,
+		"modelId": "Giannipinelli/xlm-roberta-base-finetuned-marc-en"
 	}
 ]
