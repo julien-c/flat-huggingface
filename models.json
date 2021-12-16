@@ -110657,15 +110657,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squadb4"
 	},
 	{
 		"private": false,
 		"modelId": "masa0711/sentence-bert-base-ja-mean-tokens-v2"
-	},
-	{
-		"private": false,
-		"modelId": "abhijithneilabraham/pubmed-summarization_pegasus"
 	},
 	{
 		"private": false,
@@ -110728,5 +110725,10 @@
 	{
 		"private": false,
 		"modelId": "g9rant/wav2vec2-large-xls-300m-en-please"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "abhijithneilabraham/pubmed-summarisation-pegasus"
 	}
 ]
