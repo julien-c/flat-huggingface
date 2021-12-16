@@ -5239,6 +5239,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/NPR_model_v4"
 	},
 	{
@@ -110376,11 +110377,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "haotieu/mt-en-vi"
-	},
-	{
-		"private": false,
 		"modelId": "nlprime/multimodal-clf"
 	},
 	{
@@ -110615,5 +110611,13 @@
 	{
 		"private": false,
 		"modelId": "Ayham/bert_gpt2_summarization_xsum"
+	},
+	{
+		"private": false,
+		"modelId": "eddie5086/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "LiYouL666/marian-finetuned-kde4-en-to-fr"
 	}
 ]
