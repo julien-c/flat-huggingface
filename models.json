@@ -82975,6 +82975,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mollypak/cardiff-num"
 	},
 	{
@@ -104609,6 +104610,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tricktreat/semeval_ft100w"
 	},
 	{
@@ -110667,5 +110669,9 @@
 	{
 		"private": false,
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squadb4"
+	},
+	{
+		"private": false,
+		"modelId": "masa0711/sentence-bert-base-ja-mean-tokens-v2"
 	}
 ]
