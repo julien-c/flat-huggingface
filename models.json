@@ -83242,6 +83242,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "moma1820/DSV-JavaFx-DAPT-CodeBert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "momo/distilbert-base-uncased-finetuned-ner"
 	},
@@ -110995,11 +111000,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "tasosk/distilbert-base-uncased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Reuters_model_v5"
 	},
@@ -111010,10 +111010,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "apohllo/czywiesz-context"
 	},
 	{
 		"private": false,
 		"modelId": "Katsiaryna/stsb-TinyBERT-L-4-finetuned_auc_20000-top3-BCE"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2lm-librispeech-clean-100h-dist"
 	}
 ]
