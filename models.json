@@ -110617,6 +110617,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lassl/roberta-ko-small"
 	},
 	{
@@ -110631,15 +110632,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "tricktreat/ft100w"
-	},
-	{
-		"private": false,
 		"modelId": "ddobokki/vit-kogpt_trinity-coco-ko"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/NPR_model_v5"
+	},
+	{
+		"private": false,
+		"modelId": "akahana/plant-disease"
+	},
+	{
+		"private": false,
+		"modelId": "tricktreat/semeval_ft100w"
 	}
 ]
