@@ -22495,6 +22495,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_w5_long_roberta_tokenizer"
 	},
 	{
@@ -110879,5 +110880,18 @@
 	{
 		"private": false,
 		"modelId": "hf-internal-testing/tiny-random-imagegpt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "haotieu/en-vi-mt-model"
+	},
+	{
+		"private": false,
+		"modelId": "steppenvieh/xlm-roberta-base-finetuned-marc-en"
+	},
+	{
+		"private": false,
+		"modelId": "nathanaelc/test"
 	}
 ]
