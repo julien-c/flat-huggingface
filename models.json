@@ -5234,6 +5234,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/NPR_model_v3"
 	},
 	{
@@ -49571,6 +49572,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "evandrodiniz/autonlp-api-boamente-417310788"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "evandrodiniz/autonlp-api-boamente-417310793"
 	},
 	{
 		"private": false,
@@ -110589,5 +110595,22 @@
 	{
 		"private": false,
 		"modelId": "Neptd/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "oliverP/distilgpt2-finetuned-reddit"
+	},
+	{
+		"private": false,
+		"modelId": "jogonba2/mbarthez-davide_articles-copy_enhanced"
+	},
+	{
+		"private": false,
+		"modelId": "charsiu/zh_xlsr_fc_10ms"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/bert_gpt2_summarization_xsum"
 	}
 ]
