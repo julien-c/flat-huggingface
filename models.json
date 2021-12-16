@@ -5366,6 +5366,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Reuters_model_v3"
 	},
 	{
@@ -87653,6 +87654,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "npc-engine/bart-base-mse-light"
 	},
 	{
@@ -110752,5 +110754,9 @@
 	{
 		"private": false,
 		"modelId": "Pdwin/test"
+	},
+	{
+		"private": false,
+		"modelId": "Monsia/test-model"
 	}
 ]
