@@ -86692,10 +86692,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/vit-base-beans"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ncats/EpiExtract4GARD"
 	},
@@ -89810,10 +89806,6 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "patrickvonplaten/roberta_shared_bbc_xsum"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/run_speech_recognition_ctc"
 	},
 	{
 		"private": false,
@@ -111014,10 +111006,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "patrickvonplaten/wav2lm-librispeech-clean-100h-dist"
-	},
-	{
-		"private": false,
 		"modelId": "EzioDD/DialoGPT-small-house"
 	},
 	{
@@ -111056,5 +111044,10 @@
 	{
 		"private": false,
 		"modelId": "MusingsOfYouth/MusingsOfYouth"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wavlm-libri-clean-100h-large"
 	}
 ]
