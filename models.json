@@ -18346,6 +18346,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "LanceaKing/aishell3_gst_ecapa_transformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "LanceaKing/libritts_gst_ecapa_transformer"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Langboat/mengzi-bert-base-fin"
 	},
@@ -111181,6 +111191,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "koala/bert-large-uncased-fa"
 	},
 	{
@@ -111194,6 +111205,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "koala/bert-large-uncased-hi"
+	},
+	{
+		"private": false,
+		"modelId": "yhavinga/nt5-v1.1-base-cased-2"
+	},
+	{
+		"private": false,
+		"modelId": "scales-okn/distilroberta-base-dtlm"
+	},
+	{
+		"private": false,
+		"modelId": "koala/xlm-roberta-large-fa"
 	}
 ]
