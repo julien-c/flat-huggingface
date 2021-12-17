@@ -102839,11 +102839,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "tasosk/distilbert-base-uncased-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "tau/bart-base-1024"
 	},
@@ -109411,10 +109406,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ydshieh/image-captioning-ckpts"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "ydshieh/vit-gpt2-coco-en-ckpts"
 	},
@@ -111452,5 +111443,13 @@
 	{
 		"private": false,
 		"modelId": "fjavitor/rap-clm"
+	},
+	{
+		"private": false,
+		"modelId": "ydshieh/image-captioning-ckpts"
+	},
+	{
+		"private": false,
+		"modelId": "chirag2706/AudioClassifier"
 	}
 ]
