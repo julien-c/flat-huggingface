@@ -111202,11 +111202,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Cyrile/distilcamembet-base-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "koala/bert-large-uncased-hi"
 	},
@@ -111231,5 +111226,14 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Gigworks/ASR_en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cmarkea/distilcamembert-base-ner"
+	},
+	{
+		"private": false,
+		"modelId": "kwang1993/wav2vec2-base-timit-demo"
 	}
 ]
