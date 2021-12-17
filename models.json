@@ -81575,6 +81575,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mdhasanai/bn-mt5-base-question-generation"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mdhugol/indonesia-bert-sentiment-classification"
 	},
@@ -81920,6 +81925,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "michaelbenayoun/vit-base-beans"
 	},
 	{
@@ -111231,5 +111237,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cmarkea/distilcamembert-base-ner"
+	},
+	{
+		"private": false,
+		"modelId": "akashsivanandan/wav2vec2-large-xls-r-300m-tamil-colab"
+	},
+	{
+		"private": false,
+		"modelId": "cjrowe/afriberta_base-finetuned-tydiqa"
 	}
 ]
