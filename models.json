@@ -34066,6 +34066,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akashsivanandan/wav2vec2-large-xls-r-300m-tamil-colab"
 	},
 	{
@@ -94497,10 +94498,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ronanki/custom_tokenizer"
-	},
-	{
-		"private": false,
 		"modelId": "rookieguy12/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -111328,6 +111325,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "butchland/bert-finetuned-ner"
 	},
 	{
@@ -111351,5 +111349,17 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "osanseviero/test123"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/test_large_readme"
+	},
+	{
+		"private": false,
+		"modelId": "DWFlanagan/all-category-classifier-3"
+	},
+	{
+		"private": false,
+		"modelId": "butchland/bert-finetuned-ner-accelerate"
 	}
 ]
