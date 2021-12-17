@@ -88611,6 +88611,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad2-es"
 	},
 	{
@@ -91256,11 +91257,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "philschmid/gbert-base-germaner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/pt-tblard-tf-allocine"
 	},
@@ -92660,6 +92656,11 @@
 		"private": false,
 		"pipeline_tag": "voice-activity-detection",
 		"modelId": "pyannote/segmentation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "voice-activity-detection",
+		"modelId": "pyannote/speaker-diarization"
 	},
 	{
 		"private": false,
@@ -111269,5 +111270,22 @@
 	{
 		"private": false,
 		"modelId": "MichaelReusens/dutch_twitter_sentiment_model"
+	},
+	{
+		"private": false,
+		"modelId": "ydshieh/image-captioning-ckpts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "voice-activity-detection",
+		"modelId": "pyannote/voice-activity-detection"
+	},
+	{
+		"private": false,
+		"modelId": "pyannote/overlapped-speech-detection"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/gbert-base-germaner"
 	}
 ]
