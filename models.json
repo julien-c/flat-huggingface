@@ -111442,6 +111442,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "fjavitor/rap-clm"
 	},
 	{
@@ -111478,5 +111479,9 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "osanseviero/fastai_cat_vs_dog_fork2"
+	},
+	{
+		"private": false,
+		"modelId": "eddie5086/distilbert-base-uncased-finetuned-ner"
 	}
 ]
