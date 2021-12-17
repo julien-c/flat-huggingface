@@ -36405,18 +36405,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "anton-l/unispeech-sat-base-plus-sd"
-	},
-	{
-		"private": false,
-		"modelId": "anton-l/unispeech-sat-base-sd"
-	},
-	{
-		"private": false,
-		"modelId": "anton-l/unispeech-sat-large-sd"
-	},
-	{
-		"private": false,
 		"modelId": "anton-l/wav2vec2-base-960h"
 	},
 	{
@@ -111437,10 +111425,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "Mahfuz/bangla-asr-try"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Eyvaz/wav2vec2-base-russian-modified-kaggle"
 	},
 	{
 		"private": false,
-		"modelId": "Eyvaz/wav2vec2-base-russian-modified-kaggle"
+		"modelId": "microsoft/unispeech-sat-large-sd"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/unispeech-sat-base-sd"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/unispeech-sat-base-plus-sd"
+	},
+	{
+		"private": false,
+		"modelId": "fjavitor/gpt2-small-spanish-finetuned-rap"
 	}
 ]
