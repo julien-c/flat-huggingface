@@ -57239,11 +57239,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "voice-activity-detection",
-		"modelId": "hbredin/VoiceActivityDetection-PyanNet-DIHARD"
-	},
-	{
-		"private": false,
 		"modelId": "hbredin/wav2vec2-base-finetuned-ks"
 	},
 	{
@@ -109431,11 +109426,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "yhavinga/nt5-v1.1-base-cased-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-base-dutch"
 	},
 	{
@@ -111246,10 +111236,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ydshieh/image-captioning-ckpts"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "classla/wav2vec2-xls-r-sabor-hr"
 	},
@@ -111263,10 +111249,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Sunbird/sunbird-en-mul"
 	},
 	{
 		"private": false,
 		"modelId": "vovaf709/fake"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Sunbird/sunbird-mul-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wavlm-libri-clean-100h-base-plus"
+	},
+	{
+		"private": false,
+		"modelId": "MichaelReusens/dutch_twitter_sentiment_model"
 	}
 ]
