@@ -33572,7 +33572,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "fill-mask",
 		"modelId": "ahmedrachid/FinancialBERT"
 	},
 	{
@@ -83002,6 +83002,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ml6team/distilbert-base-german-cased-toxic-comments"
 	},
 	{
@@ -95506,6 +95507,11 @@
 	{
 		"private": false,
 		"modelId": "samirarya/demo_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "samkphd31/ASRS-CMFS"
 	},
 	{
 		"private": false,
@@ -111328,5 +111334,9 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "butchland/bert-finetuned-ner"
 	}
 ]
