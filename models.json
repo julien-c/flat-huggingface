@@ -4774,6 +4774,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "DWFlanagan/all-category-classifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DaNLP/da-bert-emotion-binary"
 	},
@@ -7946,6 +7950,11 @@
 	{
 		"private": false,
 		"modelId": "GideonMcKinlay/PhoenixWrightBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Gigworks/ASR_en"
 	},
 	{
 		"private": false,
@@ -16234,6 +16243,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Iremtop/dash"
+	},
+	{
+		"private": false,
 		"modelId": "Irene/blenderbot"
 	},
 	{
@@ -16260,6 +16273,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Irina/trans_cyoa_GPT3Medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Irina/trans_cyoa_micro"
 	},
 	{
 		"private": false,
@@ -19503,30 +19521,30 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "Maltehb/-l-ctra-danish-electra-small-cased-ner-dane"
-	},
-	{
-		"private": false,
-		"modelId": "Maltehb/-l-ctra-danish-electra-small-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Maltehb/-l-ctra-danish-electra-small-uncased-ner-dane"
-	},
-	{
-		"private": false,
-		"modelId": "Maltehb/-l-ctra-danish-electra-small-uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "Maltehb/danish-bert-botxo-ner-dane"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Maltehb/danish-bert-botxo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Maltehb/l-ctra-danish-electra-small-cased-ner-dane"
+	},
+	{
+		"private": false,
+		"modelId": "Maltehb/l-ctra-danish-electra-small-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Maltehb/l-ctra-danish-electra-small-uncased-ner-dane"
+	},
+	{
+		"private": false,
+		"modelId": "Maltehb/l-ctra-danish-electra-small-uncased"
 	},
 	{
 		"private": false,
@@ -34007,6 +34025,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "akashsivanandan/wav2vec2-large-xls-r-300m-tamil-colab"
+	},
+	{
+		"private": false,
 		"modelId": "akashsivanandan/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -42877,6 +42899,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "cjrowe/afriberta_base-finetuned-tydiqa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ck46/camembert-base"
 	},
@@ -43280,6 +43307,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clulab/roberta-timex-semeval"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "cmarkea/distilcamembert-base-ner"
 	},
 	{
 		"private": false,
@@ -57430,6 +57462,27 @@
 	},
 	{
 		"private": false,
+		"modelId": "heruberuto/distilbert-base-uncased-ner-qa-squad"
+	},
+	{
+		"private": false,
+		"modelId": "heruberuto/distilbert-base-uncased-ner-wnut"
+	},
+	{
+		"private": false,
+		"modelId": "heruberuto/distilbert-base-uncased-qa-squad"
+	},
+	{
+		"private": false,
+		"modelId": "heruberuto/distilbert-base-uncased-sa-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "heruberuto/esperberto"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "hetpandya/t5-base-tapaco"
 	},
@@ -61298,6 +61351,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/bladeecity"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/bladeefan91"
 	},
 	{
 		"private": false,
@@ -76267,6 +76325,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kevinzyz/finetuned-cola-e3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "keyonvafa/compatible-gpt2"
 	},
@@ -76341,6 +76403,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "khanhpd2/distilbert-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "kiiim/wav2vec2-base-timit-demo-colab"
 	},
 	{
 		"private": false,
@@ -76597,6 +76663,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "koala/bert-large-uncased-fa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "koala/bert-large-uncased-hi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "koala/bert-large-uncased-ko"
 	},
 	{
@@ -76626,6 +76702,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "koala/xlm-roberta-large-en"
+	},
+	{
+		"private": false,
+		"modelId": "koala/xlm-roberta-large-fa"
+	},
+	{
+		"private": false,
+		"modelId": "koala/xlm-roberta-large-hi"
 	},
 	{
 		"private": false,
@@ -88536,6 +88620,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad2-es"
+	},
+	{
+		"private": false,
 		"modelId": "ocm/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -88758,6 +88846,10 @@
 	{
 		"private": false,
 		"modelId": "openihu/openi"
+	},
+	{
+		"private": false,
+		"modelId": "openplm/bertsum-base-uncased"
 	},
 	{
 		"private": false,
@@ -96010,6 +96102,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "scales-okn/distilroberta-base-dtlm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "scales-okn/roberta-tiny-cased-dtlm"
 	},
 	{
@@ -98077,6 +98174,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "shreeshaaithal/whatsapp-medium-bot-2"
+	},
+	{
+		"private": false,
+		"modelId": "shreyasgite/wav2vec2-large-xls-r-300m-tr-colab"
 	},
 	{
 		"private": false,
@@ -109337,6 +109438,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "yhavinga/nt5-v1.1-base-cased-2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-base-dutch"
 	},
@@ -111144,111 +111249,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "heruberuto/esperberto"
-	},
-	{
-		"private": false,
-		"modelId": "heruberuto/distilbert-base-uncased-qa-squad"
-	},
-	{
-		"private": false,
-		"modelId": "heruberuto/distilbert-base-uncased-ner-wnut"
-	},
-	{
-		"private": false,
-		"modelId": "heruberuto/distilbert-base-uncased-ner-qa-squad"
-	},
-	{
-		"private": false,
-		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad2-es"
-	},
-	{
-		"private": false,
-		"modelId": "heruberuto/distilbert-base-uncased-sa-imdb"
-	},
-	{
-		"private": false,
-		"modelId": "openplm/bertsum-base-uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "koala/bert-large-uncased-fa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/bladeefan91"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "koala/bert-large-uncased-hi"
-	},
-	{
-		"private": false,
-		"modelId": "yhavinga/nt5-v1.1-base-cased-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "scales-okn/distilroberta-base-dtlm"
-	},
-	{
-		"private": false,
-		"modelId": "koala/xlm-roberta-large-fa"
-	},
-	{
-		"private": false,
-		"modelId": "koala/xlm-roberta-large-hi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Gigworks/ASR_en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cmarkea/distilcamembert-base-ner"
-	},
-	{
-		"private": false,
-		"modelId": "akashsivanandan/wav2vec2-large-xls-r-300m-tamil-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Irina/trans_cyoa_micro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "cjrowe/afriberta_base-finetuned-tydiqa"
-	},
-	{
-		"private": false,
-		"modelId": "Iremtop/dash"
-	},
-	{
-		"private": false,
-		"modelId": "kevinzyz/finetuned-cola-e3"
-	},
-	{
-		"private": false,
-		"modelId": "kiiim/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "DWFlanagan/all-category-classifier"
-	},
-	{
-		"private": false,
-		"modelId": "shreyasgite/wav2vec2-large-xls-r-300m-tr-colab"
-	},
-	{
-		"private": false,
-		"modelId": "ballyeiei/prepared"
+		"modelId": "ahmedrachid/FinancialBERT"
 	}
 ]
