@@ -111330,6 +111330,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "vovaf709/bert_mlm_positive"
 	},
 	{
@@ -111338,6 +111339,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "vovaf709/bert_mlm_negative"
 	},
 	{
@@ -111368,6 +111370,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vovaf709/bert_classifier"
+	},
+	{
+		"private": false,
+		"modelId": "pierric/testcap"
+	},
+	{
+		"private": false,
+		"modelId": "Eyvaz/wav2vec2-base-russian-modified-kaggle"
+	},
+	{
+		"private": false,
+		"modelId": "Razvanip/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "WayScriptDerrick/TestingModel"
 	}
 ]
