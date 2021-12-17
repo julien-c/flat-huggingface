@@ -80630,11 +80630,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad"
 	},
@@ -111256,5 +111251,13 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "classla/wav2vec2-xls-r-sabor-hr"
+	},
+	{
+		"private": false,
+		"modelId": "csukuangfj/icefall-asr-librispeech-transducer-bpe-500-2021-12-17"
+	},
+	{
+		"private": false,
+		"modelId": "IGESML/pubmed_neg"
 	}
 ]
