@@ -38304,6 +38304,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "baffo32/gpt-j-6B-ptmap"
 	},
 	{
@@ -111066,6 +111067,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ewriji/heil-A.412C-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ewriji/heil-A.412C-negative"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ewriji/heil-A.412C-positive"
+	},
+	{
+		"private": false,
+		"modelId": "Brayan/CNN_Brain_Tumor"
+	},
+	{
+		"private": false,
+		"modelId": "charsiu/en_w2v2_tiny_fc_10ms"
+	},
+	{
+		"private": false,
+		"modelId": "kobe/wav2vec2-base-ft-keyword-spotting"
 	}
 ]
