@@ -28248,11 +28248,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
-		"modelId": "Spirax/DialoGPT-medium-sheldon"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
 		"modelId": "Spoon/DialoGPT-small-engineer"
 	},
 	{
@@ -36418,15 +36413,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "anton-l/unispeech-sat-base-sv"
-	},
-	{
-		"private": false,
 		"modelId": "anton-l/unispeech-sat-large-sd"
-	},
-	{
-		"private": false,
-		"modelId": "anton-l/unispeech-sat-large-sv"
 	},
 	{
 		"private": false,
@@ -102864,11 +102851,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "tasosk/distilbert-base-uncased-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "tau/bart-base-1024"
 	},
@@ -111383,64 +111365,82 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/marathi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/sanskrit"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/rajasthani"
-	},
-	{
-		"private": false,
-		"modelId": "Harveenchadha/urdu"
-	},
-	{
-		"private": false,
-		"modelId": "Harveenchadha/models"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/bhojpuri"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/maithili"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/malayalam"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/dogri"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/odia"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/punjabi"
-	},
-	{
-		"private": false,
 		"modelId": "s3h/mt5-small-finetuned-gec"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/assamese"
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-urdu-urm-60"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-sanskrit-sam-60"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-rajasthani-raj-45"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-punjabi-pam-10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-odia-orm-100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-marathi-mrm-100"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-malayalam-mlm-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-maithili-maim-50"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-neo-1pt3B-Conversational_DS-WoW_Ep-1_Bs-16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-dogri-doi-55"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-bhojpuri-bhom-60"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/vakyansh-wav2vec2-assamese-asm-8"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/unispeech-sat-base-sv"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/unispeech-sat-large-sv"
+	},
+	{
+		"private": false,
+		"modelId": "Mahfuz/bangla-asr-try"
+	},
+	{
+		"private": false,
+		"modelId": "Eyvaz/wav2vec2-base-russian-modified-kaggle"
 	}
 ]
