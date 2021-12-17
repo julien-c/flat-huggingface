@@ -41575,6 +41575,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "candra/gpt3-newgen-test"
 	},
 	{
@@ -111201,6 +111202,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Cyrile/distilcamembet-base-ner"
 	},
 	{
@@ -111214,10 +111216,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "scales-okn/distilroberta-base-dtlm"
 	},
 	{
 		"private": false,
 		"modelId": "koala/xlm-roberta-large-fa"
+	},
+	{
+		"private": false,
+		"modelId": "koala/xlm-roberta-large-hi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Gigworks/ASR_en"
 	}
 ]
