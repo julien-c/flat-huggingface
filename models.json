@@ -102839,6 +102839,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "tasosk/distilbert-base-uncased-test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "tau/bart-base-1024"
 	},
@@ -111443,5 +111448,9 @@
 	{
 		"private": false,
 		"modelId": "fjavitor/gpt2-small-spanish-finetuned-rap"
+	},
+	{
+		"private": false,
+		"modelId": "fjavitor/rap-clm"
 	}
 ]
