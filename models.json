@@ -16185,11 +16185,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "IlyaGusev/rut5_telegram_headlines"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "IlyaGusev/xlm_roberta_large_headline_cause_full"
 	},
@@ -111655,5 +111650,10 @@
 	{
 		"private": false,
 		"modelId": "jrichez/digit_recognizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "IlyaGusev/rut5_base_headline_gen_telegram"
 	}
 ]
