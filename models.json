@@ -73099,11 +73099,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "j961224/dummy-model"
-	},
-	{
-		"private": false,
 		"modelId": "j961224/dummy"
 	},
 	{
@@ -98017,11 +98012,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "shainaraza/covid_qa_distillbert"
-	},
-	{
-		"private": false,
 		"modelId": "shakil071/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -111561,6 +111551,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "FarisHijazi/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -111640,20 +111631,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "j961224/tmp"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "j961224/my-awesome-model"
-	},
-	{
-		"private": false,
 		"modelId": "jrichez/digit_recognizer"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "IlyaGusev/rut5_base_headline_gen_telegram"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "shainahub/covid_qa_distillbert"
+	},
+	{
+		"private": false,
+		"modelId": "aditeyabaral/plum-bert-large-cased"
 	}
 ]
