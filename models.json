@@ -36140,6 +36140,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "anel/autonlp-cml-412010597"
+	},
+	{
+		"private": false,
 		"modelId": "anferico/bert-for-patents"
 	},
 	{
@@ -111631,11 +111636,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "yerevann/wav2vec2-large-xls-r-2b-turkish-colab"
-	},
-	{
-		"private": false,
 		"modelId": "shaina/covid_qa_distillBert"
 	},
 	{
@@ -111694,5 +111694,42 @@
 	{
 		"private": false,
 		"modelId": "zaccharieramzi/NCPDNet-3D"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/PDNet-fastmri"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/PDNet-OASIS"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/UNet-fastmri"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/UNet-OASIS"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/CascadeNet-fastmri"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/CascadeNet-OASIS"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/KIKI-net-fastmri"
+	},
+	{
+		"private": false,
+		"modelId": "zaccharieramzi/KIKI-net-OASIS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "imjeffhi/syllables_generator"
 	}
 ]
