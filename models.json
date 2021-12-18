@@ -111546,6 +111546,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_anticipation"
+	},
+	{
+		"private": false,
 		"modelId": "yeongeol/kcelectra"
 	},
 	{
@@ -111622,7 +111627,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_joy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_trust"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_fear"
+	},
+	{
+		"private": false,
 		"modelId": "EzioDD/DialoGPT-small-house"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_surprise"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_anger"
 	},
 	{
 		"private": false,
@@ -111630,6 +111660,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_sadness"
+	},
+	{
+		"private": false,
 		"modelId": "sunwaee/perceiver-go-emotions"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_disgust"
+	},
+	{
+		"private": false,
+		"modelId": "tasosk/distilbert-base-uncased-airlines"
 	}
 ]
