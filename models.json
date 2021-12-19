@@ -19719,24 +19719,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Maltehb/l-ctra-danish-electra-small-cased-ner-dane"
-	},
-	{
-		"private": false,
-		"modelId": "Maltehb/l-ctra-danish-electra-small-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Maltehb/l-ctra-danish-electra-small-uncased-ner-dane"
-	},
-	{
-		"private": false,
-		"modelId": "Maltehb/l-ctra-danish-electra-small-uncased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Maltehb/roberta-base-scandinavian"
 	},
@@ -111932,6 +111914,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Firat/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -111971,5 +111954,23 @@
 	{
 		"private": false,
 		"modelId": "yoyoyong/test_model"
+	},
+	{
+		"private": false,
+		"modelId": "Maltehb/aelaectra-danish-electra-small-cased"
+	},
+	{
+		"private": false,
+		"modelId": "Maltehb/aelaectra-danish-electra-small-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Maltehb/aelaectra-danish-electra-small-uncased-ner-dane"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Maltehb/aelaectra-danish-electra-small-cased-ner-dane"
 	}
 ]
