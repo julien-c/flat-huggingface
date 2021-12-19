@@ -5454,6 +5454,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Politico_model_v6"
 	},
 	{
@@ -38297,6 +38298,46 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "avichr/heBERT_sentiment_analysis"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_anger"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_anticipation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_disgust"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_fear"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_joy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_sadness"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_surprise"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_trust"
 	},
 	{
 		"private": false,
@@ -111928,6 +111969,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "yihahn/ner_2006"
 	},
 	{
@@ -111999,6 +112041,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "vachevkd/qna-t5sm-squad-v01"
 	},
 	{
@@ -112020,5 +112063,18 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "addy88/wav2vec2-rajsthani-stt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "addy88/wav2vec-odia-stt"
+	},
+	{
+		"private": false,
+		"modelId": "metamong1/bigbird_bs32_norm"
+	},
+	{
+		"private": false,
+		"modelId": "Ramiz/lyrics-based-genre-classification"
 	}
 ]
