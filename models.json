@@ -112168,10 +112168,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ken11/albert-base-japanese-v1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "fatemaMeem98/DialoGPT-medium-HermioneGrangerBot"
 	},
 	{
@@ -112181,5 +112183,9 @@
 	{
 		"private": false,
 		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-parp"
+	},
+	{
+		"private": false,
+		"modelId": "hivemind/gpt-j-6B-8bit"
 	}
 ]
