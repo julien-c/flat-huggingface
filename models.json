@@ -112057,6 +112057,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/ChicagoTribune_model_v8"
 	},
 	{
@@ -112171,5 +112172,9 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tamedai/xlm-roberta-large-gec-detector-de"
+	},
+	{
+		"private": false,
+		"modelId": "ruselkomp/distilbert-base-multilingual-cased-finetuned-squad"
 	}
 ]
