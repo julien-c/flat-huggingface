@@ -5364,6 +5364,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/HuffPost_model_v6"
 	},
 	{
@@ -111874,6 +111875,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "tiennvcs/bert-base-uncased-finetuned-vi-infovqa"
 	},
 	{
@@ -111911,5 +111913,28 @@
 	{
 		"private": false,
 		"modelId": "abby711/FaceRestoration"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-neo-1pt3B-Conv_DS-WoW_Ep-10_Bs-16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "NaDy/ko-mrc-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "new5558/simcse-model-wangchanberta-base-att-spm-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "Firat/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "rockmiin/BooleanQA-fine-tuned"
 	}
 ]
