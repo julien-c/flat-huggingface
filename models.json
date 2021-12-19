@@ -111921,7 +111921,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "question-answering",
 		"modelId": "NaDy/ko-mrc-model"
 	},
 	{
@@ -111936,5 +111936,22 @@
 	{
 		"private": false,
 		"modelId": "rockmiin/BooleanQA-fine-tuned"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-parp"
+	},
+	{
+		"private": false,
+		"modelId": "BunakovD/sd"
+	},
+	{
+		"private": false,
+		"modelId": "yihahn/ner_2006"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "addy88/wav2vec2-kannada-stt"
 	}
 ]
