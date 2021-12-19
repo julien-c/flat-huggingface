@@ -5398,6 +5398,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/NPR_model_v6"
 	},
 	{
@@ -111961,5 +111962,14 @@
 	{
 		"private": false,
 		"modelId": "nlpHakdang/roberta-large-NER"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "axuai/webgears_de_t5_v0.1"
+	},
+	{
+		"private": false,
+		"modelId": "yoyoyong/test_model"
 	}
 ]
