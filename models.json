@@ -112143,11 +112143,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-parp"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "hivemind/gpt-j-6B-8bit"
 	},
@@ -112173,5 +112168,9 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "ruselkomp/distilbert-base-multilingual-cased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-parp"
 	}
 ]
