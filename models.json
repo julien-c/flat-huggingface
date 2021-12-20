@@ -112178,6 +112178,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "austin/adr-ner"
 	},
 	{
@@ -112212,6 +112213,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "metamong1/bigbird-tapt-ep1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "metamong1/bigbird-tapt-ep2"
+	},
+	{
+		"private": false,
+		"modelId": "sunitha/bert-base-cased-finetuned-squad_1220"
+	},
+	{
+		"private": false,
+		"modelId": "sunitha/bert_finetuned_case"
+	},
+	{
+		"private": false,
+		"modelId": "lijingxin/bert-finetuned-squad"
 	}
 ]
