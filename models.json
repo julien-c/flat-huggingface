@@ -95210,6 +95210,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "ronanki/labse_15-12-2021"
+	},
+	{
+		"private": false,
 		"modelId": "rookieguy12/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -112250,6 +112255,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "NhatDFO/bart-large-mnli"
 	},
 	{
@@ -112259,5 +112265,14 @@
 	{
 		"private": false,
 		"modelId": "hrdipto/wav2vec2-large-xls-r-300m-en-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "adityay1221/t5-base_Run_X2"
+	},
+	{
+		"private": false,
+		"modelId": "NhatDFO/roberta-base-squad2"
 	}
 ]
