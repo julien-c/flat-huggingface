@@ -16542,11 +16542,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Irina/trans_cyoa_micro"
-	},
-	{
-		"private": false,
 		"modelId": "IrinaLee/roberta-base-finetuned-ynat"
 	},
 	{
@@ -110329,6 +110324,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "summarization",
+		"modelId": "yhavinga/mt5-base-cnn-nl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "yhavinga/mt5-base-mixednews-nl"
 	},
 	{
@@ -112299,5 +112299,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "metamong1/bigbird-tapt-ep3"
+	},
+	{
+		"private": false,
+		"modelId": "ayameRushia/bert-base-indonesian-1.5G-finetuned-wnli"
 	}
 ]
