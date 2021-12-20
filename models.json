@@ -90567,21 +90567,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/dummy_run"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "patrickvonplaten/dummy_to_del"
 	},
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/english-roberta-base-dummy"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/fairseq-fastspeech2"
 	},
 	{
 		"private": false,
@@ -90976,16 +90967,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-large-dotdotdot-common_voice-tr-demo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-large-dotdotdot-tr-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-large-lv60h-100h-2nd-try"
 	},
 	{
@@ -91069,63 +91050,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-xlarge-dotdotdot-common_voice-tr-demo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-0.05-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-0.1-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-0.15-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-1e-4-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-1e-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-1e-5-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-1e-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-5e-5-no-attn-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-5e-5"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-bsz-8-1-no-attn-mask"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-bsz-8-2-no-attn-mask"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-xls-r-100m-common_voice-tr-ft-bsz-8-3-no-attn-mask"
 	},
 	{
 		"private": false,
@@ -112337,5 +112261,13 @@
 	{
 		"private": false,
 		"modelId": "anton-l/wavlm-base-sv"
+	},
+	{
+		"private": false,
+		"modelId": "HighVoltage/imp"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/xls-r-300m-it-phoneme"
 	}
 ]
