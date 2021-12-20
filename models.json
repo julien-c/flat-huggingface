@@ -89296,11 +89296,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad2-es"
-	},
-	{
-		"private": false,
 		"modelId": "ocm/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -112245,6 +112240,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "adityay1221/t5-large_Run_X1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MMG/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad2-es"
+	},
+	{
+		"private": false,
+		"modelId": "NhatDFO/bart-large-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "hrdipto/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "hrdipto/wav2vec2-large-xls-r-300m-en-colab"
 	}
 ]
