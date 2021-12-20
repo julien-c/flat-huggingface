@@ -2660,6 +2660,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/distilbert_gpt2_summarization_xsum"
 	},
 	{
@@ -112342,5 +112343,14 @@
 	{
 		"private": false,
 		"modelId": "Amalq/roberta-large-finetuned-schizophreniaReddit_update"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "sbtx/DialoGPT-small-peppapig"
+	},
+	{
+		"private": false,
+		"modelId": "lucasfaopellicer/ptt5_finetuning_paraphrasing"
 	}
 ]
