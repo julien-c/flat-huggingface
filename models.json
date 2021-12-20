@@ -112195,6 +112195,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/xls-r-300m-it-phoneme"
 	},
 	{
@@ -112281,6 +112282,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "quarter100/BoolQ_dain_test"
 	},
 	{
@@ -112294,6 +112296,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/plus-bert-german"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/xls-r-300m-tr-phoneme"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/flax-bigbird-base"
 	}
 ]
