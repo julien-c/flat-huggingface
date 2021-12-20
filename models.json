@@ -103395,6 +103395,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "tanay/bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tanay/layoutlm-custom"
 	},
@@ -112179,37 +112184,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "adityay1221/t5-large_Run_X3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "adityay1221/t5-base_Run_X3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Irina/trans_cyoa_rollouted"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "adityay1221/t5-base_Run_X4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "adityay1221/t5-base_Run_X5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "adityay1221/t5-base_Run_X6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "adityay1221/t5-base_RRun_X6"
 	},
 	{
 		"private": false,
@@ -112294,6 +112270,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ppn/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ho/hjrtest-finetuned-wikitext2"
 	}
 ]
