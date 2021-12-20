@@ -111980,6 +111980,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "biinii/kobart-summarization"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "addy88/wav2vec2-nepali-stt"
 	},
@@ -112082,6 +112086,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/NewYorkTimes_model_v8"
 	},
 	{
@@ -112091,6 +112096,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Politico_model_v8"
 	},
 	{
@@ -112183,6 +112189,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-neo-1pt3B-GPT-Peter_DS-msgs_Ep-3_Bs-8"
+	},
+	{
+		"private": false,
+		"modelId": "biinii/1"
+	},
+	{
+		"private": false,
+		"modelId": "MarioPenguin/finetuned-model"
+	},
+	{
+		"private": false,
+		"modelId": "Amalq/roberta-base-finetuned-schizophreniaReddit2"
 	}
 ]
