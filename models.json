@@ -112609,11 +112609,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "CALM/calm-run-test"
+		"pipeline_tag": "token-classification",
+		"modelId": "valeriulacatusu/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "valeriulacatusu/distilbert-base-uncased-finetuned-ner"
+		"modelId": "tamedai/bert-large-gec-detector-de"
+	},
+	{
+		"private": false,
+		"modelId": "CALM/TestCALM"
 	}
 ]
