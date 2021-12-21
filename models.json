@@ -38675,11 +38675,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ayameRushia/bert-base-indonesian-1.5G-finetuned-wnli"
-	},
-	{
-		"private": false,
 		"modelId": "ayameRushia/distilbert-base-indonesian-finetuned-sst2"
 	},
 	{
@@ -112408,5 +112403,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "vuiseng9/pegasus-arxiv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ayameRushia/bert-base-indonesian-1.5G-sentiment-analysis-smsa"
 	}
 ]
