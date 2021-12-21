@@ -29192,6 +29192,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Taekyoon/test_model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Tahsin-Mayeesha/bangla-fake-news-mbert"
 	},
@@ -103352,6 +103357,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "svalabs/gbert-large-zeroshot-nli"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "svalabs/ger-roberta"
 	},
@@ -110445,10 +110455,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ydshieh/bart-base-xsum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ydshieh/bert2bert-cnn_dailymail-fp16"
 	},
@@ -110460,10 +110466,6 @@
 	{
 		"private": false,
 		"modelId": "ydshieh/flax-vision-encoder-decoder-vit-gpt2-coco-en"
-	},
-	{
-		"private": false,
-		"modelId": "ydshieh/image-captioning-ckpts"
 	},
 	{
 		"private": false,
@@ -112459,6 +112461,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt2-medium-dutch"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "adityay1221/t5-base_Run_X1"
+	},
+	{
+		"private": false,
+		"modelId": "Dizoid/Lll"
 	}
 ]
