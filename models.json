@@ -112320,6 +112320,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "dpasch01/finetune-clm-employment"
 	},
 	{
@@ -112405,5 +112406,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nbroad/bigbird-base-feedback-prize"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kwang1993/wav2vec2-base-timit-demo"
+	},
+	{
+		"private": false,
+		"modelId": "lywongad/marian-finetuned-kde4-en-to-fr"
 	}
 ]
