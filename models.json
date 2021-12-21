@@ -38675,14 +38675,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ayameRushia/distilbert-base-indonesian-finetuned-sst2"
-	},
-	{
-		"private": false,
-		"modelId": "ayameRushia/distilbert-base-indonesian-finetuned-wnli"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ayameRushia/gpt2-medium-fine-tuning-indonesia-poem"
 	},
@@ -38690,11 +38682,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ayameRushia/gpt2-small-indonesia-fine-tuning-poem"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ayameRushia/roberta-base-indonesian-1.5G-finetuned-wnli"
 	},
 	{
 		"private": false,
@@ -112408,5 +112395,15 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ayameRushia/bert-base-indonesian-1.5G-sentiment-analysis-smsa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ayameRushia/roberta-base-indonesian-1.5G-sentiment-analysis-smsa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nbroad/bigbird-base-feedback-prize"
 	}
 ]
