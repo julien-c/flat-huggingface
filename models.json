@@ -38442,6 +38442,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -112727,5 +112732,9 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Monsia/test-model"
+	},
+	{
+		"private": false,
+		"modelId": "chrisAS12/specseminars"
 	}
 ]
