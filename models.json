@@ -95629,6 +95629,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ruselkomp/sbert_large_nlu_ru-finetuned-squad"
 	},
 	{
@@ -112366,10 +112367,24 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "tamedai/xlm-roberta-large-gec-detector-de"
+		"modelId": "KoichiYasuoka/roberta-base-japanese-luw-upos"
 	},
 	{
 		"private": false,
-		"modelId": "KoichiYasuoka/roberta-base-japanese-luw-upos"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "vuiseng9/pegasus-billsum"
+	},
+	{
+		"private": false,
+		"modelId": "owcorkery/script"
+	},
+	{
+		"private": false,
+		"modelId": "owcorkery/script21"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nbroad/roberta-base-feedback-prize"
 	}
 ]
