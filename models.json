@@ -2701,6 +2701,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/xlmroberta_gpt2_summarization_xsum"
 	},
 	{
@@ -38593,11 +38594,6 @@
 	{
 		"private": false,
 		"modelId": "athar/rob-model-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/rob-model"
 	},
 	{
 		"private": false,
@@ -89749,6 +89745,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-squad2-es"
 	},
 	{
@@ -91343,10 +91340,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-100m-mls-german-ft"
-	},
-	{
-		"private": false,
-		"modelId": "patrickvonplaten/wav2vec2-2-bert-base"
 	},
 	{
 		"private": false,
@@ -112833,6 +112826,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sshasnain/wav2vec2-xls-r-timit-trainer"
 	},
 	{
@@ -112901,10 +112895,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "monologg/bert-jax-test"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "dtomas/roberta-base-bne-irony"
 	},
 	{
@@ -112924,5 +112915,27 @@
 	{
 		"private": false,
 		"modelId": "toasthans/Twitter_Mit_Hyperparametersuche"
+	},
+	{
+		"private": false,
+		"modelId": "FFF000/dialogpt-FFF"
+	},
+	{
+		"private": false,
+		"modelId": "herry13/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-2-bart-base"
+	},
+	{
+		"private": false,
+		"modelId": "ruselkomp/sbert_large_nlu_ru-finetuned-squad-full"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "LanceaKing/libritts_ecapa_vits"
 	}
 ]
