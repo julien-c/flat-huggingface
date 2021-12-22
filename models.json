@@ -30973,6 +30973,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "UBIAI/en_scibert_ScienceIE"
+	},
+	{
+		"private": false,
 		"modelId": "UWB-AIR/Czert-A-base-uncased"
 	},
 	{
@@ -113212,6 +113217,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "charreaubell/distilbert-magazine-classifier"
+		"pipeline_tag": "fill-mask",
+		"modelId": "nkul/dbert-rda"
+	},
+	{
+		"private": false,
+		"modelId": "blommeolivier/opus-mt-en-ro-finetuned-en-to-ro"
 	}
 ]
