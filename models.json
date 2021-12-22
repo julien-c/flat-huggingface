@@ -59433,6 +59433,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hrdipto/wav2vec2-xls-r-timit-tokenizer-base"
 	},
 	{
@@ -88944,6 +88945,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "nlp-waseda/roberta-base-japanese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nlp4good/psych-search"
 	},
 	{
@@ -112837,5 +112843,17 @@
 	{
 		"private": false,
 		"modelId": "akahana/plant-disease-detr"
+	},
+	{
+		"private": false,
+		"modelId": "Shushant/distilgpt2-finetuned-nepaligpt"
+	},
+	{
+		"private": false,
+		"modelId": "sshasnain/wav2vec2-xls-r-timit-trainer"
+	},
+	{
+		"private": false,
+		"modelId": "hrdipto/wav2vec2-xls-r-timit-trainer"
 	}
 ]
