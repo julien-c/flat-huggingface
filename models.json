@@ -38663,6 +38663,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -113041,6 +113046,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ockapuh/bert-base-spanish-wwm-cased-finetuned-squad2-es-finetuned-sqac"
 	},
 	{
@@ -113165,5 +113171,9 @@
 	{
 		"private": false,
 		"modelId": "devtest12/bullet-points-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "habiba/wav2vec2-large-xls-r-300m-turkish-colab"
 	}
 ]
