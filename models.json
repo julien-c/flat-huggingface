@@ -112928,6 +112928,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ruselkomp/sbert_large_nlu_ru-finetuned-squad-full"
 	},
 	{
@@ -112937,10 +112938,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-2-bart-large"
 	},
 	{
 		"private": false,
 		"modelId": "Pubudu/mt5-small-finetuned-sinhala-headline-generation-1"
+	},
+	{
+		"private": false,
+		"modelId": "csukuangfj/icefall-asr-librispeech-transducer-stateless-bpe-500-2021-12-22"
 	}
 ]
