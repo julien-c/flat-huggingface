@@ -113182,10 +113182,17 @@
 	},
 	{
 		"private": false,
-		"modelId": "Mahesh25/bert-finetuned-squad-toydata-accelerate"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "s3h/opus-mt-ar-en-finetuned-src-to-trg-testing"
 	},
 	{
 		"private": false,
-		"modelId": "s3h/opus-mt-ar-en-finetuned-src-to-trg-testing"
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "NDugar/v2xl-again-mnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pierreguillou/bert-base-cased-pt-lenerbr"
 	}
 ]
