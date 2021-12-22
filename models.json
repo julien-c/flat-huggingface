@@ -38663,11 +38663,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/rob-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -88072,6 +88067,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "nbroad/feedback-bb-base-idpt-ner"
 	},
 	{
@@ -113194,5 +113190,22 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pierreguillou/bert-base-cased-pt-lenerbr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-variable-datasets-5-20211222"
+	},
+	{
+		"private": false,
+		"modelId": "deep-learning-analytics/GrammarCorrector"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/xglm-564M"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/feedback-lf-base-idpt"
 	}
 ]
