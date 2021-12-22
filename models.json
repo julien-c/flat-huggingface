@@ -113022,6 +113022,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "gngpostalsrvc/BERiTmodel2"
 	},
 	{
@@ -113091,5 +113092,27 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-variable-datasets-4-20211222"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "VMET/DialoGPT-small-dumbassbot"
+	},
+	{
+		"private": false,
+		"modelId": "henda/my_arabic_asr"
+	},
+	{
+		"private": false,
+		"modelId": "tamedai/xlm-roberta-base-gec-detector-charsim-de"
+	},
+	{
+		"private": false,
+		"modelId": "racai/distilbert-base-romanian-uncased"
 	}
 ]
