@@ -49172,6 +49172,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emeson77/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -112510,10 +112511,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sshasnain/wav2vec2-xls-r-timit-tokenizer"
-	},
-	{
-		"private": false,
 		"modelId": "patrickvonplaten/wav2vec2-2-bert-base"
 	},
 	{
@@ -112823,5 +112820,10 @@
 	{
 		"private": false,
 		"modelId": "mimi/Waynehills-NLP-mimi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-neo-1pt3B-Conv_DS-WoW_Ep-10_Bs-16-Conv_DS-DailyDialogues_Ep-3_Bs-8"
 	}
 ]
