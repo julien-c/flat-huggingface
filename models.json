@@ -113468,11 +113468,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "metamong1/kobigbirdbart_tapt_ep3_bs16_pre_RD"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Yv/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "TehranNLP-org/bert-base-uncased-cls-hatexplain"
+	},
+	{
+		"private": false,
+		"modelId": "blazing/dummy"
+	},
+	{
+		"private": false,
+		"modelId": "wilsontam/bert-base-uncased-dstc10-knowledge-cluster-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "metamong1/bigbart_full_tapt_ep3_bs16_pre_RD_half_warmpstep"
 	}
 ]
