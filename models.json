@@ -32006,10 +32006,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "YYJ/KunquChat"
-	},
-	{
-		"private": false,
 		"modelId": "YacShin/LocationAddressV1"
 	},
 	{
@@ -110666,6 +110662,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "xkang/distilbert-base-uncased-finetuned-imdb-whole-word-masking"
 	},
 	{
@@ -113243,6 +113240,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jogonba2/mbarthez-frwiki-first_paragraph-min_words_50-min_categories_4_train"
 	},
 	{
@@ -113335,5 +113333,26 @@
 	{
 		"private": false,
 		"modelId": "mimi/ke-t5-base-ko-AIHub-paper-summary"
+	},
+	{
+		"private": false,
+		"modelId": "Carlork314/Carlos"
+	},
+	{
+		"private": false,
+		"modelId": "YYJ/KunquChat"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-en-vi-finetuned-variable-datasets-4-20211223"
+	},
+	{
+		"private": false,
+		"modelId": "Carlork314/Xd"
+	},
+	{
+		"private": false,
+		"modelId": "liminghao1630/trocr-small-handwritten"
 	}
 ]
