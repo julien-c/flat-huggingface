@@ -111795,11 +111795,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "yuchenlin/BART0-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "yuchenlin/BART0"
 	},
 	{
@@ -113126,6 +113121,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/albert_large_gpt2_summarization_cnndm"
 	},
 	{
@@ -113237,10 +113233,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "akahana/asl-vit"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "niclas/model_sv_5"
 	},
 	{
@@ -113251,5 +113249,20 @@
 	{
 		"private": false,
 		"modelId": "jogonba2/mbarthez-frwiki-first_paragraph-min_words_50-min_categories_4_train"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/garyshort"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "niclas/model_sv_working"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/dril-fart-horse_ebooks"
 	}
 ]
