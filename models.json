@@ -83134,6 +83134,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "merve/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -113504,11 +113505,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "wilsontam/bert-base-uncased-dstc10-kb-title-body-validate"
-	},
-	{
-		"private": false,
 		"modelId": "bag03/Bri"
 	},
 	{
@@ -113527,10 +113523,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "airKlizz/mt5-base-wikinewssum-english"
 	},
 	{
 		"private": false,
 		"modelId": "racai/distilbert-multi-base-romanian-cased"
+	},
+	{
+		"private": false,
+		"modelId": "wilsontam/bert-base-uncased-dstc10-kb-title-body-validate"
+	},
+	{
+		"private": false,
+		"modelId": "tamedai/xlm-roberta-large-gec-detector-semsim-de"
 	}
 ]
