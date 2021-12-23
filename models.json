@@ -113266,10 +113266,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ShayoGun/DialoGPT-small-shayo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/roberta-small-japanese-aozora-char"
 	},
@@ -113285,5 +113281,15 @@
 	{
 		"private": false,
 		"modelId": "ShayoGun/policy-distilbert-7d"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/InformalToFormalLincolnDistilledGPT2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-en-vi-finetuned-variable-datasets-1-20211223"
 	}
 ]
