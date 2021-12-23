@@ -106618,21 +106618,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "toasthans/Facebook_Ohne_Hyperparametersuche"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "toasthans/Facebook_und_Twitter_Ohne_Hyperparametersuche"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "toasthans/Twitter_Ohne_Hyperparametersuche"
-	},
-	{
-		"private": false,
 		"modelId": "toastynews/electra-hongkongese-base-discriminator"
 	},
 	{
@@ -113467,6 +113452,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "metinbinbir/t5_en_semantic_textual_similarity"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "wilsontam/bert-base-uncased-dstc10-knowledge-cluster-classifier"
 	},
@@ -113504,10 +113494,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "TehranNLP-org/bert-base-uncased-cls-sst2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "toasthans/Facebook_Ohne_HPS"
 	},
 	{
@@ -113517,5 +113509,18 @@
 	{
 		"private": false,
 		"modelId": "bag03/Bri"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "toasthans/Twitter_Ohne_HPS"
+	},
+	{
+		"private": false,
+		"modelId": "maher13/stt-arabic-2"
+	},
+	{
+		"private": false,
+		"modelId": "tareknaous/bert2bert-empathetic-response-msa"
 	}
 ]
