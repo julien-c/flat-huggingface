@@ -113578,6 +113578,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kennykang/hubert-large-ft-alex_toussaint-more-classes-normalized_text"
 	},
 	{
@@ -113595,5 +113596,23 @@
 	{
 		"private": false,
 		"modelId": "Ericles/Arcaneme"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pierreguillou/bert-large-cased-pt-lenerbr"
+	},
+	{
+		"private": false,
+		"modelId": "Leesin/jhgg"
+	},
+	{
+		"private": false,
+		"modelId": "msavel-prnt/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "philschmid/mt5-small-prompted-germanquad-test-2000samples"
 	}
 ]
