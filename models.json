@@ -113547,11 +113547,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Cyberpal/DialoGPT-medium-mentor-dealer-guy-2"
 	},
 	{
 		"private": false,
 		"modelId": "tamedai/xlm-roberta-large-gec-detector-semsim-wloss-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mrm8488/T5-base-finetuned-cuad"
 	}
 ]
