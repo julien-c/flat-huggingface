@@ -83170,36 +83170,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "metamong1/bigbird-tapt-ep1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "metamong1/bigbird-tapt-ep2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "metamong1/bigbird-tapt-ep3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "metamong1/bigbird_bs32_norm"
-	},
-	{
-		"private": false,
-		"modelId": "metamong1/kobart"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "metamong1/longbartwithdoctype"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "metamong1/longformerbart-v2"
 	},
 	{
 		"private": false,
@@ -113489,5 +113460,19 @@
 	{
 		"private": false,
 		"modelId": "paowers26/luxanna"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "metamong1/bigbart_tapt_ep3_bs16_pre_noam_LB"
+	},
+	{
+		"private": false,
+		"modelId": "metamong1/kobigbirdbart_tapt_ep3_bs16_pre_RD"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Yv/bert-finetuned-ner-accelerate"
 	}
 ]
