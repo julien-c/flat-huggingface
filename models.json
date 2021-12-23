@@ -113308,6 +113308,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "adalbertojunior/modular-test"
 	},
 	{
@@ -113317,5 +113318,18 @@
 	{
 		"private": false,
 		"modelId": "csukuangfj/icefall-asr-librispeech-transducer-bpe-500-2021-12-23"
+	},
+	{
+		"private": false,
+		"modelId": "metamong1/kobigbirdbart_tapt_ep3_bs16_pre_LS_RD"
+	},
+	{
+		"private": false,
+		"modelId": "Mohta/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-en-vi-finetuned-variable-datasets-3-20211223"
 	}
 ]
