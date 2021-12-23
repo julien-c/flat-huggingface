@@ -38814,11 +38814,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/rob-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -113612,10 +113607,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "facebook/tts_transformer-en-ljspeech"
+	},
+	{
+		"private": false,
 		"modelId": "philschmid/mt5-small-prompted-germanquad-test-2000samples"
 	},
 	{
 		"private": false,
-		"modelId": "facebook/tts_transformer-en-ljspeech"
+		"modelId": "philschmid/mt5-small-prompted-germanquad-1"
 	}
 ]
