@@ -30973,11 +30973,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "UBIAI/en_scibert_ScienceIE"
-	},
-	{
-		"private": false,
 		"modelId": "UWB-AIR/Czert-A-base-uncased"
 	},
 	{
@@ -113275,10 +113270,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/roberta-small-japanese-aozora-char"
 	},
 	{
 		"private": false,
 		"modelId": "Oksi/Sisisi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-small-japanese-char-luw-upos"
 	}
 ]
