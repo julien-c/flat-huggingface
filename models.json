@@ -3729,10 +3729,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "CALM/TestCALM"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-ca-ner"
 	},
@@ -113478,6 +113474,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "TehranNLP-org/bert-base-uncased-cls-hatexplain"
 	},
 	{
@@ -113486,10 +113483,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "wilsontam/bert-base-uncased-dstc10-knowledge-cluster-classifier"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "metamong1/bigbart_full_tapt_ep3_bs16_pre_RD_half_warmpstep"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wavlm-base-german"
+	},
+	{
+		"private": false,
+		"modelId": "TehranNLP-org/bert-base-uncased-cls-mnli"
 	}
 ]
