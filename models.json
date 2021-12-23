@@ -113490,10 +113490,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Wende/bert-finetuned-ner1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "toasthans/Facebook_and_Twitter_Ohne_HPS"
 	},
 	{
@@ -113503,5 +113505,17 @@
 	{
 		"private": false,
 		"modelId": "TehranNLP-org/bert-base-uncased-cls-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "toasthans/Facebook_Ohne_HPS"
+	},
+	{
+		"private": false,
+		"modelId": "wilsontam/bert-base-uncased-dstc10-kb-title-body-validate"
+	},
+	{
+		"private": false,
+		"modelId": "bag03/Bri"
 	}
 ]
