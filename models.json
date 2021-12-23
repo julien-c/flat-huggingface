@@ -110667,10 +110667,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "xkang/distilbert-base-uncased-finetuned-imdb-whole-world-masking"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "xkang/distilbert-base-uncased-finetuned-imdb"
 	},
@@ -113354,5 +113350,15 @@
 	{
 		"private": false,
 		"modelId": "liminghao1630/trocr-small-handwritten"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-en-vi-finetuned-variable-datasets-5-20211223"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "OreoSlayer/ChochBot_GPT2"
 	}
 ]
