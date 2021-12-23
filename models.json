@@ -34625,7 +34625,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "airKlizz/mt5-base-wikinewssum-all-languages"
 	},
 	{
@@ -113413,6 +113413,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "dhlpricing/MyGPT2TG-cased-v3"
 	},
 	{
@@ -113440,6 +113441,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "vanadhi/roberta-base-fiqa-flm-sq-flit"
 	},
 	{
@@ -113478,5 +113480,14 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "fvlr/pegasus-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-en-vi-finetuned-variable-datasets-5-20211223"
+	},
+	{
+		"private": false,
+		"modelId": "paowers26/luxanna"
 	}
 ]
