@@ -43953,11 +43953,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "classla/wav2vec2-xls-r-sabor-hr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "claudelkros/T5_french_wiki_summarizer"
 	},
@@ -113329,16 +113324,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "liminghao1630/trocr-small-handwritten"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "OreoSlayer/ChochBot_GPT2"
-	},
-	{
-		"private": false,
-		"modelId": "liminghao1630/trocr-small-printed"
 	},
 	{
 		"private": false,
@@ -113346,10 +113333,28 @@
 	},
 	{
 		"private": false,
-		"modelId": "liminghao1630/trocr-small-stage1"
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/InformalToFormalLincoln16"
 	},
 	{
 		"private": false,
-		"modelId": "BigSalmon/InformalToFormalLincoln16"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "classla/wav2vec2-xls-r-parlaspeech-hr"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/trocr-small-stage1"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/trocr-small-printed"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/trocr-small-handwritten"
+	},
+	{
+		"private": false,
+		"modelId": "toasthans/Facebook_Mit_HPS_5_Epoch"
 	}
 ]
