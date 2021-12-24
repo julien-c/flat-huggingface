@@ -59522,6 +59522,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hiraki/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -82790,10 +82791,6 @@
 	{
 		"private": false,
 		"modelId": "maveriq/posbert"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-finetuned-invoicesql"
 	},
 	{
 		"private": false,
@@ -113735,11 +113732,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "philschmid/mt5-small-prompted-germanquad-1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Sofiascope/imdb-fine-tuned"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/test1"
+	},
+	{
+		"private": false,
+		"modelId": "RiNRin/r"
 	}
 ]
