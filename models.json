@@ -5825,6 +5825,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DeepPavlov/roberta-large-winogrande"
 	},
 	{
@@ -24001,6 +24002,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Palak/distilroberta-base_squad"
+	},
+	{
+		"private": false,
 		"modelId": "Pallisgaard/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -28337,6 +28343,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Selderey/s"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Semih/wav2vec2_Irish_Large"
 	},
@@ -28898,6 +28908,10 @@
 	{
 		"private": false,
 		"modelId": "Socram09/DialoGPT-small-ia-bot2"
+	},
+	{
+		"private": false,
+		"modelId": "Sofiascope/imdb-fine-tuned"
 	},
 	{
 		"private": false,
@@ -59512,6 +59526,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "hiraki/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "hireddivas/DialoGPT-small-ray"
 	},
@@ -82776,6 +82794,10 @@
 	{
 		"private": false,
 		"modelId": "maveriq/posbert"
+	},
+	{
+		"private": false,
+		"modelId": "max137/t5-base-finetuned-invoicesql"
 	},
 	{
 		"private": false,
@@ -107023,11 +107045,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "toasthans/Twitter_Ohne_HPSearch"
+		"modelId": "toasthans/Twitter_Mit_HPSearch"
 	},
 	{
 		"private": false,
-		"modelId": "toasthans/Twitter_Ohne_Hyperparametersuche"
+		"pipeline_tag": "text-classification",
+		"modelId": "toasthans/Twitter_Ohne_HPSearch"
 	},
 	{
 		"private": false,
@@ -113226,6 +113249,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "zhichao158/wav2vec2-xls-r-common_voice-tr-ft"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "zhihao/distilbert-base-uncased-finetuned-ner"
 	},
@@ -113713,5 +113740,9 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/mt5-small-prompted-germanquad-1"
 	}
 ]
