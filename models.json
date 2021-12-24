@@ -39032,6 +39032,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -113847,6 +113852,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Palak/microsoft_deberta-large_squad"
+	},
+	{
+		"private": false,
+		"modelId": "snoop2head/kogpt-conditional-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "addy88/gptj8"
+	},
+	{
+		"private": false,
+		"modelId": "Ender/Jfxosn"
 	}
 ]
