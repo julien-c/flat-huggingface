@@ -113958,10 +113958,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "kornwtp/sup-consert-base"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "kornwtp/sup-consert-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "peterhsu/dummy-model"
 	}
 ]
