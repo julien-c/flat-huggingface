@@ -113944,10 +113944,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "kornwtp/unsup-consert-large"
 	},
 	{
 		"private": false,
 		"modelId": "kornwtp/unsup-consert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "flexudy/cheapity3"
+	},
+	{
+		"private": false,
+		"modelId": "kornwtp/sup-consert-base"
+	},
+	{
+		"private": false,
+		"modelId": "kornwtp/sup-consert-large"
 	}
 ]
