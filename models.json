@@ -114024,11 +114024,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "peterhsu/dummy1-model"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "ssspider/DialoGPT-medium-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "s3h/finetuned-arabert-gec"
 	}
 ]
