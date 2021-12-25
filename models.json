@@ -39027,6 +39027,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -113935,5 +113940,9 @@
 	{
 		"private": false,
 		"modelId": "pierreguillou/ner-bert-large-cased-pt-lenerbr"
+	},
+	{
+		"private": false,
+		"modelId": "kornwtp/your-model-name"
 	}
 ]
