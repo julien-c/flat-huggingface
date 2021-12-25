@@ -25338,10 +25338,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ralfouzan/Demo"
-	},
-	{
-		"private": false,
 		"modelId": "RamadasK7/ramadas-t5-squad-finetuned-squad"
 	},
 	{
@@ -114042,18 +114038,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "s3h/finetuned-mt5-gec"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "nntadotzip/iuXLNetQA"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "nehamj/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
 		"modelId": "peterhsu/bert-finetuned-mrpc-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "peterhsu/tf-dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/tf-dummy-model_1"
 	}
 ]
