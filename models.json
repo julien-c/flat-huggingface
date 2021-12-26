@@ -114252,6 +114252,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "cross-encoder/nli-deberta-v3-xsmall"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "cross-encoder/nli-deberta-v3-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "cross-encoder/nli-deberta-v3-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/ai-msgbot-gpt2-XL-dialogue"
 	}
 ]
