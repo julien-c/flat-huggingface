@@ -97296,14 +97296,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "s3h/mt5-finetuned-gec-2021"
-	},
-	{
-		"private": false,
-		"modelId": "s3h/mt5-finetuned-gec-testing"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "s3h/mt5-small-finetuned-gec"
 	},
@@ -114185,6 +114177,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SEISHIN/distilbert-base-uncased-finetuned-mnli"
 	},
 	{
@@ -114237,5 +114230,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "scales-okn/deberta-v3-xsmall-dtlm"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/roberta_gpt2_new_max64_summarization_cnndm"
 	}
 ]
