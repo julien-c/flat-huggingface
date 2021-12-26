@@ -111154,16 +111154,13 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "wilsontam/bert-base-uncased-dstc10-kb-title-body-validate"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "wilsontam/bert-base-uncased-dstc10-knowledge-cluster-classifier"
-	},
-	{
-		"private": false,
-		"modelId": "wilsontam/bert-error-detection-dstc10"
 	},
 	{
 		"private": false,
@@ -114085,6 +114082,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "maher13/stt-arabic-6"
 	},
 	{
@@ -114112,5 +114110,9 @@
 	{
 		"private": false,
 		"modelId": "GoddessCarryn/Cami"
+	},
+	{
+		"private": false,
+		"modelId": "trashmouth/poo"
 	}
 ]
