@@ -39183,6 +39183,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -114172,5 +114177,14 @@
 	{
 		"private": false,
 		"modelId": "helloworld123/year"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "KoichiYasuoka/roberta-large-japanese-aozora"
+	},
+	{
+		"private": false,
+		"modelId": "SEISHIN/distilbert-base-uncased-finetuned-mnli"
 	}
 ]
