@@ -111386,8 +111386,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "wilsontam/bert-base-uncased-mlm-dstc9"
+		"pipeline_tag": "text-generation",
+		"modelId": "wilsontam/gpt2-dstc9"
 	},
 	{
 		"private": false,
@@ -114189,10 +114189,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/Ballpark-Trivia-L"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/roberta-large-japanese-luw-upos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "wilsontam/bert-base-uncased-dstc9"
 	}
 ]
