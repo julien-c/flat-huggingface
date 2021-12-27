@@ -34372,6 +34372,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "aditeyabaral/plum-bert-large-cased"
 	},
 	{
@@ -96672,11 +96673,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "rockmiin/ko-boolq-model-re"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "rockmiin/ko-boolq-model"
 	},
 	{
@@ -114343,10 +114339,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lijingxin/dummy-model"
 	},
 	{
 		"private": false,
 		"modelId": "an2ten/Andrea"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lijingxin/dummy-model-2"
+	},
+	{
+		"private": false,
+		"modelId": "Zerv/bert-finetuned-ner"
 	}
 ]
