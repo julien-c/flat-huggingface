@@ -114214,6 +114214,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/roberta_gpt2_new_max64_summarization_cnndm"
 	},
 	{
@@ -114311,7 +114312,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "airKlizz/mt5-base-wikinewssum-polish"
 	},
 	{
@@ -114327,5 +114328,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/GPT-Neo-2.7B-Shinen"
+	},
+	{
+		"private": false,
+		"modelId": "Amalq/roberta-large-finetuned-schizophrenia_1"
+	},
+	{
+		"private": false,
+		"modelId": "SunnyS2/Sunny"
 	}
 ]
