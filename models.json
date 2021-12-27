@@ -7152,6 +7152,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Finnish-NLP/roberta-large-wechsel-finnish"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Fiona99/distilbert-base-uncased-finetuned-cola"
 	},
@@ -114512,6 +114517,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "sonoisa/sentence-t5-base-ja-mean-tokens"
 	}
 ]
