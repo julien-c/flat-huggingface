@@ -78111,6 +78111,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kennykang/wav2vec2-ft-alex_toussaint-199-classes-renormalized_text_0-1layerdrop"
 	},
 	{
@@ -107345,6 +107346,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "tiennvcs/bert-large-uncased-finetuned-vi-infovqa"
 	},
 	{
@@ -114436,5 +114438,9 @@
 	{
 		"private": false,
 		"modelId": "ShadowKing/Aguante_armin"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/flax-wav2vec2-libri"
 	}
 ]
