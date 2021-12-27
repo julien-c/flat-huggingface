@@ -41878,16 +41878,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bert2bert_shared-spanish-finetuned-summarization-finetuned-question-generation"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/beto2beto-cc-news-es-titles-finetuned-question-generation"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/deberta-base-finetuned-ner"
 	},
@@ -41895,24 +41885,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "brandon25/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "brandon25/gpt2-spanish-finetuned-question-generation"
-	},
-	{
-		"private": false,
-		"modelId": "brandon25/opus-mt-en-de-finetuned-en-to-de"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/spanish-t5-small-finetuned-question-generation"
 	},
 	{
 		"private": false,
@@ -114531,14 +114503,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jhgan/ko-sroberta-nli"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jhgan/ko-sroberta-multitask"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jhgan/ko-sroberta-sts"
 	}
 ]
