@@ -114361,6 +114361,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "SEISHIN/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -114386,6 +114387,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "junzai/bert_finetuning_test1227_hug"
 	},
 	{
@@ -114395,5 +114397,9 @@
 	{
 		"private": false,
 		"modelId": "DecafNosebleed/DialoGPT-small-ScaraBot"
+	},
+	{
+		"private": false,
+		"modelId": "monologg/bert-ko-wp-large-low-lr-seed-777"
 	}
 ]
