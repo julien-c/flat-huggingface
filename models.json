@@ -114467,6 +114467,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "vinhood/chefberto-italian-cased"
 	},
 	{
@@ -114500,6 +114501,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kleinay/qanom-seq2seq-model-baseline"
 	},
 	{
@@ -114524,6 +114526,11 @@
 	},
 	{
 		"private": false,
+		"modelId": "zama/DialoGPT-medium-peter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Sofiascope/amazon-fine-tuned"
 	}
 ]
