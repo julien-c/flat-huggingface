@@ -114715,6 +114715,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hs788/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -114836,11 +114837,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "roseman/xls-r-300m-kmr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "cross-encoder/nli-deberta-v3-large"
 	},
@@ -114856,5 +114852,14 @@
 	{
 		"private": false,
 		"modelId": "mrm8488/deberta-v3-base-goemotions"
+	},
+	{
+		"private": false,
+		"modelId": "Langame/convai-gpt-j-6B-8bit"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "valurank/en_pipeline_test1"
 	}
 ]
