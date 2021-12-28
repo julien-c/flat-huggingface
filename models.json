@@ -114855,11 +114855,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Langame/convai-gpt-j-6B-8bit"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "valurank/en_pipeline_test1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/plus-bert-court-german"
 	}
 ]
