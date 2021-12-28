@@ -114762,6 +114762,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "tamedai/xlm-roberta-large-gec-detector-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Sofiascope/amazon-fine-tuned-wm"
+	},
+	{
+		"private": false,
+		"modelId": "khursani8/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-2-bart-base_test"
 	}
 ]
