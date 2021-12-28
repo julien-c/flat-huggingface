@@ -52546,6 +52546,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "facebook/tts_transformer-en-ljspeech"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/wav2vec2-base-100h"
 	},
