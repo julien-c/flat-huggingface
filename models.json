@@ -81497,10 +81497,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "luomingshuang/icefall_vsr_grid_visualnet_ctc"
-	},
-	{
-		"private": false,
 		"modelId": "luomingshuang/timit_lm"
 	},
 	{
@@ -99032,6 +99028,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "scasutt/Prototype_training"
 	},
 	{
@@ -114671,14 +114668,34 @@
 	},
 	{
 		"private": false,
-		"modelId": "dtsh4rk/mask-detection"
-	},
-	{
-		"private": false,
 		"modelId": "kntszmlk/wav2vec2-large-xlsr-53"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Gunulhona/tbqgmodel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Gunulhona/tbstmodel"
+	},
+	{
+		"private": false,
+		"modelId": "M47Labs/arabert_multiclass_news"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Gunulhona/tbbcmodel"
+	},
+	{
+		"private": false,
+		"modelId": "Gunulhona/tbbarttokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/talal916"
 	}
 ]
