@@ -114856,6 +114856,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mrm8488/deberta-v3-base-goemotions"
 	},
 	{
@@ -114876,5 +114877,10 @@
 	{
 		"private": false,
 		"modelId": "Spectrox/emmybot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "valurank/en_pipeline_test2"
 	}
 ]
