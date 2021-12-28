@@ -114656,6 +114656,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "M47Labs/arabert_multiclass_news"
 	},
 	{
@@ -114749,11 +114750,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "tamedai/xlm-roberta-large-gec-detector-de"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Sofiascope/amazon-fine-tuned-wm"
 	},
@@ -114819,5 +114815,17 @@
 	{
 		"private": false,
 		"modelId": "vigneshmoorthy/chatbot-harry"
+	},
+	{
+		"private": false,
+		"modelId": "Sa-m/Dogs-vs-Cats"
+	},
+	{
+		"private": false,
+		"modelId": "federicopascual/my-sentiment-analysis-model"
+	},
+	{
+		"private": false,
+		"modelId": "federicopascual/finetuned-sentiment-analysis-model"
 	}
 ]
