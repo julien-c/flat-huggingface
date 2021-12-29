@@ -87393,11 +87393,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mrm8488/deberta-v3-snall-goemotions"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "mrm8488/dilstilgpt2-finetuned-amazon-food-reviews"
 	},
@@ -115011,6 +115006,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "wongyo/diag_test"
 	},
 	{
@@ -115031,5 +115027,10 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "sosuke/ease-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mrm8488/deberta-v3-small-goemotions"
 	}
 ]
