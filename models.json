@@ -89651,6 +89651,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "nbroad/lf-base-idpt-ner"
 	},
 	{
@@ -95498,11 +95499,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-neo-1pt3B-Conversational_DS-WoW_Ep-1_Bs-16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-neo-1pt3B-GPT-Peter_DS-msgs_Ep-3_Bs-8"
 	},
 	{
 		"private": false,
@@ -115225,5 +115221,10 @@
 	{
 		"private": false,
 		"modelId": "AndrewChar/1234-model-rewer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/GPT-Peter-Neo-L-WhatsApp-WoW"
 	}
 ]
