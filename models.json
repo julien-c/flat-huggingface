@@ -115006,6 +115006,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "addy88/t5-argument-anlyser"
 	},
 	{
@@ -115019,5 +115020,15 @@
 	{
 		"private": false,
 		"modelId": "qingtao/wav2vec2-base-timit-fine-tuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/ease-bert-base-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/ease-roberta-base"
 	}
 ]
