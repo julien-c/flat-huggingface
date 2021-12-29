@@ -45405,6 +45405,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "cristinakuo/wav2vec2-latino40"
 	},
 	{
@@ -114909,10 +114910,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Spectrox/DialoGPT-small-emmybot"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/sh44sti"
 	},
@@ -114931,6 +114928,17 @@
 	},
 	{
 		"private": false,
-		"modelId": "pyf98/speechcommands_conformer"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "pyf98/speechcommands_12commands_conformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "pyf98/speechcommands_35commands_conformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/ihyjuju"
 	}
 ]
