@@ -95515,11 +95515,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "pszemraj/timit-demo-wavlm-large"
-	},
-	{
-		"private": false,
 		"modelId": "ptr2sobi/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -115216,5 +115211,14 @@
 	{
 		"private": false,
 		"modelId": "Ketzu/koelectra-base-v3-discriminator-finetuned-sts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "pszemraj/wavlm-large-timit-100epoch"
+	},
+	{
+		"private": false,
+		"modelId": "spasis/dummy-model"
 	}
 ]
