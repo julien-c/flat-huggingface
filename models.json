@@ -84354,11 +84354,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "michaeltendo/luganda"
-	},
-	{
-		"private": false,
 		"modelId": "michaeltendo/model_name"
 	},
 	{
@@ -90399,6 +90394,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "nlp-en-es/roberta-base-bne-finetuned-sqac"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nlp-waseda/gpt2-small-japanese-wikipedia"
 	},
 	{
 		"private": false,
@@ -114980,5 +114980,13 @@
 	{
 		"private": false,
 		"modelId": "youngjae/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Amalq/roberta-large-finetuned-schizophrenia-12-21"
+	},
+	{
+		"private": false,
+		"modelId": "Doogie/ke-t5-base-ko"
 	}
 ]
