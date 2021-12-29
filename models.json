@@ -115260,6 +115260,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tbochens/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "lgris/distilxlsr_bp_4-12"
 	}
 ]
