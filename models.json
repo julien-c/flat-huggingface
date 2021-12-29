@@ -84350,14 +84350,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "michaeltendo/eng_lug"
-	},
-	{
-		"private": false,
-		"modelId": "michaeltendo/model_name"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "michalwilk123/distilbert-imdb-negative"
 	},
@@ -114613,6 +114605,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "mussoguy/lee-kogpt"
 	},
 	{
@@ -114758,16 +114751,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeska/VaccinChatSentenceClassifierDutch_fromBERTje2_DAdialog02"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "nlpconnect/dpr-ctx_encoder_bert_uncased_L-12_H-128_A-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "nlpconnect/dpr-question_encoder_bert_uncased_L-12_H-128_A-2"
 	},
 	{
 		"private": false,
@@ -114983,10 +114966,20 @@
 	},
 	{
 		"private": false,
+		"modelId": "Doogie/ke-t5-base-ko"
+	},
+	{
+		"private": false,
 		"modelId": "Amalq/roberta-large-finetuned-schizophrenia-12-21"
 	},
 	{
 		"private": false,
-		"modelId": "Doogie/ke-t5-base-ko"
+		"pipeline_tag": "feature-extraction",
+		"modelId": "nlpconnect/dpr-ctx_encoder_bert_uncased_L-2_H-128_A-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "nlpconnect/dpr-question_encoder_bert_uncased_L-2_H-128_A-2"
 	}
 ]
