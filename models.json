@@ -114868,6 +114868,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Spectrox/emmybot"
 	},
 	{
@@ -114940,5 +114941,34 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/ihyjuju"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/simcse-mean-pooling-mono-batch-bert-base-multilingual-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/ease-mono-batch-bert-base-multilingual-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/simcse-mean-pooling-mono-batch-xlm-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/ease-mono-batch-xlm-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sosuke/ease-wo-simcse-bert-base-multilingual-cased"
+	},
+	{
+		"private": false,
+		"modelId": "sosuke/ease-wo-simcse-xlm-roberta-base"
 	}
 ]
