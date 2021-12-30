@@ -20748,11 +20748,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-Math-19-10-en-to-ar"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "MaryaAI/opus-mt-en-ar-finetuned-dummyData-10-10-ar-to-en"
 	},
 	{
@@ -115403,5 +115398,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Shushant/nepaliBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "prajdabre/IndicBART"
+	},
+	{
+		"private": false,
+		"modelId": "prajdabre/IndicBARTTokenizer"
 	}
 ]
