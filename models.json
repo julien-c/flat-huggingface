@@ -115329,6 +115329,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "danicodes/autonlp-legal-text-summary-457311749"
+	},
+	{
+		"private": false,
 		"modelId": "jacksukk/transfer"
 	},
 	{
@@ -115339,5 +115344,19 @@
 	{
 		"private": false,
 		"modelId": "tmyster/codeparrot-ds"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SophieTr/fine-tune-Pegasus"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "m-newhauser/finetune-distilbert-senators"
+	},
+	{
+		"private": false,
+		"modelId": "youngjae/bert-finetuned-squad-accelerate"
 	}
 ]
