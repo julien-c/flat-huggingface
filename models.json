@@ -1933,81 +1933,13 @@
 	},
 	{
 		"private": false,
-		"modelId": "AndrewChar/1234-model-rewer"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/bert-base-multilingual-cased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/bert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/bert-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/codeparrot-ds"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/diplom-QA"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-multilingual-cased-model-diplom-prod-datast-sber-QA"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-multilingual-cased-model-diplom-prod-sber-QA"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-multilingual-cased-model-diplom-prod-sber-QA1"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad-d5716d28"
 	},
 	{
 		"private": false,
-		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad-model-diplom-prod-01"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad-model-diplom1"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad-model-diplom2"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad-model-diplom45"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "AndrewChar/dummy-model"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/marian-finetuned-kde4-en-to-fr"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/mt5-small-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -2018,14 +1950,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AndrewChar/my-first-model"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/my-model"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewChar/xlm-roberta-large-qa-multilingual-finedtuned-ru-model-diplom-prod-sber-QA"
 	},
 	{
 		"private": false,
@@ -115488,6 +115412,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/GPT-Neo-2.7B-Horni-LN"
 	},
 	{
@@ -115501,5 +115426,10 @@
 	{
 		"private": false,
 		"modelId": "addy88/t5-qa-genrate-explain-context"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AndrewChar/diplom-prod-datast-sber-QA"
 	}
 ]
