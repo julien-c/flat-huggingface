@@ -22176,7 +22176,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Motahar/bert-base-cased-mahtab"
 	},
 	{
@@ -115435,10 +115435,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "LukasGe/mt5-small-finetuned-trump"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "UKJ5/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-large-japanese-char-luw-upos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Motahar/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/feather_berts"
 	}
 ]
