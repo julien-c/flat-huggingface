@@ -115445,6 +115445,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "vinhood/wineberto-italian-cased"
 	},
 	{
@@ -115475,5 +115476,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ai4bharat/IndicBART"
+	},
+	{
+		"private": false,
+		"modelId": "PSanni/word2vec_wss_100dim"
 	}
 ]
