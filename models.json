@@ -37437,6 +37437,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/ak-ymvocab-ar-en"
+	},
+	{
+		"private": false,
 		"modelId": "amjadkhatabi/mbart-large-50-many-to-many-mmt-finetuned-ar-to-en"
 	},
 	{
@@ -115456,5 +115461,19 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/feather_berts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ericRosello/trial"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ericRosello/destilbert-frozen"
+	},
+	{
+		"private": false,
+		"modelId": "ericRosello/results"
 	}
 ]
