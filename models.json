@@ -113385,11 +113385,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "yhavinga/gpt-neo-2.7B-dutch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt2-medium-dutch"
 	},
 	{
@@ -115417,6 +115412,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "scasutt/Prototype_training_large_model"
 	},
 	{
@@ -115425,11 +115421,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "addy88/t5-qa-genrate-explain-context"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AndrewChar/diplom-prod-datast-sber-QA"
+	},
+	{
+		"private": false,
+		"modelId": "yhavinga/gpt2-large-dutch"
 	}
 ]
