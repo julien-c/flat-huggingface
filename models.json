@@ -2785,6 +2785,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_gpt2_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Ayoola/cdial-yoruba-test"
 	},
@@ -115772,5 +115777,17 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "mk3smo/dialogpt-med-duck5"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/distilxlsr_bp_12-16_ft_cv"
+	},
+	{
+		"private": false,
+		"modelId": "aditeyabaral/plum-xlm-roberta-large"
+	},
+	{
+		"private": false,
+		"modelId": "FranzStrauss/ponet-base-uncased"
 	}
 ]
