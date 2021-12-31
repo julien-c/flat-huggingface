@@ -28265,6 +28265,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Sabokou/squad-qg-gen"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Sachinkelenjaguri/sa_bioclinical_bert"
 	},
@@ -53705,10 +53710,6 @@
 	{
 		"private": false,
 		"modelId": "festival/no"
-	},
-	{
-		"private": false,
-		"modelId": "feynman94/bert-base-uncased-contracts-for-QA-finetuned-on-squad"
 	},
 	{
 		"private": false,
@@ -115718,5 +115719,13 @@
 	{
 		"private": false,
 		"modelId": "airKlizz/mt5-base-wikinewssum-english-1000"
+	},
+	{
+		"private": false,
+		"modelId": "s3h/finetuned-mt5-head-gec"
+	},
+	{
+		"private": false,
+		"modelId": "Maaly/biobert-finetuned-metagene-anatomy"
 	}
 ]
