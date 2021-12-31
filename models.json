@@ -39832,6 +39832,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -115789,5 +115794,13 @@
 	{
 		"private": false,
 		"modelId": "FranzStrauss/ponet-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/distilxlsr_bp_8-16_ft_mls"
+	},
+	{
+		"private": false,
+		"modelId": "smiling-xu/dummy-model"
 	}
 ]
