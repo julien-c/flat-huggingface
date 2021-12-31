@@ -80928,11 +80928,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/distilxlsr_bp_12-16_ft_mls"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "lgris/distilxlsr_bp_16-24"
 	},
@@ -115768,5 +115763,14 @@
 	{
 		"private": false,
 		"modelId": "susghosh/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"modelId": "mk3smo/dialogpt-med-duck4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "mk3smo/dialogpt-med-duck5"
 	}
 ]
