@@ -82391,11 +82391,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "m-newhauser/finetune-distilbert-senators"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "m-polignano-uniba/bert_uncased_L-12_H-768_A-12_italian_alb3rt0"
 	},
@@ -115623,5 +115618,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/hey_ash21"
+	},
+	{
+		"private": false,
+		"modelId": "mk3smo/dialogpt-med-duck"
 	}
 ]
