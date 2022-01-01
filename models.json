@@ -54096,20 +54096,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "fjavitor/gpt2-small-spanish-finetuned-rap"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "fjavitor/gpt2-small-spanish-finetuned-sabina"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "fjavitor/rap-clm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "fjluque/dummy-model"
 	},
@@ -115980,10 +115966,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "sibckukgvaxsepbkyb/base_model"
 	},
 	{
 		"private": false,
-		"modelId": "fjavitor/canta"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "sibckukgvaxsepbkyb/finetuned_model"
+	},
+	{
+		"private": false,
+		"modelId": "ghomasHudson/style_change"
+	},
+	{
+		"private": false,
+		"modelId": "ghomasHudson/style_change_detection"
 	}
 ]
