@@ -35382,6 +35382,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ahmedrachid/FinancialBERT-Sentiment-Analysis"
 	},
 	{
@@ -115929,6 +115930,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "sh110495/kor-pegasus"
 	},
 	{
@@ -115943,6 +115945,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "s3h/arabic-t5-small-finetuned-gec"
 	},
 	{
@@ -115976,6 +115979,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "uw-madison/nystromformer-512"
+	},
+	{
+		"private": false,
+		"modelId": "fjavitor/gpt2-small-spanish-cantaprueba"
 	}
 ]
