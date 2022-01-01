@@ -98737,6 +98737,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "s3h/arabert-classification"
 	},
 	{
@@ -113926,6 +113927,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt2-medium-dutch-nedd-2"
 	},
 	{
@@ -115913,6 +115915,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/plus-bert-court-90k-end2-german"
+	},
+	{
+		"private": false,
+		"modelId": "s3h/arabert-gec-v2-2"
 	}
 ]
