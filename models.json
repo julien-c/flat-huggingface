@@ -39728,11 +39728,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "asherknight/DialoGPT-medium-eve-new"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ashish-chouhan/xlm-roberta-base-finetuned-marc"
 	},
@@ -115945,5 +115940,13 @@
 	{
 		"private": false,
 		"modelId": "GPL/robust042msmarco-distilbert-tsdae-margin-mse"
+	},
+	{
+		"private": false,
+		"modelId": "GPL/bioasq-1m2msmarco-distilbert-tsdae-margin-mse"
+	},
+	{
+		"private": false,
+		"modelId": "GPL/trec-covid-v22msmarco-distilbert-tsdae-margin-mse"
 	}
 ]
