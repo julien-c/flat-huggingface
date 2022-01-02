@@ -51399,11 +51399,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "ericRosello/bert-frozen"
-	},
-	{
-		"private": false,
 		"modelId": "ericRosello/results"
 	},
 	{
@@ -116268,6 +116263,19 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "ericRosello/distilbert-frozen"
+		"modelId": "ericRosello/bert-frozen-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ericRosello/distilbert-frozen-v1"
+	},
+	{
+		"private": false,
+		"modelId": "tprincessazula/Dialog-GPT-small-KATARA-AVATAR"
+	},
+	{
+		"private": false,
+		"modelId": "ShrikanthSingh/legal_data_tokenizer"
 	}
 ]
