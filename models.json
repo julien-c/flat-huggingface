@@ -39893,6 +39893,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/rob-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "atharvamundada99/bert-large-question-answering-finetuned-legal"
 	},
@@ -115991,10 +115996,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "rachelcorey/DialoGPT-medium-kramer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Zixtrauce/BrandonBot2"
 	},
@@ -116014,5 +116015,9 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Zixtrauce/BDBot4Epoch"
+	},
+	{
+		"private": false,
+		"modelId": "rachelcorey/DailoGPT-medium-kramer"
 	}
 ]
