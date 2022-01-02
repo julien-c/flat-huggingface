@@ -116301,15 +116301,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "coldfir3/xlm-roberta-base-finetuned-panx-it"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "phosseini/atomic-bert-v1"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kSaluja/tele_stock_entity"
+	},
+	{
+		"private": false,
+		"modelId": "coldfir3/xlm-roberta-base-finetuned-panx-en"
+	},
+	{
+		"private": false,
+		"modelId": "aditeyabaral/maple-xlm-roberta-large"
 	}
 ]
