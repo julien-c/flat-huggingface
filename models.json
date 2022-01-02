@@ -51404,11 +51404,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "ericRosello/destilbert-frozen"
-	},
-	{
-		"private": false,
 		"modelId": "ericRosello/results"
 	},
 	{
@@ -114163,11 +114158,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "yhavinga/gpt2-large-dutch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt2-medium-dutch"
 	},
 	{
@@ -114194,11 +114184,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-v1.1-base-dutch-uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "yhavinga/t5-v1.1-base-dutch"
 	},
 	{
 		"private": false,
@@ -116265,5 +116250,24 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-v1.1-large-dutch-cased-failed"
+	},
+	{
+		"private": false,
+		"modelId": "stefan-jo/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "yhavinga/gpt2-large-dutch-stopped"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yhavinga/t5-v1.1-base-dutch-notgood-see-newer-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ericRosello/distilbert-frozen"
 	}
 ]
