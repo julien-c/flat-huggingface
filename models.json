@@ -1680,6 +1680,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "AlekseyKulnevich/Pegasus-Summarization"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Alerosae/SocratesGPT-2"
 	},
@@ -116170,7 +116175,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "rmicheal48/DialoGPT-small-steven_universe"
+	},
+	{
+		"private": false,
+		"modelId": "stefan-jo/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "EhsanAghazadeh/bert-based-uncased-sst2-e4"
 	}
 ]
