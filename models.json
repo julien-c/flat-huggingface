@@ -78223,6 +78223,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "juierror/wav2vec2-large-xls-r-thai-test"
 	},
 	{
@@ -116192,5 +116193,15 @@
 	{
 		"private": false,
 		"modelId": "lgris/distilxlsr_bp_8-12_ft_cv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AndrewChar/diplom-prod-epoch-4-datast-sber-QA"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "EhsanAghazadeh/bert-based-uncased-sst2-e5"
 	}
 ]
