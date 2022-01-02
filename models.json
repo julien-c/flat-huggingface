@@ -116287,14 +116287,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lgrobol/electra-minuscule-generator"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "coldfir3/xlm-roberta-base-finetuned-panx-fr"
 	},
 	{
 		"private": false,
 		"modelId": "nykodmar/wav2vec-numbers-cs-augmented-test"
+	},
+	{
+		"private": false,
+		"modelId": "coldfir3/xlm-roberta-base-finetuned-panx-it"
+	},
+	{
+		"private": false,
+		"modelId": "phosseini/atomic-bert-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kSaluja/tele_stock_entity"
 	}
 ]
