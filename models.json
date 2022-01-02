@@ -1675,6 +1675,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "AlekseyKulnevich/Pegasus-QuestionGeneration"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Alerosae/SocratesGPT-2"
 	},
@@ -116139,10 +116144,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "arshyajabbari/wav2vec2-large-persian-demo"
-	},
-	{
-		"private": false,
 		"modelId": "aiface/wav2vec2-large-xls-r-300m-vietnam-colab"
 	},
 	{
@@ -116157,5 +116158,10 @@
 	{
 		"private": false,
 		"modelId": "neuralr1fle/DialoGPT-medium-ShZro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "EhsanAghazadeh/bert-based-uncased-sst2-e3"
 	}
 ]
