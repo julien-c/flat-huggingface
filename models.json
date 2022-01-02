@@ -116085,6 +116085,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "EhsanAghazadeh/bert-based-uncased-sst2-e1"
 	},
 	{
@@ -116100,5 +116101,10 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "addy88/perceiver_image_classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "tamedai/roberta-base-gec-detector-de"
 	}
 ]
