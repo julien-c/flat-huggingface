@@ -107248,11 +107248,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-align_tm_base-20211230-finetuned-align_tm_base_10epochs-20220103"
-	},
-	{
-		"private": false,
 		"modelId": "takakisatojp/DUTE_BERT"
 	},
 	{
@@ -116421,6 +116416,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "aditeyabaral/maple-bert-large-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-align_tm_base-20220103"
+	},
+	{
+		"private": false,
+		"modelId": "vdivya/wav2vec2-base-timit-demo-colab"
 	}
 ]
