@@ -116512,7 +116512,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "hiiamsid/sentence_similarity_hindi"
+	},
+	{
+		"private": false,
+		"modelId": "deepdml/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "mahaamami/distilgpt2-finetuned-wikitext2"
 	}
 ]
