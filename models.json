@@ -2480,7 +2480,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "ArBert/albert-base-v2-finetuned-ner"
+	},
+	{
+		"private": false,
 		"modelId": "ArBert/bert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/roberta-base-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -22153,6 +22161,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Miguelm/Yyyy"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "MigyeongYang/kcbert-mlm-finetune"
 	},
@@ -29953,6 +29965,26 @@
 	{
 		"private": false,
 		"modelId": "StanBienaives/wisenlp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Stancld/roformer_chinese_base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Stancld/roformer_chinese_char_base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Stancld/roformer_chinese_char_small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Stancld/roformer_chinese_small"
 	},
 	{
 		"private": false,
@@ -41847,6 +41879,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/tr12a-1B3-oscar-en-filtered"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr12b-1B3-oscar-en-filtered-dedup"
+	},
+	{
+		"private": false,
 		"modelId": "bigscience/tr3-1B3-modeling-baseline-tensorboard"
 	},
 	{
@@ -45967,6 +46007,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "coldfir3/bert-base-uncased-issues-128"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "coldfir3/distilbert-base-uncased-finetuned-emotion"
 	},
@@ -47996,6 +48040,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "deepdml/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "deepdml/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
 		"private": false,
@@ -75806,6 +75854,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "institutogloria/hate-pt-tweet-binary"
+	},
+	{
+		"private": false,
 		"modelId": "insub/vectorizing_BART"
 	},
 	{
@@ -88646,6 +88699,10 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "mrm8488/electra-large-finetuned-squadv1"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/electra-large-goemotions"
 	},
 	{
 		"private": false,
@@ -107215,6 +107272,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sven-nm/roberta_classics_ner"
+	},
+	{
+		"private": false,
 		"modelId": "sven1977/test_model"
 	},
 	{
@@ -114719,6 +114780,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "yhavinga/t5-v1.1-base-dutch-cnn-test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-v1.1-base-dutch-notgood-see-newer-uncased"
 	},
@@ -116622,71 +116688,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/tr12a-1B3-oscar-en-filtered"
-	},
-	{
-		"private": false,
-		"modelId": "sven-nm/roberta_classics_ner"
-	},
-	{
-		"private": false,
-		"modelId": "Miguelm/Yyyy"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/tr12b-1B3-oscar-en-filtered-dedup"
-	},
-	{
-		"private": false,
-		"modelId": "ArBert/albert-base-v2-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "ArBert/roberta-base-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "institutogloria/hate-pt-tweet-binary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "yhavinga/t5-v1.1-base-dutch-cnn-test"
-	},
-	{
-		"private": false,
-		"modelId": "deepdml/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"modelId": "mrm8488/electra-large-goemotions"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Stancld/roformer_chinese_small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Stancld/roformer_chinese_base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Stancld/roformer_chinese_char_small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Stancld/roformer_chinese_char_base"
-	},
-	{
-		"private": false,
-		"modelId": "coldfir3/bert-base-uncased-issues-128"
 	}
 ]
