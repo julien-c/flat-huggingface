@@ -51695,6 +51695,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "ericRosello/results"
 	},
 	{
@@ -116711,11 +116712,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Keqipig/DialoGPT-small-spamton"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "ncoop57/athena"
+	},
+	{
+		"private": false,
+		"modelId": "radev/distilbert-base-uncased-finetuned-cola"
 	}
 ]
