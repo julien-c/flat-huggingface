@@ -116496,5 +116496,19 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "bergum/xtremedistil-l6-h384-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "mesutacar/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "aditeyabaral/maple-distilbert-base-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "hiiamsid/sentence_similarity_hindi"
 	}
 ]
