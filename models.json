@@ -35356,11 +35356,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/plum-bert-base-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "aditeyabaral/plum-bert-large-cased"
 	},
 	{
@@ -116716,6 +116711,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Keqipig/Spamton"
+		"modelId": "Keqipig/DialoGPT-small-spamton"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "ncoop57/athena"
 	}
 ]
