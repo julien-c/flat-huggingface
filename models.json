@@ -91125,6 +91125,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "newsha/PQuAD"
 	},
 	{
@@ -116475,6 +116476,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/beren-gpt2-medium-x49"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/celebrimbor-gpt2-medium-x81"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bergum/xtremedistil-l6-h384-emotion"
 	}
 ]
