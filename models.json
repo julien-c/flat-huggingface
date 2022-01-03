@@ -35278,11 +35278,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/maple-xlm-roberta-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "aditeyabaral/plum-bert-base-cased"
 	},
 	{
@@ -116420,11 +116415,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/maple-bert-large-cased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-align_tm_base-20220103"
 	},
@@ -116509,11 +116499,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/maple-distilbert-base-cased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "hiiamsid/sentence_similarity_hindi"
 	},
@@ -116532,12 +116517,41 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "vsalamand/fr_ner_ingredients"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "janpase97/code-bart-generator"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "janpase97/code-bart-generator"
+		"pipeline_tag": "token-classification",
+		"modelId": "maple/xlm-roberta-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "maple/distilbert-base-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "maple/bert-large-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "vsalamand/fr_pipeline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "laxya007/gpt2_TS_DM_AS_CC_TM_HCU"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ericRosello/distilbert-frozen-v2"
+	},
+	{
+		"private": false,
+		"modelId": "nicktien/TaipeiQA"
 	}
 ]
