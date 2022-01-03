@@ -81176,16 +81176,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/cetuc100-xlsr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/commonvoice100-xlsr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "lgris/distilxlsr_bp_12-16"
 	},
@@ -116345,5 +116335,19 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/bp-mls100-xlsr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/bp-cetuc100-xlsr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/bp-commonvoice100-xlsr"
+	},
+	{
+		"private": false,
+		"modelId": "loloy/arcane"
 	}
 ]
