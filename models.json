@@ -116519,6 +116519,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "deepdml/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -116531,6 +116532,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "vsalamand/fr_pipeline"
+		"pipeline_tag": "token-classification",
+		"modelId": "vsalamand/fr_ner_ingredients"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "janpase97/code-bart-generator"
 	}
 ]
