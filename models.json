@@ -34947,11 +34947,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "addy88/t5-sanskrit-english-translation"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "addy88/wav2vec-odia-stt"
 	},
@@ -76659,6 +76654,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "jcai1/bert-finetuned-ner"
 	},
 	{
@@ -79496,10 +79492,6 @@
 	{
 		"private": false,
 		"modelId": "kenyano/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "keoncheol/gc-tokenizer"
 	},
 	{
 		"private": false,
@@ -116743,5 +116735,30 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "VaibhS/quantized_model_update"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/bert-finetuned-nero"
+	},
+	{
+		"private": false,
+		"modelId": "NahedAbdelgaber/evaluating-student-writing-distibert-ner"
+	},
+	{
+		"private": false,
+		"modelId": "jcai1/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "addy88/programming-lang-identifier"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-common-voice-en-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "addy88/t5-grammar-correction"
 	}
 ]
