@@ -79090,11 +79090,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "kSaluja/tele_stock_entity"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaot1k/DialoGPT-small-Wanda"
 	},
@@ -116781,6 +116776,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "nickmuchi/bert-finetuned-nerecognition"
 	},
 	{
@@ -116795,5 +116791,13 @@
 	{
 		"private": false,
 		"modelId": "pkushiqiang/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Bhuvana/t5-base-spellchecker"
+	},
+	{
+		"private": false,
+		"modelId": "pkushiqiang/bert-finetuned-ner-accelerate"
 	}
 ]
