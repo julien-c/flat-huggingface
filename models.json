@@ -116873,11 +116873,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "knkarthick/meeting-summary-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "savasy/mt5-mlsum-turkish-summarization"
 	},
 	{
@@ -116908,6 +116903,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Fawreez/DialoGPT-small-Fawreez"
 	},
 	{
@@ -116916,6 +116912,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "yhavinga/t5-v1.1-large-dutch-cnn-test"
+	},
+	{
+		"private": false,
+		"modelId": "marioarteaga/distilbert-base-uncased-finetuned-squad"
 	}
 ]
