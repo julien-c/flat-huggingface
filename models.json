@@ -116954,6 +116954,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mrm8488/longformer-base-4096-spanish"
 	},
 	{
@@ -117162,6 +117163,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "bhan/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -117179,10 +117181,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Khanh/bert-base-multilingual-cased-finetuned-viquad"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Khanh/distilbert-base-multilingual-cased-finetuned-viquad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/darth"
+	},
+	{
+		"private": false,
+		"modelId": "Saeed120/Seed"
 	}
 ]
