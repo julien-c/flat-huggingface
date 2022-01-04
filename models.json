@@ -91525,15 +91525,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nickmuchi/bert-finetuned-nerecog"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "nickmuchi/bert-finetuned-nerecognition"
-	},
-	{
-		"private": false,
 		"modelId": "nicktien/TaipeiQA"
 	},
 	{
@@ -96968,10 +96959,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/GPT-Peter-Neo-L-WhatsApp-WoW"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-8bit_DS-DailyDialogues_Ep-5_Bs-4"
 	},
 	{
 		"private": false,
@@ -116903,7 +116890,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Fawreez/DialoGPT-small-Fawreez"
 	},
 	{
@@ -116918,5 +116905,33 @@
 	{
 		"private": false,
 		"modelId": "marioarteaga/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/vit-base-patch16-224"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/vit-base-patch32-384"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/vit-base-patch32-224-in21k"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/vit-large-patch16-224"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/vit-large-patch32-384"
+	},
+	{
+		"private": false,
+		"modelId": "aditeyabaral/maple-roberta-large"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/bert-finetuned-ner"
 	}
 ]
