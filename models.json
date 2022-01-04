@@ -30131,6 +30131,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-large-cased-finetuned-ner"
 	},
 	{
@@ -76742,6 +76747,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "jcai1/bert-finetuned-ner-accelerate"
 	},
 	{
@@ -116943,6 +116949,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "qqaatw/realm-orqa-wq-openqa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "mapama247/test123"
 	},
@@ -117089,5 +117099,17 @@
 	{
 		"private": false,
 		"modelId": "WayScriptDerrick/SampleModel"
+	},
+	{
+		"private": false,
+		"modelId": "Khanh/xlm-roberta-base-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "dankoy/aid2"
+	},
+	{
+		"private": false,
+		"modelId": "radev/distilbert-base-uncased-finetuned-squad"
 	}
 ]
