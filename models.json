@@ -117156,6 +117156,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SBERT-base-nli-v2"
+	},
+	{
+		"private": false,
+		"modelId": "bhan/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Hassene/DialoGPT-medium-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/xlsr-wav2vec2-2-bertimbau-base-ft-cv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "s3h/gec-token-classification-arabert"
+	},
+	{
+		"private": false,
+		"modelId": "Khanh/bert-base-multilingual-cased-finetuned-viquad"
 	}
 ]
