@@ -7102,6 +7102,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "EricPeter/Luganda_MT"
+	},
+	{
+		"private": false,
 		"modelId": "ErickMM98/bert-base-uncased-contracts-finetuned-squad"
 	},
 	{
@@ -81679,18 +81684,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/distilxlsr_bp_8-12-24_ft_cv"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "lgris/distilxlsr_bp_8-12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/distilxlsr_bp_8-12_ft_cv"
 	},
 	{
 		"private": false,
@@ -116887,6 +116882,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "qqaatw/realm-orqa-nq-openqa"
+	},
+	{
+		"private": false,
 		"modelId": "tftransformers/vit-base-patch16-224-in21k"
 	},
 	{
@@ -117050,10 +117049,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "hpi-dhc/clinical_ner_german_ggponc_long"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "rachelcorey/DialoGPT-medium-kramer"
+	},
+	{
+		"private": false,
+		"modelId": "knkarthick/meeting-summary-test"
 	}
 ]
