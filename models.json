@@ -3756,10 +3756,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Bram/md-dl-summarization"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BramVanroy/gpt-neo-125M_finetuned-tolkien"
 	},
@@ -107493,11 +107489,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-align_tm_base-epoch10-20220103"
-	},
-	{
-		"private": false,
 		"modelId": "takakisatojp/DUTE_BERT"
 	},
 	{
@@ -116728,6 +116719,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-960-tr-colab-fine_tuned_common-voice-en-trial"
+	},
+	{
+		"private": false,
+		"modelId": "tchubakov/test"
+	},
+	{
+		"private": false,
+		"modelId": "Jean-Baptiste/roberta-large-ner"
+	},
+	{
+		"private": false,
+		"modelId": "s007877/mt5-small-finetuned-ja-to-en_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/sew-bp-2-bertimbau-base"
 	}
 ]
