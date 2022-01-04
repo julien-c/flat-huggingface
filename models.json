@@ -117008,6 +117008,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/roberta_NCC_des_128_decayfrom200"
 	},
 	{
@@ -117129,5 +117130,9 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "ericRosello/bert-base-uncased-finetuned-squad-frozen-v1"
+	},
+	{
+		"private": false,
+		"modelId": "ericRosello/bert-base-uncased-finetuned-squad"
 	}
 ]
