@@ -1,6 +1,11 @@
 [
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_hier_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "albert-base-v1"
 	},
@@ -2198,7 +2203,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/bert_hier_diff_equal_wts_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/bert_mean_diff_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/bert_mean_diff_epochs_1_shard_10"
 	},
 	{
 		"private": false,
@@ -2209,6 +2224,11 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/bert_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/bert_triplet_epochs_1_shard_10"
 	},
 	{
 		"private": false,
@@ -2347,7 +2367,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/hier_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_bert_hier_diff_equal_wts_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/rule_based_bert_hier_diff_equal_wts_epochs_1_shard_10"
 	},
 	{
 		"private": false,
@@ -2357,12 +2386,27 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_bert_mean_diff_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_10"
 	},
 	{
 		"private": false,
@@ -80002,6 +80046,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "knkarthick/2022-test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "knkarthick/MEETING_SUMMARY"
 	},
@@ -80019,6 +80067,10 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "knkarthick/meeting-summary-samsum"
+	},
+	{
+		"private": false,
+		"modelId": "knkarthick/meeting-summary-test"
 	},
 	{
 		"private": false,
@@ -91233,10 +91285,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "neuralmind/bert-large-portuguese-cased"
-	},
-	{
-		"private": false,
-		"modelId": "neuralrifles/DialoGPT-medium-ShayoV4"
 	},
 	{
 		"private": false,
@@ -114863,6 +114911,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt2-large-dutch-2"
 	},
 	{
@@ -116808,14 +116857,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_only_classfn_epochs_1_shard_10"
 	},
 	{
 		"private": false,
-		"modelId": "knkarthick/2022-test"
+		"modelId": "patrickvonplaten/obama_president_elect_speech.mp3"
 	},
 	{
 		"private": false,
-		"modelId": "knkarthick/meeting-summary-test"
+		"modelId": "st1992/paraphrase-MiniLM-L12-tl-v2"
+	},
+	{
+		"private": false,
+		"modelId": "neuralrifles/DialoGPT-medium-ShayoV4"
 	}
 ]
