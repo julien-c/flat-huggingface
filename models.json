@@ -81942,6 +81942,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/xlsr-wav2vec2-2-bertimbau-base-ft-cv"
 	},
 	{
@@ -84846,6 +84847,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "marioarteaga/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -117215,5 +117217,15 @@
 	{
 		"private": false,
 		"modelId": "a01709042/MY_MODEL_NAME"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "a01709042/DialoGPT-medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "mbateman/bert-finetuned-ner"
 	}
 ]
