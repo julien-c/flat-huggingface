@@ -107415,6 +107415,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sven-nm/roberta_classics_ner"
 	},
 	{
@@ -116849,6 +116850,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "st1992/paraphrase-MiniLM-L12-tl-v2"
 	},
 	{
@@ -116872,10 +116874,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "knkarthick/meeting-summary-test"
-	},
-	{
-		"private": false,
-		"modelId": "Reeve/Zzul_GAN"
 	},
 	{
 		"private": false,
@@ -116907,5 +116905,9 @@
 	{
 		"private": false,
 		"modelId": "jldnunna369/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "Fawreez/DialoGPT-small-Fawreez"
 	}
 ]
