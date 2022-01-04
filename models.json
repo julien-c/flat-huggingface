@@ -116928,10 +116928,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "aditeyabaral/maple-roberta-large"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "gpssohi/distilbart-qgen-6-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "nickmuchi/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ethzanalytics/GPT-J-6B-8bit-Convo-D3E"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-common-voice-en-demo-colab3"
+	},
+	{
+		"private": false,
+		"modelId": "vaibhav26/biobert-v1.1-finetuned-ner"
 	}
 ]
