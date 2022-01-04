@@ -29358,11 +29358,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Sebb/german-nli-large-thesis"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Sedge/DialoGPT-small-Sedge"
 	},
@@ -117279,6 +117274,46 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "hosseinrezaei/distilbert-base-uncased-finetuned-cola"
 	}
 ]
