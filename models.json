@@ -43174,6 +43174,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "brcps12/bert-base-finetuned-sts"
 	},
 	{
@@ -117395,6 +117396,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "MingZhong/DialogLED-base-16384"
 	},
 	{
@@ -117430,5 +117432,10 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "gaussfer/test_simcse_new"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-mean-nli"
 	}
 ]
