@@ -36586,6 +36586,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-demo-colab"
 	},
 	{
@@ -117746,5 +117747,29 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "unicamp-dl/mMiniLM-L6-v2-pt-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "unicamp-dl/mt5-base-en-pt-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "unicamp-dl/mt5-base-mmarco-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-100k-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "tamedai/roberta-large-vocab-de"
+	},
+	{
+		"private": false,
+		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-10k-v2"
 	}
 ]
