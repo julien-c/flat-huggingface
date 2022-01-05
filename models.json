@@ -117330,19 +117330,26 @@
 	},
 	{
 		"private": false,
-		"modelId": "ausarhuy/t5-small-vi-summarization-finetuned-vi-sum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "amauboussin/twitter-toxicity-v0"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ausarhuy/t5-small-vi-summarization-finetuning"
 	},
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-timit-dataset-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NahedAbdelgaber/distilbert-base-uncased-1024-finetuned-evaluating-student-writing"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jlee4219/twitter-toxicity-v1"
 	}
 ]
