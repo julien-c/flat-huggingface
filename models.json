@@ -35558,15 +35558,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "aditeyabaral/modelfolder-bert-large-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/plum-bert-large-cased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "aditeyabaral/plum-distilbert-base-cased"
 	},
@@ -117308,11 +117299,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/plum-roberta-large"
-	},
-	{
-		"private": false,
 		"modelId": "Prasadi/wav2vec2-base-timit-demo-colab-1"
 	},
 	{
@@ -117322,5 +117308,15 @@
 	{
 		"private": false,
 		"modelId": "Suha/mbart50-finetuned-ar-to-ar-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "plum/roberta-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "plum/bert-large-cased"
 	}
 ]
