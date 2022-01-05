@@ -99954,46 +99954,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/mt5-small-finetuned-ja-to-en_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-id-finetuned-en-to-id_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-pt_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-th_test-finetuned-en-to-th_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-th_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test-finetuned-en-to-vi_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-ja-en-finetuned-ja-to-en_test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "s3h/arabert-classification"
 	},
@@ -117439,6 +117399,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kleinay/qanom-seq2seq-model-joint"
 	},
 	{
@@ -117455,5 +117416,40 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostage_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostage_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagetriplet_hier_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_10"
 	}
 ]
