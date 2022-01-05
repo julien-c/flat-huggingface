@@ -22659,11 +22659,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Monsia/test-model"
-	},
-	{
-		"private": false,
 		"modelId": "Mood/distilbert-base-uncased-finetuned-conn"
 	},
 	{
@@ -52106,11 +52101,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ericRosello/bert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ericRosello/bert-frozen-v1"
 	},
@@ -78220,10 +78210,6 @@
 	{
 		"private": false,
 		"modelId": "jmichellec/robbert-v2-dutch-base-finetuned-model"
-	},
-	{
-		"private": false,
-		"modelId": "jmsubra/Test"
 	},
 	{
 		"private": false,
@@ -117495,6 +117481,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "dehio/german-qg-t5-quad"
 	},
 	{
@@ -117511,11 +117498,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "asakawa/gpt2-wikitext2"
-	},
-	{
-		"private": false,
-		"modelId": "DanL/scientific-challenges-and-directions"
 	},
 	{
 		"private": false,
@@ -117561,5 +117545,22 @@
 	{
 		"private": false,
 		"modelId": "Eris/Tytrack"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "ericRosello/bert-base-uncased-finetuned-squad-frozen-v2"
+	},
+	{
+		"private": false,
+		"modelId": "jerome1519/trained_model_bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "crystalgate/DialoGPT-small-rick"
 	}
 ]
