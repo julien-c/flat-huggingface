@@ -2202,10 +2202,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_10_"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/bert_hier_diff_equal_wts_epochs_1_shard_1"
 	},
@@ -5405,6 +5401,11 @@
 	{
 		"private": false,
 		"modelId": "DanBot/TCRsynth"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DanL/scientific-challenges-and-directions"
 	},
 	{
 		"private": false,
@@ -46930,6 +46931,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "crystalgate/DialoGPT-small-rick"
 	},
 	{
@@ -54101,6 +54103,11 @@
 		"private": false,
 		"pipeline_tag": "text-to-speech",
 		"modelId": "facebook/tts_transformer-en-ljspeech"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "facebook/tts_transformer-zh-cv7_css10"
 	},
 	{
 		"private": false,
@@ -117568,5 +117575,22 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Jean-Baptiste/roberta-large-ner-english"
+	},
+	{
+		"private": false,
+		"modelId": "Monsia/test-wav2vec2-asr"
+	},
+	{
+		"private": false,
+		"modelId": "Monsia/test-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "MM98/ft-bz"
 	}
 ]
