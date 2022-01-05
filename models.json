@@ -35737,11 +35737,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "aditeyabaral/plum-xlm-roberta-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "aditeyabaral/roberta-hinglish-big"
 	},
@@ -117076,11 +117071,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "zhujiajun528/jjz"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhuqing/RoBERTa-large-uncased-exp2-feminist"
 	},
@@ -117688,6 +117678,40 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-11L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Unbabel/XLM-R-12L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Unbabel/XLM-R-13L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "s3h/gec-token-classification-arabert-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "plum/xlm-roberta-large"
+	},
+	{
+		"private": false,
+		"modelId": "Jacobo/aristoBERTo"
+	},
+	{
+		"private": false,
+		"modelId": "Unbabel/XLM-R-14L"
 	}
 ]
