@@ -24946,11 +24946,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "OreoSlayer/Frid_Bot"
-	},
-	{
-		"private": false,
 		"modelId": "Orhantuna/Tunalar"
 	},
 	{
@@ -117648,6 +117643,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-4L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Unbabel/XLM-R-5L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jlee4219/twitter-toxicity-v2"
+	},
+	{
+		"private": false,
+		"modelId": "Unbabel/XLM-R-6L"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_epochs_1_shard_1"
 	}
 ]
