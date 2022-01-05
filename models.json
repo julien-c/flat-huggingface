@@ -117605,11 +117605,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "JoWOhlen/test_trainer"
-	},
-	{
-		"private": false,
 		"modelId": "max137/t5-base-max2-nl2sql"
 	},
 	{
@@ -117626,6 +117621,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Doogie/waynehills_summary"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "sunwaee/test"
 	}
 ]
