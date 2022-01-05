@@ -117610,6 +117610,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "JoWOhlen/gottbert-occupation"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
 	},
@@ -117663,6 +117668,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-8L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Unbabel/XLM-R-9L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_1"
 	}
 ]
