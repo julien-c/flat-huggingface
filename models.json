@@ -30362,11 +30362,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-spanish-wwm-cased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-large-cased-finetuned-ner"
 	},
 	{
@@ -89977,6 +89972,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "msavel-prnt/distilbert-base-uncased-finetuned-clinc"
 	},
 	{
@@ -117561,5 +117557,9 @@
 	{
 		"private": false,
 		"modelId": "Chakita/Kalbert"
+	},
+	{
+		"private": false,
+		"modelId": "Eris/Tytrack"
 	}
 ]
