@@ -117467,11 +117467,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/waynehills_summary"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
 	},
@@ -117722,5 +117717,15 @@
 	{
 		"private": false,
 		"modelId": "acleclair/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_summary_KOR"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/mlm-distilbert-german"
 	}
 ]
