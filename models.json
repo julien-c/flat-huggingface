@@ -54459,6 +54459,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-to-audio",
 		"modelId": "facebook/xm_transformer_600m-es_en-multi_domain"
 	},
 	{
@@ -112290,17 +112291,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "unicamp-dl/mt5-base-en-pt-msmarco-10k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "unicamp-dl/mt5-base-en-pt-msmarco"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "unicamp-dl/mt5-base-multi-msmarco-10k"
 	},
 	{
 		"private": false,
@@ -112330,22 +112321,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "unicamp-dl/ptt5-base-en-pt-msmarco-10k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "unicamp-dl/ptt5-base-portuguese-vocab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-100k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-10k"
 	},
 	{
 		"private": false,
@@ -117656,6 +117632,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Tahsin/bert-finetuned-ner"
 	},
 	{
@@ -117684,6 +117661,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-18L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "unicamp-dl/ptt5-base-en-pt-msmarco-10k-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-10k-v1"
+	},
+	{
+		"private": false,
+		"modelId": "Unbabel/XLM-R-19L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-100k-v1"
 	}
 ]
