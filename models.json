@@ -84341,69 +84341,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "maher13/Arabic"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "maher13/English_ASR"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/STT-arabic"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/STT_arabic"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "maher13/arabic-iti"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/arabic2"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/iti-arabic"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "maher13/my_arabic_asr"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/my_arabic_asr1"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/my_arabic_asrr"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/new_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "maher13/stt-arabic-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "maher13/stt-arabic-3"
-	},
-	{
-		"private": false,
-		"modelId": "maher13/stt-arabic-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "maher13/stt-arabic-6"
 	},
 	{
 		"private": false,
@@ -117596,11 +117539,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "JoWOhlen/gottbert-occupation"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
 	},
@@ -117708,10 +117646,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Jacobo/aristoBERTo"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-14L"
+	},
+	{
+		"private": false,
+		"modelId": "Tahsin/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Unbabel/XLM-R-15L"
+	},
+	{
+		"private": false,
+		"modelId": "chymaks/roberta-base-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Unbabel/XLM-R-16L"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_triplet_epochs_1_shard_1"
 	}
 ]
