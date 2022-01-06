@@ -3843,6 +3843,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/InformalToFormalLincoln18"
 	},
 	{
@@ -118207,5 +118208,18 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/AR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "yhavinga/gpt-neo-1.3B-dutch-3"
+	},
+	{
+		"private": false,
+		"modelId": "junaidali/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_10"
 	}
 ]
