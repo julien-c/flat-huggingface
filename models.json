@@ -93520,11 +93520,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nykodmar/wav2vec-numbers-cs-augmented_v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nykodmar/wav2vec2-large-xlsr-czech-1"
 	},
 	{
@@ -100376,11 +100371,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "rwang97/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "rwante/mt5-small-turkish-summarization-finetuned-xsum"
 	},
 	{
 		"private": false,
@@ -116486,6 +116476,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ysslang/autonlp-test-459011902"
+	},
+	{
+		"private": false,
 		"modelId": "ysyang2002/test-model"
 	},
 	{
@@ -117921,11 +117916,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/mlm-distilbert-german2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
 	},
@@ -117941,5 +117931,20 @@
 	{
 		"private": false,
 		"modelId": "edisonGao/NLP"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_only_classfn_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/mlm-distilbert-german"
 	}
 ]
