@@ -117916,7 +117916,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sam890914/autonlp-roberta-large2-479012819"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/mlm-distilbert-german"
+		"modelId": "Shahm/mlm-distilbert-german2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_bert_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "quoc/sss"
+	},
+	{
+		"private": false,
+		"modelId": "edisonGao/NLP"
 	}
 ]
