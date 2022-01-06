@@ -117829,11 +117829,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Wheelz/DialoGPT-medium-neu"
-	},
-	{
-		"private": false,
 		"modelId": "ncduy/opus-mt-en-vi-tatoeba-finetuned-en-to-vi"
 	},
 	{
@@ -117863,5 +117858,10 @@
 	{
 		"private": false,
 		"modelId": "shreyasgite/wav2vec2-large-xls-r-300m-sanitycheck"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_triplet_epochs_1_shard_10"
 	}
 ]
