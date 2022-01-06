@@ -7284,11 +7284,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "EricPeter/Luganda_MT"
-	},
-	{
-		"private": false,
 		"modelId": "ErickMM98/bert-base-uncased-contracts-finetuned-squad"
 	},
 	{
@@ -117898,5 +117893,20 @@
 	{
 		"private": false,
 		"modelId": "Mickey/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_twostagetriplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_triplet_epochs_1_shard_10"
 	}
 ]
