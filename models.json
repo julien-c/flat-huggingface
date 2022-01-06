@@ -117757,6 +117757,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Tahsin/distilbert-base-uncased-finetuned-sentiment140-english"
 	},
 	{
@@ -117793,5 +117794,14 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-GPU-cv-fine-tune"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_10"
 	}
 ]
