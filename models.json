@@ -117980,6 +117980,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Anamika/autonlp-Feedback1-479512837"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "newsha/PQuAD_2"
 	},
@@ -118034,10 +118039,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "AnonymousSub/SciFive_pubmedqa_question_generation"
 	},
 	{
 		"private": false,
 		"modelId": "bigscience/tr7d-1B3-alibi-logs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_hier_triplet_epochs_1_shard_1"
 	}
 ]
