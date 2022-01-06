@@ -117980,6 +117980,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "newsha/PQuAD_2"
 	},
 	{
@@ -118019,11 +118020,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/test"
+		"modelId": "cjcu/End2End-asr"
 	},
 	{
 		"private": false,
-		"modelId": "cjcu/End2End-asr"
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
 	}
 ]
