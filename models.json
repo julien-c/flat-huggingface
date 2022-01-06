@@ -40293,6 +40293,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "asakawa/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -91351,10 +91352,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "naver-clova-ocr/bros-base-uncased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "navid-rekabsaz/advbert_ranker_l2"
 	},
@@ -117768,10 +117765,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "asakawa/distilroberta-base-finetuned-wikitext2"
 	},
 	{
 		"private": false,
 		"modelId": "fwafawfwa/fawfwafawfwaf"
+	},
+	{
+		"private": false,
+		"modelId": "windwalkerby/test-summarization-model"
+	},
+	{
+		"private": false,
+		"modelId": "SharanSMenon/birds-identifier-325-species"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "mujiatong/first-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_10"
 	}
 ]
