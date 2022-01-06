@@ -20186,6 +20186,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "LiqiangXiao/ConvSearch_QU"
 	},
 	{
@@ -117908,5 +117909,14 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "shreyasgite/wav2vec2-large-xls-r-300m-dementianet8sec"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/mlm-distilbert-german"
 	}
 ]
