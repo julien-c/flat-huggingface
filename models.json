@@ -33758,6 +33758,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "XYHY/autonlp-123-478412765"
+	},
+	{
+		"private": false,
 		"modelId": "Xanlete/DialoGPT-small-harrypotter"
 	},
 	{
@@ -117827,6 +117832,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Tahsin/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -117868,5 +117874,10 @@
 	{
 		"private": false,
 		"modelId": "monopopochorome/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_10"
 	}
 ]
