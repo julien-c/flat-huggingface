@@ -40846,10 +40846,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "athar/myallpm25_11model-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "athar/rob-model-finetuned-squad"
 	},
 	{
@@ -118166,14 +118162,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "gngpostalsrvc/BERiTmodel3"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt-neo-125M-dutch-3"
 	},
 	{
 		"private": false,
 		"modelId": "lallen1/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Sebb/german-nli-base-thesis"
 	}
 ]
