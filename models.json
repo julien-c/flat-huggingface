@@ -23835,11 +23835,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "NahedAbdelgaber/evaluating-student-writing-distibert-ner"
-	},
-	{
-		"private": false,
 		"modelId": "Nailcan/nailcankara-wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -61833,6 +61828,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "hogger32/xlmRoberta-for-VietnameseQA"
 	},
 	{
@@ -117416,11 +117412,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "MM98/ft-bz"
 	},
@@ -117448,16 +117439,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1"
-	},
-	{
-		"private": false,
 		"modelId": "qqaatw/realm-cc-news-pretrained-scorer"
 	},
 	{
@@ -117477,11 +117458,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_only_classfn_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-4L"
 	},
 	{
@@ -117493,11 +117469,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-6L"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -117517,11 +117488,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-10L"
 	},
 	{
@@ -117537,11 +117503,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-12L"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -117585,11 +117546,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_triplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-17L"
 	},
 	{
@@ -117621,11 +117577,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-20L"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_triplet_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -117689,11 +117640,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Unbabel/XLM-R-23L"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/SR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -117863,5 +117809,22 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "ncduy/phobert-large-finetuned-vietnamese_students_feedback"
+	},
+	{
+		"private": false,
+		"modelId": "NahedAbdelgaber/evaluating-student-writing-distibert-ner"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-TPU-cv-fine-tune"
 	}
 ]
