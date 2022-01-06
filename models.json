@@ -78350,6 +78350,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-TPU-cv-fine-tune"
 	},
 	{
@@ -117946,5 +117947,18 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/mlm-distilbert-german"
+	},
+	{
+		"private": false,
+		"modelId": "XciD/tensorboard-traces"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_bert_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "rwante/t5-small-finetuned-mlsum-tr"
 	}
 ]
