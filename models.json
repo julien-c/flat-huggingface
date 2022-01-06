@@ -112681,6 +112681,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "unicamp-dl/ptt5-base-pt-msmarco-10k-v2"
 	},
 	{
@@ -117984,6 +117985,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Anamika/autonlp-Feedback1-479512837"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "newsha/PQuAD_2"
 	},
@@ -118065,11 +118071,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "debasis/autonlp-fa-480912921"
+		"modelId": "Mysterio6191801/Landing_Page_Optimization"
 	},
 	{
 		"private": false,
-		"modelId": "Mysterio6191801/Landing_Page_Optimization"
+		"modelId": "ghomasHudson/distilbert-base-uncased-finetuned-cola"
 	}
 ]
