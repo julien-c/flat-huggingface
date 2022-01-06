@@ -117978,6 +117978,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/AR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/snorapp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "cestwc/bart-base-concise-baseline"
 	}
 ]
