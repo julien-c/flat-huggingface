@@ -117980,11 +117980,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Anamika/autonlp-Feedback1-479512837"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "newsha/PQuAD_2"
 	},
@@ -118050,5 +118045,18 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/AR_rule_based_roberta_hier_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "MilosCuculovic/reviewer-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_hier_triplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "mahaamami/distilroberta-base-finetuned-wikitext2"
 	}
 ]
