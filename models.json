@@ -23835,6 +23835,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "NahedAbdelgaber/evaluating-student-writing-distibert-ner"
 	},
 	{
@@ -117828,6 +117829,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Wheelz/DialoGPT-medium-neu"
 	},
 	{
@@ -117850,10 +117852,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ausarhuy/t5-vietnamese-text-summarization"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagetriplet_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "shreyasgite/wav2vec2-large-xls-r-300m-sanitycheck"
 	}
 ]
