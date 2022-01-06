@@ -52069,6 +52069,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "emillykkejensen/daT5-large"
 	},
 	{
@@ -81341,6 +81342,11 @@
 	{
 		"private": false,
 		"modelId": "kuaiboard/default"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "kubo/autonlp-nettle-test-477212654"
 	},
 	{
 		"private": false,
@@ -117999,5 +118005,19 @@
 	{
 		"private": false,
 		"modelId": "mimi/Waynehills-NLP-doogie-AIHub-paper-summary-AIHub-paper-summary"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_10"
+	},
+	{
+		"private": false,
+		"modelId": "Dmitriiserg/D"
 	}
 ]
