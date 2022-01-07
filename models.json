@@ -118305,11 +118305,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "danmargs/ABILaBERT"
-	},
-	{
-		"private": false,
 		"modelId": "s87204/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -118322,11 +118317,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "tmagajna/test"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/elonmusk-lexfridman"
+	},
+	{
+		"private": false,
+		"modelId": "BME-TMIT/foszt2oszt"
+	},
+	{
+		"private": false,
+		"modelId": "ietz/distilroberta-base-finetuned-jira-qt-issue-title"
 	}
 ]
