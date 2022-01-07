@@ -118368,10 +118368,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "NYTK/bart-mt-enhu"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "NYTK/bart-mt-huen"
+	},
+	{
+		"private": false,
+		"modelId": "Kien/distilbert-base-uncased-finetuned-cola"
 	}
 ]
