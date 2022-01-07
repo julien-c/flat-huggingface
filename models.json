@@ -55199,6 +55199,41 @@
 	{
 		"private": false,
 		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_ar-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_es-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_fr-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_ru-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_tr-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_vi-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-en_zh-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
 		"modelId": "facebook/xm_transformer_600m-es_en-multi_domain"
 	},
 	{
@@ -83539,6 +83574,16 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "lincoln/2021twitchfr-conv-bert-small-mlm-simcse"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lincoln/2021twitchfr-conv-bert-small-mlm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "lincoln/2021twitchfr-conv-bert-small"
 	},
 	{
 		"private": false,
