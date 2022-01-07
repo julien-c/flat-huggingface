@@ -118602,11 +118602,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sagittariusA/media_bias_classifier_cs"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "SharanSMenon/22-languages-bert-base-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ietz/distilroberta-base-finetuned-jira-qt-issue-titles-and-bodies"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/akadriu"
 	}
 ]
