@@ -348,6 +348,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "0x7194633/keyt5-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "0x7194633/keyt5-large"
+	},
+	{
+		"private": false,
 		"modelId": "123123/ghfk"
 	},
 	{
@@ -3413,6 +3423,11 @@
 	{
 		"private": false,
 		"modelId": "BJTK2/model_name"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "BME-TMIT/foszt2oszt"
 	},
 	{
 		"private": false,
@@ -6622,6 +6637,10 @@
 	{
 		"private": false,
 		"modelId": "Dizoid/Lll"
+	},
+	{
+		"private": false,
+		"modelId": "Dmitriiserg/Pxd"
 	},
 	{
 		"private": false,
@@ -22743,6 +22762,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Mikiyarb6/Ggjii"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "MilaBromm/TNGMain"
 	},
@@ -23225,6 +23248,11 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SBERT-base-nli-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-lasttoken-nli"
 	},
 	{
 		"private": false,
@@ -29546,6 +29574,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "SaulLu/clip-vit-base-patch32"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SaulLu/cotet5_small_fix"
 	},
@@ -29975,6 +30008,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/plus-bert-german"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/plus-bert-testmlsum"
 	},
 	{
 		"private": false,
@@ -43406,6 +43444,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "block4111/cross"
+	},
+	{
+		"private": false,
 		"modelId": "blommeolivier/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -47232,6 +47274,14 @@
 	{
 		"private": false,
 		"modelId": "coyotedamage/coyote"
+	},
+	{
+		"private": false,
+		"modelId": "coyotte508/admin"
+	},
+	{
+		"private": false,
+		"modelId": "coyotte508/datasets"
 	},
 	{
 		"private": false,
@@ -51178,7 +51228,22 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "doc2query/reddit-t5-small-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "doc2query/stackexchange-t5-base-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "doc2query/stackexchange-title-body-t5-base-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "doc2query/stackexchange-title-body-t5-small-v1"
 	},
 	{
 		"private": false,
@@ -62430,6 +62495,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "hoangbinhmta99/wav2vec-demo"
+	},
+	{
+		"private": false,
 		"modelId": "hoangtubk/model_luke"
 	},
 	{
@@ -67708,6 +67777,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/elonmusk-lateriser12-officialfpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/elonmusk-lexfridman"
 	},
 	{
 		"private": false,
@@ -76581,6 +76655,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ietz/comment-linking-distilbert-base-german-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ietz/distilroberta-base-finetuned-jira-qt-issue-title"
 	},
 	{
 		"private": false,
@@ -92483,6 +92562,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "nepp1d0/SMILES_tokenizer"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "neuralmind/bert-base-portuguese-cased"
 	},
@@ -97855,6 +97938,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "prithivida/CaptionThis_v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "prithivida/active_to_passive_styletransfer"
 	},
@@ -100953,6 +101040,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "s87204/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"modelId": "saadch/first_trial"
 	},
 	{
@@ -103974,6 +104065,10 @@
 	{
 		"private": false,
 		"modelId": "shelly/bedrooms"
+	},
+	{
+		"private": false,
+		"modelId": "shenyan/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -111245,6 +111340,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "tmagajna/test"
+	},
+	{
+		"private": false,
 		"modelId": "tmck/test"
 	},
 	{
@@ -113582,6 +113682,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "varun3dec/Pbi-Summarization-model"
+	},
+	{
+		"private": false,
 		"modelId": "varun3dec/test-bert-finetuned-pbi-accelerate"
 	},
 	{
@@ -115601,6 +115705,10 @@
 	{
 		"private": false,
 		"modelId": "wws/demo"
+	},
+	{
+		"private": false,
+		"modelId": "wwwwy/neooooo"
 	},
 	{
 		"private": false,
@@ -118255,109 +118363,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "coyotte508/datasets"
-	},
-	{
-		"private": false,
-		"modelId": "hoangbinhmta99/wav2vec-demo"
-	},
-	{
-		"private": false,
-		"modelId": "coyotte508/admin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "doc2query/stackexchange-title-body-t5-small-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "0x7194633/keyt5-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "doc2query/stackexchange-title-body-t5-base-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "0x7194633/keyt5-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "doc2query/reddit-t5-small-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "Muennighoff/SGPT-125M-lasttoken-nli"
-	},
-	{
-		"private": false,
-		"modelId": "Dmitriiserg/Pxd"
-	},
-	{
-		"private": false,
-		"modelId": "varun3dec/Pbi-Summarization-model"
-	},
-	{
-		"private": false,
-		"modelId": "nepp1d0/SMILES_tokenizer"
-	},
-	{
-		"private": false,
-		"modelId": "s87204/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "prithivida/CaptionThis_v2"
-	},
-	{
-		"private": false,
-		"modelId": "Mikiyarb6/Ggjii"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "tmagajna/test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/elonmusk-lexfridman"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "BME-TMIT/foszt2oszt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ietz/distilroberta-base-finetuned-jira-qt-issue-title"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "SaulLu/clip-vit-base-patch32"
-	},
-	{
-		"private": false,
-		"modelId": "shenyan/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "block4111/cross"
-	},
-	{
-		"private": false,
-		"modelId": "Shahm/plus-bert-testmlsum"
-	},
-	{
-		"private": false,
-		"modelId": "wwwwy/neooooo"
+		"modelId": "classybangaloreescorts/Gunjali"
 	}
 ]
