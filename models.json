@@ -21101,6 +21101,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Madhour/gpt2-eli5"
 	},
 	{
@@ -54800,6 +54801,11 @@
 		"private": false,
 		"pipeline_tag": "text-to-speech",
 		"modelId": "facebook/tts_transformer-es-css10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "facebook/tts_transformer-fr-cv7_css10"
 	},
 	{
 		"private": false,
@@ -118458,6 +118464,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kotter/t5-ko-base-msq-1024"
+		"modelId": "hs788/wav2vec2-large-xls-basque-colab"
 	}
 ]
