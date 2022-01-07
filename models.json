@@ -51795,10 +51795,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "eadsa1998/distilbert-base-uncased-finetuned-dreams-accelerate"
-	},
-	{
-		"private": false,
 		"modelId": "eadsa1998/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -54795,6 +54791,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-to-speech",
+		"modelId": "facebook/tts_transformer-ar-cv7_css10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
 		"modelId": "facebook/tts_transformer-en-ljspeech"
 	},
 	{
@@ -54806,6 +54807,11 @@
 		"private": false,
 		"pipeline_tag": "text-to-speech",
 		"modelId": "facebook/tts_transformer-fr-cv7_css10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "facebook/tts_transformer-ru-cv7_css10"
 	},
 	{
 		"private": false,
@@ -55169,6 +55175,16 @@
 		"private": false,
 		"pipeline_tag": "audio-to-audio",
 		"modelId": "facebook/xm_transformer_600m-es_en-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-fr_en-multi_domain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "facebook/xm_transformer_600m-ru_en-multi_domain"
 	},
 	{
 		"private": false,
@@ -83493,6 +83509,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "limter/DialoGPT-medium-krish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "lincoln/2021twitchfr-conv-bert-small-mlm-simcse"
 	},
 	{
 		"private": false,
@@ -118465,5 +118486,13 @@
 	{
 		"private": false,
 		"modelId": "hs788/wav2vec2-large-xls-basque-colab"
+	},
+	{
+		"private": false,
+		"modelId": "nepp1d0/Bert-finetuned-smilesBindingDB"
+	},
+	{
+		"private": false,
+		"modelId": "AHussain0418/distillbert-truth-detector"
 	}
 ]
