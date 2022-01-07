@@ -24189,7 +24189,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "NYTK/bart-sum-1024-hi"
+	},
+	{
+		"private": false,
+		"modelId": "NYTK/bart-sum-1024-nol"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "NYTK/bart-sum-hi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "NYTK/bart-sum-nol"
 	},
 	{
 		"private": false,
@@ -54784,7 +54799,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-to-speech",
-		"modelId": "facebook/tts_transformer-zh-cv7_css10"
+		"modelId": "facebook/tts_transformer-es-css10"
 	},
 	{
 		"private": false,
@@ -57098,6 +57113,10 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "fractalego/fewrel-zero-shot"
+	},
+	{
+		"private": false,
+		"modelId": "fractalego/personal-speech-to-text-model"
 	},
 	{
 		"private": false,
@@ -69604,6 +69623,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/ipoduje"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/is_he_batman"
 	},
 	{
@@ -76617,6 +76641,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ibraheemmoosa/xlmindic-base-uniscript"
 	},
 	{
@@ -81144,6 +81169,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kingabzpro/wav2vec2-large-xlsr-53-wolof"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "kingla6/distilbert-magazine-classifier"
 	},
 	{
 		"private": false,
@@ -118423,6 +118453,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "kingla6/distilbert-magazine-classifier"
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/melspurgatory"
+	},
+	{
+		"private": false,
+		"modelId": "kotter/t5-ko-base-msq-1024"
 	}
 ]
