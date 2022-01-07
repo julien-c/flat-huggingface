@@ -78657,24 +78657,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "jiobiala24/wav2vec2-base-960-timit-test-ft-colab"
-	},
-	{
-		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-GPU-cv-fine-tune"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-TPU-cv-fine-tune"
-	},
-	{
-		"private": false,
-		"modelId": "jiobiala24/wav2vec2-base-checkpoint-test"
-	},
-	{
-		"private": false,
-		"modelId": "jiobiala24/wav2vec2-large-xls-r-300m-GPU1-cv"
 	},
 	{
 		"private": false,
@@ -118217,6 +118205,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "nakamura196/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -118230,5 +118219,9 @@
 	{
 		"private": false,
 		"modelId": "bryantpwhite/camembert-base-camembert-base"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-timit-demo-colab"
 	}
 ]
