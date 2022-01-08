@@ -2896,6 +2896,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/roberta-base-finetuned-ner"
 	},
 	{
@@ -118730,5 +118731,10 @@
 	{
 		"private": false,
 		"modelId": "xiongjie/ultrapose"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-scratchmean-nli"
 	}
 ]
