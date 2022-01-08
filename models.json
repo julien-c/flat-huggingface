@@ -118758,6 +118758,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "begar/xlm-roberta-base-finetuned-marc"
 	},
 	{
@@ -118771,6 +118772,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Tr1ex/DialoGPT-small-rick"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
