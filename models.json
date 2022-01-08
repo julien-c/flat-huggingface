@@ -94452,6 +94452,36 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "obss/mt5-base-3task-highlight-combined3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "obss/mt5-base-3task-highlight-tquad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "obss/mt5-small-3task-both-tquad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "obss/mt5-small-3task-highlight-combined3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "obss/mt5-small-3task-highlight-tquad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "obss/mt5-small-3task-prepend-tquad2"
+	},
+	{
+		"private": false,
 		"modelId": "oci/gweh"
 	},
 	{
@@ -109430,11 +109460,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "tamedai/gpt-grammar-de"
-	},
-	{
-		"private": false,
 		"modelId": "tamedai/gpt2-grammar-de"
 	},
 	{
@@ -118689,5 +118714,21 @@
 	{
 		"private": false,
 		"modelId": "bazena/xlnet-base-cased-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "decfox/wav2vec2-base-nptel-colab"
+	},
+	{
+		"private": false,
+		"modelId": "voice/wav2vec2-large-xlsr-persian-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "bazena/bart-large-cnn-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "xiongjie/ultrapose"
 	}
 ]
