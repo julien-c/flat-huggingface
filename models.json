@@ -2892,6 +2892,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/bert-base-uncased-finetuned-ner"
 	},
 	{
@@ -20084,11 +20085,6 @@
 		"private": false,
 		"pipeline_tag": "text-to-speech",
 		"modelId": "LanceaKing/libritts_ecapa_vits"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-to-speech",
-		"modelId": "LanceaKing/libritts_gst_ecapa_transformer"
 	},
 	{
 		"private": false,
@@ -118755,5 +118751,9 @@
 	{
 		"private": false,
 		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-base-squadv1-block-pruning-hybrid"
 	}
 ]
