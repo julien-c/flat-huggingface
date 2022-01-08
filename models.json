@@ -25700,6 +25700,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Peter/medium"
+	},
+	{
+		"private": false,
 		"modelId": "PeterH/Chatbot"
 	},
 	{
@@ -118772,5 +118777,14 @@
 	{
 		"private": false,
 		"modelId": "RASMUS/wav2vec2-xlsr-300-versatile-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "threem/mysquadv2_8Jan22-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Talos-1/vit-base-patch16-224-in21k-euroSat"
 	}
 ]
