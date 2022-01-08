@@ -105672,11 +105672,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "snoop2head/biobert-base-wechsel-korean"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "snoop2head/kogpt-conditional-2"
 	},
@@ -118783,5 +118778,10 @@
 	{
 		"private": false,
 		"modelId": "ying-tina/wav2vec2-base-timit-demo-colab-32-epochs50-nonstop"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "snoop2head/scibert-wechsel-korean"
 	}
 ]
