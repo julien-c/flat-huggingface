@@ -55760,6 +55760,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fgaim/tiroberta-geezswitch"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "fgaim/tiroberta-pos"
 	},
@@ -118752,6 +118757,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/rate-extracted-sents-bert-testmlsum"
 	},
 	{
