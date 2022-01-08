@@ -55735,11 +55735,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "fgaim/tielectra-small-geezswitch"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "fgaim/tielectra-small-pos"
 	},
@@ -55757,11 +55752,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "fgaim/tiroberta-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "fgaim/tiroberta-geezswitch"
 	},
 	{
 		"private": false,
@@ -58113,6 +58103,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/t5-small-paraphrase-pubmed"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "gborn/autonlp-news-summarization-483413089"
 	},
 	{
 		"private": false,
@@ -105677,6 +105672,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "snoop2head/biobert-base-wechsel-korean"
 	},
 	{
@@ -118783,5 +118779,9 @@
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-TPU-cv-fine-tune-checkpoint-3"
+	},
+	{
+		"private": false,
+		"modelId": "ying-tina/wav2vec2-base-timit-demo-colab-32-epochs50-nonstop"
 	}
 ]
