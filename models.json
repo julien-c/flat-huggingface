@@ -86134,6 +86134,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "marma/wav2vec2-large-swedish-bart-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "marma/wav2vec2-large-xlsr-swedish"
 	},
 	{
@@ -118746,5 +118751,13 @@
 	{
 		"private": false,
 		"modelId": "ericRosello/bert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "ericRosello/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	}
 ]
