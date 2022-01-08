@@ -30072,11 +30072,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/mlm-distilbert-german"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/mode-bart-deutsch"
 	},
@@ -30103,32 +30098,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-testmlsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/plus-bert-thesis"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-distilbert-20-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "Shahm/plus-distilbert-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus2-bert-thesis"
 	},
 	{
 		"private": false,
@@ -30139,10 +30114,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/t5-small-german"
-	},
-	{
-		"private": false,
-		"modelId": "Shahm/test"
 	},
 	{
 		"private": false,
@@ -94730,10 +94701,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "openplm/bertsum-base-uncased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "opensource/extract_names"
 	},
@@ -118740,15 +118707,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Shahm/rate-bert-testmlsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/rate-extracted-sents-bert-testmlsum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "begar/xlm-roberta-base-finetuned-marc"
 	},
@@ -118783,5 +118741,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "snoop2head/scibert-wechsel-korean"
+	},
+	{
+		"private": false,
+		"modelId": "avorozhko/ruDialoGpt3-medium-finetuned-context"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/bert-german"
 	}
 ]
