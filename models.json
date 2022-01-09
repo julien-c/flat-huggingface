@@ -118921,6 +118921,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	},
 	{
@@ -118931,6 +118932,11 @@
 	{
 		"private": false,
 		"modelId": "joshes/test_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/papersmar-model"
 	},
 	{
 		"private": false,
