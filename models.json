@@ -111989,6 +111989,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "tonyalves/wav2vec2-300M-teste2"
 	},
 	{
@@ -118897,6 +118898,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
+		"modelId": "Shushant/ContaminationQuestionAnswering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Firat/roberta-base-finetuned-squad"
 	},
 	{
@@ -118909,6 +118915,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "CLTL/MedRoBERTa.nl"
+	},
+	{
+		"private": false,
+		"modelId": "dead69/GTP-medium-hagrid"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	}
 ]
