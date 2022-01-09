@@ -30097,46 +30097,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Shahm/mode-bart-deutsch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-court-10k-50k-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-court-50k-90k-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-court-90k-end-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-court-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-bert-thesis"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Shahm/plus-distilbert-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Shahm/t5-base-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "Shahm/t5-small-german"
 	},
 	{
@@ -40242,11 +40202,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "apriori/newmodel3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "aqj213/t5-base-customised-1k-tokens-pisa-state-only-finetuned"
 	},
@@ -44006,10 +43961,6 @@
 	{
 		"private": false,
 		"modelId": "bpietroiu/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	},
 	{
 		"private": false,
@@ -118865,5 +118816,23 @@
 	{
 		"private": false,
 		"modelId": "Filosofas/PALPATINE2"
+	},
+	{
+		"private": false,
+		"modelId": "Filosofas/DialoGPT-small-PALPATINE"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Shahm/bart-german"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shahm/bert-court-german"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	}
 ]
