@@ -4727,6 +4727,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "CasualHomie/DialoGPT-small-harrypotter"
 	},
 	{
@@ -41372,11 +41373,6 @@
 	{
 		"private": false,
 		"modelId": "athar/gpt2-wikitext2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/papersmar-model"
 	},
 	{
 		"private": false,
@@ -119101,5 +119097,17 @@
 	{
 		"private": false,
 		"modelId": "simonstaehli/qa-finetuned-transformer"
+	},
+	{
+		"private": false,
+		"modelId": "max137/t5-base-nl2sql-test"
+	},
+	{
+		"private": false,
+		"modelId": "longnhit07/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "AlbertHSU/BertTEST"
 	}
 ]
