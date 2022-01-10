@@ -1640,6 +1640,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "AlbertHSU/BertTEST"
+	},
+	{
+		"private": false,
 		"modelId": "Alberto15Romero/GptNeo"
 	},
 	{
@@ -21086,6 +21090,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MMG/bert-base-spanish-wwm-cased-finetuned-squad2-es"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "MMG/mlm-spanish-roberta-base"
 	},
@@ -26653,6 +26662,10 @@
 	{
 		"private": false,
 		"modelId": "Quick/mindall-e"
+	},
+	{
+		"private": false,
+		"modelId": "Qwq/Qq"
 	},
 	{
 		"private": false,
@@ -32344,6 +32357,10 @@
 	{
 		"private": false,
 		"modelId": "ThomasSimonini/ML-Agents-SnowballFight-1vs1"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/Test"
 	},
 	{
 		"private": false,
@@ -39177,11 +39194,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "amjadkhatabi/ak-ymvocab-ar-en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ammr/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
@@ -45878,6 +45890,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "celtics1863/env-bert-topic"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "cemdenizsel/10k-finetuned-bert-model"
 	},
 	{
@@ -51164,6 +51181,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "diiogo/test-32"
+	},
+	{
+		"private": false,
+		"modelId": "dilipchauhan/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -61154,6 +61175,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "haji2438/test_sin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "haji2438/test_sin_bertweet_fine_tuned"
 	},
 	{
 		"private": false,
@@ -84184,6 +84210,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "longnhit07/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
 		"modelId": "loodos/albert-base-turkish-uncased"
 	},
 	{
@@ -89495,10 +89526,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "monologg/vit-base-patch16-imagenette"
-	},
-	{
-		"private": false,
 		"modelId": "monopopochorome/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -93772,6 +93799,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "nimanpra/Fine_Tuned_Spiritual"
+	},
+	{
+		"private": false,
+		"modelId": "nimelinia/rut5-base-ask_headline"
 	},
 	{
 		"private": false,
@@ -105374,6 +105405,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "simonstaehli/qa-finetuned-transformer"
+	},
+	{
+		"private": false,
 		"modelId": "simplabs/GPT-Cringe"
 	},
 	{
@@ -108458,6 +108493,11 @@
 	{
 		"private": false,
 		"modelId": "stas/tr8b-104B-debug3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/mad_gpt"
 	},
 	{
 		"private": false,
@@ -119060,54 +119100,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "celtics1863/env-bert-topic"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/mad_gpt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "haji2438/test_sin_bertweet_fine_tuned"
-	},
-	{
-		"private": false,
-		"modelId": "nimelinia/rut5-base-ask_headline"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MMG/bert-base-spanish-wwm-cased-finetuned-squad2-es"
-	},
-	{
-		"private": false,
-		"modelId": "ThomasSimonini/Test"
-	},
-	{
-		"private": false,
-		"modelId": "dilipchauhan/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "Qwq/Qq"
-	},
-	{
-		"private": false,
-		"modelId": "simonstaehli/qa-finetuned-transformer"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-nl2sql-test"
-	},
-	{
-		"private": false,
-		"modelId": "longnhit07/distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
-		"modelId": "AlbertHSU/BertTEST"
+		"modelId": "longnhit07/distilbert-base-uncased-finetuned-imdb-accelerate"
 	}
 ]
