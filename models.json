@@ -1491,6 +1491,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "AhmedSSoliman/MarianCG_NL-to-Code"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Ahren09/distilbert-base-uncased-finetuned-cola"
 	},
@@ -36820,6 +36825,11 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ahmednasserswe/sentence_distilbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ahmedrachid/FinancialBERT"
 	},
 	{
 		"private": false,
@@ -119048,6 +119058,36 @@
 	},
 	{
 		"private": false,
-		"modelId": "alvaroalon2/wav2vec2-base-phon-cv-es-ipa"
+		"modelId": "jiobiala24/wav2vec2-base-TPU-cv-fine-tune-checkpoint-3.0.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "TristanBehrens/js-fakes-4bars"
+	},
+	{
+		"private": false,
+		"modelId": "Heldhy/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "nathanaelc/am"
+	},
+	{
+		"private": false,
+		"modelId": "stasvmk/mad_gpt_v2"
+	},
+	{
+		"private": false,
+		"modelId": "VLRevolution/DialoGPT-small-GGOD"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Heldhy/testingAgain"
+	},
+	{
+		"private": false,
+		"modelId": "stasvmk/mad_gpt_v0_1"
 	}
 ]
