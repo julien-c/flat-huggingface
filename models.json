@@ -24295,25 +24295,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "NYTK/bart-sum-1024-hi"
-	},
-	{
-		"private": false,
-		"modelId": "NYTK/bart-sum-1024-nol"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "NYTK/bart-sum-hi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "NYTK/bart-sum-nol"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "NYTK/translation-bart-128-en-hu"
 	},
@@ -119247,6 +119228,51 @@
 	},
 	{
 		"private": false,
+		"modelId": "Trikaldarshi/finetuned_british_asr_v1"
+	},
+	{
+		"private": false,
 		"modelId": "VeronikaArefeva/TourBERT"
+	},
+	{
+		"private": false,
+		"modelId": "max137/t5-large-nl2sql-more-epochs-more-data"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/my-first-ner-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_only_classfn_twostage_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_hier_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "NYTK/summarization-nol-bart-hungarian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "NYTK/summarization-hi-bart-hungarian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "NYTK/summarization-hi-bart-base-1024-hungarian"
+	},
+	{
+		"private": false,
+		"modelId": "NYTK/summarization-nol-bart-base-1024-hungarian"
 	}
 ]
