@@ -24286,16 +24286,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "translation",
-		"modelId": "NYTK/bart-mt-enhu"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "NYTK/bart-mt-huen"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
 		"modelId": "NYTK/translation-bart-128-en-hu"
 	},
 	{
@@ -119279,5 +119269,19 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/AR_rule_based_twostagequadruplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "NYTK/translation-bart-hu-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "NYTK/translation-bart-en-hu"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/SR_rule_based_bert_quadruplet_epochs_1_shard_1"
 	}
 ]
