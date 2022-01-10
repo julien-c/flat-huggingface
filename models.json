@@ -44077,16 +44077,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/deberta-base-finetuned-ner"
 	},
@@ -44094,10 +44084,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "brandon25/roberta-base-bne-finetuned-question-generation"
 	},
 	{
 		"private": false,
@@ -119116,6 +119102,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "doc2query/msmarco-t5-small-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "doc2query/msmarco-t5-base-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/dril-hostagekiller-suicidepussy"
+	},
+	{
+		"private": false,
+		"modelId": "flboehm/youtube-bert_10"
 	}
 ]
