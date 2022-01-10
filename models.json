@@ -86339,11 +86339,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "marma/wav2vec2-large-swedish-bart-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "marma/wav2vec2-large-xlsr-swedish"
 	},
 	{
@@ -119101,7 +119096,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "VLRevolution/DialogGPT-small-GGODMODEL"
 	},
 	{
@@ -119123,5 +119118,14 @@
 	{
 		"private": false,
 		"modelId": "gustavecortal/fr-boris-8bit"
+	},
+	{
+		"private": false,
+		"modelId": "ibm/tslm-discourse-markers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "KBLab/asr-voxrex-bart-base"
 	}
 ]
