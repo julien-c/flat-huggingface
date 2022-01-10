@@ -87193,6 +87193,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "mbshr/mt5-small-DWUrdu"
 	},
 	{
@@ -102416,6 +102417,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "sankhajay/mt5-base-sinaha-qa"
+	},
+	{
+		"private": false,
 		"modelId": "sanqiang/qa_3b"
 	},
 	{
@@ -114380,6 +114386,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vangenugtenr/autobiographical_interview_scoring"
+	},
+	{
+		"private": false,
 		"modelId": "vanhao195/fvi-bert"
 	},
 	{
@@ -119155,5 +119166,13 @@
 	{
 		"private": false,
 		"modelId": "Royce23/DialoGPT-med-almas"
+	},
+	{
+		"private": false,
+		"modelId": "mariosasko/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "amandakonet/reprorights-amicus-bert"
 	}
 ]
