@@ -4731,7 +4731,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "CasualHomie/DialoGPT-small-harrypotter"
 	},
 	{
@@ -83731,10 +83731,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lianaling/title-generator-t5-arxiv-16-4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "liandarizkia/bert-id-ner"
 	},
@@ -119101,5 +119097,9 @@
 	{
 		"private": false,
 		"modelId": "longnhit07/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "lianaling/title-generator-t5"
 	}
 ]
