@@ -24274,11 +24274,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "translation",
-		"modelId": "NYTK/bart-mt-128-enhu"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
 		"modelId": "NYTK/bart-mt-enhu"
 	},
 	{
@@ -119066,6 +119061,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Heldhy/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -119127,5 +119123,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "KBLab/asr-voxrex-bart-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "NYTK/translation-bart-128-en-hu"
 	}
 ]
