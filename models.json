@@ -77999,11 +77999,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "jadkheirallah/DialoGPT-small-joshua"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jaehyeong/koelectra-base-v3-generalized-sentiment-analysis"
 	},
@@ -119312,5 +119307,10 @@
 	{
 		"private": false,
 		"modelId": "tmyster/pegasus-samsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_twostagetriplet_hier_epochs_1_shard_1"
 	}
 ]
