@@ -36828,6 +36828,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ahmedrachid/FinancialBERT-Sentiment-Analysis"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ahmedrachid/FinancialBERT"
 	},
@@ -119075,19 +119080,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "stasvmk/mad_gpt_v2"
-	},
-	{
-		"private": false,
 		"modelId": "VLRevolution/DialoGPT-small-GGOD"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Heldhy/testingAgain"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stasvmk/mad_gpt_v0_1"
+	},
+	{
+		"private": false,
+		"modelId": "Ritvik19/sudoku-net-v1"
+	},
+	{
+		"private": false,
+		"modelId": "Ritvik19/sudoku-net-v2"
 	}
 ]
