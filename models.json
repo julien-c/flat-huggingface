@@ -24462,10 +24462,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "NYTK/text-generation-news-gpt2-small-hungarian"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "NYTK/text-generation-poem-petofi-gpt2-small-hungarian"
 	},
 	{
@@ -92927,6 +92929,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "naver-clova-ocr/bros-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "naver-clova-ocr/bros-large-uncased"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "navid-rekabsaz/advbert_ranker_l2"
 	},
@@ -117432,6 +117442,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "yhavinga/gpt-neo-1.3B-dutch"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "yhavinga/gpt2-medium-dutch"
 	},
 	{
@@ -117463,11 +117478,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-v1.1-base-dutch-uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "yhavinga/t5-v1.1-large-dutch-cased-2"
 	},
 	{
 		"private": false,
@@ -119410,6 +119420,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ncduy/opus-mt-en-vi-own-finetuned-en-to-vi"
 	},
 	{
@@ -119431,11 +119442,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "yhavinga/gpt-neo-125M-dutch-try1"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Mar-C/BERT-NER"
 	},
 	{
@@ -119444,14 +119451,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "yhavinga/gpt-neo-125M-dutch"
+	},
+	{
+		"private": false,
 		"modelId": "max137/t5-base-nl2sql-100-1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "moumeneb1/testing"
+	},
+	{
+		"private": false,
+		"modelId": "takahiromadokoro/opus-mt-ja-en-finetuned-align_tm_base-epoch1-20220111"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yhavinga/t5-v1.1-large-dutch-cased"
 	}
 ]
