@@ -24461,6 +24461,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "NYTK/sentiment-hts5-xlm-roberta-hungarian"
 	},
 	{
@@ -119537,11 +119538,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "MizzNoLyfe/DialoGPT-small-MizzoyfeBot1"
-	},
-	{
-		"private": false,
 		"modelId": "max137/t5-base-nl2sql-90-1"
 	},
 	{
@@ -119550,14 +119546,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "Humair/all-mpnet-base-v2-finetuned-v1"
-	},
-	{
-		"private": false,
-		"modelId": "MizzNoLyfe/DialoGPT-small-MizzoyfeBot2"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Humair/all-mpnet-base-v2-finetuned-v2"
+	},
+	{
+		"private": false,
+		"modelId": "utni/test"
+	},
+	{
+		"private": false,
+		"modelId": "Startlate/my-new-shiny-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "andreiliphdpr/bert-base-multilingual-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AndrewChar/model-QA-5-epoch-RU"
 	}
 ]
