@@ -104420,6 +104420,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sh110495/kor-pegasus"
+	},
+	{
+		"private": false,
 		"modelId": "sh1t/bert-base-cased-finetuned-mnli"
 	},
 	{
@@ -119187,11 +119191,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "toyfreak/DialoGPT-v1-addy"
-	},
-	{
-		"private": false,
 		"modelId": "NYTK/sentiment-hts5-xlm-roberta-hungarian"
 	},
 	{
@@ -119312,5 +119311,15 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_twostagetriplet_hier_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_bert_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_bert_triplet_epochs_1_shard_1"
 	}
 ]
