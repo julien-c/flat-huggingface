@@ -24432,6 +24432,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "NYTK/sentiment-hts2-xlm-roberta-hungarian"
 	},
 	{
@@ -119486,6 +119487,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Filosofas/DialoGPT-small-PALPATINE"
+	},
+	{
+		"private": false,
+		"modelId": "jo234/distilbert-base-uncased-finetuned-cola"
 	}
 ]
