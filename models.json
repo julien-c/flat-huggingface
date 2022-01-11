@@ -2061,6 +2061,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AndrewChar/model-QA-5-epoch-RU"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AndrewChar/my-first-model-thissss"
 	},
@@ -4732,6 +4737,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "CNT-UPenn/Bio_ClinicalBERT_for_seizureFreedom_classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "CNT-UPenn/RoBERTa_for_seizureFrequency_QA"
+	},
+	{
+		"private": false,
 		"modelId": "CSZay/bart"
 	},
 	{
@@ -7010,6 +7025,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "Dumiiii/wav2vec2-xls-r-2b-romanian"
+	},
+	{
+		"private": false,
+		"modelId": "Dumiiii/wav2vec2-xls-r-300m-romanian"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Duugu/alexia-bot-test"
 	},
@@ -8047,6 +8070,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Filosofas/DialoGPT-small-PALPATINE"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Filosofas/test"
 	},
 	{
 		"private": false,
@@ -9753,6 +9781,10 @@
 	{
 		"private": false,
 		"modelId": "Guyen/model_name"
+	},
+	{
+		"private": false,
+		"modelId": "GvidasP/opus-mt-en-ru-finetuned-en-to-ru"
 	},
 	{
 		"private": false,
@@ -17250,6 +17282,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Humair/all-mpnet-base-v2-finetuned-v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/bert_concept_extraction"
 	},
@@ -19734,6 +19771,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "KillianEven/model_name"
+	},
+	{
+		"private": false,
 		"modelId": "Kim480/Arcane"
 	},
 	{
@@ -22142,6 +22183,10 @@
 	{
 		"private": false,
 		"modelId": "Mhmdsabry/wv-robust2bart"
+	},
+	{
+		"private": false,
+		"modelId": "MiBo/RepAlBERTo"
 	},
 	{
 		"private": false,
@@ -26854,6 +26899,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "QiunanLiu/model_name"
+	},
+	{
+		"private": false,
 		"modelId": "QueenIonna/Taeyong"
 	},
 	{
@@ -31137,11 +31186,19 @@
 	},
 	{
 		"private": false,
+		"modelId": "Startlate/my-new-shiny-tokenizer"
+	},
+	{
+		"private": false,
 		"modelId": "StellarSav2021/DialoGPT-small-harrypotter"
 	},
 	{
 		"private": false,
 		"modelId": "StellarSav2021/Dialogpt-small-4t3t54wy6y"
+	},
+	{
+		"private": false,
+		"modelId": "Stepp/WorkTime"
 	},
 	{
 		"private": false,
@@ -33076,6 +33133,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Tsung-Shan-Pan/SkyLimit-wav2vec2-base-CMU_MOSEI"
+	},
+	{
+		"private": false,
 		"modelId": "Tsurakawi/erererere"
 	},
 	{
@@ -33119,6 +33180,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "TuhinColumbia/germanpoetrymany"
+	},
+	{
+		"private": false,
+		"modelId": "Mezzat/arabicpearl"
 	},
 	{
 		"private": false,
@@ -37975,6 +38040,15 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "alaggung/bart-pretrained"
+	},
+	{
+		"private": false,
+		"modelId": "alaggung/bart-r3f"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli"
 	},
 	{
@@ -39703,6 +39777,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "andreiliphdpr/bert-base-multilingual-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "andreiliphdpr/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -41356,6 +41435,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "asakawa/bert-base-cased-wikitext2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "asakawa/distilgpt2-finetuned-wikitext2"
 	},
@@ -41368,6 +41451,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "asakawa/gpt2-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "asakawa/wav2vec2-base-demo-colab"
 	},
 	{
 		"private": false,
@@ -63662,6 +63749,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "huaen/question_detection_user_utter"
+	},
+	{
+		"private": false,
+		"modelId": "huang0624/Taiwan_House_Prediction"
 	},
 	{
 		"private": false,
@@ -87075,6 +87166,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "max137/t5-base-nl2sql-90-1"
+	},
+	{
+		"private": false,
 		"modelId": "maxdavish/test-model"
 	},
 	{
@@ -94791,6 +94886,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "nurbek/nu"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nurkayevaa/autonlp-bert-covid-407910458"
 	},
@@ -97640,6 +97739,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "peterhsu/course-tokenizer"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "peterhsu/dummy-model"
 	},
@@ -99870,6 +99973,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "rachelcorey/DialoGPT-medium-niles"
+	},
+	{
+		"private": false,
 		"modelId": "ractive/communism-chinese"
 	},
 	{
@@ -101828,6 +101936,10 @@
 	{
 		"private": false,
 		"modelId": "russab0/distilbert-qa"
+	},
+	{
+		"private": false,
+		"modelId": "rv6249/a"
 	},
 	{
 		"private": false,
@@ -108839,6 +108951,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/honeymad_gpt_ru_v0_01"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/honeymad_gpt_ru_v0_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/tnkff_pulse_ru_gpt"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/bort-full"
 	},
@@ -114411,6 +114538,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "utni/test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "uutkras/Pandabot"
 	},
@@ -115496,6 +115627,11 @@
 	{
 		"private": false,
 		"modelId": "vinita/my-squad-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "vinko/shitposting_AI"
 	},
 	{
 		"private": false,
@@ -119486,122 +119622,5 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Filosofas/test"
-	},
-	{
-		"private": false,
-		"modelId": "nurbek/nu"
-	},
-	{
-		"private": false,
-		"modelId": "Stepp/WorkTime"
-	},
-	{
-		"private": false,
-		"modelId": "huang0624/Taiwan_House_Prediction"
-	},
-	{
-		"private": false,
-		"modelId": "GvidasP/opus-mt-en-ru-finetuned-en-to-ru"
-	},
-	{
-		"private": false,
-		"modelId": "QiunanLiu/model_name"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-nl2sql-90-1"
-	},
-	{
-		"private": false,
-		"modelId": "rv6249/a"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "Humair/all-mpnet-base-v2-finetuned-v2"
-	},
-	{
-		"private": false,
-		"modelId": "utni/test"
-	},
-	{
-		"private": false,
-		"modelId": "Startlate/my-new-shiny-tokenizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "andreiliphdpr/bert-base-multilingual-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "AndrewChar/model-QA-5-epoch-RU"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/honeymad_gpt_ru_v0_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/honeymad_gpt_ru_v0_01"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/tnkff_pulse_ru_gpt"
-	},
-	{
-		"private": false,
-		"modelId": "asakawa/wav2vec2-base-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "Dumiiii/wav2vec2-xls-r-2b-romanian"
-	},
-	{
-		"private": false,
-		"modelId": "Dumiiii/wav2vec2-xls-r-300m-romanian"
-	},
-	{
-		"private": false,
-		"modelId": "KillianEven/model_name"
-	},
-	{
-		"private": false,
-		"modelId": "MiBo/RepAlBERTo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "vinko/shitposting_AI"
-	},
-	{
-		"private": false,
-		"modelId": "peterhsu/github-issues"
-	},
-	{
-		"private": false,
-		"modelId": "Tsung-Shan-Pan/SkyLimit-wav2vec2-base-CMU_MOSEI"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "rachelcorey/DialoGPT-medium-niles"
-	},
-	{
-		"private": false,
-		"modelId": "asakawa/bert-base-cased-wikitext2"
-	},
-	{
-		"private": false,
-		"modelId": "peterhsu/course-tokenizer"
 	}
 ]
