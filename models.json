@@ -41966,6 +41966,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "avichr/heBERT_NER"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "avichr/heBERT_sentiment_analysis"
 	},
@@ -119681,6 +119686,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "mrm8488/longformer-base-4096-spanish-finetuned-squad"
 	},
 	{
