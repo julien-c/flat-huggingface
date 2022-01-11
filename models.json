@@ -108849,11 +108849,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/pulse_ru_gpt3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/bort-full"
 	},
@@ -115132,6 +115127,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-ncc-1shard"
 	},
 	{
@@ -119516,16 +119512,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/maddy_gpt_ru_v0_01"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stasvmk/maddy_gpt_ru_v0_1"
-	},
-	{
-		"private": false,
 		"modelId": "huang0624/Taiwan_House_Prediction"
 	},
 	{
@@ -119559,11 +119545,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "andreiliphdpr/bert-base-multilingual-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AndrewChar/model-QA-5-epoch-RU"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/honeymad_gpt_ru_v0_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/honeymad_gpt_ru_v0_01"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stasvmk/tnkff_pulse_ru_gpt"
 	}
 ]
