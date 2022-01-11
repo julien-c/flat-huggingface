@@ -8073,11 +8073,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Filosofas/test"
-	},
-	{
-		"private": false,
 		"modelId": "Finka/model_name"
 	},
 	{
@@ -38044,6 +38039,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "alaggung/bart-r3f"
 	},
 	{
@@ -41454,6 +41450,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "asakawa/wav2vec2-base-demo-colab"
 	},
 	{
@@ -41971,6 +41968,46 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "avichr/heBERT_sentiment_analysis"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_anger"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_anticipation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_disgust"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_fear"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_joy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_sadness"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_surprise"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "avichr/hebEMO_trust"
 	},
 	{
 		"private": false,
@@ -57659,6 +57696,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-xls-r-1b-german"
 	},
 	{
@@ -100547,6 +100585,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "rbhushan/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -119622,5 +119661,30 @@
 	{
 		"private": false,
 		"modelId": "zzclynn/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/kot"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/wav2vec2-large-xlsr-53-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "GusNicho/distilbert-base-cased-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "Chester/traffic-rec"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/longformer-base-4096-spanish-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/ppo_test"
 	}
 ]
