@@ -24427,6 +24427,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "NYTK/sentiment-hts2-hubert-hungarian"
 	},
 	{
@@ -24435,6 +24436,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "NYTK/sentiment-hts5-hubert-hungarian"
 	},
 	{
@@ -119429,6 +119431,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AurasuiteAgreements/bert-base-uncased-contracts-finetuned-on-squadv2"
 	},
 	{
@@ -119480,5 +119483,9 @@
 	{
 		"private": false,
 		"modelId": "yapak1994/wav2vec2-large-xlsr-turkish-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "Filosofas/DialoGPT-small-PALPATINE"
 	}
 ]
