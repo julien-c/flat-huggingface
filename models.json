@@ -102355,6 +102355,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "sankhajay/mt5-base-sinaha-qa"
+	},
+	{
+		"private": false,
 		"modelId": "sanqiang/qa_3b"
 	},
 	{
@@ -102795,7 +102800,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-to-image",
 		"modelId": "sberbank-ai/rudalle-Malevich"
 	},
 	{
@@ -119217,10 +119221,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-large-nl2sql-more-epochs-more-data"
-	},
-	{
-		"private": false,
 		"modelId": "ckauth/my-first-ner-model"
 	},
 	{
@@ -119321,5 +119321,43 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_rule_based_bert_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "toyfreak/DialoGPT-small-addy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_twostagetriplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_only_classfn_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_twostagetriplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "misfit/dasda"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_hier_triplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_rule_based_twostage_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"modelId": "aaraki/my-new-shiny-tokenizer"
 	}
 ]
