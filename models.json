@@ -120444,10 +120444,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "nielsr/tapex-large-finetuned-sqa"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Einmalumdiewelt/T5-Large_GNAD"
 	},
 	{
@@ -120456,6 +120458,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "max137/t5-base-nl2sql-3-1"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/vit-base-ipu"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Filosofas/DialoGPT-medium-PALPATINE"
+	},
+	{
+		"private": false,
+		"modelId": "sqripter/wav2vec2-large-xls-r-300m-tr-colabj"
+	},
+	{
+		"private": false,
+		"modelId": "Skywhy/DialoGPT-medium-Churchyy"
 	}
 ]
