@@ -6989,6 +6989,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Doogie/Waynehills_NLP_muti"
 	},
 	{
@@ -9619,14 +9620,6 @@
 	{
 		"private": false,
 		"modelId": "Graphcore/bert-large-uncased"
-	},
-	{
-		"private": false,
-		"modelId": "Graphcore/roberta-base"
-	},
-	{
-		"private": false,
-		"modelId": "Graphcore/roberta-large"
 	},
 	{
 		"private": false,
@@ -120426,5 +120419,21 @@
 	{
 		"private": false,
 		"modelId": "Ab0/autoencoder-keras-mnist-demo"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/xlnet-base-cased-finetuned-wnli"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/bert-base-ipu"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/roberta-base-ipu"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/roberta-large-ipu"
 	}
 ]
