@@ -6835,38 +6835,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "DeskDown/Marian-enja-id-3e"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "DeskDown/Marian-enja-vi-3e"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "DeskDown/MarianMix_en-ja_to_fil-vi-id-ms-ja-khm"
-	},
-	{
-		"private": false,
-		"modelId": "DeskDown/MarianMix_en-zh_to_vi-id-hi-ja"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "DeskDown/MarianMix_en-zh_to_vi-ms-hi-ja"
-	},
-	{
-		"private": false,
-		"modelId": "DeskDown/MarianTokMix-en-ja_to_fil-vi-id-ms-ja-khm"
-	},
-	{
-		"private": false,
-		"modelId": "DeskDown/somenewstuff"
-	},
-	{
-		"private": false,
-		"modelId": "DeskDown/somestuff"
 	},
 	{
 		"private": false,
@@ -82827,6 +82796,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/t5-small-finetuned-xsum"
 	},
 	{
@@ -101265,6 +101235,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "reemalyami/AraRoBERTa-KU"
 	},
 	{
@@ -120218,6 +120189,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "decfox/wav2vec2-base-nptel-colab"
 	},
 	{
@@ -120228,5 +120200,26 @@
 	{
 		"private": false,
 		"modelId": "Ab0/keras-dummy-sequential-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "amtam0/test"
+	},
+	{
+		"private": false,
+		"modelId": "Ab0/keras-dummy-functional-demo"
+	},
+	{
+		"private": false,
+		"modelId": "Ab0/keras-dummy-model-mixin-demo"
+	},
+	{
+		"private": false,
+		"modelId": "Hakar/Funny"
+	},
+	{
+		"private": false,
+		"modelId": "ArashEsk95/bert-base-uncased-finetuned-cola"
 	}
 ]
