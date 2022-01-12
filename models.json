@@ -120055,7 +120055,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary"
 	},
 	{
@@ -120074,6 +120074,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_EManuals-RoBERTa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "astremo/friendly_JA_onnx"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_EManuals-BERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_EManuals-BERT"
 	}
 ]
