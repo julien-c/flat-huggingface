@@ -120096,11 +120096,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Voxcroft/wav2vec2-large-xlsr-53-luganda-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "pinecone/bert-reader-squad2"
 	},
@@ -120149,6 +120144,24 @@
 	},
 	{
 		"private": false,
+		"modelId": "PSC/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "HueyNemud/berties-pretrained-das22"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "uw-madison/yoso-4096"
+	},
+	{
+		"private": false,
+		"modelId": "begar/gpt2-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "reemalyami/AraRoBERTa-JO"
 	}
 ]
