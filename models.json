@@ -120055,6 +120055,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_specter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_bert-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "kazandaev/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/SR_EManuals-RoBERTa"
 	}
 ]
