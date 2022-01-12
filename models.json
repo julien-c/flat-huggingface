@@ -120422,6 +120422,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/xlnet-base-cased-finetuned-wnli"
 	},
 	{
@@ -120435,5 +120436,10 @@
 	{
 		"private": false,
 		"modelId": "Graphcore/roberta-large-ipu"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SBERT-large-nli-v2"
 	}
 ]
