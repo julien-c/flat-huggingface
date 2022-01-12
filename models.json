@@ -120032,6 +120032,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "DeskDown/MarianMix_en-zh_to_vi-ms-hi-ja"
 	},
 	{
@@ -120079,11 +120080,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "astremo/friendly_JA_onnx"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/SR_EManuals-BERT"
 	},
@@ -120104,11 +120100,39 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "merve/stanza-af"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/AR_cline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Voxcroft/wav2vec2-large-xlsr-53-luganda-lm"
+	},
+	{
+		"private": false,
+		"modelId": "pinecone/bert-reader-squad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_consert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/AR_declutr"
+	},
+	{
+		"private": false,
+		"modelId": "ibraheemmoosa/xlmindic-base-uniiscript-soham"
+	},
+	{
+		"private": false,
+		"modelId": "ibraheemmoosa/xlmindic-base-uniscript-soham"
 	}
 ]
