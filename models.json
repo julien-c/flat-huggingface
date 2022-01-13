@@ -40178,26 +40178,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "andrek/Roperta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "andrek/mt5_nor"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "andrek/nb2nn"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "andrek/nob2nno"
-	},
-	{
-		"private": false,
 		"modelId": "andrewlitv/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -53008,6 +52988,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "echarlaix/distilbert-base-uncased-sst2-magnitude-pruning-test"
 	},
 	{
@@ -120625,5 +120606,13 @@
 	{
 		"private": false,
 		"modelId": "nielsr/tapex-large-finetuned-wtq"
+	},
+	{
+		"private": false,
+		"modelId": "seanbenhur/MuLTiGENBiaS"
+	},
+	{
+		"private": false,
+		"modelId": "shawnjay001/Nepali_speech_wave2vec2"
 	}
 ]
