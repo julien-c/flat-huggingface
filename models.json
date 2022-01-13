@@ -52765,11 +52765,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "dtlarson/sbert-quora"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "dtomas/roberta-base-bne-irony"
 	},
@@ -120613,5 +120608,18 @@
 	{
 		"private": false,
 		"modelId": "LanPham/wav2vec2-base-jp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/hirox246"
+	},
+	{
+		"private": false,
+		"modelId": "TheArticle/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/autodelta_try"
 	}
 ]
