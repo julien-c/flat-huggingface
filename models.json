@@ -5890,10 +5890,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DWFlanagan/all-category-classifier"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DaNLP/da-bert-emotion-binary"
 	},
@@ -27559,6 +27555,10 @@
 	{
 		"private": false,
 		"modelId": "Raviraj/my-new-shiny-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "Raviraj/xlm-roberta-large-fintune-hi-fraudcall-tok"
 	},
 	{
 		"private": false,
@@ -58130,6 +58130,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "floek/bert-finetuned-ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "flooptherocket/DialogGPT-small-rick"
 	},
@@ -61624,12 +61628,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gorkemgoknar/wav2vec2-base-100h-with-lm-turkish"
+	},
+	{
+		"private": false,
 		"modelId": "gorkemgoknar/wav2vec2-base-demo-colab"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gorkemgoknar/wav2vec2-large-xlsr-53-turkish"
+	},
+	{
+		"private": false,
+		"modelId": "gorkemgoknar/xls-r-300m-tr"
 	},
 	{
 		"private": false,
@@ -70524,6 +70537,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/hazuma"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/hbloodedheroine"
 	},
 	{
@@ -71473,11 +71491,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/jesusisathembo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/hazuma"
 	},
 	{
 		"private": false,
@@ -82380,6 +82393,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "shawnjay001/Wav2vec2_Nepali"
+	},
+	{
+		"private": false,
 		"modelId": "katerinag3w/DialogGPT-small-Chandler"
 	},
 	{
@@ -86263,6 +86280,10 @@
 	{
 		"private": false,
 		"modelId": "m-ali-awan/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "m-hirakawa/t5ja-base-k2t-sum-0.6"
 	},
 	{
 		"private": false,
@@ -106102,6 +106123,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "shawnjay001/Nepali_speech"
+	},
+	{
+		"private": false,
+		"modelId": "shawnjay001/Wav2vec2_Nepali_speech_Recognition"
+	},
+	{
+		"private": false,
 		"modelId": "shc443/HosRevRoBERTa"
 	},
 	{
@@ -120635,31 +120664,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "gorkemgoknar/xls-r-300m-tr"
-	},
-	{
-		"private": false,
-		"modelId": "m-hirakawa/t5ja-base-k2t-sum-0.6"
-	},
-	{
-		"private": false,
-		"modelId": "Raviraj/xlm-roberta-large-fintune-hi-fraudcall-tok"
-	},
-	{
-		"private": false,
-		"modelId": "floek/bert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gorkemgoknar/wav2vec2-base-100h-with-lm-turkish"
-	},
-	{
-		"private": false,
-		"modelId": "shawnjay001/Wav2vec2_Nepali_speech_Recognition"
-	},
-	{
-		"private": false,
-		"modelId": "shawnjay001/Nepali_speech"
+		"modelId": "Raviraj/xlm-roberta-large-MLMfintune-hi-fraudcall"
 	}
 ]
