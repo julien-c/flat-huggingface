@@ -42383,6 +42383,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "averyanalex/panorama-rugpt3large"
 	},
 	{
@@ -78162,10 +78163,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ibraheemmoosa/xlmindic-base-multiscript"
-	},
-	{
-		"private": false,
-		"modelId": "ibraheemmoosa/xlmindic-base-uniiscript-soham"
 	},
 	{
 		"private": false,
@@ -120643,6 +120640,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mahaamami/distilroberta-base-model-transcript"
 	},
 	{
@@ -120652,5 +120650,13 @@
 	{
 		"private": false,
 		"modelId": "max137/t5-base-nl2sql-100-2"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wav2vec2-xls-r-300m-german"
+	},
+	{
+		"private": false,
+		"modelId": "frizwankhan/entity-linking-model-final"
 	}
 ]
