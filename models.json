@@ -108581,14 +108581,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sqripter/wav2vec2-large-xls-r-300m-tr-colab"
-	},
-	{
-		"private": false,
-		"modelId": "sqripter/wav2vec2-large-xls-r-300m-tr-colabj"
-	},
-	{
-		"private": false,
 		"modelId": "squeezebert/squeezebert-mnli-headless"
 	},
 	{
@@ -120708,10 +120700,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "max137/t5-base-nl2sql-10-2"
 	},
 	{
 		"private": false,
 		"modelId": "imvladikon/general_character_bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "alaggung/bart-rl"
+	},
+	{
+		"private": false,
+		"modelId": "ArashEsk95/bert-base-uncased-finetuned-sst2"
 	}
 ]
