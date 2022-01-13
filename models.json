@@ -40226,11 +40226,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "andreiliphdpr/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "andrejmiscic/simcls-scorer-billsum"
 	},
@@ -77881,10 +77876,6 @@
 	{
 		"private": false,
 		"modelId": "hushgeekart/testingModel"
-	},
-	{
-		"private": false,
-		"modelId": "husnu/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -120626,6 +120617,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Fengkai/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "lgongas/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "husnu/ft_xtremedistil_lr-2e-1_epochs-1"
+	},
+	{
+		"private": false,
+		"modelId": "bob80333/speechbrain_ja2en_st_63M_yt600h"
 	}
 ]
