@@ -120618,11 +120618,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "husnu/ft_xtremedistil_lr-2e-1_epochs-1"
-	},
-	{
-		"private": false,
 		"modelId": "bob80333/speechbrain_ja2en_st_63M_yt600h"
 	},
 	{
@@ -120673,5 +120668,14 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Maaly/host"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "husnu/electra-small-turkish-uncased-discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "husnu/electra-small-turkish-uncased-discriminator-finetuned_lr-2e-05_epochs-3"
 	}
 ]
