@@ -120688,6 +120688,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Maaly/bgc-accession"
 	},
 	{
@@ -120725,5 +120726,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "begar/distilgpt2-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pablouribe/bertstem-copus-supercategories"
 	}
 ]
