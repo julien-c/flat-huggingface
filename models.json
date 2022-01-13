@@ -3477,6 +3477,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AurasuiteAgreements/bert-base-uncased-contracts-finetuned-on-squadv2"
+	},
+	{
+		"private": false,
 		"modelId": "Aurora/asdawd"
 	},
 	{
@@ -120667,5 +120672,14 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/OldWeights"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "frizwankhan/tokenization_model"
+	},
+	{
+		"private": false,
+		"modelId": "espnet/vectominist_seame_asr_conformer_bpe5626"
 	}
 ]
