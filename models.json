@@ -81995,10 +81995,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "julsimon-test/reuters-summarization"
-	},
-	{
-		"private": false,
 		"modelId": "julsoles/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -120819,10 +120815,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ariG23498/vit-small-ds"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "day/first-bot-medium"
 	},
@@ -120859,11 +120851,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "ariG23498/vit-small-ds-epoch2"
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-6L-768D-squad2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinybert-6L-768D-squad2"
+		"pipeline_tag": "text-classification",
+		"modelId": "ldacunto/distilbert-base-uncased-finetuned-cola"
 	}
 ]
