@@ -87536,41 +87536,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-100p"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-20p"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-40p"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-60p"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-80p"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-bigbatch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "manu/doc-parserv2-longrun"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "manudotc/transformers_distilbert-base-uncased_finetuneQA_squad"
 	},
@@ -120841,30 +120806,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "husnu/nli-MiniLM2-L6-H768-finetuned_lr-2e-05_epochs-3"
-	},
-	{
-		"private": false,
 		"modelId": "qq1461597165/perfect-strange"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/bert-base-uncased-squad2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinybert-6L-768D-squad2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ldacunto/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "husnu/xtremedistil-l6-h256-uncased-finetuned_lr-2e-05_epochs-4"
 	},
 	{
 		"private": false,
@@ -120884,5 +120831,28 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "erwanlc/t5-cocktails_recipe-base"
+	},
+	{
+		"private": false,
+		"modelId": "adalbertojunior/image_captioning_portuguese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/bert-base-uncased-squad2"
+	},
+	{
+		"private": false,
+		"modelId": "husnu/bert-base-turkish-128k-cased-finetuned_lr-2e-05_epochs-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erwanlc/t5-cocktails_recipe-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/tinybert-6l-768d-squad2"
 	}
 ]
