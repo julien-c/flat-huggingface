@@ -120760,6 +120760,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-newsroom-commentaries_hdwriter"
 	},
 	{
@@ -120770,10 +120771,6 @@
 	{
 		"private": false,
 		"modelId": "ataryes/snlp_project"
-	},
-	{
-		"private": false,
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	},
 	{
 		"private": false,
@@ -120841,5 +120838,19 @@
 	{
 		"private": false,
 		"modelId": "alxbltf/123"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erwanlc/t5-coktails_recipe-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "addy88/eli5-all-mpnet-base-v2"
+	},
+	{
+		"private": false,
+		"modelId": "husnu/nli-MiniLM2-L6-H768-finetuned_lr-2e-05_epochs-3"
 	}
 ]
