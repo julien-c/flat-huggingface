@@ -40278,6 +40278,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "andreiliphdpr/bert-base-multilingual-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "andreiliphdpr/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "andrejmiscic/simcls-scorer-billsum"
 	},
@@ -120882,14 +120892,6 @@
 	{
 		"private": false,
 		"modelId": "ckauth/nermodel"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-nl2sql-16-2"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-nl2sql-8-2"
 	},
 	{
 		"private": false,
