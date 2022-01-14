@@ -45059,6 +45059,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/deberta-base-finetuned-ner"
 	},
@@ -100519,11 +100524,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-neo-1pt3B-Conv_DS-WoW_Ep-10_Bs-16-Conv_DS-DailyDialogues_Ep-3_Bs-8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-neo-1pt3B-Conv_DS-WoW_Ep-10_Bs-16"
 	},
 	{
@@ -120737,6 +120737,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion-test-01"
 	},
@@ -120871,10 +120876,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nbroad/pubmed_abstract_mlm_demo"
 	},
 	{
 		"private": false,
 		"modelId": "max137/t5-base-nl2sql-16-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/GPT-Converse-1pt3B-Neo-WoW-DD-13"
+	},
+	{
+		"private": false,
+		"modelId": "abdelkader/pegasus-samsum"
 	}
 ]
