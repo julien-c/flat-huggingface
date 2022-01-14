@@ -120799,7 +120799,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "Kirili4ik/mbart_ruDialogSum"
 	},
 	{
@@ -120872,6 +120872,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gbade786/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -120881,10 +120882,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "erwanlc/t5-cocktails_recipe-base"
 	},
 	{
 		"private": false,
-		"modelId": "imosnoi/bonuriro"
+		"modelId": "anabiha/distilbert-base-uncased-finetuned-ner-updated-data"
 	}
 ]
