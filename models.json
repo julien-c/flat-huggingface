@@ -120751,11 +120751,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "ckauth/model3"
-	},
-	{
-		"private": false,
 		"modelId": "day/first-bot-small"
 	},
 	{
@@ -120815,6 +120810,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "keras-io/vit-small-ds"
 	},
 	{
@@ -120854,5 +120850,13 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "deepset/tinybert-6l-768d-squad2"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/model3"
+	},
+	{
+		"private": false,
+		"modelId": "DaisyMak/bert-finetuned-squad-accelerate"
 	}
 ]
