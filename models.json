@@ -46508,7 +46508,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "object-detection",
+		"pipeline_tag": "image-classification",
 		"modelId": "carlosaguayo/cats_vs_dogs"
 	},
 	{
@@ -120968,5 +120968,10 @@
 	{
 		"private": false,
 		"modelId": "groadabike/ConvTasNet_DAMPVSEP_EnglishNonEnglish_baseline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "DeskDown/MarianMixFT_en-fil"
 	}
 ]
