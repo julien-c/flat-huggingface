@@ -17942,7 +17942,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
+		"pipeline_tag": "text-generation",
 		"modelId": "Ifromspace/GRIEFSOFT-walr"
 	},
 	{
@@ -64520,11 +64520,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "hpi-dhc/clinical_ner_german_ggponc_long"
-	},
-	{
-		"private": false,
 		"modelId": "hrc/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -82054,10 +82049,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "junnyu/bert_chinese_mc_base"
-	},
-	{
-		"private": false,
-		"modelId": "junnyu/eHealth_pytorch"
 	},
 	{
 		"private": false,
@@ -116691,6 +116682,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vinaydngowda/autonlp-case-classify-xlnet-496213536"
+	},
+	{
+		"private": false,
 		"modelId": "vince1895/ConvTasNet_Libri2Mix_sepclean_8k_train100_sisdr"
 	},
 	{
@@ -120789,6 +120785,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "EhsanYB/bert-ehsan-ner-accelerate"
 	},
 	{
@@ -120801,6 +120798,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "ckauth/my-first-nere"
+		"modelId": "ckauth/model3"
+	},
+	{
+		"private": false,
+		"modelId": "day/first-bot-small"
 	}
 ]
