@@ -20591,6 +20591,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Langame/blenderbot2-400M"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Langame/convai-gpt-j-6B-8bit"
 	},
@@ -48097,6 +48101,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cmarkea/distilcamembert-base-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cmarkea/distilcamembert-base-sentiment"
 	},
 	{
 		"private": false,
@@ -88189,10 +88198,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-base-nl2sql-20-2"
-	},
-	{
-		"private": false,
 		"modelId": "maxdavish/test-model"
 	},
 	{
@@ -116138,7 +116143,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "vennify/t5-base-grammar-correction"
 	},
 	{
@@ -120848,10 +120853,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "ckauth/model3"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "socrates/socrates2.0"
 	},
 	{
@@ -120862,5 +120864,17 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ckauth/newmodel"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/pegasus-multi_news-commentaries_hdwriter"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/pubmed_abstract_mlm_demo"
+	},
+	{
+		"private": false,
+		"modelId": "max137/t5-base-nl2sql-16-2"
 	}
 ]
