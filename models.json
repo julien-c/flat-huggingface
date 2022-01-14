@@ -7621,6 +7621,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "EhsanYB/bert-ehsan-ner-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "EhsanYB/distilbert-finetuned-ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Einmalumdiewelt/PegasusXSUM_GNAD"
 	},
@@ -20024,6 +20034,11 @@
 	{
 		"private": false,
 		"modelId": "KiranM/someNewModel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Kirili4ik/mbart_ruDialogSum"
 	},
 	{
 		"private": false,
@@ -36155,6 +36170,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "abdelkader/pegasus-samsum"
+	},
+	{
+		"private": false,
 		"modelId": "abdelkader/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
@@ -36527,6 +36546,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "adalbertojunior/image_captioning_portuguese"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "adalbertojunior/modular-test"
 	},
@@ -36825,6 +36848,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "addy88/code-t5-ruby"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "addy88/eli5-all-mpnet-base-v2"
 	},
 	{
 		"private": false,
@@ -37640,6 +37668,11 @@
 	{
 		"private": false,
 		"modelId": "aheba31/zaion-speaker-ident"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ahernandez/bert-finetuned-ner-accelerate"
 	},
 	{
 		"private": false,
@@ -38605,6 +38638,10 @@
 	{
 		"private": false,
 		"modelId": "aleksi/bert-base-finnish-cased-v1-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "alemihai1/distilbert-fake-news"
 	},
 	{
 		"private": false,
@@ -39735,6 +39772,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "alxbltf/123"
+	},
+	{
+		"private": false,
 		"modelId": "alyssa99s/h"
 	},
 	{
@@ -40464,6 +40505,10 @@
 	{
 		"private": false,
 		"modelId": "anirudh21/roberta-base-finetuned-wnli"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/xlnet-base-cased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -42285,6 +42330,10 @@
 	{
 		"private": false,
 		"modelId": "atahmasb/tf-layoutlm-large-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "ataryes/snlp_project"
 	},
 	{
 		"private": false,
@@ -45069,6 +45118,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/deberta-base-finetuned-ner"
 	},
@@ -47370,6 +47424,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "chinhon/pegasus-multi_news-commentaries_hdwriter"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-multi_news-headline"
 	},
@@ -47382,6 +47440,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-multi_news-summarizer_01"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "chinhon/pegasus-newsroom-commentaries_hdwriter"
 	},
 	{
 		"private": false,
@@ -47696,6 +47759,19 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ck46/t5-small-squad-qa-qg"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/nermodel"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/nermodel2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ckauth/newmodel"
 	},
 	{
 		"private": false,
@@ -49900,6 +49976,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "day/first-bot-medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "day/first-bot-small"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "dayyass/trocr-base-handwritten-vit-encoder"
 	},
@@ -50482,6 +50568,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
+		"modelId": "deepset/bert-base-uncased-squad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "deepset/bert-large-uncased-whole-word-masking-squad2"
 	},
 	{
@@ -50620,6 +50711,11 @@
 	{
 		"private": false,
 		"modelId": "deepset/tapas-large-nq-reader"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/tinybert-6l-768d-squad2"
 	},
 	{
 		"private": false,
@@ -54279,6 +54375,26 @@
 	{
 		"private": false,
 		"modelId": "ervis/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erwanlc/t5-cocktails_recipe-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erwanlc/t5-cocktails_recipe-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erwanlc/t5-coktails_recipe-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erwanlc/t5-coktails_recipe-small"
 	},
 	{
 		"private": false,
@@ -59284,6 +59400,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gbade786/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "gborn/autonlp-news-summarization-483413089"
 	},
@@ -62439,6 +62560,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "haotieu/en-vi-mt-model"
+	},
+	{
+		"private": false,
+		"modelId": "haotieu/t5-small-finetuned-xsum"
 	},
 	{
 		"private": false,
@@ -77989,6 +78114,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "husnu/bert-base-turkish-128k-cased-finetuned_lr-2e-05_epochs-3"
+	},
+	{
+		"private": false,
 		"modelId": "husnu/bert-base-turkish-cased-finetuned_lr-2e-05_epochs-3"
 	},
 	{
@@ -82742,6 +82871,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "keras-io/vit-small-ds"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "keshan/SinhalaBERTo"
 	},
@@ -84291,6 +84425,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ldacunto/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"modelId": "ldx/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -84456,6 +84595,11 @@
 	{
 		"private": false,
 		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion-kaggle"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion-test-01"
 	},
 	{
 		"private": false,
@@ -94317,6 +94461,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nbroad/pubmed_abstract_mlm_demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "nbroad/pubmed_neg_ner_demo"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nbroad/rare-puppers"
 	},
@@ -95061,6 +95215,11 @@
 		"private": false,
 		"pipeline_tag": "table-question-answering",
 		"modelId": "nielsr/tapex-large-finetuned-wtq"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nielsr/tapex-large"
 	},
 	{
 		"private": false,
@@ -96005,6 +96164,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nurkayevaa/autonlp-bert-covid-407910467"
+	},
+	{
+		"private": false,
+		"modelId": "nv2003/inference"
 	},
 	{
 		"private": false,
@@ -98375,6 +98538,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "pdw/test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "peamjo/DialoGPT-small-morty"
 	},
@@ -98968,6 +99135,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "phantom-deluxe/dialoGPT-harry"
+	},
+	{
+		"private": false,
+		"modelId": "phantomcoder1996/ArHubert"
 	},
 	{
 		"private": false,
@@ -100519,6 +100690,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/GPT-Converse-1pt3B-Neo-WoW-DD-13"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/GPT-Peter-Neo-L-WhatsApp-WoW"
 	},
 	{
@@ -100903,6 +101079,10 @@
 	{
 		"private": false,
 		"modelId": "qlh/word2vec"
+	},
+	{
+		"private": false,
+		"modelId": "qq1461597165/perfect-strange"
 	},
 	{
 		"private": false,
@@ -107694,6 +107874,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "socialmediaie/TRAC2020_IBEN_C_bert-base-multilingual-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "socrates/socrates2.0"
 	},
 	{
 		"private": false,
@@ -115632,6 +115817,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vachonni/wav2vec2-large-xls-r-300m-da-colab"
+	},
+	{
+		"private": false,
 		"modelId": "vahidbaghi/HarryPotter"
 	},
 	{
@@ -116140,6 +116330,10 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "velociraptor/hugging-doge"
+	},
+	{
+		"private": false,
+		"modelId": "vempaliakhil/deberta-large-mnli"
 	},
 	{
 		"private": false,
@@ -119278,6 +119472,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "youzanai/bert-product-title-chinese"
+	},
+	{
+		"private": false,
 		"modelId": "yoyoyong/test_model"
 	},
 	{
@@ -120191,6 +120389,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "zhichao158/wav2vec2-xls-r-common_voice-ar-ft"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "zhichao158/wav2vec2-xls-r-common_voice-tr-ft"
 	},
@@ -120695,206 +120897,5 @@
 	{
 		"private": false,
 		"modelId": "zzuczy/wav2vec2-baset-ft-ch-debug"
-	},
-	{
-		"private": false,
-		"modelId": "haotieu/t5-small-finetuned-xsum"
-	},
-	{
-		"private": false,
-		"modelId": "anirudh21/xlnet-base-cased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "alemihai1/distilbert-fake-news"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "EhsanYB/distilbert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "zhichao158/wav2vec2-xls-r-common_voice-ar-ft"
-	},
-	{
-		"private": false,
-		"modelId": "vempaliakhil/deberta-large-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/pegasus-newsroom-commentaries_hdwriter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nielsr/tapex-large"
-	},
-	{
-		"private": false,
-		"modelId": "ataryes/snlp_project"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lewtun/distilbert-base-uncased-finetuned-emotion-test-01"
-	},
-	{
-		"private": false,
-		"modelId": "nv2003/inference"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "EhsanYB/bert-ehsan-ner-accelerate"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vachonni/wav2vec2-large-xls-r-300m-da-colab"
-	},
-	{
-		"private": false,
-		"modelId": "day/first-bot-small"
-	},
-	{
-		"private": false,
-		"modelId": "youzanai/bert-product-title-chinese"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Kirili4ik/mbart_ruDialogSum"
-	},
-	{
-		"private": false,
-		"modelId": "pdw/test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ahernandez/bert-finetuned-ner-accelerate"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "day/first-bot-medium"
-	},
-	{
-		"private": false,
-		"modelId": "phantomcoder1996/ArHubert"
-	},
-	{
-		"private": false,
-		"modelId": "alxbltf/123"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "erwanlc/t5-coktails_recipe-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "addy88/eli5-all-mpnet-base-v2"
-	},
-	{
-		"private": false,
-		"modelId": "qq1461597165/perfect-strange"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ldacunto/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "keras-io/vit-small-ds"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gbade786/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "erwanlc/t5-coktails_recipe-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "erwanlc/t5-cocktails_recipe-base"
-	},
-	{
-		"private": false,
-		"modelId": "adalbertojunior/image_captioning_portuguese"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "deepset/bert-base-uncased-squad2"
-	},
-	{
-		"private": false,
-		"modelId": "husnu/bert-base-turkish-128k-cased-finetuned_lr-2e-05_epochs-3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "erwanlc/t5-cocktails_recipe-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "deepset/tinybert-6l-768d-squad2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "socrates/socrates2.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "ckauth/newmodel"
-	},
-	{
-		"private": false,
-		"modelId": "chinhon/pegasus-multi_news-commentaries_hdwriter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "nbroad/pubmed_abstract_mlm_demo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/GPT-Converse-1pt3B-Neo-WoW-DD-13"
-	},
-	{
-		"private": false,
-		"modelId": "abdelkader/pegasus-samsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "nbroad/pubmed_neg_ner_demo"
-	},
-	{
-		"private": false,
-		"modelId": "ckauth/nermodel"
-	},
-	{
-		"private": false,
-		"modelId": "ckauth/nermodel2"
 	}
 ]
