@@ -116332,6 +116332,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-base-ncc"
 	},
 	{
@@ -120858,5 +120859,21 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ldacunto/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "husnu/xtremedistil-l6-h256-uncased-finetuned_lr-2e-05_epochs-4"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/vit-small-ds"
+	},
+	{
+		"private": false,
+		"modelId": "gbade786/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "erwanlc/t5-coktails_recipe-small"
 	}
 ]
