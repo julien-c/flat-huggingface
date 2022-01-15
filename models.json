@@ -45106,12 +45106,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v1"
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v2"
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
 	},
 	{
 		"private": false,
@@ -121071,7 +121071,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "felinecity/DioloGPT-small-KaeyaBot2"
 	},
 	{
@@ -121086,5 +121086,10 @@
 	{
 		"private": false,
 		"modelId": "educhav/Austin-DialoGPT-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ShengdingHu/rte"
 	}
 ]
