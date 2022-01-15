@@ -121250,11 +121250,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Supiri/t5-small-conversation"
-	},
-	{
-		"private": false,
 		"modelId": "mrm8488/wav2vec2-xls-r-300m-es"
 	},
 	{
@@ -121263,6 +121258,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "husnu/bert-base-turkish-128k-cased-finetuned_lr-2e-05_epochs-3TQUAD2-finetuned_lr-2e-05_epochs-1"
 	},
 	{
@@ -121280,5 +121276,9 @@
 	{
 		"private": false,
 		"modelId": "Filosofas/DialoGPT-medium-PALPATINE2"
+	},
+	{
+		"private": false,
+		"modelId": "yellow/peepee"
 	}
 ]
