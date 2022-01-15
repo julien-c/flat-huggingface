@@ -17500,6 +17500,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Huertas97/es_roberta_base_bne_leetspeak_ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "HueyNemud/berties-pretrained-das22"
 	},
@@ -121133,6 +121138,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "asifm43/bert-bn"
 	}
 ]
