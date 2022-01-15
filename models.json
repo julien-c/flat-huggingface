@@ -23783,7 +23783,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary"
 	},
 	{
@@ -121114,6 +121114,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-large-commentaries_hd"
 	},
 	{
@@ -121182,5 +121183,9 @@
 	{
 		"private": false,
 		"modelId": "Suchandra/jan_15_2022"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/bart-large-cnn-commentaries_hdwriter"
 	}
 ]
