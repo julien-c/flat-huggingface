@@ -119462,6 +119462,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "youzanai/bert-product-title-chinese"
 	},
 	{
@@ -121042,5 +121043,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/autosport-formulaoneworld-speedcafe"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "husnu/xtremedistil-l6-h256-uncased-TQUAD-finetuned_lr-2e-05_epochs-3"
 	}
 ]
