@@ -121134,10 +121134,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Fraser/program-synthesis"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Ifromspace/GRIEFSOFT"
 	},
@@ -121165,7 +121161,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Zen1/test1"
 	},
 	{
@@ -121178,10 +121174,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-large-nl2sql-3-1"
-	},
-	{
-		"private": false,
 		"modelId": "Suchandra/jan_15_2022"
 	},
 	{
@@ -121190,6 +121182,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Suchandra/bengali_language_NER"
 	},
 	{
@@ -121199,5 +121192,21 @@
 	{
 		"private": false,
 		"modelId": "RahulRaman/test-model"
+	},
+	{
+		"private": false,
+		"modelId": "Emi/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Supiri/t5-small-lm-adapt-conversation"
+	},
+	{
+		"private": false,
+		"modelId": "Fraser/to_delete"
+	},
+	{
+		"private": false,
+		"modelId": "max137/t5-small-nl2sql-3-1"
 	}
 ]
