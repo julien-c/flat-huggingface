@@ -17520,11 +17520,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "HueyNemud/berties-pretrained-das22"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HueyNemud/berties"
 	},
@@ -121507,5 +121502,14 @@
 	{
 		"private": false,
 		"modelId": "aepilicita/bert-base-uncased-finetuned-wiki"
+	},
+	{
+		"private": false,
+		"modelId": "wesam266/wav2vec2-xls-r-300m_all_ds_v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "HueyNemud/das22-10-camembert_pretrained"
 	}
 ]
