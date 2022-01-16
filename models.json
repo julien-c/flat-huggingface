@@ -31300,11 +31300,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "Sirinya/distilbert-base-uncased-finetuned-squad"
+		"modelId": "Sirinya/distilroberta-base-finetuned-wikitext2"
 	},
 	{
 		"private": false,
-		"modelId": "Sirinya/distilroberta-base-finetuned-wikitext2"
+		"pipeline_tag": "question-answering",
+		"modelId": "Sirinya/wangchanberta-th-squad_test1"
 	},
 	{
 		"private": false,
@@ -121373,6 +121374,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/pegasus-multi_news-commentaries_hdwriter"
 	}
 ]
