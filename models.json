@@ -121456,6 +121456,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nhrony/bert-bnsp"
 	},
 	{
@@ -121468,15 +121469,29 @@
 	},
 	{
 		"private": false,
-		"modelId": "Filosofas/DialoGPT-medium-PALPATINE-UP"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "pszemraj/bigbird-pegasus-large-booksum-20k"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Shushant/biobert-v1.1-biomedicalQuestionAnswering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Filosofas/DialoGPT-medium-PALPATINE2"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/checkpoints"
+	},
+	{
+		"private": false,
+		"modelId": "day/her-bot-small"
+	},
+	{
+		"private": false,
+		"modelId": "Shushant/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-ContaminationQAmodel_PubmedBERT"
 	}
 ]
