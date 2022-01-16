@@ -106679,6 +106679,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shields/wav2vec2-base-dementiabank"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "shihab/HarryPotter"
 	},
@@ -121268,6 +121273,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Sakil/imdbsentdistilbertmodel"
 	},
 	{
@@ -121385,6 +121391,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "milyiyo/multi-minilm-finetuned-amazon-review"
+	},
+	{
+		"private": false,
+		"modelId": "porpaul/t5-small-finetuned-xsum"
 	}
 ]
