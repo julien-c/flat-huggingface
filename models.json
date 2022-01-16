@@ -90301,6 +90301,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "milyiyo/multi-minilm-finetuned-amazon-review"
 	},
 	{
@@ -121515,10 +121516,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "ariG23498/vit-small-ds"
+		"modelId": "crystina-z/inlang-mrtydi-corpus"
 	},
 	{
 		"private": false,
-		"modelId": "crystina-z/inlang-mrtydi-corpus"
+		"pipeline_tag": "fill-mask",
+		"modelId": "nhrony/bert-final"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/csmar-model"
+	},
+	{
+		"private": false,
+		"modelId": "wesam266/wav2vec2-xls-r-300m_all_ds"
 	}
 ]
