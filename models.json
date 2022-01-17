@@ -47505,11 +47505,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "chinhon/bart-large-cnn-commentaries_hdwriter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/bart-large-cnn-summarizer_03"
 	},
 	{
@@ -121529,6 +121524,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sahri/indonesiasentiment"
+	},
+	{
+		"private": false,
 		"modelId": "AurasuiteAgreements/bert-base-uncased-contracts-finetuned-on-squadv2-private"
 	},
 	{
@@ -121561,5 +121561,21 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nickmuchi/minilm-finetuned-emotion_nm"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/simbert-base-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/test-dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/doyying_bert_first_again"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/roformer-ft-base-chinese"
 	}
 ]
