@@ -121654,6 +121654,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Phiion/DialoGPT-large-dilucbot"
 	},
 	{
@@ -121675,6 +121676,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "nadzma/finetuned-T5-UK-financial-summarization"
 	},
 	{
@@ -121702,5 +121704,21 @@
 	{
 		"private": false,
 		"modelId": "ThomasSimonini/ppo-LunarLander-v2"
+	},
+	{
+		"private": false,
+		"modelId": "nadzma/finetuned-mT5-UK-financial-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "dshvadskiy/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr5b-1B3-multilingual-alpha-checkpoints"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/ImbalancedWeights_conti"
 	}
 ]
