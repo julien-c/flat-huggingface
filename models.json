@@ -121825,6 +121825,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/roberta-base-detector-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1_squad2.0"
 	}
 ]
