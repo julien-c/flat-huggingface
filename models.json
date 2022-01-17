@@ -121755,6 +121755,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Rocketknight1/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "doctorseus/bert-base-german-cased-brise-ctx"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/EManuals_RoBERTa_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "Supiri/t5-base-conversation"
 	}
 ]
