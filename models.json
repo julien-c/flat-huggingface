@@ -95805,18 +95805,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nielsr/vit-mae-base"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/vit-mae-huge"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/vit-mae-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "niepan/bert_funting_test_ai10"
 	},
@@ -121730,10 +121718,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "richiellei/DialoGPT-small-rick"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "dshvadskiy/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/roberta-base_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/vit-mae-base"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/vit-mae-huge"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/vit-mae-large"
+	},
+	{
+		"private": false,
+		"modelId": "eadsa1998/camembert-base-camembert-base"
 	}
 ]
