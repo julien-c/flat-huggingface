@@ -121515,6 +121515,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "chinhon/bart-large-commentaries_hdwriter"
 	},
 	{
@@ -121541,5 +121542,18 @@
 	{
 		"private": false,
 		"modelId": "DoyyingFace/doyying_bert_first"
+	},
+	{
+		"private": false,
+		"modelId": "bjkim/bert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nickmuchi/minilm-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "Shushant/longformer-large-4096-finetuned-triviaqa-longformer-large-4096-finetuned-triviaqa"
 	}
 ]
