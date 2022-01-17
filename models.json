@@ -121582,11 +121582,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "asanwari/agriculture-sentence-transformer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "baaastien/dummy"
 	},
@@ -121678,6 +121673,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "qanastek/pos-french-camembert-flair"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "asanwari/agriculture-sentence-transformer"
 	}
 ]
