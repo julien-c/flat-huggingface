@@ -121533,6 +121533,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "YasinShihab/asr-en-bn-test"
 	},
 	{
@@ -121572,10 +121573,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/doyying_bert_first_again"
 	},
 	{
 		"private": false,
 		"modelId": "WangZeJun/roformer-ft-base-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/roformer-ft-small-chinese"
 	}
 ]
