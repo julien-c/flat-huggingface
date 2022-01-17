@@ -42294,11 +42294,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "asanwari/agriculture-sentence-transformer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
 		"modelId": "asapp/sew-d-base-100k"
 	},
 	{
@@ -99889,10 +99884,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "philschmid/pegasus-xsum-tradetheevent"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/pt-tblard-tf-allocine"
 	},
@@ -99912,10 +99903,6 @@
 	{
 		"private": false,
 		"modelId": "philschmid/test"
-	},
-	{
-		"private": false,
-		"modelId": "philschmid/tf-distilbart-cnn-12-6-tradetheevent"
 	},
 	{
 		"private": false,
@@ -121680,16 +121667,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Supiri/t5-base-conversation"
-	},
-	{
-		"private": false,
 		"modelId": "flozi00/wav2vec2-large-xlsr-53-german"
-	},
-	{
-		"private": false,
-		"modelId": "Phiion/DialoGPT-large-dilucbot"
 	},
 	{
 		"private": false,
@@ -121703,5 +121681,22 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/bert-base-uncased_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "asanwari/agriculture-sentence-transformer"
+	},
+	{
+		"private": false,
+		"modelId": "nadzma/finetuned-T5-UK-financial-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/tf-distilbart-cnn-12-6-tradetheevent"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "recobo/agri-sentence-transformer"
 	}
 ]
