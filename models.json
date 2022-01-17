@@ -60221,6 +60221,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/ModifiedWeights"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ghanashyamvtatti/roberta-fake-news"
 	},
@@ -121889,5 +121894,9 @@
 	{
 		"private": false,
 		"modelId": "jkang/drawing-artist-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-base-squadv1-block-pruning-hybrid-filled-lt-qat-lt"
 	}
 ]
