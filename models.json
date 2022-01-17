@@ -121792,6 +121792,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "shaina/covid_qa_mpnet"
 	},
 	{
@@ -121849,5 +121850,15 @@
 	{
 		"private": false,
 		"modelId": "Kr33p/DialoGPT-medium-Albedo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1_squad2.0"
 	}
 ]
