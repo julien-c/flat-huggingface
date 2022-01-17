@@ -45374,16 +45374,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/deberta-base-finetuned-ner"
 	},
@@ -121578,10 +121568,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-large-spider-2-1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "peggyhuang/nolog-SciBert-v2"
 	},
@@ -121614,5 +121600,19 @@
 	{
 		"private": false,
 		"modelId": "baaastien/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "asanwari/agriculture-sentence-transformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "baaastien/dummy"
+	},
+	{
+		"private": false,
+		"modelId": "anantvaid4/fine-tuned-bert-ment-ill_clean"
 	}
 ]
