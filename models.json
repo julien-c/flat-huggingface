@@ -121464,6 +121464,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "eldor-97/MarianMix_en-10"
 	},
 	{
@@ -121510,15 +121511,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-base-nl2sql-16-1"
-	},
-	{
-		"private": false,
-		"modelId": "jamestop00/DialoGPT-medium-spike"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "milyiyo/electra-small-finetuned-amazon-review"
+	},
+	{
+		"private": false,
+		"modelId": "max137/t5-large-spider-2-1"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/bigbird-pegasus-large-booksum-40k-K"
 	}
 ]
