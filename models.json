@@ -121529,10 +121529,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "WangZeJun/simbert-base-chinese"
-	},
-	{
-		"private": false,
 		"modelId": "AurasuiteAgreements/bert-base-uncased-contracts-finetuned-on-squadv2-private"
 	},
 	{
@@ -121549,11 +121545,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "nickmuchi/minilm-finetuned-emotion"
-	},
-	{
-		"private": false,
 		"modelId": "Shushant/longformer-large-4096-finetuned-triviaqa-longformer-large-4096-finetuned-triviaqa"
 	},
 	{
@@ -121563,6 +121554,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "DoyyingFace/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nickmuchi/minilm-finetuned-emotion_nm"
 	}
 ]
