@@ -32034,15 +32034,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Supiri/t5-base-conversation"
-	},
-	{
-		"private": false,
-		"modelId": "Supiri/t5-v1_1-small-conversation"
-	},
-	{
-		"private": false,
 		"modelId": "SupriyaArun/bert-base-uncased-finetuned-squad-finetuned-squad"
 	},
 	{
@@ -81190,6 +81181,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-6"
 	},
 	{
@@ -121657,10 +121649,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/bigbird-pegasus-large-booksum-40k-K-finetuned-booksum"
-	},
-	{
-		"private": false,
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -121680,5 +121668,9 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "asanwari/agriculture-sentence-transformer"
+	},
+	{
+		"private": false,
+		"modelId": "Supiri/t5-base-conversation"
 	}
 ]
