@@ -3503,6 +3503,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AurasuiteAgreements/bert-base-uncased-contracts-finetuned-on-squadv2-private"
 	},
 	{
@@ -94753,11 +94754,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nathanaelc/wav2vec2-large-xlsr-53-amharic"
-	},
-	{
-		"private": false,
 		"modelId": "nathanlsl/distilbart-cnn-12-6"
 	},
 	{
@@ -118452,6 +118448,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "wesam266/wav2vec2-xls-r-300m_all_ds_v1"
 	},
 	{
@@ -121609,7 +121606,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/led-base-16384-finetuned-booksum"
 	},
 	{
@@ -121639,6 +121636,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "psyche/kobart-paraphrase-generation"
 	},
 	{
@@ -121653,5 +121651,17 @@
 	{
 		"private": false,
 		"modelId": "richiellei/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/policy-distilbert-7d"
+	},
+	{
+		"private": false,
+		"modelId": "AZTEC/Arcane"
+	},
+	{
+		"private": false,
+		"modelId": "gorkemgoknar/wav2vec2-finetuned-lm-tr"
 	}
 ]
