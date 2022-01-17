@@ -83542,6 +83542,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kha-white/manga-ocr-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "khady/wav2vec-denoising-v0"
 	},
@@ -121791,6 +121795,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "snisioi/bert-legal-romanian-cased-v1"
 	},
 	{
@@ -121801,5 +121806,20 @@
 	{
 		"private": false,
 		"modelId": "shaina/covid_qa_mpnet"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "ronanki/xlmr_17-01-2022_v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/cline_squad2.0"
 	}
 ]
