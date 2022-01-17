@@ -121711,6 +121711,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "dshvadskiy/bert-finetuned-ner"
 	},
 	{
@@ -121726,5 +121727,13 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/unsup-consert-base_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "richiellei/DialoGPT-small-rick"
+	},
+	{
+		"private": false,
+		"modelId": "dshvadskiy/bert-finetuned-ner-accelerate"
 	}
 ]
