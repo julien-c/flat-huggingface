@@ -121383,11 +121383,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "pszemraj/bigbird-pegasus-large-booksum-20k"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "Shushant/biobert-v1.1-biomedicalQuestionAnswering"
 	},
@@ -121460,11 +121455,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "eldor-97/MarianMix_en-10"
-	},
-	{
-		"private": false,
 		"modelId": "charsiu/zh_w2v2_tiny_fc_10ms_multicn"
 	},
 	{
@@ -121516,6 +121506,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/bigbird-pegasus-large-booksum-40k-K"
 	},
 	{
@@ -121537,5 +121528,9 @@
 	{
 		"private": false,
 		"modelId": "chinhon/bart-large-commentaries_hdwriter"
+	},
+	{
+		"private": false,
+		"modelId": "eldor-97/MarianMix_en-10"
 	}
 ]
