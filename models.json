@@ -121632,10 +121632,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "psyche/KoT5-paraphrase-generation"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "psyche/kobart-paraphrase-generation"
 	},
@@ -121663,5 +121659,15 @@
 	{
 		"private": false,
 		"modelId": "gorkemgoknar/wav2vec2-finetuned-lm-tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ml6team/robbert-dutch-base-toxic-comments"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Voxcroft/wav2vec2-large-xlsr-53-amharic-lm"
 	}
 ]
