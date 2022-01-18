@@ -121917,6 +121917,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "CrisLeaf/generador-de-historias-de-tolkien"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mhd-mst/pure-finetuning-final"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1_squad2.0"
 	}
 ]
