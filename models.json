@@ -122132,6 +122132,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/GPT-Neo-2.7B-AID"
 	},
 	{
@@ -122156,5 +122157,23 @@
 	{
 		"private": false,
 		"modelId": "revitalmarbel/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "giuliopaci/bert-base-italian-xxl-cased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "richiellei/Childe2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "imosnoi/md_inv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Viona/agriculture-sentence-transformer"
 	}
 ]
