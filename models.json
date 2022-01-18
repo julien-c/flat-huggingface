@@ -58827,6 +58827,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-large-xlsr-53-german"
 	},
 	{
@@ -79519,6 +79520,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -121897,6 +121899,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/byt5-large-finetuned-booksum"
+		"pipeline_tag": "summarization",
+		"modelId": "pszemraj/bigbird-pegasus-large-K-booksum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "tpri/DialoGPT-small-parry"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/T5-finetuned-VAST"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-base-squadv1-block-pruning-hybrid-filled-lt-nncf-57.92sparse-qat-lt"
+	},
+	{
+		"private": false,
+		"modelId": "CrisLeaf/generador-de-historias-de-tolkien"
 	}
 ]
