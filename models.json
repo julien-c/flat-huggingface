@@ -62435,16 +62435,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "gorkemgoknar/wav2vec2-finetuned-lm-tr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gorkemgoknar/wav2vec2-large-xlsr-53-turkish"
-	},
-	{
-		"private": false,
-		"modelId": "gorkemgoknar/xls-r-300m-tr"
 	},
 	{
 		"private": false,
@@ -110741,6 +110733,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
 	},
 	{
@@ -121971,5 +121964,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-hindi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Voxcroft/wav2vec2-xls-r-300m-wolof-lm"
 	}
 ]
