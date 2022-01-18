@@ -45533,6 +45533,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brandon25/deberta-base-finetuned-ner"
 	},
@@ -85601,11 +85606,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "lfcc/bert-base-pt-archive"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "lfcc/bert-large-pt-archive"
 	},
 	{
@@ -112519,7 +112519,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "fill-mask",
 		"modelId": "tal-yifat/injury-report-test"
 	},
 	{
@@ -122019,6 +122019,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "samuelmat19/distilbart-tos-summarizer-tosdr"
 	},
 	{
@@ -122081,22 +122082,35 @@
 	},
 	{
 		"private": false,
-		"modelId": "haotieu/vietnamese-summarizer"
-	},
-	{
-		"private": false,
 		"modelId": "deepdoctection/CASC_RCNN_R101_FPN_GN_PUBLAYNET"
 	},
 	{
 		"private": false,
-		"modelId": "Gianpe/it_textcat_umberto"
-	},
-	{
-		"private": false,
-		"modelId": "danasone/mbart-small-ru-en"
-	},
-	{
-		"private": false,
 		"modelId": "ml6team/distilbart-tos-summarizer-tosdr"
+	},
+	{
+		"private": false,
+		"modelId": "heerdemoglu/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "valeriazen/ruT5-base-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/gpt2-small-ipu"
+	},
+	{
+		"private": false,
+		"modelId": "haotieu/vietnamese-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "snoop2head/finbert-wechsel-korean"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "danasone/bart-small-ru-en"
 	}
 ]
