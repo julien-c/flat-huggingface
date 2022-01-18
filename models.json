@@ -95000,11 +95000,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "nbroad/feedback-bb-base-idpt-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "nbroad/feedback-lf-base-idpt"
 	},
 	{
@@ -95016,11 +95011,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nbroad/feedback-prize-bigbird-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "nbroad/lf-base-idpt-ner"
 	},
 	{
 		"private": false,
@@ -95156,10 +95146,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ncduy/opus-mt-en-ro-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
-		"modelId": "ncduy/opus-mt-en-vi-finetuned-en-to-vi"
 	},
 	{
 		"private": false,
@@ -121904,7 +121890,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
 		"modelId": "tpri/DialoGPT-small-parry"
 	},
 	{
@@ -121929,5 +121914,35 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "mattchurgin/wav2vec2-large-xls-r-300m-tr-mchurgin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ajanco/sr_roberta_oscar"
+	},
+	{
+		"private": false,
+		"modelId": "tpri/DialoGPT-small-parry2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_roberta_only_classfn_twostage_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "tpri/DialoGPT-small-parry3"
+	},
+	{
+		"private": false,
+		"modelId": "tpri/DialoGPT-small-parryh"
+	},
+	{
+		"private": false,
+		"modelId": "tpri/DialoGPT-small-p"
 	}
 ]
