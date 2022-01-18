@@ -63822,6 +63822,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hf-internal-testing/processor_with_lm"
 	},
 	{
@@ -117938,7 +117939,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text-generation",
 		"modelId": "vinko/shitposting_AI"
 	},
 	{
@@ -122006,5 +122007,10 @@
 	{
 		"private": false,
 		"modelId": "Xan/Hhhehe"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "chitra/finetuned-adversarial-paraphrasing-detector"
 	}
 ]
