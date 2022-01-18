@@ -8431,11 +8431,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Finnish-NLP/gpt2-finnish"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Finnish-NLP/roberta-large-finnish-v2"
 	},
@@ -122037,6 +122032,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "malloc/OpenNMT-py-English-German-Transformer"
 	},
 	{
@@ -122045,6 +122041,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "malloc/OpenNMT-py-German-English-2-layer-BiLSTM"
 	},
 	{
@@ -122134,15 +122131,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-base-nl2sql-5-1"
-	},
-	{
-		"private": false,
 		"modelId": "KoboldAI/GPT-Neo-2.7B-AID"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "pablouribe/beto-copus-overfitted"
+	},
+	{
+		"private": false,
+		"modelId": "valeriazen/ruT5-base-finetuned-plenka-chatbot-full"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "richiellei/Childe"
+	},
+	{
+		"private": false,
+		"modelId": "omoekan/marian-finetuned-yo-to-en"
 	}
 ]
