@@ -121948,6 +121948,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "dmiller1/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "tpri/DialoGPT-small-pa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_roberta_twostage_quadruplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-base-squadv1-pruneofa-90pc-bt-qat-lt"
 	}
 ]
