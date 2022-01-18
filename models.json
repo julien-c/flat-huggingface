@@ -82204,11 +82204,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "jordimas/julibert"
-	},
-	{
-		"private": false,
 		"modelId": "jordn/thing"
 	},
 	{
@@ -122010,6 +122005,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "darkzara/results"
 	},
 	{
@@ -122056,5 +122052,14 @@
 	{
 		"private": false,
 		"modelId": "dandelin/vilt-b32-finetuned-flickr30k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "softcatala/julibert"
+	},
+	{
+		"private": false,
+		"modelId": "malloc/OpenNMT-py-English-German-Transformer"
 	}
 ]
