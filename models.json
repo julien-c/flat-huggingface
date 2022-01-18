@@ -121771,11 +121771,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "cuiqui/en_products_ner_cisco"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-cloned-model"
 	},
 	{
@@ -121862,6 +121857,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "baffo32/pyc2py_alpha"
 	},
 	{
@@ -121881,5 +121877,26 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "mimi/Waynehills_NLP_muti"
+	},
+	{
+		"private": false,
+		"modelId": "AT/distilbert-base-cased-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "huggingtweets/dankogai-hirox246-syakkin_dama"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/byt5-large-finetuned-booksum"
 	}
 ]
