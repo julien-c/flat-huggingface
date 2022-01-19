@@ -115491,6 +115491,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/distill-pegasus-CompMath"
+	},
+	{
+		"private": false,
 		"modelId": "ptnv-s/biobert_v1.1_pubmed_squad_v2-finetuned-squad"
 	},
 	{
@@ -120546,6 +120551,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "baaastien/xls-r-ab-test"
+	},
+	{
+		"private": false,
 		"modelId": "202015004/wav2vec2-base-timit-trial_by_SHREYA"
 	},
 	{
@@ -121131,11 +121141,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Xenova/sponsorblock-small_v2022.01.19"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "YasinShihab/asr-en-bn-test"
 	},
@@ -121387,10 +121392,6 @@
 	{
 		"private": false,
 		"modelId": "ddj/minisiri.bert"
-	},
-	{
-		"private": false,
-		"modelId": "deepdoctection/CASC_RCNN_R101_FPN_GN_PUBLAYNET"
 	},
 	{
 		"private": false,
@@ -122054,11 +122055,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/distill-pegasus-CompMath"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/led-base-16384-finetuned-booksum"
 	},
@@ -122425,6 +122421,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v2"
 	},
 	{
@@ -122457,6 +122454,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "eldritch-axolotl/Rick"
+	},
+	{
+		"private": false,
+		"modelId": "Gianpe/it_textcat_umb"
+	},
+	{
+		"private": false,
+		"modelId": "chitra/finetuned-adversarial-paraphrase-modell"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Xenova/sponsorblock-small"
 	}
 ]
