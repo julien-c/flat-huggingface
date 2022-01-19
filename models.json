@@ -13565,6 +13565,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DanL/scientific-challenges-and-directions"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Geotrend/bert-base-ur-cased"
 	},
@@ -13784,11 +13789,6 @@
 	{
 		"private": false,
 		"modelId": "AdapterHub/bert-base-uncased-pf-ud_en_ewt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DanL/scientific-challenges-and-directions"
 	},
 	{
 		"private": false,
@@ -31341,6 +31341,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "arampacha/wav2vec2-large-xlsr-ukrainian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "baffo32/pyc2py_alpha"
 	},
 	{
 		"private": false,
@@ -58641,6 +58646,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zhuqing/roberta-base-uncased-netmums-classification-intersection"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Xenova/sponsorblock-small"
 	},
 	{
 		"private": false,
@@ -120556,6 +120566,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "chitra/finetuned-adversarial-paraphrase-modell"
+	},
+	{
+		"private": false,
 		"modelId": "202015004/wav2vec2-base-timit-trial_by_SHREYA"
 	},
 	{
@@ -121242,11 +121257,6 @@
 	{
 		"private": false,
 		"modelId": "ayameRushia/bert-base-indonesian-1.5G-finetuned-indonlu-smsa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "baffo32/pyc2py_alpha"
 	},
 	{
 		"private": false,
@@ -122460,14 +122470,5 @@
 	{
 		"private": false,
 		"modelId": "Gianpe/it_textcat_umb"
-	},
-	{
-		"private": false,
-		"modelId": "chitra/finetuned-adversarial-paraphrase-modell"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Xenova/sponsorblock-small"
 	}
 ]
