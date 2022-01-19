@@ -122689,11 +122689,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "akadriu/AL_LM-colab"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Sonny/dummy-model2"
 	},
 	{
@@ -122702,10 +122698,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "akadriu/AL_LM"
+	},
+	{
+		"private": false,
 		"modelId": "comacrae/eda-paraphrase-unsupervised"
 	},
 	{
 		"private": false,
-		"modelId": "akadriu/AL_LM"
+		"modelId": "comacrae/test"
+	},
+	{
+		"private": false,
+		"modelId": "unfairbanks/speech-test"
 	}
 ]
