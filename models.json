@@ -7374,10 +7374,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Duc/distilbert-base-uncased-finetuned-ner"
 	},
@@ -48084,6 +48080,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "chitra/finetuned-adversarial-paraphrase-model"
 	},
 	{
@@ -122380,10 +122377,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-colab-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM"
 	},
@@ -122391,5 +122384,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI"
+	},
+	{
+		"private": false,
+		"modelId": "Hyeon/distilbert-base-uncased-finetuned-cola"
 	}
 ]
