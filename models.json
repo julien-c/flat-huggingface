@@ -10434,6 +10434,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Harshveer/autonlp-formality_scoring_2-32597818"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Harveenchadha/indictrans"
 	},
@@ -42150,6 +42155,11 @@
 	{
 		"private": false,
 		"modelId": "arogyaGurkha/koelectra-base-v3-finetuned-korquad-finetuned-squad_kor_v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "arpanghoshal/EmoRoBERTa"
 	},
 	{
 		"private": false,
@@ -122361,10 +122371,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "chitra/finetuned-adversarial-paraphrase-model-test"
 	},
 	{
 		"private": false,
 		"modelId": "wesam266/wav2vec2-large-xlsr-53-english_sub"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-colab-v2"
+	},
+	{
+		"private": false,
+		"modelId": "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM"
 	}
 ]
