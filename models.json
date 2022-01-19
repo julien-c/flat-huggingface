@@ -122243,11 +122243,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/distill-pegasus-xsum-16-4-finetuned-competition_math"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_hier_triplet_0.1_epochs_1_shard_1_squad2.0"
 	},
@@ -122303,5 +122298,15 @@
 	{
 		"private": false,
 		"modelId": "VictoriaLoppyisamazing8787/Victoria"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/distill-pegasus-CompMath"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/rotandgrow"
 	}
 ]
