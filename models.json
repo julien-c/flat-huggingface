@@ -59064,6 +59064,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "maximedb/polyfaq_cross"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "mbeukman/xlm-roberta-base-finetuned-igbo-finetuned-ner-igbo"
 	},
@@ -75192,10 +75197,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "facebook/contriever-sup"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "fadhilarkan/distilbert-base-uncased-finetuned-cola-3"
 	},
@@ -90345,10 +90346,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "explosion/ro_udv25_romaniannonstandard_trf"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/contriever-unsup"
 	},
 	{
 		"private": false,
@@ -122495,5 +122492,17 @@
 	{
 		"private": false,
 		"modelId": "TheBeast/DialoGPT-small-southpark"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/contriever"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/contriever-msmarco"
+	},
+	{
+		"private": false,
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian-colab"
 	}
 ]
