@@ -95741,11 +95741,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-align_tm_base-epoch3-20220119"
-	},
-	{
-		"private": false,
 		"modelId": "ChrisP/xlm-roberta-base-finetuned-marc-en"
 	},
 	{
@@ -107360,6 +107355,11 @@
 	{
 		"private": false,
 		"modelId": "eeeee/L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "efederici/it5-base-Summarization"
 	},
 	{
 		"private": false,
@@ -122442,6 +122442,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/testing-with-label-t5-finetuned-xsum"
 	},
 	{
@@ -122463,5 +122464,13 @@
 	{
 		"private": false,
 		"modelId": "chinhon/bart-large-chinese-cnhdwriter"
+	},
+	{
+		"private": false,
+		"modelId": "Gianpe/it_text_cat_umberto"
+	},
+	{
+		"private": false,
+		"modelId": "versae/roberta-base-ncc-512"
 	}
 ]
