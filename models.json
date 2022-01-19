@@ -16931,6 +16931,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Finnish-NLP/gpt2-finnish"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-de-cs"
 	},
@@ -76492,6 +76497,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-shampoo-exp1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence"
 	},
@@ -122271,11 +122281,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-shampoo-exp1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-base-ncc-shampoo-exp2"
 	},
 	{
@@ -122429,5 +122434,25 @@
 	{
 		"private": false,
 		"modelId": "wesam266/wav2vec2-large-xlsr-53-en"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/todelete"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v2"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/testing-with-label-t5-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/contriever-unsup"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/contriever-sup"
 	}
 ]
