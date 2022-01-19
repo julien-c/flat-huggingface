@@ -30496,11 +30496,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "richielleisart/childe"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "seanbenhur/tanglish-offensive-language-identification"
 	},
@@ -49539,11 +49534,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "prajwalcr/poetry-fear_gpt2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/byt5-small-finetuned-jfleg"
 	},
 	{
 		"private": false,
@@ -112951,10 +112941,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kjackson/test-model"
-	},
-	{
-		"private": false,
 		"modelId": "kjoshi12/test"
 	},
 	{
@@ -122463,6 +122449,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-Common-Voice_plus_TTS-Dataset-russian"
+	},
+	{
+		"private": false,
 		"modelId": "JoshuaGhost/counter_assist"
 	},
 	{
@@ -122531,6 +122522,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-TTS-Dataset-plus-data-augmentation-portuguese"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "brad1141/bert-finetuned-ner"
 	},
@@ -122588,5 +122584,21 @@
 	{
 		"private": false,
 		"modelId": "antoinegk/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-hindi-colab"
+	},
+	{
+		"private": false,
+		"modelId": "richielleisart/Childe"
+	},
+	{
+		"private": false,
+		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-TTS-Dataset-plus-data-augmentation-russian"
+	},
+	{
+		"private": false,
+		"modelId": "kjackson/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
