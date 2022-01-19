@@ -15199,7 +15199,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "yhavinga/t5-v1.1-base-dutch-cnn-test"
 	},
 	{
@@ -101885,6 +101885,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ThomasSimonini/ppo-LunarLander-v2"
+	},
+	{
+		"private": false,
 		"modelId": "ThomasSimonini/stable-baselines3-ppo-CartPole-v1"
 	},
 	{
@@ -120248,6 +120252,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "zeping/codeparrot"
+	},
+	{
+		"private": false,
 		"modelId": "zeref945/wav2vec2-large-xlsr-hindi"
 	},
 	{
@@ -120496,16 +120505,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Hyeon/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v1"
 	},
 	{
 		"private": false,
 		"modelId": "mikeee/model_s"
-	},
-	{
-		"private": false,
-		"modelId": "Gianpe/it_textcat_umberto"
 	},
 	{
 		"private": false,
@@ -121042,10 +121052,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Taekyoon/v0.41_uniclova"
-	},
-	{
-		"private": false,
-		"modelId": "ThomasSimonini/ppo-LunarLander-v2"
 	},
 	{
 		"private": false,
@@ -122363,11 +122369,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "zeping/codeparrot"
-	},
-	{
-		"private": false,
 		"modelId": "zjj/SwahiliBert"
 	},
 	{
@@ -122402,10 +122403,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI"
-	},
-	{
-		"private": false,
-		"modelId": "Hyeon/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -122454,5 +122451,17 @@
 	{
 		"private": false,
 		"modelId": "facebook/contriever-sup"
+	},
+	{
+		"private": false,
+		"modelId": "datashadi/wav2vec2-large-xls-r-300m-fa-colab"
+	},
+	{
+		"private": false,
+		"modelId": "pere/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/bart-large-chinese-cnhdwriter"
 	}
 ]
