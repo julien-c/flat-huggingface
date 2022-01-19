@@ -89969,6 +89969,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/byt5-small-finetuned-jfleg"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pysentimiento/robertuito-base-uncased-200k"
 	},
@@ -120541,10 +120546,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "baaastien/xls-r-ab-test"
-	},
-	{
-		"private": false,
 		"modelId": "202015004/wav2vec2-base-timit-trial_by_SHREYA"
 	},
 	{
@@ -122050,11 +122051,6 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/bigbird-pegasus-large-booksum-40k-K"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/byt5-small-finetuned-jfleg"
 	},
 	{
 		"private": false,
