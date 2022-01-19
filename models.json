@@ -122667,10 +122667,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-en-ru-finetuned-en-to-ru"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Xenova/sponsorblock-base"
 	},
 	{
@@ -122732,5 +122734,18 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akadriu/AL_LM2"
+	},
+	{
+		"private": false,
+		"modelId": "MickyMike/LineVul"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "akadriu/AL_LM3"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/bigbird-pegasus-large-bigpatent-finetuned-booksum-finetuned-booksum"
 	}
 ]
