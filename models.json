@@ -52747,21 +52747,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "diiogo/ner-diabert-base"
-	},
-	{
-		"private": false,
 		"modelId": "diiogo/roberta-test"
 	},
 	{
 		"private": false,
 		"modelId": "diiogo/rt-32k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diiogo/test-32"
 	},
 	{
 		"private": false,
@@ -121993,6 +121983,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "chitra/finetune-paraphrase-model"
 	},
 	{
@@ -122328,6 +122319,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "jamestop00/DialoGPT-spike-medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Suva/uptag-url-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/wmascen"
+	},
+	{
+		"private": false,
+		"modelId": "viveksingh120300/vivek-tech-model"
 	}
 ]
