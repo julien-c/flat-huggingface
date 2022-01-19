@@ -122474,8 +122474,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/Points"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-Common-Voice_plus_TTS-Dataset-russian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-TTS-Dataset-plus-data-augmentation-portuguese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-TTS-Dataset-plus-data-augmentation-russian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Gianpe/it_text_cat_umberto"
+	},
+	{
+		"private": false,
+		"modelId": "Hakun/TestModeel"
 	},
 	{
 		"private": false,
@@ -122483,7 +122507,27 @@
 	},
 	{
 		"private": false,
+		"modelId": "Kyon/K"
+	},
+	{
+		"private": false,
+		"modelId": "Kyon/Kyon"
+	},
+	{
+		"private": false,
+		"modelId": "ThatZoeGamer/tzgchatbot2.0"
+	},
+	{
+		"private": false,
+		"modelId": "TheBeast/DialoGPT-small-southpark"
+	},
+	{
+		"private": false,
 		"modelId": "ThomasSimonini/ppo-LunarLander-v222"
+	},
+	{
+		"private": false,
+		"modelId": "antoinegk/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -122492,7 +122536,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "brad1141/bert-finetuned-ner"
+	},
+	{
+		"private": false,
 		"modelId": "davanstrien/distilroberta-base-finetuned-blbooks-1700s"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "dehio/german-qg-t5-e2e-quad"
+	},
+	{
+		"private": false,
+		"modelId": "dodofk/IM_CAMP"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/contriever-msmarco"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/contriever"
 	},
 	{
 		"private": false,
@@ -122504,41 +122570,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "ipekuyguner/wav2vec2-large-xlsr-turkish-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "TheBeast/DialoGPT-small-southpark"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/contriever"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/contriever-msmarco"
-	},
-	{
-		"private": false,
-		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian-colab"
-	},
-	{
-		"private": false,
-		"modelId": "timbuckley/try-huggingface"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "lkh4317/KoGPT2_novel"
-	},
-	{
-		"private": false,
-		"modelId": "Hakun/TestModeel"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "dehio/german-qg-t5-e2e-quad"
+		"modelId": "hrdipto/wav2vec2-xls-r-tf-left-right-trainer"
 	},
 	{
 		"private": false,
@@ -122547,13 +122579,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-TTS-Dataset-plus-data-augmentation-portuguese"
+		"modelId": "ipekuyguner/wav2vec2-large-xlsr-turkish-demo-colab"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "brad1141/bert-finetuned-ner"
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian-colab"
+	},
+	{
+		"private": false,
+		"modelId": "kjackson/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "lkh4317/KoGPT2_novel"
 	},
 	{
 		"private": false,
@@ -122562,33 +122601,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "ThatZoeGamer/tzgchatbot2.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "BigSalmon/Points"
-	},
-	{
-		"private": false,
-		"modelId": "hrdipto/wav2vec2-xls-r-tf-left-right-trainer"
-	},
-	{
-		"private": false,
-		"modelId": "rdpatilds/distilbert-finetuned-imdb"
-	},
-	{
-		"private": false,
-		"modelId": "novice03/swin_base_patch4_window7_224"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Gianpe/it_text_cat_umberto"
-	},
-	{
-		"private": false,
-		"modelId": "novice03/swin_base_patch4_window7_224_in22k"
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-hindi-colab"
 	},
 	{
 		"private": false,
@@ -122596,7 +122609,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "novice03/swin-tiny-patch4-window7-224"
+		"modelId": "novice03/swin-large-patch4-window12-384-in22k"
 	},
 	{
 		"private": false,
@@ -122604,15 +122617,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "novice03/swin-large-patch4-window12-384-in22k"
+		"modelId": "novice03/swin-tiny-patch4-window7-224"
 	},
 	{
 		"private": false,
-		"modelId": "antoinegk/distilbert-base-uncased-finetuned-ner"
+		"modelId": "novice03/swin_base_patch4_window7_224"
 	},
 	{
 		"private": false,
-		"modelId": "nimrah/wav2vec2-large-xls-r-300m-hindi-colab"
+		"modelId": "novice03/swin_base_patch4_window7_224_in22k"
+	},
+	{
+		"private": false,
+		"modelId": "rdpatilds/distilbert-finetuned-imdb"
 	},
 	{
 		"private": false,
@@ -122621,23 +122638,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-TTS-Dataset-plus-data-augmentation-russian"
-	},
-	{
-		"private": false,
-		"modelId": "kjackson/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "dodofk/IM_CAMP"
-	},
-	{
-		"private": false,
-		"modelId": "Kyon/Kyon"
-	},
-	{
-		"private": false,
-		"modelId": "Kyon/K"
+		"modelId": "timbuckley/try-huggingface"
 	}
 ]
