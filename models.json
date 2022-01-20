@@ -66860,6 +66860,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "alecmullen/autonlp-group-classification-441411446"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "alexrfelicio/t5-small-finetuned128-en-to-de"
 	},
@@ -114820,6 +114825,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "mattchurgin/bert-finetuned-ner"
 	},
 	{
@@ -123392,5 +123398,13 @@
 	{
 		"private": false,
 		"modelId": "milyiyo/roberta-base-bne-finetuned-amazon-review"
+	},
+	{
+		"private": false,
+		"modelId": "wesam266/wav2vec2-large-xlsr-53-eng"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/distilbert-base-uncased-finetuned-imdb-accelerate"
 	}
 ]
