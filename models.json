@@ -38051,6 +38051,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/roberta-base-pf-conll2003"
 	},
@@ -40066,6 +40071,16 @@
 	{
 		"private": false,
 		"modelId": "zharry29/step_benchmark_roberta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -42512,6 +42527,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zitterbewegung/DialoGPT-medium-ja"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -96371,8 +96391,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "akadriu/AL_LM1"
+		"modelId": "akadriu/AL_LM2"
 	},
 	{
 		"private": false,
@@ -102727,6 +102746,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Rocketknight1/bert-base-cased-finetuned-wikitext2"
 	},
 	{
@@ -123247,6 +123267,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "TomW/TOMFINSEN"
 	},
 	{
@@ -123292,5 +123313,10 @@
 	{
 		"private": false,
 		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "hugo/byt5-mono-pt-v1"
 	}
 ]
