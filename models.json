@@ -93723,7 +93723,13 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_1_squad2.0"
 	},
 	{
 		"private": false,
@@ -123193,6 +123199,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sarraf/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -123211,11 +123218,6 @@
 	{
 		"private": false,
 		"modelId": "steinskeeper/dannyboi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "tomasff/my_model_1"
 	},
 	{
 		"private": false,
@@ -123327,6 +123329,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kingabzpro/wav2vec2-large-xlsr-53-urdu"
 	},
 	{
@@ -123340,5 +123343,9 @@
 	{
 		"private": false,
 		"modelId": "radhakri119/wav2vec2-base-timit-demo-colab_aug"
+	},
+	{
+		"private": false,
+		"modelId": "gr-b/gai-gfpgan"
 	}
 ]
