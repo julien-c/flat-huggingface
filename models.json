@@ -122893,7 +122893,51 @@
 	},
 	{
 		"private": false,
+		"modelId": "Aleksandra/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "DeepPavlov/distilrubert-small-cased-conversational"
+	},
+	{
+		"private": false,
 		"modelId": "DivyanshuSheth/T5-Seq2Seq-Final"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Gigworks/wav2vec-stt-ko"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/demo-hf-CartPole-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Vasanth/t5-news-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "aslijaniya/vit-base-patch16-224-in21k-euroSat"
+	},
+	{
+		"private": false,
+		"modelId": "cardiffnlp/twitter-roberta-base-2019"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-turkish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "hrdipto/wav2vec2-xls-r-tf-left-right-shuru"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/chickenhalf"
 	},
 	{
 		"private": false,
@@ -122906,12 +122950,99 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jackaduma/SecRoBERTa"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-checkpoint-7"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/test-with-label-sep-es-t5-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kresnik/wav2vec2-large-xlsr-korean"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ml6team/distilbert-base-dutch-cased-toxic-comments"
+	},
+	{
+		"private": false,
+		"modelId": "mptrigo/MarianMT-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mptrigo/run1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "mrp/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "nano/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "nntadotzip/bert-base-cased-IUChatbot-ontologyDts"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/ppo-LunarLander-v2"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/my-test-repo"
+	},
+	{
+		"private": false,
+		"modelId": "pitehu/T5_NER_CONLL_EXT5"
+	},
+	{
+		"private": false,
+		"modelId": "porpaul/distilbert-base-uncased-finetuned-cola2"
+	},
+	{
+		"private": false,
+		"modelId": "porpaul/test2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ristekcsui/bert-base-hs"
 	},
 	{
 		"private": false,
+		"modelId": "robinq/bert-base-swedish-cased-finetuned-boolq"
+	},
+	{
+		"private": false,
+		"modelId": "sb3/demo-hf-CartPole-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512c"
+	},
+	{
+		"private": false,
 		"modelId": "widyanto/bert-base-hs"
+	},
+	{
+		"private": false,
+		"modelId": "ykli/clip-roberta-base"
 	},
 	{
 		"private": false,
@@ -122925,134 +123056,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "hrdipto/wav2vec2-xls-r-tf-left-right-shuru"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/chickenhalf"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "mrp/bert-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "philschmid/my-test-repo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "ml6team/distilbert-base-dutch-cased-toxic-comments"
-	},
-	{
-		"private": false,
-		"modelId": "nntadotzip/bert-base-cased-IUChatbot-ontologyDts"
-	},
-	{
-		"private": false,
-		"modelId": "sb3/demo-hf-CartPole-v1"
-	},
-	{
-		"private": false,
-		"modelId": "DeepPavlov/distilrubert-small-cased-conversational"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Gigworks/wav2vec-stt-ko"
-	},
-	{
-		"private": false,
-		"modelId": "aslijaniya/vit-base-patch16-224-in21k-euroSat"
-	},
-	{
-		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-turkish"
-	},
-	{
-		"private": false,
-		"modelId": "ThomasSimonini/demo-hf-CartPole-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Vasanth/t5-news-summarization"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "jackaduma/SecRoBERTa"
-	},
-	{
-		"private": false,
-		"modelId": "jiobiala24/wav2vec2-base-checkpoint-7"
-	},
-	{
-		"private": false,
-		"modelId": "mptrigo/MarianMT-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512c"
-	},
-	{
-		"private": false,
-		"modelId": "porpaul/distilbert-base-uncased-finetuned-cola2"
-	},
-	{
-		"private": false,
-		"modelId": "nano/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "mptrigo/run1"
-	},
-	{
-		"private": false,
-		"modelId": "pitehu/T5_NER_CONLL_EXT5"
-	},
-	{
-		"private": false,
-		"modelId": "ykli/clip-roberta-base"
-	},
-	{
-		"private": false,
-		"modelId": "porpaul/test2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kresnik/wav2vec2-large-xlsr-korean"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/test-with-label-sep-es-t5-finetuned"
-	},
-	{
-		"private": false,
-		"modelId": "robinq/bert-base-swedish-cased-finetuned-boolq"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "cardiffnlp/twitter-roberta-base-2019"
-	},
-	{
-		"private": false,
-		"modelId": "Aleksandra/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "osanseviero/ppo-LunarLander-v2"
+		"modelId": "GeniusVoice/bot-selector"
 	}
 ]
