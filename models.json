@@ -52906,11 +52906,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "NbAiLab/t5-des"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_NCC_small_flax_stream"
 	},
@@ -121252,6 +121247,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ucberkeley-dlab/hate-measure-roberta-large"
 	},
 	{
@@ -122933,6 +122929,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "csikasote/wav2vec2-large-xls-r-300m-turkish"
 	},
 	{
@@ -123187,5 +123184,14 @@
 	{
 		"private": false,
 		"modelId": "Chizuru/opus-mt-ja-en-finetuned-align_tm_base-epoch3_1-20220121"
+	},
+	{
+		"private": false,
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-otameshi-20220121"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ohtake-20220121"
 	}
 ]
