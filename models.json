@@ -2273,6 +2273,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "LiqiangXiao/ConvSearch_QU"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "yjernite/retribert-base-uncased"
 	},
@@ -2309,11 +2314,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vblagoje/bert-english-uncased-finetuned-pos"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "LiqiangXiao/ConvSearch_QU"
 	},
 	{
 		"private": false,
@@ -17854,6 +17854,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "w11wo/javanese-gpt2-small-imdb-classifier"
 	},
@@ -19602,11 +19607,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "shahrukhx01/distilbart-cnn-12-6-text2sql"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
 	},
 	{
 		"private": false,
@@ -32869,6 +32869,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "aviator-neural/mbart_jokes"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "baykenney/bert-large-gpt2detector-random"
 	},
@@ -33681,11 +33686,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "anton-l/megatron-11b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "aviator-neural/mbart_jokes"
 	},
 	{
 		"private": false,
@@ -35217,6 +35217,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "echarlaix/distilbert-base-uncased-sst2-magnitude-pruning-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "eldritch-axolotl/Rick"
 	},
 	{
 		"private": false,
@@ -71764,6 +71769,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-shampoo-exp1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence"
 	},
@@ -80307,11 +80317,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "veronica320/SPTE_roberta-large-mnli_all"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-shampoo-exp1"
 	},
 	{
 		"private": false,
@@ -95856,6 +95861,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-base-ncc-shampoo-exp2"
 	},
 	{
@@ -95929,6 +95939,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhenghuabin/dummy_model"
+	},
+	{
+		"private": false,
+		"modelId": "novice03/swin-large-patch4-window7-224"
 	},
 	{
 		"private": false,
@@ -121000,11 +121014,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512"
-	},
-	{
-		"private": false,
 		"modelId": "verycuriousotter/asdf1"
 	},
 	{
@@ -122478,6 +122487,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "PSW/bart-base-samsum"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/Points"
 	},
@@ -122862,10 +122876,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "novice03/swin-large-patch4-window7-224"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sungyub/mrpc"
 	},
@@ -122912,10 +122922,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "PSW/bart-base-samsum"
+		"modelId": "ThomasSimonini/test-CartPole-v1"
 	},
 	{
 		"private": false,
-		"modelId": "ThomasSimonini/test-CartPole-v1"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111"
 	}
 ]
