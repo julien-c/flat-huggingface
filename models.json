@@ -67222,6 +67222,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "beomus/layoutxlm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "berkergurcay/10k-pretrained-bert-model"
 	},
@@ -91916,6 +91921,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-hindi"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ingridnc/t5-small-finetuned-fi-to-en"
 	},
@@ -95136,11 +95146,6 @@
 	{
 		"private": false,
 		"modelId": "imvladikon/charbert-roberta-wiki"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-hindi"
 	},
 	{
 		"private": false,
@@ -106475,11 +106480,6 @@
 	{
 		"private": false,
 		"modelId": "beomi/exKcBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "beomus/layoutxlm"
 	},
 	{
 		"private": false,
@@ -122474,6 +122474,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "pszemraj/byt5-small-finetuned-math_qa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/Points"
 	},
@@ -122757,10 +122761,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/byt5-small-finetuned-math_qa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "D3xter1922/electra-base-discriminator-finetuned-cola"
 	},
@@ -122907,6 +122907,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/testing-with-label-sep-es-t5-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "PSW/bart-base-samsum"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/test-CartPole-v1"
 	}
 ]
