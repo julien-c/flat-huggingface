@@ -24701,6 +24701,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-to-text",
 		"modelId": "kha-white/manga-ocr-base"
 	},
 	{
@@ -122903,14 +122904,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-align_tm_base-epoch3-20220121"
-	},
-	{
-		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-align_tm_base-epoch3_1-20220121"
-	},
-	{
-		"private": false,
 		"modelId": "Chizuru/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220121"
 	},
 	{
@@ -122933,15 +122926,6 @@
 	{
 		"private": false,
 		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base_epoch3_210121"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ohtake-20220121"
-	},
-	{
-		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-otameshi-20220121"
 	},
 	{
 		"private": false,
@@ -123388,6 +123372,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v4"
 	},
 	{
@@ -123410,5 +123395,18 @@
 	{
 		"private": false,
 		"modelId": "lgris/seasr-pt_2022_base_10k_8khz"
+	},
+	{
+		"private": false,
+		"modelId": "Marius/bert-base-german-cased-BerlinBert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/anticarbons"
+	},
+	{
+		"private": false,
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-epoch4-20220121"
 	}
 ]
