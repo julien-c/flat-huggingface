@@ -106103,10 +106103,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ayameRushia/bert-base-indonesian-1.5G-finetuned-indonlu-smsa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "aychang/bert-large-cased-whole-word-masking-finetuned-squad"
 	},
@@ -122852,7 +122848,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "ericzhou/DialoGPT-Medium-Rick"
 	},
 	{
@@ -122873,10 +122869,36 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sungyub/mrpc"
 	},
 	{
 		"private": false,
 		"modelId": "Chizuru/opus-mt-ja-en-finetuned-otameshi-20220120"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/clairvoyant-phase2-finetuned-booksum"
+	},
+	{
+		"private": false,
+		"modelId": "novice03/swin-large-patch4-window7-224-in22k"
+	},
+	{
+		"private": false,
+		"modelId": "novice03/swin-large-patch4-window12-384"
+	},
+	{
+		"private": false,
+		"modelId": "siriuslea/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "ericzhou/DialoGPT-Medium-Rick_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sungyub/wnli"
 	}
 ]
