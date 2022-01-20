@@ -80564,6 +80564,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1_squad2.0"
 	},
 	{
@@ -93742,6 +93743,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_1_squad2.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1_squad2.0"
 	},
 	{
 		"private": false,
@@ -123363,15 +123369,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "gr-b/gai-gfpgan"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "ronanki/labse_cased_20-01-2022"
 	},
 	{
 		"private": false,
 		"modelId": "Crumped/imdb-simpleRNN"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v3"
 	}
 ]
