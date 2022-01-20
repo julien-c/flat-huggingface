@@ -122949,7 +122949,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text-classification",
 		"modelId": "ristekcsui/bert-base-hs"
 	},
 	{
@@ -122972,6 +122972,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-base-ncc-512b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/chickenhalf"
 	}
 ]
