@@ -123236,10 +123236,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "tomasff/my_model_1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "nadzma/finetuned-mBART-UK-financial-summarization"
 	},
 	{
@@ -123253,5 +123255,19 @@
 	{
 		"private": false,
 		"modelId": "anuragshas/wav2vec2-large-xls-r-300m-hi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "LegolasTheElf/wav2vec2-large-tedtalk_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jesseD/worst_model_ever"
+	},
+	{
+		"private": false,
+		"modelId": "hath/18817595640"
 	}
 ]
