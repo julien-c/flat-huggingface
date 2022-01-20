@@ -122983,10 +122983,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Vasanth/t5-news-summarizer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Vasanth/t5-news-summarization"
 	},
@@ -123035,6 +123031,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kresnik/wav2vec2-large-xlsr-korean"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/test-with-label-sep-es-t5-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "robinq/bert-base-swedish-cased-finetuned-boolq"
 	}
 ]
