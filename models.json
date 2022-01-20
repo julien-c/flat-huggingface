@@ -42699,6 +42699,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Finnish-NLP/convbert-base-finnish"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "FirmanBr/chibibot"
 	},
@@ -122952,11 +122957,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Gianpe/en_text_cat_trainit"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Gigworks/wav2vec-stt-ko"
 	},
@@ -123282,12 +123282,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Sora4762/DialoGPT-small-naruto"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/led-large-16384-finetuned-booksum-finetuned-booksum"
 	},
 	{
 		"private": false,
@@ -123303,6 +123299,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Gianpe/en_textcat_emotion_umberto"
+	},
+	{
+		"private": false,
+		"modelId": "DeepChem/ChemBERTa-10M-MTR"
+	},
+	{
+		"private": false,
+		"modelId": "DeepChem/ChemBERTa-77M-MTR"
 	}
 ]
