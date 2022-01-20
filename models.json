@@ -122816,10 +122816,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-paraphrase-unsupervised"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ericzhou/DialoGPT-medium-elon"
 	},
 	{
@@ -122838,5 +122840,15 @@
 	{
 		"private": false,
 		"modelId": "fransoa/DialoGPT-small-troska"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abdelkader/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "anzorq/kbd-ru-t5-small-uncased_4K"
 	}
 ]
