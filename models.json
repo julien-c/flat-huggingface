@@ -5295,6 +5295,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "DeepPavlov/distilrubert-tiny-cased-conversational"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "huggingface/distilbert-base-uncased-finetuned-mnli"
 	},
@@ -123352,6 +123356,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "ronanki/labse_cased_20-01-2022"
+	},
+	{
+		"private": false,
+		"modelId": "Crumped/imdb-simpleRNN"
 	}
 ]
