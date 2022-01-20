@@ -96391,7 +96391,13 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akadriu/AL_LM2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "akadriu/AL_LM3"
 	},
 	{
 		"private": false,
@@ -123318,5 +123324,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "hugo/byt5-mono-pt-v1"
+	},
+	{
+		"private": false,
+		"modelId": "akreal/espnet2_swbd_da_hubert_conformer"
 	}
 ]
