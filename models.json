@@ -74080,11 +74080,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/cov-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aviator-neural/bert-base-uncased-sst2"
 	},
@@ -122991,6 +122986,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Vasanth/t5-news-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "jackaduma/SecRoBERTa"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-checkpoint-7"
 	}
 ]
