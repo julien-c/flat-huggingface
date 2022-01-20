@@ -110402,20 +110402,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "fransoa/DialoGPT-small-troska"
-	},
-	{
-		"private": false,
 		"modelId": "fransoa/kauka"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "fransoa/oa"
-	},
-	{
-		"private": false,
-		"modelId": "fransoa/troska"
 	},
 	{
 		"private": false,
@@ -123210,6 +123202,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Mirjam/test-finetuned"
 	},
 	{
@@ -123246,10 +123239,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "fransoa/DialoGPT-small-joshua"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "milyiyo/distilbert-base-uncased-finetuned-amazon-review"
 	},
 	{
@@ -123269,5 +123259,9 @@
 	{
 		"private": false,
 		"modelId": "hath/18817595640"
+	},
+	{
+		"private": false,
+		"modelId": "sarraf/distilbert-base-uncased-finetuned-cola"
 	}
 ]
