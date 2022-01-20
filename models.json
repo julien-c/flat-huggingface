@@ -94636,16 +94636,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "akadriu/AL_LM1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "akadriu/AL_LM2"
-	},
-	{
-		"private": false,
 		"modelId": "alexaapo/greek_legal_bert_v1"
 	},
 	{
@@ -122951,6 +122941,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "mrp/bert-finetuned-squad"
 	},
 	{
@@ -122981,5 +122972,9 @@
 	{
 		"private": false,
 		"modelId": "aslijaniya/vit-base-patch16-224-in21k-euroSat"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-turkish"
 	}
 ]
