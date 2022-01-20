@@ -37048,11 +37048,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_10"
 	},
 	{
@@ -39064,16 +39059,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Anamika/autonlp-fa-473312409"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1"
 	},
 	{
 		"private": false,
@@ -41330,11 +41315,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
-		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1"
 	},
 	{
@@ -42696,11 +42676,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Fidlobabovic/beta-kvantorium-simple-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Finnish-NLP/convbert-base-finnish"
 	},
 	{
 		"private": false,
@@ -71966,11 +71941,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1_squad2.0"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_0.1_epochs_1_shard_1"
 	},
@@ -87951,11 +87921,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1_squad2.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1_squad2.0"
 	},
 	{
@@ -87981,22 +87946,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "AnonymousSub/rule_based_roberta_bert_quadruplet_epochs_1_shard_1_squad2.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1_squad2.0"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_0.1_epochs_1_shard_1_squad2.0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1_squad2.0"
 	},
 	{
 		"private": false,
@@ -123287,6 +123242,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "nntadotzip/xlnet-base-cased-IUChatbot-ontologyDts-BertPretrainedTokenizerFast"
 	},
 	{
@@ -123309,5 +123265,32 @@
 	{
 		"private": false,
 		"modelId": "DeepChem/ChemBERTa-77M-MTR"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "DeepChem/ChemBERTa-5M-MLM"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "DeepChem/ChemBERTa-10M-MLM"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "DeepChem/ChemBERTa-77M-MLM"
+	},
+	{
+		"private": false,
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian2-colab"
+	},
+	{
+		"private": false,
+		"modelId": "kingabzpro/wav2vec2-large-xls-r-300m-urdu"
+	},
+	{
+		"private": false,
+		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
 	}
 ]
