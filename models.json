@@ -117768,6 +117768,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "voice-activity-detection",
+		"modelId": "pyannote/speaker-segmentation"
+	},
+	{
+		"private": false,
 		"modelId": "qfortier/image-retrieval-ny"
 	},
 	{
@@ -123105,10 +123110,48 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/xls-r-hindi"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "cardiffnlp/twitter-roberta-base-mar2021"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cardiffnlp/twitter-roberta-base-jun2021"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cardiffnlp/twitter-roberta-base-sep2021"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cardiffnlp/twitter-roberta-base-dec2021"
+	},
+	{
+		"private": false,
+		"modelId": "Aleksandra/herbert-base-cased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "luozhouyang/mlm-phonetics-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "cardiffnlp/twitter-roberta-base-2021-124m"
+	},
+	{
+		"private": false,
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base-epoch3-20220121"
+	},
+	{
+		"private": false,
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base_epoch3_2"
 	}
 ]
