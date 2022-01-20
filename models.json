@@ -115138,6 +115138,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "mrp/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -122804,6 +122805,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/testing-with-label-es-t5-finetuned-xsum"
 	},
 	{
@@ -122838,5 +122840,22 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-paraphrase-supervised"
+	},
+	{
+		"private": false,
+		"modelId": "Vasanth/t5-base-news-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "mattchurgin/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-unaugmented"
+	},
+	{
+		"private": false,
+		"modelId": "porpaul/distilbert-base-uncased-finetuned-cola"
 	}
 ]
