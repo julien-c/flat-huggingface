@@ -74080,6 +74080,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/cov-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aviator-neural/bert-base-uncased-sst2"
 	},
@@ -101684,10 +101689,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "NYTK/summarization-nol-bart-base-1024-hungarian"
-	},
-	{
-		"private": false,
 		"modelId": "NYTK/translation-marianmt-en-hu"
 	},
 	{
@@ -122969,6 +122970,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Gigworks/wav2vec-stt-ko"
 	},
 	{
@@ -122986,5 +122988,9 @@
 	{
 		"private": false,
 		"modelId": "Vasanth/t5-news-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "Vasanth/t5-news-summarization"
 	}
 ]
