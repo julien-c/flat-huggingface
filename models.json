@@ -22513,11 +22513,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pablouribe/bertstem-copus"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "s3h/finetuned-mt5-gec"
 	},
@@ -22555,6 +22550,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "valhalla/cogview-gpt2-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pablouribe/bertstem-copus"
 	},
 	{
 		"private": false,
@@ -25564,11 +25564,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nyu-mll/roberta-base-10M-1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pablouribe/beto-copus"
 	},
 	{
 		"private": false,
@@ -122904,28 +122899,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220121"
-	},
-	{
-		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_epoch3_210121"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base-epoch3-20220120"
-	},
-	{
-		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base-epoch3-20220121"
-	},
-	{
-		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base_epoch3_2"
-	},
-	{
-		"private": false,
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms_tm_base_epoch3_210121"
 	},
 	{
 		"private": false,
@@ -123345,11 +123320,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "radhakri119/wav2vec2-base-timit-demo-colab_aug"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "ronanki/labse_cased_20-01-2022"
 	},
@@ -123404,10 +123374,5 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/anticarbons"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-epoch4-20220121"
 	}
 ]
