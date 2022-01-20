@@ -122904,6 +122904,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jackaduma/SecBERT"
 	},
 	{
@@ -122927,6 +122928,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hrdipto/wav2vec2-xls-r-tf-left-right-shuru"
 	},
 	{
@@ -122976,5 +122978,13 @@
 	{
 		"private": false,
 		"modelId": "csikasote/wav2vec2-large-xls-r-300m-turkish"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/demo-hf-CartPole-v1"
+	},
+	{
+		"private": false,
+		"modelId": "Vasanth/t5-news-summarizer"
 	}
 ]
