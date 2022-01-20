@@ -105968,6 +105968,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/cov-model"
+	},
+	{
+		"private": false,
 		"modelId": "athar/gpt2-wikitext2"
 	},
 	{
@@ -122623,6 +122628,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "rdpatilds/distilbert-finetuned-imdb"
 	},
 	{
@@ -122879,10 +122885,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/clairvoyant-phase2-finetuned-booksum"
-	},
-	{
-		"private": false,
 		"modelId": "novice03/swin-large-patch4-window7-224-in22k"
 	},
 	{
@@ -122895,12 +122897,21 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "ericzhou/DialoGPT-Medium-Rick_v2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sungyub/wnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abdelkader/distilbert-base-uncased-distilled-clinc"
+	},
+	{
+		"private": false,
+		"modelId": "ravinyu/codeparrot"
 	}
 ]
