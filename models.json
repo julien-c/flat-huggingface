@@ -123515,16 +123515,24 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "pnichite/en_pipeline"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Parsa/BBB_prediction_finetuned"
 	},
 	{
 		"private": false,
 		"modelId": "deepdml/workspace"
+	},
+	{
+		"private": false,
+		"modelId": "mmacchia/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "dbsamu/deberta-base-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "juliensimon/reviews-sagemaker-demo"
 	}
 ]
