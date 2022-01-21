@@ -25657,6 +25657,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "pablouribe/beto-copus"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-scitail"
 	},
@@ -98410,10 +98414,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-colab"
-	},
-	{
-		"private": false,
 		"modelId": "DuckMeme/Eve"
 	},
 	{
@@ -122934,6 +122934,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v3"
 	},
 	{
@@ -123163,6 +123164,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian2-colab"
 	},
 	{
@@ -123378,5 +123380,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111"
+	},
+	{
+		"private": false,
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian3-colab"
 	}
 ]
