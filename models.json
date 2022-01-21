@@ -38363,10 +38363,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "WangZeJun/simbert-base-chinese"
-	},
-	{
-		"private": false,
 		"modelId": "XiaoqiJiao/2nd_General_TinyBERT_6L_768D"
 	},
 	{
@@ -39053,6 +39049,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhuqing/comparison-distilbert-base-uncased-netmums-feminist"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/simbert-base-chinese"
 	},
 	{
 		"private": false,
@@ -122944,6 +122944,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v5"
 	},
 	{
@@ -123188,10 +123189,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lgris/seasr-pt_2022_base_10k_8khz"
-	},
-	{
-		"private": false,
 		"modelId": "luozhouyang/mlm-phonetics-test"
 	},
 	{
@@ -123384,5 +123381,39 @@
 	{
 		"private": false,
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian3-colab"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-84-5epoch-20220120"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v6"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v9"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/simbert-small-chinese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/seasr_2022_base_10k_8khz_pt"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/roformer-sim-small-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/roformer-sim-base-chinese"
 	}
 ]
