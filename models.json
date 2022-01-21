@@ -122926,11 +122926,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Gigworks/wav2vec-stt-ko"
-	},
-	{
-		"private": false,
 		"modelId": "Jaroslav/test"
 	},
 	{
@@ -123407,5 +123402,14 @@
 	{
 		"private": false,
 		"modelId": "koobear/test-with-label-sep-t5-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Gigworks/ASR_ko_wav2vec"
+	},
+	{
+		"private": false,
+		"modelId": "Gigworks/ASR_zh_espnet2"
 	}
 ]
