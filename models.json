@@ -123273,10 +123273,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "assasin/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Haechang/t5-small-finetuned-xsum"
 	},
@@ -123319,7 +123315,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
+		"pipeline_tag": "fill-mask",
 		"modelId": "ghadeermobasher/BC5CDR_Imbalanced"
 	},
 	{
@@ -123635,5 +123631,9 @@
 	{
 		"private": false,
 		"modelId": "phosseini/model8190"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v14"
 	}
 ]
