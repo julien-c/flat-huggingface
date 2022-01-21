@@ -61073,11 +61073,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Gigworks/ASR_id"
-	},
-	{
-		"private": false,
 		"modelId": "Gregor/xlm-roberta-base-wmt21-qe"
 	},
 	{
@@ -99646,31 +99641,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Gigworks/ASR_ko_wav2vec"
-	},
-	{
-		"private": false,
-		"modelId": "Gigworks/ASR_zh_espnet2"
-	},
-	{
-		"private": false,
-		"modelId": "Gigworks/TTS_en"
-	},
-	{
-		"private": false,
-		"modelId": "Gigworks/TTS_id"
-	},
-	{
-		"private": false,
-		"modelId": "Gigworks/TTS_ko"
-	},
-	{
-		"private": false,
-		"modelId": "Gigworks/TTS_zh"
-	},
-	{
-		"private": false,
 		"modelId": "Gint/my-awesome-model"
 	},
 	{
@@ -123421,5 +123391,14 @@
 	{
 		"private": false,
 		"modelId": "anirudh21/albert-xxlarge-v2-finetuned-wnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Yaia/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "BatuhanYilmaz/dummy-model"
 	}
 ]
