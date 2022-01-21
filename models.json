@@ -9422,11 +9422,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ankur310794/roberta-base-squad2-nq"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "google/t5-v1_1-xxl"
 	},
@@ -123439,6 +123434,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Emily/fyp"
 	},
 	{
@@ -123452,5 +123448,19 @@
 	{
 		"private": false,
 		"modelId": "Emily/fypmodel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "nlpconnect/roberta-base-squad2-nq"
+	},
+	{
+		"private": false,
+		"modelId": "TofuBoy/DialoGPT-medium-Yubin2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "osanseviero/example_audio"
 	}
 ]
