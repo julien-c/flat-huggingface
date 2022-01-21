@@ -65560,11 +65560,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "savasy/checkpoint-1250"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "sbiswal/odia-bert-classifier"
 	},
@@ -123539,6 +123534,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "alistvt/bert-base-uncased-pretrained-clm-coqa-stories"
 	},
 	{
@@ -123552,5 +123548,17 @@
 	{
 		"private": false,
 		"modelId": "aiface/prj_speech2text_v2"
+	},
+	{
+		"private": false,
+		"modelId": "jsxyhelu/skyseg"
+	},
+	{
+		"private": false,
+		"modelId": "artemis13fowl/code-search-net-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "alistvt/bert-base-uncased-pretrained-mlm-coqa-stories"
 	}
 ]
