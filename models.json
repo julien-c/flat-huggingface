@@ -119760,6 +119760,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shields/wav2vec2-base-960h-dementiabank"
 	},
 	{
@@ -123315,7 +123316,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR_Imbalanced"
 	},
 	{
@@ -123632,10 +123633,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v14"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "phosseini/model8190"
 	},
@@ -123649,6 +123646,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/wav2vec2-xls-r-hindi"
+	},
+	{
+		"private": false,
+		"modelId": "jbetker/tortoise-speech"
 	}
 ]
