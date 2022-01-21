@@ -123515,10 +123515,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "pnichite/en_pipeline"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Parsa/BBB_prediction_finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "deepdml/workspace"
 	}
 ]
