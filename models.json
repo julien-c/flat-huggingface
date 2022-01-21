@@ -13048,6 +13048,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "flozi00/wav2vec2-xls-r-300m-german"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "neurocode/IsRoBERTa"
 	},
@@ -13663,11 +13668,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/bert-base-uncased-pf-ud_pos"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-300m-german"
 	},
 	{
 		"private": false,
@@ -40790,6 +40790,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jackaduma/SecBERT"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jaron-maene/gpt2-large-nl2bash"
 	},
@@ -51586,6 +51591,11 @@
 	{
 		"private": false,
 		"modelId": "keras-io/bidirectional-lstm-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kingabzpro/wav2vec2-large-xlsr-53-urdu"
 	},
 	{
 		"private": false,
@@ -95476,6 +95486,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jackaduma/SecRoBERTa"
+	},
+	{
+		"private": false,
 		"modelId": "jamesmullenbach/CLIP_DNote_BERT_Context"
 	},
 	{
@@ -96312,6 +96327,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-base-ncc-512"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512b"
 	},
 	{
 		"private": false,
@@ -123149,16 +123169,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "jackaduma/SecBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "jackaduma/SecRoBERTa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "jesseD/worst_model_ever"
 	},
@@ -123174,11 +123184,6 @@
 	{
 		"private": false,
 		"modelId": "kingabzpro/wav2vec2-large-xls-r-300m-urdu"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kingabzpro/wav2vec2-large-xlsr-53-urdu"
 	},
 	{
 		"private": false,
@@ -123347,11 +123352,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512b"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
 	},
@@ -123483,5 +123483,9 @@
 	{
 		"private": false,
 		"modelId": "randypang/interfacegan-vanilla"
+	},
+	{
+		"private": false,
+		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111-finetuned-align_tm_base-epoch5-20220111"
 	}
 ]
