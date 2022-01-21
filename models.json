@@ -105014,10 +105014,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "WangZeJun/roformer-sim-ft-base-chinese"
-	},
-	{
-		"private": false,
 		"modelId": "WangZeJun/roformer-sim-small-chinese"
 	},
 	{
@@ -115310,6 +115306,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mbateman/distilbert-base-uncased-finetuned-imdb-accelerate"
 	},
 	{
@@ -123365,10 +123362,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "WangZeJun/roformer-sim-ft-small-chinese"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Haechang/t5-small-finetuned-xsum"
 	},
@@ -123419,5 +123412,27 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ravinyu/codeparrot-small"
+	},
+	{
+		"private": false,
+		"modelId": "Aymene/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "michaelhsieh42/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "michaelhsieh42/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "gabrieljg/wav2vec2-large-xls-r-300m-spanish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "aiface/wav2vec2-large-xls-r-300m-colab"
 	}
 ]
