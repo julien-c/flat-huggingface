@@ -17223,6 +17223,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "superb/hubert-base-superb-ic"
 	},
@@ -17855,11 +17860,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "sentence-transformers/bert-large-nli-max-tokens"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
 	},
 	{
 		"private": false,
@@ -93587,6 +93587,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512c"
+	},
+	{
+		"private": false,
 		"modelId": "visualjoyce/transformers4vl-vilbert"
 	},
 	{
@@ -96385,6 +96390,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yunpeng/bert_cn_finetuning"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111"
 	},
 	{
 		"private": false,
@@ -122882,6 +122892,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "WangZeJun/roformer-sim-small-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "WangZeJun/roformer-sim-base-chinese"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -123334,11 +123352,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512c"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
 	},
@@ -123361,11 +123374,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111"
-	},
-	{
-		"private": false,
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-georgian3-colab"
 	},
 	{
@@ -123377,10 +123385,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/seasr_2022_base_10k_8khz_pt"
-	},
-	{
-		"private": false,
-		"modelId": "WangZeJun/roformer-sim-base-chinese"
 	},
 	{
 		"private": false,
@@ -123448,10 +123452,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "WangZeJun/roformer-sim-small-chinese"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/bert-base-uncased-finetuned-wnli"
 	},
@@ -123470,5 +123470,18 @@
 	{
 		"private": false,
 		"modelId": "csarron/clip-vit-base-patch16"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-large-xls-r-300m-as"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-odia"
+	},
+	{
+		"private": false,
+		"modelId": "randypang/interfacegan-vanilla"
 	}
 ]
