@@ -60138,11 +60138,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "ronanki/xlmr_05-02-2022"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "rossanez/opus-mt-finetuned-en-es"
 	},
@@ -107318,6 +107313,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/bert-large-detector-de"
 	},
 	{
@@ -112969,6 +112965,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-7.1"
 	},
 	{
@@ -118794,11 +118791,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "ronanki/labse_cased_20-01-2022"
-	},
-	{
-		"private": false,
 		"modelId": "rontom/Entitya"
 	},
 	{
@@ -123574,5 +123566,9 @@
 	{
 		"private": false,
 		"modelId": "shivam/xls-r-300m-hindi"
+	},
+	{
+		"private": false,
+		"modelId": "joheras/xls-r-300m-es"
 	}
 ]
