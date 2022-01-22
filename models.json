@@ -102867,6 +102867,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RASMUS/wav2vec2-xlsr-fi-lm-1B"
 	},
 	{
@@ -111124,10 +111125,6 @@
 	{
 		"private": false,
 		"modelId": "genasix/test"
-	},
-	{
-		"private": false,
-		"modelId": "geninhu/xls-r-vi"
 	},
 	{
 		"private": false,
@@ -123866,6 +123863,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Aastha/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -123911,5 +123909,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Eldar/bert-base-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-84-5epoch-20220120-finetuned-ms-84-2epoch-2epoch-20220121-4-2-20220122-4-2-4-20220122"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/minilm-finetuned-finclass"
 	}
 ]
