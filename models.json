@@ -28780,6 +28780,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
 	},
 	{
@@ -102553,11 +102554,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Parsa/BBB_prediction_finetuned"
-	},
-	{
-		"private": false,
 		"modelId": "Parsa/BBB_prediction_finetuned_regression"
 	},
 	{
@@ -123986,5 +123982,18 @@
 	{
 		"private": false,
 		"modelId": "dikabaehaki16/Dikabaehaki"
+	},
+	{
+		"private": false,
+		"modelId": "Aastha/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Parsa/BBB_prediction_finetuned_classification"
+	},
+	{
+		"private": false,
+		"modelId": "MelissaTESSA/distilbert-base-uncased-finetuned-cola"
 	}
 ]
