@@ -124181,10 +124181,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Josue/GuardIAn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease-balancedPubMedBERT"
 	},
@@ -124211,5 +124207,15 @@
 	{
 		"private": false,
 		"modelId": "Glorietheus/Amanda"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/declutr-model_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_bert_quadruplet_epochs_1_shard_1_wikiqa"
 	}
 ]
