@@ -124035,6 +124035,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-pt-cv7"
 	},
 	{
@@ -124114,6 +124115,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balancedPubMedBERT"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC2GM-Gene_ImbalancedBioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/test-model-push"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC2GM-Gene-Modified_BioM-ELECTRA-Base-Discriminator"
 	}
 ]
