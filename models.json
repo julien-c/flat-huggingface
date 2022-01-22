@@ -18375,11 +18375,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/ModifiedWeights"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "howey/roberta-large-sst2"
 	},
@@ -111213,11 +111208,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR_Imbalanced"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified_PubMedBERT"
 	},
 	{
@@ -111234,10 +111224,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem_ImbalancedPubMedBERT"
-	},
-	{
-		"private": false,
-		"modelId": "ghadeermobasher/ImbalancedWeights_postprocessing"
 	},
 	{
 		"private": false,
@@ -123840,6 +123826,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kingabzpro/wav2vec2-large-xlsr-300-arabic"
 	},
 	{
@@ -123852,10 +123839,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "MrHotHead/Levi-Model"
 	},
 	{
 		"private": false,
 		"modelId": "kotter/retrieval-ict-scratch-single"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Imbalanced-PubMedBERT"
+	},
+	{
+		"private": false,
+		"modelId": "Talgatov2001/art"
 	}
 ]
