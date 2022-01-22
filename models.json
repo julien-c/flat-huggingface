@@ -124056,10 +124056,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "benjaminbeilharz/model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/sew-tiny-portuguese-cv"
 	},
@@ -124153,6 +124149,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balancedBioM-ELECTRA-Base-Discriminator"
 	},
 	{
@@ -124166,5 +124163,14 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem_ImbalancedBioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified_BioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1_wikiqa"
 	}
 ]
