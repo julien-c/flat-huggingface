@@ -124070,6 +124070,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pere/xls-test-300-es"
 	},
 	{
@@ -124114,6 +124115,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/test-model-push"
 	},
 	{
@@ -124129,5 +124131,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_only_classfn_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC4CHEMD_ImbalancedBioM-ELECTRA-Base-Discriminator"
 	}
 ]
