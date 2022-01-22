@@ -123945,6 +123945,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "benjaminbeilharz/distilbert-dailydialog-turn-classifier"
 	},
 	{
@@ -124058,10 +124059,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Davlan/mt5-small-pcm-en"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-pt-cv7-dummy"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-xls-r-gn-cv7"
 	}
 ]
