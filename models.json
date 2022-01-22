@@ -28770,11 +28770,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yhavinga/t5-v1.1-large-dutch-cnn-test"
 	},
@@ -123932,6 +123927,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "emre/arxiv27k-t5-abst-title-gen"
 	},
 	{
@@ -123941,5 +123937,9 @@
 	{
 		"private": false,
 		"modelId": "BitanBiswas/bangla-bert-base-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-urdu"
 	}
 ]
