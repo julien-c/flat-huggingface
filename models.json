@@ -124115,11 +124115,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/test-model-push"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene-Modified_BioM-ELECTRA-Base-Discriminator"
 	},
@@ -124134,6 +124129,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4CHEMD_ImbalancedBioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease_ImbalancedBioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/roberta-base_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chemical_Modified_BioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-large-xlsr-53-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balancedBioM-ELECTRA-Base-Discriminator"
 	}
 ]
