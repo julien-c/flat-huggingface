@@ -98336,6 +98336,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-84-5epoch-20220120-finetuned-ms-84-2epoch-2epoch-20220121-4-2-20220122"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-epoch4-20220121-finetuned-ms-epoch4-epoch2-20220121-6-20220122-2"
+	},
+	{
+		"private": false,
 		"modelId": "ChrisP/xlm-roberta-base-finetuned-marc-en"
 	},
 	{
@@ -99144,6 +99154,11 @@
 	{
 		"private": false,
 		"modelId": "Emi/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Emily/fyp"
 	},
 	{
 		"private": false,
@@ -110873,6 +110888,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gabrieljg/wav2vec2-common_voice-es-demo"
+	},
+	{
+		"private": false,
 		"modelId": "gael1130/gael_first_model"
 	},
 	{
@@ -111022,6 +111042,16 @@
 	{
 		"private": false,
 		"modelId": "ggrunin/model_name"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4CHEMD-Modified_PubMedBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4CHEMD_ImbalancedPubMedBERT"
 	},
 	{
 		"private": false,
@@ -119811,6 +119841,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shivam/wav2vec2-xls-r-hindi"
+	},
+	{
+		"private": false,
 		"modelId": "shivam098/Shivam_First_NLP_Model"
 	},
 	{
@@ -122190,6 +122225,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "wesam266/wav2vec2-xls-r-300m_english"
+	},
+	{
+		"private": false,
 		"modelId": "westerkirk/t5-base-git-commit"
 	},
 	{
@@ -123264,6 +123304,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vumichien/data"
+	},
+	{
+		"private": false,
 		"modelId": "Aymene/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -123274,16 +123319,6 @@
 	{
 		"private": false,
 		"modelId": "BillelBenoudjit/jplu-wikiann"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-84-5epoch-20220120-finetuned-ms-84-2epoch-2epoch-20220121-4-2-20220122"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Chizuru/opus-mt-ja-en-finetuned-ms-epoch4-20220121-finetuned-ms-epoch4-epoch2-20220121-6-20220122-2"
 	},
 	{
 		"private": false,
@@ -123298,11 +123333,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-cola-finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Emily/fyp"
 	},
 	{
 		"private": false,
@@ -123479,11 +123509,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gabrieljg/wav2vec2-common_voice-es-demo"
-	},
-	{
-		"private": false,
 		"modelId": "gabrieljg/wav2vec2-large-xls-r-300m-spanish-colab"
 	},
 	{
@@ -123495,16 +123520,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene_ImbalancedPubMedBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4CHEMD-Modified_PubMedBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4CHEMD_ImbalancedPubMedBERT"
 	},
 	{
 		"private": false,
@@ -123767,11 +123782,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shivam/wav2vec2-xls-r-hindi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/xls-r-300m-hindi"
 	},
 	{
@@ -123793,21 +123803,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "wesam266/wav2vec2-xls-r-300m_english"
-	},
-	{
-		"private": false,
 		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111-finetuned-align_tm_base-epoch5-20220111"
 	},
 	{
 		"private": false,
 		"modelId": "vumichien/xls-r-300m-ja"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vumichien/data"
 	},
 	{
 		"private": false,
