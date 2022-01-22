@@ -123828,24 +123828,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Eldar/bert-fine-tune-cola"
 	},
 	{
 		"private": false,
 		"modelId": "Aracatto/Catto"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-8"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-4"
 	},
 	{
 		"private": false,
@@ -124010,6 +123998,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pere/xls-test-300-sv"
 	},
 	{
@@ -124120,6 +124109,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene_ImbalancedBioM-ELECTRA-Base-Discriminator"
 	},
 	{
@@ -124128,6 +124118,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene-Modified_BioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "carlosaguayo/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/rule_based_only_classfn_epochs_1_shard_1_wikiqa"
 	}
 ]
