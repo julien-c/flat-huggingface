@@ -124102,11 +124102,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balancedPubMedBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene_ImbalancedBioM-ELECTRA-Base-Discriminator"
 	},
 	{
@@ -124181,10 +124176,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem_ImbalancedBioM-ELECTRA-Base-Discriminator"
 	},
 	{
 		"private": false,
 		"modelId": "Josue/GuardIAn"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Disease-balancedPubMedBERT"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/CRAFT-Chem-Modified_BioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/EManuals_RoBERTa_wikiqa"
 	}
 ]
