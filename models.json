@@ -63345,7 +63345,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "fill-mask",
 		"modelId": "osunlp/ReasonBERT-RoBERTa-base"
 	},
 	{
@@ -124366,5 +124366,19 @@
 	{
 		"private": false,
 		"modelId": "cryptometa6/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_roberta_only_classfn_twostage_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "benjaminbeilharz/bert-base-uncased-dailydialog-turn-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_only_classfn_twostage_epochs_1_shard_1_wikiqa"
 	}
 ]
