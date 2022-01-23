@@ -124273,10 +124273,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mikeee/model_z"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/EManuals_BERT_copy"
 	},
@@ -124284,5 +124280,20 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/EManuals_BERT_copy_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/unsup-consert-base_copy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/specter-bert-model_copy"
 	}
 ]
