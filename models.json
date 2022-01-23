@@ -124528,11 +124528,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "metinbinbir/turkish_paraphrase_detection"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4CHEMD-Modified_BioM-ELECTRA-Base-Discriminator"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-abkhaz"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nickmuchi/robertabase-finetuned-finance-sentiment-classification"
 	}
 ]
