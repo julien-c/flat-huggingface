@@ -109597,6 +109597,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "dbsamu/distilroberta-base-finetuned-ner"
 	},
 	{
@@ -124690,5 +124691,10 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1_wikiqa_copy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1_wikiqa_copy"
 	}
 ]
