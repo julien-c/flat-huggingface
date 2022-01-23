@@ -124583,11 +124583,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/cowithoutsmareightL-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease_Modified_scibert_scivocab_cased"
 	},
@@ -124602,6 +124597,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Emanuel/roebrta-base-val-test"
 	},
 	{
@@ -124625,22 +124621,39 @@
 	},
 	{
 		"private": false,
-		"modelId": "ps2102/harry-potter-chatbot"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene_Imbalancedscibert_scivocab_cased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC2GM-Gene-Modified_scibert_scivocab_cased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4CHEMD_Imbalancedscibert_scivocab_cased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4CHEMD-Modified_scibert_scivocab_cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-arabic"
+	},
+	{
+		"private": false,
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika-colab"
+	},
+	{
+		"private": false,
+		"modelId": "ps2102/harry-potter-chatbot"
+	},
+	{
+		"private": false,
+		"modelId": "vaughnw128/DialoGPT-small-sexybabeycord"
 	}
 ]
