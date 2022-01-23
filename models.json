@@ -123708,6 +123708,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "artemis13fowl/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Aastha/wav2vec2-large-xls-r-300m-tr-colab"
 	},
@@ -123740,6 +123745,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ylh1013/fintune-ja-chatbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nickmuchi/distilroberta-finetuned-finclass"
 	},
 	{
 		"private": false,
@@ -123924,11 +123934,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nickmuchi/minilm-finetuned-finclass"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "artemis13fowl/bert-finetuned-ner-accelerate"
 	},
 	{
 		"private": false,
@@ -124298,11 +124303,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "nickmuchi/distilroberta-finetuned-finclass"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_roberta_hier_quadruplet_epochs_1_shard_1_wikiqa"
 	},
 	{
@@ -124341,5 +124341,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "baffo32/pyc2py_alpha2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/specter-bert-model_copy_wikiqa"
 	}
 ]
