@@ -123733,6 +123733,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "wesam266/px"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ylh1013/fintune-ja-chatbot"
 	},
@@ -124229,11 +124234,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "wesam266/px"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1_wikiqa"
 	},
@@ -124328,5 +124328,18 @@
 	{
 		"private": false,
 		"modelId": "manurkarp/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "telynathanael/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "mikeee/model-z"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "baffo32/pyc2py_alpha2"
 	}
 ]
