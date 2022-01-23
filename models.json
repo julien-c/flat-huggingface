@@ -38296,11 +38296,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wavlm-large-german"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "gagan3012/k2t-test3"
 	},
@@ -124693,5 +124688,15 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-wiki-comments-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1_wikiqa_copy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1_wikiqa_copy"
 	}
 ]
