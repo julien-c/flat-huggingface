@@ -15597,6 +15597,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
+	},
+	{
+		"private": false,
 		"modelId": "textattack/distilbert-base-cased-snli"
 	},
 	{
@@ -16981,11 +16986,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "skimai/spanberta-base-cased-ner-conll02"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-gpt2-medium-x343"
 	},
 	{
 		"private": false,
@@ -123698,8 +123698,43 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "geninhu/xls-asr-vi"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/bert-large-detector-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Aastha/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/sew-tiny-portuguese-cv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "pere/xls-test-300-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ncoop57/codeparrot-py"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4CHEMD_ImbalancedBioM-ELECTRA-Base-Discriminator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ylh1013/fintune-ja-chatbot"
 	},
 	{
 		"private": false,
@@ -123843,11 +123878,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "geninhu/xls-asr-vi"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "josephmagnayon/DialoGPT-medium-Alfred"
 	},
@@ -123954,11 +123984,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Aastha/wav2vec2-large-xls-r-300m-tr-colab"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Parsa/BBB_prediction_finetuned_classification"
 	},
@@ -124047,27 +124072,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/sew-tiny-portuguese-cv"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "philippelaban/summary_loop46"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "pere/xls-test-300-es"
-	},
-	{
-		"private": false,
 		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "ncoop57/codeparrot-py"
 	},
 	{
 		"private": false,
@@ -124109,11 +124119,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_only_classfn_epochs_1_shard_1_wikiqa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4CHEMD_ImbalancedBioM-ELECTRA-Base-Discriminator"
 	},
 	{
 		"private": false,
@@ -124249,11 +124254,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "ylh1013/fintune-ja-chatbot"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1_wikiqa"
 	},
@@ -124314,5 +124314,19 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/unsup-consert-base_copy_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Keqing/Keqing-Siesta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "shibing624/text2vec-base-chinese"
+	},
+	{
+		"private": false,
+		"modelId": "manurkarp/wav2vec2-large-xls-r-300m-turkish-colab"
 	}
 ]
