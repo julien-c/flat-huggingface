@@ -124142,10 +124142,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/testing-aimsgbot-upload"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem_ImbalancedBioM-ELECTRA-Base-Discriminator"
 	},
@@ -124311,7 +124307,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "TofuBoy/DialoGPT-medium-boon"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/unsup-consert-base_copy_wikiqa"
 	}
 ]
