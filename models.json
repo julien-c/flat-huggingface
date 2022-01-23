@@ -124681,6 +124681,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/bert-large-detector-de-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AnonymousSub/SR_rule_based_roberta_hier_triplet_epochs_1_shard_1_wikiqa_copy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-wiki-comments-finetuned"
 	}
 ]
