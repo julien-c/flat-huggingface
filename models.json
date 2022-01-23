@@ -110130,6 +110130,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "dumitrescustefan/bert-base-romanian-ner"
+	},
+	{
+		"private": false,
 		"modelId": "duncaninganji/roberta-base-squad2-finetuned-selqa-3"
 	},
 	{
@@ -114917,6 +114922,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-gn-cv7"
 	},
 	{
@@ -115865,18 +115871,6 @@
 	{
 		"private": false,
 		"modelId": "maureengatu/maize_leaf_disease_classifier"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-spider-5-1"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-large-nl2sql-10-1"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-small-nl2sql-10-1"
 	},
 	{
 		"private": false,
@@ -124349,14 +124343,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-small-spider-5-1"
-	},
-	{
-		"private": false,
-		"modelId": "max137/t5-base-nl2sql-5-1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/wav2vec2-xls-r-300m-hindi"
 	},
@@ -124375,6 +124361,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "benjaminbeilharz/bert-base-uncased-dailydialog-turn-classifier"
 	},
 	{
@@ -124390,5 +124377,23 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "aditi2222/automatic_title_generation"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-large-xlsr-53-W2V2-TR-MED"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_twostagetriplet_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "ps2102/harry-potter-chatbot"
 	}
 ]
