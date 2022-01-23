@@ -119243,11 +119243,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "rashad/EgyBERT"
-	},
-	{
-		"private": false,
 		"modelId": "rasmuskr/example_model"
 	},
 	{
@@ -124315,6 +124310,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v7"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/specter-bert-model_copy_wikiqa"
 	},
@@ -124665,10 +124664,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Nihwy/DialoSqui"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/bert-large-detector-de-v3"
 	},
@@ -124696,5 +124691,22 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1_wikiqa_copy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-scibert_scivocab_cased"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/CRAFT-Chem_Imbalanced-biobert-large-cased-v1.1"
+	},
+	{
+		"private": false,
+		"modelId": "souvik01/distilbart-cnn-12-6-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "Nihwy/DialoSqui"
 	}
 ]
