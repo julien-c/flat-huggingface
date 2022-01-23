@@ -124388,6 +124388,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-large-xlsr-53-W2V2-TR-MED"
 	},
 	{
@@ -124615,10 +124616,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "ps2102/harry-potter-chatbot"
+		"modelId": "bettertextapp/bert-large-detector-de-oscar"
 	},
 	{
 		"private": false,
-		"modelId": "bettertextapp/bert-large-detector-de-oscar"
+		"pipeline_tag": "fill-mask",
+		"modelId": "nlp-1-0/climate-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "ps2102/harry-potter-chatbot"
 	}
 ]
