@@ -14702,11 +14702,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Hamas/DialoGPT-large-jake4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-lg-en"
 	},
@@ -14787,6 +14782,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/bert-base-multilingual-cased-finetuned-conll2002-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Hamas/DialoGPT-large-jake4"
 	},
 	{
 		"private": false,
@@ -124426,11 +124426,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "0x7194633/gameT5-large"
-	},
-	{
-		"private": false,
 		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-4v2"
 	},
 	{
@@ -124450,5 +124445,21 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_twostagequadruplet_hier_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "nlp-1-0/climate-roberta-climate"
+	},
+	{
+		"private": false,
+		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/roberta-finetuned-finclass"
+	},
+	{
+		"private": false,
+		"modelId": "saied/wav2vec2-large-xls-r-300m-persian-colab"
 	}
 ]
