@@ -124545,16 +124545,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Parsa/BBB_prediction_finetuned_classification_iupac"
-	},
-	{
-		"private": false,
 		"modelId": "ammoreira/teste"
-	},
-	{
-		"private": false,
-		"modelId": "Parsa/BBB_prediction_finetuned_classificationa_iupac"
 	},
 	{
 		"private": false,
@@ -124565,11 +124556,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease_Modified_scibert_scivocab_cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chemical-scibert_scivocab_cased"
 	},
 	{
 		"private": false,
@@ -124738,6 +124724,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Nihwy/DialoSqui"
 	},
 	{
@@ -124747,5 +124734,14 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-biobert-large-cased-v1.1"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chemical_Modified_biobert-large-cased-v1.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Imbalanced-scibert_scivocab_cased"
 	}
 ]
