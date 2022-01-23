@@ -124357,6 +124357,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/wav2vec2-xls-r-300m-hindi"
 	},
 	{
@@ -124380,5 +124381,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/rule_based_only_classfn_twostage_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "Maniac/wav2vec2-xls-r-urdu"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "aditi2222/automatic_title_generation"
 	}
 ]
