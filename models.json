@@ -10041,11 +10041,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "yhavinga/gpt-neo-125M-dutch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "alenusch/rugpt3-paraphraser"
 	},
 	{
@@ -124408,6 +124403,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-8"
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_twostagetriplet_hier_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-4"
+	},
+	{
+		"private": false,
+		"modelId": "0x7194633/gameT5-large"
 	}
 ]
