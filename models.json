@@ -122602,6 +122602,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "wesam266/wav2vec2-large-xlsr-53_english"
 	},
 	{
@@ -124261,6 +124262,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ylh1013/fintune-ja-chatbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymousSub/EManuals_BERT_for_pretraining"
 	}
 ]
