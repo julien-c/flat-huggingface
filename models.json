@@ -103495,6 +103495,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "object-detection",
 		"modelId": "SamMorgan/yolo_v4_tflite"
 	},
 	{
@@ -124725,6 +124726,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v2-en-to-ru"
 	},
 	{
@@ -124840,6 +124842,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "phantomcoder1996/wav2vec2-large-xls-r-300m-arabic-colab"
 	},
 	{
@@ -124849,5 +124852,10 @@
 	{
 		"private": false,
 		"modelId": "vumichien/wav2vec2-xls-r-300m-ja-dumy2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-small-finetuned-squad"
 	}
 ]
