@@ -124135,6 +124135,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-large-xlsr-53-demo-colab"
 	},
 	{
@@ -124234,6 +124235,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "wesam266/px"
+	},
+	{
+		"private": false,
+		"modelId": "Ayjayo/DialoGPT-small-Ayjayobot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1_wikiqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "AnonymousSub/rule_based_hier_quadruplet_epochs_1_shard_1_wikiqa"
 	}
 ]
