@@ -4126,11 +4126,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
-		"modelId": "bespin-global/klue-korsts-roberta-base-sentence-embedding"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
 		"modelId": "sentence-transformers/all-MiniLM-L12-v1"
 	},
 	{
@@ -59503,11 +59498,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "bespin-global/klue-roberta-large-mrc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "bhan/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -109705,6 +109695,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "danielbubiola/bangla_asr"
 	},
 	{
@@ -118666,10 +118657,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "p-christ/test_trainer"
-	},
-	{
-		"private": false,
 		"modelId": "pabloarredondo/test"
 	},
 	{
@@ -124915,6 +124902,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Vibharkchauhan/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -124934,11 +124922,6 @@
 	{
 		"private": false,
 		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-hi-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-hi-temp"
 	},
 	{
 		"private": false,
@@ -124990,6 +124973,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "hfl/cino-base-v2"
 	},
 	{
@@ -125015,6 +124999,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/distilbert-base-multilingual-cased-sentiment"
 	},
 	{
@@ -125032,5 +125017,14 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC4CHEMD-Modified_biobert-large-cased-v1.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "gojiteji/byt5-small-ja-ai-mt"
+	},
+	{
+		"private": false,
+		"modelId": "Dayout/test"
 	}
 ]
