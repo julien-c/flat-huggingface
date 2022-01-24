@@ -109120,10 +109120,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba"
-	},
-	{
-		"private": false,
 		"modelId": "cstrathe435/CiViL_Test"
 	},
 	{
@@ -124269,7 +124265,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
+		"modelId": "vumichien/wav2vec2-xls-r-300m-ja-dumy2"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba"
 	},
 	{
 		"private": false,
@@ -124891,10 +124891,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "anuragshas/wav2vec2-xls-r-300m-rm-vallader"
-	},
-	{
-		"private": false,
 		"modelId": "rzamer/bert-finetuned-ner"
 	},
 	{
@@ -124905,10 +124901,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ps2102/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "vumichien/wav2vec2-xls-r-300m-ja-dumy2"
 	},
 	{
 		"private": false,
@@ -124933,5 +124925,14 @@
 	{
 		"private": false,
 		"modelId": "shunxing1234/test_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "bespin-global/klue-sentence-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xlsr-rm-vallader"
 	}
 ]
