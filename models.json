@@ -123675,6 +123675,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-xls-r-1b-ja-dumy2"
 	},
 	{
@@ -124480,10 +124481,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111-finetuned-align_tm_base-epoch5-20220111"
-	},
-	{
-		"private": false,
 		"modelId": "yyelirr/CalvinoCosmicomicsGEN"
 	},
 	{
@@ -124959,5 +124956,14 @@
 	{
 		"private": false,
 		"modelId": "marinone94/xls-r-300m-sv-robust"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "philschmid/pt-test"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wav2vec2-xls-r-300m-german-with-lm"
 	}
 ]
