@@ -81065,7 +81065,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "table-question-answering",
 		"modelId": "benschlagman/tapas_fine_tuning"
 	},
 	{
@@ -124995,10 +124995,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC_inference_only"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/distilbert-base-multilingual-cased-sentiment"
 	},
@@ -125049,10 +125045,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC"
-	},
-	{
-		"private": false,
 		"modelId": "osanseviero/debug-example"
 	},
 	{
@@ -125061,6 +125053,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy"
 	},
 	{
@@ -125078,5 +125071,22 @@
 	{
 		"private": false,
 		"modelId": "yapak1994/LM_Test_1"
+	},
+	{
+		"private": false,
+		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC_pubtabnet_rc_inference_only"
+	},
+	{
+		"private": false,
+		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC_publaynet_inference_only"
+	},
+	{
+		"private": false,
+		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC_publaynet"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
 	}
 ]
