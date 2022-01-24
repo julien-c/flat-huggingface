@@ -125002,7 +125002,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "gojiteji/byt5-small-ja-ai-mt"
 	},
 	{
@@ -125139,10 +125139,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "tybantarnusa/thya-small-alpha"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "p-christ/12412fsasf"
 	},
@@ -125202,6 +125198,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v13"
 	},
 	{
@@ -125211,5 +125208,26 @@
 	{
 		"private": false,
 		"modelId": "lgris/wav2vec2-xls-r-pt-cv7-from-bp400"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/albert-base-v2-finetuned-qnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "mrm8488/bioclinical-roberta-es-finenuned-clinical-ner"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v14"
+	},
+	{
+		"private": false,
+		"modelId": "tybantarnusa/thya-small-alpha-1"
+	},
+	{
+		"private": false,
+		"modelId": "tybantarnusa/thya-small-alpha"
 	}
 ]
