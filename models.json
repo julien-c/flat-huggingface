@@ -118958,6 +118958,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "peterhsu/bert-finetuned-ner"
 	},
 	{
@@ -125086,7 +125087,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
+		"modelId": "peterhsu/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "comodoro/wav2vec2-xls-r-300m-cs-1ep"
 	}
 ]
