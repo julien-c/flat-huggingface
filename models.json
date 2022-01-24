@@ -124526,6 +124526,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/cowithoutsmareightL-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease_Modified_scibert_scivocab_cased"
 	},
@@ -124843,10 +124848,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-Converse_DS-WoW_Ep-1_Bs-1"
-	},
-	{
-		"private": false,
 		"modelId": "NimaBoscarino/aot-gan-celebahq"
 	},
 	{
@@ -124896,6 +124897,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-large-xls-r-1b-hi"
 	},
 	{
@@ -124905,5 +124907,14 @@
 	{
 		"private": false,
 		"modelId": "yharyarias/tirads_thyroid"
+	},
+	{
+		"private": false,
+		"modelId": "bleachybrain/DialoGPT-med-ss"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Ayjayo/DialoGPT-medium-AyjayoBot"
 	}
 ]
