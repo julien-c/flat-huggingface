@@ -24031,6 +24031,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Waynehills_NLP_muti"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "FangLee/DialoGPT-small-Kirito"
 	},
@@ -24789,11 +24794,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-kinyarwanda"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Waynehills_NLP_muti"
 	},
 	{
 		"private": false,
@@ -124273,6 +124273,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnonymousSub/specter-bert-model_copy_wikiqa"
 	},
@@ -124934,5 +124938,13 @@
 	{
 		"private": false,
 		"modelId": "anuragshas/wav2vec2-xlsr-rm-vallader"
+	},
+	{
+		"private": false,
+		"modelId": "Niciu/wav2vec2-base-timit-demo-colab1"
+	},
+	{
+		"private": false,
+		"modelId": "jone/GFPGAN"
 	}
 ]
