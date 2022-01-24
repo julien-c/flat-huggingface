@@ -125277,6 +125277,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "dhanesh123in/layoutlmv2-finetuned-funsd-test"
 	},
 	{
@@ -125305,7 +125306,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "atomsspawn/DialoGPT-small-dumbledore"
 	},
 	{
@@ -125320,10 +125321,5 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-125M-weightedmean-nli-bitfit"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr"
 	}
 ]
