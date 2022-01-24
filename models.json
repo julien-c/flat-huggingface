@@ -118653,6 +118653,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "p-christ/QuestionGenerationModelOnly"
+	},
+	{
+		"private": false,
 		"modelId": "pabloarredondo/test"
 	},
 	{
@@ -124964,10 +124969,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "bigscience/t5x-sprint-logs"
-	},
-	{
-		"private": false,
 		"modelId": "cbakos/bert-base-uncased-finetuned-ner"
 	},
 	{
@@ -125095,6 +125096,48 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "p-christ/GenericInference"
+	},
+	{
+		"private": false,
 		"modelId": "AndrewMcDowell/xls-r-english-300-test"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-cd-flm-logs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "philschmid/distilbert-base-multilingual-cased-sentiment-2"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-cd-sc-logs"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-ncd-plm-logs"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-ed-plm-logs"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-ed-sc-logs"
+	},
+	{
+		"private": false,
+		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC_pubtabnet_rc"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-ncd_sc-adapt-cd_flm-logs"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/t5x-ncd-sc-logs"
 	}
 ]
