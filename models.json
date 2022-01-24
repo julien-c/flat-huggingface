@@ -103195,6 +103195,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RASMUS/wav2vec2-xlsr-fi-train-aug-lm-1B"
 	},
 	{
@@ -114586,15 +114587,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v2-en-to-ru"
-	},
-	{
-		"private": false,
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v3-en-to-ru"
-	},
-	{
-		"private": false,
 		"modelId": "kazumahorikawa/kaz"
 	},
 	{
@@ -124855,6 +124847,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v2-en-to-ru"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v3-en-to-ru"
+	},
+	{
+		"private": false,
 		"modelId": "Amalq/distilroberta-base-finetuned-MentalHealth"
 	},
 	{
@@ -125341,6 +125343,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "aviator-neural/gpt2-donald_trump"
 	},
 	{
@@ -125354,5 +125357,9 @@
 	{
 		"private": false,
 		"modelId": "MicroTurtle/DialoGPT-medium-shawn"
+	},
+	{
+		"private": false,
+		"modelId": "jhonparra18/wav2vec2-large-xls-r-300m-spanish-custom"
 	}
 ]
