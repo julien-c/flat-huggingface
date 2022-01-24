@@ -101126,10 +101126,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "KillianEven/model_name"
-	},
-	{
-		"private": false,
 		"modelId": "Kim480/Arcane"
 	},
 	{
@@ -125122,6 +125118,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "AndrewMcDowell/xls-r-german-300-test"
 	},
 	{
@@ -125226,6 +125223,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "nairaxo/dvoice-darija"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "tybantarnusa/thya-small-alpha"
 	},
 	{
@@ -125242,11 +125245,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "alexyalunin/RuBioBERT"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-biobert-base-cased-v1.2"
 	},
 	{
@@ -125255,6 +125254,46 @@
 	},
 	{
 		"private": false,
-		"modelId": "alexyalunin/RuBioRoBERTa2"
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v16"
+	},
+	{
+		"private": false,
+		"modelId": "silentzone/test"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Imbalanced-biobert-base-cased-v1.2"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/bert-base-uncased-finetuned-rte"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_fr_open_subtitles"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_en_open_subtitles"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_zh_open_subtitles"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_pt_open_subtitles"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_es_open_subtitles"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_ar_open_subtitles"
 	}
 ]
