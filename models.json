@@ -103506,6 +103506,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Riyagarg01/Practice1"
 	},
 	{
@@ -107070,6 +107071,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
 	{
@@ -123118,11 +123120,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "truthisneverlinear/EleventhDoctorBot"
-	},
-	{
-		"private": false,
 		"modelId": "tsdocode/gpt-python-code-qa"
 	},
 	{
@@ -124966,6 +124963,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "nntadotzip/xlnet-base-cased-IUChatbot-ontologyDts-localParams"
 	},
 	{
@@ -124974,6 +124972,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "phantomcoder1996/wav2vec2-large-xls-r-300m-arabic"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/distilbert-base-multilingual-cased-sentiment"
 	}
 ]
