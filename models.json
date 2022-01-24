@@ -125305,6 +125305,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "atomsspawn/DialoGPT-small-dumbledore"
+	},
+	{
+		"private": false,
+		"modelId": "nlp-paradise/distilroberta-base-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "iqbalarinal/iqbal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-weightedmean-nli-bitfit"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr"
 	}
 ]
