@@ -56878,16 +56878,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "nbroad/pubmed_abstract_mlm_demo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "nbroad/pubmed_neg_ner_demo"
-	},
-	{
-		"private": false,
 		"modelId": "nielsr/coref-roberta-large"
 	},
 	{
@@ -125308,5 +125298,13 @@
 	{
 		"private": false,
 		"modelId": "kazandaev/checkpoint-62500"
+	},
+	{
+		"private": false,
+		"modelId": "omoekan/marian-finetuned-kde4-en-to-fr-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "atomsspawn/DialoGPT-small-dumbledore"
 	}
 ]
