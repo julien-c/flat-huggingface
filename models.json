@@ -124526,11 +124526,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/cowithoutsmareightL-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease_Modified_scibert_scivocab_cased"
 	},
@@ -124911,7 +124906,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "bleachybrain/DialoGPT-med-ss"
 	},
 	{
@@ -124921,6 +124916,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "anuragshas/wav2vec2-large-xlsr-rm-vallader"
+		"modelId": "anuragshas/wav2vec2-xls-r-300m-rm-vallader"
+	},
+	{
+		"private": false,
+		"modelId": "kinensake/gramformer-test"
 	}
 ]
