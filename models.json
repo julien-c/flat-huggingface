@@ -97846,11 +97846,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Ayjayo/DialoGPT-small-AyjayoBot"
-	},
-	{
-		"private": false,
 		"modelId": "Aymene/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -124834,6 +124829,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "arianpasquali/distilbert-base-multilingual-cased-toxicity"
 	},
 	{
@@ -124901,5 +124897,13 @@
 	{
 		"private": false,
 		"modelId": "anuragshas/wav2vec2-large-xls-r-1b-hi"
+	},
+	{
+		"private": false,
+		"modelId": "chandc/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "yharyarias/tirads_thyroid"
 	}
 ]
