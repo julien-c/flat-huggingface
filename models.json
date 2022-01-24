@@ -88868,11 +88868,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "akozlo/conserv_fulltext_1_18_22"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "akr/distilbert-base-uncased-finetuned-squad"
 	},
@@ -125375,5 +125370,18 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v4-en-to-ru"
+	},
+	{
+		"private": false,
+		"modelId": "hf-internal-testing/test-two-tokenizers"
+	},
+	{
+		"private": false,
+		"modelId": "vinven7/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "hf-internal-testing/test-two-configs"
 	}
 ]
