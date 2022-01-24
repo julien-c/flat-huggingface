@@ -94710,6 +94710,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Nevena/test-model-1"
 	},
@@ -102306,11 +102311,6 @@
 	{
 		"private": false,
 		"modelId": "Nay/Nay"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_ncc"
 	},
 	{
 		"private": false,
@@ -121247,11 +121247,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "st1992/paraphrase-MiniLM-L12-tagalog-v2"
-	},
-	{
-		"private": false,
 		"modelId": "stalevna/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -124258,8 +124253,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-arabic"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Parsa/BBB_prediction_finetuned_classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
 	{
 		"private": false,
@@ -124560,11 +124570,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-arabic"
-	},
-	{
-		"private": false,
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika-colab"
 	},
 	{
@@ -124700,11 +124705,6 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-biobert-large-cased-v1.1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7"
 	},
 	{
 		"private": false,
@@ -124891,11 +124891,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
-	},
-	{
-		"private": false,
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-rm-vallader"
 	},
 	{
@@ -124926,5 +124921,17 @@
 	{
 		"private": false,
 		"modelId": "guoqiang/cc"
+	},
+	{
+		"private": false,
+		"modelId": "Vibharkchauhan/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Nanad/Nanad"
+	},
+	{
+		"private": false,
+		"modelId": "shunxing1234/test_model"
 	}
 ]
