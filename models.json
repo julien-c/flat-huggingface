@@ -124861,6 +124861,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-xls-r-300m-ja-dumy2"
 	},
 	{
@@ -124910,11 +124911,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "bleachybrain/DialoGPT-med-ss"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Ayjayo/DialoGPT-medium-AyjayoBot"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-large-xlsr-rm-vallader"
 	}
 ]
