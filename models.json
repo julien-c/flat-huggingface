@@ -41589,16 +41589,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "omoekan/dummy-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "omoekan/marian-finetuned-yo-to-en"
-	},
-	{
-		"private": false,
 		"modelId": "ontocord/fastspeech2-en"
 	},
 	{
@@ -118205,10 +118195,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "omoekan/marian-finetuned-yo-to-en-accelerate"
-	},
-	{
-		"private": false,
 		"modelId": "onlyprogramingnoob/DialoGPT-medium-mickeymouse"
 	},
 	{
@@ -125178,11 +125164,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "younes9/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
 		"modelId": "Iskaj/w2v-xlsr-dutch-lm"
 	},
 	{
@@ -125212,10 +125193,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "mrm8488/bioclinical-roberta-es-finenuned-clinical-ner"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v14"
 	},
 	{
 		"private": false,
@@ -125254,10 +125231,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v16"
-	},
-	{
-		"private": false,
 		"modelId": "silentzone/test"
 	},
 	{
@@ -125266,34 +125239,38 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Imbalanced-biobert-base-cased-v1.2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/bert-base-uncased-finetuned-rte"
 	},
 	{
 		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_fr_open_subtitles"
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-SapBERT-from-PubMedBERT-fulltext"
 	},
 	{
 		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_en_open_subtitles"
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Imbalanced-SapBERT-from-PubMedBERT-fulltext"
 	},
 	{
 		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_zh_open_subtitles"
+		"modelId": "jeang/textgenrnn"
 	},
 	{
 		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_pt_open_subtitles"
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-SapBERT-UMLS-2020AB-all-lang-from-XLMR"
 	},
 	{
 		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_es_open_subtitles"
+		"modelId": "z-uo/glowtts-female-it"
 	},
 	{
 		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_ar_open_subtitles"
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-armenian"
 	}
 ]
