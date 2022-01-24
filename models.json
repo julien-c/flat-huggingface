@@ -124941,10 +124941,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "comodoro/wav2vec2-xls-r-300m-cs-1ep"
-	},
-	{
-		"private": false,
 		"modelId": "danimlk93/bert-finetuned-squad-accelerate"
 	},
 	{
@@ -125275,10 +125271,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "younes9/AI-DAY-distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
 		"modelId": "Saitomar/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"modelId": "Saitomar/wav2vec2-common_voice-tr-demo-dist"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "surrey-nlp/en_abbreviation_detection_roberta_lar"
 	}
 ]
