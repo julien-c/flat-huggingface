@@ -101415,6 +101415,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "LegolasTheElf/Wav2vec2_XLSR_Bengali"
 	},
 	{
@@ -124953,7 +124954,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "truthisneverlinear/EleventhDoctor"
 	},
 	{
@@ -125039,6 +125040,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-medium"
+	},
+	{
+		"private": false,
 		"modelId": "Suva/uptag-url-model2"
 	},
 	{
@@ -125048,5 +125054,17 @@
 	{
 		"private": false,
 		"modelId": "deepdoctection/tp_casc_rcnn_X_32xd4_50_FPN_GN_2FC"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/debug-example"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-large-xlsr-53-W2V2-SPANISH-MED"
+	},
+	{
+		"private": false,
+		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy"
 	}
 ]
