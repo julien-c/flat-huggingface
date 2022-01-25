@@ -107818,7 +107818,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "benjaminbeilharz/dialoGPT-small-empatheticdialogues-generation"
 	},
 	{
@@ -110042,10 +110042,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "deepdml/output"
-	},
-	{
-		"private": false,
-		"modelId": "deepdml/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
 		"private": false,
@@ -125434,11 +125430,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "emre/wav2vec2-large-xlsr-53-W2V2-YAKUT-SMALL"
-	},
-	{
-		"private": false,
 		"modelId": "deepdoctection/d2_casc_rcnn_X_32xd4_50_FPN_GN_2FC_publaynet_inference_only"
 	},
 	{
@@ -125505,6 +125496,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-W2V2-XLSR-300M-YAKUT-SMALL"
 	},
 	{
@@ -125542,6 +125534,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-cs"
 	},
 	{
@@ -125555,5 +125548,13 @@
 	{
 		"private": false,
 		"modelId": "Iacopo/Shakespear-GPT2"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-small"
+	},
+	{
+		"private": false,
+		"modelId": "dsaenzpe/wav2vec2-base-timit-demo-colab"
 	}
 ]
