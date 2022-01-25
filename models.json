@@ -107931,10 +107931,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "bigscience/t5x-cd-flm-logs"
-	},
-	{
-		"private": false,
 		"modelId": "bigscience/t5x-cd-sc-logs"
 	},
 	{
@@ -125367,6 +125363,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/t5x-cd-flm-logs"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Gunulhona/tbecmodel"
 	},
@@ -125376,6 +125376,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "tog/gpt-j-6B-8bit"
 	},
 	{
@@ -125579,18 +125580,28 @@
 	},
 	{
 		"private": false,
-		"modelId": "lassl/bert-ko-small"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-125M-learntmean-nli"
 	},
 	{
 		"private": false,
 		"modelId": "benjaminbeilharz/distilbert-base-uncased-empatheticdialogues-sentiment-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "RahulRaman/Tamil-LM-Electra"
+	},
+	{
+		"private": false,
+		"modelId": "lassl/bert-ko-small"
+	},
+	{
+		"private": false,
+		"modelId": "kkumari06/tf-distilbart-cnn-12-6-tradetheevent"
 	}
 ]
