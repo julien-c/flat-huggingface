@@ -116740,6 +116740,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "megantosh/flair-arabic-MSA-aqmar"
 	},
 	{
@@ -125719,10 +125720,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "daisyxie21/bert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
 		"modelId": "gigant/xls-r-ro-test"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/marian-finetuned-kde4-en-to-fr"
 	}
 ]
