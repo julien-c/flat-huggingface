@@ -111990,7 +111990,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-SapBERT-UMLS-2020AB-all-lang-from-XLMR"
 	},
 	{
@@ -125716,6 +125715,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "chmanoj/xls-r-300m-sv"
 	},
 	{
@@ -125730,5 +125730,13 @@
 	{
 		"private": false,
 		"modelId": "mbateman/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"modelId": "asahi417/tner-roberta-large-multiconer-en"
+	},
+	{
+		"private": false,
+		"modelId": "asahi417/tner-adapter-roberta-large-multiconer-en"
 	}
 ]
