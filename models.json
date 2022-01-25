@@ -88168,6 +88168,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "akozlo/conserv_fulltext_1_18_22"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "akr/distilbert-base-uncased-finetuned-squad"
 	},
@@ -107818,7 +107823,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text-generation",
 		"modelId": "benjaminbeilharz/dialoGPT-small-empatheticdialogues-generation"
 	},
 	{
@@ -125547,6 +125552,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Iacopo/Shakespear-GPT2"
 	},
 	{
@@ -125556,5 +125562,21 @@
 	{
 		"private": false,
 		"modelId": "dsaenzpe/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "openslr/multilingual_librispeech"
+	},
+	{
+		"private": false,
+		"modelId": "versae/xls-npsc"
+	},
+	{
+		"private": false,
+		"modelId": "RahulRaman/kannada-LM-Electra"
+	},
+	{
+		"private": false,
+		"modelId": "awsaf49/deep-chimpact"
 	}
 ]
