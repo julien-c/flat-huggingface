@@ -125746,6 +125746,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-multi"
 	},
 	{
@@ -125758,6 +125759,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika3_my-colab"
 	},
 	{
@@ -125810,14 +125812,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RuudVelo/wav2vec2-large-xls-r-300m-nl"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-v3"
 	},
 	{
 		"private": false,
 		"modelId": "freds0/wav2vec2-large-xls-r-300m-portuguese-colab"
+	},
+	{
+		"private": false,
+		"modelId": "Swabe/xls-r-ab-test"
 	}
 ]
