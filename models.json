@@ -97364,6 +97364,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AndrewMcDowell/xls-r-german-300-test"
+	},
+	{
+		"private": false,
 		"modelId": "Andrey78/my_model_nlp"
 	},
 	{
@@ -101843,6 +101848,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Maniac/wav2vec2-xls-r-urdu"
 	},
 	{
@@ -124852,6 +124858,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "edugp/wav2vec2-xls-r-300m-es"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy2"
 	},
@@ -124862,16 +124877,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "bayartsogt/tts_transformer-mn-mbspeech"
+	},
+	{
+		"private": false,
+		"modelId": "shunxing1234/BriVL"
+	},
+	{
+		"private": false,
 		"modelId": "Amalq/distilroberta-base-finetuned-MentalHealth"
 	},
 	{
 		"private": false,
 		"modelId": "AndrewMcDowell/xls-r-english-300-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AndrewMcDowell/xls-r-german-300-test"
 	},
 	{
 		"private": false,
@@ -125390,16 +125409,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
-	},
-	{
-		"private": false,
 		"modelId": "mendor/xlm-roberta-base-finetuned-panx-de"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "edugp/wav2vec2-xls-r-300m-es"
 	},
 	{
 		"private": false,
@@ -125425,11 +125435,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-to-speech",
-		"modelId": "bayartsogt/tts_transformer-mn-mbspeech"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-basaa"
 	},
@@ -125440,10 +125445,6 @@
 	{
 		"private": false,
 		"modelId": "byeongal/gpt-j-6B-float16"
-	},
-	{
-		"private": false,
-		"modelId": "shunxing1234/BriVL"
 	},
 	{
 		"private": false,
@@ -125505,5 +125506,15 @@
 	{
 		"private": false,
 		"modelId": "kevinbgray/test_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Gunulhona/tbecmodel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "gojiteji/byt5-small-ai-ja-mt"
 	}
 ]
