@@ -125462,6 +125462,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "ainize/gpt-j-6B-float16"
 	},
 	{
@@ -125480,6 +125481,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/electra-base-discriminator-finetuned-rte"
+	},
+	{
+		"private": false,
+		"modelId": "Muennighoff/SGPT-6.1B-weightedmean-nli-bitfit"
 	}
 ]
