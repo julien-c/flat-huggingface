@@ -33818,6 +33818,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "rinna/japanese-gpt-1b"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "rsvp-ai/bertserini-roberta-base"
 	},
@@ -67699,11 +67704,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-100000"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "stanfordnlp/stanza-ga"
 	},
@@ -76705,11 +76705,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-x343-checkpoint-100000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000"
 	},
 	{
@@ -85605,11 +85600,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/beren-x49-checkpoint-100000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/beren-x49-checkpoint-200000"
 	},
 	{
@@ -85646,11 +85636,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/durin-x343-checkpoint-400000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-100000"
 	},
 	{
 		"private": false,
@@ -92978,11 +92963,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-x21-checkpoint-100000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/arwen-x21-checkpoint-200000"
 	},
 	{
@@ -96412,11 +96392,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/durin-x343-checkpoint-200000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777-checkpoint-210000"
 	},
 	{
 		"private": false,
@@ -114980,6 +114955,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v3-en-to-ru"
 	},
 	{
@@ -125505,10 +125481,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "0x7194633/gameGPT-small"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Gunulhona/tbecmodel"
 	},
@@ -125549,6 +125521,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-bashkir"
 	},
 	{
@@ -125570,6 +125543,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-2.7B-weightedmean-nli-bitfit"
 	},
 	{
@@ -125579,5 +125553,38 @@
 	{
 		"private": false,
 		"modelId": "deepdoctection/d2_casc_rcnn_X_32xd4_50_FPN_GN_2FC_publaynet_inference_only"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "philschmid/test-german-t5-prompted-germanquad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-mean-nli-linear5"
+	},
+	{
+		"private": false,
+		"modelId": "deepdoctection/d2_casc_rcnn_X_32xd4_50_FPN_GN_2FC_pubtabnet_c_inference_only"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "monologg/koelectra-v3-klue-sts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-mean-nli-linearthenpool5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SBERT-base-nli-v2-bitfit"
+	},
+	{
+		"private": false,
+		"modelId": "Muennighoff/SGPT-125M-weightedmean-nli-bitfit-linearthenpool1-noact"
 	}
 ]
