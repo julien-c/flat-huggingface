@@ -125367,6 +125367,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Gunulhona/tbecmodel"
 	},
@@ -125580,11 +125585,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-125M-learntmean-nli"
 	},
@@ -125603,5 +125603,13 @@
 	{
 		"private": false,
 		"modelId": "kkumari06/tf-distilbart-cnn-12-6-tradetheevent"
+	},
+	{
+		"private": false,
+		"modelId": "RahulRaman/Telugu-LM-Electra"
+	},
+	{
+		"private": false,
+		"modelId": "vumichien/wav2vec2-xls-r-1b-ja-dumy4"
 	}
 ]
