@@ -76705,11 +76705,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-400000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/expanse-x777-checkpoint-300000"
 	},
 	{
@@ -85590,27 +85585,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-x21-checkpoint-400000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/battlestar-x49-checkpoint-100000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/beren-x49-checkpoint-200000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/beren-x49-checkpoint-300000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/beren-x49-checkpoint-400000"
 	},
 	{
 		"private": false,
@@ -85631,11 +85606,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/darkmatter-x343-checkpoint-300000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-x343-checkpoint-400000"
 	},
 	{
 		"private": false,
@@ -92963,11 +92933,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-x21-checkpoint-200000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/battlestar-x49-checkpoint-400000"
 	},
 	{
@@ -92978,32 +92943,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-200000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-400000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/darkmatter-gpt2-small-x343-checkpoint-210000"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/darkmatter-x343-checkpoint-400000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-x343-checkpoint-300000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-300000"
 	},
 	{
 		"private": false,
@@ -96341,21 +96286,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-gpt2-medium-x21-checkpoint-10"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-gpt2-medium-x21-checkpoint-210000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/arwen-x21-checkpoint-300000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/battlestar-gpt2-small-x49-checkpoint-210000"
 	},
 	{
@@ -96366,37 +96296,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/beren-gpt2-medium-x49-checkpoint-210000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/caprica-gpt2-small-x81-checkpoint-210000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/celebrimbor-gpt2-medium-x81-checkpoint-210000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/celebrimbor-x81-checkpoint-300000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-gpt2-medium-x343-checkpoint-210000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/durin-x343-checkpoint-200000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-x777-checkpoint-200000"
 	},
 	{
 		"private": false,
@@ -122385,10 +122285,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "stanford-crfm/demo-checkpoint-1"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777"
 	},
 	{
@@ -125494,6 +125391,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/WORDED-LABEL-es-fp16-t5-finetune-updated-git"
 	},
 	{
@@ -125585,6 +125483,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-125M-weightedmean-nli-bitfit-linearthenpool1-noact"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v20"
 	}
 ]
