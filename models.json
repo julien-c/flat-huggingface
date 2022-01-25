@@ -40703,6 +40703,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "omoekan/marian-finetuned-yo-to-en"
+	},
+	{
+		"private": false,
 		"modelId": "ontocord/fastspeech2-en"
 	},
 	{
@@ -112201,6 +112206,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "gigant/xls-r-ab-test"
+	},
+	{
+		"private": false,
 		"modelId": "giladlandau/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -119703,6 +119712,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "prashanth/bert-finetuned-ner"
 	},
 	{
@@ -125556,6 +125566,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-small"
 	},
 	{
@@ -125601,6 +125612,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-xls-r-1b-ja-dumy4"
 	},
 	{
@@ -125653,6 +125665,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/xls-r-1b-npsc"
+	},
+	{
+		"private": false,
 		"modelId": "antoinem/workspace"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-med"
+	},
+	{
+		"private": false,
+		"modelId": "davidcechak/tss_bert_6"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "jeang/bert-finetuned-sentence-classification"
 	}
 ]
