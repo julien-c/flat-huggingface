@@ -79925,6 +79925,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_NCC_OSCAR_16w_noada"
 	},
 	{
@@ -94538,11 +94543,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Naturealbe/DialoGPT-small-harrypotter-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_ncc"
 	},
 	{
 		"private": false,
@@ -124852,6 +124852,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "geninhu/xls-asr-vi-1B"
+	},
+	{
+		"private": false,
 		"modelId": "Amalq/distilroberta-base-finetuned-MentalHealth"
 	},
 	{
@@ -125393,11 +125403,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy2"
-	},
-	{
-		"private": false,
 		"modelId": "NimaBoscarino/aot-gan-places2"
 	},
 	{
@@ -125417,11 +125422,6 @@
 	{
 		"private": false,
 		"modelId": "hugoangel/model_000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "geninhu/xls-asr-vi-1B"
 	},
 	{
 		"private": false,
@@ -125501,5 +125501,9 @@
 	{
 		"private": false,
 		"modelId": "tybantarnusa/thya-alpha-2"
+	},
+	{
+		"private": false,
+		"modelId": "kevinbgray/test_model"
 	}
 ]
