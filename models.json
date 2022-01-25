@@ -110250,6 +110250,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/xy9-teste"
+	},
+	{
+		"private": false,
 		"modelId": "dikabaehaki16/Dikabaehaki"
 	},
 	{
@@ -125539,6 +125544,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "alistvt/bert-base-uncased-pretrain-finetuned-coqa-falt"
 	},
 	{
@@ -125673,6 +125679,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "davidcechak/tss_bert_6"
 	},
 	{
@@ -125682,6 +125689,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jeang/bert-finetuned-sentence-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/albert-base-v2-finetuned-rte"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "davidcechak/CDNA_bert_6"
+	},
+	{
+		"private": false,
+		"modelId": "Ridas/finetuned-emotion-1"
+	},
+	{
+		"private": false,
+		"modelId": "dpasch01/finetune-data-skills"
 	}
 ]
