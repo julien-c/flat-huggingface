@@ -96691,11 +96691,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-medium"
-	},
-	{
-		"private": false,
 		"modelId": "123123/ghfk"
 	},
 	{
@@ -125083,10 +125078,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
 		"modelId": "z-uo/glowtts-female-it"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
 		"modelId": "z-uo/glowtts-male-it"
 	},
 	{
@@ -125526,5 +125523,9 @@
 	{
 		"private": false,
 		"modelId": "tog/gpt-j-6B-8bit"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/WORDED-LABEL-es-fp16-t5-finetune-updated-git"
 	}
 ]
