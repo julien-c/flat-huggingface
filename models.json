@@ -125412,13 +125412,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kresnik/hubert-large-ll60k-korean"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "koobear/with-label-sep-fp16-t5-finetune-updated-gits"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/with-label-sep-fp16-t5-finetune-updated-gits"
+		"modelId": "koobear/with-label-sep-es-fp16-t5-finetune-updated-git"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/gpt-neo-2.7B-newsumm"
+	},
+	{
+		"private": false,
+		"modelId": "hugoangel/model_000"
 	},
 	{
 		"private": false,
@@ -125426,6 +125433,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "eugenecamus/distilbert-base-uncased-finetuned-emotion"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chizuru/finetuned-ms-4-2-4-4-epochs-20220124-20220125-4"
+	},
+	{
+		"private": false,
+		"modelId": "rzamer/distilbert-base-uncased-finetuned-imdb"
 	}
 ]
