@@ -87493,6 +87493,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "NimaBoscarino/aot-gan-celebahq"
 	},
 	{
@@ -125552,6 +125553,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-1.3B-weightedmean-nli-bitfit"
 	},
 	{
@@ -125565,5 +125567,9 @@
 	{
 		"private": false,
 		"modelId": "Muennighoff/SGPT-2.7B-weightedmean-nli-bitfit"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-large-xlsr-53-W2V2-YAKUT-SMALL"
 	}
 ]
