@@ -124902,6 +124902,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "MicroTurtle/DialoGPT-medium-shawn"
 	},
 	{
@@ -125391,5 +125392,40 @@
 	{
 		"private": false,
 		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
+	},
+	{
+		"private": false,
+		"modelId": "mendor/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "edugp/wav2vec2-xls-r-300m-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy2"
+	},
+	{
+		"private": false,
+		"modelId": "NimaBoscarino/aot-gan-places2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kresnik/hubert-large-ll60k-korean"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "koobear/with-label-sep-fp16-t5-finetune-updated-gits"
+	},
+	{
+		"private": false,
+		"modelId": "geninhu/xls-asr-vi-1B"
+	},
+	{
+		"private": false,
+		"modelId": "eugenecamus/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
