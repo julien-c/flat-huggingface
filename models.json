@@ -67526,10 +67526,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sgugger/test_dynamic_model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "shaer/xlm-roberta-base-finetuned-marc-en-test-run"
 	},
@@ -68355,6 +68351,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zyberg2091/distilbert-base-multilingual-toxicity-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "sgugger/test_dynamic_model"
 	},
 	{
 		"private": false,
@@ -116836,11 +116836,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "metinbinbir/turkish_paraphrase_detection"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "mewmew/DialoGPT-small-rick"
 	},
@@ -125766,6 +125761,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bem-ovhai"
 	},
 	{
@@ -125784,5 +125780,17 @@
 	{
 		"private": false,
 		"modelId": "pere/sentencefix"
+	},
+	{
+		"private": false,
+		"modelId": "PereLluis13/wav2vec2-xls-r-300m-ca"
+	},
+	{
+		"private": false,
+		"modelId": "bypequeno/small-gpt2-chatbot-michael_scott"
+	},
+	{
+		"private": false,
+		"modelId": "ddobokki/klue-roberta-small-nli-sts"
 	}
 ]
