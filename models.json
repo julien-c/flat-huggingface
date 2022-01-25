@@ -125203,6 +125203,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika_my-colab"
 	},
 	{
@@ -125414,6 +125415,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/with-label-sep-es-fp16-t5-finetune-updated-git"
 	},
 	{
@@ -125452,14 +125454,22 @@
 	},
 	{
 		"private": false,
-		"modelId": "ainize/gpt-j-6B-float16"
-	},
-	{
-		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-9"
 	},
 	{
 		"private": false,
 		"modelId": "sangrok/pohs"
+	},
+	{
+		"private": false,
+		"modelId": "byeongal/gpt-j-6B-float15"
+	},
+	{
+		"private": false,
+		"modelId": "ainize/gpt-j-6B-float16"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/electra-base-discriminator-finetuned-wnli"
 	}
 ]
