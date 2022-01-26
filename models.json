@@ -125342,6 +125342,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
 	{
@@ -125587,10 +125588,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jeang/bert-finetuned-sentence-classification"
-	},
-	{
-		"private": false,
-		"modelId": "jhonparra18/wav2vec2-large-xls-r-300m-spanish-asr"
 	},
 	{
 		"private": false,
@@ -125865,5 +125862,13 @@
 	{
 		"private": false,
 		"modelId": "wangweinuo/ceshi"
+	},
+	{
+		"private": false,
+		"modelId": "jhonparra18/wav2vec2-xls-r-300m-spanish-small"
+	},
+	{
+		"private": false,
+		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali"
 	}
 ]
