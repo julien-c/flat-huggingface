@@ -42240,6 +42240,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-cloned-model"
 	},
 	{
@@ -125881,6 +125882,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic-lm"
 	},
 	{
@@ -125912,6 +125914,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-Br-small"
 	},
 	{
@@ -126013,6 +126016,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-xlarge-v2-finetuned-mrpc"
 	},
 	{
@@ -126021,6 +126025,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "katrin-kc/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "brandon25/longformer-base-4096-spanish-finetuned-xsum"
 	}
 ]
