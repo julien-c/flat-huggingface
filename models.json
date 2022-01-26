@@ -21646,11 +21646,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v3-en-to-ru"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/bp400-xlsr"
 	},
@@ -101890,10 +101885,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Iskaj/w2v-xlsr-dutch-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Istiaque190515/Sherlock"
 	},
@@ -125939,6 +125930,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "yapak1994/Urdu_ASR_wav2vec2_base"
 	},
 	{
@@ -125953,5 +125945,13 @@
 	{
 		"private": false,
 		"modelId": "Iskaj/hf-challenge-test"
+	},
+	{
+		"private": false,
+		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic-lm"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-original"
 	}
 ]
