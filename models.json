@@ -17419,6 +17419,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "climatebert/distilroberta-base-climate-s"
 	},
 	{
@@ -20623,6 +20628,11 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "yuvraj/summarizer-cnndm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
 	},
 	{
 		"private": false,
@@ -78615,11 +78625,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_ncc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/test_NCC_OSCAR_16w_noada"
 	},
 	{
@@ -93596,6 +93601,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AndrewMcDowell/xls-r-german-300-test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/bert_snips"
 	},
@@ -94629,6 +94639,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "anduush/DialoGPT-small-Rick"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/albert-xlarge-v2-finetuned-wnli"
 	},
 	{
 		"private": false,
@@ -96954,11 +96969,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir"
 	},
 	{
@@ -97210,11 +97220,6 @@
 	{
 		"private": false,
 		"modelId": "AndrewMcDowell/xls-r-english-300-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AndrewMcDowell/xls-r-german-300-test"
 	},
 	{
 		"private": false,
@@ -106873,11 +106878,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-base-v2-finetuned-wnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "anirudh21/albert-xlarge-v2-finetuned-wnli"
 	},
 	{
 		"private": false,
@@ -123384,6 +123384,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "tog/fr-boris-8bit"
+	},
+	{
+		"private": false,
 		"modelId": "toilahuong/test"
 	},
 	{
@@ -125353,6 +125357,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "BHSo/bert-base-japanese-jaquad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "DHBaek/gpt2-test"
 	},
@@ -125851,10 +125860,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "BHSo/bert-base-japanese-jaquad"
-	},
-	{
-		"private": false,
 		"modelId": "BobBraico/bert-finetuned-ner"
 	},
 	{
@@ -125886,5 +125891,9 @@
 	{
 		"private": false,
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
+	},
+	{
+		"private": false,
+		"modelId": "tpanza/dummy-model"
 	}
 ]
