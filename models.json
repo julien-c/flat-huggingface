@@ -41520,11 +41520,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ckauth/ck-cloned-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-cs"
 	},
@@ -42247,6 +42242,10 @@
 	{
 		"private": false,
 		"modelId": "ytlin/1pm2c7qw_5"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/ck-cloned-model"
 	},
 	{
 		"private": false,
@@ -125931,5 +125930,17 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "pinecone/docs-sbert-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "yapak1994/Urdu_ASR_wav2vec2_base"
+	},
+	{
+		"private": false,
+		"modelId": "yapak1994/Urdu_ASR_wav2vec2_base_LM"
+	},
+	{
+		"private": false,
+		"modelId": "Voxcroft/wav2vec2-xlsr-300m-amharic-lm"
 	}
 ]
