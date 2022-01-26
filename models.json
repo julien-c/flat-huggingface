@@ -96251,6 +96251,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "UBC-NLP/MARBERTv2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Vasudev/discharge_albert"
 	},
 	{
@@ -126251,10 +126256,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "sibckukgvaxsepbkyb/mT5IndoQG"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "diiogo/diabert-base"
+	},
+	{
+		"private": false,
+		"modelId": "tbouaziz/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "megantosh/flair-arabic-multipos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__TREC-QC__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "mpoyraz/wav2vec2-xls-r-300m-turkish"
 	}
 ]
