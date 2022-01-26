@@ -16044,6 +16044,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Waynehills_NLP_muti"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Emanuel/autonlp-pos-tag-bosque"
 	},
@@ -21783,6 +21788,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "stanfordnlp/stanza-vi"
 	},
@@ -23254,11 +23264,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Contrastive-Tension/BERT-Base-NLI-CT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Waynehills_NLP_muti"
 	},
 	{
 		"private": false,
@@ -25650,6 +25655,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "dennlinger/bert-wiki-paragraphs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "edugp/wav2vec2-xls-r-300m-es"
 	},
 	{
 		"private": false,
@@ -31814,6 +31824,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-bashkir"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jhgan/ko-sroberta-sts"
 	},
@@ -35028,6 +35043,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "vovaf709/bert_mlm_positive"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "chmanoj/xls-r-300m-te"
 	},
 	{
 		"private": false,
@@ -52224,6 +52244,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zitterbewegung/DialoGPT-medium-ja"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "geninhu/xls-asr-vi-40h"
 	},
 	{
 		"private": false,
@@ -96558,6 +96583,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -110692,11 +110722,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "edugp/wav2vec2-xls-r-300m-es"
-	},
-	{
-		"private": false,
 		"modelId": "edwardcodarcea/pegasus-persian"
 	},
 	{
@@ -122252,11 +122277,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777"
-	},
-	{
-		"private": false,
 		"modelId": "stanfordnlp/CoreNLP"
 	},
 	{
@@ -125577,11 +125597,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-bashkir"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jeang/bert-finetuned-sentence-classification"
 	},
@@ -125819,16 +125834,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "geninhu/xls-asr-vi-40h"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "chmanoj/xls-r-300m-te"
-	},
-	{
-		"private": false,
 		"modelId": "asharma20/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -125872,15 +125877,14 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali"
-	},
-	{
-		"private": false,
 		"modelId": "delviana/Delvi"
 	},
 	{
 		"private": false,
 		"modelId": "Ci/Pai"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	}
 ]
