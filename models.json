@@ -3355,7 +3355,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
+		"pipeline_tag": "audio-classification",
 		"modelId": "hf-internal-testing/tiny-random-unispeech-sat"
 	},
 	{
@@ -126003,6 +126003,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "openai/clip-vit-large-patch14"
 	},
 	{
@@ -126064,6 +126065,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Mustang/BERT_responsible_AI"
 	},
 	{
@@ -126093,5 +126095,13 @@
 	{
 		"private": false,
 		"modelId": "Kevincp560/bart-large-cnn-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/ppo-Walker2DBulletEnv-v0"
+	},
+	{
+		"private": false,
+		"modelId": "Eldar/dummy-model"
 	}
 ]
