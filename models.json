@@ -41510,6 +41510,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ckauth/ck-cloned-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-cs"
 	},
@@ -42232,11 +42237,6 @@
 	{
 		"private": false,
 		"modelId": "ytlin/1pm2c7qw_5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ckauth/ck-cloned-model"
 	},
 	{
 		"private": false,
@@ -95239,11 +95239,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "anirudh21/albert-xlarge-v2-finetuned-wnli"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "1Basco/DialoGPT-small-jake"
 	},
@@ -96449,6 +96444,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/albert-xlarge-v2-finetuned-wnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/bert-base-uncased-finetuned-cola"
 	},
 	{
@@ -96668,6 +96668,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "csae8092/de_RTA_NER"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bem-ovhai"
 	},
 	{
 		"private": false,
@@ -98509,10 +98513,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bem-ovhai"
-	},
-	{
-		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -99977,6 +99977,10 @@
 	{
 		"private": false,
 		"modelId": "Cheapestmedsshop/Buymodafinilus"
+	},
+	{
+		"private": false,
+		"modelId": "Cheatham/xlm-roberta-large-finetuned4"
 	},
 	{
 		"private": false,
@@ -125859,12 +125863,55 @@
 	},
 	{
 		"private": false,
-		"modelId": "Cheatham/xlm-roberta-large-finetuned4"
+		"modelId": "Iskaj/hf-challenge-test"
+	},
+	{
+		"private": false,
+		"modelId": "Minzhi/Gradio"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/MiniLM-L12-H384-uncased__sst2__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "Victayria/test_repo"
+	},
+	{
+		"private": false,
+		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic-lm"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
+	},
+	{
+		"private": false,
+		"modelId": "arshyajabbari/wav2vec2-persian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "benjaminbeilharz/bert-base-uncased-empatheticdialogues-sentiment-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "bertin-project/bertin-xls-r-1b-spanish"
+	},
+	{
+		"private": false,
+		"modelId": "creynier/wav2vec2-base-swbd-small-turn"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "edugp/wav2vec2-xls-r-300m-bnb-es"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Br-small"
 	},
 	{
 		"private": false,
@@ -125874,11 +125921,59 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-breton"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-bulgarian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "jcmc/wav2vec2-large-xlsr-53-ir"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jcmc/wav2vec2-xls-r-300m-jp"
 	},
 	{
 		"private": false,
+		"modelId": "krirk/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
 		"modelId": "kxiaoqiangrexian/bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/MiniLM-L12-H384-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/MiniLM-L12-H384-uncased__sst2__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-original"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/debug-example2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pinecone/docs-sbert-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali-test"
+	},
+	{
+		"private": false,
+		"modelId": "sachin/vit2distilgpt2"
 	},
 	{
 		"private": false,
@@ -125888,37 +125983,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vuiseng9/bert-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-breton"
-	},
-	{
-		"private": false,
-		"modelId": "Victayria/test_repo"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-Br-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "edugp/wav2vec2-xls-r-300m-bnb-es"
-	},
-	{
-		"private": false,
-		"modelId": "osanseviero/debug-example2"
-	},
-	{
-		"private": false,
-		"modelId": "krirk/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "pinecone/docs-sbert-uncased"
 	},
 	{
 		"private": false,
@@ -125936,61 +126000,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Iskaj/hf-challenge-test"
-	},
-	{
-		"private": false,
-		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic-lm"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/deformable-detr-original"
-	},
-	{
-		"private": false,
-		"modelId": "creynier/wav2vec2-base-swbd-small-turn"
-	},
-	{
-		"private": false,
-		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jcmc/wav2vec2-large-xlsr-53-ir"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "benjaminbeilharz/bert-base-uncased-empatheticdialogues-sentiment-classifier"
-	},
-	{
-		"private": false,
-		"modelId": "sachin/vit2distilgpt2"
-	},
-	{
-		"private": false,
-		"modelId": "bertin-project/bertin-xls-r-1b-spanish"
-	},
-	{
-		"private": false,
-		"modelId": "arshyajabbari/wav2vec2-persian"
-	},
-	{
-		"private": false,
-		"modelId": "lewtun/MiniLM-L12-H384-uncased"
-	},
-	{
-		"private": false,
-		"modelId": "lewtun/MiniLM-L12-H384-uncased__sst2__all-train"
-	},
-	{
-		"private": false,
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-bulgarian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/MiniLM-L12-H384-uncased__sst2__all-train"
+		"modelId": "alistvt/bert-squad-finetuned-coqa"
 	}
 ]
