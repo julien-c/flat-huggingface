@@ -18976,11 +18976,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "bettertextapp/bert-large-detector-de"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "cardiffnlp/twitter-roberta-base-dec2021"
 	},
@@ -62959,6 +62954,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "megantosh/flair-arabic-dialects-codeswitch-egy-lev"
 	},
 	{
@@ -73897,11 +73893,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "beomi/korean-lgbt-hatespeech-classifier"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "bettertextapp/bert-large-detector-de-v3"
 	},
 	{
 		"private": false,
@@ -96519,11 +96510,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "bettertextapp/bert-large-detector-de-v2"
-	},
-	{
-		"private": false,
 		"modelId": "bigscience/tr5b-1B3-multilingual-alpha-checkpoints"
 	},
 	{
@@ -109203,14 +109189,6 @@
 	{
 		"private": false,
 		"modelId": "bergurth/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "bettertextapp/bert-base-detector-de-oscar"
-	},
-	{
-		"private": false,
-		"modelId": "bettertextapp/bert-large-detector-de-oscar"
 	},
 	{
 		"private": false,
@@ -126204,21 +126182,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "BlazeLlama/codeparrot-train-clean-tokenizer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "novakat/nerkor-hubert"
 	},
 	{
 		"private": false,
 		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v2-en-to-ar"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "BlazeLlama/codeparrot-gpt2large-traincleantokenizer"
 	},
 	{
 		"private": false,
@@ -126309,5 +126278,9 @@
 	{
 		"private": false,
 		"modelId": "prashanth/bert-base-multilingual-cased-ner"
+	},
+	{
+		"private": false,
+		"modelId": "BlazeLlama/codeparrot-gpt2small"
 	}
 ]
