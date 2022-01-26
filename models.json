@@ -20379,11 +20379,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Firat/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "GroNLP/bert-base-dutch-cased-upos-alpino"
 	},
@@ -20494,6 +20489,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "verloop/Hinglish-Bert"
+	},
+	{
+		"private": false,
+		"modelId": "Firat/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -125883,11 +125882,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Voxcroft/wav2vec2-xls-r-300m-amharic-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
 	{
@@ -126031,5 +126025,35 @@
 	{
 		"private": false,
 		"modelId": "brandon25/longformer-base-4096-spanish-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "jcmc/wav2vec2-xls-r-1b-ir"
+	},
+	{
+		"private": false,
+		"modelId": "katrin-kc/dummy2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Firat/distilbert-base-uncased-finetuned-squad-V2"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bart-large-cnn-test"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Russian-small"
+	},
+	{
+		"private": false,
+		"modelId": "creynier/wav2vec2-base-swbd-small-turn-eos-new"
+	},
+	{
+		"private": false,
+		"modelId": "hf-internal-testing/tiny-random-wavlm"
 	}
 ]
