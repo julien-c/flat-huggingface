@@ -20493,6 +20493,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Firat/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -96523,11 +96524,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-multi"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "avnish100/DialoGPT-small-rick"
 	},
@@ -117532,7 +117528,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "mbateman/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -126112,6 +126108,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-chuvash"
 	},
 	{
@@ -126135,6 +126132,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-large-v2-finetuned-rte"
 	},
 	{
@@ -126166,5 +126164,13 @@
 	{
 		"private": false,
 		"modelId": "Iskaj/w2v-sub"
+	},
+	{
+		"private": false,
+		"modelId": "DankRoyaler/Medium-HarryPotter-90ecos-4batchs"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed1ai/wav2vec2-large-xls-r-300m-turkish-colab-trained-by-mohamed_version2"
 	}
 ]
