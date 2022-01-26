@@ -96598,11 +96598,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali"
-	},
-	{
-		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -125890,10 +125885,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
 	{
 		"private": false,
 		"modelId": "tpanza/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "gullenasatish/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vuiseng9/bert-mnli"
 	}
 ]
