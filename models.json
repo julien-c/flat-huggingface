@@ -33356,11 +33356,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-pos-glf"
 	},
@@ -125886,6 +125881,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gullenasatish/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -125930,5 +125926,10 @@
 	{
 		"private": false,
 		"modelId": "krirk/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pinecone/docs-sbert-uncased"
 	}
 ]
