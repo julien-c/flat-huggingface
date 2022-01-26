@@ -20098,11 +20098,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-highlight-format"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "diego-fustes/wav2vec2-large-xlsr-gl"
 	},
@@ -33348,6 +33343,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhiheng-huang/bert-large-uncased-whole-word-masking-embedding-relative-key-query"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
 	},
 	{
 		"private": false,
@@ -125953,5 +125953,17 @@
 	{
 		"private": false,
 		"modelId": "nielsr/deformable-detr-original"
+	},
+	{
+		"private": false,
+		"modelId": "creynier/wav2vec2-base-swbd-small-turn"
+	},
+	{
+		"private": false,
+		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali-test"
+	},
+	{
+		"private": false,
+		"modelId": "jcmc/wav2vec2-large-xlsr-53-ir"
 	}
 ]
