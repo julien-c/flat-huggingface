@@ -118657,11 +118657,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
-	},
-	{
-		"private": false,
 		"modelId": "nefter/hugging-face"
 	},
 	{
@@ -126201,6 +126196,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
 		"modelId": "z-uo/vits-female-it"
 	},
 	{
@@ -126210,5 +126206,14 @@
 	{
 		"private": false,
 		"modelId": "BlazeLlama/codeparrot-train-clean-tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "novakat/nerkor-hubert"
+	},
+	{
+		"private": false,
+		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v2-en-to-ar"
 	}
 ]
