@@ -126261,11 +126261,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "diiogo/diabert-base"
-	},
-	{
-		"private": false,
 		"modelId": "tbouaziz/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -126285,5 +126280,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__subj__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "diiogo/diabert-base"
 	}
 ]
