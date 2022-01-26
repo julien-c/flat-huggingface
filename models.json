@@ -42245,6 +42245,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-cloned-model"
 	},
 	{
@@ -125875,6 +125876,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Cheatham/xlm-roberta-large-finetuned4"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
@@ -125916,6 +125921,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "edugp/wav2vec2-xls-r-300m-bnb-es"
 	},
 	{
@@ -125941,6 +125947,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Voxcroft/wav2vec2-xlsr-300m-amharic-lm"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "yapak1994/Urdu_ASR_wav2vec2_base_Model"
+	},
+	{
+		"private": false,
+		"modelId": "Iskaj/hf-challenge-test"
 	}
 ]
