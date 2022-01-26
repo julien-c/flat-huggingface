@@ -50700,11 +50700,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pierreguillou/t5-base-qa-squad-v1.1-portuguese"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "pmthangk09/bert-base-uncased-esnli"
 	},
@@ -51124,6 +51119,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zyayoung/cv-full-paper"
+	},
+	{
+		"private": false,
+		"modelId": "pierreguillou/t5-base-qa-squad-v1.1-portuguese"
 	},
 	{
 		"private": false,
@@ -125958,6 +125957,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-Russian-small"
 	},
 	{
@@ -126215,5 +126215,9 @@
 	{
 		"private": false,
 		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v2-en-to-ar"
+	},
+	{
+		"private": false,
+		"modelId": "BlazeLlama/codeparrot-gpt2large-traincleantokenizer"
 	}
 ]
