@@ -125988,6 +125988,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "alistvt/bert-squad-finetuned-coqa"
 	},
 	{
@@ -126137,5 +126138,14 @@
 	{
 		"private": false,
 		"modelId": "anuragshas/wav2vec2-xlsr-53-rm-vallader-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ndubuisi/finetuned-distilgpt2"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed1ai/wav2vec2-large-xls-r-300m-turkish-colab-trained-by-mohamed"
 	}
 ]
