@@ -125340,6 +125340,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi"
 	},
 	{
@@ -125854,10 +125855,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v51"
-	},
-	{
-		"private": false,
 		"modelId": "BHSo/bert-base-japanese-jaquad"
 	},
 	{
@@ -125866,10 +125863,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hindi-v52"
+		"pipeline_tag": "text-generation",
+		"modelId": "ndubuisi/fine-tuned-distilgpt2"
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/bb-l-fp-1k"
+		"modelId": "DHBaek/gpt2-test2"
 	}
 ]
