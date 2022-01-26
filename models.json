@@ -33346,11 +33346,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-da-pos-glf"
 	},
@@ -34022,6 +34017,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zoeymeng913/bert_cn_finetuning"
+	},
+	{
+		"private": false,
+		"modelId": "0x7194633/gameGPT-large"
 	},
 	{
 		"private": false,
@@ -97080,6 +97079,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/xls-r-ro-test"
 	},
 	{
@@ -125979,5 +125979,21 @@
 	{
 		"private": false,
 		"modelId": "arshyajabbari/wav2vec2-persian"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/MiniLM-L12-H384-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/MiniLM-L12-H384-uncased__sst2__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-bulgarian"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/MiniLM-L12-H384-uncased__sst2__all-train"
 	}
 ]
