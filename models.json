@@ -18354,11 +18354,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Ayjayo/DialoGPT-medium-AyjayoBot"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "HooshvareLab/gpt2-fa-poetry"
 	},
@@ -126283,10 +126278,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__subj__all-train"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "diiogo/diabert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__tweet_eval_stance__all-train"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__ethos_binary__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "glob-asr/base-spanish-asr"
 	}
 ]
