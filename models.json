@@ -25318,11 +25318,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-t5-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-uncased-conll2003"
 	},
@@ -27729,11 +27724,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-large-xlsr-as"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-bart-base"
 	},
 	{
 		"private": false,
@@ -41451,11 +41441,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-t5-small"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-large-uncased-conll2003"
 	},
@@ -42651,11 +42636,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "aqj213/t5-base-pisa-state-only-finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-bart-large"
 	},
 	{
 		"private": false,
@@ -47216,11 +47196,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "arianpasquali/twitter-xlm-roberta-base-sentiment-finetunned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-t5-large"
 	},
 	{
 		"private": false,
@@ -73816,11 +73791,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-t5-base-multitask"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-panx-dataset-en"
 	},
@@ -91326,11 +91296,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/question-generation-squad-t5-large-multitask"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "asahi417/relbert-roberta-large-autoprompt"
 	},
@@ -108658,14 +108623,6 @@
 	{
 		"private": false,
 		"modelId": "arvalinno/indobert-base-p2-finetuned-indosquad-v2"
-	},
-	{
-		"private": false,
-		"modelId": "asahi417/tner-adapter-xlm-roberta-large-multiconer-mix"
-	},
-	{
-		"private": false,
-		"modelId": "asahi417/tner-adapter-xlm-roberta-large-multiconer-multi"
 	},
 	{
 		"private": false,
@@ -126076,6 +126033,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Eldar/dummy-model"
 	},
 	{
@@ -126136,10 +126094,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mohamed1ai/wav2vec2-large-xls-r-300m-turkish-colab-trained-by-mohamed"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-v7"
 	},
@@ -126162,15 +126116,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "mohamed1ai/wav2vec2-large-xls-r-300m-turkish-colab-trained-by-mohamed_version2"
-	},
-	{
-		"private": false,
 		"modelId": "edugp/wav2vec2-xls-r-300m-36-tokens-es"
-	},
-	{
-		"private": false,
-		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-multi-adapter"
 	},
 	{
 		"private": false,
@@ -126178,6 +126124,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "Abirate/code_net_similarity_model_sub20_fbert_moreepochs"
+		"modelId": "opchik/model_name"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed1ai/wav2vec2-large-xls-r-300m-turkish-colab-trained-by-mohamed_version3"
+	},
+	{
+		"private": false,
+		"modelId": "FremyCompany/output"
+	},
+	{
+		"private": false,
+		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v1-en-to-ar"
 	}
 ]
