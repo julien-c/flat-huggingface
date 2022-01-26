@@ -126281,6 +126281,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "BlazeLlama/codeparrot-gpt2small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "ddobokki/electra-small-nli-sts"
 	}
 ]
