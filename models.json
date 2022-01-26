@@ -21641,6 +21641,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v3-en-to-ru"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/bp400-xlsr"
 	},
@@ -116109,10 +116114,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kotter/retrieval-ict-scratch-single"
-	},
-	{
-		"private": false,
 		"modelId": "kowndinya333/my-sentiment-analysis-bert-base-cased"
 	},
 	{
@@ -125863,6 +125864,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Iskaj/hf-challenge-test"
 	},
 	{
@@ -126001,5 +126003,17 @@
 	{
 		"private": false,
 		"modelId": "alistvt/bert-squad-finetuned-coqa"
+	},
+	{
+		"private": false,
+		"modelId": "openai/clip-vit-large-patch14"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/albert-xlarge-v2-finetuned-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/albert-xlarge-v2-finetuned-mrpc"
 	}
 ]
