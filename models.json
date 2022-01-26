@@ -126111,11 +126111,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "FremyCompany/output"
-	},
-	{
-		"private": false,
 		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v1-en-to-ar"
 	},
 	{
@@ -126298,6 +126293,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "glob-asr/base-spanish-asr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__enron_spam__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/marian-finetuned-kde4-en-to-fr-accelerate"
 	}
 ]
