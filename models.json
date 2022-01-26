@@ -126035,11 +126035,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Firat/distilbert-base-uncased-finetuned-squad-V2"
-	},
-	{
-		"private": false,
 		"modelId": "emre/wav2vec2-xls-r-300m-Russian-small"
 	},
 	{
@@ -126157,6 +126152,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-v7"
+	},
+	{
+		"private": false,
+		"modelId": "GV05/wav2vec2-large-xls-r-300m-he-colab"
+	},
+	{
+		"private": false,
+		"modelId": "reach-vb/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "Iskaj/w2v-sub"
 	}
 ]
