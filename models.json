@@ -14840,11 +14840,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "khady/wolof-ASR"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "mrm8488/RoBasquERTa"
 	},
@@ -17760,11 +17755,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jonasmue/cover-letter-distilgpt2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "khady/wav2vec-denoising-v0"
 	},
 	{
 		"private": false,
@@ -33340,6 +33330,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "wukevin/tcr-bert-mlm-only"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-medium"
 	},
 	{
 		"private": false,
@@ -119232,6 +119227,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nepp1d0/Bert-pretrained-proteinBindingDB"
 	},
 	{
@@ -126567,5 +126563,9 @@
 	{
 		"private": false,
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-georgian"
+	},
+	{
+		"private": false,
+		"modelId": "benajtil/DialoGPT-small-harrypotter"
 	}
 ]
