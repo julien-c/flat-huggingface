@@ -13540,6 +13540,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Batsy24/DialoGPT-medium-Twilight_BellaBot"
 	},
@@ -20800,6 +20805,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "malay-huggingface/albert-base-bahasa-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
 	},
 	{
 		"private": false,
@@ -42465,6 +42475,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "alireza7/PEGASUS-persian-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/ak-ymvocab-ar-en"
 	},
 	{
 		"private": false,
@@ -126556,6 +126571,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-georgian"
 	},
 	{
@@ -126577,18 +126593,55 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/xls-r-marathi"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hf-test/xls-r-300m-sv-cv8"
 	},
 	{
 		"private": false,
 		"modelId": "mrm8488/ppo-CartPole-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Cheatham/xlm-roberta-large-finetuned-d1"
+	},
+	{
+		"private": false,
+		"modelId": "Iskaj/w2v-xlsr-dutch-lm-added"
+	},
+	{
+		"private": false,
+		"modelId": "FitoDS/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "wolfrage89/company_segment_ner"
+	},
+	{
+		"private": false,
+		"modelId": "benajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "Mavar/rut5-base-quiz"
+	},
+	{
+		"private": false,
+		"modelId": "merve/vit-small-ds"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/gaucheian"
 	}
 ]
