@@ -126526,11 +126526,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Rolv-Arild/roberta-base-ncc-512d"
-	},
-	{
-		"private": false,
 		"modelId": "Forost/Out"
 	},
 	{
@@ -126621,11 +126616,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "wolfrage89/company_segment_ner"
-	},
-	{
-		"private": false,
-		"modelId": "benajtil/DialoGPT-small-harrypotter"
 	},
 	{
 		"private": false,
@@ -126646,10 +126638,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/xls-r-300m-marathi"
 	},
 	{
 		"private": false,
 		"modelId": "yinde/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/roberta-base-ncc-512d"
+	},
+	{
+		"private": false,
+		"modelId": "benajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "FremyCompany/xls-r-translate-nl-v1"
 	}
 ]
