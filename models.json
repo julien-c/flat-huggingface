@@ -27557,6 +27557,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "UBC-NLP/MARBERTv2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ainize/gpt2-mcu-script-large"
 	},
@@ -126774,10 +126779,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Akashpb13/hungarian_xlsr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ncoop57/neo-code-py"
 	},
@@ -126788,5 +126789,18 @@
 	{
 		"private": false,
 		"modelId": "daisyxie21/bert-base-uncased-test-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/peanutfarttles"
+	},
+	{
+		"private": false,
+		"modelId": "gagan3012/wav2vec2-large-xls-r-300m-hindi"
+	},
+	{
+		"private": false,
+		"modelId": "Akashpb13/xlsr_hungarian"
 	}
 ]
