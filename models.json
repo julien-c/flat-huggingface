@@ -68599,11 +68599,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "jesperobb/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jhgan/ko-sbert-nli"
 	},
@@ -100349,6 +100344,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "CoderBoy432/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
 		"modelId": "Cody-coder017/Text_gen"
 	},
 	{
@@ -105982,6 +105982,10 @@
 	{
 		"private": false,
 		"modelId": "Skas/stopit"
+	},
+	{
+		"private": false,
+		"modelId": "SkelterLabsInc/bert-base-japanese-jaquad"
 	},
 	{
 		"private": false,
@@ -126418,37 +126422,91 @@
 	},
 	{
 		"private": false,
-		"modelId": "SkelterLabsInc/bert-base-japanese-jaquad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "CoderBoy432/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "imvladikon/wav2vec2-large-xls-r-1b-hebrew"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/1-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
-		"modelId": "lucio/xls-r-uyghur"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/save-1-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
-		"modelId": "muntasir2000/wav2vec2-large-xls-r-300m-bengali"
+		"pipeline_tag": "fill-mask",
+		"modelId": "Ameer05/dummy-model"
 	},
 	{
 		"private": false,
 		"modelId": "Ameer05/dummy"
+	},
+	{
+		"private": false,
+		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1B-german"
+	},
+	{
+		"private": false,
+		"modelId": "AndrewNLP/redditDepressionPropensityClassifiers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Cheatham/xlm-roberta-base-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Cheatham/xlm-roberta-large-finetuned-d1"
+	},
+	{
+		"private": false,
+		"modelId": "Digakive/Hsgshs"
+	},
+	{
+		"private": false,
+		"modelId": "FOFer/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Fan-s/reddit-tc-bert"
+	},
+	{
+		"private": false,
+		"modelId": "FitoDS/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "Forost/Out"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Iskaj/w2v-xlsr-dutch-lm-added"
+	},
+	{
+		"private": false,
+		"modelId": "Mavar/rut5-base-quiz"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-xlsr-300m-norwegian"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/roberta-base-ncc-512d"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/wav2vec2-large-xls-r-300m-npsc-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst5__all-train"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Tsubasaz/clinical-pubmed-bert-128"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Yehor/wav2vec2-xls-r-1b-uk-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "ZhichenRen/siku"
 	},
 	{
 		"private": false,
@@ -126458,12 +126516,35 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-galician"
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lucio/uyghur"
+		"modelId": "anuragshas/wav2vec2-xls-r-1b"
+	},
+	{
+		"private": false,
+		"modelId": "arampacha/wav2vec2-xls-r-300m-armenian"
+	},
+	{
+		"private": false,
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-1b-indo"
+	},
+	{
+		"private": false,
+		"modelId": "benajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "benzajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-sds"
 	},
 	{
 		"private": false,
@@ -126472,73 +126553,17 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Fan-s/reddit-tc-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Ameer05/dummy-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst5__all-train"
-	},
-	{
-		"private": false,
-		"modelId": "Rolv-Arild/wav2vec2-large-xls-r-300m-npsc-colab"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewNLP/redditDepressionPropensityClassifiers"
-	},
-	{
-		"private": false,
-		"modelId": "ZhichenRen/siku"
-	},
-	{
-		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shoubhik/Wav2Vec2_XLSR_Bengali_10500_it"
-	},
-	{
-		"private": false,
-		"modelId": "prashanth/xlm-roberta-base"
-	},
-	{
-		"private": false,
-		"modelId": "FOFer/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "tuenguyen/test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cuongngm/xlm"
 	},
 	{
 		"private": false,
-		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika5_my-colab"
+		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-small-CommonVoice8"
 	},
 	{
 		"private": false,
-		"modelId": "Forost/Out"
-	},
-	{
-		"private": false,
-		"modelId": "Digakive/Hsgshs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512d"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gigant/wav2vec2-common_voice-ro"
 	},
 	{
 		"private": false,
@@ -126547,25 +126572,22 @@
 	},
 	{
 		"private": false,
-		"modelId": "polodealvarado/xls-r-300m-es"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "hf-test/xls-r-300m-sv-cv8"
 	},
 	{
 		"private": false,
-		"modelId": "benzajtil/DialoGPT-small-harrypotter"
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/gaucheian"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nadzma/finetuned-LED-base-UK-financial-summarization"
+		"modelId": "imvladikon/wav2vec2-large-xls-r-1b-hebrew"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Cheatham/xlm-roberta-base-finetuned"
-	},
-	{
-		"private": false,
-		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1B-german"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-galician"
 	},
 	{
 		"private": false,
@@ -126579,122 +126601,25 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "oferweintraub/mt5-small-finetuned-amazon-en-es-v1"
-	},
-	{
-		"private": false,
-		"modelId": "arampacha/wav2vec2-xls-r-300m-armenian"
-	},
-	{
-		"private": false,
-		"modelId": "anuragshas/wav2vec2-xls-r-1b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "hf-test/xls-r-300m-sv-cv8"
-	},
-	{
-		"private": false,
-		"modelId": "mrm8488/ppo-CartPole-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Cheatham/xlm-roberta-large-finetuned-d1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Iskaj/w2v-xlsr-dutch-lm-added"
-	},
-	{
-		"private": false,
-		"modelId": "FitoDS/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "wolfrage89/company_segment_ner"
-	},
-	{
-		"private": false,
-		"modelId": "Mavar/rut5-base-quiz"
-	},
-	{
-		"private": false,
-		"modelId": "merve/vit-small-ds"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/gaucheian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shivam/xls-r-300m-marathi"
-	},
-	{
-		"private": false,
-		"modelId": "yinde/t5-small-finetuned-xsum"
-	},
-	{
-		"private": false,
-		"modelId": "Rolv-Arild/roberta-base-ncc-512d"
-	},
-	{
-		"private": false,
-		"modelId": "benajtil/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "sgugger/debug-example2"
-	},
-	{
-		"private": false,
-		"modelId": "NbAiLab/wav2vec2-xlsr-300m-norwegian"
-	},
-	{
-		"private": false,
-		"modelId": "prashanth/bert-finetuned-ner1"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-small-CommonVoice8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Tsubasaz/clinical-pubmed-bert-128"
-	},
-	{
-		"private": false,
 		"modelId": "julien-c/ColabTest"
 	},
 	{
 		"private": false,
-		"modelId": "owen/wrong_answer"
+		"pipeline_tag": "text-classification",
+		"modelId": "katrin-kc/bert-finetuned-imdb"
 	},
 	{
 		"private": false,
-		"modelId": "vkrishnamoorthy/distilbert-base-uncased-finetuned-squad"
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika5_my-colab"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Yehor/wav2vec2-xls-r-1b-uk-with-lm"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "koobear/1-es-fp16-t5-finetune-updated-git"
 	},
 	{
 		"private": false,
-		"modelId": "lysandre/test_dynamic_model"
+		"modelId": "koobear/save-1-es-fp16-t5-finetune-updated-git"
 	},
 	{
 		"private": false,
@@ -126703,20 +126628,19 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-common_voice-ro"
+		"modelId": "lucio/uyghur"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Tsubasaz/clinical-pubmed-bert-512"
+		"modelId": "lucio/xls-r-uyghur"
 	},
 	{
 		"private": false,
-		"modelId": "schweizer/test"
+		"modelId": "lysandre/test_dynamic_model"
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-sds"
+		"modelId": "merve/vit-small-ds"
 	},
 	{
 		"private": false,
@@ -126724,6 +126648,81 @@
 	},
 	{
 		"private": false,
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-1b-indo"
+		"modelId": "mrm8488/ppo-CartPole-v1"
+	},
+	{
+		"private": false,
+		"modelId": "muntasir2000/wav2vec2-large-xls-r-300m-bengali"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nadzma/finetuned-LED-base-UK-financial-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "oferweintraub/mt5-small-finetuned-amazon-en-es-v1"
+	},
+	{
+		"private": false,
+		"modelId": "owen/wrong_answer"
+	},
+	{
+		"private": false,
+		"modelId": "polodealvarado/xls-r-300m-es"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/bert-finetuned-ner1"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/xlm-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "schweizer/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sgugger/debug-example2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shivam/xls-r-300m-marathi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shoubhik/Wav2Vec2_XLSR_Bengali_10500_it"
+	},
+	{
+		"private": false,
+		"modelId": "tuenguyen/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512d"
+	},
+	{
+		"private": false,
+		"modelId": "vkrishnamoorthy/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wolfrage89/company_segment_ner"
+	},
+	{
+		"private": false,
+		"modelId": "yinde/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "Shiry/test_wav2vec2-large-xls-r-300m-russian-colab"
 	}
 ]
