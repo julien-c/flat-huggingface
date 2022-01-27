@@ -20804,11 +20804,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hubert-librispeech-clean-100h-demo-dist"
 	},
 	{
@@ -45198,6 +45193,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/xls-npsc-oh"
 	},
 	{
@@ -98300,6 +98296,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-to-text",
 		"modelId": "sachin/vit2distilgpt2"
 	},
 	{
@@ -108683,6 +108680,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-xxlarge-v2-finetuned-wnli"
 	},
 	{
@@ -126562,10 +126560,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "benajtil/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "josh8/DialoGPT-small-josh"
 	},
@@ -126580,5 +126574,21 @@
 	{
 		"private": false,
 		"modelId": "anuragshas/wav2vec2-xls-r-1b"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "shivam/xls-r-marathi"
+	},
+	{
+		"private": false,
+		"modelId": "hf-test/xls-r-300m-sv-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/ppo-CartPole-v1"
 	}
 ]
