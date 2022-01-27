@@ -13517,6 +13517,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
+	},
+	{
+		"private": false,
 		"modelId": "clue/roberta_chinese_large"
 	},
 	{
@@ -24621,11 +24626,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Davlan/mT5_base_yoruba_adr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "FabianGroeger/HotelBERT"
 	},
 	{
 		"private": false,
@@ -58498,11 +58498,6 @@
 	{
 		"private": false,
 		"modelId": "Emran/ClinicalBERT_ICD10_Full"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "FabianGroeger/HotelBERT-small"
 	},
 	{
 		"private": false,
@@ -126420,6 +126415,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "SkelterLabsInc/bert-base-japanese-jaquad"
+	},
+	{
+		"private": false,
 		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
 	},
 	{
@@ -126458,14 +126457,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lucio/uyghur"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "cuongngm/layoutlm-bill"
 	},
 	{
 		"private": false,
 		"modelId": "Fan-s/reddit-tc-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Ameer05/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "shoubhik/Wav2Vec2_XLSR_Bengali_10500"
 	}
 ]
