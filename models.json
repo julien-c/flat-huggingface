@@ -66044,6 +66044,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/bert-base-uncased-finetuned-rte"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/distilbert-base-uncased-finetuned-wnli"
 	},
 	{
@@ -96382,11 +96387,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "anirudh21/bert-base-uncased-finetuned-rte"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/electra-base-discriminator-finetuned-rte"
 	},
 	{
@@ -96586,10 +96586,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "csae8092/de_RTA_NER"
-	},
-	{
-		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bem-ovhai"
 	},
 	{
 		"private": false,
@@ -126429,5 +126425,13 @@
 	{
 		"private": false,
 		"modelId": "imvladikon/wav2vec2-large-xls-r-1b-hebrew"
+	},
+	{
+		"private": false,
+		"modelId": "lucio/xls-r-uyghur"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
 	}
 ]
