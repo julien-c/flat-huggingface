@@ -20804,11 +20804,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hubert-librispeech-clean-100h-demo-dist"
 	},
 	{
@@ -126511,11 +126506,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
-	},
-	{
-		"private": false,
 		"modelId": "anuragshas/wav2vec2-xls-r-1b"
 	},
 	{
@@ -126736,7 +126726,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "hervetusse/DialogGPT-small-harrypotter"
 	},
 	{
@@ -126749,11 +126739,37 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
+		"pipeline_tag": "text-generation",
 		"modelId": "cd-dvd/testmodel2"
 	},
 	{
 		"private": false,
 		"modelId": "gigant/vlod"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/dp_crazy_gamer"
+	},
+	{
+		"private": false,
+		"modelId": "rjzevallos/Llama-RoBERTa-Quechua-IIC"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Doogie/waynehills_sentimental_kor"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/kenlm-5gram-npsc"
+	},
+	{
+		"private": false,
+		"modelId": "g8a9/robust-asr-italian"
 	}
 ]
