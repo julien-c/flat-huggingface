@@ -126868,10 +126868,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-1b-Turkish-Tr-med-CommonVoice8"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "wtrClover/DialoGPT-small-Flutterbot"
 	},
@@ -126886,11 +126882,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-med-CommonVoice8"
+		"pipeline_tag": "text-generation",
+		"modelId": "davidlf/gpt2-poems-simple.en"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Abirate/code_net_similarity_model_sub23_fbert"
+		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8"
 	}
 ]
