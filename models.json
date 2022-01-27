@@ -13540,11 +13540,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Batsy24/DialoGPT-medium-Twilight_BellaBot"
 	},
@@ -20805,6 +20800,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "malay-huggingface/albert-base-bahasa-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
 	},
 	{
 		"private": false,
@@ -33330,11 +33330,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "wukevin/tcr-bert-mlm-only"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-medium"
 	},
 	{
 		"private": false,
@@ -118008,6 +118003,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "mbateman/marian-finetuned-kde4-en-to-fr-accelerate"
 	},
 	{
@@ -126567,5 +126563,22 @@
 	{
 		"private": false,
 		"modelId": "benajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "josh8/DialoGPT-small-josh"
+	},
+	{
+		"private": false,
+		"modelId": "oferweintraub/mt5-small-finetuned-amazon-en-es-v1"
+	},
+	{
+		"private": false,
+		"modelId": "arampacha/wav2vec2-xls-r-300m-armenian"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-1b"
 	}
 ]
