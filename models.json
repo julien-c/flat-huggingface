@@ -27557,11 +27557,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "UBC-NLP/MARBERTv2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ainize/gpt2-mcu-script-large"
 	},
@@ -106543,10 +106538,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ThePixOne/bert-base-uncased-finetuned-swag"
-	},
-	{
-		"private": false,
 		"modelId": "ThePixOne/chaqt"
 	},
 	{
@@ -126729,6 +126720,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "vkhangpham/shopee-ner"
 	},
 	{
@@ -126752,6 +126744,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
 	},
 	{
@@ -126801,6 +126794,19 @@
 	},
 	{
 		"private": false,
+		"modelId": "anuragshas/wav2vec2-large-xls-r-300m-mr"
+	},
+	{
+		"private": false,
 		"modelId": "Akashpb13/xlsr_hungarian"
+	},
+	{
+		"private": false,
+		"modelId": "nadzma/finetuned-LED-base-16384-UK-financial-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/albert-large-v2-finetuned-mrpc"
 	}
 ]
