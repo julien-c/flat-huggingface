@@ -100351,10 +100351,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "CoderBoy432/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
 		"modelId": "Cody-coder017/Text_gen"
 	},
 	{
@@ -110774,6 +110770,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ccdv/lsg-bart-large-4096"
+	},
+	{
+		"private": false,
 		"modelId": "cdiamana/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -119287,6 +119288,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "nickmuchi/distilbart-cnn-12-6-tradetheevent"
 	},
 	{
@@ -126520,6 +126522,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Rolv-Arild/roberta-base-ncc-512d"
 	},
 	{
@@ -126532,22 +126535,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "polodealvarado/xls-r-ab-test"
-	},
-	{
-		"private": false,
-		"modelId": "polodealvarado/xls-r-300m-sv"
-	},
-	{
-		"private": false,
 		"modelId": "versae/roberta-base-ncc-512d"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/xls-r-ro"
 	},
 	{
 		"private": false,
 		"modelId": "polodealvarado/xls-r-300m-es"
+	},
+	{
+		"private": false,
+		"modelId": "benzajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "nadzma/finetuned-LED-base-UK-financial-summarization"
 	}
 ]
