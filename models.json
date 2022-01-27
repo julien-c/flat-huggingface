@@ -9346,6 +9346,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "nlokam/ada_V.3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "simonlevine/bioclinical-roberta-long"
 	},
@@ -126909,6 +126914,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "ruiqi-zhong/verifier11b"
 	},
 	{
@@ -126919,5 +126925,17 @@
 	{
 		"private": false,
 		"modelId": "RuudVelo/wav2vec2-large-xls-r-300m-lm-nl"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ar-v1"
+	},
+	{
+		"private": false,
+		"modelId": "lucio/xls-r-uzbek-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "RuudVelo/wav2vec2-large-xls-r-300m-cv7-nl"
 	}
 ]
