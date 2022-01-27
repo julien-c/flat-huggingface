@@ -100596,10 +100596,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DankRoyaler/Medium-HarryPotter-90ecos-4batchs"
-	},
-	{
-		"private": false,
 		"modelId": "Darein/Def"
 	},
 	{
@@ -126412,6 +126408,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "CoderBoy432/DialoGPT-small-harrypotter"
 	},
 	{
@@ -126420,6 +126417,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/1-es-fp16-t5-finetune-updated-git"
 	},
 	{
@@ -126553,11 +126551,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "DankRoyaler/DialOGPT-medium90-4-harrypotter"
+		"pipeline_tag": "text-classification",
+		"modelId": "Cheatham/xlm-roberta-base-finetuned"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Cheatham/xlm-roberta-base-finetuned"
+		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1B-german"
 	}
 ]
