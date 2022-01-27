@@ -126362,6 +126362,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "prashanth/bert-base-multilingual-cased-ner"
 	},
 	{
@@ -126634,6 +126635,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "polodealvarado/xls-r-300m-es"
 	},
 	{
@@ -126768,6 +126770,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mpoyraz/wav2vec2-xls-r-300m-cv7-turkish"
 	},
 	{
@@ -126798,15 +126801,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "Akashpb13/xlsr_hungarian"
-	},
-	{
-		"private": false,
 		"modelId": "nadzma/finetuned-LED-base-16384-UK-financial-summarization"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-large-v2-finetuned-mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "radhakri119/wav2vec2-base-timit-demo-colab_aug_012722"
+	},
+	{
+		"private": false,
+		"modelId": "Akashpb13/xlsr_hungarian"
 	}
 ]
