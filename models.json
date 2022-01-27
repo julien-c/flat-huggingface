@@ -99225,11 +99225,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AlexN/xls-r-300m-fr"
-	},
-	{
-		"private": false,
 		"modelId": "AlexN/xls-r-french"
 	},
 	{
@@ -126374,12 +126369,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-relabeled-cola"
+		"pipeline_tag": "conversational",
+		"modelId": "Ayjayo/DialoGPT-medium-AyjayoAI"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Ayjayo/DialoGPT-medium-AyjayoAI"
+		"modelId": "prashanth/bert-base-multilingual-cased-ner"
 	},
 	{
 		"private": false,
@@ -126593,6 +126588,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-300m-gn-cv8"
 	},
 	{
@@ -126726,11 +126722,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
-	},
-	{
-		"private": false,
 		"modelId": "NbAiLab/kenlm-5gram-npsc"
 	},
 	{
@@ -126758,5 +126749,14 @@
 	{
 		"private": false,
 		"modelId": "Adinda/Adinda"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-test1-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AlexN/xls-r-300m-fr_premierdunom"
 	}
 ]
