@@ -115080,6 +115080,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "imvladikon/wav2vec2-large-xls-r-300m-hebrew"
 	},
 	{
@@ -126403,6 +126404,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Ayjayo/DialoGPT-medium-AyjayoAI"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Ameer05/dummy-model"
 	},
@@ -126762,6 +126767,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
 	},
 	{
@@ -126771,5 +126777,31 @@
 	{
 		"private": false,
 		"modelId": "g8a9/robust-asr-italian"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-j-6B-Converse_DS-Wow_Ep-1_Bs-16"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-j-6B-Converse_DS-Wow_Ep-1_Bs-12"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-j-6B-Converse_DS-Wow_Ep-1_Bs-8"
+	},
+	{
+		"private": false,
+		"modelId": "vkhangpham/shopee-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/northernlion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Alexander-Learn/bert-finetuned-ner"
 	}
 ]
