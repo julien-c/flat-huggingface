@@ -13540,11 +13540,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Batsy24/DialoGPT-medium-Twilight_BellaBot"
 	},
@@ -14837,6 +14832,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jhu-clsp/roberta-large-eng-ara-128k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "khady/wolof-ASR"
 	},
 	{
 		"private": false,
@@ -24222,7 +24222,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "wolfrage89/annual_report_translation_id_en"
 	},
 	{
@@ -126581,6 +126581,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "oferweintraub/mt5-small-finetuned-amazon-en-es-v1"
 	},
 	{
@@ -126595,11 +126596,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shivam/xls-r-marathi"
 	},
 	{
 		"private": false,
@@ -126643,5 +126639,17 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/gaucheian"
+	},
+	{
+		"private": false,
+		"modelId": "FremyCompany/xls-r-nl-multilingual_librispeech-v2"
+	},
+	{
+		"private": false,
+		"modelId": "shivam/xls-r-300m-marathi"
+	},
+	{
+		"private": false,
+		"modelId": "yinde/t5-small-finetuned-xsum"
 	}
 ]
