@@ -10629,7 +10629,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "KES/T5-KES"
 	},
 	{
@@ -126352,10 +126352,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/gpt-j-6B-Converse_DS-DD_Ep-2_Bs-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "anas-awadalla/bert-medium-pretrained-on-squad"
 	},
@@ -126396,6 +126392,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anjulRajendraSharma/WavLM_Common_voice"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/bert-base-uncased-finetuned-mrpc"
 	}
 ]
