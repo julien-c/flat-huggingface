@@ -13660,11 +13660,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "khalidsaifullaah/roberta-bengali-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tanyagoyal/paraphrase-reap"
 	},
@@ -111438,10 +111433,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-relabeled-cola"
-	},
-	{
-		"private": false,
 		"modelId": "daito/test"
 	},
 	{
@@ -116375,10 +116366,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "khalidsaifullaah/bengali-poetry-gpt2"
-	},
-	{
-		"private": false,
 		"modelId": "khanghn/Emotion79"
 	},
 	{
@@ -120072,11 +120059,6 @@
 	{
 		"private": false,
 		"modelId": "osanseviero/testlangtag"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "structured-data-classification",
-		"modelId": "osanseviero/wine-quality"
 	},
 	{
 		"private": false,
@@ -126422,6 +126404,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-relabeled-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Ameer05/dummy-model"
 	},
@@ -126650,6 +126636,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lucio/xls-r-uyghur-cv8"
 	},
 	{
@@ -126749,6 +126736,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "hervetusse/DialogGPT-small-harrypotter"
 	},
 	{
@@ -126758,5 +126746,14 @@
 	{
 		"private": false,
 		"modelId": "pszemraj/gpt-j-6B-Converse_DS-DD_Ep-2_Bs-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "cd-dvd/testmodel2"
+	},
+	{
+		"private": false,
+		"modelId": "gigant/vlod"
 	}
 ]
