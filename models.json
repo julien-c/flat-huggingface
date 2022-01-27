@@ -108542,6 +108542,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "amjadkhatabi/finetuned-ymn-ar-en-v2"
+	},
+	{
+		"private": false,
 		"modelId": "ammoreira/teste"
 	},
 	{
@@ -124864,6 +124869,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vasilis/xls-r-et-V"
 	},
 	{
@@ -126630,10 +126636,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "FremyCompany/xls-r-nl-multilingual_librispeech-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/xls-r-300m-marathi"
 	},
@@ -126648,10 +126650,6 @@
 	{
 		"private": false,
 		"modelId": "benajtil/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "FremyCompany/xls-r-translate-nl-v1"
 	},
 	{
 		"private": false,
@@ -126672,6 +126670,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Tsubasaz/clinical-pubmed-bert-128"
 	},
 	{
@@ -126685,5 +126684,29 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-v15"
+	},
+	{
+		"private": false,
+		"modelId": "vkrishnamoorthy/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Yehor/wav2vec2-xls-r-1b-uk-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "lysandre/test_dynamic_model"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-xls-r-300m-gn-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "gigant/wav2vec2-common_voice-ro"
+	},
+	{
+		"private": false,
+		"modelId": "rjzevallos/my-new-shiny-tokenizer"
 	}
 ]
