@@ -4204,6 +4204,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "deepparag/Aeona"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "sshleifer/distilbart-xsum-12-3"
 	},
@@ -4522,11 +4527,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pranavpsv/gpt2-genre-story-generator"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "deepparag/Aeona"
 	},
 	{
 		"private": false,
@@ -19905,6 +19905,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "BME-TMIT/foszt2oszt"
 	},
@@ -20748,6 +20753,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "seamew/Weibo_bert_d1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777"
 	},
 	{
 		"private": false,
@@ -22491,11 +22501,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_opt"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Corvus/DialoGPT-medium-CaptainPrice-Extended"
 	},
@@ -23961,11 +23966,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "severinsimmler/literary-german-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/eowyn-gpt2-medium-x777"
 	},
 	{
 		"private": false,
@@ -27379,6 +27379,11 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "ydshieh/vit-gpt2-coco-en-ckpts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "edugp/wav2vec2-xls-r-300m-36-tokens-es"
 	},
 	{
 		"private": false,
@@ -125717,6 +125722,36 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AlexN/xls-r-300m-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mimi/Waynehills_summary_tensorflow"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-custom"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-finnish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "carlosaguayo/pegasus-samsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-small-pretrained-finetuned-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-medium-pretrained-finetuned-squad"
 	},
@@ -126025,11 +126060,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "edugp/wav2vec2-xls-r-300m-36-tokens-es"
-	},
-	{
-		"private": false,
 		"modelId": "AndrewMcDowell/wav2vec2-xls-r-300m-japanese"
 	},
 	{
@@ -126158,11 +126188,6 @@
 	{
 		"private": false,
 		"modelId": "shahukareem/xls-r-300m-dv"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AlexN/xls-r-300m-fr"
 	},
 	{
 		"private": false,
@@ -126325,10 +126350,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mimi/Waynehills_summary_tensorflow"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/best-1-es-fp16-t5-finetune-updated-git"
 	},
@@ -126336,16 +126357,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "LegolasTheElf/Wav2Vec2_XLSR_Bengali_1b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-custom"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-finnish"
 	},
 	{
 		"private": false,
@@ -126361,10 +126372,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "anas-awadalla/bert-medium-pretrained-on-squad"
-	},
-	{
-		"private": false,
-		"modelId": "carlosaguayo/pegasus-samsum"
 	},
 	{
 		"private": false,
@@ -126409,15 +126416,18 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "anas-awadalla/bert-small-pretrained-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "sarahlintang/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
 		"modelId": "nickmuchi/distilbart-cnn-12-6-tradetheevent"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/1-es-fp16-t5-finetune-updated-git"
+	},
+	{
+		"private": false,
+		"modelId": "imvladikon/wav2vec2-large-xls-r-1b-hebrew"
 	}
 ]
