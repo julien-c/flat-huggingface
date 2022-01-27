@@ -20809,6 +20809,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hubert-librispeech-clean-100h-demo-dist"
 	},
 	{
@@ -99764,10 +99769,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ayjayo/DialoGPT-medium-AyjayoAI"
-	},
-	{
-		"private": false,
 		"modelId": "Aymene/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -126610,6 +126611,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Iskaj/w2v-xlsr-dutch-lm-added"
 	},
 	{
@@ -126687,6 +126689,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Yehor/wav2vec2-xls-r-1b-uk-with-lm"
 	},
 	{
@@ -126699,10 +126702,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-common_voice-ro"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Tsubasaz/clinical-pubmed-bert-512"
 	},
 	{
@@ -126716,5 +126721,9 @@
 	{
 		"private": false,
 		"modelId": "mrm8488/ppo-BipedalWalker-v3"
+	},
+	{
+		"private": false,
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-1b-indo"
 	}
 ]
