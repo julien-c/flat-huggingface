@@ -20809,11 +20809,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "neestalgic/vakyansh-wav2vec2-clsril-hindi-4200h"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/hubert-librispeech-clean-100h-demo-dist"
 	},
 	{
@@ -103678,6 +103673,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "MarioPenguin/finetuned-model"
 	},
 	{
@@ -126656,5 +126652,22 @@
 	{
 		"private": false,
 		"modelId": "FremyCompany/xls-r-translate-nl-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sgugger/debug-example2"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-xlsr-300m-norwegian"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/bert-finetuned-ner1"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Turkish-Tr-small-CommonVoice8"
 	}
 ]
