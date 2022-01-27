@@ -13517,11 +13517,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"modelId": "clue/roberta_chinese_large"
 	},
 	{
@@ -126477,5 +126472,14 @@
 	{
 		"private": false,
 		"modelId": "shoubhik/Wav2Vec2_XLSR_Bengali_10500"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst5__all-train"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/wav2vec2-large-xls-r-300m-npsc-colab"
 	}
 ]
