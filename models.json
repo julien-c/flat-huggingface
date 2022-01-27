@@ -16579,6 +16579,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Waynehills_NLP_muti"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-tn"
 	},
@@ -17292,11 +17297,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AdapterHub/roberta-base-pf-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Waynehills_NLP_muti"
 	},
 	{
 		"private": false,
@@ -125717,6 +125717,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-medium-pretrained-finetuned-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Iskaj/hf-challenge-test"
 	},
@@ -125820,6 +125825,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tpanza/dummy-model"
 	},
 	{
@@ -126323,6 +126329,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/best-1-es-fp16-t5-finetune-updated-git"
 	},
 	{
