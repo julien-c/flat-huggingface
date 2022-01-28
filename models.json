@@ -126990,6 +126990,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
 	},
 	{
@@ -127005,5 +127006,14 @@
 	{
 		"private": false,
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy3"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/albert-large-v2-finetuned-sst2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/bitfinexed-coinerstakingls-xeni"
 	}
 ]
