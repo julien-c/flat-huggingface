@@ -112807,6 +112807,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8"
 	},
 	{
@@ -127206,5 +127207,14 @@
 	{
 		"private": false,
 		"modelId": "nielsr/convnext-small-224"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "benajtil/DialoGPT-small-RickAndMortyScripts"
+	},
+	{
+		"private": false,
+		"modelId": "creynier/wav2vec2-base-swbd-small-turn-eos-2"
 	}
 ]
