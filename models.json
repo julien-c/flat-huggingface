@@ -101322,6 +101322,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "FitoDS/wav2vec2-large-xls-r-300m-guarani-colab"
 	},
 	{
@@ -127400,10 +127401,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "davidlf/gpt2-poems-simple-frz-1e4.en"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Iskaj/xlsr300m_cv_7.0_nl_lm"
 	},
 	{
@@ -127412,6 +127415,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S-PubMedBert-MS-MARCO-SCIFACT"
+	},
+	{
+		"private": false,
 		"modelId": "anjulRajendraSharma/WavLm-base-en"
+	},
+	{
+		"private": false,
+		"modelId": "renatoleite/mymodel"
 	}
 ]
