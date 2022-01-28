@@ -85128,11 +85128,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jgammack/EAM-sentence-embedder"
-	},
-	{
-		"private": false,
 		"modelId": "ji-xin/bert_base-MNLI-two_stage"
 	},
 	{
@@ -127221,6 +127216,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "facebook/xlm-roberta-xl"
 	},
 	{
@@ -127234,6 +127230,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/xls-r-1b-ro"
 	},
 	{
@@ -127267,6 +127264,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jcmc/wav2vec-1b-cv8-ir"
 	},
 	{
@@ -127298,6 +127296,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "losca/marian-indo_zh-mixed"
 	},
 	{
@@ -127370,5 +127369,37 @@
 	{
 		"private": false,
 		"modelId": "creat89/NER_Hackashop_Et"
+	},
+	{
+		"private": false,
+		"modelId": "manu/fb-xls-r-fr-5gram"
+	},
+	{
+		"private": false,
+		"modelId": "creat89/NER_Hackashop_fi"
+	},
+	{
+		"private": false,
+		"modelId": "HarryPuttar/HarryPotterDC"
+	},
+	{
+		"private": false,
+		"modelId": "stefan-it/t5-base-secret-2"
+	},
+	{
+		"private": false,
+		"modelId": "Alexander-Learn/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "team-mango/fuggerbert_v2"
+	},
+	{
+		"private": false,
+		"modelId": "OTTO/fuggerbert_v2"
+	},
+	{
+		"private": false,
+		"modelId": "losca/indo-finetuned"
 	}
 ]
