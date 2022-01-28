@@ -79664,6 +79664,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "yapak1994/Urdu_ASR_wav2vec2_base_Model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-17_18-47"
 	},
@@ -126345,10 +126350,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Akashpb13/xlsr_hungarian"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Akashpb13/xlsr_hungarian_new"
 	},
@@ -127033,5 +127034,14 @@
 	{
 		"private": false,
 		"modelId": "calvpang/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/coinerstakingls-elonmusk-tyler"
+	},
+	{
+		"private": false,
+		"modelId": "josh8/DialoGPT-medium-josh"
 	}
 ]
