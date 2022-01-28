@@ -127150,11 +127150,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nielsr/swin-large-patch4-window12-384-in22k"
-	},
-	{
-		"private": false,
 		"modelId": "cambridgeltl/mbert-lang-sft-ta-small"
 	},
 	{
@@ -127172,6 +127167,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "prashanth/fmono-bert-ner"
 	},
 	{
@@ -127218,11 +127214,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "pritamdeka/PubMedBert_MS_MARCO"
-	},
-	{
-		"private": false,
 		"modelId": "lgris/WavLM-large-pt-CORAA"
 	},
 	{
@@ -127243,6 +127234,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/unpepene"
 	},
 	{
@@ -127257,5 +127249,26 @@
 	{
 		"private": false,
 		"modelId": "anirudh21/albert-large-v2-finetuned-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "AlexN/xls-r-300m-fr"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/fmono-roberta-ner"
+	},
+	{
+		"private": false,
+		"modelId": "merve/vit-small-ds-test"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/albert-large-v2-finetuned-qnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S_PubMedBert_MS_MARCO"
 	}
 ]
