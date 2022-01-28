@@ -125774,6 +125774,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy3"
 	},
 	{
@@ -127138,12 +127139,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Tofu05/DialoGPT-large-boon"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AlexN/xls-r-300m-fr"
 	},
 	{
 		"private": false,
@@ -127173,6 +127170,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "nielsr/swin-large-patch4-window12-384-in22k"
 	},
 	{
@@ -127183,5 +127181,17 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "leetdavid/importance_model"
+	},
+	{
+		"private": false,
+		"modelId": "tgs/bot"
+	},
+	{
+		"private": false,
+		"modelId": "Swabe/wav2vec2-large-xls-r-300m-cs"
+	},
+	{
+		"private": false,
+		"modelId": "prashanth/fmono-bert-ner"
 	}
 ]
