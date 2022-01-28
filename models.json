@@ -113617,6 +113617,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gagan3012/wav2vec2-large-xls-r-300m-hindi"
 	},
 	{
@@ -127432,7 +127433,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Jikiwa/test-upload1"
 	},
 	{
@@ -127480,10 +127481,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "max137/t5-base-5-32"
-	},
-	{
-		"private": false,
 		"modelId": "renatoleite/mymodel"
 	},
 	{
@@ -127497,6 +127494,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "BlazeLlama/codeparrot-distilgpt2small"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-v3"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-v7"
 	}
 ]
