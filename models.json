@@ -127418,11 +127418,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Jikiwa/test-upload1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "studio-ousia/mluke-large"
 	},
@@ -127498,6 +127493,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RASMUS/wav2vec2-xlsr-fi-train-aug-lm-1B-lower-lr"
 	},
 	{
@@ -127540,5 +127536,9 @@
 	{
 		"private": false,
 		"modelId": "arasgungore/dummy-model-2"
+	},
+	{
+		"private": false,
+		"modelId": "Jikiwa/test-upload1"
 	}
 ]
