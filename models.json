@@ -79664,6 +79664,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "yapak1994/Urdu_ASR_wav2vec2_base_Model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-17_18-47"
 	},
@@ -108187,6 +108192,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -115094,6 +115100,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-greek"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -117239,6 +117250,11 @@
 	{
 		"private": false,
 		"modelId": "lucien/wqedsfdsgfdgd"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lucio/xls-r-uzbek-cv8"
 	},
 	{
 		"private": false,
@@ -120694,6 +120710,11 @@
 	{
 		"private": false,
 		"modelId": "poker125/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "polodealvarado/xls-r-300m-es"
 	},
 	{
 		"private": false,
@@ -124873,6 +124894,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512d"
+	},
+	{
+		"private": false,
 		"modelId": "versae/xls-npsc"
 	},
 	{
@@ -126346,6 +126372,20 @@
 	},
 	{
 		"private": false,
+		"modelId": "benzajtil/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/albert-large-v2-finetuned-sst2"
+	},
+	{
+		"private": false,
 		"modelId": "Adinda/Adinda"
 	},
 	{
@@ -126713,11 +126753,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-greek"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "josh8/DialoGPT-small-josh"
 	},
@@ -126770,11 +126805,6 @@
 	{
 		"private": false,
 		"modelId": "lucio/xls-r-uyghur"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lucio/xls-r-uzbek-cv8"
 	},
 	{
 		"private": false,
@@ -126831,11 +126861,6 @@
 	{
 		"private": false,
 		"modelId": "pere/by-sentencefix"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "polodealvarado/xls-r-300m-es"
 	},
 	{
 		"private": false,
@@ -126900,11 +126925,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vasilis/xls-r-et-V-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512d"
 	},
 	{
 		"private": false,
@@ -126983,15 +127003,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "benzajtil/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-with-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/bouncemanautumn"
 	},
@@ -127003,11 +127014,6 @@
 	{
 		"private": false,
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "anirudh21/albert-large-v2-finetuned-sst2"
 	},
 	{
 		"private": false,
@@ -127045,5 +127051,14 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/cobie-coinerstakingls-girlgone_crypto"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/hindi_large_wav2vec2"
+	},
+	{
+		"private": false,
+		"modelId": "Maniac/wav2vec2-xls-r-60-urdu"
 	}
 ]
