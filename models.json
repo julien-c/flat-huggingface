@@ -11105,11 +11105,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-300m-german"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "speechbrain/asr-crdnn-commonvoice-fr"
 	},
 	{
@@ -17875,11 +17870,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-1b-german"
-	},
-	{
-		"private": false,
 		"modelId": "hf-internal-testing/tiny-random-clip"
 	},
 	{
@@ -22336,11 +22326,6 @@
 	{
 		"private": false,
 		"modelId": "flax-community/gpt2-Cosmos"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wavlm-large-german"
 	},
 	{
 		"private": false,
@@ -113391,10 +113376,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "flozi00/wav2vec2-xls-r-2b-german"
-	},
-	{
-		"private": false,
 		"modelId": "flxclxc/layoutlm_SROIE_fine_tuned"
 	},
 	{
@@ -127210,11 +127191,27 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "benajtil/DialoGPT-small-RickAndMortyScripts"
+		"modelId": "creynier/wav2vec2-base-swbd-small-turn-eos-2"
 	},
 	{
 		"private": false,
-		"modelId": "creynier/wav2vec2-base-swbd-small-turn-eos-2"
+		"modelId": "emre/wav2vec2-large-xlsr-53-Tr-med-CommonVoice8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/cobie-coinerstakingls"
+	},
+	{
+		"private": false,
+		"modelId": "losca/marian-indo_zh-mixed"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8-Tr-med-CommonVoice8"
+	},
+	{
+		"private": false,
+		"modelId": "prajin/wav2vec2-large-xlsr-300m-nepali"
 	}
 ]
