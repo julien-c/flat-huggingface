@@ -108959,10 +108959,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "aorew/roberta_toxicity_classifier-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "apeguero/wav2vec2-large-xls-r-300m-tr-colab-3"
 	},
@@ -120144,7 +120140,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "oferweintraub/mt5-small-finetuned-amazon-en-es-v1"
 	},
 	{
@@ -123348,11 +123344,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "shivam/mbart-large-50-finetuned-en-mr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shivam/xls-r-300m-hindi"
 	},
 	{
 		"private": false,
@@ -127349,6 +127340,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-marathi"
 	},
 	{
@@ -127443,14 +127435,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "aorew/russian_toxicity_classifier-finetuned-ner"
-	},
-	{
-		"private": false,
 		"modelId": "codeceejay/HIYACCENT_WAV2VEC"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anjulRajendraSharma/wavlm-base-libri-clean-100"
 	},
 	{
@@ -127463,6 +127452,42 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jikiwa/test-upload"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ar-c1"
+	},
+	{
+		"private": false,
+		"modelId": "menciusds/flairmodel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pinecone/mpnet-retriever-discourse"
+	},
+	{
+		"private": false,
+		"modelId": "sted97/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "FabioDataGeek/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-cv8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "peterhsu/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/distilbert-base-uncased-finetuned-imdb-accelerate"
 	}
 ]
