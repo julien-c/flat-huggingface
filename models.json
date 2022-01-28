@@ -127411,6 +127411,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/gpt2-large-detector-de-v1"
 	},
 	{
@@ -127467,6 +127468,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-1b-hi-cv8"
 	},
 	{
@@ -127485,5 +127487,9 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-c1"
+	},
+	{
+		"private": false,
+		"modelId": "studio-ousia/mluke-large"
 	}
 ]
