@@ -111897,11 +111897,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/robust-asr-italian"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "dbguilherme/teste"
 	},
@@ -127031,6 +127026,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "brandon25/est5-summarize-finetuned-question_generation-highlight-format"
 	},
 	{
@@ -127078,6 +127074,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-hausa"
 	},
 	{
@@ -127217,5 +127214,14 @@
 	{
 		"private": false,
 		"modelId": "lgris/wav2vec2-xls-r-300m-gn-cv8-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian"
+	},
+	{
+		"private": false,
+		"modelId": "pritamdeka/PubMedBert_MS_MARCO"
 	}
 ]
