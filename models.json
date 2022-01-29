@@ -127744,11 +127744,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "benq/xls-r-ab-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy4"
 	},
 	{
@@ -127774,6 +127769,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "robkayinto/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -127828,5 +127824,13 @@
 	{
 		"private": false,
 		"modelId": "bettertextapp/xlm-roberta-large-detector-de-v1"
+	},
+	{
+		"private": false,
+		"modelId": "pere/xls-r-300m-sv"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-vv2"
 	}
 ]
