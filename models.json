@@ -127837,10 +127837,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Sakil/IMDB_URDUSENTIMENT_MODEL"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-vv5"
 	},
 	{
@@ -127850,5 +127852,18 @@
 	{
 		"private": false,
 		"modelId": "Onsloug/asr_espnet_own_corpus"
+	},
+	{
+		"private": false,
+		"modelId": "Language/Demo1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "rpv/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/xlm-roberta-large-detector-de-v2"
 	}
 ]
