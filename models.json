@@ -115731,11 +115731,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
-	},
-	{
-		"private": false,
 		"modelId": "inaccel/inception_v1_tf"
 	},
 	{
@@ -127968,11 +127963,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-xls-r-1b-hebrew"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "keras-io/sentiment-analysis"
 	},
@@ -127994,6 +127984,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Onsloug/clara_full_users_rec_asr"
 	},
 	{
@@ -128005,5 +127996,22 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kingabzpro/wav2vec2-60-Urdu-V8"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8-gl-CV8"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-gl-CV8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-1b-hebrew"
+	},
+	{
+		"private": false,
+		"modelId": "sted97/wikineural-multilingual-ner"
 	}
 ]
