@@ -127862,11 +127862,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "athar/yfaa-model"
-	},
-	{
-		"private": false,
 		"modelId": "arampacha/wav2vec2-xls-r-1b-hy-cv"
 	},
 	{
@@ -127968,6 +127963,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Adil617/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -127991,10 +127987,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "keras-io/sentiment-analysis"
 	},
 	{
 		"private": false,
 		"modelId": "shacharm/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"modelId": "AAli/opus-mt-en-ro-finetuned-en-to-ro"
 	}
 ]
