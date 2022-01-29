@@ -28471,11 +28471,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "edugp/wav2vec2-xls-r-300m-es"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr"
 	},
@@ -128012,6 +128007,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "sted97/wikineural-multilingual-ner"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "edugp/wav2vec2-xls-r-300m-36-tokens-with-lm-es"
+	},
+	{
+		"private": false,
+		"modelId": "AAli/t5-small-finetuned-xsum"
 	}
 ]
