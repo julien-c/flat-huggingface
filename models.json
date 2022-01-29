@@ -116107,10 +116107,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jeang/textgenrnn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "jeanlks/DialogGPT-small-gayvid"
 	},
@@ -127869,6 +127865,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/yfaa-model"
+	},
+	{
+		"private": false,
 		"modelId": "arampacha/wav2vec2-xls-r-1b-hy-cv"
 	},
 	{
@@ -127933,6 +127934,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
+	},
+	{
+		"private": false,
+		"modelId": "AAli/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-xlsr-300M-NPSC"
 	}
 ]
