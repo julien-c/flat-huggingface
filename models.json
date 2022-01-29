@@ -13121,11 +13121,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -32284,6 +32279,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhiheng-huang/bert-large-uncased-whole-word-masking-embedding-relative-key-query"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-medium"
 	},
 	{
 		"private": false,
@@ -127707,5 +127707,9 @@
 	{
 		"private": false,
 		"modelId": "Kayvane/distilbert-complaints-product"
+	},
+	{
+		"private": false,
+		"modelId": "Yankee/test1234"
 	}
 ]
