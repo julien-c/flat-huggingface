@@ -127557,6 +127557,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "zwang199/autonlp-traffic_nlp_binary-537215209"
+	},
+	{
+		"private": false,
 		"modelId": "zwt/nlp"
 	},
 	{
@@ -127835,6 +127840,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/xlm-roberta-large-detector-de-v2"
 	},
 	{
@@ -127934,11 +127940,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
-	},
-	{
-		"private": false,
 		"modelId": "AAli/bert-base-uncased-finetuned-swag"
 	},
 	{
@@ -127956,5 +127957,21 @@
 	{
 		"private": false,
 		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-fi-c2"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-1b-as-v1"
+	},
+	{
+		"private": false,
+		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1b-arabic"
 	}
 ]
