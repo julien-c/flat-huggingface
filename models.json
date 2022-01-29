@@ -108744,6 +108744,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "anirudh21/albert-large-v2-finetuned-qqp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-large-v2-finetuned-sst2"
 	},
 	{
@@ -121250,6 +121255,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "prajin/wav2vec2-large-xlsr-300m-nepali"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali-test"
 	},
 	{
@@ -121740,6 +121750,11 @@
 	{
 		"private": false,
 		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-hi-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-marathi"
 	},
 	{
 		"private": false,
@@ -126933,6 +126948,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ShengdingHu/adapter_roberta-base_rte"
+	},
+	{
+		"private": false,
 		"modelId": "AAli/my-new-shiny-tokenizer"
 	},
 	{
@@ -127019,10 +127038,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-large-v2-finetuned-qnli"
-	},
-	{
-		"private": false,
-		"modelId": "anirudh21/albert-large-v2-finetuned-qqp"
 	},
 	{
 		"private": false,
@@ -127235,11 +127250,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "prajin/wav2vec2-large-xlsr-300m-nepali"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "prashanth/bn-indic-bert-ner"
 	},
@@ -127252,11 +127262,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "prashanth/hi-indic-bert-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-marathi"
 	},
 	{
 		"private": false,
@@ -127584,10 +127589,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ShengdingHu/adapter_roberta-base_rte"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-v10"
 	},
 	{
@@ -127602,5 +127603,9 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/pegasus-large-book-summary"
+	},
+	{
+		"private": false,
+		"modelId": "l3cube-pune/marathi-bert"
 	}
 ]
