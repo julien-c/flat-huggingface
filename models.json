@@ -127584,11 +127584,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/pegasus-large-finetuned-booksum"
-	},
-	{
-		"private": false,
 		"modelId": "ShengdingHu/adapter_roberta-base_rte"
 	},
 	{
@@ -127602,5 +127597,14 @@
 	{
 		"private": false,
 		"modelId": "ShaswatSheshank/gpt2-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "pszemraj/pegasus-large-book-summary"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/led-large-16384-ft-booksum"
 	}
 ]
