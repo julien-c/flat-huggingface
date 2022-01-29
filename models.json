@@ -13121,11 +13121,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -127656,6 +127651,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-xls-r-1b-german"
 	},
 	{
@@ -127674,5 +127670,10 @@
 	{
 		"private": false,
 		"modelId": "chmanoj/xls-r-300m-ta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Akashpb13/Galician_xlsr"
 	}
 ]
