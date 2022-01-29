@@ -111828,6 +111828,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "dbguilherme/teste"
 	},
@@ -119680,6 +119685,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nickmuchi/mt5-small-tradetheevent"
+	},
+	{
+		"private": false,
 		"modelId": "nicktien/TaipeiQA"
 	},
 	{
@@ -126908,6 +126918,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "emre/wav2vec2-large-xls-r-300m-tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-indonesian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Yankee/TEST21"
+	},
+	{
+		"private": false,
 		"modelId": "AAli/my-new-shiny-tokenizer"
 	},
 	{
@@ -127097,11 +127122,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8-Tr-med-CommonVoice8"
 	},
 	{
@@ -127199,11 +127219,6 @@
 	{
 		"private": false,
 		"modelId": "merve/vit-small-ds-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nickmuchi/mt5-small-tradetheevent"
 	},
 	{
 		"private": false,
@@ -127452,11 +127467,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "emre/wav2vec2-large-xls-r-300m-tr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "manu/lm-boosted-wav2vec2-large-xlsr-53-french-grosman"
 	},
 	{
@@ -127570,17 +127580,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-indonesian"
-	},
-	{
-		"private": false,
 		"modelId": "Yankee/test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Yankee/TEST21"
 	},
 	{
 		"private": false,
@@ -127602,9 +127602,5 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/pegasus-large-book-summary"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/led-large-16384-ft-booksum"
 	}
 ]
