@@ -127958,6 +127958,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Nioyatech/biobert-base-cased-v1.2-finetuned-fill_mask2"
 	},
 	{
@@ -127971,14 +127972,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-1b-as-v1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jeang/bert-sentence-classification-toy"
+	},
+	{
+		"private": false,
+		"modelId": "imvladikon/wav2vec2-xls-r-1b-hebrew"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/sentiment-analysis"
+	},
+	{
+		"private": false,
+		"modelId": "shacharm/xls-r-ab-test"
 	}
 ]
