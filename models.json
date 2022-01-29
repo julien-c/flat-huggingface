@@ -114170,22 +114170,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/unpepene"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/vlod"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-common_voice-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/xls-r-1b-ro"
 	},
 	{
 		"private": false,
@@ -127708,6 +127698,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "MM98/mt5-small-finetuned-pnsum"
 	},
 	{
@@ -127841,10 +127832,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Plim/xls-r-ab-test"
 	},
 	{
 		"private": false,
 		"modelId": "Sakil/IMDB_URDUSENTIMENT_MODEL"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-vv5"
+	},
+	{
+		"private": false,
+		"modelId": "Plim/xls-r-300m-fr"
+	},
+	{
+		"private": false,
+		"modelId": "Onsloug/asr_espnet_own_corpus"
 	}
 ]
