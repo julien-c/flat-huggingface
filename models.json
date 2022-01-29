@@ -127866,6 +127866,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/GPT-JIBA-355M"
 	},
 	{
@@ -127874,6 +127875,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/xls-r-300m-sv2"
 	},
 	{
@@ -127882,14 +127884,31 @@
 	},
 	{
 		"private": false,
-		"modelId": "aahh32476/robb-model"
-	},
-	{
-		"private": false,
 		"modelId": "AAli/distilbert-base-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
 		"modelId": "anton-l/wav2vec2-tokenizer-turkish"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "athar/yfaa-model"
+	},
+	{
+		"private": false,
+		"modelId": "arampacha/wav2vec2-xls-r-1b-hy-cv"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wavlm-base-german"
+	},
+	{
+		"private": false,
+		"modelId": "CoachCarter/distilbert-base-uncased"
 	}
 ]
