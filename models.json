@@ -13121,6 +13121,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "0x7194633/gameGPT-large"
 	},
 	{
@@ -127610,6 +127611,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "l3cube-pune/marathi-roberta"
 	},
 	{
@@ -127620,5 +127622,17 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/joshuadun"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-large-xls-r-300m-bg"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/xls-r-korean"
+	},
+	{
+		"private": false,
+		"modelId": "Alexander-Learn/bert-finetuned-squad-accelerate"
 	}
 ]
