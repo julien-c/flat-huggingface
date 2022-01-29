@@ -105661,6 +105661,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-spanish-col"
 	},
 	{
@@ -127897,10 +127898,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "flozi00/wavlm-base-german"
-	},
-	{
-		"private": false,
 		"modelId": "CoachCarter/distilbert-base-uncased"
 	},
 	{
@@ -127909,6 +127906,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-fi-c1"
 	},
 	{
@@ -127917,7 +127915,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nlokam/ada_bert"
+		"modelId": "mobedkova/wav2vec2-large-xls-r-300m-ru-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "nlokam/ada_V.6"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/electra-base-discriminator-finetuned-cola"
 	}
 ]
