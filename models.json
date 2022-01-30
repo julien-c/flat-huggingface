@@ -128264,11 +128264,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "sted97/bert-base-multilingual-cased-finetuned-ner"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "CLAck/indo-pure"
 	},
 	{
@@ -128290,15 +128286,27 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "benajtil/DialoGPT-small-Daddyben"
-	},
-	{
-		"private": false,
 		"modelId": "bettertextapp/xlm-roberta-large-detector-de-v3"
 	},
 	{
 		"private": false,
 		"modelId": "alibalali/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "Tofu05/DialoGPT-large-boon3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sammy786/wav2vec2-xlsr-czech"
+	},
+	{
+		"private": false,
+		"modelId": "sted97/multilingual-ner"
+	},
+	{
+		"private": false,
+		"modelId": "arman223147/gpt2-wikitext2"
 	}
 ]
