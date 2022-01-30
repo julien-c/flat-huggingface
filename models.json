@@ -104491,11 +104491,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Nioyatech/biobert-base-cased-v1.2-finetuned-fill_mask2"
-	},
-	{
-		"private": false,
 		"modelId": "Nirmal/nlp_v1"
 	},
 	{
@@ -128460,6 +128455,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "prashanth/hi-roberta"
 	},
 	{
@@ -128474,5 +128470,9 @@
 	{
 		"private": false,
 		"modelId": "AlexN/xls-r-300m-fr-0"
+	},
+	{
+		"private": false,
+		"modelId": "Ankit-11/distilbert-base-uncased-finetuned-toxic"
 	}
 ]
