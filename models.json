@@ -13121,11 +13121,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -106786,6 +106781,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Ties/xbrl_100k"
+	},
+	{
+		"private": false,
 		"modelId": "TigerTy9/AICHATBOT2"
 	},
 	{
@@ -127555,6 +127555,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-id"
 	},
 	{
@@ -127781,6 +127782,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-300m-gn-cv8-4"
 	},
 	{
@@ -128116,6 +128118,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "imvladikon/wav2vec2-xls-r-300m-a-hebrew"
 	},
 	{
@@ -128155,5 +128158,13 @@
 	{
 		"private": false,
 		"modelId": "jogonba2/mbarthez-copy_mechanism-hal_articles"
+	},
+	{
+		"private": false,
+		"modelId": "GHonem/sentiment_analysis"
+	},
+	{
+		"private": false,
+		"modelId": "jcmc/wav-2-vec-1b-cv8-ind"
 	}
 ]
