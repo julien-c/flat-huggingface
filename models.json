@@ -13121,6 +13121,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -128135,6 +128140,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-irish"
 	},
 	{
@@ -128166,5 +128172,9 @@
 	{
 		"private": false,
 		"modelId": "jcmc/wav-2-vec-1b-cv8-ind"
+	},
+	{
+		"private": false,
+		"modelId": "jcmc/wav2vec-1b-cv8-ir-n"
 	}
 ]
