@@ -99625,6 +99625,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Ayah/GPT2-DBpedia"
 	},
 	{
@@ -127556,6 +127557,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "w11wo/wav2vec2-xls-r-300m-korean"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/WavLM-large-CORAA-pt"
 	},
 	{
@@ -127581,6 +127587,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
 	},
 	{
@@ -127592,6 +127603,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "imvladikon/wav2vec2-xls-r-300m-a-hebrew"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-irish"
 	},
 	{
 		"private": false,
@@ -127612,6 +127628,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Toadally/DialoGPT-small-david_mast"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Akashpb13/Hausa_xlsr"
 	},
 	{
 		"private": false,
@@ -127729,11 +127750,6 @@
 	{
 		"private": false,
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-kika6_my-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-korean"
 	},
 	{
 		"private": false,
@@ -128079,11 +128095,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
 	},
 	{
@@ -128155,11 +128166,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-irish"
-	},
-	{
-		"private": false,
 		"modelId": "huggingtweets/goando-tsuchinao83-za09313103"
 	},
 	{
@@ -128209,11 +128215,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Akashpb13/Hausa_xlsr"
-	},
-	{
-		"private": false,
 		"modelId": "birdwatcher/DialoGPT-small-KIWI"
 	},
 	{
@@ -128225,5 +128226,13 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Akashpb13/Central_kurdish_xlsr"
+	},
+	{
+		"private": false,
+		"modelId": "jinlmsft/t5-base-domain-detect"
+	},
+	{
+		"private": false,
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
 	}
 ]
