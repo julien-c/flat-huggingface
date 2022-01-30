@@ -116384,6 +116384,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "jogonba2/POCTS"
+	},
+	{
+		"private": false,
 		"modelId": "joheras/xls-r-300m-es"
 	},
 	{
@@ -128119,10 +128124,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-c2"
-	},
-	{
-		"private": false,
 		"modelId": "huggingtweets/goando"
 	},
 	{
@@ -128144,19 +128145,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-v-A"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-assamese-v-B"
-	},
-	{
-		"private": false,
 		"modelId": "tanghan6/CPM-Fin"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ShengdingHu/superglue-boolq"
+	},
+	{
+		"private": false,
+		"modelId": "jogonba2/mbarthez-copy_mechanism-hal_articles"
 	}
 ]
