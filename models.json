@@ -106985,11 +106985,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Tofu05/DialoGPT-large-boon"
-	},
-	{
-		"private": false,
 		"modelId": "TofuBoy/DialoGPT-medium-Yubin"
 	},
 	{
@@ -128265,6 +128260,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sted97/bert-base-multilingual-cased-finetuned-ner"
 	},
 	{
@@ -128282,5 +128278,10 @@
 	{
 		"private": false,
 		"modelId": "pgilles/wav2vec2-large-xls-r-LUXEMBOURGISH-with-LM"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Tofu05/DialoGPT-large-boon2"
 	}
 ]
