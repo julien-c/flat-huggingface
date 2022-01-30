@@ -128283,6 +128283,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bettertextapp/xlm-roberta-large-detector-de-v3"
 	},
 	{
@@ -128329,5 +128330,23 @@
 	{
 		"private": false,
 		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-z1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "benajtil/DialoGPT-small-Daddyben"
+	},
+	{
+		"private": false,
+		"modelId": "juuuj/alak"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-xls-r-1b-cv8"
 	}
 ]
