@@ -123248,6 +123248,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "roseman/xls-r-300m-ckb"
+	},
+	{
+		"private": false,
 		"modelId": "roshi/test2"
 	},
 	{
@@ -128482,11 +128487,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ur-z1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Xenova/sponsorblock-base-v1.1"
 	},
@@ -128513,10 +128513,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-v2"
+		"modelId": "mvonwyl/roberta-twitter-spam-classifier"
 	},
 	{
 		"private": false,
-		"modelId": "mvonwyl/roberta-twitter-spam-classifier"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "fgaim/t5-small-squad-v2"
 	}
 ]
