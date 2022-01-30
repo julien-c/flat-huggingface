@@ -44776,6 +44776,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Finnish-NLP/gpt2-medium-finnish"
+	},
+	{
+		"private": false,
 		"modelId": "Fraser/single_latent"
 	},
 	{
@@ -98463,11 +98468,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "DHBaek/gpt2-test"
-	},
-	{
-		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -125074,6 +125074,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/albert-xlarge-german-cased"
 	},
 	{
@@ -128474,5 +128475,9 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/test100"
+	},
+	{
+		"private": false,
+		"modelId": "AlexN/xls-r-300m-fr-0"
 	}
 ]
