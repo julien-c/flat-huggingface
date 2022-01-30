@@ -120620,11 +120620,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "nickmuchi/distilbart-cnn-12-6-tradetheevent"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "nickmuchi/mt5-small-tradetheevent"
 	},
 	{
@@ -128231,10 +128226,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ShengdingHu/superglue-boolq-multig"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-kurdish"
 	},
 	{
@@ -128262,5 +128259,9 @@
 	{
 		"private": false,
 		"modelId": "AlexaMerens/Owl"
+	},
+	{
+		"private": false,
+		"modelId": "oferweintraub/test-bert-finetuned-squad-accelerate-v1"
 	}
 ]
