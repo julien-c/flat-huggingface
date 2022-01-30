@@ -102831,6 +102831,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Kayvane/distilbert-complaints-product"
 	},
 	{
@@ -105571,11 +105572,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RuudVelo/wav2vec2-large-xls-r-1b-nl"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "RuudVelo/wav2vec2-large-xls-r-300m-cv7-nl"
 	},
 	{
 		"private": false,
@@ -113549,6 +113545,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "fadhilarkan/patentclassification"
 	},
 	{
@@ -128294,19 +128291,43 @@
 	},
 	{
 		"private": false,
-		"modelId": "Tofu05/DialoGPT-large-boon3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sammy786/wav2vec2-xlsr-czech"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sted97/multilingual-ner"
 	},
 	{
 		"private": false,
 		"modelId": "arman223147/gpt2-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "Tofu05/DialoGPT-med-boon2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-xlsr-300M-NPSC-LM"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "RuudVelo/wav2vec2-large-xls-r-300m-cv8-nl"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wav2vec2-xls-r-300m-german-upper"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Tofu05/DialoGPT-med-boon3"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv7"
 	}
 ]
