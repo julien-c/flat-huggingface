@@ -35755,11 +35755,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "jeang/bert-finetuned-sentence-classification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "jegorkitskerkin/bert-base-dutch-cased-ranking"
 	},
 	{
@@ -116485,11 +116480,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "jeang/bert-sentence-classification-toy"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "jeanlks/DialogGPT-small-gayvid"
 	},
@@ -128482,6 +128472,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "osama7/t5-summarization-multinews"
+	},
+	{
+		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ur-v10"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/newsfrmhome"
 	}
 ]
