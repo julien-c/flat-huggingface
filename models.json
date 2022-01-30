@@ -100784,11 +100784,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-assamese-v4"
-	},
-	{
-		"private": false,
 		"modelId": "DuckMeme/Eve"
 	},
 	{
@@ -115721,11 +115716,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-large-xls-r-300m-hebrew"
-	},
-	{
-		"private": false,
 		"modelId": "inaccel/inception_v1_tf"
 	},
 	{
@@ -127560,6 +127550,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-xls-r-1b-ja-dumy7"
 	},
 	{
@@ -127847,6 +127842,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "arampacha/wav2vec2-xls-r-1b-hy-cv"
 	},
 	{
@@ -127995,6 +127991,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-gl-CV8"
 	},
 	{
@@ -128044,16 +128041,34 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Sebastianthecrab/DialoGPT-small-melchior"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy5"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "pierrerappolt/cart"
+	},
+	{
+		"private": false,
+		"modelId": "pierrerappolt/my-awesome-model"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/xls-r-300m-npsc-2"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-ab-CV8"
 	}
 ]
