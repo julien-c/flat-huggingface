@@ -13121,11 +13121,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gameGPT-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AmazonScience/qanlu"
 	},
@@ -32957,6 +32952,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "w11wo/javanese-bert-small-imdb-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-medium"
 	},
 	{
 		"private": false,
@@ -127525,6 +127525,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "zwang199/autonlp-traffic-nlp-451311592"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "zwang199/autonlp-traffic_nlp_binary-537215209"
 	},
 	{
@@ -128180,5 +128185,17 @@
 	{
 		"private": false,
 		"modelId": "pablouribe/xls-ab-test"
+	},
+	{
+		"private": false,
+		"modelId": "nagasanjay/senti-analysis"
+	},
+	{
+		"private": false,
+		"modelId": "pablouribe/xls-r-spanish-test"
+	},
+	{
+		"private": false,
+		"modelId": "Nui/Sconte"
 	}
 ]
