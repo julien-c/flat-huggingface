@@ -123272,11 +123272,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "roseman/xls-r-300m-ckb"
-	},
-	{
-		"private": false,
 		"modelId": "roshi/test2"
 	},
 	{
@@ -128338,6 +128333,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sted97/bert-base-multilingual-cased-ner"
 	},
 	{
@@ -128346,6 +128342,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sted97/multilingual-ner"
 	},
 	{
@@ -128372,5 +128369,13 @@
 	{
 		"private": false,
 		"modelId": "Sahgrada/Sah"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/albert-xxlarge-v2-finetuned-qnli"
+	},
+	{
+		"private": false,
+		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Swedish"
 	}
 ]
