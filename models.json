@@ -128524,6 +128524,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/fairseq-dense-1.3B"
 	},
 	{
@@ -128660,10 +128661,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "akadriu/wav2vec2-large-xlsr-53-sagemaker"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anantoj/wav2vec2-xls-r-1b-korean"
 	},
@@ -128784,6 +128781,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "korca/textfooler-roberta-base-mrpc"
 	},
 	{
@@ -128888,5 +128886,24 @@
 	{
 		"private": false,
 		"modelId": "Priyajay/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher-dummy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "osanseviero/test_meta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/textfooler-roberta-base-boolq"
+	},
+	{
+		"private": false,
+		"modelId": "korca/textfooler-roberta-base-rte"
 	}
 ]
