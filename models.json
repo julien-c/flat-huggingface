@@ -33311,11 +33311,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ckauth/ck-cloned-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-tiny-historic-multilingual-cased"
 	},
@@ -128616,5 +128611,10 @@
 	{
 		"private": false,
 		"modelId": "vachonni/wav2vec2-large-xls-r-300m-dansk-CV-80"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ckauth/ck-ner-disease"
 	}
 ]
