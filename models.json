@@ -12989,6 +12989,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "ARTeLab/it5-summarization-mlsum"
 	},
@@ -124931,11 +124936,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sshasnain/wav2vec2-xls-r-bangla-command"
-	},
-	{
-		"private": false,
 		"modelId": "ssilin/model1"
 	},
 	{
@@ -128539,10 +128539,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-latvian"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-ta-cv8"
 	},
 	{
