@@ -16542,10 +16542,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "qqaatw/realm-cc-news-pretrained-embedder"
-	},
-	{
-		"private": false,
 		"modelId": "sarnikowski/electra-small-discriminator-da-256-cased"
 	},
 	{
@@ -18480,10 +18476,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "qqaatw/realm-cc-news-pretrained-encoder"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "techthiyanes/Bert_Bahasa_Sentiment"
 	},
@@ -19043,10 +19035,6 @@
 		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "lighteternal/SSE-TUC-mt-en-el-cased"
-	},
-	{
-		"private": false,
-		"modelId": "qqaatw/realm-cc-news-pretrained-scorer"
 	},
 	{
 		"private": false,
@@ -19710,10 +19698,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "mrm8488/chEMBL26_smiles_v2"
-	},
-	{
-		"private": false,
-		"modelId": "qqaatw/realm-orqa-nq-openqa"
 	},
 	{
 		"private": false,
@@ -23000,10 +22984,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "osunlp/ReasonBERT-RoBERTa-base"
-	},
-	{
-		"private": false,
-		"modelId": "qqaatw/realm-orqa-nq-reader"
 	},
 	{
 		"private": false,
@@ -42460,11 +42440,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ncats/EpiExtract4GARD"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "ncoop57/athena"
 	},
@@ -54720,10 +54695,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "qqaatw/realm-orqa-wq-openqa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "quangtran199hust/layoutlmv2_roige"
 	},
@@ -59446,10 +59417,6 @@
 	{
 		"private": false,
 		"modelId": "qarib/bert-base-qarib_far_6500k"
-	},
-	{
-		"private": false,
-		"modelId": "qqaatw/realm-orqa-wq-reader"
 	},
 	{
 		"private": false,
@@ -128501,6 +128468,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sted97/wikineural-multilingual-ner"
+	},
+	{
+		"private": false,
 		"modelId": "Aastha/wav2vec2-large-xls-r-300m-hi"
 	},
 	{
@@ -128891,6 +128862,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "orisuchy/Descriptive_Classifier"
 	},
 	{
@@ -128961,5 +128933,73 @@
 	{
 		"private": false,
 		"modelId": "davanstrien/eighteenth-century-distilbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ubamba98/model"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-cc-news-pretrained-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-cc-news-pretrained-scorer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ncats/EpiExtract4GARD-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "peter-explosion-ai/en_pipeline"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-cc-news-pretrained-embedder"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-v11"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "masapasa/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"modelId": "ncats/EpiExtract4GARD-v2"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-orqa-wq-reader"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-orqa-nq-reader"
+	},
+	{
+		"private": false,
+		"modelId": "vitouphy/xls-r-en"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-orqa-nq-openqa"
+	},
+	{
+		"private": false,
+		"modelId": "masapasa/xls-r-300m-sv-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "vitouphy/xls-r-300m-en"
+	},
+	{
+		"private": false,
+		"modelId": "google/realm-orqa-wq-openqa"
 	}
 ]
