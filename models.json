@@ -34959,11 +34959,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "philschmid/test-german-t5-prompted-germanquad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/GPT-Converse-1pt3B-Neo-WoW-DD-13"
 	},
@@ -128470,6 +128465,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Aastha/wav2vec2-large-xls-r-300m-hi"
 	},
 	{
@@ -128950,6 +128946,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ncats/EpiExtract4GARD-v2"
 	},
 	{
@@ -129102,5 +129099,14 @@
 	{
 		"private": false,
 		"modelId": "philschmid/bert-mini-sst2-distilled"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "GermanT5/german-t5-oscar-ep1-prompted-germanquad"
+	},
+	{
+		"private": false,
+		"modelId": "sahithyaravi1493/bert-base-uncased-finetuned-copa"
 	}
 ]
