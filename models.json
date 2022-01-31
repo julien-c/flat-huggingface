@@ -97704,11 +97704,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "reach-vb/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "rebeccakoganlee/distilbert-base-uncased-finetuned-ner"
 	},
@@ -120743,7 +120738,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "text-classification",
 		"modelId": "nepp1d0/Bert-pretrained-proteinBindingDB"
 	},
 	{
@@ -123072,10 +123067,6 @@
 	{
 		"private": false,
 		"modelId": "rdpatilds/dummy"
-	},
-	{
-		"private": false,
-		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-common_voice-sl-ft"
 	},
 	{
 		"private": false,
@@ -129115,21 +129106,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-v1"
-	},
-	{
-		"private": false,
 		"modelId": "saattrupdan/icebert-texas-squad-is"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "paintingpeter/distilbert-base-uncased-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hsb-v5"
 	},
 	{
 		"private": false,
@@ -129181,6 +129163,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "AnjanBiswas/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
