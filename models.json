@@ -99169,6 +99169,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1B-german"
 	},
 	{
@@ -128279,6 +128280,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv7"
 	},
 	{
@@ -128432,6 +128434,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sted97/wikineural-multilingual-ner"
 	},
 	{
@@ -128531,5 +128534,14 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SoLID/sgd-t5-tod"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/alphaxchange-coinmarketcap-techcrunch"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/lf-l-idpt"
 	}
 ]
