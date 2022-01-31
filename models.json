@@ -126782,17 +126782,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vasilis/xls-r-et-V-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vasilis/xls-r-et-V-3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vasilis/xls-r-et-V"
 	},
 	{
 		"private": false,
@@ -128820,6 +128810,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-13B"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Priyajay/xls-r-ab-test"
 	},
@@ -129137,6 +129132,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-sagemaker"
 	},
 	{
@@ -129155,5 +129151,13 @@
 	{
 		"private": false,
 		"modelId": "jonfd/electra-small-nordic"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/adapter_t5-base_superglue-record"
+	},
+	{
+		"private": false,
+		"modelId": "saattrupdan/xlmr-large-texas-squad-da"
 	}
 ]
