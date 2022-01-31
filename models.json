@@ -129088,6 +129088,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "philschmid/bert-mini-sst2-distilled"
 	},
 	{
@@ -129162,6 +129163,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "paola-md/recipes_italian"
 	},
 	{
@@ -129170,10 +129172,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "paintingpeter/distilbert-base-uncased-distilled-clinc"
 	},
 	{
 		"private": false,
 		"modelId": "ShengdingHu/adapter_t5-base_superglue-wsc.fixed"
+	},
+	{
+		"private": false,
+		"modelId": "AnjanBiswas/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
