@@ -128625,11 +128625,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "philschmid/tiny-bert-sst2-distilled"
-	},
-	{
-		"private": false,
 		"modelId": "ShengdingHu/bitfit_t5-base_mrpc"
 	},
 	{
@@ -128776,6 +128771,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft-stream"
 	},
 	{
@@ -128789,5 +128785,26 @@
 	{
 		"private": false,
 		"modelId": "dmigo/test-tokens"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/bitfit_t5-base_superglue-boolq"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/superglue-cb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "philschmid/tiny-bert-sst2-distilled"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/bitfit_t5-base_superglue-cb"
+	},
+	{
+		"private": false,
+		"modelId": "masapasa/xls-r-300m-it-cv8"
 	}
 ]
