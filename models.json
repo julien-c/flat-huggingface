@@ -128592,11 +128592,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt2-medium-Converse_DS-WoW_Ep-30_Bs-32"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vachonni/wav2vec2-large-xls-r-300m-dansk-CV-80"
 	},
@@ -128659,6 +128654,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-test80_my-colab"
 	},
 	{
@@ -128672,6 +128668,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anantoj/wav2vec2-xls-r-1b-korean"
 	},
 	{
@@ -128684,6 +128681,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ShengdingHu/mnli"
 	},
 	{
@@ -128693,5 +128691,22 @@
 	{
 		"private": false,
 		"modelId": "BitanBiswas/bangla-bert-base"
+	},
+	{
+		"private": false,
+		"modelId": "BobBraico/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v3-en-to-ar"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ShengdingHu/superglue-copa"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/bitfit_t5-base_superglue-copa"
 	}
 ]
