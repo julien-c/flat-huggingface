@@ -118646,15 +118646,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "losca/indo_zh-mixed_no_fine"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "losca/marian-indo_zh-mixed"
-	},
-	{
-		"private": false,
 		"modelId": "louwjlab/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -128522,6 +128513,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-sds"
+	},
+	{
+		"private": false,
 		"modelId": "Chun/mbart50-en2zh-otm_try"
 	},
 	{
@@ -128572,6 +128567,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jinlmsft/t5-large-multiwoz"
 	},
 	{
@@ -128621,5 +128617,17 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-ner-disease"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-v17"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hsb-v2"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-v7"
 	}
 ]
