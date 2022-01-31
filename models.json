@@ -128903,6 +128903,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/distilbert-base-cased_tokenizer_1700_1799"
+	},
+	{
+		"private": false,
 		"modelId": "shaina/CoQUAD_MPNet"
 	},
 	{
@@ -128938,11 +128942,6 @@
 	{
 		"private": false,
 		"modelId": "google/realm-cc-news-pretrained-embedder"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-v11"
 	},
 	{
 		"private": false,
@@ -129006,11 +129005,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/distilgpt2-Converse_DS-WoW_Ep-30_Bs-32"
-	},
-	{
-		"private": false,
 		"modelId": "ShengdingHu/adapter_t5-base_cola"
 	},
 	{
@@ -129024,11 +129018,6 @@
 	{
 		"private": false,
 		"modelId": "ShengdingHu/adapter_t5-base_sst2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ur-z7"
 	},
 	{
 		"private": false,
@@ -129088,6 +129077,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "arianpasquali/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gigant/speech-recognition-ro-1b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/distilgpt2-tiny-conversational"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-neo-125M-JIBA_DS-slack_Ep-40_Bs-8"
 	}
 ]
