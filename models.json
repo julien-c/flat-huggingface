@@ -128509,6 +128509,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca"
 	},
 	{
@@ -129083,11 +129084,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-neo-125M-JIBA_DS-slack_Ep-40_Bs-8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/zssbecker"
 	},
 	{
@@ -129142,5 +129138,22 @@
 	{
 		"private": false,
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-sagemaker"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-neo-tiny-JIBA"
+	},
+	{
+		"private": false,
+		"modelId": "norie4/DialoGPT-small-memoji"
+	},
+	{
+		"private": false,
+		"modelId": "jonfd/electra-small-is-no"
+	},
+	{
+		"private": false,
+		"modelId": "jonfd/electra-small-nordic"
 	}
 ]
