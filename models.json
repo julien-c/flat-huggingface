@@ -122790,16 +122790,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt2-medium-JIBA_DS-slack-chat_Ep-10_Bs-32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/led-base-16384-ft-govreport-summarization"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/pegasus-large-book-summary"
 	},
@@ -128556,6 +128546,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
+	},
+	{
+		"private": false,
 		"modelId": "Chun/mbart50-en2zh-otm_try"
 	},
 	{
@@ -128585,14 +128579,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/gpt-neo-125M-Converse_DS-WoW_Ep-30_Bs-32"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/gpt2-medium-Converse_DS-WoW_Ep-30_Bs-32"
-	},
-	{
-		"private": false,
 		"modelId": "yaswanth/xls-r-yaswanth-hindi"
 	},
 	{
@@ -128601,6 +128587,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vneralla/xlrs-53-finnish"
 	},
 	{
@@ -128617,10 +128604,41 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "norie4/DialoGPT-small-kyutebot"
 	},
 	{
 		"private": false,
 		"modelId": "jinlmsft/t5-base-multiwoz"
+	},
+	{
+		"private": false,
+		"modelId": "anirudh21/electra-base-discriminator-finetuned-stsb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt2-medium-JIBA-slack-10E"
+	},
+	{
+		"private": false,
+		"modelId": "srv/DialoGPT-medium-Breaking_Bad"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/wav2vec2-large-xlsr-53-sagemaker"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "pszemraj/led-base-report-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "ivanlau/wav2vec2-large-xls-r-300m-cantonese"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt2-medium-Converse_DS-WoW_Ep-30_Bs-32"
 	}
 ]
