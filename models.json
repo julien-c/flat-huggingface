@@ -129082,6 +129082,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-neo-125M-JIBA_DS-slack_Ep-40_Bs-8"
 	},
 	{
@@ -129122,6 +129123,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-v1"
 	},
 	{
@@ -129130,6 +129132,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "paintingpeter/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hsb-v5"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/wav2vec2-large-xlsr-53-sagemaker"
 	}
 ]
