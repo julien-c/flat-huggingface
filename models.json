@@ -128464,6 +128464,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "sted97/wikineural-multilingual-ner"
 	},
 	{
@@ -129030,5 +129031,22 @@
 	{
 		"private": false,
 		"modelId": "ShengdingHu/adapter_t5-base_sst2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ur-z7"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/wav2vec2-large-xlsr-53-sagemaker"
+	},
+	{
+		"private": false,
+		"modelId": "JimmyHodl/DialoGPT-medium"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/adapter_t5-base_stsb"
 	}
 ]
