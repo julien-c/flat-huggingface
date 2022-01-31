@@ -122795,6 +122795,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "pszemraj/led-base-16384-ft-govreport-summarization"
 	},
 	{
@@ -125586,6 +125587,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "sunitha/Feb_2022_bert_finetuned_case"
 	},
 	{
@@ -128545,6 +128547,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "w11wo/wav2vec2-xls-r-300m-korean"
 	},
 	{
@@ -128572,6 +128575,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ghofrani/wghts"
 	},
 	{
@@ -128614,5 +128618,9 @@
 	{
 		"private": false,
 		"modelId": "norie4/DialoGPT-small-kyutebot"
+	},
+	{
+		"private": false,
+		"modelId": "jinlmsft/t5-base-multiwoz"
 	}
 ]
