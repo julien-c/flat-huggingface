@@ -128678,6 +128678,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-t5-small-squad-multitask"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ShengdingHu/mnli"
 	},
 	{
@@ -128796,15 +128801,26 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "philschmid/tiny-bert-sst2-distilled"
-	},
-	{
-		"private": false,
 		"modelId": "ShengdingHu/bitfit_t5-base_superglue-cb"
 	},
 	{
 		"private": false,
 		"modelId": "masapasa/xls-r-300m-it-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "mrseeker87/fairseq-dense-125m"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/distilbert-base-uncased-finetuned-clinc-test-1234"
+	},
+	{
+		"private": false,
+		"modelId": "shaina/CoQUAD"
+	},
+	{
+		"private": false,
+		"modelId": "KoboldAI/fairseq-dense-125m"
 	}
 ]
