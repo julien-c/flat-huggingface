@@ -122583,6 +122583,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S-PubMedBert-MS-MARCO"
+	},
+	{
+		"private": false,
 		"modelId": "prithivida/bertscrnn-probwordnoise"
 	},
 	{
@@ -128725,6 +128730,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ShengdingHu/superglue-record"
 	},
 	{
@@ -128767,5 +128773,13 @@
 	{
 		"private": false,
 		"modelId": "harislania/eng-test"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/wav2vec2-xls-r-common_voice-tr-ft-stream"
+	},
+	{
+		"private": false,
+		"modelId": "saattrupdan/xlmr-base-texas-squad-da"
 	}
 ]
