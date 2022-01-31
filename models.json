@@ -99558,10 +99558,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Babelscape/wikineural-multilingual-ner"
-	},
-	{
-		"private": false,
 		"modelId": "Babysittingyoda/DialoGPT-small-familyguyy"
 	},
 	{
@@ -125369,11 +125365,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "sted97/wikineural-multilingual-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/albert-xlarge-german-cased"
 	},
@@ -128505,6 +128496,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Babelscape/wikineural-multilingual-ner"
+	},
+	{
+		"private": false,
 		"modelId": "Aastha/wav2vec2-large-xls-r-300m-hi"
 	},
 	{
@@ -128686,10 +128682,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-ner-disease"
 	},
@@ -128800,15 +128792,6 @@
 	{
 		"private": false,
 		"modelId": "nairaxo/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "nbroad/attentive-dummy-distilbert-12-labels"
-	},
-	{
-		"private": false,
-		"modelId": "nbroad/attentive-dummy-distilbert-250-labels"
 	},
 	{
 		"private": false,
@@ -128928,6 +128911,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "facebook/xglm-4.5B"
+	},
+	{
+		"private": false,
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
+	},
+	{
+		"private": false,
+		"modelId": "nihonium286/bart-large-ami"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/bitfit_t5-base_qqp"
+	},
+	{
+		"private": false,
+		"modelId": "pwbreau/mental-roberta-base-finetuned-SAD"
+	},
+	{
+		"private": false,
+		"modelId": "philschmid/tiny-bert-sst2-distilled"
 	}
 ]
