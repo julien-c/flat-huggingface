@@ -17673,6 +17673,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "TVLG/DialoGPT-small-Iroh-Bot"
 	},
@@ -18012,11 +18017,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "LeBenchmark/wav2vec2-FR-3K-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_ncc"
 	},
 	{
 		"private": false,
@@ -128117,6 +128117,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "TajMahaladeen/pokemon_gptj"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/wav2vec2-2-bertimbau-cv7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt2-medium-JIBA_DS-slack-chat_Ep-10_Bs-32"
+	},
+	{
+		"private": false,
 		"modelId": "w11wo/wav2vec2-xls-r-300m-korean"
 	},
 	{
@@ -128421,10 +128436,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "TajMahaladeen/pokemon_gptj"
-	},
-	{
-		"private": false,
 		"modelId": "emre/wav2vec2-large-xls-r-300m-tr-new"
 	},
 	{
@@ -128476,11 +128487,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-2-bertimbau-cv7"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "arampacha/wav2vec2-xls-r-1b-hy"
 	},
 	{
@@ -128517,10 +128523,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sammy786/wav2vec2-xlsr-chuvash"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/gpt2-medium-JIBA_DS-slack-chat_Ep-10_Bs-32"
 	},
 	{
 		"private": false,
@@ -128562,5 +128564,23 @@
 	{
 		"private": false,
 		"modelId": "ReynaQuita/en2zh-otm_try"
+	},
+	{
+		"private": false,
+		"modelId": "sunitha/Feb_2022_bert_finetuned_case"
+	},
+	{
+		"private": false,
+		"modelId": "dropout05/t5_2l_8h_512d_2048ff"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "fadhilarkan/patent-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "table-question-answering",
+		"modelId": "juliagsy/tapas_fine_tuning"
 	}
 ]
