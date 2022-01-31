@@ -128808,6 +128808,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt2-medium-Converse_DS-WoW_Ep-10_Bs-32"
 	},
 	{
@@ -128836,10 +128837,6 @@
 	{
 		"private": false,
 		"modelId": "shacharm/wav2vec2-large-xls-r-300m-japanese-colab"
-	},
-	{
-		"private": false,
-		"modelId": "shaina/CoQUAD"
 	},
 	{
 		"private": false,
@@ -128903,6 +128900,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-maltese"
 	},
 	{
@@ -128916,6 +128914,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
 	},
 	{
@@ -128933,5 +128932,34 @@
 	{
 		"private": false,
 		"modelId": "philschmid/tiny-bert-sst2-distilled"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ShengdingHu/superglue-wsc.fixed"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/bitfit_t5-base_superglue-wsc.fixed"
+	},
+	{
+		"private": false,
+		"modelId": "shaina/CoQUAD_MPNet"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/adapter_t5-base_superglue-copa"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/adapter_t5-base_rte"
+	},
+	{
+		"private": false,
+		"modelId": "ubamba98/workspace"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/eighteenth-century-distilbert"
 	}
 ]
