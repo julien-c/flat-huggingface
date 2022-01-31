@@ -23912,6 +23912,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "edugp/wav2vec2-xls-r-300m-36-tokens-es"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "enelpol/poleval2021-task3"
 	},
@@ -25557,11 +25562,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "dehio/german-qg-t5-drink600"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "edugp/wav2vec2-xls-r-300m-36-tokens-es"
 	},
 	{
 		"private": false,
@@ -97387,6 +97387,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lucio/xls-r-uzbek-cv8"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lucius/distilroberta-base-finetuned-wikitext2"
 	},
@@ -118465,11 +118470,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lucio/xls-r-uzbek-cv8"
-	},
-	{
-		"private": false,
 		"modelId": "ludens/infinite-story"
 	},
 	{
@@ -128132,6 +128132,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-latvian"
+	},
+	{
+		"private": false,
 		"modelId": "w11wo/wav2vec2-xls-r-300m-korean"
 	},
 	{
@@ -128537,11 +128542,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-latvian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-ta-cv8"
 	},
 	{
@@ -128563,10 +128563,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ReynaQuita/en2zh-otm_try"
-	},
-	{
-		"private": false,
 		"modelId": "sunitha/Feb_2022_bert_finetuned_case"
 	},
 	{
@@ -128582,5 +128578,13 @@
 		"private": false,
 		"pipeline_tag": "table-question-answering",
 		"modelId": "juliagsy/tapas_fine_tuning"
+	},
+	{
+		"private": false,
+		"modelId": "Chun/mbart50-en2zh-otm_try"
+	},
+	{
+		"private": false,
+		"modelId": "gagan3012/xls-r-300m-pa"
 	}
 ]
