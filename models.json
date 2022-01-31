@@ -125411,11 +125411,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "sted97/wikineural-multilingual-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/albert-xlarge-german-cased"
 	},
@@ -128554,6 +128549,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sted97/wikineural-multilingual-ner"
+	},
+	{
+		"private": false,
 		"modelId": "Chun/mbart50-en2zh-otm_try"
 	},
 	{
@@ -128599,5 +128598,17 @@
 	{
 		"private": false,
 		"modelId": "vneralla/xlrs-53-finnish"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ur-z6"
+	},
+	{
+		"private": false,
+		"modelId": "nairaxo/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "norie4/cyutebot"
 	}
 ]
