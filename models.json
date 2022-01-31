@@ -128783,11 +128783,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "pszemraj/led-base-report-summarizer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-common_voice7-lv-ft"
 	},
@@ -129011,6 +129006,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/distilgpt2-Converse_DS-WoW_Ep-30_Bs-32"
 	},
 	{
@@ -129080,5 +129076,18 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt2-medium-vaguely-human-dialogue"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "gilparmentier/pokemon_gptj_model"
+	},
+	{
+		"private": false,
+		"modelId": "arianpasquali/distilbert-base-uncased-finetuned-clinc"
 	}
 ]
