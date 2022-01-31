@@ -111964,6 +111964,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
 	},
 	{
@@ -128885,6 +128886,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Priyajay/xls-r-ab-test"
 	},
 	{
@@ -128904,6 +128906,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "korca/textfooler-roberta-base-rte"
+	},
+	{
+		"private": false,
+		"modelId": "orisuchy/Descriptive_Classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/textfooler-roberta-base-sst2"
 	}
 ]
