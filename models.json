@@ -120791,15 +120791,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nickmuchi/mt5-small-tradetheevent-finance-summarizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nickmuchi/mt5-small-tradetheevent"
-	},
-	{
-		"private": false,
 		"modelId": "nicktien/TaipeiQA"
 	},
 	{
@@ -123487,11 +123478,6 @@
 	{
 		"private": false,
 		"modelId": "rory-hurley-gds/bert-hi-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "roseman/xls-r-300m-ckb"
 	},
 	{
 		"private": false,
@@ -129106,6 +129092,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "saattrupdan/icebert-texas-squad-is"
 	},
 	{
@@ -129163,11 +129150,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-2.7B"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AnjanBiswas/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
 		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-common_voice7-lt-ft"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/adapter_t5-base_mnli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-final1"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/adapter_t5-base_mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "phuongk/my-new-shiny-tokenizer"
 	}
 ]
