@@ -129279,11 +129279,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinybert-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "arasgungore/bert-finetuned-ner-accelerate"
 	},
@@ -129364,10 +129359,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lgris/wav2vec2-xls-r-2b-cv8"
-	},
-	{
-		"private": false,
 		"modelId": "Rolv-Arild/xls-r-300m-npsc-3"
 	},
 	{
@@ -129409,5 +129400,26 @@
 	{
 		"private": false,
 		"modelId": "sanchit-gandhi/xls-r-dummy-pytorch-finetune"
+	},
+	{
+		"private": false,
+		"modelId": "Soha/sentiment-analysis-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-common_voice-tamil"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bart-large-cnn-tuned-xsum"
 	}
 ]
