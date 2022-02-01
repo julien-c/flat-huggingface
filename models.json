@@ -120838,6 +120838,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mvonwyl/roberta-twitter-spam-classifier"
+	},
+	{
+		"private": false,
 		"modelId": "mvrcm3rc3/test"
 	},
 	{
@@ -129085,202 +129090,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mvonwyl/roberta-twitter-spam-classifier"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "KoboldAI/fairseq-dense-6.7B"
-	},
-	{
-		"private": false,
-		"modelId": "amarendrafero/bert-finetuned-ner-accelerate"
+		"modelId": "AAli/wav2vec2-base-finetuned-ks"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "hady/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "kamalkraj/COCO-LM"
-	},
-	{
-		"private": false,
-		"modelId": "nickmuchi/mt5-finetuned"
-	},
-	{
-		"private": false,
-		"modelId": "norie4/DialoGPT-small-mememoji"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ubamba98/wav2vec2-xls-r-300m-CV8-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/clamtime-madramami"
-	},
-	{
-		"private": false,
-		"modelId": "nickmuchi/bart-large-cnn-trade-the-event-finance-summarizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "korca/bae-roberta-base-boolq"
-	},
-	{
-		"private": false,
-		"modelId": "norie4/DialoGPT-small-mrmemoji"
-	},
-	{
-		"private": false,
-		"modelId": "ncduy/ppo-LunarLander-v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pablouribe/beto-copus-supercategories"
-	},
-	{
-		"private": false,
-		"modelId": "norie4/test5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Tahsin-Mayeesha/xls-r-ab-test"
-	},
-	{
-		"private": false,
-		"modelId": "Raid/Hh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "bob1966/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/lm_ca_viquiquad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v4-en-to-ar"
-	},
-	{
-		"private": false,
-		"modelId": "fuliucansheng/detectron2"
-	},
-	{
-		"private": false,
-		"modelId": "stefan-it/t5-base-german"
-	},
-	{
-		"private": false,
-		"modelId": "cerulianx/dall-e"
-	},
-	{
-		"private": false,
-		"modelId": "ashishabraham22/Quality-Control-Steel"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romanian"
-	},
-	{
-		"private": false,
-		"modelId": "BatuhanYilmaz/mt5-small-finetuned-amazonbooks-en-es"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "naleraphael/rasr_sample"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-common_voice-sl-ft"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-300M"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Iskaj/xlsr_300m_CV_8.0_50_EP_new_params_nl"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "KheireddineDaouadi/ArabicASDAE"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/recommender-transformer"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/recommender-transformers"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-300m-mt-cv8-with-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "saattrupdan/xlmr-base-texas-squad-fr"
-	},
-	{
-		"private": false,
-		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-zh-CN-v0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "paola-md/light-recipes-italian"
-	},
-	{
-		"private": false,
-		"modelId": "akrathi007/k2t-testx"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/vit-manuscripts"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "smangrul/xls-r-mr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "seanbenhur/tamil_tokenizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Rolv-Arild/xls-r-300m-npsc-3"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/deformable-detr-with-box-refine-two-stage"
+		"modelId": "AlexN/xls-r-300m-pt"
 	},
 	{
 		"private": false,
@@ -129289,83 +129104,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "nielsr/deformable-detr-with-box-refine"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Rumesh/txt-smp-si"
-	},
-	{
-		"private": false,
-		"modelId": "NbAiLab/wav2vec2-xlsr-1b-npsc"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/deformable-detr-single-scale-dc5"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/deformable-detr-single-scale"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/deformable-detr"
-	},
-	{
-		"private": false,
-		"modelId": "gigant/_wav2vec2-ro-1B"
+		"modelId": "BatuhanYilmaz/mt5-small-finetuned-amazonbooks-en-es"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/xls-r-dummy-pytorch-finetune"
-	},
-	{
-		"private": false,
-		"modelId": "Soha/sentiment-analysis-sst2"
-	},
-	{
-		"private": false,
-		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "patrickvonplaten/wav2vec2-common_voice-tamil"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "FremyCompany/xls-r-nl-v1-cv8-lm"
-	},
-	{
-		"private": false,
-		"modelId": "lysandre/custom-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-fr-v0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Soumyajit1008/DialoGPT-small-harryPotterssen"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romansh-sursilvan"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/bart-large-cnn-xsum-finedtuned"
+		"modelId": "Baybars/wav2vec2-xls-r-1b-turkish"
 	},
 	{
 		"private": false,
@@ -129374,20 +129118,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "tal-yifat/bert-injury-classifier"
-	},
-	{
-		"private": false,
-		"modelId": "lallen1/opus-mt-en-fr-finetuned-en-to-data"
-	},
-	{
-		"private": false,
-		"modelId": "ghofrani/xls-r-1b-fa"
-	},
-	{
-		"private": false,
-		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v2"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "CLAck/indo_zh_indo"
 	},
 	{
 		"private": false,
@@ -129395,62 +129127,18 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ubamba98/wav2vec2-xls-r-1b-it-CV8"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chun/mbart50-en2zh-otm"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "cahya/output"
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-c2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "polodealvarado/xls-r-1b-es"
-	},
-	{
-		"private": false,
-		"modelId": "ghofrani/1b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Ilyes/wav2vec2-xls-fr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-xls-r-1b-CORAA-pt"
-	},
-	{
-		"private": false,
-		"modelId": "dropout05/t5_2l_8h_512d_2048ff_lfom_distil"
-	},
-	{
-		"private": false,
-		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-tr-Test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/mBERT-base-cased-NER-CONLL"
-	},
-	{
-		"private": false,
-		"modelId": "valhalla/awesome-model"
-	},
-	{
-		"private": false,
-		"modelId": "theainerd/xls-r-300m-hi"
-	},
-	{
-		"private": false,
-		"modelId": "valhalla/awesome-model_v3"
+		"modelId": "FremyCompany/xls-r-nl-v1-cv8-lm"
 	},
 	{
 		"private": false,
@@ -129464,70 +129152,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kika2000/wav2vec2-large-xls-r-300m-test81_my-colab"
-	},
-	{
-		"private": false,
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romansh-vallader"
-	},
-	{
-		"private": false,
-		"modelId": "akshaychaudhary/distilbert-base-uncased-finetunedHyperTuning-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Sotireas/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-ContaminationQAmodel_PubmedBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Recognai/veganuary_ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Harveenchadha/odia_large_wav2vec2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "dropout05/t5_2l_8h_512d_2048ff_vocab32128"
-	},
-	{
-		"private": false,
-		"modelId": "osamaM/SIQA-WL1"
-	},
-	{
-		"private": false,
-		"modelId": "sense2k8/eNovaspkEmbeddings"
-	},
-	{
-		"private": false,
-		"modelId": "AAli/wav2vec2-base-finetuned-ks"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "kevinjesse/codebert-MT4TS"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-3"
-	},
-	{
-		"private": false,
-		"modelId": "mbateman/mt5-small-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "CLAck/indo_zh_indo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "comodoro/wav2vec2-xls-r-300m-sk-cv8"
+		"modelId": "Ilyes/wav2vec2-xls-fr"
 	},
 	{
 		"private": false,
@@ -129535,106 +129165,17 @@
 	},
 	{
 		"private": false,
-		"modelId": "pritamdeka/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-cord19"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Chun/mbart50-en2zh-otm"
-	},
-	{
-		"private": false,
-		"modelId": "ghofrani/7"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "kevinjesse/graphcodebert-MT4TS"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/tlator"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/english-test"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/urdu-speech-to-text"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "kevinjesse/codeberta-MT4TS"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "pszemraj/led-large-book-summary-1E"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/urdu-speech-to-text-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-lm"
+		"modelId": "Iskaj/xlsr_300m_CV_8.0_50_EP_new_params_nl"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mattmcclean/distilbert-base-uncased-finetuned-emotion"
+		"modelId": "Kevincp560/bart-large-cnn-xsum-finedtuned"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ncats/EpiClassify4GARD"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/urdu-speech-to-text-test1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shahukareem/output"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "danielvasic/distilbert-wordnet-uncased"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/urdu-speech-to-text-test3"
-	},
-	{
-		"private": false,
-		"modelId": "AlexN/xls-r-300m-pt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/wav2vec2-urdu-speech-to-text-test5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Baybars/wav2vec2-xls-r-1b-turkish"
-	},
-	{
-		"private": false,
-		"modelId": "Plim/xls-r-1b-fr"
-	},
-	{
-		"private": false,
-		"modelId": "RASMUS/wav2vec2-xlsr-fi-train-aug-lm-aalto-full-1B"
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "KheireddineDaouadi/ArabicASDAE"
 	},
 	{
 		"private": false,
@@ -129648,20 +129189,486 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-6.7B"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v4-en-to-ar"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-xlsr-1b-npsc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-lm"
+	},
+	{
+		"private": false,
+		"modelId": "Plim/xls-r-1b-fr"
+	},
+	{
+		"private": false,
+		"modelId": "RASMUS/wav2vec2-xlsr-fi-train-aug-lm-aalto-full-1B"
+	},
+	{
+		"private": false,
+		"modelId": "Raid/Hh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Recognai/veganuary_ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Rolv-Arild/xls-r-300m-npsc-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Rumesh/txt-smp-si"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RuudVelo/wav2vec2-large-xls-r-1b-cv8-mt"
 	},
 	{
 		"private": false,
-		"modelId": "naleraphael/test"
+		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-tr-Test"
 	},
 	{
 		"private": false,
-		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small-v3"
+		"modelId": "Soha/sentiment-analysis-sst2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Sotireas/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-ContaminationQAmodel_PubmedBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Soumyajit1008/DialoGPT-small-harryPotterssen"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/mBERT-base-cased-NER-CONLL"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Tahsin-Mayeesha/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"modelId": "akrathi007/k2t-testx"
+	},
+	{
+		"private": false,
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetunedHyperTuning-ner"
+	},
+	{
+		"private": false,
+		"modelId": "amarendrafero/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "anuragshas/wav2vec2-xls-r-300m-mt-cv8-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "ashishabraham22/Quality-Control-Steel"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/lm_ca_viquiquad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bob1966/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "cahya/output"
+	},
+	{
+		"private": false,
+		"modelId": "cerulianx/dall-e"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "comodoro/wav2vec2-xls-r-300m-sk-cv8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "danielvasic/distilbert-wordnet-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/vit-manuscripts"
+	},
+	{
+		"private": false,
+		"modelId": "dropout05/t5_2l_8h_512d_2048ff_lfom_distil"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "dropout05/t5_2l_8h_512d_2048ff_vocab32128"
+	},
+	{
+		"private": false,
+		"modelId": "fuliucansheng/detectron2"
+	},
+	{
+		"private": false,
+		"modelId": "ghofrani/1b"
+	},
+	{
+		"private": false,
+		"modelId": "ghofrani/7"
+	},
+	{
+		"private": false,
+		"modelId": "ghofrani/xls-r-1b-fa"
+	},
+	{
+		"private": false,
+		"modelId": "gigant/_wav2vec2-ro-1B"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gigant/wav2vec2-ro-300M"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "hady/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/english-test"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/tlator"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/urdu-speech-to-text-test"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/urdu-speech-to-text-test1"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/urdu-speech-to-text-test3"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/urdu-speech-to-text"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/wav2vec2-urdu-speech-to-text-test5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/clamtime-madramami"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/cosmonolan"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romanian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romansh-sursilvan"
+	},
+	{
+		"private": false,
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romansh-vallader"
+	},
+	{
+		"private": false,
+		"modelId": "kamalkraj/COCO-LM"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/recommender-transformer"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/recommender-transformers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "kevinjesse/codebert-MT4TS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "kevinjesse/codeberta-MT4TS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "kevinjesse/graphcodebert-MT4TS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-test81_my-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/bae-roberta-base-boolq"
+	},
+	{
+		"private": false,
+		"modelId": "lallen1/opus-mt-en-fr-finetuned-en-to-data"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/wav2vec2-xls-r-1b-CORAA-pt"
+	},
+	{
+		"private": false,
+		"modelId": "lysandre/custom-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mattmcclean/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"modelId": "naleraphael/rasr_base_zhtw"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "naleraphael/rasr_sample"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ncats/EpiClassify4GARD"
+	},
+	{
+		"private": false,
+		"modelId": "ncduy/ppo-LunarLander-v2"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/bart-large-cnn-trade-the-event-finance-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/mt5-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-single-scale-dc5"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-single-scale"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-with-box-refine-two-stage"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-with-box-refine"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr"
+	},
+	{
+		"private": false,
+		"modelId": "norie4/DialoGPT-small-mememoji"
+	},
+	{
+		"private": false,
+		"modelId": "norie4/DialoGPT-small-mrmemoji"
+	},
+	{
+		"private": false,
+		"modelId": "norie4/test5"
+	},
+	{
+		"private": false,
+		"modelId": "osamaM/SIQA-WL1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pablouribe/beto-copus-supercategories"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "paola-md/light-recipes-italian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "patrickvonplaten/wav2vec2-common_voice-tamil"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "polodealvarado/xls-r-1b-es"
+	},
+	{
+		"private": false,
+		"modelId": "pritamdeka/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-cord19"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "pszemraj/led-large-book-summary-1E"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-common_voice-sl-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "saattrupdan/xlmr-base-texas-squad-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-fr-v0"
+	},
+	{
+		"private": false,
+		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-zh-CN-v0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/xls-r-dummy-pytorch-finetune"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "seanbenhur/tamil_tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "sense2k8/eNovaspkEmbeddings"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shahukareem/output"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "smangrul/xls-r-mr"
+	},
+	{
+		"private": false,
+		"modelId": "stefan-it/t5-base-german"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "tal-yifat/bert-injury-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "theainerd/xls-r-300m-hi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ubamba98/wav2vec2-xls-r-1b-it-CV8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ubamba98/wav2vec2-xls-r-300m-CV8-ro"
+	},
+	{
+		"private": false,
+		"modelId": "valhalla/awesome-model"
+	},
+	{
+		"private": false,
+		"modelId": "valhalla/awesome-model_v3"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v2"
 	}
 ]
