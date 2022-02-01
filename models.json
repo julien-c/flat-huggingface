@@ -99872,6 +99872,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "CLAck/indo_zh-mixed_no_fine"
 	},
 	{
@@ -116917,10 +116918,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ivanlau/wav2vec2-common_voice-zh_hk-demo-dist"
-	},
-	{
-		"private": false,
 		"modelId": "ivanlau/wav2vec2-large-xls-r-300m-cantonese"
 	},
 	{
@@ -120865,11 +120862,6 @@
 	{
 		"private": false,
 		"modelId": "mvjohn100/photobase"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mvonwyl/roberta-twitter-spam-classifier"
 	},
 	{
 		"private": false,
@@ -129124,6 +129116,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "mvonwyl/roberta-twitter-spam-classifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/fairseq-dense-6.7B"
 	},
@@ -129442,6 +129438,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "polodealvarado/xls-r-1b-es"
 	},
 	{
@@ -129527,5 +129524,38 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-c1"
+	},
+	{
+		"private": false,
+		"modelId": "dropout05/t5_2l_8h_512d_2048ff_vocab32128"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/wav2vec2-urdu-speech-to-text"
+	},
+	{
+		"private": false,
+		"modelId": "osamaM/SIQA-WL1"
+	},
+	{
+		"private": false,
+		"modelId": "sense2k8/eNovaspkEmbeddings"
+	},
+	{
+		"private": false,
+		"modelId": "AAli/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/english-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "kevinjesse/codebert-MT4TS"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-3"
 	}
 ]
