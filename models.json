@@ -24821,6 +24821,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "UBC-NLP/MARBERTv2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "activebus/BERT-PT_laptop"
 	},
 	{
@@ -102842,17 +102847,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "KoboldAI/fairseq-dense-125m"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/fairseq-dense-2.7B"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "KoboldAI/fairseq-dense-355m"
 	},
 	{
 		"private": false,
@@ -124110,6 +124105,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "roseman/xls-r-300m-ckb"
+	},
+	{
+		"private": false,
 		"modelId": "roshi/test2"
 	},
 	{
@@ -129647,5 +129647,23 @@
 	{
 		"private": false,
 		"modelId": "RASMUS/wav2vec2-xlsr-fi-train-aug-lm-aalto-full-1B"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-125M"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-355M"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-final"
+	},
+	{
+		"private": false,
+		"modelId": "RuudVelo/wav2vec2-large-xls-r-1b-cv8-mt"
 	}
 ]
