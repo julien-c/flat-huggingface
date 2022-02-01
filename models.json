@@ -129333,11 +129333,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-v5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc"
 	},
 	{
@@ -129408,10 +129403,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "FremyCompany/xls-r-nl-v1-cv8-lm"
 	},
@@ -129421,16 +129412,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-fr-v0"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v1"
 	},
 	{
 		"private": false,
@@ -129543,6 +129526,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kika2000/wav2vec2-large-xls-r-300m-test81_my-colab"
 	},
 	{
@@ -129555,6 +129539,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Sotireas/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-ContaminationQAmodel_PubmedBERT"
 	},
 	{
@@ -129564,10 +129549,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Harveenchadha/odia_large_wav2vec2"
 	},
 	{
 		"private": false,
 		"modelId": "arasgungore/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"modelId": "arasgungore/test-bert-finetuned-squad-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-myv-v5"
 	}
 ]
