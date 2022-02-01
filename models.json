@@ -49716,11 +49716,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "flozi00/t5-base-query-generator"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "funnel-transformer/intermediate-base"
 	},
@@ -78277,11 +78272,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "flozi00/t5-query-generator"
-	},
-	{
-		"private": false,
 		"modelId": "flozi00/wav2vec2-speechcommands-german"
 	},
 	{
@@ -94590,11 +94580,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "fkHug/modelFromWav2vec"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "flozi00/albert-base-v2-squad_v2"
 	},
 	{
 		"private": false,
@@ -129298,6 +129283,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-common_voice-sl-ft"
 	},
 	{
@@ -129336,5 +129322,21 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "KheireddineDaouadi/ArabicASDAE"
+	},
+	{
+		"private": false,
+		"modelId": "arasgungore/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/recommender-transformer"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/recommender-transformers"
+	},
+	{
+		"private": false,
+		"modelId": "saattrupdan/xlmr-large-texas-squad-is"
 	}
 ]
