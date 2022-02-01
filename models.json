@@ -29822,11 +29822,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pablouribe/bertstem-copus-supercategories"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "patrickvonplaten/bert2bert-tiny"
 	},
@@ -82884,11 +82879,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pablouribe/beto-copus-supercategories"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/sew-d-tiny-100k-demo-colab"
 	},
@@ -129113,6 +129103,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "norie4/DialoGPT-small-memoji"
 	},
 	{
@@ -129200,5 +129191,17 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/hindi"
+	},
+	{
+		"private": false,
+		"modelId": "Priyajay/xls-r-kn-test"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v2"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/azer1"
 	}
 ]
