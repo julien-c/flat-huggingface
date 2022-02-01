@@ -99872,11 +99872,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "CLAck/indo_zh-mixed_no_fine"
-	},
-	{
-		"private": false,
 		"modelId": "CLEE/CLEE"
 	},
 	{
@@ -106573,6 +106568,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner"
 	},
 	{
@@ -129557,5 +129553,22 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-3"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "CLAck/indo_zh_indo"
+	},
+	{
+		"private": false,
+		"modelId": "comodoro/wav2vec2-xls-r-300m-sk-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "Iskaj/300m_cv8_nl"
 	}
 ]
