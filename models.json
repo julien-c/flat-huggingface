@@ -24821,11 +24821,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "UBC-NLP/MARBERTv2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "activebus/BERT-PT_laptop"
 	},
 	{
@@ -129663,5 +129658,10 @@
 	{
 		"private": false,
 		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/cosmonolan"
 	}
 ]
