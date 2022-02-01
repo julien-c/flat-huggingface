@@ -129224,11 +129224,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "GermanT5/t5-base-german"
-	},
-	{
-		"private": false,
 		"modelId": "stefan-it/t5-base-german"
 	},
 	{
@@ -129275,6 +129270,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Iskaj/xlsr_300m_CV_8.0_50_EP_new_params_nl"
 	},
 	{
@@ -129364,6 +129360,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Rumesh/txt-smp-si"
 	},
 	{
@@ -129507,6 +129504,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-1b-CORAA-pt"
 	},
 	{
@@ -129529,5 +129527,29 @@
 	{
 		"private": false,
 		"modelId": "theainerd/xls-r-300m-hi"
+	},
+	{
+		"private": false,
+		"modelId": "valhalla/awesome-model_v3"
+	},
+	{
+		"private": false,
+		"modelId": "GermanT5/t5-base-german-3e"
+	},
+	{
+		"private": false,
+		"modelId": "GermanT5/t5-base-german"
+	},
+	{
+		"private": false,
+		"modelId": "kika2000/wav2vec2-large-xls-r-300m-test81_my-colab"
+	},
+	{
+		"private": false,
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romansh-vallader"
+	},
+	{
+		"private": false,
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetunedHyperTuning-ner"
 	}
 ]
