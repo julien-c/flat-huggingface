@@ -118915,11 +118915,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-2-bertimbau-cv7"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv7"
 	},
 	{
@@ -125922,6 +125917,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "srv/DialoGPT-medium-Breaking_Bad"
 	},
 	{
@@ -129262,15 +129258,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "naleraphael/rasr"
-	},
-	{
-		"private": false,
 		"modelId": "BatuhanYilmaz/mt5-small-finetuned-amazonbooks-en-es"
-	},
-	{
-		"private": false,
-		"modelId": "naleraphael/output"
 	},
 	{
 		"private": false,
@@ -129312,7 +129300,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "KheireddineDaouadi/ArabicASDAE"
 	},
 	{
@@ -129339,5 +129327,21 @@
 	{
 		"private": false,
 		"modelId": "saattrupdan/xlmr-base-texas-squad-fr"
+	},
+	{
+		"private": false,
+		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-zh-CN-v0"
+	},
+	{
+		"private": false,
+		"modelId": "paola-md/light-recipes-italian"
+	},
+	{
+		"private": false,
+		"modelId": "akrathi007/k2t-testx"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/vit-manuscripts"
 	}
 ]
