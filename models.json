@@ -16116,11 +16116,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "pierrerappolt/disease-extraction"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/bigbird-pegasus-large-booksum-40k-K"
 	},
@@ -119760,16 +119755,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "manu/lm-boosted-wav2vec2-large-xlsr-53-french-grosman"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "manu/lm-boosted-wav2vec2-large-xlsr-53-french"
-	},
-	{
-		"private": false,
 		"modelId": "manurkarp/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
@@ -120307,10 +120292,6 @@
 	{
 		"private": false,
 		"modelId": "miled/test1"
-	},
-	{
-		"private": false,
-		"modelId": "milyiyo/roberta-base-bne-finetuned-amazon-review"
 	},
 	{
 		"private": false,
@@ -122839,10 +122820,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "pierrerappolt/cart"
-	},
-	{
-		"private": false,
-		"modelId": "pierrerappolt/my-awesome-model"
 	},
 	{
 		"private": false,
@@ -129558,6 +129535,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-sk-cv8"
 	},
 	{
@@ -129633,6 +129611,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shahukareem/output"
 	},
 	{
@@ -129650,5 +129629,13 @@
 	{
 		"private": false,
 		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/wav2vec2-urdu-speech-to-text-test5"
+	},
+	{
+		"private": false,
+		"modelId": "Baybars/wav2vec2-xls-r-1b-turkish"
 	}
 ]
