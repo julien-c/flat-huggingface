@@ -129689,6 +129689,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pdroberts/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -129707,5 +129708,44 @@
 	{
 		"private": false,
 		"modelId": "harislania/urdu-speech-to-text-test20"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "GPL/scifact-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/fiqa-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/bioasq-1m-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/trec-covid-v2-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/cqadupstack-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "GPL/robust04-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"modelId": "ferdaous/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/fiqa-tsdae-msmarco-distilbert-gpl"
 	}
 ]
