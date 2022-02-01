@@ -106567,6 +106567,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-2"
 	},
 	{
@@ -115319,10 +115320,6 @@
 	{
 		"private": false,
 		"modelId": "haoxiangsnr/FullSubNet-DNS-INTERSPEECH-2020"
-	},
-	{
-		"private": false,
-		"modelId": "harislania/eng-test"
 	},
 	{
 		"private": false,
@@ -129141,10 +129138,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "harislania/wav2vec2-urdu-speech-to-text"
-	},
-	{
-		"private": false,
 		"modelId": "kamalkraj/COCO-LM"
 	},
 	{
@@ -129255,16 +129248,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "arasgungore/bert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "arasgungore/bert-finetuned-ner-accelerate"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-ro-300M"
 	},
@@ -129280,10 +129263,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "arasgungore/distilbert-base-uncased-finetuned-imdb-accelerate"
-	},
-	{
-		"private": false,
 		"modelId": "keras-io/recommender-transformer"
 	},
 	{
@@ -129294,10 +129273,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-mt-cv8-with-lm"
-	},
-	{
-		"private": false,
-		"modelId": "arasgungore/marian-finetuned-kde4-en-to-fr"
 	},
 	{
 		"private": false,
@@ -129414,10 +129389,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-fr-v0"
-	},
-	{
-		"private": false,
-		"modelId": "arasgungore/marian-finetuned-kde4-en-to-fr-accelerate"
 	},
 	{
 		"private": false,
@@ -129554,14 +129525,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "arasgungore/mt5-small-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
-		"modelId": "arasgungore/test-bert-finetuned-squad-accelerate"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-c1"
 	}
 ]
