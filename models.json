@@ -122813,6 +122813,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "pierrerappolt/cart"
+	},
+	{
+		"private": false,
 		"modelId": "pierric/testcap"
 	},
 	{
@@ -129630,10 +129635,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v2"
-	},
-	{
-		"private": false,
 		"modelId": "Plim/xls-r-1b-fr"
 	},
 	{
@@ -129652,10 +129653,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-final"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "RuudVelo/wav2vec2-large-xls-r-1b-cv8-mt"
 	},
 	{
 		"private": false,
-		"modelId": "RuudVelo/wav2vec2-large-xls-r-1b-cv8-mt"
+		"modelId": "naleraphael/test"
+	},
+	{
+		"private": false,
+		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small-v3"
 	}
 ]
