@@ -129261,6 +129261,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "saattrupdan/xlmr-base-texas-squad-fr"
 	},
 	{
@@ -129512,11 +129513,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-c1"
-	},
-	{
-		"private": false,
 		"modelId": "dropout05/t5_2l_8h_512d_2048ff_vocab32128"
 	},
 	{
@@ -129563,6 +129559,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Chun/mbart50-en2zh-otm"
 	},
 	{
@@ -129585,5 +129582,23 @@
 	{
 		"private": false,
 		"modelId": "harislania/urdu-speech-to-text"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "kevinjesse/codeberta-MT4TS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "pszemraj/led-large-book-summary-1E"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/urdu-speech-to-text-test"
+	},
+	{
+		"private": false,
+		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-lm"
 	}
 ]
