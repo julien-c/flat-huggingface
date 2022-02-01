@@ -119890,6 +119890,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "masapasa/xls-r-300m-it-cv8"
 	},
 	{
@@ -121410,10 +121411,6 @@
 	{
 		"private": false,
 		"modelId": "nielsr/convnext-small-224"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/deformable-detr-original"
 	},
 	{
 		"private": false,
@@ -125917,7 +125914,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "srv/DialoGPT-medium-Breaking_Bad"
 	},
 	{
@@ -129277,10 +129274,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "NbAiLab/wav2vec2-xlsr-1b-npsc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MichelBartels/tinybert-large"
 	},
@@ -129334,6 +129327,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "paola-md/light-recipes-italian"
 	},
 	{
@@ -129343,5 +129337,52 @@
 	{
 		"private": false,
 		"modelId": "davanstrien/vit-manuscripts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "smangrul/xls-r-mr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "seanbenhur/tamil_tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-v5"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2-xls-r-2b-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/xls-r-300m-npsc-3"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-with-box-refine-two-stage"
+	},
+	{
+		"private": false,
+		"modelId": "AlirezaBaneshi/testPersianQA"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/deformable-detr-with-box-refine"
+	},
+	{
+		"private": false,
+		"modelId": "Rumesh/txt-smp-si"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-xlsr-1b-npsc"
 	}
 ]
