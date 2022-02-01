@@ -128464,6 +128464,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "nickmuchi/mt5-small-trade-the-event-finance-summarizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-mongolian"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-lv-cv8-with-lm"
 	},
@@ -129078,10 +129088,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nickmuchi/mt5-small-trade-the-event-finance-summarizer"
-	},
-	{
-		"private": false,
 		"modelId": "peter-explosion-ai/en_gpu_setfit_128"
 	},
 	{
@@ -129194,11 +129200,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-mongolian"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/hindi"
 	},
 	{
@@ -129248,6 +129249,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ubamba98/wav2vec2-xls-r-300m-CV8-ro"
 	},
 	{
@@ -129269,5 +129271,9 @@
 	{
 		"private": false,
 		"modelId": "nickmuchi/mt5-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "hady/wav2vec2-base-timit-demo-colab"
 	}
 ]
