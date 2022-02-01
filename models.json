@@ -369,13 +369,13 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "distilbert-base-uncased-distilled-squad"
+		"pipeline_tag": "text-classification",
+		"modelId": "j-hartmann/emotion-english-distilroberta-base"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "j-hartmann/emotion-english-distilroberta-base"
+		"pipeline_tag": "question-answering",
+		"modelId": "distilbert-base-uncased-distilled-squad"
 	},
 	{
 		"private": false,
@@ -6747,11 +6747,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "facebook/xglm-564M"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "fav-kky/FERNET-C5"
 	},
@@ -11362,6 +11357,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "dbmdz/t5-base-conll03-english"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "facebook/xglm-564M"
 	},
 	{
 		"private": false,
@@ -109010,6 +109010,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anirudh21/albert-large-v2-finetuned-mnli"
 	},
 	{
@@ -114470,6 +114471,11 @@
 	{
 		"private": false,
 		"modelId": "ghofrani/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ghofrani/wghts"
 	},
 	{
 		"private": false,
@@ -128433,6 +128439,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "facebook/xglm-4.5B"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Babelscape/wikineural-multilingual-ner"
 	},
@@ -128667,11 +128678,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ghofrani/wghts"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "glob-asr/wav2vec2-large-xls-r-300m-spanish-small"
 	},
 	{
@@ -128748,10 +128754,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "norie4/DialoGPT-small-kyutebot"
-	},
-	{
-		"private": false,
-		"modelId": "norie4/cyutebot"
 	},
 	{
 		"private": false,
@@ -128845,11 +128847,6 @@
 	{
 		"private": false,
 		"modelId": "nepp1d0/DistilBERT_protein_family_classification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "facebook/xglm-4.5B"
 	},
 	{
 		"private": false,
@@ -129260,5 +129257,17 @@
 	{
 		"private": false,
 		"modelId": "amarendrafero/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "norie4/DialoGPT-small-mememoji"
+	},
+	{
+		"private": false,
+		"modelId": "kamalkraj/COCO-LM"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/mt5-finetuned"
 	}
 ]
