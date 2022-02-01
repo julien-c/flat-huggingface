@@ -127590,31 +127590,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence-subcats"
-	},
-	{
-		"private": false,
-		"modelId": "vesteinn/IceBERT-finetuned-iec-sentence-supercats"
-	},
-	{
-		"private": false,
-		"modelId": "vesteinn/IceBERT-igc-finetuned-ner"
-	},
-	{
-		"private": false,
 		"modelId": "vesteinn/fasttext_is_rmh"
 	},
 	{
 		"private": false,
 		"modelId": "vesteinn/fasttext_is_skipgram_dim300"
-	},
-	{
-		"private": false,
-		"modelId": "vesteinn/icebert-base-rmhvoc-ic3-194-hf-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "vesteinn/icebert-large-rmhvoc-ic3-igc-38-hf-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -129276,6 +129256,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "MaryaAI/opus-mt-en-ar-finetunedSTEM-v4-en-to-ar"
 	},
 	{
@@ -129300,6 +129281,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romanian"
 	},
 	{
@@ -129325,6 +129307,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "arasgungore/bert-finetuned-ner"
 	},
 	{
@@ -129334,5 +129317,18 @@
 	{
 		"private": false,
 		"modelId": "NbAiLab/wav2vec2-xlsr-1b-npsc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-large"
+	},
+	{
+		"private": false,
+		"modelId": "arasgungore/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "gigant/wav2vec2-ro-300M"
 	}
 ]
