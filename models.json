@@ -16581,11 +16581,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-finetuned2-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "aced/DialoGPT-medium-3PO"
 	},
@@ -129132,6 +129127,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-6.7B"
+	},
+	{
+		"private": false,
 		"modelId": "amarendrafero/bert-finetuned-ner-accelerate"
 	},
 	{
@@ -129437,19 +129437,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "osamaM/S3D_IQA"
-	},
-	{
-		"private": false,
 		"modelId": "arasgungore/marian-finetuned-kde4-en-to-fr-accelerate"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Soumyajit1008/DialoGPT-small-harryPotterssen"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-romansh-sursilvan"
 	},
 	{
@@ -129463,6 +129460,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tal-yifat/bert-injury-classifier"
 	},
 	{
@@ -129483,6 +129481,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ubamba98/wav2vec2-xls-r-1b-it-CV8"
 	},
 	{
@@ -129509,5 +129508,26 @@
 	{
 		"private": false,
 		"modelId": "lgris/wav2vec2-xls-r-1b-CORAA-pt"
+	},
+	{
+		"private": false,
+		"modelId": "dropout05/t5_2l_8h_512d_2048ff_lfom_distil"
+	},
+	{
+		"private": false,
+		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-tr-Test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/mBERT-base-cased-NER-CONLL"
+	},
+	{
+		"private": false,
+		"modelId": "valhalla/awesome-model"
+	},
+	{
+		"private": false,
+		"modelId": "theainerd/xls-r-300m-hi"
 	}
 ]
