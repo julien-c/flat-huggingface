@@ -53993,11 +53993,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "juliawabant/camembert-long"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "junnyu/bert"
 	},
@@ -101244,10 +101239,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "FremyCompany/xls-r-nl-cgn-v1"
-	},
-	{
-		"private": false,
 		"modelId": "Freych/DialoGPT-small-xinyan"
 	},
 	{
@@ -129442,10 +129433,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sanchit-gandhi/xls-r-300m-es-pytorch"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v1"
 	},
 	{
@@ -129458,6 +129445,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Soumyajit1008/DialoGPT-small-harryPotterssen"
 	},
 	{
@@ -129503,6 +129491,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "cahya/output"
 	},
 	{
@@ -129520,5 +129509,9 @@
 	{
 		"private": false,
 		"modelId": "ghofrani/1b"
+	},
+	{
+		"private": false,
+		"modelId": "Ilyes/wav2vec2-xls-fr"
 	}
 ]
