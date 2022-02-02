@@ -99471,11 +99471,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Baybars/xls-r-tr-test"
-	},
-	{
-		"private": false,
 		"modelId": "Beatriz/model_name"
 	},
 	{
@@ -129929,11 +129924,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "HarrisDePerceptron/xls-r-ab-urdu"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kapilkd13/xls-r-hi-test"
 	},
 	{
@@ -130095,6 +130085,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vitouphy/xls-r-300m-tr"
 	},
 	{
@@ -130107,7 +130098,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "summarization",
 		"modelId": "kmfoda/staging-pegasus-gmeetsamsum"
 	},
 	{
@@ -130118,5 +130109,14 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "coyotte508/sentence-transformer"
+	},
+	{
+		"private": false,
+		"modelId": "arijitx/xls-r-300m-bangla"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Baybars/wav2vec2-xls-r-300m-cv8-turkish"
 	}
 ]
