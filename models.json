@@ -101229,7 +101229,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "GPL/robust04-tsdae-msmarco-distilbert-gpl"
 	},
 	{
@@ -101239,7 +101239,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "GPL/scifact-tsdae-msmarco-distilbert-gpl"
 	},
 	{
@@ -129763,6 +129763,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "openclimatefix/dgmr"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
 	},
@@ -130091,5 +130095,17 @@
 	{
 		"private": false,
 		"modelId": "remya/BERTVSDD"
+	},
+	{
+		"private": false,
+		"modelId": "vitouphy/xls-r-300m-tr"
+	},
+	{
+		"private": false,
+		"modelId": "GPL/README"
+	},
+	{
+		"private": false,
+		"modelId": "juancopi81/dummy-model"
 	}
 ]
