@@ -83819,11 +83819,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "UBC-NLP/AraT5-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Ulto/avengeeers"
 	},
@@ -107438,6 +107433,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "UBC-NLP/AraT5-base-title-generation"
+	},
+	{
+		"private": false,
 		"modelId": "UgobOby/model_name"
 	},
 	{
@@ -129737,6 +129737,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca"
+	},
+	{
+		"private": false,
 		"modelId": "AlexN/xls-r-1B-fr"
 	},
 	{
@@ -130228,6 +130232,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/xls-r-300m-sv-cv8"
 	},
 	{
@@ -130463,5 +130468,9 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-old"
+	},
+	{
+		"private": false,
+		"modelId": "lkh4317/gpt2_fairy_talel"
 	}
 ]
