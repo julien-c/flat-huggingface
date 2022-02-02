@@ -110187,6 +110187,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-japanese"
 	},
 	{
@@ -129900,10 +129901,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "segments-tobias/salient-segformer-b0"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "nreimers/test"
 	},
@@ -129938,11 +129935,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "arjuntheprogrammer/distilbert-base-multilingual-cased-sentiment-2"
-	},
-	{
-		"private": false,
 		"modelId": "ghofrani/common7"
 	},
 	{
@@ -129956,5 +129948,27 @@
 	{
 		"private": false,
 		"modelId": "ShengdingHu/compacter_t5-base_mrpc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/hindi_base_wav2vec2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Rumesh/txt-smp-mbart"
+	},
+	{
+		"private": false,
+		"modelId": "AlexN/xls-r-300m-fr-2"
+	},
+	{
+		"private": false,
+		"modelId": "Tahsin-Mayeesha/xls-r-300m-bn"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/lora_t5-base_superglue-wic"
 	}
 ]
