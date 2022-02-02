@@ -129750,6 +129750,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/albert_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
@@ -130459,10 +130460,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d2"
-	},
-	{
-		"private": false,
 		"modelId": "ielab/TILDEv2-docTquery-exp"
 	},
 	{
@@ -130473,10 +130470,15 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "lkh4317/gpt2_fairy_talel"
+		"modelId": "lkh4317/gpt2_fairy_tale"
 	},
 	{
 		"private": false,
-		"modelId": "lkh4317/gpt2_fairy_tale"
+		"pipeline_tag": "text-classification",
+		"modelId": "somm/distilbert-somm"
+	},
+	{
+		"private": false,
+		"modelId": "Yixuan/wav2vec2-large-xls-r-300m-cantonese"
 	}
 ]
