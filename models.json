@@ -130160,6 +130160,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/xls-r-300m-pt-cv8"
 	},
 	{
@@ -130317,7 +130318,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "pere/DeUnCaser"
 	},
 	{
@@ -130438,5 +130439,9 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v5"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/compacter_t5-base_mnli"
 	}
 ]
