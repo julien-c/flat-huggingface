@@ -101219,7 +101219,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "GPL/robust04-msmarco-distilbert-gpl"
 	},
 	{
@@ -101229,7 +101229,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "GPL/scifact-msmarco-distilbert-gpl"
 	},
 	{
@@ -129775,6 +129775,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-slovak"
 	},
 	{
@@ -129783,6 +129784,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "aapot/wav2vec2-xlsr-1b-fi"
 	},
 	{
@@ -129961,10 +129963,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Soumyajit1008/DialoGPT-small-harryPotternew"
-	},
-	{
-		"private": false,
 		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Italian"
 	},
 	{
@@ -129974,5 +129972,17 @@
 	{
 		"private": false,
 		"modelId": "openclimatefix/metnet"
+	},
+	{
+		"private": false,
+		"modelId": "jfmort/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "Rolv-Arild/xls-r-300m-npsc-4"
+	},
+	{
+		"private": false,
+		"modelId": "Soumyajit1008/DialoGPT-small-harryPottersnew"
 	}
 ]
