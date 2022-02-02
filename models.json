@@ -99757,11 +99757,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "CLAck/indo-pure"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "CLAck/indo_zh_indo"
 	},
 	{
@@ -115059,10 +115054,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ghofrani/1b"
-	},
-	{
-		"private": false,
 		"modelId": "ghofrani/7"
 	},
 	{
@@ -121906,6 +121897,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "nickmuchi/bart-large-cnn-trade-the-event-finance-summarizer"
 	},
 	{
@@ -129838,6 +129830,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "CLAck/indo-pure"
+	},
+	{
+		"private": false,
 		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
@@ -129912,10 +129908,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ubamba98/wav2vec2-xls-r-300m-ro-CV8-0202"
 	},
 	{
 		"private": false,
-		"modelId": "eunbeee/distilgpt2-finetuned-wikitext2"
+		"modelId": "Aybars/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "CLAck/indo_pure_best_val_loss"
 	}
 ]
