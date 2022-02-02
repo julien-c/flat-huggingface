@@ -39678,11 +39678,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-neo-2pt7B-Conv_DS-WoW_Ep-3_Bs-8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
 		"modelId": "rewardsignal/behavior_cloning"
 	},
 	{
@@ -119332,6 +119327,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv8"
 	},
 	{
@@ -129762,6 +129758,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "harislania/urdu-speech-to-text-test"
+	},
+	{
+		"private": false,
 		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
@@ -129923,6 +129923,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-1b-CORAA-portuguese"
 	},
 	{
@@ -129931,10 +129932,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "HarrisDePerceptron/xls-r-ab-urdu"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kapilkd13/xls-r-hi-test"
 	},
 	{
@@ -129949,5 +129952,10 @@
 	{
 		"private": false,
 		"modelId": "ThomasSimonini/ppo-AntBulletEnv-v0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-neo-2.7B-Conversational-WoW-3E"
 	}
 ]
