@@ -118877,6 +118877,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "korca/bae-roberta-base-sst2"
 	},
 	{
@@ -120528,6 +120529,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "mbateman/mt5-small-finetuned-amazon-en-es"
 	},
 	{
@@ -129868,10 +129870,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-large-xlsr-53-ja-dumy8-test"
 	},
 	{
 		"private": false,
 		"modelId": "ubamba98/wav2vec2-xls-r-300m-ro-CV8-0202"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/lora_t5-base_superglue-copa"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/lora_t5-base_rte"
 	}
 ]
