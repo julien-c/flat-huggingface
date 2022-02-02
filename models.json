@@ -16986,11 +16986,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Suva/uptag-url-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "akoksal/MTMB"
 	},
@@ -129631,7 +129626,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "text-classification",
 		"modelId": "tal-yifat/bert-injury-classifier"
 	},
 	{
@@ -129823,14 +129818,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "vitouphy/xls-r-399m-km"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v20"
 	},
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "navsad/navid_test_bert"
+	},
+	{
+		"private": false,
+		"modelId": "vitouphy/xls-r-300m-km"
+	},
+	{
+		"private": false,
+		"modelId": "korca/bae-roberta-base-mrpc"
 	}
 ]
