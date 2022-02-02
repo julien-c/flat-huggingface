@@ -114500,6 +114500,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "flozi00/wav2vec2-xls-r-1b-german-5gram"
+	},
+	{
+		"private": false,
 		"modelId": "flxclxc/layoutlm_SROIE_fine_tuned"
 	},
 	{
@@ -122381,10 +122386,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "openclimatefix/dgmr"
-	},
-	{
-		"private": false,
 		"modelId": "openihu/openi"
 	},
 	{
@@ -128257,6 +128258,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vitouphy/xls-r-300m-km"
 	},
 	{
@@ -130079,10 +130081,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "KheireddineDaouadi/Arabic-SentenceTransformers"
 	},
 	{
 		"private": false,
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-4"
+	},
+	{
+		"private": false,
+		"modelId": "MaggieXM/deberta-base-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "remya/BERTVSDD"
 	}
 ]
