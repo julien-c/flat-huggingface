@@ -129818,14 +129818,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v20"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "navsad/navid_test_bert"
 	},
@@ -129835,6 +129827,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "korca/bae-roberta-base-mrpc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/bae-roberta-base-rte"
+	},
+	{
+		"private": false,
+		"modelId": "korca/bae-roberta-base-sst2"
 	}
 ]
