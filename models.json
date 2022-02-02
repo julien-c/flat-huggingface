@@ -83819,6 +83819,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "UBC-NLP/AraT5-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Ulto/avengeeers"
 	},
@@ -102019,11 +102023,6 @@
 	{
 		"private": false,
 		"modelId": "Ishdeep/DialoGPT-small-JoeyBot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Iskaj/300m_cv8_nl"
 	},
 	{
 		"private": false,
@@ -126581,11 +126580,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "sted97/wikineural-multilingual-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/albert-xlarge-german-cased"
 	},
@@ -130152,14 +130146,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Italian"
-	},
-	{
-		"private": false,
-		"modelId": "kingabzpro/wav2vec2-large-xlsr-53-arabic"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "kmfoda/staging-pegasus-gmeetsamsum"
 	},
@@ -130334,6 +130320,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "DaisyMak/bert-finetuned-squad-accelerate-10epoch_transformerfrozen"
 	},
 	{
@@ -130351,5 +130338,22 @@
 	{
 		"private": false,
 		"modelId": "nielsr/convnext-large-384"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Iskaj/newnew"
+	},
+	{
+		"private": false,
+		"modelId": "nouamanetazi/xls-r-ab-test"
+	},
+	{
+		"private": false,
+		"modelId": "Iskaj/300m_cv8.0_nl_base"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-tr-CV8-v1"
 	}
 ]
