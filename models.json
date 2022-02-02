@@ -113248,6 +113248,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "dropout05/t5_2l_8h_512d_2048ff_vocab32128"
+	},
+	{
+		"private": false,
 		"modelId": "dsaenzpe/bart_ehr"
 	},
 	{
@@ -129351,11 +129356,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "dropout05/t5_2l_8h_512d_2048ff_vocab32128"
-	},
-	{
-		"private": false,
 		"modelId": "fuliucansheng/detectron2"
 	},
 	{
@@ -129795,10 +129795,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "arasgungore/bert-finetuned-squad-accelerate"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "GabbyDaBUNBUN/DialoGPT-medium-PinkiePie"
 	},
@@ -129853,11 +129849,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Wikidepia/wav2vec2-xls-r-300m-indonesian"
-	},
-	{
-		"private": false,
 		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-slovak"
 	},
 	{
@@ -129867,15 +129858,14 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "arasgungore/distilbert-base-uncased-finetuned-squad-d5716d28"
-	},
-	{
-		"private": false,
 		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
 		"modelId": "apl13/test1"
+	},
+	{
+		"private": false,
+		"modelId": "Janez/mt5-small-finetuned-amazon-en-es"
 	}
 ]
