@@ -100139,6 +100139,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Connorvr/CTeachingGen"
 	},
 	{
@@ -129747,5 +129748,55 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "GPL/fiqa-tsdae-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "GPL/scifact-tsdae-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/bioasq-1m-tsdae-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/trec-covid-v2-tsdae-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "GPL/cqadupstack-tsdae-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "GPL/robust04-tsdae-msmarco-distilbert-gpl"
+	},
+	{
+		"private": false,
+		"modelId": "harislania/data"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/badbunnytwitch"
+	},
+	{
+		"private": false,
+		"modelId": "arampacha/wav2vec2-xls-r-1b-ka"
+	},
+	{
+		"private": false,
+		"modelId": "arampacha/wav2vec2-xls-r-300m-ka"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-vz"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v3"
 	}
 ]
