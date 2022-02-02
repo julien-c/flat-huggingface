@@ -130317,7 +130317,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "pere/DeUnCaser"
 	},
 	{
@@ -130358,6 +130358,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-ro-300m_01"
 	},
 	{
@@ -130384,11 +130385,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__sst2__train-8-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "fredwang08/bert-somm"
 	},
 	{
 		"private": false,
@@ -130434,5 +130430,13 @@
 	{
 		"private": false,
 		"modelId": "PereLluis13/wav2vec2-large-xlsr-53-ca"
+	},
+	{
+		"private": false,
+		"modelId": "AriakimTaiyo/kumiko"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-v5"
 	}
 ]
