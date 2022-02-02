@@ -100230,16 +100230,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "DaisyMak/bert-finetuned-squad-1epoch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "DaisyMak/bert-finetuned-squad-accelerate1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Daivakai/DialoGPT-small-saitama"
 	},
@@ -129920,5 +129910,24 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "nreimers/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "DaisyMak/bert-finetuned-squad-5epoch"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "nreimers/test-public"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "DaisyMak/bert-finetuned-squad-accelerate-10epoch"
+	},
+	{
+		"private": false,
+		"modelId": "stanford-crfm/alias-gpt2-small-x21"
 	}
 ]
