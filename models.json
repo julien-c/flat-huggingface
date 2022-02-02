@@ -17372,6 +17372,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "TODBERT/TOD-DistilBERT-JNT-V1"
 	},
 	{
@@ -17418,11 +17423,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "JP040/bert-german-sentiment-twitter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_ncc"
 	},
 	{
 		"private": false,
@@ -27073,11 +27073,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "nvkha/bert-qa-vi"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "pere/nb-nn-translation"
 	},
@@ -27731,6 +27726,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nbouali/flaubert-base-uncased-finetuned-cooking"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "nvkha/bert-qa-vi"
 	},
 	{
 		"private": false,
@@ -28952,11 +28952,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/wav2vec2-xls-r-2b-en-to-15"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "facebook/xglm-7.5B"
 	},
 	{
 		"private": false,
@@ -30375,6 +30370,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "espnet/Hoon_Chung_zeroth_korean_asr_train_asr_transformer5_raw_bpe_valid.acc.ave"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "facebook/xglm-7.5B"
 	},
 	{
 		"private": false,
@@ -104309,6 +104309,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-xlsr-300M-NPSC-LM"
 	},
 	{
@@ -105467,6 +105477,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Rolv-Arild/xls-r-300m-npsc-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Rolv-Arild/xls-r-300m-npsc-3"
 	},
 	{
 		"private": false,
@@ -127063,6 +127078,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small"
 	},
 	{
@@ -129086,6 +129106,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-sakha"
+	},
+	{
+		"private": false,
 		"modelId": "AAli/wav2vec2-base-finetuned-ks"
 	},
 	{
@@ -129195,16 +129220,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc"
-	},
-	{
-		"private": false,
 		"modelId": "NbAiLab/wav2vec2-xlsr-1b-npsc"
 	},
 	{
@@ -129228,11 +129243,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Recognai/veganuary_ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Rolv-Arild/xls-r-300m-npsc-3"
 	},
 	{
 		"private": false,
@@ -129636,16 +129646,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "tomascufaro/wav2vec2-large-xls-r-300m-spanish-small-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ubamba98/wav2vec2-xls-r-1b-it-CV8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ubamba98/wav2vec2-xls-r-300m-CV8-ro"
 	},
 	{
@@ -129837,11 +129837,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-sakha"
-	},
-	{
-		"private": false,
 		"modelId": "hrdipto/wav2vec2-xls-r-300m-bangla-command-data"
 	},
 	{
@@ -129855,5 +129850,19 @@
 	{
 		"private": false,
 		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-japanese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Wikidepia/wav2vec2-xls-r-300m-indonesian"
+	},
+	{
+		"private": false,
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-slovak"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ubamba98/wav2vec2-xls-r-300m-ro-CV8-V2"
 	}
 ]
