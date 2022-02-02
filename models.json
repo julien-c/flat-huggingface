@@ -125264,16 +125264,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/xls-r-dummy-pytorch-finetune"
-	},
-	{
-		"private": false,
 		"modelId": "sandrokim/my-awesome-model"
 	},
 	{
@@ -129891,6 +129881,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Kamel/t5-darija-summarization"
 	},
 	{
@@ -129919,5 +129910,14 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "CLAck/indo_pure_best_val_loss"
+	},
+	{
+		"private": false,
+		"modelId": "segments-tobias/salient-segformer-b0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "nreimers/test"
 	}
 ]
