@@ -124612,6 +124612,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large"
+	},
+	{
+		"private": false,
 		"modelId": "sandrokim/my-awesome-model"
 	},
 	{
@@ -129604,11 +129609,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/xls-r-dummy-pytorch-finetune"
 	},
 	{
@@ -129864,5 +129864,18 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ubamba98/wav2vec2-xls-r-300m-ro-CV8-V2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "arasgungore/distilbert-base-uncased-finetuned-squad-d5716d28"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "apl13/test1"
 	}
 ]
