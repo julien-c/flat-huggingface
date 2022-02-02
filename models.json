@@ -83819,6 +83819,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "UBC-NLP/AraT5-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Ulto/avengeeers"
 	},
@@ -104854,11 +104859,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca"
 	},
 	{
 		"private": false,
@@ -130182,10 +130182,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/test-repo"
-	},
-	{
-		"private": false,
 		"modelId": "nepp1d0/ChemBERTa_drug_state_classification"
 	},
 	{
@@ -130458,5 +130454,14 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d2"
+	},
+	{
+		"private": false,
+		"modelId": "ielab/TILDEv2-docTquery-exp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-old"
 	}
 ]
