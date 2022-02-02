@@ -129753,6 +129753,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Recognai/veganuary_ner"
 	},
 	{
@@ -129849,18 +129850,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "nreimers/test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "DaisyMak/bert-finetuned-squad-5epoch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "nreimers/test-public"
 	},
 	{
 		"private": false,
@@ -130123,18 +130114,46 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "voidful/part-500000"
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-v1"
+		"modelId": "Elaben/wav2vec2-base-timit-demo-colab"
 	},
 	{
 		"private": false,
+		"modelId": "Ayham/roberta_ctrl_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "annythepancake/lllll"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "arjuntheprogrammer/distilbert-base-multilingual-cased-sentiment-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-breton-v1"
 	},
 	{
 		"private": false,
-		"modelId": "Elaben/wav2vec2-base-timit-demo-colab"
+		"modelId": "arijitx/output"
+	},
+	{
+		"private": false,
+		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Irish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "arijitx/wav2vec2-xls-r-300m-bangla"
+	},
+	{
+		"private": false,
+		"modelId": "dispasha/test"
 	}
 ]
