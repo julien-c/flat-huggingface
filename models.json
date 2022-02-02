@@ -105365,11 +105365,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Recognai/veganuary_ner"
-	},
-	{
-		"private": false,
 		"modelId": "RedPandaAINLP/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -129758,6 +129753,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Recognai/veganuary_ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
 	},
@@ -129915,11 +129914,6 @@
 	{
 		"private": false,
 		"modelId": "ShengdingHu/lora_t5-base_superglue-wsc.fixed"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Tahsin-Mayeesha/xls-r-300m-bn"
 	},
 	{
 		"private": false,
@@ -130118,5 +130112,29 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Baybars/wav2vec2-xls-r-300m-cv8-turkish"
+	},
+	{
+		"private": false,
+		"modelId": "HarrisDePerceptron/xls-r-300m-ur"
+	},
+	{
+		"private": false,
+		"modelId": "Tahsin-Mayeesha/xls-r-300m-bn"
+	},
+	{
+		"private": false,
+		"modelId": "voidful/part-500000"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-v1"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-breton-v1"
+	},
+	{
+		"private": false,
+		"modelId": "Elaben/wav2vec2-base-timit-demo-colab"
 	}
 ]
