@@ -129767,16 +129767,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "DaisyMak/bert-finetuned-squad-5epoch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "DaisyMak/bert-finetuned-squad-accelerate-10epoch"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-breton-v1"
 	},
@@ -129794,6 +129784,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "HarrisDePerceptron/xls-r-300m-ur"
 	},
 	{
@@ -130284,14 +130275,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/xls-r-300-sv-cv7"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "BitanBiswas/indic-bert-finetuned-ner"
 	},
 	{
 		"private": false,
 		"modelId": "nbroad/test-repo"
+	},
+	{
+		"private": false,
+		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m"
 	}
 ]
