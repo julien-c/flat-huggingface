@@ -114556,10 +114556,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "emre/wav2vec2-large-xls-r-300m-tr-new"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-large-xls-r-300m-tr"
 	},
@@ -114570,24 +114566,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-1b-sah-CV8"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-1b-tr-CV8-v1"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-2b-sah-CV8"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8-Tr-med-CommonVoice8"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-Tr-med-CommonVoice8-gl-CV8"
 	},
 	{
 		"private": false,
@@ -114608,14 +114588,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "emre/wav2vec2-xls-r-300m-gl-CV8"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-sah-CV8"
-	},
-	{
-		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-tr-CV8-v1"
 	},
 	{
 		"private": false,
@@ -130886,11 +130858,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "samirt8/wav2vec2-xls-r-1b-fr"
-	},
-	{
-		"private": false,
 		"modelId": "Dvjc1899/super-resolution"
 	},
 	{
@@ -130938,6 +130905,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BCHEM4-Modified-BioBERT-v1"
 	},
 	{
@@ -130946,6 +130914,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "fabianafatsawo/math_problem_NLtoACE_BART"
+	},
+	{
+		"private": false,
+		"modelId": "Yaia/distilbert-base-uncased-finetuned-disaster_full"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "edugp/data2vec-nlp-base"
+	},
+	{
+		"private": false,
+		"modelId": "samirt8/wav2vec2-xls-r-1b-fr"
 	}
 ]
