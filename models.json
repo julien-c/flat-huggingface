@@ -17119,6 +17119,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_ncc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "NeuML/bert-small-cord19"
 	},
 	{
@@ -17199,11 +17204,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "NLP4H/ms_bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_ncc"
 	},
 	{
 		"private": false,
@@ -39434,6 +39434,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "husnu/xtremedistil-l6-h256-uncased-TQUAD-finetuned_lr-2e-05_epochs-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
 	},
 	{
 		"private": false,
@@ -89988,6 +89993,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lucio/xls-r-uzbek-cv8"
+	},
+	{
+		"private": false,
 		"modelId": "luffycodes/bb_narataka_roberta_large_nli_bsz_16_bb_bsz_16_nli_lr_1e5_bb_lr_1e5_grad_adam"
 	},
 	{
@@ -96978,11 +96988,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "lovellyweather/DialoGPT-medium-johnny"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lucio/xls-r-uzbek-cv8"
 	},
 	{
 		"private": false,
@@ -106917,6 +106922,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m"
+	},
+	{
+		"private": false,
 		"modelId": "Tais/wav2vec2-large-xls-r-300m-tr-colab"
 	},
 	{
@@ -115118,6 +115128,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gigant/wav2vec2-ro-300m_01"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/xls-r-ro"
 	},
 	{
@@ -117061,11 +117076,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "imvladikon/wav2vec2-xls-r-300m-a-hebrew"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
 	},
 	{
 		"private": false,
@@ -128505,6 +128515,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vumichien/wav2vec2-xls-r-1b-ja-dumy9"
 	},
 	{
@@ -129789,6 +129800,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "arijitx/wav2vec2-xls-r-300m-bengali"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-pa-IN-cv8-with-lm"
 	},
 	{
@@ -130101,11 +130117,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Tahsin-Mayeesha/xls-r-300m-bn"
 	},
 	{
@@ -130254,11 +130265,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-ro-1b_01"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-300m_01"
 	},
 	{
 		"private": false,
@@ -130572,11 +130578,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "arijitx/wav2vec2-xls-r-300m-bengali"
+		"pipeline_tag": "question-answering",
+		"modelId": "FuriouslyAsleep/markuplm-large-finetuned-qa"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "FuriouslyAsleep/markuplm-large-finetuned-qa"
+		"modelId": "anirudh21/albert-xxlarge-v2-finetuned-qqp"
+	},
+	{
+		"private": false,
+		"modelId": "comodoro/wav2vec2-xls-r-300m-pl-cv8"
 	}
 ]
