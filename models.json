@@ -110474,11 +110474,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anuragshas/wav2vec2-xls-r-300m-pa-IN-cv8-with-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-sl-cv8-with-lm"
 	},
 	{
@@ -130596,6 +130591,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "jasminejwebb/KeywordIdentifier"
 	},
 	{
@@ -130718,14 +130714,51 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "karthik19967829/XLM-R-ta-model"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-4"
+	},
+	{
+		"private": false,
+		"modelId": "Hetarth/marian-finetuned-hi-hinglish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-9"
 	}
 ]
