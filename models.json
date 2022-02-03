@@ -42627,6 +42627,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bitmorse/autonlp-ks-530615016"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "biu-nlp/alephbert-base"
 	},
@@ -94275,11 +94280,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/xls-r-ro-vlod"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "giganticode/roberta-base-ar_miner"
 	},
@@ -113646,6 +113646,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-augmented-cv-ls"
 	},
 	{
@@ -115857,47 +115858,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "gigant/_wav2vec2-ro-1B"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/speech-recognition-ro-1b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/vlod"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-common_voice-ro"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-1b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-1b_01"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-ro-300M"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-300m_01"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/xls-r-ro"
 	},
 	{
 		"private": false,
@@ -130782,5 +130744,9 @@
 	{
 		"private": false,
 		"modelId": "Pawel838383/Model-Tetowy-Nie-Bierz-Do-Glowy"
+	},
+	{
+		"private": false,
+		"modelId": "kingabzpro/wav2vec2-large-xls-r-300m-Indonesian"
 	}
 ]
