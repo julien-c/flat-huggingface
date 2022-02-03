@@ -8528,11 +8528,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-eda-paraphrase-unsupervised"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "daveni/twitter-xlm-roberta-emotion-es"
 	},
@@ -34719,11 +34714,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-paraphrase-supervised"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "damien-ir/kosentelectra-discriminator-v2-mixed"
 	},
@@ -35386,11 +35376,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "colorfulscoop/bert-base-ja"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-unaugmented"
 	},
 	{
 		"private": false,
@@ -40136,11 +40121,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "chitra/finetuned-adversarial-paraphrasing-detector"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-paraphrase-unsupervised"
 	},
 	{
 		"private": false,
@@ -55091,11 +55071,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "cocoaclef/DialoGPT-small-kohaku"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/distilbert-base-uncased-distilled-squad-eda-paraphrase-supervised"
 	},
 	{
 		"private": false,
@@ -130934,5 +130909,9 @@
 	{
 		"private": false,
 		"modelId": "stupendousc/distilGPT2"
+	},
+	{
+		"private": false,
+		"modelId": "comacrae/roberta-unaug"
 	}
 ]
