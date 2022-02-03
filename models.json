@@ -113443,6 +113443,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "dropout05/t5_2l_8h_512d_2048ff_lfom_distil"
 	},
 	{
@@ -130458,6 +130459,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "testimonial/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -130507,6 +130509,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-d1"
+		"modelId": "haachicanoy/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "FuriouslyAsleep/markuplm-base-finetuned-QA"
+	},
+	{
+		"private": false,
+		"modelId": "gdber/esparanto"
+	},
+	{
+		"private": false,
+		"modelId": "sunitha/distilbert-base-uncased-3feb-2022-finetuned-squad"
 	}
 ]
