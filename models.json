@@ -123181,6 +123181,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "pere/DeUnCaser"
+	},
+	{
+		"private": false,
 		"modelId": "pere/by-sentencefix"
 	},
 	{
@@ -129799,6 +129804,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Indonesian"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "arijitx/wav2vec2-xls-r-300m-bengali"
 	},
@@ -130431,11 +130440,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "pere/DeUnCaser"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pritamdeka/PubMedBert-abstract-cord19"
 	},
@@ -130559,10 +130563,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Indonesian"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "kaizan/staging-pegasus-gmeetsamsum"
 	},
@@ -130587,6 +130587,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-pl-cv8"
 	}
 ]
