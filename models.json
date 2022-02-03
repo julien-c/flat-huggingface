@@ -64072,11 +64072,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "yuxingwu/opus-mt-ja-en-finetuned-align_tm_base-epoch5-20220111"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-ag-large-scale"
 	},
@@ -64996,6 +64991,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca"
 	},
 	{
@@ -110965,11 +110961,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "aychang/bert-large-cased-whole-word-masking-finetuned-squad"
 	},
@@ -119141,10 +119132,6 @@
 	{
 		"private": false,
 		"modelId": "karthik04/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "karthik19967829/sinhala_e2e_slu"
 	},
 	{
 		"private": false,
@@ -130561,6 +130548,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
+	},
+	{
+		"private": false,
+		"modelId": "anuragshas/wav2vec2-xls-r-300m-pa-IN-cv8-with-lm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "FuriouslyAsleep/markuplm-large-finetuned-qa"
 	},
@@ -130760,5 +130755,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__sst2__train-32-9"
+	},
+	{
+		"private": false,
+		"modelId": "Jane0627/DialoGPT-medium-movie"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "sberbank-ai/bert-base-NER-reptile-5-datasets"
 	}
 ]
