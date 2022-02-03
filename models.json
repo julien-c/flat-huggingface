@@ -124770,11 +124770,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "radhakri119/wav2vec2-base-timit-demo-colab_aug_020222"
-	},
-	{
-		"private": false,
 		"modelId": "radhakri119/xls-r-300m-sv_with_lm"
 	},
 	{
@@ -130733,10 +130728,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "BatuhanYilmaz/distilbert-base-uncased-finetuned-squad-d5716d28"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jonatasgrosman/wav2vec2-xls-r-1b-portuguese"
 	},
 	{
@@ -130771,5 +130768,9 @@
 	{
 		"private": false,
 		"modelId": "XciD/dummy-data"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/t5-v1_1-base-finetuned-booksum"
 	}
 ]
