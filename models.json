@@ -130425,6 +130425,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/hindi-test2"
 	},
 	{
@@ -130438,6 +130439,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "juancavallotti/t5-finetuned-grammar-correction"
 	},
 	{
@@ -130696,10 +130698,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "emre/wav2vec2-xls-r-300m-ba-CV8-v1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "fabianafatsawo/math_problem_NLtoACE_BART"
 	},
@@ -130839,6 +130837,11 @@
 	{
 		"private": false,
 		"modelId": "lsb/wav2vec2-base-it-latin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "lucianpopa/autonlp-SST2-551215591"
 	},
 	{
 		"private": false,
@@ -130986,5 +130989,13 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v3"
+	},
+	{
+		"private": false,
+		"modelId": "emre/wav2vec2-xls-r-300m-bas-CV8-v1"
+	},
+	{
+		"private": false,
+		"modelId": "hyperion-ml/voxceleb-v1.1-fbank80_stmn_lresnet34_e256_arcs30m0.3_do0_adam_lr0.05_b512.v1"
 	}
 ]
