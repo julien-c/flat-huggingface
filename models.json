@@ -130528,6 +130528,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pritoms/distilgpt2-YTTranscriptTrial2"
 	},
 	{
@@ -130550,5 +130551,14 @@
 	{
 		"private": false,
 		"modelId": "kingabzpro/wav2vec2-large-xls-r-1b-Indonesian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "kaizan/staging-pegasus-gmeetsamsum"
+	},
+	{
+		"private": false,
+		"modelId": "pritoms/distilroberta-base-YTTranscript23"
 	}
 ]
