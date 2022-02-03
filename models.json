@@ -115168,11 +115168,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-1b-german-5gram"
-	},
-	{
-		"private": false,
 		"modelId": "flxclxc/layoutlm_SROIE_fine_tuned"
 	},
 	{
@@ -115749,6 +115744,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gigant/wav2vec2-ro-300M"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gigant/wav2vec2-ro-300m_01"
 	},
 	{
 		"private": false,
@@ -130912,6 +130912,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "thepoint/bert-base-uncased-bm3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "comacrae/roberta-unaug"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "flozi00/5gram"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "AriakimTaiyo/DialoGPT-medium-Kumiko"
+	},
+	{
+		"private": false,
+		"modelId": "boots/dandelion"
+	},
+	{
+		"private": false,
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-cv-ls"
 	}
 ]
