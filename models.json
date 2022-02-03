@@ -9107,11 +9107,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "castorini/unicoil-d2q-msmarco-passage"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "coderpotter/adversarial-paraphrasing-detector"
 	},
@@ -100386,11 +100381,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "CLAck/indo_pure_best_val_loss"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "CLAck/indo_zh_indo"
 	},
 	{
@@ -124099,10 +124089,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pierric/testcap"
-	},
-	{
-		"private": false,
 		"modelId": "pinecone/bert-qqp-cross-encoder"
 	},
 	{
@@ -130787,5 +130773,35 @@
 	{
 		"private": false,
 		"modelId": "jonatasgrosman/wav2vec2-xls-r-1b-dutch"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-d2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "AVSilva/bertimbau-large-fine-tuned-md"
+	},
+	{
+		"private": false,
+		"modelId": "shreyasgite/wav2vec2-large-xls-r-300m-dm40"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-vot-d1"
+	},
+	{
+		"private": false,
+		"modelId": "hyesunyun/NonsenseDiffIntBart"
+	},
+	{
+		"private": false,
+		"modelId": "pierric/testlongrunning"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "castorini/unicoil-msmarco-passage"
 	}
 ]
