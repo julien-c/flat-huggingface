@@ -99547,6 +99547,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AndrewMcDowell/wav2vec2-xls-r-300m-japanese"
+	},
+	{
+		"private": false,
 		"modelId": "AndrewNLP/redditDepressionPropensityClassifiers"
 	},
 	{
@@ -130543,6 +130548,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-pa-IN-cv8-with-lm"
 	},
 	{
@@ -130745,11 +130751,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "token-classification",
 		"modelId": "sberbank-ai/bert-base-NER-reptile-5-datasets"
 	},
 	{
 		"private": false,
 		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m-lm"
+	},
+	{
+		"private": false,
+		"modelId": "Hetarth/marian-finetuned-hi-hinglish"
 	}
 ]
