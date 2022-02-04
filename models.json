@@ -89927,6 +89927,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/xls-r-300m-pt-cv8"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "light/small-rickk"
 	},
@@ -100031,6 +100036,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -120088,11 +120098,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/xls-r-300m-pt-cv8"
-	},
-	{
-		"private": false,
 		"modelId": "lhthanhdat/bot"
 	},
 	{
@@ -130467,10 +130472,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ayham/xlnet_distilgpt2_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "BatuhanYilmaz/distilbert-base-uncased-finetuned-squad-d5716d28"
 	},
@@ -131188,5 +131189,13 @@
 	{
 		"private": false,
 		"modelId": "Subhashini17/wav2vec2-large-xls-r-300m-ta-colab-new"
+	},
+	{
+		"private": false,
+		"modelId": "souhardya1999/layoutlmv2-finetuned-funsd-test"
+	},
+	{
+		"private": false,
+		"modelId": "leoaiassistant/HandTracking"
 	}
 ]
