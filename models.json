@@ -95577,7 +95577,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ShengdingHu/sst2"
 	},
 	{
@@ -131257,6 +131257,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt2-large-BORAT_DS-verynice_Ep-10_Bs-8"
 	},
 	{
@@ -131326,5 +131327,9 @@
 	{
 		"private": false,
 		"modelId": "ariG23498/involution"
+	},
+	{
+		"private": false,
+		"modelId": "johko/keras-subpixel-superresolution-3x"
 	}
 ]
