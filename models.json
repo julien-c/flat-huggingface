@@ -131616,6 +131616,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids"
 	},
 	{
@@ -131652,11 +131653,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-d1"
-	},
-	{
-		"private": false,
 		"modelId": "lgris/wav2vec2-xls-r-1b-portuguese-CORAA-3"
 	},
 	{
@@ -131675,11 +131671,6 @@
 	{
 		"private": false,
 		"modelId": "lgris/wav2vec2_base_10k_8khz_pt_cv7_2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-unaugv2"
 	},
 	{
 		"private": false,
@@ -131716,16 +131707,14 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-paraphrasev2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-edav2.0"
-	},
-	{
-		"private": false,
 		"modelId": "tangelus/cris"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-d2"
+	},
+	{
+		"private": false,
+		"modelId": "comacrae/roberta-edaparav2"
 	}
 ]
