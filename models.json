@@ -131082,5 +131082,10 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/pegasus-large-summary-explain"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ietz/bert-base-uncased-finetuned-jira-qt-issue-titles-and-bodies"
 	}
 ]
