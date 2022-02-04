@@ -35918,11 +35918,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Vasanth/t5-news-summarization"
 	},
@@ -109009,10 +109004,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/biobert-large-cased-v1.1-finetuned-ner-4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Stoned-Code/DioloGPT-large-Rick-SC-420"
 	},
@@ -131383,6 +131374,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "yaswanth/xls-r-yaswanth-hindi1"
 	},
 	{
@@ -131436,6 +131428,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "marzinouri101/parsbert-finetuned-persianQA"
 	},
 	{
@@ -131591,6 +131584,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ankitkupadhyay/dummy-model"
 	},
 	{
@@ -131600,5 +131594,27 @@
 	{
 		"private": false,
 		"modelId": "ayushkshah/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "samx18/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "eadsa1998/short-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/loverachelle2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "mrm8488/roberta-base-bne-finetuned-sqac-retriever"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v4"
 	}
 ]
