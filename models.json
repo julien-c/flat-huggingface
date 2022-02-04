@@ -57408,11 +57408,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "somm/distilbert-somm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_21102021_aug"
 	},
@@ -101131,6 +101126,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d3"
+	},
+	{
+		"private": false,
 		"modelId": "DuckMeme/Eve"
 	},
 	{
@@ -130421,12 +130421,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/hi-test1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/hindi-test2"
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-d2"
 	},
 	{
 		"private": false,
@@ -130755,6 +130750,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jhonparra18/wav2vec2-large-xls-r-300m-guarani-small"
 	},
 	{
@@ -130899,11 +130895,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/byt5-base-ft-booksum-summary_analysis"
-	},
-	{
-		"private": false,
 		"modelId": "pszemraj/pegasus-large-book-summary-ft-booksum-summary_text"
 	},
 	{
@@ -131000,14 +130991,28 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d7"
-	},
-	{
-		"private": false,
 		"modelId": "NbAiLab/wav2vec2-xlsr-1B-NPSC-NN-OH"
 	},
 	{
 		"private": false,
 		"modelId": "NbAiLab/wav2vec2-xlsr-1B-NPSC-NN"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-d3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-eda-and-paraphrase"
+	},
+	{
+		"private": false,
+		"modelId": "jcmc/wav2vec-1b-cv8-lt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Waynehills_NLP_multi"
 	}
 ]
