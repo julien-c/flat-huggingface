@@ -97993,11 +97993,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/GPT-JIBA-355M-30k"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pulp/ParentBERTo-4-years-old"
 	},
@@ -107136,6 +107131,10 @@
 	{
 		"private": false,
 		"modelId": "Skas/stopit"
+	},
+	{
+		"private": false,
+		"modelId": "SkelterLabsInc/bert-base-japanese-jaquad"
 	},
 	{
 		"private": false,
@@ -130430,11 +130429,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-d2"
-	},
-	{
-		"private": false,
 		"modelId": "Dvjc1899/super-resolution"
 	},
 	{
@@ -130915,6 +130909,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "reichenbach/wav2vec2-large-xls-r-300m-hi"
 	},
 	{
@@ -131087,5 +131082,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ietz/bert-base-uncased-finetuned-jira-qt-issue-titles-and-bodies"
+	},
+	{
+		"private": false,
+		"modelId": "infinitejoy/wav2vec2-large-xls-r-300m-abkhaz-cv8"
 	}
 ]
