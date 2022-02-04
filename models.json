@@ -131156,6 +131156,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-4"
 	},
 	{
@@ -131686,11 +131687,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-rm-vallader-d1"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "CLAck/khmer-pure"
 	},
 	{
@@ -131708,6 +131710,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "comacrae/roberta-edav2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/InformalToFormalLincoln20"
 	}
 ]
