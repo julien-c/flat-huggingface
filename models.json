@@ -84236,6 +84236,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "MrHotHead/Armin-Model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xlsr-53_common_voice_20211211085606"
 	},
@@ -131337,5 +131342,23 @@
 	{
 		"private": false,
 		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc-bokmaal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "nouamanetazi/wav2vec2-xls-r-300m-tr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "Oji/DialoGPT-smaller-Rick"
+	},
+	{
+		"private": false,
+		"modelId": "anumafzal94/mt5-small-finetuned-amazon-en-es"
 	}
 ]
