@@ -131456,11 +131456,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
 		"modelId": "yaswanth/xls-r-yaswanth-hindi1"
 	},
 	{
@@ -131490,11 +131485,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-maltese"
 	},
 	{
 		"private": false,
 		"modelId": "azwierzc/t5-base-pl-to-sql"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abhishek/autonlp-imdb-roberta-base-3662644"
 	},
 	{
 		"private": false,
@@ -131519,6 +131520,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "cahya/wav2vec2-base-turkish-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/bart-translate-en-de"
+	},
+	{
+		"private": false,
+		"modelId": "azwierzc/plt5-base-pl-to-sql"
+	},
+	{
+		"private": false,
+		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
 	}
 ]
