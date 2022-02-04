@@ -131674,11 +131674,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-unaugv2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-rm-vallader-d1"
 	},
@@ -131712,16 +131707,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-paraphrasev2"
+	},
+	{
+		"private": false,
 		"modelId": "tangelus/cris"
 	},
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-d2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-edaparav2"
 	},
 	{
 		"private": false,
@@ -131734,5 +131729,14 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-d6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sammy786/wav2vec2-xlsr-estonian"
+	},
+	{
+		"private": false,
+		"modelId": "FitoDS/wav2vec2-large-xls-r-300m-spanish-large"
 	}
 ]
