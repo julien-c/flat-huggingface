@@ -67474,11 +67474,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "CLAck/indo_zh_indo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "CNT-UPenn/RoBERTa_for_seizureFrequency_QA"
 	},
@@ -131655,6 +131650,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-neo-125M-BORAT_DS-verynice_Ep-50_Bs-8"
 	},
 	{
@@ -131684,6 +131680,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "comacrae/roberta-unaugv2"
 	},
 	{
@@ -131692,6 +131689,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "CLAck/khmer-pure"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "CLAck/indo-mixed"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/codeparrot-ds-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "samitizerxu/wav2vec-cls-r-300m-es"
 	}
 ]
