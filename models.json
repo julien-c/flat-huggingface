@@ -112437,6 +112437,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "avichr/ar_hd"
+	},
+	{
+		"private": false,
 		"modelId": "avihay/TestModel"
 	},
 	{
@@ -131205,6 +131210,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "keras-io/vit_small_ds_v2"
 	},
 	{
@@ -131218,10 +131224,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dark-knight/wav2vec2-base-timit-demo-colab"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ietz/bert-base-uncased-finetuned-jira-hyperledger-issue-titles-and-bodies"
+	},
+	{
+		"private": false,
+		"modelId": "lucio/xls-r-kyrgiz-cv8"
 	}
 ]
