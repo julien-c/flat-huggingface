@@ -101136,6 +101136,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v4"
+	},
+	{
+		"private": false,
 		"modelId": "DuckMeme/Eve"
 	},
 	{
@@ -131047,11 +131052,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Mapcar/pegasus-samsum"
-	},
-	{
-		"private": false,
-		"modelId": "gigant/wav2vec2-fr-300m_01"
 	},
 	{
 		"private": false,
@@ -131104,5 +131106,9 @@
 	{
 		"private": false,
 		"modelId": "ShengdingHu/soft_prompt_t5-base_mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "samitizerxu/wav2vec2-large-xls-r-300m-eo-v0"
 	}
 ]
