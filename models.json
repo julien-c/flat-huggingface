@@ -131059,15 +131059,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-d5"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-d10"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-CV7-V1"
 	},
 	{
 		"private": false,
@@ -131077,10 +131069,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-vot-d10"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-300-mt-d1"
 	},
 	{
 		"private": false,
@@ -131556,11 +131544,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt2-large-BORAT_DS-verynice_Ep-10_Bs-8"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "pszemraj/t5-v1_1-L-semantic-analyzer"
 	},
@@ -131638,6 +131621,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vitouphy/xls-r-300m-khmer-with-lm"
 	},
 	{
@@ -131651,6 +131635,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "korca/textfooler-roberta-base-mrpc-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/textfooler-roberta-base-rte-5"
 	}
 ]
