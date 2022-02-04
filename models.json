@@ -101127,6 +101127,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d3"
 	},
 	{
@@ -130896,11 +130906,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "pszemraj/pegasus-large-book-summary-ft-booksum-summary_text"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "pszemraj/t5_1_1-base-writing-analysis"
 	},
@@ -131060,5 +131065,22 @@
 	{
 		"private": false,
 		"modelId": "pszemraj/t5-v1_1-large-ft-booksum-summary_analysis"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/soft_prompt_t5-base_sst2"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/test222"
+	},
+	{
+		"private": false,
+		"modelId": "cumtowndiscord/DialoGPT-small-joshua"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "pszemraj/pegasus-large-summary-explain"
 	}
 ]
