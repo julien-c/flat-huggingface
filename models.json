@@ -94617,11 +94617,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-hindi-d5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Edomonndo/opus-mt-ja-en-finetuned-ja-to-en_xml"
 	},
@@ -131373,6 +131368,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-1b-portuguese-CORAA-2"
 	},
 	{
@@ -131470,6 +131466,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk"
 	},
 	{
@@ -131539,14 +131536,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d10"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-d5"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ietz/bert-base-uncased-finetuned-jira-jira-issue-titles-and-bodies"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-CV7-V1"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-d10"
 	}
 ]
