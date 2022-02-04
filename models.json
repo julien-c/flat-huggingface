@@ -67503,7 +67503,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "CLAck/indo_zh_indo"
 	},
 	{
@@ -94425,7 +94425,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "CLAck/indo-pure"
 	},
 	{
@@ -94949,11 +94949,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "LegolasTheElf/Wav2Vec2_XLSR_Bengali_1b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi_cv7"
 	},
 	{
 		"private": false,
@@ -131404,5 +131399,22 @@
 	{
 		"private": false,
 		"modelId": "RahulRaman/Kannada-LM-RoBERTa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/ir_rkp"
+	},
+	{
+		"private": false,
+		"modelId": "RahulRaman/Tamil-LM-RoBERTa"
+	},
+	{
+		"private": false,
+		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi"
+	},
+	{
+		"private": false,
+		"modelId": "RahulRaman/Telugu-LM-RoBERTa"
 	}
 ]
