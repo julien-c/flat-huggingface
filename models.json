@@ -127127,10 +127127,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "shahukareem/workspace"
-	},
-	{
-		"private": false,
 		"modelId": "shakil071/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -131531,6 +131527,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "tesemnikov-av/NER-RUBERT-Per-Loc-Org"
 	},
 	{
@@ -131539,16 +131536,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-vot-d10"
 	},
 	{
 		"private": false,
 		"modelId": "bluebalam/paper-rec"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "astremo/friendly_JA_Onnx"
 	},
 	{
 		"private": false,
@@ -131558,5 +131551,35 @@
 	{
 		"private": false,
 		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/bae-roberta-base-rte-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "LenaSchmidt/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "shacharm/wav2vec2-large-xls-r-300m-english-colab"
+	},
+	{
+		"private": false,
+		"modelId": "dkurt/wav2vec2-base-ft-keyword-spotting-int8"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/Video-Classification_CNN-RNN_UCF101"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-kenlm"
+	},
+	{
+		"private": false,
+		"modelId": "HarrisDePerceptron/xls-r-1b-ur"
 	}
 ]
