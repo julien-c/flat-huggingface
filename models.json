@@ -26914,6 +26914,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "arijitx/wav2vec2-xls-r-300m-bengali"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-wnut2017"
 	},
@@ -33439,6 +33444,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kingabzpro/wav2vec2-large-xlsr-300-arabic"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-squad"
 	},
@@ -36061,6 +36071,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/sentiment_temp"
 	},
@@ -36312,11 +36327,6 @@
 	{
 		"private": false,
 		"modelId": "keras-io/ocr-for-captcha"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kingabzpro/wav2vec2-large-xlsr-300-arabic"
 	},
 	{
 		"private": false,
@@ -52460,6 +52470,11 @@
 		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "lighteternal/SSE-TUC-mt-en-el-lowercase"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lsb/wav2vec2-base-it-latin"
 	},
 	{
 		"private": false,
@@ -69276,6 +69291,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jinbbong/kobert-esg-e5-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jinlmsft/t5-large-multiwoz"
 	},
 	{
 		"private": false,
@@ -92592,6 +92612,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "GermanT5/t5-base-german-3e"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "GnomeX/mt5-small-finetuned-amazon-en-es"
 	},
 	{
@@ -98650,6 +98675,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512d"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "versae/roberta-base-ncc-shampoo-exp2"
 	},
 	{
@@ -101947,11 +101977,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "GermanT5/german-t5-oscar-ep1-prompted-germanquad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "GermanT5/t5-base-german-3e"
 	},
 	{
 		"private": false,
@@ -107646,11 +107671,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m"
-	},
-	{
-		"private": false,
 		"modelId": "Tais/wav2vec2-large-xls-r-300m-tr-colab"
 	},
 	{
@@ -109070,6 +109090,11 @@
 	{
 		"private": false,
 		"modelId": "aakash123/ejej"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "aapot/wav2vec2-xlsr-1b-finnish-v2"
 	},
 	{
 		"private": false,
@@ -110613,11 +110638,6 @@
 	{
 		"private": false,
 		"modelId": "arie5555/distilbert-base-uncased-finetuned-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "arijitx/wav2vec2-xls-r-300m-bengali"
 	},
 	{
 		"private": false,
@@ -118383,11 +118403,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "jinlmsft/t5-large-domain-detect"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "jinlmsft/t5-large-multiwoz"
 	},
 	{
 		"private": false,
@@ -128833,11 +128848,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512d"
-	},
-	{
-		"private": false,
 		"modelId": "versae/wav2vec2-xls-r-300m-32-tokens-npsc"
 	},
 	{
@@ -130662,10 +130672,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "aapot/wav2vec2-xlsr-1b-finnish-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "aapot/wav2vec2-xlsr-1b-finnish"
 	},
@@ -130858,11 +130864,6 @@
 	{
 		"private": false,
 		"modelId": "lilTee18/lilTee18"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lsb/wav2vec2-base-it-latin"
 	},
 	{
 		"private": false,
@@ -131178,6 +131179,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "Keril/guile"
+	},
+	{
+		"private": false,
 		"modelId": "pszemraj/gpt2-large-generic_DS-wow_Ep-10_Bs-8"
+	},
+	{
+		"private": false,
+		"modelId": "Subhashini17/wav2vec2-large-xls-r-300m-ta-colab-new"
 	}
 ]
