@@ -95577,7 +95577,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "text-classification",
 		"modelId": "ShengdingHu/sst2"
 	},
 	{
@@ -126423,10 +126423,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "saattrupdan/xlmr-base-texas-da"
-	},
-	{
-		"private": false,
 		"modelId": "sabcrina/me"
 	},
 	{
@@ -131119,6 +131115,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "saattrupdan/xlmr-base-texas-da"
+	},
+	{
+		"private": false,
 		"modelId": "Ameer05/mt5-small-finetuned-amazon-en-es"
 	},
 	{
@@ -131323,6 +131323,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ghofrani/common8"
 	},
 	{
@@ -131332,5 +131333,9 @@
 	{
 		"private": false,
 		"modelId": "johko/keras-subpixel-superresolution-3x"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc-bokmaal"
 	}
 ]
