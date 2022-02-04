@@ -44969,6 +44969,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "stanford-crfm/caprica-gpt2-small-x81"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "bozelosp/sent-sci-irrelevance"
 	},
@@ -45868,11 +45873,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "staceythompson/autonlp-new-text-classification-38319698"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/caprica-gpt2-small-x81"
 	},
 	{
 		"private": false,
@@ -131034,6 +131034,70 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "AriakimTaiyo/DialoGPT-small-Rikka"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "CleveGreen/FieldClassifier_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "CleveGreen/JobClassifier_v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "DaisyMak/bert-finetuned-squad-transformerfrozen-testtoken"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-d1"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-d5"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-d10"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-CV7-V1"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-d5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-vot-d10"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300-mt-d1"
+	},
+	{
+		"private": false,
+		"modelId": "GeoffVdr/xls-r-2b-nl-cv8-lm-mls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "HarrisDePerceptron/xls-r-1b-ur"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "HarrisDePerceptron/xlsr-large-53-ur"
+	},
+	{
+		"private": false,
 		"modelId": "Keril/guile"
 	},
 	{
@@ -131044,12 +131108,31 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
+		"modelId": "LenaSchmidt/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher-finetuned-step1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/wav2vec2-kenlm"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc-bokmaal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk"
 	},
 	{
 		"private": false,
@@ -131099,6 +131182,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-4"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Subhashini17/wav2vec2-large-xls-r-300m-ta-colab-new"
 	},
@@ -131117,12 +131208,61 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "abhishek/autonlp-imdb-roberta-base-3662644"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/wav2vec2-xls-r-1b-korean-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ankitkupadhyay/dummy-model"
+	},
+	{
+		"private": false,
 		"modelId": "anumafzal94/mt5-small-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-sk-cv8-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-el"
+	},
+	{
+		"private": false,
+		"modelId": "ayushkshah/dummy-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "azwierzc/plt5-base-pl-to-sql"
+	},
+	{
+		"private": false,
+		"modelId": "azwierzc/t5-base-pl-to-sql"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/bart-translate-en-de"
+	},
+	{
+		"private": false,
+		"modelId": "bluebalam/paper-rec"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "cahya/wav2vec2-base-turkish-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "comodoro/wav2vec2-xls-r-300m-cs-250"
 	},
 	{
 		"private": false,
@@ -131142,6 +131282,15 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-cv-ls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "dkurt/wav2vec2-base-ft-keyword-spotting-int8"
+	},
+	{
+		"private": false,
+		"modelId": "eadsa1998/short-test"
 	},
 	{
 		"private": false,
@@ -131230,6 +131379,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "gojiteji/mt5-small-jpn-ain-mt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "groar/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/dril-drilbot_neo-jril_bot"
 	},
@@ -131240,6 +131399,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/loverachelle2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ietz/bert-base-uncased-finetuned-jira-hyperledger-issue-titles-and-bodies"
 	},
@@ -131247,6 +131411,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ietz/bert-base-uncased-finetuned-jira-inteldaos-issue-titles-and-bodies"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ietz/bert-base-uncased-finetuned-jira-jira-issue-titles-and-bodies"
 	},
 	{
 		"private": false,
@@ -131267,7 +131436,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "keras-io/Video-Classification_CNN-RNN_UCF101"
+	},
+	{
+		"private": false,
 		"modelId": "keras-io/involution"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/osan-testing-more"
 	},
 	{
 		"private": false,
@@ -131284,6 +131461,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/bae-roberta-base-mrpc-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "korca/bae-roberta-base-rte-5"
+	},
+	{
+		"private": false,
 		"modelId": "leoaiassistant/HandTracking"
 	},
 	{
@@ -131297,8 +131484,17 @@
 	},
 	{
 		"private": false,
+		"modelId": "lgris/wav2vec2_base_10k_8khz_pt_cv7"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lucio/xls-r-kyrgiz-cv8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "marzinouri101/parsbert-finetuned-persianQA"
 	},
 	{
 		"private": false,
@@ -131310,12 +131506,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "mrm8488/roberta-base-bne-finetuned-sqac-retriever"
+	},
+	{
+		"private": false,
 		"modelId": "nouamanetazi/wav2vec2-xls-r-300m-ar"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nouamanetazi/wav2vec2-xls-r-300m-tr"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/osan-testing-more"
 	},
 	{
 		"private": false,
@@ -131365,12 +131570,43 @@
 	},
 	{
 		"private": false,
+		"modelId": "samx18/demo"
+	},
+	{
+		"private": false,
+		"modelId": "samx18/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "shacharm/wav2vec2-large-xls-r-300m-english-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi"
+	},
+	{
+		"private": false,
 		"modelId": "souhardya1999/layoutlmv2-finetuned-funsd-test"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "speeqo/wav2vec2-base-100h-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "tesemnikov-av/NER-RUBERT-Per-Loc-Org"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -131384,237 +131620,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "osanseviero/osan-testing-more"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/osan-testing-more"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk"
-	},
-	{
-		"private": false,
-		"modelId": "anantoj/wav2vec2-xls-r-1b-korean-lm"
-	},
-	{
-		"private": false,
-		"modelId": "azwierzc/t5-base-pl-to-sql"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "abhishek/autonlp-imdb-roberta-base-3662644"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-d5"
-	},
-	{
-		"private": false,
-		"modelId": "GeoffVdr/xls-r-2b-nl-cv8-lm-mls"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "groar/distilgpt2-finetuned-wikitext2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "translation",
-		"modelId": "gojiteji/mt5-small-jpn-ain-mt"
+		"modelId": "yhavinga/mt5-base-test"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "marzinouri101/parsbert-finetuned-persianQA"
+		"modelId": "EsiLambda/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "cahya/wav2vec2-base-turkish-cv8"
+		"modelId": "frgfm/repvgg_a0"
 	},
 	{
 		"private": false,
-		"modelId": "bettertextapp/bart-translate-en-de"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "azwierzc/plt5-base-pl-to-sql"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-d1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "HarrisDePerceptron/xlsr-large-53-ur"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-300-mt-d1"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-d5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ietz/bert-base-uncased-finetuned-jira-jira-issue-titles-and-bodies"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hy-AM-CV7-V1"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-d10"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher-finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-el"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "tesemnikov-av/NER-RUBERT-Per-Loc-Org"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-vot-d10"
-	},
-	{
-		"private": false,
-		"modelId": "bluebalam/paper-rec"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "korca/bae-roberta-base-mrpc-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "korca/bae-roberta-base-rte-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "LenaSchmidt/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "shacharm/wav2vec2-large-xls-r-300m-english-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "dkurt/wav2vec2-base-ft-keyword-spotting-int8"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/Video-Classification_CNN-RNN_UCF101"
-	},
-	{
-		"private": false,
-		"modelId": "NbAiLab/wav2vec2-kenlm"
-	},
-	{
-		"private": false,
-		"modelId": "HarrisDePerceptron/xls-r-1b-ur"
-	},
-	{
-		"private": false,
-		"modelId": "lgris/wav2vec2_base_10k_8khz_pt_cv7"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "DaisyMak/bert-finetuned-squad-transformerfrozen-testtoken"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "AriakimTaiyo/DialoGPT-small-Rikka"
-	},
-	{
-		"private": false,
-		"modelId": "samx18/demo"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "CleveGreen/FieldClassifier_v2"
-	},
-	{
-		"private": false,
-		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "CleveGreen/JobClassifier_v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ankitkupadhyay/dummy-model"
-	},
-	{
-		"private": false,
-		"modelId": "comodoro/wav2vec2-xls-r-300m-cs-250"
-	},
-	{
-		"private": false,
-		"modelId": "ayushkshah/dummy-model"
-	},
-	{
-		"private": false,
-		"modelId": "samx18/dummy-model"
-	},
-	{
-		"private": false,
-		"modelId": "eadsa1998/short-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/loverachelle2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "mrm8488/roberta-base-bne-finetuned-sqac-retriever"
-	},
-	{
-		"private": false,
-		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v4"
+		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-augmented-multids"
 	}
 ]
