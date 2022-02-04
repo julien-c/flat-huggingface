@@ -47396,11 +47396,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/sew-tiny_test-ft-bp400"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-pt-cv7"
 	},
 	{
@@ -99749,11 +99744,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/distilxlsr_bp_12-16_ft_cv"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "lgris/distilxlsr_bp_16-24"
 	},
@@ -121122,16 +121112,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/distilxlsr_bp_12-16_ft_mls"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/distilxlsr_bp_4-12_ft_cv"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "lgris/distilxlsr_bp_8-12"
 	},
@@ -121163,10 +121143,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-300m-gn-cv8"
-	},
-	{
-		"private": false,
-		"modelId": "lgris/wav2vec2-xls-r-pt-cv8-from-bp400h"
 	},
 	{
 		"private": false,
@@ -131568,6 +131544,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "dkurt/wav2vec2-base-ft-keyword-spotting-int8"
 	},
 	{
@@ -131581,5 +131558,14 @@
 	{
 		"private": false,
 		"modelId": "HarrisDePerceptron/xls-r-1b-ur"
+	},
+	{
+		"private": false,
+		"modelId": "lgris/wav2vec2_base_10k_8khz_pt_cv7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "DaisyMak/bert-finetuned-squad-transformerfrozen-testtoken"
 	}
 ]
