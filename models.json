@@ -131652,11 +131652,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-neo-125M-BORAT_DS-verynice_Ep-50_Bs-8"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sat-d1"
 	},
 	{
@@ -131710,12 +131706,26 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-edav2"
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/InformalToFormalLincoln20"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "BigSalmon/InformalToFormalLincoln20"
+		"modelId": "pszemraj/gpt-neo-tiny-borat"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-paraphrasev2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-edav2.0"
+	},
+	{
+		"private": false,
+		"modelId": "tangelus/cris"
 	}
 ]
