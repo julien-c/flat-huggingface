@@ -131169,6 +131169,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Rolv-Arild/xls-r-300m-npsc-seq2seq"
 	},
 	{
@@ -131528,6 +131529,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "HarrisDePerceptron/xlsr-large-53-ur"
 	},
 	{
@@ -131550,5 +131552,18 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-d10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-el"
+	},
+	{
+		"private": false,
+		"modelId": "tesemnikov-av/NER-BERT-Per-Loc-Org"
 	}
 ]
