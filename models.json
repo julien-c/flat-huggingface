@@ -82943,11 +82943,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/t5-v1_1-large-ft-booksum-summary_analysis"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "ptnv-s/biobert_squad2_cased-finetuned-squad"
 	},
@@ -131200,6 +131195,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Subhashini17/wav2vec2-large-xls-r-300m-ta-colab-new"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/t5-v1_1-L-semantic-analyzer"
 	}
 ]
