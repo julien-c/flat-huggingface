@@ -131674,6 +131674,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-unaugv2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-rm-vallader-d1"
 	},
@@ -131725,5 +131730,9 @@
 	{
 		"private": false,
 		"modelId": "jasminejwebb/KeywordIdentifierTokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-d6"
 	}
 ]
