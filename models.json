@@ -131629,10 +131629,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "frgfm/repvgg_a0"
 	},
 	{
 		"private": false,
 		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-augmented-multids"
+	},
+	{
+		"private": false,
+		"modelId": "vitouphy/xls-r-300m-khmer-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sammy786/wav2vec2-xlsr-dhivehi"
+	},
+	{
+		"private": false,
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids"
+	},
+	{
+		"private": false,
+		"modelId": "korca/textfooler-roberta-base-mrpc-5"
 	}
 ]
