@@ -131642,11 +131642,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "pritamdeka/PubMedBert-fulltext-cord19"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ericzhou/tsundere_v1"
 	},
@@ -131965,6 +131960,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "saattrupdan/xlmr-base-texas-squad-es"
 	},
 	{
@@ -132070,5 +132066,9 @@
 	{
 		"private": false,
 		"modelId": "Beelow/wav2vec2-large-xls-r-300m-ukrainian-colab"
+	},
+	{
+		"private": false,
+		"modelId": "pritamdeka/PubMedBert-fulltext-cord19"
 	}
 ]
