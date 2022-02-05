@@ -100820,11 +100820,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/xls-r-ab-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "vlco-o/NLboto_o-aki-dialogpt"
 	},
@@ -129542,10 +129537,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "vitouphy/xls-r-300m-tr-test"
-	},
-	{
-		"private": false,
 		"modelId": "vitouphy/xls-r-en"
 	},
 	{
@@ -131816,5 +131807,18 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d12"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-d9"
+	},
+	{
+		"private": false,
+		"modelId": "edugp/wav2vec2-xls-r-300m-cv8-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pritamdeka/PubMedBert-fulltext-cord19"
 	}
 ]
