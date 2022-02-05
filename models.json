@@ -26562,11 +26562,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "omoekan/marian-finetuned-yo-to-en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "osanseviero/fashion_brands_patterns"
 	},
@@ -63945,11 +63940,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/5gram"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "flymushroom/model1"
 	},
@@ -73392,11 +73382,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "olastor/mcn-en-smm4h"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "omoekan/marian-finetuned-kde4-en-to-fr-accelerate"
 	},
 	{
 		"private": false,
@@ -131883,5 +131868,14 @@
 	{
 		"private": false,
 		"modelId": "jinlmsft/t5-large-slots"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "geninhu/fp-bigbird-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "Nastya/wav2vec2-base-finetuned-ks"
 	}
 ]
