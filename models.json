@@ -25163,11 +25163,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "transformersbook/codeparrot-exp"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "unicamp-dl/mt5-base-en-msmarco"
 	},
@@ -131893,6 +131888,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Gerasimos/wav2vec2-large-xls-r-300m-greek"
 	},
 	{
@@ -131971,10 +131967,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lgris/wav2vec2-xls-r-1b-pt"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids"
 	},
@@ -132009,12 +132001,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "SpacyGalaxy/DialoGPT-medium-Gandalf"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/gpt-neo-125M-Peter_DS-msgs_Ep-50_Bs-8"
 	},
 	{
 		"private": false,
@@ -132030,6 +132018,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "samitizerxu/wav2vec2-xls-r-300m-eo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "smangrul/xls-r-300m-mr-model"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/m2m-418m-en-de-seed-words-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "abhinavkulkarni/distilbert-base-uncased-finetuned-squad"
 	}
 ]
