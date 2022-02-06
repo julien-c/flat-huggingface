@@ -131384,6 +131384,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nouamanetazi/wav2vec2-xls-r-300m-ar"
 	},
 	{
@@ -132284,11 +132285,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "abhinavkulkarni/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "cyl/cola"
 	},
 	{
@@ -132401,11 +132397,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "w11wo/wav2vec2-xls-r-300m-zh-HK-v2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sammy786/wav2vec2-xlsr-tatar"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/ALL-distilbert-base-uncased"
 	}
 ]
