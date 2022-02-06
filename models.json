@@ -52294,10 +52294,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "imvladikon/wav2vec2-xls-r-300m-lm-hebrew"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jacksonargo/music-mlm"
 	},
@@ -53304,6 +53300,11 @@
 	{
 		"private": false,
 		"modelId": "zzuczy/wav2vec2-baset-ft-ch-debug"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-300m-lm-hebrew"
 	},
 	{
 		"private": false,
@@ -85407,16 +85408,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "OwOmeister/DialoGPT-small-rick"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Plim/xls-r-300m-fr-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Plim/xls-r-ab-test"
 	},
 	{
 		"private": false,
@@ -132299,10 +132290,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "aapot/wav2vec2-xlsr-1b-finnish-lm-v2"
 	},
 	{
 		"private": false,
 		"modelId": "Jeevesh8/rrrrrrrrrrough_multiberts_0_0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_scandinavian"
+	},
+	{
+		"private": false,
+		"modelId": "imvladikon/wav2vec2-xls-r-300m-lm-a-hebrew"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/rrrrrrrrrrough_multiberts_0_1"
 	}
 ]
