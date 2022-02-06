@@ -14160,6 +14160,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "flozi00/wav2vec2-xls-r-1b-german"
+	},
+	{
+		"private": false,
 		"modelId": "google/multiberts-seed_12"
 	},
 	{
@@ -132367,6 +132372,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/MTL-distilbert-base-uncased"
 	},
 	{
@@ -132506,11 +132512,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ardauzunoglu/causal-text-generation-gp"
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-e1"
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-e1"
+		"modelId": "ardauzunoglu/causal-text-generation-gp"
 	}
 ]
