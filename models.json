@@ -120593,6 +120593,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/marathi-albert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/marathi-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/marathi-roberta"
+	},
+	{
+		"private": false,
 		"modelId": "lab01/future"
 	},
 	{
@@ -131848,6 +131863,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KamrusSamad/tiny_A-2_H-2"
 	},
 	{
@@ -132109,6 +132125,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "prajin/wav2vec2-large-xlsr-1b-nepali"
 	},
 	{
@@ -132187,7 +132204,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "jsnfly/wav2vec2-xls-r-1b-de"
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "jsnfly/wav2vec2-xls-r-1b-de-cv8"
+	},
+	{
+		"private": false,
+		"modelId": "sammy786/wav2vec2-xlsr-sakha"
 	}
 ]
