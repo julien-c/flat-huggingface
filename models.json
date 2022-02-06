@@ -132113,7 +132113,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/led-base-book-summary"
 	},
 	{
@@ -132127,5 +132127,18 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-cv8-b1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-sl-a1"
+	},
+	{
+		"private": false,
+		"modelId": "prajin/wav2vec2-large-xlsr-1b-nepali"
+	},
+	{
+		"private": false,
+		"modelId": "shpotes/xls-r-eus"
 	}
 ]
