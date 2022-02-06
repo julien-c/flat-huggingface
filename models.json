@@ -63920,11 +63920,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/5gram"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "flymushroom/model1"
 	},
@@ -132246,6 +132241,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KamrusSamad/bangla_albert"
 	},
 	{
@@ -132276,5 +132272,9 @@
 	{
 		"private": false,
 		"modelId": "nimrazaheer/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-marathi-lm-boosted"
 	}
 ]
