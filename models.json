@@ -31870,6 +31870,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT-medium"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Andrija/SRoBERTaFastBPE-2"
 	},
@@ -132308,6 +132313,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RASMUS/wav2vec2-xlsr-1b-ru"
 	},
 	{
@@ -132342,10 +132348,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jejomi/xls-r-ta"
 	},
 	{
 		"private": false,
 		"modelId": "anantoj/wav2vec2-xls-r-300m-zh-CN"
+	},
+	{
+		"private": false,
+		"modelId": "StevenLimcorn/wav2vec2-xls-r-300m-zh-TW"
+	},
+	{
+		"private": false,
+		"modelId": "ardauzunoglu/ovk-classification"
 	}
 ]
