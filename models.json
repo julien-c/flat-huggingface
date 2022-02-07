@@ -132330,6 +132330,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SBERT-base-msmarco-asym"
 	},
 	{
@@ -132504,6 +132505,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "kobe/vit-base-beans"
 	},
 	{
@@ -132521,5 +132523,18 @@
 	{
 		"private": false,
 		"modelId": "aidj/ernie"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "leeyujin/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "aidj/model_name"
+	},
+	{
+		"private": false,
+		"modelId": "aidj/distilbert-base-uncased-finetuned-ner"
 	}
 ]
