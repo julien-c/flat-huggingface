@@ -24371,11 +24371,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "stefan-it/albert-xlarge-german-cased"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "superb/wav2vec2-large-superb-sid"
 	},
@@ -37656,11 +37651,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "congcongwang/t5-large-fine-tuned-wnut-2020-task3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daisyxie21/bert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -100654,6 +100644,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi_cv7"
 	},
 	{
@@ -114373,10 +114364,6 @@
 	{
 		"private": false,
 		"modelId": "dahele/tip"
-	},
-	{
-		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-test-cola"
 	},
 	{
 		"private": false,
@@ -132831,6 +132818,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "vwoloszyn/gtp2-email"
 	},
 	{
@@ -132849,5 +132837,22 @@
 	{
 		"private": false,
 		"modelId": "hsekol/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "stefan-it/albert-large-german-cased"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-relabel-cola"
+	},
+	{
+		"private": false,
+		"modelId": "jonatasgrosman/wav2vec2-xls-r-1b-english"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-relabel1-cola"
 	}
 ]
