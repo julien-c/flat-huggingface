@@ -94333,11 +94333,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Edomonndo/opus-mt-ja-en-finetuned-ja-to-en_xml"
 	},
@@ -131985,6 +131980,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-11.1"
 	},
 	{
@@ -132555,6 +132551,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shahukareem/wav2vec2-xls-r-1b-dv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shahukareem/wav2vec2-xls-r-300m-dv"
 	},
 	{
@@ -132615,6 +132616,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/albert-base-german-cased"
 	},
 	{
@@ -132869,6 +132871,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/MTL-roberta-base"
 	},
 	{
@@ -132877,6 +132880,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "glob-asr/xls-r-es-test-lm"
+	},
+	{
+		"private": false,
+		"modelId": "ogpat23/DialoGPT-small-Jules"
+	},
+	{
+		"private": false,
+		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi_final"
+	},
+	{
+		"private": false,
+		"modelId": "JasperD-UGent/roberta-base-bne-difficulty-classifier-v1"
+	},
+	{
+		"private": false,
+		"modelId": "azuur/wav2vec2-base-gn-base-demo"
 	}
 ]
