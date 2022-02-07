@@ -132467,7 +132467,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "yuxingwu/new-transformers-model-Helsinki-NLP-opus-mt-ja-en-origin-initialized"
 	},
 	{
@@ -132556,6 +132556,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Wogiger/roberta-food-2epoch"
 	},
 	{
@@ -132565,5 +132566,10 @@
 	{
 		"private": false,
 		"modelId": "MrezaPRZ/checkpoint-5000-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sammy786/wav2vec2-xlsr-romansh_vallader"
 	}
 ]
