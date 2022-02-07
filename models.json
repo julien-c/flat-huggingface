@@ -114362,10 +114362,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-test-cola"
-	},
-	{
-		"private": false,
 		"modelId": "daito/test"
 	},
 	{
@@ -130773,6 +130769,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "JasperD-UGent/roberta-base-bne-difficulty-classifier-v1"
 	},
 	{
@@ -132314,6 +132311,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ogpat23/DialoGPT-small-Jules"
 	},
 	{
@@ -132901,6 +132899,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/SAE-distilbert-base-uncased"
 	},
 	{
@@ -132910,5 +132909,9 @@
 	{
 		"private": false,
 		"modelId": "mpoyraz/wav2vec2-xls-r-300m-cv6-turkish"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-relabel-cola"
 	}
 ]
