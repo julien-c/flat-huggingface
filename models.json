@@ -131228,11 +131228,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-3"
 	},
 	{
@@ -132630,6 +132625,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "rjrohit/wav2vec2-base-rj-try-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/mBERT-base-Biomedical-NER"
+	},
+	{
+		"private": false,
+		"modelId": "arampacha/wav2vec2-xls-r-300m-da"
 	}
 ]
