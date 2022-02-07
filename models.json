@@ -92141,11 +92141,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-xls-r-1b-portuguese-CORAA"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "light/small-rickk"
 	},
@@ -92662,11 +92657,6 @@
 	{
 		"private": false,
 		"modelId": "nguyenthanhasia/VNBertLaw"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nickmuchi/bart-large-cnn-trade-the-event-finance-summarizer"
 	},
 	{
 		"private": false,
@@ -132045,11 +132035,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-xls-r-1b-portuguese-CORAA-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-1b-portuguese-CORAA-3"
 	},
 	{
@@ -132134,6 +132119,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "nbroad/xdistil-l12-h384-squad2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nihaldsouza1/yelp-rating-classification"
 	},
 	{
 		"private": false,
@@ -132685,5 +132675,15 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mk-k1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "nickmuchi/fb-bart-large-cnn-finetuned-trade-the-event-finance-summarizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sammy786/wav2vec2-xlsr-interlingua"
 	}
 ]
