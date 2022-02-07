@@ -132737,6 +132737,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jje1113/wav2vec2-base-timit-demo"
 	},
 	{
@@ -132762,6 +132763,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "glob-asr/wav2vec2-large-xls-r-300m-guarani-small"
 	},
 	{
@@ -132796,5 +132798,18 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "elozano/tweet_sentiment_eval"
+	},
+	{
+		"private": false,
+		"modelId": "nithish-t/narrative_gen"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "jonatasgrosman/wav2vec2-xls-r-1b-french"
+	},
+	{
+		"private": false,
+		"modelId": "mohanadsmr/wav2vec2-base-timit-demo-colab"
 	}
 ]
