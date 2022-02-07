@@ -123143,10 +123143,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nickmuchi/fb-bart-large-cnn-trade-the-event-finance-summarizer"
-	},
-	{
-		"private": false,
 		"modelId": "nicktien/TaipeiQA"
 	},
 	{
@@ -130945,6 +130941,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MarioPenguin/bert-model-english1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MichelBartels/tinybert-6l-768d-squad2-large-teacher-finetuned-step1"
 	},
@@ -131201,6 +131202,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/mBERT-base-Biomedical-NER"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-3"
 	},
 	{
@@ -131303,6 +131309,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "amir62/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anantoj/wav2vec2-xls-r-1b-korean-lm"
 	},
@@ -131341,6 +131351,11 @@
 	{
 		"private": false,
 		"modelId": "arampacha/wav2vec2-xls-r-1b-da"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "arampacha/wav2vec2-xls-r-300m-da"
 	},
 	{
 		"private": false,
@@ -131452,6 +131467,15 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "cbrew475/mpnet-metric"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "clancystudios/DialoGPT-medium-Morty"
+	},
+	{
+		"private": false,
+		"modelId": "codeceejay/HIYACCENT_Model"
 	},
 	{
 		"private": false,
@@ -131705,6 +131729,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-pubmedbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/bc4chemd-imbalanced-biobert-base-casesd-v1.1"
 	},
 	{
@@ -131913,6 +131942,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kapilkd13/xls-r-300m-hi-prod"
+	},
+	{
+		"private": false,
+		"modelId": "kapilkd13/xls-r-hi-prod"
+	},
+	{
+		"private": false,
 		"modelId": "keras-io/Video-Classification_CNN-RNN_UCF101"
 	},
 	{
@@ -131923,6 +131961,10 @@
 	{
 		"private": false,
 		"modelId": "keras-io/conditional-gan"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/conv-autoencoder"
 	},
 	{
 		"private": false,
@@ -132058,6 +132100,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "merve/conv-autoencoder"
+	},
+	{
+		"private": false,
 		"modelId": "merve/recommender-transformers"
 	},
 	{
@@ -132159,6 +132205,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "prajin/nepali-bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "prajin/wav2vec2-large-xlsr-1b-nepali"
 	},
@@ -132227,12 +132277,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "rjrohit/wav2vec2-base-rj-try-5"
+	},
+	{
+		"private": false,
 		"modelId": "s3h/arabic-ged"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "saattrupdan/xlmr-base-texas-squad-es"
+	},
+	{
+		"private": false,
+		"modelId": "sabarajputseo2/Delhi-Escorts"
 	},
 	{
 		"private": false,
@@ -132340,6 +132399,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shivam/wav2vec2-xls-r-300m-marathi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi"
 	},
 	{
@@ -132369,6 +132433,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "smangrul/xls-r-mr-model"
+	},
+	{
+		"private": false,
+		"modelId": "smartpim/k2t_ru_01"
 	},
 	{
 		"private": false,
@@ -132451,6 +132519,26 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "tknmsn/hiro-xs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "victen/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-1b-khmer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-300m-japanese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-300m-khmer"
 	},
 	{
 		"private": false,
@@ -132563,6 +132651,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "yaswanth/xls-r-300m-yaswanth-hindi3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "yaswanth/xls-r-yaswanth-hindi1"
 	},
@@ -132592,92 +132684,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "rjrohit/wav2vec2-base-rj-try-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/mBERT-base-Biomedical-NER"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "arampacha/wav2vec2-xls-r-300m-da"
-	},
-	{
-		"private": false,
-		"modelId": "amir62/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "codeceejay/HIYACCENT_Model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "victen/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "MarioPenguin/bert-model-english1"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/conv-autoencoder"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-pubmedbert"
-	},
-	{
-		"private": false,
-		"modelId": "sabarajputseo2/Delhi-Escorts"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/wav2vec2-xls-r-1b-khmer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/wav2vec2-xls-r-300m-khmer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/wav2vec2-xls-r-300m-japanese"
-	},
-	{
-		"private": false,
-		"modelId": "kapilkd13/xls-r-hi-prod"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kapilkd13/xls-r-300m-hi-prod"
-	},
-	{
-		"private": false,
-		"modelId": "smartpim/k2t_ru_01"
-	},
-	{
-		"private": false,
-		"modelId": "merve/conv-autoencoder"
-	},
-	{
-		"private": false,
-		"modelId": "yaswanth/xls-r-300m-yaswanth-hindi3"
-	},
-	{
-		"private": false,
-		"modelId": "prajin/nepali-bert"
-	},
-	{
-		"private": false,
-		"modelId": "clancystudios/DialoGPT-medium-Morty"
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mk-k1"
 	}
 ]
