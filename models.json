@@ -130665,11 +130665,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-gn-a1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-maltese"
 	},
 	{
@@ -132957,6 +132952,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-xls-r-300marian-german"
 	},
 	{
@@ -133011,5 +133007,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/test-base-el4"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-kk-n1"
 	}
 ]
