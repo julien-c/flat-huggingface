@@ -100718,11 +100718,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vumichien/wav2vec2-xls-r-1b-ja-dumy8"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "wadeed/DialogGPT-small-chandlerbingg"
 	},
@@ -132452,6 +132447,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SGPT-6.1B-weightedmean-msmarco-specb-bitfit"
 	},
 	{
@@ -132466,6 +132462,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "GleamEyeBeast/Mandarin"
 	},
 	{
@@ -132519,11 +132516,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "pritamdeka/trial"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "TheDiamondKing/DialoGPT-small-harrypotter"
 	},
@@ -132542,6 +132534,48 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "JIWON/bert-base-finetuned-nli"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vumichien/wav2vec2-xls-r-1b-japanese"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-pa-IN-w2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/Points2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-pa-IN-r1"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-checkpoint-11"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-wx1"
+	},
+	{
+		"private": false,
+		"modelId": "JIWON/NLI_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mrojas/bio-bert-base-spanish-wwm-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5/t5-efficient-base-el4"
 	}
 ]
