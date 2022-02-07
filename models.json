@@ -131357,21 +131357,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ardauzunoglu/causal-text-generation-gp"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ardauzunoglu/gp-classification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ardauzunoglu/ovk-classification"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "asalics/distilbert-base-uncased-finetuned-emotion"
 	},
@@ -132311,7 +132296,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "ogpat23/DialoGPT-small-Jules"
 	},
 	{
@@ -132390,6 +132375,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pritamdeka/PubMedBert-fulltext-cord19"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "pritamdeka/trial"
 	},
 	{
 		"private": false,
@@ -132912,6 +132902,22 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-relabel-cola"
+		"modelId": "gagan3012/ViTGPT2I2A"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-g1"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-001-cola"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/SAE-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "nateraw/codecarbon-text-classification"
 	}
 ]
