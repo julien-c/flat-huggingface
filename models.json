@@ -74756,11 +74756,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Ilyes/wav2vec2-xls-fr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xls-r-300m-tr-colab"
 	},
 	{
@@ -75440,6 +75435,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Ilyes/wav2vec2-large-xlsr-53-french"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Ilyes/wav2vec2-xls-fr"
 	},
 	{
 		"private": false,
@@ -130773,6 +130773,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "JasperD-UGent/roberta-base-bne-difficulty-classifier-v1"
+	},
+	{
+		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_0_0"
 	},
 	{
@@ -130810,6 +130814,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_11_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_11_ft_1"
 	},
 	{
 		"private": false,
@@ -130899,6 +130907,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi"
+	},
+	{
+		"private": false,
+		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi_final"
 	},
 	{
 		"private": false,
@@ -131396,6 +131408,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "azuur/wav2vec2-base-gn-base-demo"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "azwierzc/plt5-base-pl-to-sql"
 	},
@@ -131805,6 +131821,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "glob-asr/xls-r-es-test-lm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "gojiteji/mt5-small-ain-jpn-mt"
 	},
@@ -131964,6 +131985,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/MTL-distilbert-base-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "jgammack/MTL-roberta-base"
 	},
 	{
 		"private": false,
@@ -132285,6 +132311,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nouamanetazi/wav2vec2-xls-r-300m-tr"
+	},
+	{
+		"private": false,
+		"modelId": "ogpat23/DialoGPT-small-Jules"
 	},
 	{
 		"private": false,
@@ -132871,32 +132901,14 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "jgammack/MTL-roberta-base"
+		"modelId": "jgammack/SAE-distilbert-base-uncased"
 	},
 	{
 		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_11_ft_1"
+		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "glob-asr/xls-r-es-test-lm"
-	},
-	{
-		"private": false,
-		"modelId": "ogpat23/DialoGPT-small-Jules"
-	},
-	{
-		"private": false,
-		"modelId": "LegolasTheElf/Wav2Vec2_xls_r_300m_hi_final"
-	},
-	{
-		"private": false,
-		"modelId": "JasperD-UGent/roberta-base-bne-difficulty-classifier-v1"
-	},
-	{
-		"private": false,
-		"modelId": "azuur/wav2vec2-base-gn-base-demo"
+		"modelId": "mpoyraz/wav2vec2-xls-r-300m-cv6-turkish"
 	}
 ]
