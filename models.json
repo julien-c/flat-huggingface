@@ -131449,6 +131449,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Saitomar/wav2vec2-large-xls-r-300m-bengali-kaggle"
 	},
 	{
@@ -132357,6 +132358,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids-full"
 	},
 	{
@@ -132465,5 +132467,37 @@
 	{
 		"private": false,
 		"modelId": "abhinavkulkarni/bigbird-roberta-base-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "yuxingwu/new-transformers-model-Helsinki-NLP-opus-mt-ja-en-origin-initialized"
+	},
+	{
+		"private": false,
+		"modelId": "kobe/vit-base-cats-vs-dogs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "lighthouse/qa_contract_v6.2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "lighthouse/qa_contract_v6.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "hyerim/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "yuxingwu/new-transformers-model-Helsinki-NLP-opus-mt-ja-en-origin-initialized-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "rjrohit/wav2vec2-base-rj-1"
 	}
 ]
