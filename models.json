@@ -18013,11 +18013,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-to-speech",
-		"modelId": "LanceaKing/libritts_ecapa_vits"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "cahya/gpt2-medium-indonesian-story"
 	},
@@ -35090,10 +35085,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/roberta-classical-chinese-base-sentence-segmentation"
-	},
-	{
-		"private": false,
-		"modelId": "LanceaKing/spkrec-ecapa-cnceleb"
 	},
 	{
 		"private": false,
@@ -132590,5 +132581,30 @@
 	{
 		"private": false,
 		"modelId": "cahya/wav2vec2-luganda"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "willemjan/nl2"
+	},
+	{
+		"private": false,
+		"modelId": "Doohae/p_encoder"
+	},
+	{
+		"private": false,
+		"modelId": "Doohae/q_encoder"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-sds-v2"
+	},
+	{
+		"private": false,
+		"modelId": "rjrohit/wav2vec2-base-rj-try-2"
+	},
+	{
+		"private": false,
+		"modelId": "mobedkova/wav2vec2-xls-r-300m-ru"
 	}
 ]
