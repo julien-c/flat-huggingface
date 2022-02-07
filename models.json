@@ -108882,10 +108882,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Tahsin-Mayeesha/wav2vec2-bn-300m-lm"
-	},
-	{
-		"private": false,
 		"modelId": "Tais/wav2vec2-large-xls-r-300m-tr-colab"
 	},
 	{
@@ -131767,6 +131763,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hgharibi/wav2vec2-xls-r-300m-fa-colab"
 	},
 	{
@@ -132722,6 +132719,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ryancallihan/roberta-twitter-spam-classifier"
 	},
 	{
@@ -132743,6 +132741,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "elozano/tweet_emotion_eval"
 	},
 	{
@@ -132760,5 +132759,42 @@
 	{
 		"private": false,
 		"modelId": "cahya/xls-r-1b-id"
+	},
+	{
+		"private": false,
+		"modelId": "glob-asr/wav2vec2-large-xls-r-300m-guarani-small"
+	},
+	{
+		"private": false,
+		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab"
+	},
+	{
+		"private": false,
+		"modelId": "robinq/bert-base-swedish-cased-new"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ltgoslo/norbert2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "birgermoell/lm-swedish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/cu_coquin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "elozano/tweet_offensive_eval"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "elozano/tweet_sentiment_eval"
 	}
 ]
