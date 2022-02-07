@@ -132462,10 +132462,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kobe/vit-base-cats-vs-dogs"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "lighthouse/qa_contract_v6.1"
 	},
@@ -132483,11 +132479,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "lighthouse/qa_contract_v6.2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "kobe/vit-base-beans"
 	},
 	{
 		"private": false,
@@ -132615,6 +132606,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "rjrohit/wav2vec2-base-rj-try-4"
 	},
 	{
@@ -132629,6 +132621,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jezia/text-generation-miniature-gpt"
+		"pipeline_tag": "text-classification",
+		"modelId": "hsiehpinghan/pretrained_model"
+	},
+	{
+		"private": false,
+		"modelId": "kobe/vit-base-beans"
 	}
 ]
