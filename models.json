@@ -73937,16 +73937,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "sontn122/xlm-roberta-base-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021-aug_2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_15102021"
 	},
 	{
@@ -127346,10 +127336,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sontn122/xlm-roberta-large-finetuned-squad-v2_21102021_aug-finetuned-squad-v2_21102021_aug_1"
-	},
-	{
-		"private": false,
 		"modelId": "sorryhyun/toy_koelectra-small-generator"
 	},
 	{
@@ -131690,6 +131676,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chun/mbart50-zh2en-mtm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RASMUS/wav2vec2-xlsr-1b-et"
 	},
@@ -131859,11 +131850,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-dx11"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "HarrisDePerceptron/xls-r-300m-ur-cv8-hi"
 	},
 	{
@@ -131972,11 +131958,6 @@
 	{
 		"private": false,
 		"modelId": "sunitha/distilbert-base-uncased-Dbert-shiva"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-sl-a2"
 	},
 	{
 		"private": false,
@@ -132441,10 +132422,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-cv8-b2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_0_ft_1"
 	},
@@ -132456,14 +132433,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sammy786/wav2vec2-xlsr-romansh_sursilvan"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d11"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d131"
 	},
 	{
 		"private": false,
@@ -132484,5 +132453,10 @@
 	{
 		"private": false,
 		"modelId": "yuxingwu/new-transformers-model-Helsinki-NLP-opus-mt-ja-en-origin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "xdwang/tmp"
 	}
 ]
