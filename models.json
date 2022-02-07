@@ -17288,6 +17288,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Suva/uptag-url-model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ahmedrachid/FinancialBERT"
 	},
@@ -21903,11 +21908,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "tprincessazula/Dialog-GPT-small-AANG"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/xls-r-300m-km"
 	},
 	{
 		"private": false,
@@ -66917,11 +66917,6 @@
 	{
 		"private": false,
 		"modelId": "visualjoyce/transformers4vl-uniter-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/xls-r-300m-ja"
 	},
 	{
 		"private": false,
@@ -132633,6 +132628,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-Disease-balanced-pubmedbert"
 	},
 	{
@@ -132643,5 +132639,23 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vitouphy/wav2vec2-xls-r-1b-khmer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-300m-khmer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-300m-japanese"
+	},
+	{
+		"private": false,
+		"modelId": "kapilkd13/xls-r-hi-prod"
+	},
+	{
+		"private": false,
+		"modelId": "kapilkd13/xls-r-300m-hi-prod"
 	}
 ]
