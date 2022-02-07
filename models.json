@@ -132963,19 +132963,25 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "adrien-alloreview/bert-base-multilingual-uncased-schneider"
-	},
-	{
-		"private": false,
 		"modelId": "flozi00/wav2vec2-xls-r-300marian-german"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mradau/stress_score"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "sakai026/Chizuru"
+	},
+	{
+		"private": false,
+		"modelId": "robot-test/old-clip-tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/t_llulah"
 	}
 ]
