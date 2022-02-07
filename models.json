@@ -131741,6 +131741,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Chun/mbart50-zh2en-mtm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "RASMUS/wav2vec2-xlsr-1b-et"
 	},
@@ -132252,10 +132257,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_0_ft_0"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-zx100"
 	},
 	{
 		"private": false,
