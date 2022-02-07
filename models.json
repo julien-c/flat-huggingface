@@ -132495,11 +132495,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "bespin-global/klue-sentence-roberta-kornlu"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "lighthouse/qa_contract_v6.2"
 	},
@@ -132535,6 +132530,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "aidj/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "bespin-global/klue-sentence-roberta-base-kornlu"
+	},
+	{
+		"private": false,
+		"modelId": "rajrathi/CGANMNIST"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_6_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-vot-final-a2"
+	},
+	{
+		"private": false,
+		"modelId": "csukuangfj/icefall-asr-librispeech-transducer-stateless-bpe-500-2022-02-07"
 	}
 ]
