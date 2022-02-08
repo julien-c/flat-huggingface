@@ -134297,11 +134297,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "espnet/brianyan918_iwslt22_dialect_transformer_fisherlike"
 	},
 	{
@@ -134358,6 +134353,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_11_ft_3"
 	},
 	{
@@ -134411,6 +134407,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "DeskDown/MarianMix_en-ja-10"
 	},
 	{
@@ -134497,5 +134494,17 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "glob-asr/wav2vec2-xls-r-300m-spanish-large-LM"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_6_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "mbateman/bert-finetuned-squad-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-test-as"
 	}
 ]
