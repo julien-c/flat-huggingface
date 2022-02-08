@@ -134284,11 +134284,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "hgharibi/wav2vec2-xls-r-300m-fa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "sana-ngu/HaT5"
 	},
@@ -134448,10 +134443,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "elozano/news-clickbait"
 	},
 	{
 		"private": false,
 		"modelId": "StephennFernandes/XLS-R-assamese-LM"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-with-LM"
+	},
+	{
+		"private": false,
+		"modelId": "Mofe/output"
+	},
+	{
+		"private": false,
+		"modelId": "TimeRobber/tokenizer_v0"
 	}
 ]
