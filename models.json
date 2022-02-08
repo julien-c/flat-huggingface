@@ -124048,10 +124048,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pangpang666/pptod-small"
-	},
-	{
-		"private": false,
 		"modelId": "panjiariputra/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -134189,6 +134185,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "HamidRezaAttar/wav2vec2-large-xls-r-300m-fa-colab"
 	},
 	{
@@ -134199,11 +134196,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tesemnikov-av/rubert-ner-toxicity"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "lonewanderer27/DialoGPT-medium-Camp_Buddy-Yuri-Bot"
 	},
 	{
 		"private": false,
@@ -134229,7 +134221,38 @@
 	},
 	{
 		"private": false,
+		"modelId": "Beelow/model"
+	},
+	{
+		"private": false,
+		"modelId": "phongdtd/wavlm-base-vindata-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "lonewanderer27/YuriBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MarioPenguin/roberta-model-english"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "premrawat/en_pipeline"
+		"modelId": "premrawat/model_ner_skills"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "arredondos/my_sentence_transformer"
+	},
+	{
+		"private": false,
+		"modelId": "mohitchoudhary/bert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "robkayinto/xlm-roberta-base-finetuned-panx-de"
 	}
 ]
