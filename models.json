@@ -130661,6 +130661,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bg-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-maltese"
 	},
 	{
@@ -133933,14 +133938,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-mt-d1"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-mt-d1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "lighthouse/kpmg_contract_v0.6"
 	},
@@ -133972,5 +133969,9 @@
 	{
 		"private": false,
 		"modelId": "nickmuchi/fb-bart-large-finetuned-trade-the-event-finance-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/distilbert-base-uncased-finetuned-sst-2-english-finetuned-argumentative"
 	}
 ]
