@@ -84705,6 +84705,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v4"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Duugu/alexia-bot-test"
 	},
@@ -112051,10 +112056,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ayyuce/conditionalGAN"
-	},
-	{
-		"private": false,
 		"modelId": "azazbutt7/image_captioning"
 	},
 	{
@@ -133042,11 +133043,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-kk-n2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-xl-nl8"
 	},
@@ -133873,6 +133869,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "jgammack/distilbert-base-uncased-squad"
 	},
 	{
@@ -133899,5 +133896,29 @@
 	{
 		"private": false,
 		"modelId": "TheDiamondKing/DialoGPT-med-rick-and-morty"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/bert-base-uncased-squad"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/conditionalGAN"
+	},
+	{
+		"private": false,
+		"modelId": "TheDiamondKing/DialoGPT-med-rick-and-morty-v3"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-test"
+	},
+	{
+		"private": false,
+		"modelId": "amerwafiy/finetuning-sentiment-model-3000-samples"
+	},
+	{
+		"private": false,
+		"modelId": "TheDiamondKing/DialoGPT-Small-HarryPotterBot"
 	}
 ]
