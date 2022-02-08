@@ -17530,11 +17530,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "Kowsher/bert-base-bangla"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "cardiffnlp/twitter-roberta-base-dec2021"
 	},
 	{
@@ -40144,11 +40139,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-yoruba"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "DeskDown/MarianMix_en-10"
 	},
 	{
 		"private": false,
@@ -106183,6 +106173,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Mofe/speech-sprint-repo"
 	},
 	{
@@ -134289,10 +134280,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "hgharibi/wav2vec2-xls-r-1b-fa-colab"
-	},
-	{
-		"private": false,
 		"modelId": "ardauzunoglu/classification-ovk"
 	},
 	{
@@ -134424,5 +134411,35 @@
 	{
 		"private": false,
 		"modelId": "Cheatham/xlm-roberta-large-finetuned-d12_2"
+	},
+	{
+		"private": false,
+		"modelId": "yharyarias/style-transfer-cv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "DeskDown/MarianMix_en-zh-10"
+	},
+	{
+		"private": false,
+		"modelId": "espnet/brianyan918_iwslt22_dialect_st_transformer_fisherlike_4gpu_bbins16m_fix"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Kowsher/bangla-bert"
+	},
+	{
+		"private": false,
+		"modelId": "parigaswetha/DialoGPT-small-jakeperalta"
+	},
+	{
+		"private": false,
+		"modelId": "Mofe/xls-r-hausa-40"
+	},
+	{
+		"private": false,
+		"modelId": "augustoortiz/bert-finetuned-squad2"
 	}
 ]
