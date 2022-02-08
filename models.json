@@ -134275,6 +134275,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids-lm"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-1000-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "cambridgeltl/simctg_lccc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "cambridgeltl/simctg_wikitext103"
+	},
+	{
+		"private": false,
+		"modelId": "subrataBAEC/finetuning-sentiment-model-3000-samples"
 	}
 ]
