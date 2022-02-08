@@ -39475,6 +39475,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "am-shb/bert-base-multilingual-cased-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "asifm43/bert-bn"
 	},
 	{
@@ -134166,10 +134171,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ardauzunoglu/classification-ovk"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tesemnikov-av/rubert-ner-toxicity"
 	},
@@ -134312,10 +134313,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "lonewanderer27/YoshinoriBot"
 	},
 	{
 		"private": false,
 		"modelId": "hgharibi/wav2vec2-xls-r-1b-fa-colab"
+	},
+	{
+		"private": false,
+		"modelId": "ardauzunoglu/classification-ovk"
+	},
+	{
+		"private": false,
+		"modelId": "ardauzunoglu/c_ovk"
+	},
+	{
+		"private": false,
+		"modelId": "hgharibi/wav2vec2-xls-r-300m-fa"
 	}
 ]
