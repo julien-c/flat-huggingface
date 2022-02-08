@@ -8206,11 +8206,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Filosofas/DialoGPT-medium-PALPATINE"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "cross-encoder/qnli-distilroberta-base"
 	},
@@ -43806,11 +43801,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "nielsr/tapex-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "nlp-1-0/climate-roberta-base"
 	},
 	{
 		"private": false,
@@ -134117,6 +134107,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ardauzunoglu/gp-classification"
 	},
 	{
@@ -134196,6 +134187,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "imfiba1991/gpt2-wikitext2"
 	},
 	{
@@ -134218,5 +134210,9 @@
 	{
 		"private": false,
 		"modelId": "mohitchoudhary/deberta-base-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "imfiba1991/bert-base-cased-wikitext2"
 	}
 ]
