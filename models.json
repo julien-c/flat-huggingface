@@ -130513,6 +130513,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "tau/tavbert-he"
+	},
+	{
+		"private": false,
 		"modelId": "0x7194633/gameGPT"
 	},
 	{
@@ -134318,6 +134323,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "daisyxie21/bert-base-uncased-10-cola"
 	},
 	{
@@ -134360,10 +134366,39 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "sakai026/Mizuhara"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "heabeoun/DiabloGPT-small-nuon-conv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "espnet/brianyan918_iwslt22_dialect_train_asr_conformer_ctc0.3_lr2e-3_warmup15k_newspecaug"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "espnet/brianyan918_iwslt22_dialect_transformer_fisherlike"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Cheatham/xlm-roberta-large-finetuned-d12"
+	},
+	{
+		"private": false,
+		"modelId": "anushakamath/wav2vec2-xls-r-300m-punjabi-in"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/MTL-roberta-base-ww"
 	}
 ]
