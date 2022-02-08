@@ -129091,11 +129091,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/xls-r-300m-en"
-	},
-	{
-		"private": false,
 		"modelId": "vitvit/alephbert-base-finetuned-heb_HebrewSentiment"
 	},
 	{
@@ -134387,10 +134382,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anushakamath/wav2vec2-xls-r-300m-punjabi-in"
 	},
 	{
 		"private": false,
 		"modelId": "jgammack/MTL-bert-base-uncased-ww"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-300m-english"
 	}
 ]
