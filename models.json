@@ -130615,10 +130615,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Beelow/wav2vec2-large-xls-r-300m-ukrainian-colab"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/InformalToFormalLincoln20"
 	},
@@ -133939,6 +133935,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "jgammack/roberta-base-squad"
 	},
 	{
@@ -134049,5 +134046,17 @@
 	{
 		"private": false,
 		"modelId": "CohleM/mbert-nepali-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/SAE-roberta-base-squad"
+	},
+	{
+		"private": false,
+		"modelId": "jkang/espnet2_mini_librispeech_diar"
+	},
+	{
+		"private": false,
+		"modelId": "Beelow/wav2vec2-ukrainian-model-large"
 	}
 ]
