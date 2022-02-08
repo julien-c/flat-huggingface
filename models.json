@@ -10832,11 +10832,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-300m-german"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "rachelcorey/DialoGPT-medium-kramer"
 	},
@@ -131705,15 +131700,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-large-xlsr-53-german"
-	},
-	{
-		"private": false,
-		"modelId": "flozi00/wav2vec2-xls-r-300mbart-german"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "frgfm/repvgg_a0"
 	},
@@ -132590,6 +132576,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "smartpim/k2t_ru_01"
 	},
 	{
@@ -132933,11 +132920,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "aditya140/longformerNER_kaggle"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-300marian-german"
 	},
 	{
 		"private": false,
@@ -134244,5 +134226,10 @@
 	{
 		"private": false,
 		"modelId": "thyagosme/my_new_tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "premrawat/en_pipeline"
 	}
 ]
