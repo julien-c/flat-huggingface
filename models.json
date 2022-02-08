@@ -95910,11 +95910,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-cv-ls"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "dbragdon/noamlm"
 	},
@@ -114605,11 +114600,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented_multidata"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "dbguilherme/teste"
 	},
@@ -131532,17 +131522,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids-full"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-cv-ls"
 	},
 	{
 		"private": false,
@@ -133971,6 +133951,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Vasanth/bert-base-uncased-qa-squad2"
 	},
 	{
@@ -134262,14 +134243,38 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified_SciBERT"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem_Imbalanced-SciBERT"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified_SciBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "AriakimTaiyo/DialoGPT-cultured-Kumiko"
+	},
+	{
+		"private": false,
+		"modelId": "deepdml/wav2vec2-large-xls-r-300m-basque"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/t5-v1_1-L-semantic-analyzer-14E-finetuned-booksum"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/MTL-distilbert-base-uncased-squad"
+	},
+	{
+		"private": false,
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-augmented-multids-lm"
 	}
 ]
