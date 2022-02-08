@@ -77432,11 +77432,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "daisyxie21/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "danhsf/mt5-small-finetuned-hi-to-en"
 	},
@@ -133883,14 +133878,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-10ep-cola"
-	},
-	{
-		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-ep10-cola"
-	},
-	{
-		"private": false,
 		"modelId": "fznmhmmd/my-new-shiny-tokenizer"
 	},
 	{
@@ -134276,10 +134263,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-1000-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "cambridgeltl/simctg_lccc"
 	},
@@ -134309,11 +134292,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daisyxie21/bert-base-uncased-10-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "lonewanderer27/YoshinoriBot"
 	},
@@ -134337,6 +134315,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "sana-ngu/HaT5"
 	},
 	{
@@ -134385,6 +134364,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jgammack/MTL-bert-base-uncased-ww"
 	},
 	{
@@ -134394,6 +134374,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "StephennFernandes/wav2vec2-XLS-R-300m-assamese"
 	},
 	{
@@ -134406,6 +134387,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "bitsanlp/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-with-LM"
 	}
 ]
