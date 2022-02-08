@@ -134077,6 +134077,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "asafaya/hubert-large-arabic"
 	},
 	{
@@ -134153,10 +134154,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "HamidRezaAttar/wav2vec2-large-xls-r-300m-fa-colab"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "yuxingwu/new-transformers-model-Helsinki-NLP-opus-mt-ja-en-origin-finetuned"
 	},
 	{
 		"private": false,
-		"modelId": "yuxingwu/new-transformers-model-Helsinki-NLP-opus-mt-ja-en-origin-finetuned"
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-8-0-test"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-rm-sursilv-d11"
+	},
+	{
+		"private": false,
+		"modelId": "asafaya/hubert-large-arabic-ft"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__sst2__train-8-1-test"
 	}
 ]
