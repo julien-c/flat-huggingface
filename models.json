@@ -41741,11 +41741,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "cakiki/roberta-base-als"
-	},
-	{
-		"private": false,
 		"modelId": "ceyda/clip-reply"
 	},
 	{
@@ -131990,10 +131985,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kazandaev/X_opus-mt-en-ru-finetuned-v3-en-to-ru"
-	},
-	{
-		"private": false,
 		"modelId": "keras-io/Video-Classification_CNN-RNN_UCF101"
 	},
 	{
@@ -134249,6 +134240,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "deepdml/wav2vec2-large-xls-r-300m-basque"
 	},
 	{
@@ -134394,5 +134386,22 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-with-LM"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-10-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es"
+	},
+	{
+		"private": false,
+		"modelId": "espnet/brianyan918_iwslt22_dialect_train_st_conformer_ctc0.3_lr2e-3_warmup15k_newspecaug"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/test0"
 	}
 ]
