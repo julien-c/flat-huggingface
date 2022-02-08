@@ -131893,11 +131893,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jhonparra18/wav2vec2-large-xls-r-300m-spanish-large"
-	},
-	{
-		"private": false,
 		"modelId": "jhonparra18/wav2vec2-large-xls-r-300m-spanish-small"
 	},
 	{
@@ -134336,6 +134331,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_6_ft_3"
 	},
 	{
@@ -134355,11 +134351,6 @@
 	{
 		"private": false,
 		"modelId": "espnet/brianyan918_iwslt22_dialect_train_st_conformer_ctc0.3_lr2e-3_warmup15k_newspecaug"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/test0"
 	},
 	{
 		"private": false,
@@ -134472,10 +134463,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/test7"
-	},
-	{
-		"private": false,
 		"modelId": "StephennFernandes/wav2vec2-XLS-R-300m-konkani"
 	},
 	{
@@ -134489,6 +134476,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-wx33"
+		"modelId": "Aastha/wav2vec2-large-xls-r-300m-hi-v3"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-with-LM"
+	},
+	{
+		"private": false,
+		"modelId": "supriyasathya/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "jhonparra18/wav2vec2-xls-r-300m-spanish-large-noLM"
 	}
 ]
