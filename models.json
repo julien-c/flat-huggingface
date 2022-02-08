@@ -134239,11 +134239,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "premrawat/model_ner_skills"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "arredondos/my_sentence_transformer"
 	},
@@ -134254,5 +134249,15 @@
 	{
 		"private": false,
 		"modelId": "robkayinto/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "cambridgeltl/simctg_english_wikipedia"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "premrawat/en_model_ner_skills"
 	}
 ]
