@@ -100609,6 +100609,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large"
 	},
 	{
@@ -126105,6 +126106,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-roberta-large"
 	},
 	{
@@ -134230,6 +134232,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "robkayinto/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
@@ -134268,6 +134271,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "jgammack/MTL-distilbert-base-uncased-squad"
 	},
 	{
@@ -134318,7 +134322,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "lonewanderer27/YoshinoriBot"
 	},
 	{
@@ -134336,5 +134340,30 @@
 	{
 		"private": false,
 		"modelId": "hgharibi/wav2vec2-xls-r-300m-fa"
+	},
+	{
+		"private": false,
+		"modelId": "sana-ngu/HaT5"
+	},
+	{
+		"private": false,
+		"modelId": "nykodmar/wav2vec2-xls-r-300m-cs-cv8.0-v3"
+	},
+	{
+		"private": false,
+		"modelId": "stefanof/sf-model-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-as-dz1"
+	},
+	{
+		"private": false,
+		"modelId": "sakai026/Mizuhara"
+	},
+	{
+		"private": false,
+		"modelId": "heabeoun/DiabloGPT-small-nuon-conv"
 	}
 ]
