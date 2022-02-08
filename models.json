@@ -130697,6 +130697,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-sl-a2"
+	},
+	{
+		"private": false,
 		"modelId": "Eshtemele/DialoGPT-large-Michael"
 	},
 	{
@@ -133971,6 +133976,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "nickmuchi/fb-bart-large-finetuned-trade-the-event-finance-summarizer"
 	},
 	{
@@ -134087,5 +134093,14 @@
 	{
 		"private": false,
 		"modelId": "akgunomerfaruk/witchcraft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__sst2__all-train-test-1234"
+	},
+	{
+		"private": false,
+		"modelId": "ogpat123/DialoGPT-small-Michael1"
 	}
 ]
