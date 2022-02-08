@@ -132930,6 +132930,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "azuur/wav2vec2-base-gn-demo"
 	},
 	{
@@ -133035,11 +133036,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-xl-nl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-kk-n2"
 	},
 	{
 		"private": false,
@@ -133959,5 +133955,22 @@
 	{
 		"private": false,
 		"modelId": "fznmhmmd/my-new-shiny-tokenizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_0_ft_3"
+	},
+	{
+		"private": false,
+		"modelId": "lixin67/finetuning-sentiment-model-3000-samples"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-mt-o1"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/fb-bart-large-finetuned-trade-the-event-finance-summarizer"
 	}
 ]
