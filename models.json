@@ -84705,11 +84705,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Duugu/alexia-bot-test"
 	},
@@ -133043,6 +133038,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-kk-n2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-xl-nl8"
 	},
@@ -133920,5 +133920,21 @@
 	{
 		"private": false,
 		"modelId": "TheDiamondKing/DialoGPT-Small-HarryPotterBot"
+	},
+	{
+		"private": false,
+		"modelId": "pyf98/librispeech_100h_conformer"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/roberta-base-squad"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/SAE-distilbert-base-uncased-squad"
+	},
+	{
+		"private": false,
+		"modelId": "ASCCCCCCCC/PENGMENGJIE-finetuned-emotion"
 	}
 ]
