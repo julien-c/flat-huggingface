@@ -132887,6 +132887,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-g1"
 	},
 	{
@@ -133930,6 +133931,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "jgammack/SAE-distilbert-base-uncased-squad"
 	},
 	{
@@ -133965,6 +133967,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-mt-o1"
 	},
 	{
@@ -133975,5 +133978,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/distilbert-base-uncased-finetuned-sst-2-english-finetuned-argumentative"
+	},
+	{
+		"private": false,
+		"modelId": "hyesunyun/NonsenseUpdateDiffStringBart"
+	},
+	{
+		"private": false,
+		"modelId": "mnrath/wav2vec2-large-xlsr-khmer-augmented"
 	}
 ]
