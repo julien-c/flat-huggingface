@@ -132161,10 +132161,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "muellerzr/dummy"
-	},
-	{
-		"private": false,
 		"modelId": "muellerzr/dummyv2"
 	},
 	{
@@ -134412,6 +134408,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "parigaswetha/DialoGPT-small-jakeperalta"
 	},
 	{
@@ -134456,10 +134453,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Mofe/output"
 	},
 	{
 		"private": false,
 		"modelId": "TimeRobber/tokenizer_v0"
+	},
+	{
+		"private": false,
+		"modelId": "muellerzr/dummy"
 	}
 ]
