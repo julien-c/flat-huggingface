@@ -134350,6 +134350,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "jgammack/MTL-bert-base-uncased-ww-squad"
 	},
 	{
@@ -134435,10 +134436,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-gn-k1"
-	},
-	{
-		"private": false,
 		"modelId": "bigscience-catalogue-lm-data/tokenizer_v0"
 	},
 	{
@@ -134507,15 +134504,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-test-as"
-	},
-	{
-		"private": false,
 		"modelId": "Amalq/distilroberta_schizo"
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-test555"
+		"pipeline_tag": "token-classification",
+		"modelId": "danasone/rubert-tiny-essay"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-9"
 	}
 ]
