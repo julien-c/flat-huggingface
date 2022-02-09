@@ -40541,7 +40541,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "dingkun/retrievalv1"
 	},
 	{
@@ -132302,40 +132301,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst2__all-train-test-123"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst2__all-train-test-1234"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst2__all-train-test-12345"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst2__all-train-test-123456"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst2__all-train-test-1234567"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__sst2__train-8-0-test"
-	},
-	{
-		"private": false,
-		"modelId": "SetFit/distilbert-base-uncased__sst2__train-8-1-test"
-	},
-	{
-		"private": false,
 		"modelId": "ShengdingHu/test_delta_model"
 	},
 	{
@@ -134816,5 +134781,46 @@
 	{
 		"private": false,
 		"modelId": "merve/model-card-final"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/sentence-t5-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/sentence-t5-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "SophieTr/PPO_training"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/sentence-t5-xl"
+	},
+	{
+		"private": false,
+		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/sentence-t5-xxl"
+	},
+	{
+		"private": false,
+		"modelId": "Aastha/wav2vec2-large-xls-r-300m-50-hi"
+	},
+	{
+		"private": false,
+		"modelId": "cyl/mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "merve/model-card-f"
 	}
 ]
