@@ -102887,6 +102887,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-myv-v1"
+	},
+	{
+		"private": false,
 		"modelId": "DuckMeme/Eve"
 	},
 	{
@@ -130649,11 +130654,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-hindi-final"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-CV7"
 	},
 	{
@@ -130776,6 +130776,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-as-dz1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-xls-r-myv-a1"
 	},
 	{
 		"private": false,
@@ -131286,6 +131291,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc-bokmaal-low-27k"
 	},
 	{
@@ -134749,5 +134755,19 @@
 	{
 		"private": false,
 		"modelId": "zroykhi/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/gtr-t5-xl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/gtr-t5-large"
+	},
+	{
+		"private": false,
+		"modelId": "chatdemoiselle/MedMTEVAL_baseline"
 	}
 ]
