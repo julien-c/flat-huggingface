@@ -84646,6 +84646,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bas-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d3"
 	},
 	{
@@ -102888,7 +102893,27 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hsb-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hsb-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-myv-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-v20"
 	},
 	{
 		"private": false,
@@ -130745,10 +130770,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-with-LM"
 	},
@@ -132153,11 +132174,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-xxl"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/test-base-el4"
 	},
 	{
 		"private": false,
@@ -134769,5 +134785,17 @@
 	{
 		"private": false,
 		"modelId": "chatdemoiselle/MedMTEVAL_baseline"
+	},
+	{
+		"private": false,
+		"modelId": "QuickRead/Reward_training_Pegasus_xsum"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/distil-bert-finetune"
+	},
+	{
+		"private": false,
+		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi-lm"
 	}
 ]
