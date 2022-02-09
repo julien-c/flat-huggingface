@@ -135179,11 +135179,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-robust-lm"
-	},
-	{
-		"private": false,
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-in-with-LM"
 	},
 	{
 		"private": false,
@@ -135195,10 +135192,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified_biobert-large-cased"
 	},
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified_biobert-large-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM-v2"
 	}
 ]
