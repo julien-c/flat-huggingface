@@ -134589,10 +134589,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "Sense-X/uniformer_image"
+	},
+	{
+		"private": false,
 		"modelId": "zbreezy/finetuning-sentiment-model-3000-samples"
 	},
 	{
 		"private": false,
 		"modelId": "taesu/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "sana-ngu/HaT5_augmentation"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/finetune-bart-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sl-with-LM-v1"
 	}
 ]
