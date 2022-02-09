@@ -48962,11 +48962,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-augmented-cv-ls"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian"
 	},
 	{
@@ -50288,6 +50283,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zyayoung/cv-full-paper"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian"
 	},
 	{
 		"private": false,
@@ -113969,10 +113969,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "codeceejay/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
 		"modelId": "codename/zxc"
 	},
 	{
@@ -130717,11 +130713,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-cv8-m3"
-	},
-	{
-		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-d111"
 	},
 	{
@@ -134852,7 +134843,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Chiuchiyin/DialoGPT-small-Donald"
 	},
 	{
@@ -134876,6 +134867,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "rhollings/DialoGPT_small_steverogers"
 	},
 	{
@@ -134908,5 +134900,19 @@
 	{
 		"private": false,
 		"modelId": "koobear/bart-finetune"
+	},
+	{
+		"private": false,
+		"modelId": "neelan-elucidate-ai/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-CV7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-cv8"
 	}
 ]
