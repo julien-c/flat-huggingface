@@ -26436,11 +26436,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-300m_01"
-	},
-	{
-		"private": false,
 		"modelId": "google/bert_uncased_L-10_H-128_A-2"
 	},
 	{
@@ -134638,6 +134633,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Evgen/model_awara_text"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bg-with-LM-v1"
 	},
@@ -134680,5 +134680,10 @@
 	{
 		"private": false,
 		"modelId": "arshyajabbari/Persian_Wav2Vec2_Test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "gigant/romanian-wav2vec2"
 	}
 ]
