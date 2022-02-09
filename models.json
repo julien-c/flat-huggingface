@@ -21677,7 +21677,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "philippelaban/summary_loop46"
 	},
 	{
@@ -93007,7 +93007,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "samirt8/wav2vec2-xls-r-1b-fr"
 	},
 	{
@@ -99278,11 +99277,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/mt5-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v4-en-to-ru"
 	},
 	{
 		"private": false,
@@ -119839,14 +119833,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kazandaev/mt5-base"
-	},
-	{
-		"private": false,
-		"modelId": "kazandaev/mt5-large"
-	},
-	{
-		"private": false,
 		"modelId": "kazumahorikawa/kaz"
 	},
 	{
@@ -135190,5 +135176,9 @@
 	{
 		"private": false,
 		"modelId": "PeterRucek/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "Crives/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
