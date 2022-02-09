@@ -131648,11 +131648,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-large-nh8-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-large-nh8-nl32"
 	},
 	{
@@ -134804,6 +134799,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi-lm"
 	},
 	{
@@ -134822,5 +134818,13 @@
 	{
 		"private": false,
 		"modelId": "merve/model-card-f"
+	},
+	{
+		"private": false,
+		"modelId": "KBLab/megatron-bert-base-swedish-cased-new"
+	},
+	{
+		"private": false,
+		"modelId": "Chiuchiyin/Donald"
 	}
 ]
