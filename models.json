@@ -134723,6 +134723,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "phongdtd/wavlm-vindata-demo-dist"
 	},
 	{
@@ -134738,5 +134739,18 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "cambridgeltl/simctg_lccc_dialogue"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "sentence-transformers/gtr-t5-base"
+	},
+	{
+		"private": false,
+		"modelId": "sentence-transformers/gtr-t5-xxl"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds-15s"
 	}
 ]
