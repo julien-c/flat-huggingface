@@ -7940,6 +7940,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Mar-C/BERT-NER"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "cointegrated/rubert-tiny-bilingual-nli"
 	},
@@ -130326,10 +130331,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "zhufy/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "zhuqing/test"
 	},
 	{
@@ -134110,11 +134111,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "HamidRezaAttar/wav2vec2-large-xls-r-300m-fa-colab"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tesemnikov-av/rubert-ner-toxicity"
 	},
@@ -134641,6 +134637,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "KheireddineDaouadi/arsent"
 	},
 	{
@@ -134663,6 +134660,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-kk-with-LM"
 	},
 	{
@@ -134676,6 +134674,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Mar-C/TwitterSentiment"
+	},
+	{
+		"private": false,
+		"modelId": "Sakonii/xlm-roberta-base-nepali"
 	}
 ]
