@@ -7940,11 +7940,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Mar-C/BERT-NER"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "cointegrated/rubert-tiny-bilingual-nli"
 	},
@@ -134663,10 +134658,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sl-with-LM-v2"
 	},
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-kk-with-LM"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/man24car"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_7_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "Mar-C/TwitterSentiment"
 	}
 ]
