@@ -14155,6 +14155,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "flozi00/wav2vec2-xls-r-1b-german"
+	},
+	{
+		"private": false,
 		"modelId": "google/multiberts-seed_12"
 	},
 	{
@@ -134645,11 +134650,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Evgen/model_awara_text"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-bg-with-LM-v1"
 	},
 	{
@@ -134659,5 +134660,13 @@
 	{
 		"private": false,
 		"modelId": "koobear/bart-large-mnli-finetuned-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sl-with-LM-v2"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-kk-with-LM"
 	}
 ]
