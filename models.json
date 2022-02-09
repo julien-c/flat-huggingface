@@ -130796,11 +130796,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-xls-r-as-dz1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-myv-a1"
 	},
 	{
@@ -134788,11 +134783,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "QuickRead/Reward_training_Pegasus_xsum"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/distil-bert-finetune"
+	},
+	{
+		"private": false,
+		"modelId": "apoorvumang/kgt5-wikikg90mv2"
 	},
 	{
 		"private": false,
