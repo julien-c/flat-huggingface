@@ -131041,6 +131041,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_7_ft_0"
 	},
 	{
@@ -132880,6 +132881,11 @@
 	{
 		"private": false,
 		"modelId": "danielvasic/SemCorBert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "dapang/yelp_pos2neg_lm_bart_large"
 	},
 	{
 		"private": false,
@@ -134846,6 +134852,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Chiuchiyin/DialoGPT-small-Donald"
 	},
 	{
@@ -134854,15 +134861,52 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-with-LM"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "wilsoncwc/dontpatronizeme"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/eminem"
+	},
+	{
+		"private": false,
+		"modelId": "rhollings/DialoGPT_small_steverogers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_1_ft_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-with-LM"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/wav2vec2-xls-r-300m-zh-CN-lm"
+	},
+	{
+		"private": false,
+		"modelId": "mohammad1400/asa"
+	},
+	{
+		"private": false,
+		"modelId": "polodealvarado/euskera-spanish"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "tizaino/bert-base-uncased-finetuned-Pisa"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/bart-finetune"
 	}
 ]
