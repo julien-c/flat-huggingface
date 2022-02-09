@@ -43822,7 +43822,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "philippelaban/summary_loop10"
 	},
 	{
@@ -49841,7 +49841,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "philippelaban/summary_loop24"
 	},
 	{
@@ -93007,6 +93007,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "samirt8/wav2vec2-xls-r-1b-fr"
 	},
 	{
@@ -132847,6 +132848,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-paraphrasev2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-cs-250"
 	},
@@ -132954,21 +132960,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-robust-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-robust"
-	},
-	{
-		"private": false,
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-lm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-robust-lm"
 	},
 	{
 		"private": false,
@@ -135179,10 +135172,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Crives/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM-v2"
+	},
+	{
+		"private": false,
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-lm"
+	},
+	{
+		"private": false,
+		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-robust-lm"
+	},
+	{
+		"private": false,
+		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-robust-lm"
 	}
 ]
