@@ -9765,11 +9765,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ibraheemmoosa/xlmindic-base-uniscript"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "razent/SciFive-large-PMC"
 	},
@@ -10100,6 +10095,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "flair/upos-english"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ibraheemmoosa/xlmindic-base-uniscript"
 	},
 	{
 		"private": false,
@@ -30785,6 +30785,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ibraheemmoosa/xlmindic-base-multiscript-soham"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "jalensmh/DialoGPT-medium-jalenbot"
 	},
@@ -33134,11 +33139,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/veryshortstory"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ibraheemmoosa/xlmindic-base-multiscript-soham"
 	},
 	{
 		"private": false,
@@ -130593,7 +130593,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "image-segmentation",
 		"modelId": "Shiyu/my-repo"
 	},
 	{
@@ -133054,11 +133054,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dark-knight/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/old-wav2vec2-xls-r-300m-italian-augmented"
 	},
 	{
 		"private": false,
@@ -135544,5 +135539,9 @@
 	{
 		"private": false,
 		"modelId": "SetFit/deberta-v3-large__sst2__train-8-5"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-8-6"
 	}
 ]
