@@ -135318,6 +135318,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/distilbert-finetune-config"
 	},
 	{
@@ -135340,11 +135341,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "xhlu/tapas-nq-hn-retriever-large-0"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "xhlu/tapas-nq-hn-retriever-large-1"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-twtrobertabase-en-goldebeck"
 	}
 ]
