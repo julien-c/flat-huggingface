@@ -84022,6 +84022,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-6"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xlsr-53_common_voice_20211211085606"
 	},
@@ -93855,6 +93860,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-2"
+	},
+	{
+		"private": false,
 		"modelId": "1757968399/tinybert_4_312_1200"
 	},
 	{
@@ -100618,6 +100633,41 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zwang199/autonlp-traffic_nlp_binary-537215209"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-9"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_7_ft_1"
 	},
 	{
 		"private": false,
@@ -130539,6 +130589,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Maha/OGBV-gender-twtrobertabase-en-founta"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "bitmorse/kickstarter-distilbert-model"
 	},
@@ -134929,52 +134984,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-6"
-	},
-	{
-		"private": false,
 		"modelId": "merve/model-card-final"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-7"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-8-9"
 	},
 	{
 		"private": false,
@@ -135090,11 +135100,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__subj__train-8-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_7_ft_1"
 	},
 	{
 		"private": false,
@@ -135366,10 +135371,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Maha/OGBV-gender-twtrobertabase-en-founta"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Aastha/wav2vec2-large-xls-r-1b-hindi"
 	},
@@ -135401,6 +135402,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-hypertuned-ner"
 	},
 	{
@@ -135410,5 +135412,25 @@
 	{
 		"private": false,
 		"modelId": "HamidRezaAttar/wav2vec2-large-xls-r-300m-fa-colab-new"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/Wav2Vec-Template"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_7_ft_2"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-0"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-1"
 	}
 ]
