@@ -12903,6 +12903,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "PereLluis13/wav2vec2-xls-r-300m-ca"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "allenai/longformer-scico"
 	},
@@ -14971,6 +14976,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "PereLluis13/wav2vec2-xls-r-300m-ca-lm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "cambridgeltl/trans-encoder-bi-simcse-bert-large"
 	},
@@ -15207,11 +15217,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Parth/mT5-question-generator"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "PereLluis13/wav2vec2-xls-r-300m-ca"
 	},
 	{
 		"private": false,
@@ -15895,6 +15900,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Luyu/bert-base-mdoc-hdct"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Mahalakshmi/wav2vec2-large-xlsr-53-demo-colab"
 	},
 	{
 		"private": false,
@@ -22193,11 +22203,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "NbAiLab/nb-bert-base-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "PereLluis13/wav2vec2-xls-r-300m-ca-lm"
 	},
 	{
 		"private": false,
@@ -34187,7 +34192,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nairaxo/dvoice-darija"
 	},
 	{
@@ -46347,11 +46352,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maelstrom77/bert-base-uncased-MRPC"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Mahalakshmi/wav2vec2-large-xlsr-53-demo-colab"
 	},
 	{
 		"private": false,
@@ -130641,10 +130641,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ghadeermobasher/BioNLP13CG-Chem_Imbalanced-biobert-large-cased-v1.1"
-	},
-	{
-		"private": false,
 		"modelId": "0x7194633/gameGPT"
 	},
 	{
@@ -135579,10 +135575,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/deberta-v3-large__sst2__train-16-4"
 	},
@@ -135710,6 +135702,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-biobert"
 	},
 	{
@@ -135718,6 +135711,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Erfan/mT5-base_Farsi_Title_Generator_plus"
 	},
 	{
@@ -135728,5 +135722,14 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Nymiz/PRUEBA"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BioNLP13CG-Chem_Imbalanced-biobert"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
 	}
 ]
