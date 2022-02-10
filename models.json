@@ -11045,6 +11045,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "FuriouslyAsleep/markuplm-large-finetuned-qa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "alenusch/rugpt3-paraphraser"
 	},
@@ -14305,11 +14310,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DaNLP/da-bert-hatespeech-detection"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "FuriouslyAsleep/markuplm-large-finetuned-qa"
 	},
 	{
 		"private": false,
@@ -86215,6 +86215,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "SophieTr/PPO_training"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/xlm-roberta-base-finetuned2-nerconcat-base"
 	},
@@ -132583,11 +132588,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "SophieTr/PPO_training"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "SpacyGalaxy/DialoGPT-medium-Gandalf"
 	},
@@ -135900,10 +135900,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_large-clinical"
+		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_l"
 	},
 	{
 		"private": false,
-		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_large"
+		"pipeline_tag": "image-classification",
+		"modelId": "ibombonato/vit-age-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_cl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Jorgeutd/albert-base-v2-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "dorltcheng/distilbert-base-uncased-finetuned-imdb"
 	}
 ]
