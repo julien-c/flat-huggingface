@@ -32433,6 +32433,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "junnyu/eHealth_pytorch"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "kingabzpro/wav2vec2-urdu"
 	},
@@ -41760,6 +41764,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "chitra/finetuned-adversarial-paraphrasing-detector"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
 	},
 	{
 		"private": false,
@@ -86479,6 +86488,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "anantoj/wav2vec2-xls-r-300m-zh-CN"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "andi611/bert-base-uncased-ner-conll2003"
 	},
@@ -87034,11 +87048,6 @@
 	{
 		"private": false,
 		"modelId": "countrysideid/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds"
 	},
 	{
 		"private": false,
@@ -93838,10 +93847,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "zuto37/DialoGPT-small-sadao"
-	},
-	{
-		"private": false,
-		"modelId": "kobe/vit-base-beans"
 	},
 	{
 		"private": false,
@@ -120149,10 +120154,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kobe/wav2vec2-base-ft-keyword-spotting"
-	},
-	{
-		"private": false,
 		"modelId": "kodiak619/vi_law_bert"
 	},
 	{
@@ -132617,11 +132618,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anantoj/wav2vec2-xls-r-300m-zh-CN"
-	},
-	{
-		"private": false,
 		"modelId": "anas-awadalla/bart-base-finetuned-squad"
 	},
 	{
@@ -132921,11 +132917,6 @@
 	{
 		"private": false,
 		"modelId": "creynier/wav2vec2-base-swbd-turn-eos"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-fds-15s"
 	},
 	{
 		"private": false,
@@ -135322,10 +135313,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/bart-finetune-config"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "koobear/distilbert-finetune-config"
 	},
@@ -135415,5 +135402,13 @@
 	{
 		"private": false,
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-hypertuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "oferweintraub/bert-base-finance-sentiment-noisy-search"
+	},
+	{
+		"private": false,
+		"modelId": "HamidRezaAttar/wav2vec2-large-xls-r-300m-fa-colab-new"
 	}
 ]
