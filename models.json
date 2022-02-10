@@ -30949,6 +30949,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/WavLM-large-CORAA-pt"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "madlag/albert-base-v2-squad"
 	},
@@ -52631,11 +52636,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "laxya007/gpt2_manage"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/WavLM-large-CORAA-pt"
 	},
 	{
 		"private": false,
@@ -93268,6 +93268,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S-Biomed-Roberta-snli-multinli-stsb"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pritoms/distilgpt2-finetuned-mit-lecture"
 	},
@@ -99851,6 +99856,11 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "lgris/distilxlsr_bp_4-12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv8"
 	},
 	{
 		"private": false,
@@ -121099,11 +121109,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/wav2vec2-large-xlsr-coraa-portuguese-cv8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/wav2vec2-xls-r-300m-gn-cv8"
 	},
 	{
@@ -125114,6 +125119,11 @@
 	{
 		"private": false,
 		"modelId": "pritamdeka/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext-finetuned-cord19"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S-Bluebert-snli-multinli-stsb"
 	},
 	{
 		"private": false,
@@ -135953,6 +135963,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_CHEM_PubmedBERT"
+	},
+	{
+		"private": false,
+		"modelId": "thyagosme/bert-base-uncased-finetuned-swag"
 	}
 ]
