@@ -34196,6 +34196,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Elron/bleurt-tiny-512"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Geotrend/bert-base-en-de-cased"
 	},
@@ -35616,11 +35621,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "CLTL/icf-levels-ber"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Elron/bleurt-tiny-512"
 	},
 	{
 		"private": false,
@@ -130627,6 +130627,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/iiif_manuscript_vit"
+	},
+	{
+		"private": false,
 		"modelId": "0x7194633/gameGPT"
 	},
 	{
@@ -135518,6 +135522,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "hadxu/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -135579,6 +135584,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-indicbert-ta-eacl21"
 	},
 	{
@@ -135601,5 +135607,13 @@
 	{
 		"private": false,
 		"modelId": "SetFit/deberta-v3-large__sst2__train-16-8"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-16-9"
+	},
+	{
+		"private": false,
+		"modelId": "Iker/Unicorn"
 	}
 ]
