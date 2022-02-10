@@ -135338,10 +135338,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Maha/OGBV-gender-twtrobertabase-en-hateeval19"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "xhlu/tapas-nq-hn-retriever-large-0"
 	},
@@ -135369,6 +135365,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "candra/indo-headline-similarity"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/wav2vec2-xls-r-300m-zh-HK-lm-v3"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-twtrobertabase-en-davidson"
 	}
 ]
