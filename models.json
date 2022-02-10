@@ -19022,6 +19022,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/odia_large_wav2vec2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-es-ro"
 	},
@@ -19302,11 +19307,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Hamas/DialoGPT-large-jake3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/odia_large_wav2vec2"
 	},
 	{
 		"private": false,
@@ -135812,10 +135812,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "satpalsr/deeplabv3p-resnet50"
-	},
-	{
-		"private": false,
 		"modelId": "nielsr/vit-base-patch16-224-in21k-finetuned-cifar10"
 	},
 	{
@@ -135830,5 +135826,18 @@
 	{
 		"private": false,
 		"modelId": "eric14a/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "RajSang/bert-finetuned-sarcastic-news-headlines"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/deeplabv3p-resnet50"
+	},
+	{
+		"private": false,
+		"modelId": "CL/safe-math-bot"
 	}
 ]
