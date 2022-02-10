@@ -20050,6 +20050,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vutankiet2901/wav2vec2-large-xlsr-53-ja"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "HarrisDePerceptron/xls-r-1b-ur"
 	},
 	{
@@ -21031,6 +21036,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "socrates/socrates2.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vutankiet2901/wav2vec2-xls-r-1b-ja"
 	},
 	{
 		"private": false,
@@ -28200,6 +28210,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "voidful/question-answering-zh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vumichien/wav2vec2-xls-r-1b-japanese"
 	},
 	{
 		"private": false,
@@ -48090,6 +48105,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "vishnun/distilgpt2-finetuned-tamilmixsentiment"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-1b-khmer"
 	},
 	{
 		"private": false,
@@ -74759,6 +74779,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vidhur2k/mBERT-GermanicLang"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "vitouphy/wav2vec2-xls-r-300m-english"
 	},
 	{
 		"private": false,
@@ -130800,6 +130825,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "am-shb/bert-base-multilingual-uncased-pretrained"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-with-LM-v1"
 	},
@@ -134791,32 +134821,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/wav2vec2-xls-r-1b-khmer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vitouphy/wav2vec2-xls-r-300m-english"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "vitouphy/wav2vec2-xls-r-300m-khmer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vumichien/wav2vec2-xls-r-1b-japanese"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vutankiet2901/wav2vec2-large-xlsr-53-ja"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vutankiet2901/wav2vec2-xls-r-1b-ja"
 	},
 	{
 		"private": false,
@@ -135206,10 +135211,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "fznmhmmd/bert-base-cased-wikitext2"
-	},
-	{
-		"private": false,
-		"modelId": "am-shb/bert-base-multilingual-uncased-pretrained"
 	},
 	{
 		"private": false,
@@ -135739,11 +135740,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Nymiz/PRUEBA"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "StephennFernandes/XLS-R-300m-marathi"
 	},
 	{
@@ -135763,5 +135760,13 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-pubmedbert"
+	},
+	{
+		"private": false,
+		"modelId": "NikhilMenon/Test"
+	},
+	{
+		"private": false,
+		"modelId": "Nymiz/test"
 	}
 ]
