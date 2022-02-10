@@ -29385,6 +29385,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "diiogo/berta-v32k-lr7"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "echarlaix/bart-base-cnn-r2-18.7-d23-hybrid"
 	},
@@ -130843,11 +130848,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/t5-v1_1-base-finetuned-eli5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-with-LM-v1"
 	},
@@ -133178,11 +133178,6 @@
 	{
 		"private": false,
 		"modelId": "denohepo/v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "diiogo/berta-v32k-lr7"
 	},
 	{
 		"private": false,
@@ -135708,11 +135703,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "flozi00/wav2vec2-xls-r-1b-german-8khz"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem_Imbalanced-biobert"
 	},
@@ -135761,10 +135751,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_1_ft_3"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/t5-base-arxiv-summ"
 	},
 	{
 		"private": false,
@@ -135839,5 +135825,9 @@
 	{
 		"private": false,
 		"modelId": "CL/safe-math-bot"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/t5-base-arxiv-summ-finetuned"
 	}
 ]
