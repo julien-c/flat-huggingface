@@ -48023,11 +48023,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Connorvr/CTeachingGen"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Davlan/byt5-base-eng-yor-mt"
 	},
@@ -130736,11 +130731,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-with-LM"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-pa-IN-dx1"
 	},
 	{
@@ -135243,5 +135233,28 @@
 	{
 		"private": false,
 		"modelId": "pszemraj/t5-v1_1-base-finetuned-eli5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-with-LM-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Connorvr/TeachingGen"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-with-LM-v1"
+	},
+	{
+		"private": false,
+		"modelId": "SteveC/sdc_bot_small"
+	},
+	{
+		"private": false,
+		"modelId": "fznmhmmd/distilbert-base-uncased-finetuned-cola"
 	}
 ]
