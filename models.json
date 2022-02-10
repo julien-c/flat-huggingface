@@ -74742,6 +74742,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "merve/model-card-toggle-test4"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xls-r-300m-tr-colab"
 	},
@@ -85615,6 +85619,11 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "Sena/flowers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/deberta-v3-large__sst2__train-8-0"
 	},
 	{
 		"private": false,
@@ -130593,6 +130602,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "w11wo/wav2vec2-xls-r-300m-zh-HK-lm-v3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-founta"
 	},
@@ -132411,11 +132425,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "SetFit/deberta-v3-large__sst2__train-8-0"
-	},
-	{
-		"private": false,
 		"modelId": "SetFit/deberta-v3-large__sst2__train-8-1"
 	},
 	{
@@ -133832,24 +133841,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/bart-finetune"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/bart-large-mnli-finetuned-mnli"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "koobear/distil-bert-finetune"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/distilbert-base-uncased-finetuned-mnli"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/finetune-bart-mnli"
 	},
 	{
 		"private": false,
@@ -135155,11 +135148,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "object-detection",
-		"modelId": "merve/model-card-toggle-test4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "remotejob/bert2bertv5_v0"
 	},
@@ -135356,11 +135344,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-zh-HK-lm-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-davidson"
 	},
@@ -135398,6 +135381,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/distilbert-finetune-config-newdataset"
 	},
 	{
@@ -135458,22 +135442,93 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-6"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-7"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-8"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-9"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-6"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-twtrobertabase-en-trac1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-9"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "sardinaerum/mt5"
+	},
+	{
+		"private": false,
+		"modelId": "jindongwang/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-8-2"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-8-3"
 	}
 ]
