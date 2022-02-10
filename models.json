@@ -53818,6 +53818,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "Helsinki-NLP/opus-mt-tc-base-gmw-gmw"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Hinova/distilbert-base-uncased-finetuned-cola"
 	},
@@ -94940,11 +94945,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "Helsinki-NLP/opus-mt-tc-base-gmw-gmw"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "HieuLV3/QA_UIT_xlm_roberta_large"
 	},
@@ -135866,6 +135866,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_7_ft_3"
 	},
 	{
@@ -135941,6 +135942,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "hadifar/clozify"
+	},
+	{
+		"private": false,
+		"modelId": "ardauzunoglu/sentence-relatedness"
 	}
 ]
