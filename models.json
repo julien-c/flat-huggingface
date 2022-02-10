@@ -135848,6 +135848,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "uf-aice-lab/math_roberta"
 	},
 	{
@@ -135930,6 +135931,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/bert-base-uncased-finetuned-ner-kmeans"
 	},
 	{
@@ -135939,5 +135941,9 @@
 	{
 		"private": false,
 		"modelId": "dorltcheng/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_clinical"
 	}
 ]
