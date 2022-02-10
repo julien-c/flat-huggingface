@@ -29428,6 +29428,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi-lm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "stanfordnlp/stanza-ur"
 	},
@@ -37481,6 +37486,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/XLSR-1B-bokmaal-low"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NicolasPeruchot/Biography"
 	},
@@ -40313,6 +40323,11 @@
 		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "NYTK/translation-bart-128-en-hu"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_scandinavian"
 	},
 	{
 		"private": false,
@@ -92763,6 +92778,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "phongdtd/wavlm-vindata-demo-dist"
+	},
+	{
+		"private": false,
 		"modelId": "pi3ni0/pubmedqa-scibert-classical"
 	},
 	{
@@ -93587,6 +93607,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vera-pro/bert-mention-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "versae/roberta-base-ncc-512d"
 	},
 	{
 		"private": false,
@@ -100471,11 +100496,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "vaughnw128/DialoGPT-medium-sexybabeycord"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "versae/roberta-base-ncc-512d"
 	},
 	{
 		"private": false,
@@ -130495,6 +130515,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "bitmorse/kickstarter-distilbert-model"
+	},
+	{
+		"private": false,
 		"modelId": "0x7194633/gameGPT"
 	},
 	{
@@ -131305,22 +131330,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/XLSR-1B-bokmaal-low"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/XLSR-300M-bokmaal"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/XLSR-300M-nynorsk"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_scandinavian"
 	},
 	{
 		"private": false,
@@ -134152,11 +134167,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "phongdtd/wavlm-vindata-demo-dist"
-	},
-	{
-		"private": false,
 		"modelId": "pinthe/test"
 	},
 	{
@@ -134492,11 +134502,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shivam/wav2vec2-xls-r-300m-marathi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "shoubhik/wav2vec2-xls-r-300m-hindi-lm"
 	},
 	{
 		"private": false,
@@ -135386,15 +135391,19 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "bitmorse/kickstarter-distilbert-model"
-	},
-	{
-		"private": false,
 		"modelId": "Aastha/wav2vec2-large-xls-r-1b-hindi"
 	},
 	{
 		"private": false,
 		"modelId": "yoonyeong/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "adam1224/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "adam1224/dummy-model2"
 	}
 ]
