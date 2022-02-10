@@ -13242,6 +13242,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "audio-to-audio",
 		"modelId": "julien-c/DPRNNTasNet-ks16_WHAM_sepclean"
 	},
@@ -13872,11 +13877,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Ivo/emscad-skill-extraction"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/roberta-large-japanese-luw-upos"
 	},
 	{
 		"private": false,
@@ -15465,11 +15465,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/roberta-small-japanese-char-luw-upos"
-	},
-	{
-		"private": false,
 		"modelId": "anton-l/wav2vec2-base-superb-sv"
 	},
 	{
@@ -15548,11 +15543,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ImAPizza/DialoGPT-medium-alberttwo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/roberta-small-japanese-luw-upos"
 	},
 	{
 		"private": false,
@@ -17823,6 +17813,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "kingabzpro/wav2vec2-60-urdu"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "m3hrdadfi/albert-fa-base-v2-clf-persiannews"
 	},
@@ -18378,11 +18373,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-xls-r-300m-hebrew"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "lacai/gpt2-xl-dialog-narrative-persuasion"
 	},
@@ -18698,11 +18688,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ken11/albert-base-japanese-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "kingabzpro/wav2vec2-60-urdu"
 	},
 	{
 		"private": false,
@@ -19704,6 +19689,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-300m-lm-hebrew"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "inywer/DialoGPT-medium-leirbag"
 	},
@@ -19966,6 +19956,11 @@
 		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-dra"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-large-japanese-luw-upos"
 	},
 	{
 		"private": false,
@@ -27470,6 +27465,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-el"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "bayartsogt/mongolian-gpt2"
 	},
@@ -33074,6 +33074,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-small-japanese-char-luw-upos"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-small-japanese-luw-upos"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "NYTK/translation-bart-hu-en"
 	},
@@ -34667,6 +34677,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anuragshas/wav2vec2-xls-r-300m-lv-cv8-with-lm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
 	},
 	{
 		"private": false,
@@ -39297,6 +39312,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Alireza1044/albert-base-v2-mrpc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1b-japanese-hiragana-katakana"
 	},
 	{
 		"private": false,
@@ -52460,11 +52480,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "imthanhlv/t5vi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-xls-r-300m-lm-hebrew"
 	},
 	{
 		"private": false,
@@ -72373,6 +72388,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ifis-zork/ZORK_AI_FAN_TEMP"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "imvladikon/wav2vec2-xls-r-1b-hebrew"
 	},
 	{
 		"private": false,
@@ -96040,11 +96060,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "b0shakk/DialoGPT-small-Ragnar"
 	},
@@ -118906,11 +118921,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "imvladikon/wav2vec2-xls-r-1b-hebrew"
-	},
-	{
-		"private": false,
 		"modelId": "inaccel/inception_v1_tf"
 	},
 	{
@@ -125570,10 +125580,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "reach-vb/keras-dummy-functional-demo"
-	},
-	{
-		"private": false,
 		"modelId": "recklessronan/plcodebert"
 	},
 	{
@@ -130940,11 +130946,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AndrewMcDowell/wav2vec2-xls-r-1b-japanese-hiragana-katakana"
-	},
-	{
-		"private": false,
 		"modelId": "Andrey1989/mt5-small-finetuned-mlsum-es"
 	},
 	{
@@ -132912,11 +132913,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-ar"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-el"
 	},
 	{
 		"private": false,
@@ -135799,5 +135795,14 @@
 	{
 		"private": false,
 		"modelId": "shekharkoirala/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "erfan226/persian-t5-paraphraser"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-16-100-2e-05"
 	}
 ]
