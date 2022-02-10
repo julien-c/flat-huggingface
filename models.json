@@ -10927,11 +10927,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/borisdayma"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "m3hrdadfi/bert-fa-base-uncased-wikinli-mean-tokens"
 	},
@@ -11407,6 +11402,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "gagan3012/keytotext-gpt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/borisdayma"
 	},
 	{
 		"private": false,
@@ -135828,10 +135828,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/t5-base-arxiv-summ-finetuned"
-	},
-	{
-		"private": false,
 		"modelId": "Yuqian/Celine_SRL"
 	},
 	{
@@ -135840,10 +135836,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "RajSang/MiniLMv2-from-bert-base-finetuned-sarcastic-news-headlines"
+	},
+	{
+		"private": false,
+		"modelId": "uf-aice-lab/SafeMathBot"
+	},
+	{
+		"private": false,
 		"modelId": "nghosh/ResNet50-imagenet"
 	},
 	{
 		"private": false,
-		"modelId": "RajSang/MiniLMv2-from-bert-base-finetuned-sarcastic-news-headlines"
+		"modelId": "Jeevesh8/multiberts_seed_7_ft_3"
 	}
 ]
