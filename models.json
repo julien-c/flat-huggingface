@@ -17194,6 +17194,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/hindi_large_wav2vec2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-rn"
 	},
@@ -17702,11 +17707,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "FangLee/DialoGPT-small-Kirito"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/hindi_large_wav2vec2"
 	},
 	{
 		"private": false,
@@ -26224,6 +26224,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "EhsanAghazadeh/xlnet-large-cased-CoLA_A"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/hindi_base_wav2vec2"
 	},
 	{
 		"private": false,
@@ -41605,11 +41610,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "GroNLP/bert-base-dutch-cased-upos-alpino-gronings"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/hindi_base_wav2vec2"
 	},
 	{
 		"private": false,
@@ -135826,5 +135826,9 @@
 	{
 		"private": false,
 		"modelId": "nghosh/dist-shift_ResNet50_imagenet-step-112589"
+	},
+	{
+		"private": false,
+		"modelId": "eric14a/xlm-roberta-base-finetuned-panx-de"
 	}
 ]
