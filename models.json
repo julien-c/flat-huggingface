@@ -9569,6 +9569,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Harveenchadha/hindi_model_with_lm_vakyansh"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mrm8488/electricidad-base-finetuned-muchocine"
 	},
@@ -12788,11 +12793,6 @@
 		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "ARTeLab/it5-summarization-mlsum"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Harveenchadha/hindi_model_with_lm_vakyansh"
 	},
 	{
 		"private": false,
@@ -49803,6 +49803,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jwouts/belabBERT_115k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/mt5-small"
 	},
 	{
 		"private": false,
@@ -99685,11 +99690,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/mt5-small"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "kenlevine/distilbert-base-uncased-finetuned-squad"
 	},
@@ -135708,6 +135708,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "flozi00/wav2vec2-xls-r-1b-german-8khz"
 	},
 	{
@@ -135803,14 +135804,35 @@
 	},
 	{
 		"private": false,
-		"modelId": "satpalsr/deeplabv3p-resnet50"
-	},
-	{
-		"private": false,
 		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
 	},
 	{
 		"private": false,
 		"modelId": "arunkottilukkal/multi-lingual-ner-ar-de-en-es-fr-it-lv-nl-pt-zh"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/deeplabv3p-old"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/deeplabv3p-resnet50"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/vit-base-patch16-224-in21k-finetuned-cifar10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sanchit-gandhi/dummy_flax_wav2vec2_with_adapter"
+	},
+	{
+		"private": false,
+		"modelId": "nghosh/dist-shift"
+	},
+	{
+		"private": false,
+		"modelId": "nghosh/dist-shift_ResNet50_imagenet-step-112589"
 	}
 ]
