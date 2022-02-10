@@ -130593,6 +130593,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "FremyCompany/xls-r-2b-nl-v2_lm-5gram-os2_hunspell"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_1_ft_2"
 	},
@@ -135028,11 +135033,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ardauzunoglu/ctg-ovk"
-	},
-	{
-		"private": false,
 		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-es-Test"
 	},
 	{
@@ -135042,11 +135042,6 @@
 	{
 		"private": false,
 		"modelId": "espejelomar/pruebita2345678"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "FremyCompany/xls-r-2b-nl-v2_lm-5gram-os2_hunspell"
 	},
 	{
 		"private": false,
@@ -135383,10 +135378,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/Wav2Vec-Template"
 	},
@@ -135568,5 +135559,22 @@
 	{
 		"private": false,
 		"modelId": "SetFit/deberta-v3-large__sst2__train-16-2"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-16-3"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-16-4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ardauzunoglu/mlm-ovk"
 	}
 ]
