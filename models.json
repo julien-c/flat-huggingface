@@ -14121,6 +14121,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Sin/DialoGPT-small-zai"
 	},
@@ -14705,6 +14710,11 @@
 		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-ca"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-lm"
 	},
 	{
 		"private": false,
@@ -23119,11 +23129,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "SEBIS/code_trans_t5_large_code_documentation_generation_python_multitask_finetune"
 	},
@@ -30618,6 +30623,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Nihwy/DialoSqui"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Rolv-Arild/xls-r-300m-npsc-seq2seq"
 	},
 	{
 		"private": false,
@@ -46445,11 +46455,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc-bokmaal-low-27k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "PereLluis13/wav2vec2-xls-r-1b-ca-lm"
 	},
 	{
 		"private": false,
@@ -132415,11 +132420,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Rolv-Arild/xls-r-300m-npsc-seq2seq"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Rumesh/mbart-si-simp"
 	},
@@ -135661,11 +135661,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Nymiz/PRUEBA"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-indicbert-ta-hasoc21"
 	},
@@ -135724,5 +135719,14 @@
 	{
 		"private": false,
 		"modelId": "Erfan/mT5-base_Farsi_Title_Generator_plus"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wav2vec2-xls-r-1b-german-8khz"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Nymiz/PRUEBA"
 	}
 ]
