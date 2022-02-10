@@ -20050,6 +20050,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "ttntran/DialoGPT-small-human"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AkshaySg/gramCorrection"
 	},
@@ -20821,11 +20826,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "sentence-transformers/msmarco-MiniLM-L-12-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "ttntran/DialoGPT-small-human"
 	},
 	{
 		"private": false,
@@ -46410,6 +46410,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Naturealbe/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc-bokmaal-low-27k"
 	},
 	{
 		"private": false,
@@ -131354,11 +131359,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc-bokmaal-low-27k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-xls-r-1b-npsc-bokmaal"
 	},
 	{
@@ -133764,10 +133764,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kobe/vit-base-beans"
-	},
-	{
-		"private": false,
 		"modelId": "koobear/bart-finetune"
 	},
 	{
@@ -135231,11 +135227,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "vuiseng9/replicate-wav2vec2-librispeech-clean-100h-demo-dist"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "chan030609/DialoGPT-small-JAB"
 	},
@@ -135405,5 +135396,13 @@
 	{
 		"private": false,
 		"modelId": "adam1224/dummy-model2"
+	},
+	{
+		"private": false,
+		"modelId": "adam1224/dummy-model3"
+	},
+	{
+		"private": false,
+		"modelId": "junzai/ai12"
 	}
 ]
