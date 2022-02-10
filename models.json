@@ -130593,6 +130593,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Shiyu/my-repo"
 	},
 	{
@@ -133057,11 +133058,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/old-wav2vec2-xls-r-1b-italian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "dbdmg/old-wav2vec2-xls-r-300m-italian-augmented"
 	},
 	{
@@ -135386,6 +135382,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "oferweintraub/bert-base-finance-sentiment-noisy-search"
 	},
 	{
@@ -135537,10 +135534,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-trac2"
 	},
 	{
 		"private": false,
 		"modelId": "hadxu/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-8-5"
 	}
 ]
