@@ -68030,6 +68030,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Mofe/xls-r-hausa-40"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "MohaAM/en_pipeline"
 	},
@@ -131434,11 +131439,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Mofe/xls-r-hausa-40"
-	},
-	{
-		"private": false,
 		"modelId": "MrezaPRZ/checkpoint-2500-finetuned"
 	},
 	{
@@ -135752,11 +135752,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/xlm-roberta-base-english-upos"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "satyaalmasian/temporal_tagger_German_GELECTRA"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-pubmedbert"
 	}
 ]
