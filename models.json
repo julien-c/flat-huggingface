@@ -110808,11 +110808,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "akadriu/wav2vec2-large-xlsr-53-AL"
-	},
-	{
-		"private": false,
 		"modelId": "akahana/indonesia-distilbert"
 	},
 	{
@@ -135497,6 +135492,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-trac1"
 	},
 	{
@@ -135530,5 +135526,9 @@
 	{
 		"private": false,
 		"modelId": "SetFit/deberta-v3-large__sst2__train-8-3"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-8-4"
 	}
 ]
