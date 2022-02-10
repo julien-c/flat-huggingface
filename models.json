@@ -100513,11 +100513,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "xhlu/tapas-large-finetuned-nq-hn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "xiaoheiqaq/DialoGPT-smallharrypotter"
 	},
@@ -135278,10 +135273,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-with-LM"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-COVID-HATE-finetuned-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "xhlu/tapas-nq-hn-retriever-medium-0"
+	},
+	{
+		"private": false,
+		"modelId": "padalah/nlpProject"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "xhlu/tapas-nq-hn-retriever-medium-1"
 	}
 ]
