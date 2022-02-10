@@ -26342,6 +26342,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Milos/slovak-gpt-j-162M"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "MoritzLaurer/MiniLM-L6-mnli-fever-docnli-ling-2c"
 	},
@@ -67181,6 +67186,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "rhollings/DialoGPT_small_steverogers"
 	},
 	{
@@ -135597,6 +135603,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "illvmi/mymodel04"
 	},
 	{
@@ -135615,5 +135622,13 @@
 	{
 		"private": false,
 		"modelId": "Iker/Unicorn"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-indicbert-ta-fire20"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-32-0"
 	}
 ]
