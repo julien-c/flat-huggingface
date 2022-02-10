@@ -23486,6 +23486,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "stefan-it/albert-base-german-cased"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "valhalla/s2t_librispeech_large"
 	},
@@ -35571,11 +35576,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "vijote/DialoGPT-small-Morty"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "vinaydngowda/autonlp-case-classify-xlnet-496213536"
 	},
 	{
 		"private": false,
@@ -67178,6 +67178,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhuqing/roberta-large-uncased-exp3-feminist"
+	},
+	{
+		"private": false,
+		"modelId": "rhollings/DialoGPT_small_steverogers"
 	},
 	{
 		"private": false,
@@ -130603,7 +130607,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "my-pipeline",
+		"pipeline_tag": "question-answering",
 		"modelId": "Shiyu/my-repo"
 	},
 	{
@@ -134616,11 +134620,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "stefan-it/albert-base-german-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "stefan-it/albert-large-german-cased"
 	},
 	{
@@ -134995,10 +134994,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "nlokam/ada_V.7"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/iiif_manuscript_vit"
 	},
 	{
 		"private": false,
@@ -135585,5 +135580,26 @@
 	{
 		"private": false,
 		"modelId": "Maha/OGBV-gender-indicbert-ta-eacl21"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-16-6"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-16-7"
+	},
+	{
+		"private": false,
+		"modelId": "illvmi/mymodel04"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vinaydngowda/Robertabase_Ana4"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/deberta-v3-large__sst2__train-16-8"
 	}
 ]
