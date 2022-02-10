@@ -67609,6 +67609,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Chiuchiyin/DialoGPT-small-Donald"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Chun/DialoGPT-small-dailydialog"
 	},
@@ -108315,6 +108320,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-es-col"
 	},
 	{
@@ -131034,11 +131040,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Chiuchiyin/DialoGPT-small-Donald"
-	},
-	{
-		"private": false,
 		"modelId": "Chiuchiyin/Donald"
 	},
 	{
@@ -135876,7 +135877,26 @@
 	},
 	{
 		"private": false,
-		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_large"
+		"modelId": "jgammack/final"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "AbidHasan95/movieHunt2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/realsophiarobot"
+	},
+	{
+		"private": false,
+		"modelId": "espejelomar/demo6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "RajSang/MiniLMv2-from-bert-base-distilled-sarcastic-news-headlines"
 	},
 	{
 		"private": false,
@@ -135884,10 +135904,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jgammack/final"
-	},
-	{
-		"private": false,
-		"modelId": "AbidHasan95/movieHunt2"
+		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_large"
 	}
 ]
