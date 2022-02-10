@@ -4258,6 +4258,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-to-text",
+		"modelId": "kha-white/manga-ocr-base"
+	},
+	{
+		"private": false,
 		"modelId": "hf-internal-testing/tiny-random-vit"
 	},
 	{
@@ -5312,11 +5317,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "sentence-transformers/msmarco-distilbert-base-dot-prod-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-to-text",
-		"modelId": "kha-white/manga-ocr-base"
 	},
 	{
 		"private": false,
@@ -123051,6 +123051,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "neelan-elucidate-ai/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
 		"modelId": "nefter/hugging-face"
 	},
 	{
@@ -134093,10 +134097,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "neelan-elucidate-ai/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
 		"modelId": "ngdiana/wav2vec2-ua"
 	},
 	{
@@ -135419,6 +135419,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/Wav2Vec-Template"
 	},
 	{
@@ -135427,10 +135428,52 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-0"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-5"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-6"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-7"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-8"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-16-9"
+	},
+	{
+		"private": false,
+		"modelId": "SetFit/distilbert-base-uncased__hate_speech_offensive__train-32-0"
 	}
 ]
