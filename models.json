@@ -23413,6 +23413,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-ia"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "cola/chinese-address-ner"
 	},
@@ -23538,6 +23543,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "raynardj/roberta-pubmed"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "reichenbach/wav2vec2-large-xls-r-300m-hi"
 	},
 	{
 		"private": false,
@@ -93284,11 +93294,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "reichenbach/wav2vec2-large-xls-r-300m-hi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "renBaikau/alphaDelay"
 	},
 	{
@@ -132917,11 +132922,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-ia"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ayameRushia/wav2vec2-large-xls-r-300m-mn-2"
 	},
 	{
@@ -135717,10 +135717,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
-	},
-	{
-		"private": false,
 		"modelId": "StephennFernandes/backup-test"
 	},
 	{
@@ -135804,5 +135800,17 @@
 	{
 		"private": false,
 		"modelId": "daisyxie21/bert-base-uncased-16-100-2e-05"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/deeplabv3p-resnet50"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds"
+	},
+	{
+		"private": false,
+		"modelId": "arunkottilukkal/multi-lingual-ner-ar-de-en-es-fr-it-lv-nl-pt-zh"
 	}
 ]
