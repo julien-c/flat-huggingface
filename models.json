@@ -130684,6 +130684,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-d10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-gn-k1"
 	},
 	{
@@ -135251,10 +135256,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "SteveC/sdc_bot_small"
 	},
 	{
 		"private": false,
 		"modelId": "fznmhmmd/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "beomi/KcT5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "beomi/KcT5-dev"
+	},
+	{
+		"private": false,
+		"modelId": "wrmurray/roberta-base-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-with-LM"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-COVID-HATE-finetuned-test"
 	}
 ]
