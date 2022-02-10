@@ -69563,6 +69563,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-multi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-large-panx-dataset-en"
 	},
 	{
@@ -77411,6 +77416,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "asahi417/tner-roberta-large-multiconer-en-adapter"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-panx-dataset-ko"
 	},
@@ -77428,6 +77437,14 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-uncased-panx-dataset-en"
+	},
+	{
+		"private": false,
+		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-mix-adapter"
+	},
+	{
+		"private": false,
+		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-multi-adapter"
 	},
 	{
 		"private": false,
@@ -112171,6 +112188,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "asahi417/tner-roberta-large-multiconer-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "asahi417/tner-xlm-roberta-large-multiconer-mix"
+	},
+	{
+		"private": false,
 		"modelId": "asakawa/bert-base-cased-wikitext2"
 	},
 	{
@@ -135767,11 +135794,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "MohammadABH/bertweet-finetuned-rbam"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "transZ/BiBERT-ViBa"
 	},
@@ -135863,5 +135885,9 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC4CHEMD-Modified_pubmed_large-clinical"
+	},
+	{
+		"private": false,
+		"modelId": "jgammack/final"
 	}
 ]
