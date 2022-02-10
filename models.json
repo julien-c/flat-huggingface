@@ -13821,11 +13821,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/bert-large-japanese-luw-upos"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SoLID/sgd-response-generator"
 	},
@@ -13877,11 +13872,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Ivo/emscad-skill-extraction"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/roberta-base-japanese-char-luw-upos"
 	},
 	{
 		"private": false,
@@ -14412,6 +14402,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "EMBEDDIA/litlat-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/bert-large-japanese-luw-upos"
 	},
 	{
 		"private": false,
@@ -20458,6 +20453,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-base-japanese-char-luw-upos"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Newtral/xlm-r-finetuned-toxic-political-tweets-es"
 	},
@@ -22646,6 +22646,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "J-Chiang/DialoGPT-small-thor"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/bert-base-japanese-upos"
 	},
 	{
 		"private": false,
@@ -29246,11 +29251,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/bert-base-japanese-upos"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Langboat/mengzi-oscar-base-caption"
 	},
@@ -34880,6 +34880,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "mobedkova/wav2vec2-large-xls-r-300m-ru-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mohammed/ar"
 	},
 	{
@@ -38059,11 +38064,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "mobedkova/wav2vec2-large-xls-r-300m-ru-test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "moha/arabert_c19"
 	},
@@ -39282,6 +39282,11 @@
 	{
 		"private": false,
 		"modelId": "AdapterHub/roberta-base-pf-swag"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Akashpb13/Hausa_xlsr"
 	},
 	{
 		"private": false,
@@ -48190,11 +48195,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Akashpb13/Hausa_xlsr"
-	},
-	{
-		"private": false,
 		"modelId": "AlbertHSU/BertTEST"
 	},
 	{
@@ -48513,11 +48513,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "KoboldAI/fairseq-dense-6.7B"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/bert-large-japanese-upos"
 	},
 	{
 		"private": false,
@@ -53855,6 +53850,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/bert-large-japanese-char-extended"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/bert-large-japanese-upos"
 	},
 	{
 		"private": false,
@@ -100348,11 +100348,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "reach-vb/wav2vec2-large-xls-r-1B-latvian"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "rebeccakoganlee/distilbert-base-uncased-finetuned-ner"
 	},
@@ -126420,6 +126415,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-medium"
 	},
 	{
@@ -135765,10 +135761,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Nymiz/test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "danasone/rubert-tiny-grammar"
 	},
@@ -135788,14 +135780,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "transZ/BiBERT-ViBa"
-	},
-	{
-		"private": false,
 		"modelId": "rsdsantos/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
 		"private": false,
 		"modelId": "MohammadABH/bertweet-finetuned-rbam"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "transZ/BiBERT-ViBa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/jpbrammer"
+	},
+	{
+		"private": false,
+		"modelId": "shekharkoirala/wav2vec2-large-xls-r-300m-turkish-colab"
 	}
 ]
