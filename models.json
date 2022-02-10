@@ -29359,6 +29359,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "junnyu/roformer_base_wwm_cluecorpussmall"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kuzgunlar/electra-turkish-ner"
 	},
@@ -34172,6 +34177,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "nairaxo/dvoice-darija"
 	},
 	{
@@ -67183,6 +67189,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhuqing/roberta-large-uncased-exp3-feminist"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "rhollings/DialoGPT_small_steverogers"
 	},
 	{
 		"private": false,
@@ -116716,10 +116727,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-biobert-large-cased-v1.1"
-	},
-	{
-		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Chemical_Imbalanced-biobert-large-cased-v1.1"
 	},
 	{
@@ -116729,10 +116736,6 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Imbalanced-biobert-large-cased-v1.1"
-	},
-	{
-		"private": false,
-		"modelId": "ghadeermobasher/BioNLP13CG-Chem_Imbalanced-biobert-large-cased-v1.1"
 	},
 	{
 		"private": false,
@@ -130633,6 +130636,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ghadeermobasher/BioNLP13CG-Chem_Imbalanced-biobert-large-cased-v1.1"
+	},
+	{
+		"private": false,
 		"modelId": "0x7194633/gameGPT"
 	},
 	{
@@ -133773,11 +133780,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "junnyu/roformer_base_wwm_cluecorpussmall"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "junzai/123"
 	},
 	{
@@ -135659,6 +135661,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Nymiz/PRUEBA"
 	},
 	{
@@ -135680,6 +135683,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-xlmroberta-ta-hasoc21"
 	},
 	{
@@ -135688,6 +135692,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "zzecf/AI12"
 	},
 	{
@@ -135696,6 +135701,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mackei/ai12"
+	},
+	{
+		"private": false,
+		"modelId": "ajaiswal1008/wav2vec2-large-xls-r-2B-hi-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_biobert-large-cased"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-biobert"
+	},
+	{
+		"private": false,
+		"modelId": "ajaiswal1008/wav2vec2-large-xls-r-300m-hi-colab_new"
+	},
+	{
+		"private": false,
+		"modelId": "Erfan/mT5-base_Farsi_Title_Generator_plus"
 	}
 ]
