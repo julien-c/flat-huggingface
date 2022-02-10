@@ -135331,10 +135331,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-with-LM"
 	},
 	{
 		"private": false,
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-hateeval19"
+	},
+	{
+		"private": false,
+		"modelId": "xhlu/tapas-nq-hn-retriever-large-0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "xhlu/tapas-nq-hn-retriever-large-1"
 	}
 ]
