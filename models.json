@@ -136142,6 +136142,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "medA/autonlp-FR_another_test-565016091"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "edbeeching/test-trainer-to-hub"
 	},
 	{
@@ -136223,6 +136228,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "asafaya/albert-base-arabic"
+	},
+	{
+		"private": false,
+		"modelId": "asafaya/albert-large-arabic"
+	},
+	{
+		"private": false,
+		"modelId": "AKulk/wav2vec2-base-timit-epochs5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "asafaya/albert-xlarge-arabic"
+	},
+	{
+		"private": false,
+		"modelId": "yrt/roberta-base-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/bert-base-uncased-finetuned-ner-agglo"
+	},
+	{
+		"private": false,
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-cloud-ner"
 	}
 ]
