@@ -77173,11 +77173,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/t5-v1_1-base-finetuned-eli5"
-	},
-	{
-		"private": false,
 		"modelId": "qarib/bert-base-qarib_far_8280k"
 	},
 	{
@@ -136187,11 +136182,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jgammack/multi-qa-distilbert-base-mean_cos"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "joniponi/bert-finetuned-sem_eval-english"
 	},
@@ -136365,6 +136355,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_8_ft_0"
 	},
 	{
@@ -136402,5 +136393,23 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "ibombonato/swin-age-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jgammack/multi-qa-distilbert-base"
+	},
+	{
+		"private": false,
+		"modelId": "stefan-it/bert-large-historic-multilingual-cased-3e"
+	},
+	{
+		"private": false,
+		"modelId": "BigSalmon/InformalToFormalLincoln21"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/t5-base-askscience"
 	}
 ]
