@@ -95553,6 +95553,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "ibombonato/vit-age-classifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ietz/bert-base-uncased-finetuned-jira-jira-issue-titles-and-bodies"
 	},
@@ -136212,6 +136217,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-cloud-ner"
 	},
 	{
@@ -136221,6 +136227,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "fdangel/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -136285,5 +136292,17 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "yabramuvdi/bert-sector"
+	},
+	{
+		"private": false,
+		"modelId": "espejelomar/demo9"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/bert-base-uncased-finetuned-ner-gmm"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_2_ft_0"
 	}
 ]
