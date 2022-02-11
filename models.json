@@ -128004,6 +128004,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mvip/wav2vec2-large-xls-r-300m-tr"
 	},
 	{
@@ -136162,5 +136163,14 @@
 	{
 		"private": false,
 		"modelId": "caiwen/mymodel"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/new-roberta-mnli-finetune-config-newdataset"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/woxxy"
 	}
 ]
