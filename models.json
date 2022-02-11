@@ -47451,6 +47451,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "jkang/espnet2_librispeech_100_conformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Aastha/wav2vec2-large-xls-r-1b-hindi"
 	},
 	{
@@ -59536,11 +59541,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "KoichiYasuoka/roberta-classical-chinese-large-upos"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/roberta-large-japanese-aozora-char"
 	},
@@ -65028,6 +65028,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Kieran/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-classical-chinese-large-upos"
 	},
 	{
 		"private": false,
@@ -88693,6 +88698,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_7_ft_0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_7_ft_3"
 	},
 	{
 		"private": false,
@@ -135387,11 +135397,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_7_ft_3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Jorgeutd/albert-base-v2-finetuned-ner"
 	},
@@ -136028,11 +136033,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jkang/espnet2_librispeech_100_conformer"
-	},
-	{
-		"private": false,
 		"modelId": "lf/mymodel01"
 	},
 	{
@@ -136052,5 +136052,21 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/roberta-base-english-upos"
+	},
+	{
+		"private": false,
+		"modelId": "ozlem/plate"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_7_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "kdo6301/my-bert"
+	},
+	{
+		"private": false,
+		"modelId": "CSResearcher/TestModel"
 	}
 ]
