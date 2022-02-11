@@ -42981,11 +42981,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "RajSang/MiniLMv2-from-bert-base-distilled-sarcastic-news-headlines"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "SEBIS/code_trans_t5_large_code_comment_generation_java_multitask_finetune"
 	},
@@ -44359,11 +44354,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "Pyjay/sentence-transformers-multilingual-snli-v2-500k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "RajSang/bert-finetuned-sarcastic-news-headlines"
 	},
 	{
 		"private": false,
@@ -89071,11 +89061,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "RajSang/MiniLMv2-from-bert-base-finetuned-sarcastic-news-headlines"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Ranger/Dial0GPT-small-harrypotter"
 	},
@@ -127144,6 +127129,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "medA/autonlp-directed__at-562615993"
+	},
+	{
+		"private": false,
 		"modelId": "medzaf/test"
 	},
 	{
@@ -131243,6 +131233,11 @@
 	{
 		"private": false,
 		"modelId": "rynelfa9sa/rolemodel"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-pt_test"
 	},
 	{
 		"private": false,
@@ -136094,6 +136089,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "snunlp/KR-ELECTRA"
+		"modelId": "snunlp/krelectra-discriminator"
+	},
+	{
+		"private": false,
+		"modelId": "Medha/distilbert-base-uncased-finetuned-cola"
 	}
 ]
