@@ -131236,11 +131236,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-pt_test"
-	},
-	{
-		"private": false,
 		"modelId": "s3h/arabert-gec-v2"
 	},
 	{
@@ -136071,6 +136066,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "xinyang47/ai12"
 	},
 	{
@@ -136094,5 +136090,19 @@
 	{
 		"private": false,
 		"modelId": "Medha/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "snunlp/krelectra-generator"
+	},
+	{
+		"private": false,
+		"modelId": "zhizihuabai/ai12one"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "kdo6301/kim-test-model"
 	}
 ]
