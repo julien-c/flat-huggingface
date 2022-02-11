@@ -132382,11 +132382,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "sunitha/shiva_model_save"
-	},
-	{
-		"private": false,
 		"modelId": "suntecai/dataannotationservices"
 	},
 	{
@@ -135986,6 +135981,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "StormZJ/test1"
 	},
 	{
@@ -136041,5 +136037,14 @@
 	{
 		"private": false,
 		"modelId": "nitishkumargundapu793/Agind_signs_detection"
+	},
+	{
+		"private": false,
+		"modelId": "espnet/Wangyou_Zhang_chime4_enh_train_enh_beamformer_mvdr_raw"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "sunitha/finetuned-roberta-squad"
 	}
 ]
