@@ -136093,6 +136093,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "SteveC/sdc_bot_medium"
+	},
+	{
+		"private": false,
 		"modelId": "VIGNESHOFFICIALYT/SATSUKI-AI"
 	},
 	{
@@ -136154,7 +136159,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "flozi00/wav2vec2-xls-r-2b-german-8khz"
+		"modelId": "frankied/testing"
 	},
 	{
 		"private": false,
@@ -136206,6 +136211,15 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "joniponi/bert-finetuned-sem_eval-english"
+	},
+	{
+		"private": false,
+		"modelId": "joniponi/bert-multilabel-inpatientreviews"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jpreilly123/emojify_mvp"
 	},
 	{
@@ -136248,6 +136262,10 @@
 	{
 		"private": false,
 		"modelId": "msarmi9/multi30k"
+	},
+	{
+		"private": false,
+		"modelId": "nikolamilosevic/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
 		"private": false,
@@ -136333,20 +136351,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "frankied/testing"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "SteveC/sdc_bot_medium"
-	},
-	{
-		"private": false,
-		"modelId": "nikolamilosevic/xlm-roberta-base-finetuned-panx-de"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "joniponi/bert-finetuned-sem_eval-english"
+		"modelId": "hf-internal-testing/test_dynamic_feature_extractor"
 	}
 ]
