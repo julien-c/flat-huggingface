@@ -119048,7 +119048,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "chan030609/DialoGPT-medium-JAB"
 	},
 	{
@@ -136392,5 +136392,10 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jgammack/multi-qa-SAE-distilbert-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Amalq/distilbert-base-uncased-finetuned-cola"
 	}
 ]
