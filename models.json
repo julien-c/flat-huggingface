@@ -24361,6 +24361,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KamrusSamad/tiny_A-2_H-2"
 	},
 	{
@@ -77193,6 +77194,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "pszemraj/t5-v1_1-base-finetuned-eli5"
 	},
 	{
@@ -136263,10 +136265,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Jorgeutd/bert-large-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
 		"modelId": "gotogoto/wav2vec2-base-aishell-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "flozi00/wav2vec2-xls-r-2b-german-8khz"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "AlekseyKorshuk/comedy-scripts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "yabramuvdi/bert-sector"
 	}
 ]
