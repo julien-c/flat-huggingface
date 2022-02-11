@@ -13335,11 +13335,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "UBC-NLP/MARBERTv2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "bochaowei/t5-small-finetuned-xsum-wei0"
 	},
@@ -21291,11 +21286,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "am-shb/bert-base-multilingual-uncased-finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-robust-lm"
 	},
 	{
 		"private": false,
@@ -34462,11 +34452,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "comodoro/wav2vec2-xls-r-300m-pl-cv8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-300m-italian-lm"
 	},
 	{
 		"private": false,
@@ -48354,11 +48339,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "dbdmg/wav2vec2-xls-r-1b-italian-robust-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-base-swedish-europeana-cased"
 	},
@@ -56338,11 +56318,6 @@
 	{
 		"private": false,
 		"modelId": "TurkuNLP/wikibert-base-fi-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "UBC-NLP/AraT5-base-title-generation"
 	},
 	{
 		"private": false,
@@ -136388,5 +136363,10 @@
 	{
 		"private": false,
 		"modelId": "conrizzo/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/ezeojeda_97"
 	}
 ]
