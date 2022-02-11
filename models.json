@@ -135994,10 +135994,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "tornado/ai_transfer"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "zhizihuabai/ai12nlp"
 	},
 	{
@@ -136006,6 +136008,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_1_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "kamilali/distilbert-base-uncased-finetuned-squad"
 	}
 ]
