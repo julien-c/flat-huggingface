@@ -125571,6 +125571,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/roberta-mnli-finetune-config-newdataset"
 	},
 	{
@@ -136084,6 +136085,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "zhizihuabai/ai12one"
 	},
 	{
@@ -136143,5 +136145,9 @@
 	{
 		"private": false,
 		"modelId": "awacke1/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "cahya/gpt2-small-indonesian-personachat-empathetic"
 	}
 ]
