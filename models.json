@@ -24361,7 +24361,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "KamrusSamad/tiny_A-2_H-2"
 	},
 	{
@@ -136259,6 +136258,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jgammack/multi-qa-distilbert-base-mean_cos"
+	},
+	{
+		"private": false,
+		"modelId": "Jorgeutd/bert-large-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "gotogoto/wav2vec2-base-aishell-demo-colab"
 	}
 ]
