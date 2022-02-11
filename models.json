@@ -26925,7 +26925,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "tornado/ai_transfer"
 	},
 	{
@@ -124237,6 +124236,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jakobcassiman/mbart-large-cc25-cnn-dailymail-xsum-nl-test"
+	},
+	{
+		"private": false,
 		"modelId": "jakewallin82/first-bert"
 	},
 	{
@@ -136172,16 +136176,29 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Martinlabla/bert_finetuning_test_ai10_not_mine"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vittoriomaggio/msmarco-distilbert-base-v2-fiqa"
 	},
 	{
 		"private": false,
 		"modelId": "Kevincp560/t5-base-arxiv-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "AlekseyKorshuk/horror-scripts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Martinlabla/bert_finetuning_test_mine_result"
+	},
+	{
+		"private": false,
+		"modelId": "nicolasmicaux/xlm-roberta-base-finetuned-anki"
+	},
+	{
+		"private": false,
+		"modelId": "sshasnain/wav2vec2-xls-r-300m-bangla-command-word-combination-synthetic"
 	}
 ]
