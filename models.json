@@ -132124,11 +132124,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "shibing624/bert-base-chinese-v1"
-	},
-	{
-		"private": false,
 		"modelId": "shibu1707/sms_classification"
 	},
 	{
@@ -136076,11 +136071,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "aryanpatke/dummy-model"
-	},
-	{
-		"private": false,
 		"modelId": "hadxu/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
@@ -136093,10 +136083,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "shibing624/code-autocomplete-gpt2-base"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lf/lf_model_01"
 	}
 ]
