@@ -35277,6 +35277,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "keras-io/supervised-contrastive-learning-cifar10"
 	},
 	{
@@ -75962,6 +75963,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "keras-io/deeplabv3p-resnet50"
 	},
 	{
@@ -125337,6 +125339,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "keras-io/swin-transformers"
 	},
 	{
@@ -127126,11 +127129,6 @@
 	{
 		"private": false,
 		"modelId": "mechanicalsea/efficient-tdnn"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "medA/autonlp-directed__at-562615993"
 	},
 	{
 		"private": false,
@@ -136107,6 +136105,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "jatinshah/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -136117,5 +136116,10 @@
 	{
 		"private": false,
 		"modelId": "keepitreal/vietnamese-sbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "kdo6301/kimkimkim"
 	}
 ]
