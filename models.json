@@ -7838,10 +7838,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kuisailab/albert-base-arabic"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ckiplab/albert-base-chinese"
 	},
@@ -19204,11 +19200,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "w11wo/indo-roberta-small"
 	},
@@ -22608,10 +22599,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "krevas/finance-koelectra-base-generator"
-	},
-	{
-		"private": false,
-		"modelId": "kuisailab/albert-large-arabic"
 	},
 	{
 		"private": false,
@@ -39897,10 +39884,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kuppuluri/telugu_bertu_pos"
-	},
-	{
-		"private": false,
-		"modelId": "kuisailab/albert-xlarge-arabic"
 	},
 	{
 		"private": false,
@@ -136159,6 +136142,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/new-roberta-mnli-finetune-config-newdataset"
 	},
 	{
@@ -136233,6 +136217,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "asafaya/albert-large-arabic"
 	},
 	{
@@ -136255,5 +136240,31 @@
 	{
 		"private": false,
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-cloud-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "EEE/DistilGPT-story_gen"
+	},
+	{
+		"private": false,
+		"modelId": "fdangel/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "kdo6301/kim-test-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vittoriomaggio/bert-base-msmarco-fiqa-transfer"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_12_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "pnichite/aspectextraction"
 	}
 ]
