@@ -136530,6 +136530,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Arnold/wav2vec2-hausa2-demo-colab"
 	},
 	{
@@ -136665,5 +136666,14 @@
 	{
 		"private": false,
 		"modelId": "IsekaiMeta/DialoGPT-small-codsworth"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_50_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "abjbpi/Hate_Speech"
 	}
 ]
