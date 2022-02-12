@@ -136525,7 +136525,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Atchuth/DialoGPT-small-MichaelBot"
 	},
 	{
@@ -136535,5 +136535,18 @@
 	{
 		"private": false,
 		"modelId": "Arnold/wav2vec2-hausa2-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/modelTest"
+	},
+	{
+		"private": false,
+		"modelId": "cyl/adapter_t5-3b_qnli"
+	},
+	{
+		"private": false,
+		"modelId": "Atchuth/MBOT"
 	}
 ]
