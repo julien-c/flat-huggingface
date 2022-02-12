@@ -136746,7 +136746,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "anweasha/DialoGPT-small-Jake"
 	},
 	{
@@ -136768,6 +136768,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_2_ft_2"
 	},
 	{
@@ -136777,5 +136778,14 @@
 	{
 		"private": false,
 		"modelId": "ulyanaisaeva/bert-base-multilingual-cased-udm-isp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "lonewanderer27/KeitaroBot"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/roberta-base-finetuned-ner-kmeans"
 	}
 ]
