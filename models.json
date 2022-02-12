@@ -136742,10 +136742,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jfarray/Model_distiluse-base-multilingual-cased-v1_100_Epochs"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "anweasha/DialoGPT-small-Jake"
 	},
@@ -136786,6 +136782,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/roberta-base-finetuned-ner-kmeans"
 	},
 	{
@@ -136800,5 +136797,14 @@
 	{
 		"private": false,
 		"modelId": "dadangheksa/finetuning-sentiment-model-3000-samples"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "CLAck/vi-en"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_8_ft_2"
 	}
 ]
