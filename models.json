@@ -136586,10 +136586,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ravirajoshi/test-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "saattrupdan/alvenir-wav2vec2-base-cv8-da"
 	},
@@ -136601,5 +136597,22 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_30_Epochs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_50_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "cyl/stsb"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/roberta-base-finetuned-ner-gmm-twitter"
+	},
+	{
+		"private": false,
+		"modelId": "aishanisingh/DialoGPT-small-harrypotter"
 	}
 ]
