@@ -29233,7 +29233,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "text-classification",
 		"modelId": "KamrusSamad/bangla_albert"
 	},
 	{
@@ -136811,10 +136811,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nkonstnikolov/opus-mt-en-ROMANCE-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Nabarun/DialoGPT-small-joshua"
 	},
@@ -136829,5 +136825,14 @@
 	{
 		"private": false,
 		"modelId": "reichenbach/ner-with-transformers"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moshew/tiny-bert-sst2-distilled"
+	},
+	{
+		"private": false,
+		"modelId": "sin-survivor/rw-errors"
 	}
 ]
