@@ -136615,7 +136615,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "aishanisingh/DialoGPT-small-harrypotter"
 	},
 	{
@@ -136630,10 +136630,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_5_Epochs"
 	},
 	{
 		"private": false,
 		"modelId": "ArBert/roberta-base-finetuned-ner-agglo-twitter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_10_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/albert-base-v2-finetuned-ner-agglo"
 	}
 ]
