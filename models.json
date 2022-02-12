@@ -104794,11 +104794,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "saattrupdan/alvenir-wav2vec2-base-da-cv8"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "saburbutt/roberta_base_tweetqa_model"
 	},
@@ -136586,6 +136581,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_10_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "ravirajoshi/test-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "saattrupdan/alvenir-wav2vec2-base-cv8-da"
+	},
+	{
+		"private": false,
+		"modelId": "saattrupdan/wav2vec2-xls-r-300m-cv8-da"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_30_Epochs"
 	}
 ]
