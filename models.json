@@ -122909,6 +122909,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "hgw3lss/gpt-j-6B-Buckland"
 	},
 	{
@@ -136736,10 +136737,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-image",
+		"modelId": "gsurma/ai_dreamer"
+	},
+	{
+		"private": false,
 		"modelId": "jfarray/Model_distiluse-base-multilingual-cased-v1_100_Epochs"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "anweasha/DialoGPT-small-Jake"
+	},
+	{
+		"private": false,
+		"modelId": "pablito-wabi/landfill-v1"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/roberta-base-finetuned-ner-gmm"
 	}
 ]
