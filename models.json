@@ -20073,11 +20073,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandon25/bsc_roberta2roberta_shared-spanish-finetuned-mlsum-summarization-finetuned-question-generation-highlight-format"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "choondrise/emolve"
 	},
@@ -136561,6 +136556,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_12_ft_2"
 	},
 	{
@@ -136661,11 +136657,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/roberta-base-finetuned-ner-kmeans-twitter"
-	},
-	{
-		"private": false,
-		"modelId": "IsekaiMeta/DialoGPT-small-codsworth"
 	},
 	{
 		"private": false,
@@ -136675,5 +136668,25 @@
 	{
 		"private": false,
 		"modelId": "abjbpi/Hate_Speech"
+	},
+	{
+		"private": false,
+		"modelId": "IsekaiMeta/DialoGPT-small-codsworth"
+	},
+	{
+		"private": false,
+		"modelId": "Aakansha/hateSpeechClassification"
+	},
+	{
+		"private": false,
+		"modelId": "ChristianOrr/madnet-synthetic-tf1-to-tf2"
+	},
+	{
+		"private": false,
+		"modelId": "Aakansha/hs"
+	},
+	{
+		"private": false,
+		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_100_Epochs"
 	}
 ]
