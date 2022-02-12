@@ -136538,15 +136538,28 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/modelTest"
-	},
-	{
-		"private": false,
 		"modelId": "cyl/adapter_t5-3b_qnli"
 	},
 	{
 		"private": false,
 		"modelId": "Atchuth/MBOT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ArBert/albert-base-v2-finetuned-ner-agglo-twitter"
+	},
+	{
+		"private": false,
+		"modelId": "Atchuth/DialoGPT-small-MBOT"
+	},
+	{
+		"private": false,
+		"modelId": "Arnold/wav2vec2-large-xlsr-turkish-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ArBert/albert-base-v2-finetuned-ner-gmm-twitter"
 	}
 ]
