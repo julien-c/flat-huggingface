@@ -136496,6 +136496,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-12"
 	},
 	{
@@ -136888,6 +136889,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "emre/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -136920,7 +136922,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
+		"modelId": "jfarray/Model_paraphrase-multilingual-mpnet-base-v2_30_Epochs"
+	},
+	{
+		"private": false,
 		"modelId": "dentalai/xray-paro-swin-base-patch4-window7-224"
 	}
 ]
