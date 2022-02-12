@@ -136671,10 +136671,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "IsekaiMeta/DialoGPT-small-codsworth"
-	},
-	{
-		"private": false,
 		"modelId": "Aakansha/hateSpeechClassification"
 	},
 	{
@@ -136687,6 +136683,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_100_Epochs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ngdiana/xlsr-2-bart"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "IsekaiMeta/DialoGPT-small-codsworth"
 	}
 ]
