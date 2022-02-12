@@ -106529,6 +106529,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/albert-base-v2-finetuned-ner-kmeans"
 	},
 	{
@@ -136614,6 +136615,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "aishanisingh/DialoGPT-small-harrypotter"
 	},
 	{
@@ -136623,6 +136625,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_1_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_5_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/roberta-base-finetuned-ner-agglo-twitter"
 	}
 ]
