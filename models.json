@@ -30520,6 +30520,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "shibing624/code-autocomplete-gpt2-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "sigmoid/mt5-en-ja"
 	},
@@ -42668,6 +42673,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zloelias/rubert-tiny2-kinopoisk-reviews-finetuned-clf"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-bert-hi-en-trac2"
 	},
 	{
 		"private": false,
@@ -136328,11 +136337,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "shibing624/code-autocomplete-gpt2-base"
-	},
-	{
-		"private": false,
 		"modelId": "snunlp/KR-ELECTRA-discriminator"
 	},
 	{
@@ -136488,6 +136492,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sylviachency/distilbert-base-uncased-finetuned-cola"
 	}
 ]
