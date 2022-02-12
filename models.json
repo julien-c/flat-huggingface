@@ -136635,6 +136635,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/roberta-base-finetuned-ner-agglo-twitter"
 	},
 	{
@@ -136654,6 +136655,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/albert-base-v2-finetuned-ner-gmm"
+	},
+	{
+		"private": false,
+		"modelId": "ArBert/roberta-base-finetuned-ner-kmeans-twitter"
+	},
+	{
+		"private": false,
+		"modelId": "IsekaiMeta/DialoGPT-small-codsworth"
 	}
 ]
