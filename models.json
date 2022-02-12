@@ -89682,7 +89682,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "text-classification",
 		"modelId": "ShengdingHu/mrpc"
 	},
 	{
@@ -136488,5 +136488,10 @@
 	{
 		"private": false,
 		"modelId": "geninhu/roberta_large_ITPT_FP"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "zhizihuabai/ai12two"
 	}
 ]
