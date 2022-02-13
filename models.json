@@ -137039,6 +137039,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "reatiny/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -137185,5 +137186,18 @@
 	{
 		"private": false,
 		"modelId": "aiface/new-vn"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_3_ft_0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_all-distilroberta-v1_1_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "jfarray/Model_all-distilroberta-v1_5_Epochs"
 	}
 ]
