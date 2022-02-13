@@ -137203,6 +137203,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "azwierzc/plt5-small-pl-to-sql"
 	},
 	{
@@ -137213,5 +137214,14 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_13_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "kleinay/qanom-end-to-end"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_all-distilroberta-v1_30_Epochs"
 	}
 ]
