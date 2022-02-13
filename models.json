@@ -130394,6 +130394,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "pkushiqiang/bert-title-org"
+	},
+	{
+		"private": false,
 		"modelId": "placaoplomo/randstad_classification_challange"
 	},
 	{
@@ -137159,6 +137164,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-AL"
 	},
 	{
@@ -137223,5 +137229,15 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_all-distilroberta-v1_30_Epochs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "countrysideid/opus-mt-en-zh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_all-distilroberta-v1_50_Epochs"
 	}
 ]
