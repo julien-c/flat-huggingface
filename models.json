@@ -137129,6 +137129,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "smartpim/k2t_ru_02"
 	},
 	{
@@ -137147,14 +137148,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "dennishe97/docs"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "dennishe97/errors"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "dennishe97/review"
+	},
+	{
+		"private": false,
+		"modelId": "cankeles/ConvTasNet-16kHz-WHAMRmod"
+	},
+	{
+		"private": false,
+		"modelId": "castorini/dkrr-dpr-tqa-retriever"
 	}
 ]
