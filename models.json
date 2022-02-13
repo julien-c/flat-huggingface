@@ -39911,6 +39911,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "NbAiLab/roberta_jan_128_scandinavian"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/wav2vec2-large-voxrex-npsc"
 	},
@@ -40944,11 +40949,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Narsil/gpt2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "NbAiLab/roberta_jan_128_scandinavian"
 	},
 	{
 		"private": false,
@@ -48862,11 +48862,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sr-with-LM"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Ebtihal/AraDiaBERTo_V2"
 	},
@@ -51324,11 +51319,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Declan/Reuters_model_v8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-br-with-LM"
 	},
 	{
 		"private": false,
@@ -54175,11 +54165,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-COVID-HATE-finetuned-test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-mr-with-LM-v1"
 	},
 	{
 		"private": false,
@@ -86723,11 +86708,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-cv8-b2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM-v1"
 	},
 	{
 		"private": false,
@@ -136997,6 +136977,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "hululuzhu/chinese-couplet-mengzi-t5"
+		"modelId": "yukina233/distilbert-base-uncased-finetuned-squad"
 	}
 ]
