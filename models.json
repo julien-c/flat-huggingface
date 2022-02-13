@@ -7039,11 +7039,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "elozano/news-category"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "ThomasNLG/t5-qa_squad2neg-en"
 	},
@@ -7200,11 +7195,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "wissamantoun/araelectra-base-artydiqa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "elozano/news-clickbait"
 	},
 	{
 		"private": false,
@@ -137065,6 +137055,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "sin-survivor/re-errors"
 	},
 	{
@@ -137089,6 +137080,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_8_ft_4"
 	},
 	{
@@ -137175,5 +137167,23 @@
 	{
 		"private": false,
 		"modelId": "Bistolero/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "elozano/bert-base-cased-news-category"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "elozano/bert-base-cased-clickbait-news"
+	},
+	{
+		"private": false,
+		"modelId": "daryl149/valentine"
+	},
+	{
+		"private": false,
+		"modelId": "aiface/new-vn"
 	}
 ]
