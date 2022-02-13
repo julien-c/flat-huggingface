@@ -38825,11 +38825,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-or-with-LM"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-xls-r-300m-rm-vallader-d1"
 	},
 	{
@@ -86733,11 +86728,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hi-with-LM-v2"
 	},
 	{
 		"private": false,
@@ -136983,11 +136973,24 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Babysittingyoda/DialoGPT-small-familyguy"
 	},
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_8_ft_3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mujeensung/bert-base-cased_mnli_bc"
+	},
+	{
+		"private": false,
+		"modelId": "mujeensung/roberta-base_mnli_bc"
+	},
+	{
+		"private": false,
+		"modelId": "mujeensung/albert-base-v2_mnli_bc"
 	}
 ]
