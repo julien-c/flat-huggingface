@@ -107981,11 +107981,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-with-LM-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-as-with-LM-v2"
 	},
 	{
@@ -136875,6 +136870,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_12_ft_3"
 	},
 	{
@@ -136927,10 +136923,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "dentalai/xray-paro-swin-base-patch4-window7-224"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nickmuchi/vit-base-beans"
 	},
@@ -136944,6 +136936,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_paraphrase-multilingual-mpnet-base-v2_50_Epochs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_paraphrase-multilingual-mpnet-base-v2_100_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "Babysittingyoda/DialoGPT-small-familyguy"
+	},
+	{
+		"private": false,
+		"modelId": "pzelasko/longformer-swda-nolower"
+	},
+	{
+		"private": false,
+		"modelId": "KoichiYasuoka/bert-base-japanese-unidic-luw-upos"
+	},
+	{
+		"private": false,
+		"modelId": "KoichiYasuoka/bert-large-japanese-unidic-luw-upos"
 	}
 ]
