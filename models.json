@@ -137109,6 +137109,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "groar/gpt-neo-1.3B-finetuned-escape2"
 	},
 	{
@@ -137239,5 +137240,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "countrysideid/opus-mt-en-zh-chk1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_all-distilroberta-v1_100_Epochs"
 	}
 ]
