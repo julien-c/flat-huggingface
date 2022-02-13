@@ -12400,6 +12400,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "daekeun-ml/koelectra-small-v3-nsmc"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/borisdayma"
 	},
@@ -13032,11 +13037,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ccdv/lsg-bart-base-4096"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daekeun-ml/koelectra-small-v3-nsmc"
 	},
 	{
 		"private": false,
@@ -28657,11 +28657,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daekeun-ml/koelectra-small-v3-korsts"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "dats/DialoGPT-small-harrypotter"
 	},
@@ -30144,6 +30139,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "centon21/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "daekeun-ml/koelectra-small-v3-korsts"
 	},
 	{
 		"private": false,
@@ -43268,6 +43268,11 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-hsb-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sl-with-LM-v2"
 	},
 	{
 		"private": false,
@@ -77275,11 +77280,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-sl-with-LM-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "EasthShin/Chatbot-LisaSimpson-DialoGPT"
 	},
@@ -96942,6 +96942,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_2_ft_3"
+	},
+	{
+		"private": false,
 		"modelId": "1757968399/tinybert_4_312_1200"
 	},
 	{
@@ -105435,6 +105440,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zwang199/autonlp-traffic_nlp_binary-537215209"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_12_ft_3"
 	},
 	{
 		"private": false,
@@ -136849,11 +136859,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_12_ft_3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_paraphrase-multilingual-MiniLM-L12-v2_30_Epochs"
 	},
@@ -136964,11 +136969,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_2_ft_3"
-	},
-	{
-		"private": false,
 		"modelId": "Tommy930/emotionsModel"
 	},
 	{
@@ -136994,5 +136994,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mujeensung/albert-base-v2_mnli_bc"
+	},
+	{
+		"private": false,
+		"modelId": "hululuzhu/chinese-couplet-mengzi-t5"
 	}
 ]
