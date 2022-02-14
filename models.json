@@ -137594,6 +137594,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/m2m_1.2B_paraphrase_en_de_v1"
 	},
 	{
@@ -137605,5 +137606,13 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_dccuchile_bert-base-spanish-wwm-uncased_100_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "seanguloc/roberta-base-bne-sqac-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Bistolero/dutch_summary"
 	}
 ]
