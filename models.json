@@ -115636,6 +115636,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "brandon25/est5-summarize-finetuned-question_generation-highlight-format"
+	},
+	{
+		"private": false,
 		"modelId": "brandontanzhirong/paraphrasing_tool"
 	},
 	{
@@ -137268,6 +137273,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "tinega/DialoGPT-small-harrypotter"
 	},
 	{
@@ -137345,5 +137351,13 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "frgfm/rexnet1_5x"
+	},
+	{
+		"private": false,
+		"modelId": "MarioPenguin/beto_amazon_posneu"
+	},
+	{
+		"private": false,
+		"modelId": "nlpconnect/PubLayNet-faster_rcnn_R_50_FPN_3x"
 	}
 ]
