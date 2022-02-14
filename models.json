@@ -137236,6 +137236,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "jatinshah/bert-finetuned-squad"
 	},
 	{
@@ -137296,5 +137297,23 @@
 	{
 		"private": false,
 		"modelId": "leonadase/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "AKulk/wav2vec2-base-timit-epochs10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "leetdavid/celera_relevance"
+	},
+	{
+		"private": false,
+		"modelId": "AmirBialer/amirbialer-Classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "InfoCoV/Senti-Cro-CoV-cseBERT"
 	}
 ]
