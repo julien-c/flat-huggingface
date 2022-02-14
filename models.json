@@ -45809,6 +45809,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "medA/autonlp-directed__at-562615993"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "meghanabhange/hinglish-sbert"
 	},
@@ -47786,11 +47791,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "mboth/distil-eng-quora-sentence"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "medA/autonlp-FR_another_test-565016091"
 	},
 	{
 		"private": false,
@@ -59175,11 +59175,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Blaine-Mason/hackMIT-finetuned-sst2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "BogdanKuloren/vi_model"
 	},
 	{
 		"private": false,
@@ -100942,6 +100937,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ASCCCCCCCC/distilbert-base-uncased-finetuned-clinc"
 	},
 	{
@@ -137217,10 +137213,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-300m-bemba-sds-v2"
-	},
-	{
-		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_13_ft_1"
 	},
 	{
@@ -137238,10 +137230,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "hrdipto/wav2vec2-xls-r-300m-bangla-command-generated-data-finetune"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "creynier/wav2vec2-base-swbd-turn-small-2"
 	},
 	{
@@ -137264,5 +137258,17 @@
 	{
 		"private": false,
 		"modelId": "Balgow/prod_desc"
+	},
+	{
+		"private": false,
+		"modelId": "baotripccc/baotripccc"
+	},
+	{
+		"private": false,
+		"modelId": "groar/gpt-neo-1.3B-finetuned-escape3"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/f1-score-roberta-mnli-finetune-config"
 	}
 ]
