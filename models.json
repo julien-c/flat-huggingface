@@ -22289,11 +22289,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "aapot/1b-new-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "bertin-project/bertin-base-gaussian-exp-512seqlen"
 	},
@@ -137371,5 +137366,22 @@
 	{
 		"private": false,
 		"modelId": "scentxpart/AISentimentBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kobkrit/wangchanberta-ner"
+	},
+	{
+		"private": false,
+		"modelId": "smartpim/k2t_ru_04"
+	},
+	{
+		"private": false,
+		"modelId": "XciD/kubernetes"
+	},
+	{
+		"private": false,
+		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-es-2-Test"
 	}
 ]
