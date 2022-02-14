@@ -137549,6 +137549,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "katanaml/layoutlmv2-finetuned-funsd-test"
 	},
 	{
@@ -137599,5 +137600,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-ner-subgroup"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_dccuchile_bert-base-spanish-wwm-uncased_100_Epochs"
 	}
 ]
