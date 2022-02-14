@@ -124007,6 +124007,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jinmang2/dooly-hub"
 	},
 	{
@@ -137520,7 +137521,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "smmzhu/DialoGPT-small-SZ"
 	},
 	{
@@ -137542,10 +137543,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "hf-internal-testing/test_dynamic_tokenizer_processor"
+		"modelId": "keras-io/conv-lstm"
 	},
 	{
 		"private": false,
-		"modelId": "keras-io/conv-lstm"
+		"modelId": "hf-internal-testing/test_dynamic_processor"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "jfarray/Model_bert-base-multilingual-uncased_100_Epochs"
 	}
 ]
