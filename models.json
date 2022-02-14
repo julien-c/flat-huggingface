@@ -125302,6 +125302,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/roberta-mnli-finetune-config"
 	},
 	{
@@ -137224,6 +137225,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sshasnain/wav2vec2-xls-r-300m-bangla-command-synthetic"
 	},
 	{
@@ -137250,5 +137252,17 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "clapika2010/test-model"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/tokenizer_alpha_weight_NFKC"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/tokenizer_equal_weight_NFKC_v1"
+	},
+	{
+		"private": false,
+		"modelId": "Balgow/prod_desc"
 	}
 ]
