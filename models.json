@@ -59433,11 +59433,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Leostronkest/DialoGPT-small-michael"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Littlejohn/analisis_sentimientos"
 	},
@@ -137529,5 +137524,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moshew/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/fsmt_base_paraphrase_en_de_v4"
+	},
+	{
+		"private": false,
+		"modelId": "ankimt01/DialoGPT-small-anch"
 	}
 ]
