@@ -137425,6 +137425,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "zjukg/OntoProtein"
 	},
 	{
@@ -137445,5 +137446,18 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "speech-seq2seq/wav2vec2-2-bert-large"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/fsmt_base_paraphrase_en_de_v3"
+	},
+	{
+		"private": false,
+		"modelId": "hcy11/transformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/dojacat"
 	}
 ]
