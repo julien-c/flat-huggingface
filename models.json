@@ -42567,11 +42567,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "nadzma/finetuned-Pegasus-UK-financial-summarization"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nateraw/keras-cats-vs-dogs"
 	},
@@ -137496,10 +137491,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ankimt01/DialoGPT-small-anch"
-	},
-	{
-		"private": false,
 		"modelId": "hf-internal-testing/test_dynamic_tokenizer"
 	},
 	{
@@ -137508,6 +137499,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NicoGrageda/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -137573,6 +137565,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_dccuchile_bert-base-spanish-wwm-uncased_10_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "groar/gpt-neo-1.3B-finetuned-escape4"
 	}
 ]
