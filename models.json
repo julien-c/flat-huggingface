@@ -59188,6 +59188,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "BogdanKuloren/vi_model"
+	},
+	{
+		"private": false,
 		"modelId": "CALM/backup"
 	},
 	{
@@ -62942,21 +62947,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_100_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_30_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_distilbert-base-nli-mean-tokens_50_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_distiluse-base-multilingual-cased-v1_100_Epochs"
 	},
 	{
@@ -63018,36 +63008,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_paraphrase-multilingual-mpnet-base-v2_5_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_100_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_10_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_1_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_30_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_50_Epochs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "jfarray/Model_roberta-base-nli-mean-tokens_5_Epochs"
 	},
 	{
 		"private": false,
@@ -137320,5 +137280,13 @@
 	{
 		"private": false,
 		"modelId": "kosak83/cefr-classificator"
+	},
+	{
+		"private": false,
+		"modelId": "hrdipto/banga-command-finetuning"
+	},
+	{
+		"private": false,
+		"modelId": "hrdipto/wav2vec2-xls-r-300m-bangla-command-generated-data-finetune"
 	}
 ]
