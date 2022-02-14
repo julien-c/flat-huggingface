@@ -49042,11 +49042,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-small-sh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-small"
 	},
 	{
@@ -55428,16 +55423,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-tiny-skv"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-xl-skv"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-xl"
 	},
 	{
@@ -59832,22 +59817,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-base-skv"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-large-dm256"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-large-nh24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-large-skv"
 	},
 	{
 		"private": false,
@@ -59863,11 +59838,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-xl-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-xl-sh"
 	},
 	{
 		"private": false,
@@ -110112,10 +110082,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Soha/sentiment-analysis-sst2"
-	},
-	{
-		"private": false,
 		"modelId": "Sohail/Client_details"
 	},
 	{
@@ -137381,6 +137347,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Zohar/distilgpt2-finetuned-restaurant-reviews"
 	},
 	{
@@ -137461,11 +137428,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "langfab/distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-ner-subgroup"
 	},
@@ -137526,5 +137488,18 @@
 	{
 		"private": false,
 		"modelId": "Soha/sentiment-analysis"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-segmentation",
+		"modelId": "hf-internal-testing/tiny-random-beit-pipeline"
+	},
+	{
+		"private": false,
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-cloud2-ner"
+	},
+	{
+		"private": false,
+		"modelId": "phelan/testttt"
 	}
 ]
