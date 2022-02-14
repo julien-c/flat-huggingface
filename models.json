@@ -137317,6 +137317,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jfarray/Model_bert-base-multilingual-uncased_30_Epochs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "akozlo/con_bal60k"
+	},
+	{
+		"private": false,
+		"modelId": "jfarray/Model_bert-base-multilingual-uncased_50_Epochs"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-finetuned-copa"
 	}
 ]
