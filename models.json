@@ -44926,11 +44926,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-tiny-sh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-tiny"
 	},
 	{
@@ -55193,11 +55188,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-base-sh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-large-dl12"
 	},
 	{
@@ -55328,11 +55318,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-large-sh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-mini-nl12"
 	},
 	{
@@ -55434,11 +55419,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5/t5-efficient-small-nl36"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "NewT5/t5-efficient-small-shkv"
 	},
 	{
 		"private": false,
@@ -137421,6 +137401,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-medium-no-adapter"
 	},
 	{
@@ -137464,5 +137445,86 @@
 	{
 		"private": false,
 		"modelId": "maze/FastStyleTransfer"
+	},
+	{
+		"private": false,
+		"modelId": "bishmoy/test-model-upload"
+	},
+	{
+		"private": false,
+		"modelId": "mindspore-ai/LeNet"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "KheireddineDaouadi/SIMCSEARA"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "langfab/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ckauth/ck-ner-subgroup"
+	},
+	{
+		"private": false,
+		"modelId": "GleamEyeBeast/Mandarin_naive"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-small-shkv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-base-sh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-large-sh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-xl-skv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-tiny-sh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-large-skv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-tiny-skv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-xl-sh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-base-skv"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-small-sh"
+	},
+	{
+		"private": false,
+		"modelId": "Soha/sentiment-analysis"
 	}
 ]
