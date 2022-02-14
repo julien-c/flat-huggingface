@@ -40549,11 +40549,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "TardisPilot/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Teepika/Sentence-Transformer-NSP-Fine-Tuned"
 	},
@@ -137372,11 +137367,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ckauth/ck-ner-subgroup"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "GleamEyeBeast/Mandarin_naive"
 	},
@@ -137517,6 +137507,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mwesner/bert-base-uncased"
 	},
 	{
@@ -137588,5 +137579,9 @@
 	{
 		"private": false,
 		"modelId": "ankimt01/DialoGPT-small-anch"
+	},
+	{
+		"private": false,
+		"modelId": "ckauth/ck-ner-subgroup"
 	}
 ]
