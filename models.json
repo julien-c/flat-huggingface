@@ -34844,11 +34844,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/distilbert-finetune-config"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "lewtun/bert-finetuned-squad"
 	},
@@ -40915,11 +40910,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/distil-bert-finetune"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kuppuluri/telugu_bertu_ner"
 	},
@@ -42123,11 +42113,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "kizunasunhy/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/roberta-mnli-finetune-config-newdataset"
 	},
 	{
 		"private": false,
@@ -43737,16 +43722,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "khailai/roberta-offensive-classifier-beta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/distilbert-finetune-config-newdataset"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/with-label-sep-fp16-t5-finetune-updated-gits"
 	},
 	{
 		"private": false,
@@ -47550,11 +47525,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "korca/textfooler-roberta-base-rte"
 	},
@@ -50203,11 +50173,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kinit/slovakbert-pos"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/with-label-sep-es-fp16-t5-finetune-updated-git"
 	},
 	{
 		"private": false,
@@ -53307,16 +53272,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "kmfoda/output_dir"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/WORDED-LABEL-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/distilbert-mnli-finetune-config-newdataset"
 	},
 	{
 		"private": false,
@@ -70425,11 +70380,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/generate-topic-t5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "kornesh/muril-large-cased"
 	},
@@ -82577,21 +82527,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "koala/bert-large-uncased-zh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/1-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/best-1-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/fullqn-es-fp16-t5-finetune-updated-git"
 	},
 	{
 		"private": false,
@@ -125358,15 +125293,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "koobear/full-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/save-1-es-fp16-t5-finetune-updated-git"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "korca/meaning-match-roberta-large"
 	},
@@ -137735,6 +137661,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jp1924/KoBERT_NSMC_TEST"
 	},
 	{
@@ -137746,5 +137673,9 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Kontawat/wangchanberta-ner-LST20"
+	},
+	{
+		"private": false,
+		"modelId": "leetdavid/relevance-model"
 	}
 ]
