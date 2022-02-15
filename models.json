@@ -36491,11 +36491,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Parsa/BBB_prediction_finetuned_classification"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Saitomar/wav2vec2-large-xls-r-300m-hindi-kaggle"
 	},
@@ -39085,11 +39080,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-eighth"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "CLAck/khmer-pure"
 	},
 	{
 		"private": false,
@@ -59130,11 +59120,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "Palak/google_electra-base-discriminator_squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Parsa/BBB_prediction_finetuned_classification_iupac"
 	},
 	{
 		"private": false,
@@ -137740,12 +137725,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Parsa/BBB_prediction_classification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Aybars/XLM_Turkish"
+		"pipeline_tag": "translation",
+		"modelId": "CLAck/en-km"
 	}
 ]
