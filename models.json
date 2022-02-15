@@ -76760,6 +76760,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-t5-small-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-panx-dataset-ar"
 	},
@@ -99925,11 +99930,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zyl1024/bert-base-cased-finetuned-qqp"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Nymiz/test"
 	},
 	{
 		"private": false,
@@ -137774,6 +137774,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "TrebleJeff/DialoGPT-small-Michael"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Nymiz/eus-es"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned-token-argumentative"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "joe5campbell/BERT_Tweet_Sentiment_10k"
 	}
 ]
