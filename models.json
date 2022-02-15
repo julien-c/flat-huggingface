@@ -137814,11 +137814,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "AI-Nordics/bert-large-swedish-cased"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MichelBartels/tinyroberta-6l-768d-finetuned-step1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy4"
+	},
+	{
+		"private": false,
+		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
 	}
 ]
