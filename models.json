@@ -109913,6 +109913,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "UBIAI/en_scibert_ScienceIE"
+	},
+	{
+		"private": false,
 		"modelId": "UgobOby/model_name"
 	},
 	{
@@ -137891,6 +137896,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moshew/BERT-tiny-distilled-clinc"
 	},
 	{
@@ -137903,6 +137909,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "indonesian-nlp/gpt2"
 	},
 	{
@@ -137921,5 +137928,17 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_13_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "SaulLu/codex-like-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_3_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/BERT-miny-finetuned-clinc"
 	}
 ]
