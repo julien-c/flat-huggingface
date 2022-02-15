@@ -137742,11 +137742,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "sonoisa/download-test"
-	},
-	{
-		"private": false,
 		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_arabic_new-colab"
 	},
 	{
@@ -137756,14 +137751,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/nb-wav2vec2-1b-bokmaal"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/nb-wav2vec2-300m-bokmaal"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/nb-wav2vec2-300m-nynorsk"
 	},
 	{
@@ -137773,5 +137771,9 @@
 	{
 		"private": false,
 		"modelId": "xujiacheng127/anchi-bert"
+	},
+	{
+		"private": false,
+		"modelId": "TrebleJeff/DialoGPT-small-Michael"
 	}
 ]
