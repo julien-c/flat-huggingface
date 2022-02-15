@@ -26478,6 +26478,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "nairaxo/dvoice-darija"
+	},
+	{
+		"private": false,
 		"modelId": "nielsr/deformable-detr"
 	},
 	{
@@ -39465,6 +39470,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "bertin-project/bertin-base-gaussian"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/m2m-418m-en-de-seed-words-v2"
 	},
 	{
 		"private": false,
@@ -137826,6 +137836,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-image",
 		"modelId": "Xibanya/sunset_city"
 	},
 	{
@@ -137863,5 +137874,10 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "sonoisa/clip-base-japanese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Maunish/ext_sentbert-5"
 	}
 ]
