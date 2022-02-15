@@ -42738,11 +42738,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Aybars/ModelOnWhole"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Bagus/wav2vec2-large-xlsr-bahasa-indonesia"
 	},
@@ -137742,5 +137737,15 @@
 	{
 		"private": false,
 		"modelId": "RealShreyas/ATSC"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Parsa/BBB_prediction_classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Aybars/XLM_Turkish"
 	}
 ]
