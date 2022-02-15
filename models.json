@@ -52815,6 +52815,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "groar/gpt-neo-1.3B-finetuned-escape4"
 	},
 	{
@@ -137737,5 +137738,14 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "sonoisa/download-test"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_arabic_new-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Parsa/BBB_prediction_classification"
 	}
 ]
