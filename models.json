@@ -29345,11 +29345,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ckauth/ck-ner-subgroup"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-base-historic-multilingual-cased"
 	},
@@ -137765,11 +137760,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "TrebleJeff/DialoGPT-small-Michael"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Nymiz/eus-es"
 	},
@@ -137804,5 +137794,14 @@
 	{
 		"private": false,
 		"modelId": "Bwehfuk/Ron"
+	},
+	{
+		"private": false,
+		"modelId": "holsoma/HuBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy1"
 	}
 ]
