@@ -137800,6 +137800,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/m2m_418M_paraphrase_en_de_v3"
 	},
 	{
@@ -137830,5 +137831,26 @@
 	{
 		"private": false,
 		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Norrawee/wangchanberta-ner-2"
+	},
+	{
+		"private": false,
+		"modelId": "obi/obi_roberta_deid"
+	},
+	{
+		"private": false,
+		"modelId": "codeceejay/HIYACCENT_Wav2Vec2"
+	},
+	{
+		"private": false,
+		"modelId": "Xibanya/sunset_city"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/mrasp2-6e6d-no-mono"
 	}
 ]
