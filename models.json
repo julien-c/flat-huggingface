@@ -25401,11 +25401,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "BogdanKuloren/vi_model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Dimedrolza/DialoGPT-small-cyberpunk"
 	},
@@ -25563,11 +25558,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "dbmdz/t5-base-conll03-english"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "elena-soare/my-model"
 	},
 	{
 		"private": false,
@@ -41844,11 +41834,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ehdwns1516/gpt3-kor-based_gpt2_review_SR2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "elena-soare/my-awesome-model"
 	},
 	{
 		"private": false,
@@ -77038,11 +77023,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ekkasilina/big_baseline"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "elena-soare/t5-small-ecommerce"
 	},
 	{
 		"private": false,
@@ -136915,6 +136895,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "xxr/bert-base-uncased-issues-128"
 	},
 	{
@@ -137824,5 +137805,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "nanopass/demo_final_tsundere_copy2"
+	},
+	{
+		"private": false,
+		"modelId": "nanopass/demo_final_tsundere_copy3"
+	},
+	{
+		"private": false,
+		"modelId": "AI-Nordics/bert-large-swedish-cased"
 	}
 ]
