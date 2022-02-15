@@ -136948,6 +136948,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "AKulk/wav2vec2-base-timit-epochs15"
 	},
 	{
@@ -137808,10 +137809,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "nanopass/demo_final_tsundere_copy3"
 	},
 	{
 		"private": false,
 		"modelId": "AI-Nordics/bert-large-swedish-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinyroberta-6l-768d-finetuned-step1"
 	}
 ]
