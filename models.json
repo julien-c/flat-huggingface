@@ -99928,6 +99928,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Nymiz/test"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -137747,5 +137752,21 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Parsa/BBB_prediction_classification"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/nb-wav2vec2-1b-bokmaal"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/nb-wav2vec2-300m-bokmaal"
+	},
+	{
+		"private": false,
+		"modelId": "NbAiLab/nb-wav2vec2-300m-nynorsk"
+	},
+	{
+		"private": false,
+		"modelId": "AKulk/wav2vec2-base-timit-epochs15"
 	}
 ]
