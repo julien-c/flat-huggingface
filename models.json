@@ -39853,6 +39853,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "medA/autonlp-FR_another_test-565016091"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "microsoft/swin-small-patch4-window7-224"
 	},
@@ -52829,11 +52834,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "groar/gpt-neo-1.3B-finetuned-escape4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "hamzaMM/questionClassifier"
 	},
@@ -54190,6 +54190,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zoeymeng913/bert_finetuning_test"
+	},
+	{
+		"private": false,
+		"modelId": "groar/gpt-neo-1.3B-finetuned-escape4"
 	},
 	{
 		"private": false,
@@ -136976,6 +136980,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "youzanai/bert-shipping-address-chinese"
 	},
 	{
@@ -137697,5 +137702,21 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-finetuned-copa-data-new"
+	},
+	{
+		"private": false,
+		"modelId": "pere/multi-sentencefix-byt5"
+	},
+	{
+		"private": false,
+		"modelId": "pere/multi-sentencefix-mt5"
+	},
+	{
+		"private": false,
+		"modelId": "mostadi/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-roberta-large-no-adapter"
 	}
 ]
