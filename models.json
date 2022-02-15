@@ -137626,11 +137626,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "seungbeen/ner_modelv1"
-	},
-	{
-		"private": false,
 		"modelId": "asheads/new_acc_dreambert_test"
 	},
 	{
@@ -137664,6 +137659,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "jackky46/DialoGPT-medium-got"
 	},
 	{
@@ -137684,5 +137680,19 @@
 	{
 		"private": false,
 		"modelId": "Bryanwong/wangchanberta-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Kontawat/wangchanberta-ner"
+	},
+	{
+		"private": false,
+		"modelId": "quangvy/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "suksun1412/wangchanberta-ner-2"
 	}
 ]
