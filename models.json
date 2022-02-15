@@ -136977,11 +136977,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "highnoon/longformer-base-4096-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Parsa/BBB_prediction_classification_IUPAC"
 	},
@@ -137855,6 +137850,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "NbAiLab/nb-gpt-j-6b"
+	},
+	{
+		"private": false,
+		"modelId": "highnoon/longformer-base-4096-finetuned-ner-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-16-10-0.002"
 	}
 ]
