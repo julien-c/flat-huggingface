@@ -29340,6 +29340,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ckauth/ck-ner-subgroup"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/bert-base-historic-multilingual-cased"
 	},
@@ -29611,11 +29616,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "tals/albert-base-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ckauth/ck-ner-subgroup"
 	},
 	{
 		"private": false,
@@ -108381,10 +108381,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Severine/test2"
-	},
-	{
-		"private": false,
 		"modelId": "Sezai/deneme"
 	},
 	{
@@ -136782,7 +136778,35 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AG/pretraining"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "AI-Nordics/bert-large-swedish-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "AKulk/wav2vec2-base-timit-epochs15"
+	},
+	{
+		"private": false,
+		"modelId": "Bwehfuk/Ron"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "CLAck/en-km"
+	},
+	{
+		"private": false,
 		"modelId": "Captain272/lstm"
+	},
+	{
+		"private": false,
+		"modelId": "Gomez0015/DialoGPT-small-rick"
 	},
 	{
 		"private": false,
@@ -136806,7 +136830,88 @@
 	},
 	{
 		"private": false,
+		"modelId": "MahsaShahidi/PersianImageCaptioning"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Maunish/ext_sentbert-5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MichelBartels/tinyroberta-6l-768d-finetuned-step1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "NbAiLab/nb-gpt-j-6b"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/nb-wav2vec2-1b-bokmaal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/nb-wav2vec2-300m-bokmaal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "NbAiLab/nb-wav2vec2-300m-nynorsk"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Norrawee/wangchanberta-ner-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Nymiz/eus-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Parsa/BBB_prediction_classification_IUPAC"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Parsa/BBB_prediction_classification_SMILES"
+	},
+	{
+		"private": false,
+		"modelId": "RealShreyas/ATSC"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-image",
+		"modelId": "Xibanya/sunset_city"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned-token-argumentative"
+	},
+	{
+		"private": false,
 		"modelId": "aryanpatke/code-search-net"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/m2m_418M_paraphrase_en_de_v3"
+	},
+	{
+		"private": false,
+		"modelId": "codeceejay/HIYACCENT_Wav2Vec2"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds-st"
 	},
 	{
 		"private": false,
@@ -136814,7 +136919,823 @@
 	},
 	{
 		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-16-10-0.002"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dl6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dm1000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dm2000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dm256"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-dm512"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-el16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-el2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-el4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-el6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-el8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-ff1000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-ff12000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-ff2000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-ff6000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-ff9000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-kv128"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-kv16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-kv256"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-kv32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nh16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nh24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nh32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nh8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl36"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl40"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl48"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base-nl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dm128"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dm2000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dm256"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dm512"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-dm768"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-el12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-el2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-el4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-el6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-el8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-kv128"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-kv16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-kv256"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-kv32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh8-nl32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nh8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl20"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl36"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large-nl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-mini-nl12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-mini-nl24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-mini-nl6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-mini-nl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-mini"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dl12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dm1000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dm128"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dm2000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dm256"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-dm768"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el16-dl1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el16-dl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el16-dl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el16-dl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el48"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el64"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el8-dl1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el8-dl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el8-dl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-el8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-ff1000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-ff12000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-ff3000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-ff6000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-ff9000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-kv128"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-kv16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-kv256"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-kv32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl20"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl22"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl36"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl40"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl48"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small-nl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-dl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-dl6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-dl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-el12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-el2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-el6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-el8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-ff12000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-ff2000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-ff3000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-ff6000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-ff9000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nh1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nh16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nh32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nh8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny-nl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-tiny"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl28"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl-nl8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xxl-nl4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "google/t5-efficient-xxl"
+	},
+	{
+		"private": false,
+		"modelId": "haritzpuerto/MetaQA"
+	},
+	{
+		"private": false,
+		"modelId": "highnoon/longformer-base-4096-finetuned-ner-finetuned-ner"
+	},
+	{
+		"private": false,
 		"modelId": "highnoon/longformer-base-4096-finetuned-squadv2-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "holsoma/HuBERT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "joe5campbell/BERT_Tweet_Sentiment_10k"
 	},
 	{
 		"private": false,
@@ -136830,6 +137751,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "leetdavid/relevance-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moshew/BERT-tiny-finetuned-clinc"
 	},
 	{
 		"private": false,
@@ -136865,6 +137791,48 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy4"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/mrasp2-6e6d-no-mono"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_arabic-colab"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_arabic_new-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "obi/deid_roberta_i2b2"
+	},
+	{
+		"private": false,
 		"modelId": "pere/multi-sentencefix-byt5"
 	},
 	{
@@ -136882,6 +137850,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sonoisa/clip-base-japanese"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tonoadisorn/wangchanberta-ner"
 	},
@@ -136889,6 +137862,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "tuanle/GPT2-Poet"
+	},
+	{
+		"private": false,
+		"modelId": "xujiacheng127/anchi-bert"
 	},
 	{
 		"private": false,
@@ -136901,983 +137878,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "MahsaShahidi/PersianImageCaptioning"
+		"modelId": "jakobcassiman/mbart-large-cc25-cnn-dailymail-xsum-nl-finetune"
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-fds-st"
+		"modelId": "jakobcassiman/mbart-large-cc25-cnn-dailymail-xsum-nl"
 	},
 	{
 		"private": false,
-		"modelId": "RealShreyas/ATSC"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "CLAck/en-km"
-	},
-	{
-		"private": false,
-		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_arabic-colab"
-	},
-	{
-		"private": false,
-		"modelId": "haritzpuerto/MetaQA"
-	},
-	{
-		"private": false,
-		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_arabic_new-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/nb-wav2vec2-1b-bokmaal"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/nb-wav2vec2-300m-bokmaal"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "NbAiLab/nb-wav2vec2-300m-nynorsk"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "AKulk/wav2vec2-base-timit-epochs15"
-	},
-	{
-		"private": false,
-		"modelId": "xujiacheng127/anchi-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Nymiz/eus-es"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned-token-argumentative"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "joe5campbell/BERT_Tweet_Sentiment_10k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "AG/pretraining"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Parsa/BBB_prediction_classification_IUPAC"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Parsa/BBB_prediction_classification_SMILES"
-	},
-	{
-		"private": false,
-		"modelId": "Bwehfuk/Ron"
-	},
-	{
-		"private": false,
-		"modelId": "holsoma/HuBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl36"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-ff2000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh8-nl32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-ff3000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dm2000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-ff12000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-ff1000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-el4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-kv128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-ff6000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-ff9000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dm128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl48"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-dl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-el6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nh32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl48"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el8-dl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-el12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nh16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nh8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-kv32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-ff12000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-el8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dm1000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-kv16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-ff6000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-el16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl40"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl20"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl22"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-ff12000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-ff1000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dm256"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-ff6000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-ff2000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dm512"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-el8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-dm2000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nh8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-el6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-ff9000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-kv16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-kv32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-kv256"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-kv128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-el2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dm128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dm512"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl36"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl40"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nh24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-el6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nh16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-el4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-nh1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el8-dl1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-ff3000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nh32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dm768"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-dl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el8-dl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-ff9000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-el2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el64"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-tiny-dl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-el2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-el8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xxl-nl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-kv32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-mini-nl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl20"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-mini"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-kv16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-mini-nl12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dl12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dm1000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dm256"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl10"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-mini-nl24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el16-dl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-el12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-kv256"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl32"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-nl36"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-nh24"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el16-dl2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el16-dl1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el16-dl8"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-mini-nl6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-el48"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dm256"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-small-dm768"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-kv128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-base-nl4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl16"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-dm2000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xl-nl28"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-xxl"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "google/t5-efficient-large-kv256"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/m2m_418M_paraphrase_en_de_v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "AI-Nordics/bert-large-swedish-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinyroberta-6l-768d-finetuned-step1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Norrawee/wangchanberta-ner-2"
-	},
-	{
-		"private": false,
-		"modelId": "codeceejay/HIYACCENT_Wav2Vec2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-to-image",
-		"modelId": "Xibanya/sunset_city"
-	},
-	{
-		"private": false,
-		"modelId": "nbroad/mrasp2-6e6d-no-mono"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "NbAiLab/nb-gpt-j-6b"
-	},
-	{
-		"private": false,
-		"modelId": "highnoon/longformer-base-4096-finetuned-ner-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-16-10-0.002"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/BERT-tiny-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "obi/deid_roberta_i2b2"
-	},
-	{
-		"private": false,
-		"modelId": "Gomez0015/DialoGPT-small-rick"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "sonoisa/clip-base-japanese"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Maunish/ext_sentbert-5"
+		"modelId": "cyl/adapter_t5-3b_mnli"
 	}
 ]
