@@ -137676,6 +137676,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "leetdavid/relevance-model"
+	},
+	{
+		"private": false,
+		"modelId": "xxr/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-finetuned-copa-dataset"
 	}
 ]
