@@ -42656,6 +42656,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "phongdtd/wavlm-vindata-demo-dist"
+	},
+	{
+		"private": false,
 		"modelId": "princeton-nlp/densephrases-multi"
 	},
 	{
@@ -72190,11 +72195,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "phongdtd/wavlm-vindata-demo-dist"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "pierric/ny-cr-fr"
 	},
@@ -86656,6 +86656,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_3_ft_2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_13_ft_2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xlsr-53_common_voice_20211211085606"
 	},
@@ -100564,6 +100574,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zyl1024/bert-base-cased-finetuned-qqp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "jackky46/DialoGPT-medium-got"
 	},
 	{
 		"private": false,
@@ -127823,10 +127838,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-finetuned-copa"
-	},
-	{
-		"private": false,
 		"modelId": "msivanes/code-search-net-tokenizer"
 	},
 	{
@@ -137050,6 +137061,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "jcmc/speechbrain-ic-slu"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-finetuned-copa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "Aybars/ModelOnWhole"
 	},
@@ -137459,16 +137478,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_3_ft_2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_13_ft_2"
-	},
-	{
-		"private": false,
 		"modelId": "GonzaloA/roberta-large-finetuned-fakeNews"
 	},
 	{
@@ -137654,10 +137663,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jackky46/DialoGPT-medium-got"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kobkrit/wangchanberta-ner-2"
 	},
@@ -137708,6 +137713,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "jcmc/speechbrain-ic-slu"
+		"modelId": "xxr/bert-base-uncased-issues-128"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_13_ft_3"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_3_ft_3"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-finetuned-copa-data"
 	}
 ]
