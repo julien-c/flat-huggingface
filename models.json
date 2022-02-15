@@ -29619,6 +29619,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ckauth/ck-ner-subgroup"
 	},
 	{
@@ -105571,6 +105572,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maunish/kgrouping-roberta-large"
 	},
 	{
@@ -136993,6 +136995,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "highnoon/longformer-base-4096-finetuned-ner"
 	},
 	{
@@ -137816,5 +137819,10 @@
 	{
 		"private": false,
 		"modelId": "bettertextapp/m2m_418M_paraphrase_en_de_v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "nanopass/demo_final_tsundere_copy2"
 	}
 ]
