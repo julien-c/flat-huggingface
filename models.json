@@ -108732,6 +108732,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Rafat/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -137625,11 +137626,23 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/m2m_1.2B_paraphrase_en_de_v2"
+		"modelId": "akaushik1/DialoGPT-medium-kbot"
 	},
 	{
 		"private": false,
-		"modelId": "akaushik1/DialoGPT-medium-kbot"
+		"modelId": "Bistolero/dutch_summary_generate_true"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "seungbeen/ner_modelv1"
+	},
+	{
+		"private": false,
+		"modelId": "asheads/new_acc_dreambert_test"
+	},
+	{
+		"private": false,
+		"modelId": "asheads/new_acc_dreambert_again"
 	}
 ]
