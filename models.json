@@ -82398,11 +82398,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "junnyu/bert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "junzai/222"
 	},
@@ -137722,5 +137717,14 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-finetuned-copa-data-new-finetuned-copa-data-new"
+	},
+	{
+		"private": false,
+		"modelId": "cyl/adapter_t5-3b_qqp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "junnyu/ernie_gram"
 	}
 ]
