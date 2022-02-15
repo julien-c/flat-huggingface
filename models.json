@@ -97148,11 +97148,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "polodealvarado/xls-r-1b-es"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ponteineptique/latin-classical-small"
 	},
@@ -115864,14 +115859,6 @@
 	{
 		"private": false,
 		"modelId": "dahele/tip"
-	},
-	{
-		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-16-15-0.002"
-	},
-	{
-		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-16-20-0.002"
 	},
 	{
 		"private": false,
@@ -137834,10 +137821,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "obi/obi_roberta_deid"
-	},
-	{
-		"private": false,
 		"modelId": "codeceejay/HIYACCENT_Wav2Vec2"
 	},
 	{
@@ -137860,5 +137843,19 @@
 	{
 		"private": false,
 		"modelId": "daisyxie21/bert-base-uncased-16-10-0.002"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moshew/BERT-tiny-finetuned-clinc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "obi/deid_roberta_i2b2"
+	},
+	{
+		"private": false,
+		"modelId": "Gomez0015/DialoGPT-small-rick"
 	}
 ]
