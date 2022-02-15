@@ -137742,11 +137742,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Parsa/BBB_prediction_classification"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NbAiLab/nb-wav2vec2-1b-bokmaal"
 	},
@@ -137770,7 +137765,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "TrebleJeff/DialoGPT-small-Michael"
 	},
 	{
@@ -137789,6 +137784,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "AG/pretraining"
+	},
+	{
+		"private": false,
 		"modelId": "highnoon/longformer-base-4096-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Parsa/BBB_prediction_classification_IUPAC"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Parsa/BBB_prediction_classification_SMILES"
+	},
+	{
+		"private": false,
+		"modelId": "Bwehfuk/Ron"
 	}
 ]
