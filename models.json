@@ -36400,6 +36400,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "projecte-aina/bart-base-ca-casum"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AI-Lab-Makerere/en_lg"
 	},
@@ -64892,6 +64897,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "GleamEyeBeast/Mandarin_naive"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Leostronkest/DialoGPT-small-michael"
 	},
@@ -86663,6 +86673,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_13_ft_2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_9_ft_1"
 	},
 	{
 		"private": false,
@@ -137061,7 +137076,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "bensuydam/shrek_hardloader"
 	},
 	{
@@ -137384,11 +137399,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "GleamEyeBeast/Mandarin_naive"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "NewT5SharedHeadsSharedKeyValues/t5-efficient-small-shkv"
 	},
@@ -137501,11 +137511,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "NicoGrageda/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Jeevesh8/multiberts_seed_9_ft_1"
 	},
 	{
 		"private": false,
@@ -137735,5 +137740,9 @@
 	{
 		"private": false,
 		"modelId": "koobear/no-test-roberta-mnli-finetune-config"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_9_ft_2"
 	}
 ]
