@@ -22792,11 +22792,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "BogdanKuloren/vi_model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "DeskDown/MarianMix_en-ja-10"
 	},
@@ -47680,6 +47675,11 @@
 	{
 		"private": false,
 		"modelId": "tftransformers/bert-base-cased-no-mlm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "tnl/nccid-test"
 	},
 	{
 		"private": false,
@@ -138648,5 +138648,9 @@
 	{
 		"private": false,
 		"modelId": "Guscerra/vaw2vec2_danish_cv"
+	},
+	{
+		"private": false,
+		"modelId": "Jira/first_test"
 	}
 ]
