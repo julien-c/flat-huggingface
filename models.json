@@ -48545,11 +48545,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "Zohar/distilgpt2-finetuned-wikitext2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aXhyra/emotion_trained_31415"
 	},
@@ -134837,10 +134832,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "taesu/ts_bert_test"
-	},
-	{
-		"private": false,
 		"modelId": "taharushain/postive_negative_emotions"
 	},
 	{
@@ -138299,6 +138290,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "peterhsu/tf-distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -138350,10 +138342,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "taesu/ts-bert-test2"
-	},
-	{
-		"private": false,
 		"modelId": "ntjrrv/JoeyBot"
 	},
 	{
@@ -138373,5 +138361,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-PubMedBert-full"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/tf_distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "taesu/bert_test"
 	}
 ]
