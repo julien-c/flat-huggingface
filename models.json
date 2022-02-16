@@ -112671,14 +112671,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "arampacha/wav2vec2-xls-r-1b-da"
-	},
-	{
-		"private": false,
-		"modelId": "arampacha/wav2vec2-xls-r-300m-armenian"
-	},
-	{
-		"private": false,
 		"modelId": "arch-raven/ahsg"
 	},
 	{
@@ -138651,6 +138643,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-st-base-model"
 	},
 	{
@@ -138896,5 +138889,19 @@
 	{
 		"private": false,
 		"modelId": "ali2066/finetuned_token_itr0_2e-05_essays_16_02_2022-20_32_24"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_all_16_02_2022-20_40_28"
+	},
+	{
+		"private": false,
+		"modelId": "apriori/CactuAI3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_3e-05_all_16_02_2022-20_43_00"
 	}
 ]
