@@ -26624,11 +26624,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-to-audio",
-		"modelId": "cankeles/ConvTasNet_WHAMRmod_enhsingle_16k"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "centon21/DialoGPT-small-harrypotter"
 	},
@@ -103677,40 +103672,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_0_3"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_0_4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_14_ft_0"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_1_0"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_1_1"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_1_2"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_1_3"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_1_4"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_2_0"
 	},
 	{
 		"private": false,
@@ -138311,6 +138274,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tamedai/fsmt-base-translation-en-de"
 	},
 	{
@@ -138319,11 +138283,39 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "chaitanya97/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "joe5campbell/BERT_Tweet_Sentiment_TEST"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "cankeles/ConvTasNet_WHAMR_enhsingle_16k"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/tf-distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "creynier/wav2vec2-base-swbd-turn-small-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "tamedai/LaBSE"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "yabramuvdi/distilbert-wfh"
+	},
+	{
+		"private": false,
+		"modelId": "joe5campbell/BERT_Tweet_Sentiment_50k_2epochs"
 	}
 ]
