@@ -132544,6 +132544,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-roberta-large-no-adapter"
 	},
 	{
@@ -138817,19 +138818,38 @@
 	},
 	{
 		"private": false,
+		"modelId": "bullmount/xlm-roberta-base-finetuned-panx-it"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "famodde/optimizer-ner-fineTune"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_pubmed_abstract_3"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_pubmed_full_3"
 	},
 	{
 		"private": false,
 		"modelId": "flozi00/wav2vec2-xls-r-1b-german-wordpiece"
+	},
+	{
+		"private": false,
+		"modelId": "17luke/wav2vec2-large-xls-r-300m-icelandic-samromur"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_all_16_02_2022-20_09_36"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_itr0_3e-05_all_16_02_2022-20_12_04"
 	}
 ]
