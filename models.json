@@ -138204,7 +138204,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Mythiie/DialoGPT-small-Modeus"
 	},
 	{
@@ -138213,10 +138213,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/roberta-large-english-upos"
 	},
 	{
 		"private": false,
 		"modelId": "taesu/ts_bert_test"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/ner-with-transformers"
+	},
+	{
+		"private": false,
+		"modelId": "tinparadox/jobsearch"
 	}
 ]
