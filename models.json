@@ -36254,11 +36254,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinyroberta-6l-768d-finetuned-step1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Rumesh/txt-smp-si2"
 	},
@@ -47675,11 +47670,6 @@
 	{
 		"private": false,
 		"modelId": "tftransformers/bert-base-cased-no-mlm"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "tnl/nccid-test"
 	},
 	{
 		"private": false,
@@ -66027,11 +66017,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "d8oss/gamio-small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daisyxie21/bert-base-uncased-16-10-0.002"
 	},
 	{
 		"private": false,
@@ -138357,10 +138342,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "peterhsu/tf_distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "sonoisa/clip-vit-b-32-japanese"
 	},
@@ -138488,10 +138469,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "daisyxie21/bert-base-uncased-16-50-0.01"
-	},
-	{
-		"private": false,
 		"modelId": "dram-conflict/test_scripts"
 	},
 	{
@@ -138531,6 +138508,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "chaitanya97/wav2vec2-large-xls-r-3"
 	},
 	{
@@ -138634,6 +138612,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-PubMedBert-full-5"
 	},
 	{
@@ -138652,5 +138631,57 @@
 	{
 		"private": false,
 		"modelId": "Jira/first_test"
+	},
+	{
+		"private": false,
+		"modelId": "highnoon/longformerwikiannen-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-16-100-0.002"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Norrawee/wangchanberta-w20"
+	},
+	{
+		"private": false,
+		"modelId": "bloomberg/KBIR"
+	},
+	{
+		"private": false,
+		"modelId": "jaesun/bert-base-finetuned-klue-retrieval-for-qa"
+	},
+	{
+		"private": false,
+		"modelId": "dangvantuan/sentence-camembert-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/tinyroberta-squad2"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-st-base-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/tinyroberta-squad2-step1"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_10_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "Guscerra/model_output"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "philschmid/my-onnx-repo"
 	}
 ]
