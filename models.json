@@ -136779,6 +136779,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ankimt01/DialoGPT-small-anch"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -137794,11 +137799,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
-	},
-	{
-		"private": false,
 		"modelId": "nbroad/mrasp2-6e6d-no-mono"
 	},
 	{
@@ -138250,5 +138250,10 @@
 	{
 		"private": false,
 		"modelId": "Niciu/wav2vec2-base-vivo-demo-colab1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "sunitha/config_distilbert_model"
 	}
 ]
