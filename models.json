@@ -4023,7 +4023,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "voice-activity-detection",
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pyannote/speaker-diarization"
 	},
 	{
@@ -128058,6 +128058,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "moumeneb1/gender_detection"
+	},
+	{
+		"private": false,
 		"modelId": "moumeneb1/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -138439,6 +138444,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "MhF/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
@@ -138457,6 +138463,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_32_56"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_35_19"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_37_42"
 	}
 ]
