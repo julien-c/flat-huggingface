@@ -58946,11 +58946,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "archmagos/HourAI"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "aripo99/dummy_model"
 	},
@@ -62920,6 +62915,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zloelias/rubert-tiny2-kinopoisk-reviews-finetuned-clf"
+	},
+	{
+		"private": false,
+		"modelId": "archmagos/HourAI"
 	},
 	{
 		"private": false,
@@ -138817,5 +138816,9 @@
 	{
 		"private": false,
 		"modelId": "bullmount/xlm-roberta-base-finetuned-panx-it"
+	},
+	{
+		"private": false,
+		"modelId": "jaesun/dpr-bert"
 	}
 ]
