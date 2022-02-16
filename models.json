@@ -62918,6 +62918,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "archmagos/HourAI"
 	},
 	{
@@ -138476,11 +138477,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-PubMedBert-full-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_41_15"
 	},
 	{
@@ -138601,22 +138597,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-PubMedBert-full-4"
-	},
-	{
-		"private": false,
 		"modelId": "ali2066/finetuned_token_3e-05_all_16_02_2022-16_32_30"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "NbAiLab/nb-bert-base-samisk"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-PubMedBert-full-5"
 	},
 	{
 		"private": false,
@@ -138696,11 +138682,6 @@
 	{
 		"private": false,
 		"modelId": "groar/gpt-neo-1.3B-finetuned-escape5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-PubMedBert-full-6"
 	},
 	{
 		"private": false,
@@ -138820,5 +138801,13 @@
 	{
 		"private": false,
 		"modelId": "jaesun/dpr-bert"
+	},
+	{
+		"private": false,
+		"modelId": "jaesun/dpr-bert-model"
+	},
+	{
+		"private": false,
+		"modelId": "jharrison27/BiomedNLP-PubMedBERT-base-uncased-abstract-finetuned-squad"
 	}
 ]
