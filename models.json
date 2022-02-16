@@ -22792,6 +22792,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "BogdanKuloren/vi_model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "DeskDown/MarianMix_en-ja-10"
 	},
@@ -96678,11 +96683,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nykodmar/wav2vec2-common-voice-7.0-cs-augmented_v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nyu-mll/roberta-med-small-1M-3"
 	},
@@ -128062,11 +128062,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "moumeneb1/gender_detection"
-	},
-	{
-		"private": false,
 		"modelId": "moumeneb1/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -129466,10 +129461,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nykodmar/wav2vec2-large-xlsr-czech-1"
-	},
-	{
-		"private": false,
-		"modelId": "nykodmar/wav2vec2-xls-r-300m-cs-cv8.0-v3"
 	},
 	{
 		"private": false,
@@ -138356,6 +138347,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "HamidRezaAttar/gpt2-product-description-generator"
+	},
+	{
+		"private": false,
 		"modelId": "NeonBohdan/tts-tacotron2-ljspeech-pl"
 	},
 	{
@@ -138477,6 +138473,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "nabilShopify/DialogGPT-medium-alescrypto"
 	},
 	{
@@ -138485,6 +138482,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DaNLP/da-electra-hatespeech-detection"
 	},
 	{
@@ -138546,5 +138544,60 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_56_33"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_59_50"
+	},
+	{
+		"private": false,
+		"modelId": "nabilShopify/test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-16_03_05"
+	},
+	{
+		"private": false,
+		"modelId": "GeoffVdr/xls-r-2b-trans-nl-cv8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-16_06_20"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_3e-05_all_16_02_2022-16_09_36"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_3e-05_all_16_02_2022-16_12_51"
+	},
+	{
+		"private": false,
+		"modelId": "PaddlePaddle/chinese_text_detection_db_server"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_3e-05_all_16_02_2022-16_16_08"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_3e-05_all_16_02_2022-16_19_24"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/tf3-distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_3e-05_all_16_02_2022-16_22_39"
 	}
 ]
