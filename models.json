@@ -128395,6 +128395,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ohshimalab/bert-base-minpaku"
+	},
+	{
+		"private": false,
 		"modelId": "oidelima/test"
 	},
 	{
@@ -137789,26 +137794,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "nanopass/demo_final_tsundere_copy4"
-	},
-	{
-		"private": false,
 		"modelId": "nbroad/mrasp2-6e6d-no-mono"
 	},
 	{
@@ -138167,10 +138152,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli-vast"
-	},
-	{
-		"private": false,
 		"modelId": "Emclaniyi/insurance"
 	},
 	{
@@ -138226,11 +138207,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "tinparadox/jobsearch"
-	},
-	{
-		"private": false,
 		"modelId": "keras-io/mutlimodal-entailment"
 	},
 	{
@@ -138240,5 +138216,17 @@
 	{
 		"private": false,
 		"modelId": "espejelomar/demo3"
+	},
+	{
+		"private": false,
+		"modelId": "fastai/demo5"
+	},
+	{
+		"private": false,
+		"modelId": "espejelomar/demo5"
+	},
+	{
+		"private": false,
+		"modelId": "fastai/demo6"
 	}
 ]
