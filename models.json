@@ -110469,6 +110469,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Yanjie/distilbert-classifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Yankee/TEST21"
 	},
@@ -119541,10 +119546,6 @@
 	{
 		"private": false,
 		"modelId": "h4d35/ConvMixer"
-	},
-	{
-		"private": false,
-		"modelId": "h4iku/newtest"
 	},
 	{
 		"private": false,
@@ -139035,10 +139036,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "taesu/ts-bert-test"
-	},
-	{
-		"private": false,
 		"modelId": "akhaliq/frame-interpolation"
 	},
 	{
@@ -139053,5 +139050,13 @@
 	{
 		"private": false,
 		"modelId": "bigscience-catalogue-lm-data/tokenizer_equal_NFKC_250k"
+	},
+	{
+		"private": false,
+		"modelId": "taesu/ts-test"
+	},
+	{
+		"private": false,
+		"modelId": "blakelucey/cats_vs_dogs"
 	}
 ]
