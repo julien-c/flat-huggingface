@@ -18559,6 +18559,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-he"
 	},
@@ -18937,11 +18942,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "DHBaek/xlm-roberta-large-korquad-mask"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -20343,6 +20343,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "premrawat/en_model_ner_skills"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "stanfordnlp/stanza-ro"
 	},
 	{
@@ -21133,11 +21138,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/wav2vec2-large-xlsr-turkish-demo"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "premrawat/en_model_ner_skills"
 	},
 	{
 		"private": false,
@@ -136779,6 +136779,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "keras-io/monocular-depth-estimation"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -138209,10 +138213,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "eunjin/spb"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/monocular-depth-estimation"
 	},
 	{
 		"private": false,
