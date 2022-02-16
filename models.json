@@ -138680,6 +138680,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_14_ft_1"
 	},
 	{
@@ -138901,7 +138902,20 @@
 	},
 	{
 		"private": false,
+		"modelId": "Zephaus/Chrom"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_itr0_3e-05_all_16_02_2022-20_43_00"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_0.0002_all_16_02_2022-20_45_27"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_essays_16_02_2022-20_47_50"
 	}
 ]
