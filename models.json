@@ -138516,10 +138516,35 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "philschmid/distilbert-onnx"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_48_32"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_50_54"
+	},
+	{
+		"private": false,
+		"modelId": "chaitanya97/wav2vec2-large-xls-r-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_53_17"
+	},
+	{
+		"private": false,
+		"modelId": "AKulk/wav2vec2-base-timit-epochs20"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_all_16_02_2022-15_56_33"
 	}
 ]
