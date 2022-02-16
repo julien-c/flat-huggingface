@@ -18238,10 +18238,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sh110495/kor-pegasus"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "soikit/chinese-bert-wwm-chinese_bert_wwm1"
 	},
@@ -69530,7 +69526,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "structured-data-classification",
 		"modelId": "keras-io/TF_Decision_Trees"
 	},
 	{
@@ -108098,6 +108093,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Santiagot1105/wav2vec2-large-xlsr-finetune-es-Test"
 	},
 	{
@@ -110055,10 +110051,6 @@
 	{
 		"private": false,
 		"modelId": "VariableZee/DialoGPT-small-ivylia02"
-	},
-	{
-		"private": false,
-		"modelId": "Vasanth/en-ta-translator"
 	},
 	{
 		"private": false,
@@ -136776,6 +136768,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Vasanth/en-ta-translator"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -136917,6 +136913,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "daisyxie21/bert-base-uncased-16-10-0.002"
 	},
 	{
@@ -138008,6 +138005,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "SmokeAndAsh/DialoGPT-small-sokka"
 	},
 	{
@@ -138127,15 +138125,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "h4d35/ConvMixer"
-	},
-	{
-		"private": false,
 		"modelId": "WoutN2001/DialoGPT-small-joshua"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-mnli-2"
 	},
 	{
 		"private": false,
@@ -138144,5 +138134,61 @@
 	{
 		"private": false,
 		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-00_58_25"
+	},
+	{
+		"private": false,
+		"modelId": "princeton-nlp/datamux-mnli-2"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-01_05_29"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Kontawat/wangchanberta-ner-LST20-fineTune"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-01_30_30"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/bb-l-idpt-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Sonny/distilbert-base-uncased-finetuned-squad-d5716d28"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-01_53_40"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-01_55_54"
+	},
+	{
+		"private": false,
+		"modelId": "mindspore-ai/GoogleNet"
+	},
+	{
+		"private": false,
+		"modelId": "h4d35/ConvMixer"
+	},
+	{
+		"private": false,
+		"modelId": "mindspore-ai/ghostnet_ssd"
+	},
+	{
+		"private": false,
+		"modelId": "mindspore-ai/tinybert"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli-vast"
 	}
 ]
