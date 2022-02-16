@@ -52980,11 +52980,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "sonoisa/clip-base-japanese"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "spacy/ca_core_news_trf"
 	},
@@ -138322,6 +138317,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/topic-generator"
 	},
 	{
@@ -138368,6 +138364,50 @@
 	},
 	{
 		"private": false,
-		"modelId": "taesu/bert_test"
+		"pipeline_tag": "feature-extraction",
+		"modelId": "sonoisa/clip-vit-b-32-japanese"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-large-coco"
+	},
+	{
+		"private": false,
+		"modelId": "taesu/test_test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_15_41"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-small-coco"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-tiny-coco"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_18_19"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-base-coco"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-base-ade"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_20_41"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-large-ade"
 	}
 ]
