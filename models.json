@@ -1916,7 +1916,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "voice-activity-detection",
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pyannote/voice-activity-detection"
 	},
 	{
@@ -5469,7 +5469,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "voice-activity-detection",
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pyannote/speaker-segmentation"
 	},
 	{
@@ -7521,6 +7521,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pyannote/overlapped-speech-detection"
 	},
 	{
@@ -128279,11 +128280,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "mselbach/distilbart-cnn-12-6-finetuned-distilbart"
-	},
-	{
-		"private": false,
 		"modelId": "msimon16/model_name"
 	},
 	{
@@ -138234,6 +138230,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Azizun/Geotrend-10-epochs"
+	},
+	{
+		"private": false,
 		"modelId": "Radhika0908/blog"
 	},
 	{
@@ -138409,5 +138410,53 @@
 	{
 		"private": false,
 		"modelId": "Francesco/maskformer-swin-large-ade"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_23_23"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-tiny-ade"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/maskformer-swin-small-ade"
+	},
+	{
+		"private": false,
+		"modelId": "celineguan/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "AUBMC-AIM/OCTaGAN"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_25_47"
+	},
+	{
+		"private": false,
+		"modelId": "MhF/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "bishmoy/randaugment"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_28_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_30_32"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_2e-05_16_02_2022-14_32_56"
 	}
 ]
