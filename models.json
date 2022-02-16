@@ -43609,6 +43609,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mradau/stress_classifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "mrm8488/convbert-base-spanish"
 	},
@@ -138808,5 +138813,9 @@
 	{
 		"private": false,
 		"modelId": "princeton-nlp/datamux-sst2-10"
+	},
+	{
+		"private": false,
+		"modelId": "bullmount/xlm-roberta-base-finetuned-panx-it"
 	}
 ]
