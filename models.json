@@ -36548,6 +36548,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/m2m_418M_paraphrase_en_de_v3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "byeongal/bert-base-uncased"
 	},
@@ -127149,6 +127154,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "msarmi9/multi30k"
 	},
 	{
@@ -136907,11 +136913,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/m2m_418M_paraphrase_en_de_v3"
-	},
-	{
-		"private": false,
 		"modelId": "codeceejay/HIYACCENT_Wav2Vec2"
 	},
 	{
@@ -138224,10 +138225,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/again-roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli-vast"
-	},
-	{
-		"private": false,
 		"modelId": "gamichae/tessa_gpt3"
 	},
 	{
@@ -138254,5 +138251,18 @@
 	{
 		"private": false,
 		"modelId": "Niciu/wav2vec2-large-xlsr-thai-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Norrawee/monsoon-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Norrawee/mosoon-ner"
+	},
+	{
+		"private": false,
+		"modelId": "krandiash/test-model"
 	}
 ]
