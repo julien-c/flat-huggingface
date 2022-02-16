@@ -69997,10 +69997,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "reichenbach/mutlimodal-entailment"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "ricardo-filho/bert_large_faquad"
 	},
@@ -125263,10 +125259,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "keras-io/mutlimodal-entailment"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "keras-io/swin-transformers"
 	},
@@ -127660,6 +127652,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "mimi/Waynehills_NLP_KE-T5"
 	},
 	{
@@ -138304,6 +138297,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Amitabh/patent-classification"
+	},
+	{
+		"private": false,
 		"modelId": "lewtun/test-model"
 	},
 	{
@@ -138315,5 +138313,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "premrawat/en_ner_model"
+	},
+	{
+		"private": false,
+		"modelId": "tamedai/fsmt-base-translation-en-de"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/multimodal-entailment"
 	}
 ]
