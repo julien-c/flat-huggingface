@@ -138560,6 +138560,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "bullmount/xlm-roberta-base-finetuned-panx-it"
 	},
 	{
@@ -138671,6 +138672,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "groar/gpt-neo-1.3B-finetuned-escape5"
 	},
 	{
@@ -138986,5 +138988,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_itr0_0.0002_all_16_02_2022-21_13_10"
+	},
+	{
+		"private": false,
+		"modelId": "apriori/CactuAI3"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/test-bin-bug"
 	}
 ]
