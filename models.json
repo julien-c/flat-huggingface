@@ -129847,6 +129847,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "niclas/model_en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "niclas/model_sv_5"
 	},
 	{
@@ -139266,6 +139271,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "nicoladecao/msmarco-word2vec256000-bert-base-uncased"
 	},
 	{
@@ -139300,5 +139306,18 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified-Bioformers"
+	},
+	{
+		"private": false,
+		"modelId": "bullmount/xlm-roberta-base-finetuned-panx-it-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-Bioformers"
+	},
+	{
+		"private": false,
+		"modelId": "Brokette/projetCS"
 	}
 ]
