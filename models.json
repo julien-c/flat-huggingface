@@ -129866,6 +129866,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "niclas/model_sv_working"
+	},
+	{
+		"private": false,
 		"modelId": "niclas/model_sv_working_2"
 	},
 	{
@@ -132010,10 +132015,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-neo-2pt7B-Conversational_DS-WoW_Ep-1_Bs-8"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/t5-v1_1-base-finetuned-lfqa"
 	},
 	{
 		"private": false,
@@ -139382,6 +139383,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-pubmedabstract_latest"
 	},
 	{
