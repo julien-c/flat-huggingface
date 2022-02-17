@@ -40008,6 +40008,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Aybars/ModelOnWhole"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-poetry"
 	},
@@ -58570,6 +58575,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "VMET/DialoGPT-small-dumbassbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Vasanth/en-ta-translator"
 	},
 	{
 		"private": false,
@@ -109983,11 +109993,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Vasanth/en-ta-translator"
-	},
-	{
-		"private": false,
 		"modelId": "VectorMan/DialoGPT-small-Rick"
 	},
 	{
@@ -138142,6 +138147,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "microsoft/tapex-base"
+	},
+	{
+		"private": false,
 		"modelId": "17luke/wav2vec2-large-xls-r-300m-icelandic-samromur"
 	},
 	{
@@ -139163,10 +139173,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "keras-io/depth-estimation"
+		"modelId": "figurative-nlp/fig-gene-t5"
 	},
 	{
 		"private": false,
-		"modelId": "figurative-nlp/fig-gene-t5"
+		"modelId": "diwank/silicone-deberta-pair"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/estimation-depth"
 	}
 ]
