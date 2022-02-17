@@ -124732,6 +124732,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jaynlp/t5-large-samsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jaynlp/t5-large-transferqa"
+	},
+	{
+		"private": false,
 		"modelId": "jbcallv/dino_codebooks"
 	},
 	{
@@ -139339,5 +139349,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Chem-Modified-Bioformers_2"
+	},
+	{
+		"private": false,
+		"modelId": "pere/multi-sentencefix-mt5-2"
+	},
+	{
+		"private": false,
+		"modelId": "pere/multi-sentencefix-byt5-2"
 	}
 ]
