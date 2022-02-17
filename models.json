@@ -24500,6 +24500,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Andranik/Test1VoloClassifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Finnish-NLP/roberta-large-finnish-v2"
 	},
@@ -59109,7 +59114,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "dangvantuan/sentence-camembert-large"
 	},
 	{
@@ -139390,5 +139395,18 @@
 		"private": false,
 		"pipeline_tag": "object-detection",
 		"modelId": "merve/model-card-plot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Andranik/TestPytorchClassification"
+	},
+	{
+		"private": false,
+		"modelId": "patrickvonplaten/wav2vec2-base-960h-with-time-stamps"
+	},
+	{
+		"private": false,
+		"modelId": "yarik921/Teflon_0.2"
 	}
 ]
