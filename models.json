@@ -139186,11 +139186,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "diwank/silicone-deberta-pair"
-	},
-	{
-		"private": false,
-		"modelId": "figurative-nlp/fig-generation-t5"
 	},
 	{
 		"private": false,
@@ -139203,10 +139200,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "figurative-nlp/figurative-generation-t5"
+		"modelId": "jarrin/distilgpt2-finetuned-wikitext2"
 	},
 	{
 		"private": false,
-		"modelId": "jarrin/distilgpt2-finetuned-wikitext2"
+		"modelId": "denden047/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "shulindt/gpt2-wikitext2"
 	}
 ]
