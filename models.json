@@ -56964,6 +56964,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "archmagos/HourAI"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xls-r-300m-tr-colab"
 	},
@@ -106213,6 +106218,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Milos/slovak-gpt-j-1.4B"
+	},
+	{
+		"private": false,
 		"modelId": "MilosCuculovic/reviewer-bert"
 	},
 	{
@@ -139393,6 +139403,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "figurative-nlp/se4fig-roberta-base"
 	},
 	{
@@ -139437,5 +139448,9 @@
 	{
 		"private": false,
 		"modelId": "daisyxie21/bert-base-uncased-32-100-0.1"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-32-50-0.1"
 	}
 ]
