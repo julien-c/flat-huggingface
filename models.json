@@ -137258,10 +137258,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "vesteinn/IceBERT-finetuned-10-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "vesteinn/XLMR-ENIS-finetuned-stsb"
 	},
@@ -139662,10 +139658,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MarcBrun/ixambert-squad-eu"
 	},
 	{
 		"private": false,
 		"modelId": "MarcBrun/ixambert-squad-eu-en"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/ppo-PongNoFrameskip-v4"
+	},
+	{
+		"private": false,
+		"modelId": "Kontawat/wangchanberta-ner-LST20-fineTune-new"
 	}
 ]
