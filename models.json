@@ -58941,6 +58941,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "archmagos/HourAI"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "aripo99/dummy_model"
 	},
@@ -62910,10 +62914,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zloelias/rubert-tiny2-kinopoisk-reviews-finetuned-clf"
-	},
-	{
-		"private": false,
-		"modelId": "archmagos/HourAI"
 	},
 	{
 		"private": false,
@@ -138160,6 +138160,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "AndyJ/prompt_finetune"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "AnkurIbySarkar/Code-Switching-project"
 	},
@@ -138257,6 +138262,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "JonathanSum/wav2vec2-large-xls-r-300m-zh-HK-colab_round2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "MagicalCat29/model_save_test2"
 	},
@@ -138335,6 +138344,22 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "aiface/vivos_prj1tha"
+	},
+	{
+		"private": false,
+		"modelId": "akadriu/wav2vec2-large-xlsr-53-AL-10000"
+	},
+	{
+		"private": false,
+		"modelId": "akhaliq/CLIPasso"
+	},
+	{
+		"private": false,
+		"modelId": "akhaliq/frame-interpolation"
+	},
+	{
+		"private": false,
+		"modelId": "alexrink/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
@@ -138497,6 +138522,26 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_0.0002_all_16_02_2022-21_13_10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_0.0002_editorials_16_02_2022-21_07_38"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_0.0002_essays_16_02_2022-21_04_02"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_0.0002_webDiscourse_16_02_2022-21_00_50"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/finetuned_token_itr0_2e-05_all_16_02_2022-20_09_36"
 	},
 	{
@@ -138511,6 +138556,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_all_16_02_2022-21_08_55"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_editorials_16_02_2022-21_05_05"
+	},
+	{
+		"private": false,
 		"modelId": "ali2066/finetuned_token_itr0_2e-05_essays_16_02_2022-20_16_50"
 	},
 	{
@@ -138520,6 +138575,16 @@
 	{
 		"private": false,
 		"modelId": "ali2066/finetuned_token_itr0_2e-05_essays_16_02_2022-20_47_50"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_essays_16_02_2022-21_01_51"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_webDiscourse_16_02_2022-20_58_45"
 	},
 	{
 		"private": false,
@@ -138538,11 +138603,43 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_3e-05_all_16_02_2022-21_11_08"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_3e-05_editorials_16_02_2022-21_06_22"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_3e-05_essays_16_02_2022-21_02_59"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/finetuned_token_itr0_3e-05_webDiscourse_16_02_2022-20_59_50"
+	},
+	{
+		"private": false,
+		"modelId": "apriori/CactuAI3"
+	},
+	{
+		"private": false,
+		"modelId": "archmagos/ble"
+	},
+	{
+		"private": false,
 		"modelId": "bigscience-catalogue-data-dev/test_fix_empty_string_replacement"
 	},
 	{
 		"private": false,
 		"modelId": "bigscience-catalogue-lm-data/tokenizer_alpha_nfkc_24M"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/tokenizer_equal_NFKC_250k"
 	},
 	{
 		"private": false,
@@ -138615,6 +138712,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "darkzek/chickenbot-jon-snow"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "deepset/tinyroberta-squad2-step1"
 	},
@@ -138626,6 +138728,11 @@
 	{
 		"private": false,
 		"modelId": "dram-conflict/test_scripts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "erasedwalt/bert-base-vet"
 	},
 	{
 		"private": false,
@@ -138668,6 +138775,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "groar/gpt-neo-1.3B-finetuned-escape6"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "zero-shot-image-classification",
 		"modelId": "hf-internal-testing/tiny-random-clip-zero-shot-image-classification"
 	},
@@ -138682,7 +138793,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "isl-org/lang-seg"
+	},
+	{
+		"private": false,
 		"modelId": "jaesun/bert-base-finetuned-klue-retrieval-for-qa"
+	},
+	{
+		"private": false,
+		"modelId": "jaesun/dpr-bert-finetuned-klue-retrieval-for-qa"
 	},
 	{
 		"private": false,
@@ -138725,12 +138844,20 @@
 	},
 	{
 		"private": false,
+		"modelId": "keras-io/randaugment"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "koobear/topic-generator"
 	},
 	{
 		"private": false,
 		"modelId": "lewtun/test-model"
+	},
+	{
+		"private": false,
+		"modelId": "lysandre/test-bin-bug"
 	},
 	{
 		"private": false,
@@ -138748,6 +138875,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "nordicph/model_name"
+	},
+	{
+		"private": false,
 		"modelId": "ntjrrv/GPT-small-Joey"
 	},
 	{
@@ -138761,6 +138892,14 @@
 	{
 		"private": false,
 		"modelId": "ntjrrv/small-JoeyBot"
+	},
+	{
+		"private": false,
+		"modelId": "oaklight/code-search-net-tokenizer-from-gpt2"
+	},
+	{
+		"private": false,
+		"modelId": "osanseviero/test-bin-bug"
 	},
 	{
 		"private": false,
@@ -138857,6 +138996,26 @@
 	},
 	{
 		"private": false,
+		"modelId": "princeton-nlp/datamux-retrieval-10"
+	},
+	{
+		"private": false,
+		"modelId": "princeton-nlp/datamux-retrieval-2"
+	},
+	{
+		"private": false,
+		"modelId": "princeton-nlp/datamux-retrieval-20"
+	},
+	{
+		"private": false,
+		"modelId": "princeton-nlp/datamux-retrieval-40"
+	},
+	{
+		"private": false,
+		"modelId": "princeton-nlp/datamux-retrieval-5"
+	},
+	{
+		"private": false,
 		"modelId": "princeton-nlp/datamux-sst2-10"
 	},
 	{
@@ -138865,7 +139024,23 @@
 	},
 	{
 		"private": false,
+		"modelId": "princeton-nlp/datamux-sst2-20"
+	},
+	{
+		"private": false,
+		"modelId": "princeton-nlp/datamux-sst2-40"
+	},
+	{
+		"private": false,
 		"modelId": "princeton-nlp/datamux-sst2-5"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/t5-v1_1-base-finetuned-lfqa"
+	},
+	{
+		"private": false,
+		"modelId": "reichenbach/multimodal-entailment"
 	},
 	{
 		"private": false,
@@ -138875,6 +139050,11 @@
 	{
 		"private": false,
 		"modelId": "srosy/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "taesu/ts-test"
 	},
 	{
 		"private": false,
@@ -138899,167 +139079,5 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "yabramuvdi/distilbert-wfh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_2e-05_webDiscourse_16_02_2022-20_58_45"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-sst2-20"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_3e-05_webDiscourse_16_02_2022-20_59_50"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_0.0002_webDiscourse_16_02_2022-21_00_50"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-sst2-40"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_2e-05_essays_16_02_2022-21_01_51"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_3e-05_essays_16_02_2022-21_02_59"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_0.0002_essays_16_02_2022-21_04_02"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_2e-05_editorials_16_02_2022-21_05_05"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_3e-05_editorials_16_02_2022-21_06_22"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_0.0002_editorials_16_02_2022-21_07_38"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_2e-05_all_16_02_2022-21_08_55"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_3e-05_all_16_02_2022-21_11_08"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ali2066/finetuned_token_itr0_0.0002_all_16_02_2022-21_13_10"
-	},
-	{
-		"private": false,
-		"modelId": "apriori/CactuAI3"
-	},
-	{
-		"private": false,
-		"modelId": "osanseviero/test-bin-bug"
-	},
-	{
-		"private": false,
-		"modelId": "alexrink/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "groar/gpt-neo-1.3B-finetuned-escape6"
-	},
-	{
-		"private": false,
-		"modelId": "reichenbach/multimodal-entailment"
-	},
-	{
-		"private": false,
-		"modelId": "lysandre/test-bin-bug"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-retrieval-2"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-retrieval-5"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-retrieval-10"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-retrieval-20"
-	},
-	{
-		"private": false,
-		"modelId": "JonathanSum/wav2vec2-large-xls-r-300m-zh-HK-colab_round2"
-	},
-	{
-		"private": false,
-		"modelId": "princeton-nlp/datamux-retrieval-40"
-	},
-	{
-		"private": false,
-		"modelId": "nordicph/model_name"
-	},
-	{
-		"private": false,
-		"modelId": "archmagos/ble"
-	},
-	{
-		"private": false,
-		"modelId": "akhaliq/frame-interpolation"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "erasedwalt/bert-base-vet"
-	},
-	{
-		"private": false,
-		"modelId": "isl-org/lang-seg"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience-catalogue-lm-data/tokenizer_equal_NFKC_250k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "taesu/ts-test"
-	},
-	{
-		"private": false,
-		"modelId": "pszemraj/t5-v1_1-base-finetuned-lfqa"
-	},
-	{
-		"private": false,
-		"modelId": "akhaliq/CLIPasso"
-	},
-	{
-		"private": false,
-		"modelId": "akadriu/wav2vec2-large-xlsr-53-AL-10000"
-	},
-	{
-		"private": false,
-		"modelId": "darkzek/chickenbot-jon-snow"
 	}
 ]
