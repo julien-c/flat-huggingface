@@ -40008,11 +40008,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "Aybars/ModelOnWhole"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-poetry"
 	},
@@ -138152,6 +138147,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_10_ft_1"
+	},
+	{
+		"private": false,
 		"modelId": "17luke/wav2vec2-large-xls-r-300m-icelandic-samromur"
 	},
 	{
@@ -139125,10 +139125,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_10_ft_1"
-	},
-	{
-		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_14_ft_2"
 	},
 	{
@@ -139182,5 +139178,18 @@
 	{
 		"private": false,
 		"modelId": "keras-io/estimation-depth"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/miny-bert-aug-sst2-distilled"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Aybars/ModelOnTquad"
+	},
+	{
+		"private": false,
+		"modelId": "DrishtiSharma/test0000"
 	}
 ]
