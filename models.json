@@ -139519,6 +139519,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "oemga38/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -139654,5 +139655,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/GPTNeo350MInformalToFormalLincoln"
+	},
+	{
+		"private": false,
+		"modelId": "akhaliq/stylegan2-ffhq-config-f.pt"
 	}
 ]
