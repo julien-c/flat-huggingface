@@ -37748,10 +37748,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ChainYo/video-classification-cnn-rnn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/bert-base-multilingual-cased-finetuned-hausa"
 	},
@@ -41309,11 +41305,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cristian-popa/bart-tl-ng"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-st-bm"
 	},
 	{
 		"private": false,
@@ -89086,11 +89077,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "csalamea/roberta-base-bne-finetuned-amazon_reviews_multi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "csikasote/wav2vec2-large-xls-r-1b-bemba-st-base-model"
 	},
 	{
 		"private": false,
@@ -139241,7 +139227,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "avinashshrangee/DialoGPT-small-Ricky"
 	},
 	{
@@ -139279,5 +139265,21 @@
 	{
 		"private": false,
 		"modelId": "phongdtd/wavLM-VLSP-vi"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed-illiyas/wav2vec_300"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience-catalogue-lm-data/tokenizer_alpha_NFKC_250k"
+	},
+	{
+		"private": false,
+		"modelId": "nicoladecao/msmarco-word2vec256000-bert-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/video-classification-cnn-rnn"
 	}
 ]
