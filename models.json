@@ -48567,11 +48567,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "erasedwalt/bert-base-vet"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ericRosello/distilbert-frozen-v1"
 	},
@@ -139318,6 +139313,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Brokette/projetCS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "erasedwalt/rubert-base-vet"
 	}
 ]
