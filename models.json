@@ -17968,6 +17968,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Edresson/wav2vec2-large-100k-voxpopuli-ft-Common_Voice_plus_TTS-Dataset_plus_Data_Augmentation-russian"
 	},
@@ -18624,11 +18629,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Amrrs/wav2vec2-large-xlsr-53-tamil"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -84127,6 +84127,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
+		"modelId": "keras-io/lowlight-enhance-mirnet"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xls-r-300m-tr-colab"
 	},
@@ -139105,10 +139110,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "keras-io/lowlight-enhance-mirnet"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "MhF/xlm-roberta-base-finetuned-panx-all"
 	},
@@ -139119,10 +139120,6 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_14_ft_2"
-	},
-	{
-		"private": false,
-		"modelId": "keras-io/depth-estimation"
 	},
 	{
 		"private": false,
@@ -139163,5 +139160,13 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Norrawee/wangchanberta-w10"
+	},
+	{
+		"private": false,
+		"modelId": "keras-io/depth-estimation"
+	},
+	{
+		"private": false,
+		"modelId": "figurative-nlp/fig-gene-t5"
 	}
 ]
