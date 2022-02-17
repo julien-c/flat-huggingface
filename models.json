@@ -114632,6 +114632,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience-catalogue-data-dev/byte-level-bpe-tokenizer-no-norm-250k"
+	},
+	{
+		"private": false,
 		"modelId": "bigscience-catalogue-data-dev/test_fix_empty_string_replacement"
 	},
 	{
@@ -139190,6 +139194,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moshew/miny-bert-aug-sst2-distilled"
 	},
 	{
@@ -139199,5 +139204,9 @@
 	{
 		"private": false,
 		"modelId": "figurative-nlp/figurative-generation-t5"
+	},
+	{
+		"private": false,
+		"modelId": "jarrin/distilgpt2-finetuned-wikitext2"
 	}
 ]
