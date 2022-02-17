@@ -12311,13 +12311,13 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MarcBrun/ixambert-finetuned-squad"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "azwierzc/plt5-base-pl-to-sql"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "azwierzc/plt5-base-pl-to-sql"
+		"pipeline_tag": "question-answering",
+		"modelId": "MarcBrun/ixambert-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -139658,19 +139658,24 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MarcBrun/ixambert-squad-eu"
-	},
-	{
-		"private": false,
-		"modelId": "MarcBrun/ixambert-squad-eu-en"
-	},
-	{
-		"private": false,
 		"modelId": "ThomasSimonini/ppo-PongNoFrameskip-v4"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Kontawat/wangchanberta-ner-LST20-fineTune-new"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MarcBrun/ixambert-finetuned-squad-eu"
+	},
+	{
+		"private": false,
+		"modelId": "NaiveUser/bert-base-cased-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "MarcBrun/ixambert-finetuned-squad-eu-en"
 	}
 ]
