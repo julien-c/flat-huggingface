@@ -49578,11 +49578,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large-no-adapter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "saraks/cuad-distil-agreement_date-08-25"
 	},
@@ -82915,11 +82910,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-medium-no-adapter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sanjaycode/demo_model"
 	},
@@ -97588,11 +97578,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sancharidan/scibet_expertfinder"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-roberta-large-no-adapter"
 	},
 	{
 		"private": false,
@@ -139254,6 +139239,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "figurative-nlp/t5-figurative-generation"
 	},
 	{
@@ -139263,5 +139249,20 @@
 	{
 		"private": false,
 		"modelId": "sanchit-gandhi/wav2vec2-2-bart-large-no-adapter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "speech-seq2seq/wav2vec2-2-bert-large-no-adapter-frozen-enc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "speech-seq2seq/wav2vec2-2-gpt2-medium-no-adapter-frozen-enc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "speech-seq2seq/wav2vec2-2-roberta-large-no-adapter-frozen-enc"
 	}
 ]
