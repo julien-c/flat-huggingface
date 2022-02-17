@@ -38543,6 +38543,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "neuropark/sahajBERT-NCC"
 	},
@@ -139366,5 +139371,13 @@
 	{
 		"private": false,
 		"modelId": "leireropl/test"
+	},
+	{
+		"private": false,
+		"modelId": "ttmusic/distilbert-base-uncased-finetuned-2016SCIABSTRACT"
+	},
+	{
+		"private": false,
+		"modelId": "ali-issa/wav2vec2-large-xls-r-300m-arabic-colab"
 	}
 ]
