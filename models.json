@@ -26624,6 +26624,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ghazikhanihamed/TransportersBERT"
 	},
 	{
@@ -136817,10 +136818,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ttmusic/distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
 		"modelId": "tuananh7198/xls-r-multilingual"
 	},
 	{
@@ -139130,6 +139127,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "ttmusic/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "13on/gpt2-wishes"
 	},
@@ -139209,6 +139210,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Htenn/DialoGPT-small-spongebob"
 	},
 	{
@@ -139606,10 +139608,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ttmusic/distilbert-base-uncased-finetuned-2016SCIABSTRACT"
-	},
-	{
-		"private": false,
 		"modelId": "vader1000/derma"
 	},
 	{
@@ -139711,6 +139709,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "LuisG07/wav2vec2-large-xlsr-53-spanish"
 	},
 	{
@@ -139721,5 +139720,10 @@
 	{
 		"private": false,
 		"modelId": "nbroad/bart-l-mnli-fp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ttmusic/distilbert-base-uncased_20220218"
 	}
 ]
