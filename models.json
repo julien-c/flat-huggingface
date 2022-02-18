@@ -22713,7 +22713,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "ghazikhanihamed/TransportersBERT"
 	},
 	{
@@ -139782,10 +139781,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "satpalsr/mobile-vit-xxs"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_15_ft_0"
 	},
@@ -139899,5 +139894,14 @@
 	{
 		"private": false,
 		"modelId": "Kevincp560/bart-large-cnn-arxiv-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "keras-io/mobile-vit-xxs"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bart-large-cnn-arxiv-tuned"
 	}
 ]
