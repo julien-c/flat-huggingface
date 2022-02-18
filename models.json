@@ -139990,11 +139990,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/stablekwon"
+	},
+	{
+		"private": false,
+		"modelId": "kalloud/opus-mt-en-ro-finetuned-en-to-ro"
 	}
 ]
