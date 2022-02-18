@@ -93356,10 +93356,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "h4d35/ConvMixer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "haji2438/bertweet-base-SNS_BRANDS_100k"
 	},
@@ -100873,6 +100869,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "h4d35/ConvMixer"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -104651,6 +104651,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "GermanT5/t5-base-german-32el"
 	},
 	{
@@ -139932,5 +139933,18 @@
 	{
 		"private": false,
 		"modelId": "LenaSchmidt/distilbert-base-uncased-finetuned-squad-Endpoint_with_impossible.csv"
+	},
+	{
+		"private": false,
+		"modelId": "dingzx97/bbu.1-4-7-10"
+	},
+	{
+		"private": false,
+		"modelId": "PaulLerner/multi_passage_bert_trivia_without_viquae"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AshatSurolia/BEiT-FaceMask-Finetuned"
 	}
 ]
