@@ -21055,11 +21055,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "amtam0/speech-timer"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cosmoquester/bart-ko-base"
 	},
@@ -139722,26 +139717,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AshatSurolia/BEiT-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AshatSurolia/ConvNeXt-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AshatSurolia/DeiT-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AshatSurolia/ViT-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean"
 	},
@@ -139980,5 +139955,25 @@
 	{
 		"private": false,
 		"modelId": "Ebtihal/AraBertMo_base_V5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/DeiT-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/ViT-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/ConvNeXt-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/BEiT-FaceMask-Finetuned"
 	}
 ]
