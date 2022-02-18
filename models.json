@@ -14046,6 +14046,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b5-finetuned-ade-640-640"
 	},
 	{
@@ -139889,5 +139890,9 @@
 	{
 		"private": false,
 		"modelId": "lotus/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "notentered/roberta-large-finetuned-cola"
 	}
 ]
