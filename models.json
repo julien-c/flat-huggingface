@@ -139904,7 +139904,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
+		"pipeline_tag": "feature-extraction",
 		"modelId": "malteos/scincl"
 	},
 	{
@@ -140017,5 +140017,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mofawzy/Bert-hard-balanced"
+	},
+	{
+		"private": false,
+		"modelId": "asahi417/lmqg-mt5-small-jaquad"
 	}
 ]
