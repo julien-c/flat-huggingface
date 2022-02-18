@@ -39091,6 +39091,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "tnl/nccid-test"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "tomato/sentiment_analysis"
 	},
@@ -139912,5 +139917,9 @@
 	{
 		"private": false,
 		"modelId": "Kevincp560/bart-large-cnn-pubmed-tuned-finely"
+	},
+	{
+		"private": false,
+		"modelId": "AshatSurolia/DeiT-FaceMask-Finetuned"
 	}
 ]
