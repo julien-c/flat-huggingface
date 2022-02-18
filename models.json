@@ -139257,6 +139257,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Tejaswini/opus-mt-en-ro-finetuned-en-to-ro"
 	},
 	{
@@ -139763,10 +139764,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "satpalsr/MobileViT"
-	},
-	{
-		"private": false,
 		"modelId": "Lkhagvasuren/bert-finetuned-ner"
 	},
 	{
@@ -139775,6 +139772,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "juancavallotti/t5-finetuned-full-recipe"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/MobileViT-XXS"
+	},
+	{
+		"private": false,
+		"modelId": "shields/wav2vec2-base-timit-and-five-sec-dementiabank"
 	}
 ]
