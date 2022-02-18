@@ -139717,6 +139717,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/BEiT-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/ConvNeXt-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/DeiT-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "AkshatSurolia/ViT-FaceMask-Finetuned"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean"
 	},
@@ -139724,6 +139744,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean"
+	},
+	{
+		"private": false,
+		"modelId": "Ebtihal/AraBertMo_base_V5"
 	},
 	{
 		"private": false,
@@ -139798,6 +139822,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "aluserhuggingface/DialoGPT-small-harrypotter"
+	},
+	{
+		"private": false,
 		"modelId": "aryanpatke/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -139824,6 +139853,22 @@
 	{
 		"private": false,
 		"modelId": "dingzx97/led.00112233.wk2"
+	},
+	{
+		"private": false,
+		"modelId": "ghazikhanihamed/TCDB-BERT-C"
+	},
+	{
+		"private": false,
+		"modelId": "ghazikhanihamed/TooT-BERT-C"
+	},
+	{
+		"private": false,
+		"modelId": "ghazikhanihamed/TooT-BERT-M"
+	},
+	{
+		"private": false,
+		"modelId": "ghazikhanihamed/TooT-BERT-T"
 	},
 	{
 		"private": false,
@@ -139855,6 +139900,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "inokufu/flaubert-base-uncased-xnli-sts"
+	},
+	{
+		"private": false,
 		"modelId": "jei360/wav2vec2-large-xls-r-300m-JAP-ENG-test-jay"
 	},
 	{
@@ -139875,6 +139925,15 @@
 	{
 		"private": false,
 		"modelId": "lotus/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lsb/wav2vec2-base-pemlsb-la"
+	},
+	{
+		"private": false,
+		"modelId": "lukewys/coconet"
 	},
 	{
 		"private": false,
@@ -139913,6 +139972,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "rockerritesh/NepaliSentiment"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "simonschoe/call2vec"
 	},
@@ -139938,64 +140001,5 @@
 	{
 		"private": false,
 		"modelId": "tuanle/Vi-GPT2_News"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "aluserhuggingface/DialoGPT-small-harrypotter"
-	},
-	{
-		"private": false,
-		"modelId": "lukewys/coconet"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "inokufu/flaubert-base-uncased-xnli-sts"
-	},
-	{
-		"private": false,
-		"modelId": "Ebtihal/AraBertMo_base_V5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AkshatSurolia/DeiT-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AkshatSurolia/ViT-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AkshatSurolia/ConvNeXt-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "AkshatSurolia/BEiT-FaceMask-Finetuned"
-	},
-	{
-		"private": false,
-		"modelId": "ghazikhanihamed/TCDB-BERT-C"
-	},
-	{
-		"private": false,
-		"modelId": "ghazikhanihamed/TooT-BERT-M"
-	},
-	{
-		"private": false,
-		"modelId": "ghazikhanihamed/TooT-BERT-T"
-	},
-	{
-		"private": false,
-		"modelId": "ghazikhanihamed/TooT-BERT-C"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lsb/wav2vec2-base-pemlsb-la"
 	}
 ]
