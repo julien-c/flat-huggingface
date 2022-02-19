@@ -140006,13 +140006,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lassl/bert-ko-base"
+		"modelId": "Chinmay/mlindia"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "KoichiYasuoka/roberta-base-thai-char"
+		"modelId": "Ebtihal/AraBertMo_base_V7"
+	},
+	{
+		"private": false,
+		"modelId": "Jainam/trial_transformers"
 	},
 	{
 		"private": false,
@@ -140022,7 +140025,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "KoichiYasuoka/roberta-base-thai-spm"
+		"modelId": "KoichiYasuoka/roberta-base-thai-char"
 	},
 	{
 		"private": false,
@@ -140031,17 +140034,62 @@
 	},
 	{
 		"private": false,
-		"modelId": "krandiash/sashimi-release"
+		"pipeline_tag": "fill-mask",
+		"modelId": "KoichiYasuoka/roberta-base-thai-spm"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Ebtihal/AraBertMo_base_V7"
+		"modelId": "Nuwaisir/quran_speech_recognizer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "aiface/prj1_stt_asr"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/xls-r-1b-bem-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cvcio/mediawatch-el-newstopics"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-ru-en-finetuned-ru-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "krandiash/sashimi-release"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lassl/bert-ko-base"
+	},
+	{
+		"private": false,
+		"modelId": "leeeki/roberta-large_Explainable"
+	},
+	{
+		"private": false,
+		"modelId": "piyushranjanindia/first"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/cnn-handwriting-recognition"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "sdadas/polish-bart-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "sdadas/polish-distilroberta"
 	},
 	{
 		"private": false,
@@ -140065,17 +140113,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "csikasote/xls-r-1b-bem-model"
+		"pipeline_tag": "text-generation",
+		"modelId": "sibckukgvaxsepbkyb/IndoGPT-SQuAD-5"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "sdadas/polish-distilroberta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "sdadas/polish-bart-base"
+		"modelId": "softcatala/opennmt-cat-deu"
 	},
 	{
 		"private": false,
@@ -140084,49 +140127,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jainam/trial_transformers"
-	},
-	{
-		"private": false,
-		"modelId": "swcrazyfan/KingJamesify-T5-large-lm-adapt"
-	},
-	{
-		"private": false,
-		"modelId": "Nuwaisir/quran_speech_recognizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "cvcio/mediawatch-el-newstopics"
-	},
-	{
-		"private": false,
-		"modelId": "Chinmay/mlindia"
-	},
-	{
-		"private": false,
-		"modelId": "piyushranjanindia/first"
-	},
-	{
-		"private": false,
-		"modelId": "leeeki/roberta-large_Explainable"
-	},
-	{
-		"private": false,
 		"modelId": "softcatala/opennmt-deu-cat"
-	},
-	{
-		"private": false,
-		"modelId": "softcatala/opennmt-cat-deu"
-	},
-	{
-		"private": false,
-		"modelId": "satpalsr/cnn-handwriting-recognition"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "sibckukgvaxsepbkyb/IndoGPT-SQuAD-5"
 	},
 	{
 		"private": false,
@@ -140134,7 +140135,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "aiface/prj1_stt_asr"
+		"modelId": "swcrazyfan/KingJamesify-T5-large-lm-adapt"
 	}
 ]
