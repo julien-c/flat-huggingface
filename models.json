@@ -6821,6 +6821,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/gameGPT"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "ainize/klue-bert-base-mrc"
 	},
@@ -6961,10 +6966,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "funnel-transformer/intermediate"
-	},
-	{
-		"private": false,
-		"modelId": "0x7194633/gameGPT"
 	},
 	{
 		"private": false,
