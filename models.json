@@ -140057,6 +140057,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/roberta-base-thai-spm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "KoichiYasuoka/roberta-base-thai-spm-upos"
 	}
 ]
