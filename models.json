@@ -116058,10 +116058,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "bullmount/mbart-it"
-	},
-	{
-		"private": false,
 		"modelId": "bumhead/SnarlyTrain"
 	},
 	{
@@ -140098,6 +140094,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "softcatala/opennmt-cat-deu"
 	},
 	{
@@ -140148,11 +140145,6 @@
 	{
 		"private": false,
 		"modelId": "phongdtd/wavlm-base-plus-vindata"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/t5-v1_1-base-finetuned-lfqa"
 	},
 	{
 		"private": false,
@@ -140208,10 +140200,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "bullmount/mbart-test-it"
+		"modelId": "Chinat/test-classifier"
 	},
 	{
 		"private": false,
-		"modelId": "Chinat/test-classifier"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/t5-base-askscience-lfqa"
 	}
 ]
