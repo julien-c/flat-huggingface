@@ -140040,11 +140040,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "cvcio/mediawatch-el-newstopics"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-ru-en-finetuned-ru-to-en"
 	},
@@ -140175,6 +140170,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "spacebird83/urdu-model-training"
 	},
 	{
@@ -140188,5 +140184,13 @@
 	{
 		"private": false,
 		"modelId": "padipadou/s2s_w2v_bart_ami_fake"
+	},
+	{
+		"private": false,
+		"modelId": "padipadou/s2s_w2v_bart_ami_fake_"
+	},
+	{
+		"private": false,
+		"modelId": "Rattana/wav2vec2-colab"
 	}
 ]
