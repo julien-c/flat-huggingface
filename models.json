@@ -140078,6 +140078,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "sdadas/polish-distilroberta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "sdadas/polish-bart-base"
 	}
 ]
