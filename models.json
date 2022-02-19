@@ -140044,6 +140044,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "cvcio/mediawatch-el-topics"
 	},
 	{
@@ -140065,5 +140066,18 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "sdadas/polish-roberta-large-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "sdadas/polish-roberta-large-v2"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/xls-r-1b-bem-model"
+	},
+	{
+		"private": false,
+		"modelId": "sdadas/polish-distilroberta"
 	}
 ]
