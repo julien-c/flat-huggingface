@@ -132260,15 +132260,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "pere/multi-sentencefix-byt5-2"
-	},
-	{
-		"private": false,
 		"modelId": "pere/multi-sentencefix-byt5"
-	},
-	{
-		"private": false,
-		"modelId": "pere/multi-sentencefix-mt5-2"
 	},
 	{
 		"private": false,
@@ -140056,6 +140048,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-ru-en-finetuned-ru-to-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "sdadas/polish-roberta-base-v1"
+	},
+	{
+		"private": false,
+		"modelId": "sdadas/polish-roberta-base-v2"
 	}
 ]
