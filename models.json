@@ -45249,11 +45249,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "Maha/OGBV-gender-twtrobertabase-en-goldbeck"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-trac2"
 	},
 	{
@@ -46771,6 +46766,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-rct-20k-large-scale"
+	},
+	{
+		"private": false,
+		"modelId": "jglaser/affinity_mlp_0"
 	},
 	{
 		"private": false,
@@ -87904,6 +87903,14 @@
 	{
 		"private": false,
 		"modelId": "zzuczy/wav2vec2-baset-ft-ch-debug"
+	},
+	{
+		"private": false,
+		"modelId": "jglaser/affinity_mlp_1"
+	},
+	{
+		"private": false,
+		"modelId": "jglaser/affinity_mlp_2"
 	},
 	{
 		"private": false,
@@ -140132,6 +140139,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-founta_final"
 	},
 	{
@@ -140154,5 +140162,9 @@
 	{
 		"private": false,
 		"modelId": "phongdtd/wavlm-base-plus-vindata"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/t5-v1_1-base-finetuned-lfqa"
 	}
 ]
