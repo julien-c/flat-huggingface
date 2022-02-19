@@ -74261,7 +74261,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "keepitreal/vietnamese-sbert"
 	},
 	{
@@ -140042,6 +140042,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lassl/bert-ko-base"
+	},
+	{
+		"private": false,
+		"modelId": "KoichiYasuoka/roberta-base-thai-char"
 	}
 ]
