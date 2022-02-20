@@ -25909,6 +25909,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/mt5-small"
 	},
 	{
@@ -140455,6 +140456,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Worldman/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -140472,5 +140474,17 @@
 	{
 		"private": false,
 		"modelId": "Tejaswini/mbart-large-50-finetuned-es-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/enformer-preview"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/supervised"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/librispeech_supervised"
 	}
 ]
