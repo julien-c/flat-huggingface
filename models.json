@@ -99493,6 +99493,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "gngpostalsrvc/BERiT"
 	},
 	{
@@ -140426,6 +140427,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "ssardorf/t5"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/testing_timit"
 	}
 ]
