@@ -140414,6 +140414,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Kayvane/distilbert-undersampled"
 	},
 	{
@@ -140543,5 +140544,13 @@
 	{
 		"private": false,
 		"modelId": "Amalq/distilgpt2-finetuned-SchizophreniaReddit"
+	},
+	{
+		"private": false,
+		"modelId": "shields/wav2vec2-base-timit-and-five-sec-dementiabank-principled"
+	},
+	{
+		"private": false,
+		"modelId": "hugbump/bert-finetuned-ner"
 	}
 ]
