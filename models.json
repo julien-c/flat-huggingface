@@ -21916,6 +21916,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "amtam0/speech-timer"
+	},
+	{
+		"private": false,
 		"modelId": "aws-ai/pairsupcon-bert-large-uncased"
 	},
 	{
@@ -140373,6 +140378,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_19_ft_1"
 	},
 	{
@@ -140430,10 +140436,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "dbdmg/MODEL_NAME"
-	},
-	{
-		"private": false,
 		"modelId": "Kayvane/distilbert-wiki-classification"
 	},
 	{
@@ -140443,5 +140445,9 @@
 	{
 		"private": false,
 		"modelId": "Kayvane/distilbert-wiki"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/toy_model"
 	}
 ]
