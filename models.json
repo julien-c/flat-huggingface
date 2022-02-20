@@ -88862,11 +88862,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "SteveC/sdc_bot_15K"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-bne-finetuned2-nerconcat"
 	},
@@ -111737,6 +111732,11 @@
 	{
 		"private": false,
 		"modelId": "abhilash1910/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "abhinema/testauto"
 	},
 	{
 		"private": false,
@@ -140424,10 +140424,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "GermanT5/t5-efficient-oscar-german-small-el32"
 	},
 	{
 		"private": false,
 		"modelId": "hugsao123/XLM-R-fine-tuned-for-ner"
+	},
+	{
+		"private": false,
+		"modelId": "spacebird83/wav2vec2-urdu-model-training"
 	}
 ]
