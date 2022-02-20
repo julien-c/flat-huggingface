@@ -140431,6 +140431,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_21_ft_1"
 	},
 	{
@@ -140519,6 +140520,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "kazandaev/opus-mt-en-ru-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "kazandaev/opus-mt-ru-en-finetuned"
 	}
 ]
