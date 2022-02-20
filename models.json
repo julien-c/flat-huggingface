@@ -22744,11 +22744,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "Maha/OGBV-gender-indicbert-ta-fire20"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "TehranNLP-org/bert-base-uncased-cls-sst2"
 	},
 	{
@@ -105826,10 +105821,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Maha/OGBV-gender-twtrobertabase-en-goldebeck_final"
-	},
-	{
-		"private": false,
 		"modelId": "Mahalakshmi/RobustSpeechChallenge"
 	},
 	{
@@ -140372,6 +140363,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW"
 	},
 	{
@@ -140381,5 +140373,13 @@
 	{
 		"private": false,
 		"modelId": "cvcio/mediawatch-el-topics"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/xls-r-bem-test"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
 	}
 ]
