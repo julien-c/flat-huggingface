@@ -140433,6 +140433,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-hi_rr_trac2a_fin"
 	},
 	{
@@ -140441,6 +140442,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "scales-okn/ontology-notice-of-removal"
+	},
+	{
+		"private": false,
+		"modelId": "Kayvane/distilbert-undersampled"
+	},
+	{
+		"private": false,
+		"modelId": "GermanT5/t5-efficient-oscar-german-small-el32"
 	}
 ]
