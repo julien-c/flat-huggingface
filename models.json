@@ -19907,6 +19907,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "structured-data-classification",
 		"modelId": "keras-io/TF_Decision_Trees"
 	},
 	{
@@ -21015,6 +21016,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "keras-io/bidirectional-lstm-imdb"
 	},
 	{
@@ -64742,7 +64744,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-ru-en-finetuned"
 	},
 	{
@@ -127265,6 +127267,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "keras-io/Image-Classification-using-EANet"
 	},
 	{
@@ -140799,7 +140802,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Ninja5000/DialoGPT-medium-HarryPotterComplete"
 	},
 	{
@@ -140892,6 +140895,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "gngpostalsrvc/BERiT3"
+	},
+	{
+		"private": false,
+		"modelId": "reddip/Peter-medium"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "IlyaGusev/rubertconv_toxic_clf"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/bert-issue-test"
 	}
 ]
