@@ -15881,6 +15881,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b1-finetuned-cityscapes-1024-1024"
 	},
 	{
@@ -18257,6 +18258,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b0-finetuned-cityscapes-768-768"
 	},
 	{
@@ -29957,6 +29959,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b2-finetuned-cityscapes-1024-1024"
 	},
 	{
@@ -31728,6 +31731,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b5-finetuned-cityscapes-1024-1024"
 	},
 	{
@@ -141138,5 +141142,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_445k_emb_updated"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_18_ft_3"
 	}
 ]
