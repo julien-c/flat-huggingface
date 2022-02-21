@@ -105621,6 +105621,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Kayvane/distilbert-undersampled-noweights"
 	},
 	{
@@ -140748,6 +140749,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "kurianbenoy/distilbert-base-uncased-finetuned-sst-2-english-finetuned-imdb"
 	},
 	{
@@ -140820,5 +140822,9 @@
 	{
 		"private": false,
 		"modelId": "Wellcome/WellcomeBertMesh"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/roberta-small-aug-sst2-distilled"
 	}
 ]
