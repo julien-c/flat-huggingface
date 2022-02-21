@@ -140933,11 +140933,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "object-detection",
-		"modelId": "davanstrien/detr_beyond_words"
-	},
-	{
-		"private": false,
 		"modelId": "Daryaflp/bert-small-cord19-covid_bert_ru"
 	},
 	{
@@ -141258,10 +141253,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/bluebert_pubmed_uncased_L-12_H-768_A-12"
 	},
 	{
 		"private": false,
 		"modelId": "roschmid/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "ncoop57/multi-code-clippy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "CennetOguz/distilbert-base-uncased-finetuned-recipe-1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "CennetOguz/distilbert-base-uncased-finetuned-recipe-accelerate-1"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-1024-finetuned-squad-seed-42"
+	},
+	{
+		"private": false,
+		"modelId": "Aspik101/output"
 	}
 ]
