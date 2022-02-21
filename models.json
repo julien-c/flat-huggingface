@@ -140965,6 +140965,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-no-adapter"
 	},
 	{
@@ -141033,6 +141034,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Modified-bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
 	},
 	{
@@ -141061,6 +141063,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "joe5campbell/ROBERTA_Tweet_Sentiment_50k_2eps"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_scibert_scivocab_uncased_latest"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
 	}
 ]
