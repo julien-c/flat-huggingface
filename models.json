@@ -11151,7 +11151,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "MarcBrun/ixambert-finetuned-squad"
 	},
 	{
@@ -140710,6 +140709,11 @@
 	{
 		"private": false,
 		"modelId": "ruselkomp/sbert_large_nlu_ru-finetuned-squad-full-tester"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "vyang/plc2proc"
 	},
 	{
 		"private": false,
