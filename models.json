@@ -140675,11 +140675,38 @@
 	},
 	{
 		"private": false,
+		"modelId": "eebie/june"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tareknaous/bert2bert-daily-dialog"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tareknaous/roberta2gpt2-daily-dialog"
+	},
+	{
+		"private": false,
+		"modelId": "IronManProject/DialoGPT-medium-IronMan"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tareknaous/t5-daily-dialog"
+	},
+	{
+		"private": false,
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_210k"
+	},
+	{
+		"private": false,
+		"modelId": "tareknaous/bart-daily-dialog"
 	}
 ]
