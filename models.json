@@ -141226,6 +141226,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified-scibert_scivocab_uncased"
 	},
 	{
@@ -141234,10 +141235,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified-biobert-v1.1"
 	},
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"modelId": "ajrae/bert-base-uncased-finetuned-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-42"
+	},
+	{
+		"private": false,
+		"modelId": "Santiagot1105/wav2vec2-lar-xlsr-finetune-es-col"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/bluebert_pubmed_uncased_L-12_H-768_A-12"
 	}
 ]
