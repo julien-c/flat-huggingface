@@ -125954,6 +125954,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "jakobcassiman/mbart-large-cc25-cnn-dailymail-xsum-nl"
 	},
 	{
@@ -140824,10 +140825,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "reddip/Peter"
-	},
-	{
-		"private": false,
 		"modelId": "groar/gpt-neo-1.3B-finetuned-escape7"
 	},
 	{
@@ -140846,5 +140843,14 @@
 	{
 		"private": false,
 		"modelId": "anirudh21/electra-base-discriminator-finetuned-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "reddip/Peter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-to-speech",
+		"modelId": "GunnarThor/talromur_f_tacotron2"
 	}
 ]
