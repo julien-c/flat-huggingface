@@ -25479,6 +25479,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/mt5-small"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "AmanPriyanshu/DistilBert-Sentiment-Analysis"
 	},
@@ -25902,10 +25907,6 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "vivekRahul/animal_classifier_huggingface"
-	},
-	{
-		"private": false,
-		"modelId": "kazandaev/mt5-small"
 	},
 	{
 		"private": false,
@@ -34175,6 +34176,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Muennighoff/SGPT-125M-weightedmean-nli-bitfit"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "NYTK/sentiment-hts5-xlm-roberta-hungarian"
 	},
@@ -36442,11 +36448,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "Muennighoff/SBERT-base-nli-v2-bitfit"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "Muennighoff/SGPT-125M-weightedmean-nli-bitfit"
 	},
 	{
 		"private": false,
@@ -140172,6 +140173,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_15_ft_2"
+	},
+	{
+		"private": false,
 		"modelId": "Pubudu/mt5-small-keras-finetuned-dinamina"
 	},
 	{
@@ -140559,10 +140565,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_15_ft_2"
-	},
-	{
-		"private": false,
 		"modelId": "anas-awadalla/out"
 	},
 	{
@@ -140622,5 +140624,9 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_21_ft_2"
+	},
+	{
+		"private": false,
+		"modelId": "SmokeAndAsh/DialoGPT-medium-shika"
 	}
 ]
