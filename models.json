@@ -140730,11 +140730,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_785k"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tareknaous/bert2bert-empathetic-dialogues"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-bert-base-word2vec256k"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_18_ft_2"
+	},
+	{
+		"private": false,
+		"modelId": "vocab-transformers/final_models"
 	}
 ]
