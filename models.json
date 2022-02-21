@@ -76618,6 +76618,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MindfulSquirrel/rubertconv_toxic_clf"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "MohamedHesham/bart_large_subset_cnn"
 	},
@@ -140884,5 +140889,9 @@
 	{
 		"private": false,
 		"modelId": "Nalla/PDF_To_CSV"
+	},
+	{
+		"private": false,
+		"modelId": "gngpostalsrvc/BERiT3"
 	}
 ]
