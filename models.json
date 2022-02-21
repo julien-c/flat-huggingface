@@ -11151,6 +11151,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MarcBrun/ixambert-finetuned-squad"
 	},
 	{
@@ -141195,5 +141196,29 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/bart_large_paraphrase_generator_en_de_v2"
+	},
+	{
+		"private": false,
+		"modelId": "ajrae/bert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/CRAFT-Chem-Modified-bluebert_pubmed_uncased_L-12_H-768_A-12"
+	},
+	{
+		"private": false,
+		"modelId": "gaetangate/bart-large_genrl_lcquad1"
+	},
+	{
+		"private": false,
+		"modelId": "gaetangate/bart-large_genrl_qald9"
+	},
+	{
+		"private": false,
+		"modelId": "gaetangate/bart-large_genrl_lcquad2"
+	},
+	{
+		"private": false,
+		"modelId": "gaetangate/bart-large_genrl_simpleq"
 	}
 ]
