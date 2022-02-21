@@ -140620,6 +140620,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_21_ft_2"
 	},
 	{
@@ -140749,6 +140750,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "vocab-transformers/final_models"
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_445k"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/enformer-191k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_210k"
 	}
 ]
