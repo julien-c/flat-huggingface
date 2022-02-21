@@ -141161,6 +141161,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_Modified-bluebert_pubmed_uncased_L-12_H-768_A-12"
 	},
 	{
@@ -141169,6 +141170,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_Modified-scibert_scivocab_uncased"
 	},
 	{
@@ -141181,6 +141183,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-42"
+	},
+	{
+		"private": false,
+		"modelId": "oakkas/dummy-model"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/bart_large_paraphrase_generator_en_de_v2"
 	}
 ]
