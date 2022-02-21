@@ -140895,6 +140895,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Anthos23/distilbert-base-uncased-finetuned-sst2"
 	},
 	{
@@ -140968,19 +140969,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Modified-pubmedabstract_latest"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
+		"pipeline_tag": "zero-shot-classification",
 		"modelId": "KheireddineDaouadi/zero-shot-araelctra"
 	},
 	{
 		"private": false,
-		"modelId": "eebie/june"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-42"
 	},
 	{
@@ -140989,6 +140988,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BioNLP13CG-Original-PubmedBert-abstract-latest"
+	},
+	{
+		"private": false,
+		"modelId": "satpalsr/bert-traced"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BioNLP13CG-Modified-biobert-v1.1_latest"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "KamrusSamad/tbase_L6_A4"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BioNLP13CG-Original-biobert-v1.1_latest"
 	}
 ]
