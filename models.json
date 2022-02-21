@@ -11151,7 +11151,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
 		"modelId": "MarcBrun/ixambert-finetuned-squad"
 	},
 	{
@@ -141175,10 +141174,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_Modified-biobert-v1.1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ajrae/bert-base-uncased-finetuned-mrpc"
 	},
 	{
@@ -141192,6 +141193,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/bart_large_paraphrase_generator_en_de_v2"
 	}
 ]
