@@ -76620,11 +76620,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "MindfulSquirrel/rubertconv_toxic_clf"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "MohamedHesham/bart_large_subset_cnn"
 	},
@@ -106892,11 +106887,6 @@
 	{
 		"private": false,
 		"modelId": "MilosCuculovic/reviewer-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "MindfulSquirrel/rubertconv_toxic_marker"
 	},
 	{
 		"private": false,
@@ -140910,5 +140900,28 @@
 	{
 		"private": false,
 		"modelId": "satpalsr/bert-issue-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "burmaxwell/Bert_temp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "IlyaGusev/rubertconv_toxic_editor"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tareknaous/t5-daily-dialog-vM"
+	},
+	{
+		"private": false,
+		"modelId": "Anthos23/distilbert-base-uncased-finetuned-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "niclas/models_sv_7"
 	}
 ]
