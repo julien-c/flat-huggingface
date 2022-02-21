@@ -40779,11 +40779,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-ro-300M"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "giganticode/bert-base-StackOverflow-comments_2M"
 	},
@@ -43734,11 +43729,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem-Modified_SciBERT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-xls-r-300m-fr"
 	},
 	{
 		"private": false,
@@ -91857,11 +91847,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ghofrani/xls-r-300m-fa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "gigant/wav2vec2-xls-r-300m-fr-test"
 	},
 	{
 		"private": false,
@@ -141262,6 +141247,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ncoop57/multi-code-clippy"
 	},
 	{
@@ -141281,5 +141267,9 @@
 	{
 		"private": false,
 		"modelId": "Aspik101/output"
+	},
+	{
+		"private": false,
+		"modelId": "andrex/DialoGPT-rick2"
 	}
 ]
