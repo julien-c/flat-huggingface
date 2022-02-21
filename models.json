@@ -44938,11 +44938,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MichelBartels/tinyroberta-6l-768d"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "MickyMike/7-GPT2SP-jirasoftware"
 	},
@@ -140798,6 +140793,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Tsubasaz/clinical-bert-base-128"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bart-large-cnn-pubmed-finely-tuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "deepset/tinyroberta-6l-768d"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_19_ft_3"
 	}
 ]
