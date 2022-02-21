@@ -141055,10 +141055,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_pubmed_abstract_latest"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_biobert-v1.1_latest"
 	},
 	{
@@ -141073,5 +141075,9 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-42"
 	}
 ]
