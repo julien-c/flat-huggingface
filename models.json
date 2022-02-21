@@ -12287,6 +12287,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "voidful/phoneme_bart_base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Mingyi/classify_title_subject"
 	},
@@ -14863,11 +14868,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "sismetanin/xlm_roberta_large-ru-sentiment-rusentiment"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "voidful/phoneme_bart_base"
 	},
 	{
 		"private": false,
@@ -38760,11 +38760,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "Maha/OGBV-gender-bert-hi-en-trac2a"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-davidson"
 	},
 	{
@@ -48388,11 +48383,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-twtrobertabase-en-founta_final"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Maha/OGBV-gender-xlmroberta-ta-hasoc21"
 	},
 	{
 		"private": false,
@@ -140165,6 +140155,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Taekyoon/neg_komrc_train"
+	},
+	{
+		"private": false,
 		"modelId": "Jira/first_test"
 	},
 	{
@@ -140312,10 +140307,6 @@
 	{
 		"private": false,
 		"modelId": "jordimas/gec-opennmt-english"
-	},
-	{
-		"private": false,
-		"modelId": "Taekyoon/neg_komrc_train"
 	},
 	{
 		"private": false,
@@ -140627,6 +140618,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "SmokeAndAsh/DialoGPT-medium-shika"
+	},
+	{
+		"private": false,
+		"modelId": "ravirajoshi/test-model-scratch"
+	},
+	{
+		"private": false,
+		"modelId": "aasem/wav2vec2-xls-r-300m-Urdu"
+	},
+	{
+		"private": false,
+		"modelId": "Pubudu/mt5-small-keras-sinhala-headline-gen"
 	}
 ]
