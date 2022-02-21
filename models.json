@@ -141099,6 +141099,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-1024-finetuned-squad-seed-42"
 	},
 	{
@@ -141108,18 +141109,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-biobert-v1.1_latest"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-scibert_scivocab_uncased_latest"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chemical-imbalanced-bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "KamrusSamad/bnbert"
+	},
+	{
+		"private": false,
+		"modelId": "huggingartists/imminence"
 	}
 ]
