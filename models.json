@@ -125954,11 +125954,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "jakobcassiman/mbart-large-cc25-cnn-dailymail-xsum-nl"
-	},
-	{
-		"private": false,
 		"modelId": "jama/4964dsgfs"
 	},
 	{
@@ -140834,6 +140829,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "espnet/Karthik_DSTC2_asr_train_asr_transformer"
 	},
 	{
@@ -140870,5 +140866,14 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Ebtihal/AraBertMo_base_V5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "ml6team/mbart-large-cc25-cnn-dailymail-xsum-nl"
+	},
+	{
+		"private": false,
+		"modelId": "GermanT5/t5-efficient-gc4-german-small-el32"
 	}
 ]
