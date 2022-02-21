@@ -140800,16 +140800,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Ninja5000/DialoGPT-medium-HarryPotterComplete"
 	},
 	{
 		"private": false,
 		"modelId": "groar/gpt-neo-1.3B-finetuned-escape7"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "KamrusSamad/bangla_albert_L2_A2"
 	},
 	{
 		"private": false,
@@ -140879,5 +140875,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "KamrusSamad/classbert_b"
+	},
+	{
+		"private": false,
+		"modelId": "Yanjie/message-intent"
+	},
+	{
+		"private": false,
+		"modelId": "padipadou/s2s_w2v_bart_ami_fake_3"
 	}
 ]
