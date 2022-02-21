@@ -11730,6 +11730,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b0-finetuned-ade-512-512"
 	},
 	{
@@ -14918,6 +14919,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b1-finetuned-ade-512-512"
 	},
 	{
@@ -22015,6 +22017,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b2-finetuned-ade-512-512"
 	},
 	{
@@ -59257,6 +59260,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nvidia/segformer-b4-finetuned-ade-512-512"
 	},
 	{
@@ -140584,11 +140588,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tareknaous/roberta2gpt2-daily-dialog"
 	},
@@ -140603,11 +140602,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_210k"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tareknaous/bart-daily-dialog"
 	},
@@ -140618,18 +140612,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_445k"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tareknaous/t5-empathetic-dialogues"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_785k"
 	},
 	{
 		"private": false,
@@ -140638,22 +140622,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "vocab-transformers/dense_encoder-msmarco-bert-base-word2vec256k"
-	},
-	{
-		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_18_ft_2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_445k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_210k"
 	},
 	{
 		"private": false,
@@ -141130,5 +141099,44 @@
 	{
 		"private": false,
 		"modelId": "huggingartists/imminence"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_445k_emb_updated"
+	},
+	{
+		"private": false,
+		"modelId": "fastai/demo7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_210k_emb_updated"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_210k_emb_updated"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k_emb_updated"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-bert-base-word2vec256k_emb_updated"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_445k_emb_updated"
 	}
 ]
