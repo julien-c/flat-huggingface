@@ -29879,11 +29879,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "kaizan/staging-pegasus-gmeetsamsum"
-	},
-	{
-		"private": false,
 		"modelId": "keras-io/randaugment"
 	},
 	{
@@ -107852,6 +107847,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Nuwaisir/Quran_speech_recognizer"
 	},
 	{
@@ -140827,5 +140823,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moshew/roberta-small-aug-sst2-distilled"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bart-large-cnn-govreport-finetuned"
 	}
 ]
