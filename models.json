@@ -141471,7 +141471,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "Kevincp560/bart-large-cnn-pubmed-summ-finetuned"
 	},
 	{
@@ -141826,6 +141826,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "yancong/distilbert-base-uncased-finetuned-mi"
 	},
 	{
@@ -141837,11 +141838,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "MickyMike/CT5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "satkinson/test"
 	},
 	{
 		"private": false,
@@ -141863,5 +141859,9 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_20_ft_1"
+	},
+	{
+		"private": false,
+		"modelId": "AbidineVall/my-new-shiny-tokenizer"
 	}
 ]
