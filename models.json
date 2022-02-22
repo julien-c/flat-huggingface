@@ -45627,6 +45627,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/detr_beyond_words"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "AKulk/wav2vec2-base-timit-epochs15"
 	},
@@ -141400,6 +141404,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sancharidan/quantized_expfinder"
 	},
 	{
@@ -141569,6 +141574,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "mbeukman/xlm-roberta-base-finetuned-amharic-finetuned-ner-amharic"
 	},
 	{
@@ -141590,5 +141596,9 @@
 	{
 		"private": false,
 		"modelId": "samhit/DialoGPT-small-botbitch"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/convnext-xlarge-224-22k-1k"
 	}
 ]
