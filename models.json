@@ -7603,11 +7603,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-paraphrasev2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ajitrajasekharan/biomedical"
 	},
@@ -141887,10 +141882,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "satkinson/test"
+		"modelId": "satkinson/ha"
 	},
 	{
 		"private": false,
-		"modelId": "satkinson/ha"
+		"pipeline_tag": "text-generation",
+		"modelId": "satkinson/DialoGPT-small-sean"
 	}
 ]
