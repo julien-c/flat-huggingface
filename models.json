@@ -109107,6 +109107,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Rattana/wav2vec2-thai-colab"
 	},
 	{
@@ -141500,5 +141501,19 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-tweets-semeval-unclean"
+	},
+	{
+		"private": false,
+		"modelId": "kurianbenoy/finbert-tone-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-tweets-semeval-clean"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_230k"
 	}
 ]
