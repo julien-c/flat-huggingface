@@ -141475,6 +141475,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/bart-large-cnn-pubmed-summ-finetuned"
 	},
 	{
@@ -141805,11 +141806,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "satkinson/output-small-50-20-epochs"
-	},
-	{
-		"private": false,
 		"modelId": "eshaaftab900/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -141827,5 +141823,13 @@
 	{
 		"private": false,
 		"modelId": "jaketae/fastspeech2-lj-en"
+	},
+	{
+		"private": false,
+		"modelId": "damlab/HIV_BERT"
+	},
+	{
+		"private": false,
+		"modelId": "yancong/distilbert-base-uncased-finetuned-mi"
 	}
 ]
