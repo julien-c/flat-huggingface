@@ -105343,6 +105343,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_21_ft_4"
 	},
 	{
@@ -141457,6 +141458,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000-pad"
 	},
 	{
@@ -141465,6 +141467,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "kapilchauhan/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -141487,5 +141490,15 @@
 	{
 		"private": false,
 		"modelId": "ycblena/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000-earlystop"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-tweets-semeval-unclean"
 	}
 ]
