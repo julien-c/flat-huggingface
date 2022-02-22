@@ -44735,11 +44735,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "object-detection",
-		"modelId": "davanstrien/detr_beyond_words"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "dbragdon/noam-masked-lm"
 	},
@@ -45629,6 +45624,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yxchar/tlm-chemprot-small-scale"
+	},
+	{
+		"private": false,
+		"modelId": "davanstrien/detr_beyond_words"
 	},
 	{
 		"private": false,
@@ -141498,6 +141497,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "adresgezgini/Wav2Vec2-tr-AG-v1"
 	},
 	{
@@ -141540,5 +141540,9 @@
 	{
 		"private": false,
 		"modelId": "anasaqsme/anasdistil"
+	},
+	{
+		"private": false,
+		"modelId": "Anthos23/sentiment-roberta-large-english-finetuned-sentiment-analysis"
 	}
 ]
