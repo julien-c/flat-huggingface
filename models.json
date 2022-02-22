@@ -135703,6 +135703,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "sancharidan/quantized_expfinder"
 	},
 	{
@@ -141413,10 +141414,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Pubudu/mbart-large-50-finetuned-sinhala-news-headline-generation-army-dataset"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_16_ft_0"
 	},
@@ -141524,6 +141521,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean-with-clean-valid"
 	},
 	{
@@ -141534,5 +141532,13 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "speech-seq2seq/wav2vec2-2-gpt2-no-adapter"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/pegasus-xsum-finetuned-weaksup-1000"
+	},
+	{
+		"private": false,
+		"modelId": "anasaqsme/anasdistil"
 	}
 ]
