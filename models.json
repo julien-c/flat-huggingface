@@ -8230,6 +8230,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "microsoft/beit-base-finetuned-ade-640-640"
 	},
 	{
@@ -17437,6 +17438,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MarcBrun/ixambert-finetuned-squad-eu-en"
 	},
 	{
@@ -141527,5 +141529,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ebrigham/my-distilcamembert-base-sentiment"
+	},
+	{
+		"private": false,
+		"modelId": "adresgezgini/Wav2Vec2-tr-AG-v1"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-bart-large-frozen-enc"
 	}
 ]
