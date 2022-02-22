@@ -141388,11 +141388,23 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-asonam-clean"
+		"modelId": "Maha/hin-trac2"
 	},
 	{
 		"private": false,
-		"modelId": "Maha/hin-trac2"
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-asonam-unclean"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-10000"
+	},
+	{
+		"private": false,
+		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-asonam-clean"
 	}
 ]
