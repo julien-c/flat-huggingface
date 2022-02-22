@@ -141573,5 +141573,14 @@
 	{
 		"private": false,
 		"modelId": "cyl/sst2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/distilbart-12-6-finetuned-answersum"
 	}
 ]
