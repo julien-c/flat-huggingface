@@ -23559,6 +23559,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/mt5-small"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "mrm8488/codebert-finetuned-clone-detection"
 	},
@@ -25638,11 +25643,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jky594176/recipe_BART1_GRU"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/mt5-small"
 	},
 	{
 		"private": false,
@@ -50514,6 +50514,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/opus-mt-ru-en-finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "keshan/sinhala-t5-small"
 	},
 	{
@@ -64736,11 +64741,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "kaushikacharya/dummy-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/opus-mt-ru-en-finetuned"
 	},
 	{
 		"private": false,
@@ -126053,6 +126053,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jediguy18/DialoGPT-small-twewy"
 	},
 	{
@@ -140527,6 +140528,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "allenai/unifiedqa-v2-t5-base-1251000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "allenai/unifiedqa-v2-t5-base-1363200"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jglaser/protein-ligand-mlp-1"
 	},
@@ -141279,10 +141290,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "allenai/unifiedqa-v2-t5-base-1251000"
-	},
-	{
-		"private": false,
 		"modelId": "allenai/unifiedqa-v2-t5-11b-1363200"
 	},
 	{
@@ -141297,10 +141304,6 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-87599-finetuned-squad-seed-42"
-	},
-	{
-		"private": false,
-		"modelId": "allenai/unifiedqa-v2-t5-base-1363200"
 	},
 	{
 		"private": false,
@@ -141455,5 +141458,13 @@
 	{
 		"private": false,
 		"modelId": "Yoonseong/GreenWashing"
+	},
+	{
+		"private": false,
+		"modelId": "tuanle/VN-News-GPT2"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000-pad"
 	}
 ]
