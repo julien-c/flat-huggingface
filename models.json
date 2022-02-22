@@ -18853,6 +18853,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "microsoft/beit-large-finetuned-ade-640-640"
 	},
 	{
@@ -41656,11 +41657,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large-no-adapter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "sangrimlee/mt5-small-e2e-qg"
 	},
@@ -60945,11 +60941,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "camille/bert-base-pruned-voc-esw0.7-40000-en-fr-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup"
 	},
 	{
 		"private": false,
@@ -99035,16 +99026,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bart-large-no-adapter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-no-adapter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "sankalpjha1/mr.bot_haary"
 	},
@@ -100348,6 +100329,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "zuto37/DialoGPT-small-sadao"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-no-adapter"
 	},
 	{
 		"private": false,
@@ -116903,22 +116888,6 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "camille/bert-base-pruned-voc-esw0.7-40000-en-de-cased"
-	},
-	{
-		"private": false,
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-10000"
-	},
-	{
-		"private": false,
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-2000"
-	},
-	{
-		"private": false,
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-3000"
-	},
-	{
-		"private": false,
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-5000"
 	},
 	{
 		"private": false,
@@ -135734,7 +135703,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "sancharidan/quantized_expfinder"
 	},
 	{
@@ -141449,6 +141417,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_16_ft_0"
 	},
 	{
@@ -141537,5 +141506,33 @@
 	{
 		"private": false,
 		"modelId": "sanchit-gandhi/wav2vec2-2-bart-large-frozen-enc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean-with-unclean-valid"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "speech-seq2seq/wav2vec2-2-bart-large-no-adapter-frozen-enc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "speech-seq2seq/wav2vec2-2-bert-large-no-adapter"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean-with-clean-valid"
+	},
+	{
+		"private": false,
+		"modelId": "Zora/Tutorial1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "speech-seq2seq/wav2vec2-2-gpt2-no-adapter"
 	}
 ]
