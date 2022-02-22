@@ -141611,6 +141611,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "higopires/roB3rta"
 	},
 	{
@@ -141705,5 +141706,26 @@
 	{
 		"private": false,
 		"modelId": "NeonBohdan/stt-polyglot-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "benjaminbeilharz/bert-base-uncased-next-turn-classifier"
+	},
+	{
+		"private": false,
+		"modelId": "NeonBohdan/stt-polyglot-fr"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/t5-efficient-xl-nl16-ft-booksum-ft-booksum"
+	},
+	{
+		"private": false,
+		"modelId": "NeonBohdan/stt-polyglot-pl"
+	},
+	{
+		"private": false,
+		"modelId": "merve/tb_fix"
 	}
 ]
