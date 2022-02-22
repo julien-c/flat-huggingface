@@ -18019,11 +18019,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "ahotrod/roberta_large_squad2"
-	},
-	{
-		"private": false,
 		"modelId": "charsiu/zh_w2v2_tiny_fc_10ms"
 	},
 	{
@@ -23294,11 +23289,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "vidhur2k/mBERT-Italian-Mono"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "yabramuvdi/distilbert-wfh"
 	},
 	{
 		"private": false,
@@ -141657,6 +141647,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Anthos23/my-awesome-model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "AI4Sec/cyner-xlm-roberta-base"
+	},
+	{
+		"private": false,
+		"modelId": "AI4Sec/cyner-xlm-roberta-large"
+	},
+	{
+		"private": false,
+		"modelId": "umit/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
