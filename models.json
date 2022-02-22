@@ -140600,6 +140600,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/roberta-large-mnli-semeval"
 	},
 	{
@@ -141362,5 +141363,13 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yancong/distilbert-base-uncased-finetuned-quantifier"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/huh-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "henerythebird/luna"
 	}
 ]
