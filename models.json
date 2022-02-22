@@ -141630,11 +141630,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Tanvirul/cyner-xlm-roberta-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Anthos23/my-awesome-model"
 	},
@@ -141698,11 +141693,6 @@
 	{
 		"private": false,
 		"modelId": "NeonBohdan/stt-polyglot-fr"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pszemraj/t5-efficient-xl-nl16-ft-booksum-ft-booksum"
 	},
 	{
 		"private": false,
@@ -141795,5 +141785,18 @@
 	{
 		"private": false,
 		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pszemraj/t5e-xl-lexical-3E"
+	},
+	{
+		"private": false,
+		"modelId": "yancong/distilbert-base-uncased-finetuned-existence"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/t5e-xl-lexical-3E-ft-booksum"
 	}
 ]
