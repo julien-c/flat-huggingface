@@ -18090,6 +18090,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MarcBrun/ixambert-finetuned-squad-eu"
 	},
 	{
@@ -141478,6 +141479,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/hc-roberta-large-mnli-semeval"
 	},
 	{
@@ -141523,5 +141525,9 @@
 	{
 		"private": false,
 		"modelId": "adresgezgini/Wav2Vec2-tr-AG-v1"
+	},
+	{
+		"private": false,
+		"modelId": "ebrigham/my-distilcamembert-base-sentiment"
 	}
 ]
