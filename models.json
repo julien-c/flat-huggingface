@@ -23640,6 +23640,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "debjyoti007/doc_classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-mix-poetry"
 	},
 	{
@@ -100048,6 +100053,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_Modified-bluebert_pubmed_uncased_L-12_H-768_A-12"
 	},
@@ -108260,10 +108270,6 @@
 	{
 		"private": false,
 		"modelId": "ProfessorBob/qa-camembert-large-fquad-piaf"
-	},
-	{
-		"private": false,
-		"modelId": "Pubudu/mt5-small-keras-finetuned-dinamina"
 	},
 	{
 		"private": false,
@@ -140512,6 +140518,15 @@
 	},
 	{
 		"private": false,
+		"modelId": "202015004/wav2vec2-base-TLT-Shreya-trial"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Santiagot1105/wav2vec2-lar-xlsr-finetune-es-col"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "jglaser/protein-ligand-mlp-1"
 	},
@@ -140542,10 +140557,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Pubudu/mt5-small-keras-sinhala-headline-gen"
-	},
-	{
-		"private": false,
 		"modelId": "dingzx97/led.wk5.00112233-finetuned-mrpc"
 	},
 	{
@@ -140555,11 +140566,6 @@
 	{
 		"private": false,
 		"modelId": "mohamed-illiyas/wave2vec-300m-lj-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000"
 	},
 	{
 		"private": false,
@@ -140694,10 +140700,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_19_ft_3"
-	},
-	{
-		"private": false,
-		"modelId": "202015004/wav2vec2-base-TLT-Shreya-trial"
 	},
 	{
 		"private": false,
@@ -140903,11 +140905,6 @@
 	{
 		"private": false,
 		"modelId": "yongzx/bigscience-1.3B-ko-tokenizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "debjyoti007/doc_classifier"
 	},
 	{
 		"private": false,
@@ -141213,10 +141210,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Santiagot1105/wav2vec2-lar-xlsr-finetune-es-col"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/bluebert_pubmed_uncased_L-12_H-768_A-12"
 	},
@@ -141433,10 +141426,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Pubudu/mbart-large-50-finetuned-sinhala-news-headline-generation-army-dataset"
-	},
-	{
-		"private": false,
 		"modelId": "Kuray107/librispeech_pseudo-label"
 	},
 	{
@@ -141450,5 +141439,21 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_16_ft_0"
+	},
+	{
+		"private": false,
+		"modelId": "kapilchauhan/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "apapa/wav2vec2-base-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "jinjinjin/AdsBertV6"
+	},
+	{
+		"private": false,
+		"modelId": "Yoonseong/GreenWashing"
 	}
 ]
