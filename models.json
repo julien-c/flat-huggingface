@@ -114489,10 +114489,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "apriori/CactuAI3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "aqj213/t5-base-pisa-state-only-finetuned"
 	},
@@ -141723,11 +141719,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "johnnydevriese/test"
-	},
-	{
-		"private": false,
 		"modelId": "duncsss/token_classification"
 	},
 	{
@@ -141789,6 +141780,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-localtest2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "espnet/YushiUeda_iemocap_sentiment_asr_train_asr_conformer_hubert"
 	}
 ]
