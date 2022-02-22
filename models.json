@@ -24938,11 +24938,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "pszemraj/led-large-book-summary-1E"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ravirajoshi/wav2vec2-large-xls-r-300m-hindi"
 	},
@@ -54901,7 +54896,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "kazandaev/opus-mt-ru-en-finetuned"
 	},
 	{
@@ -141339,6 +141334,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "apriori/CactuAI3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_16_ft_0"
 	},
@@ -141625,6 +141624,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shibli/wav2vec2-large-xls-r-300m-pun-colab"
 	},
 	{
@@ -141787,5 +141787,9 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "espnet/YushiUeda_iemocap_sentiment_asr_train_asr_conformer_hubert"
+	},
+	{
+		"private": false,
+		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-localtest3"
 	}
 ]
