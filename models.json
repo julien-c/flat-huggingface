@@ -86887,6 +86887,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4_Modified-scibert_scivocab_uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4_Modified-biobert-v1.1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean"
 	},
@@ -100035,6 +100045,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "zuto37/DialoGPT-small-sadao"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4_Modified-bluebert_pubmed_uncased_L-12_H-768_A-12"
 	},
 	{
 		"private": false,
@@ -140518,6 +140533,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "Maha/hin-trac1_fin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_21_ft_2"
 	},
 	{
@@ -141119,21 +141139,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Modified-bluebert_pubmed_uncased_L-12_H-768_A-12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Modified-scibert_scivocab_uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Modified-biobert-v1.1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ajrae/bert-base-uncased-finetuned-mrpc"
 	},
@@ -141421,10 +141426,6 @@
 	{
 		"private": false,
 		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-3000"
-	},
-	{
-		"private": false,
-		"modelId": "Maha/hin-trac1_fin"
 	},
 	{
 		"private": false,
