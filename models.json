@@ -141583,10 +141583,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "mbeukman/xlm-roberta-base-finetuned-swahili-finetuned-ner-amharic"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "mbeukman/xlm-roberta-base-finetuned-ner-amharic"
 	},
 	{
@@ -141600,5 +141602,17 @@
 	{
 		"private": false,
 		"modelId": "nielsr/convnext-xlarge-224-22k-1k"
+	},
+	{
+		"private": false,
+		"modelId": "cyl/adapter_t5-3b_rte"
+	},
+	{
+		"private": false,
+		"modelId": "mariagrandury/roberta-base-finetuned-sms-spam-detection"
+	},
+	{
+		"private": false,
+		"modelId": "cyl/sst2"
 	}
 ]
