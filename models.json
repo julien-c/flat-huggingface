@@ -75351,6 +75351,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "moshew/roberta-small-aug-sst2-distilled"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AJ/DialoGPT-small-ricksanchez"
 	},
@@ -113738,6 +113742,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "allenai/unifiedqa-v2-t5-large-1363200"
 	},
 	{
@@ -141692,5 +141697,13 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_400k"
+	},
+	{
+		"private": false,
+		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-local"
+	},
+	{
+		"private": false,
+		"modelId": "NeonBohdan/stt-polyglot-en"
 	}
 ]
