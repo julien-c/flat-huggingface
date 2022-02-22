@@ -141668,6 +141668,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "celinelee/answer-extraction"
 	},
 	{
@@ -141684,6 +141685,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "mezes/eauction-section-parsing"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k-MLM_400k"
 	}
 ]
