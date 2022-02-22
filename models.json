@@ -75847,16 +75847,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Dreyzin/DialoGPT-medium-avatar"
 	},
@@ -141374,6 +141364,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/new-roberta-large-mnli-semeval"
 	},
 	{
@@ -141407,5 +141398,9 @@
 	{
 		"private": false,
 		"modelId": "Kuray107/timit_pseudo-label"
+	},
+	{
+		"private": false,
+		"modelId": "sancharidan/quantized_expfinder"
 	}
 ]
