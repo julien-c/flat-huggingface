@@ -53969,11 +53969,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "ssardorf/t5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "stanfordnlp/stanza-lt"
 	},
@@ -141929,10 +141924,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Maha/OGBV-gender-hi-const21-xlm"
-	},
-	{
-		"private": false,
 		"modelId": "linpo/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -141941,16 +141932,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "Maha/OGBV-gender-hi-const21-xlm_fin"
-	},
-	{
-		"private": false,
 		"modelId": "w11wo/wav2vec2-adult-child-cls-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Maha/OGBV-gender-hi-const21-xlm_final"
 	},
 	{
 		"private": false,
@@ -142075,5 +142057,14 @@
 	{
 		"private": false,
 		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-ta-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ssardorf/t5-web-summ"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/t5-base-pubmed-summ-finetuned"
 	}
 ]
