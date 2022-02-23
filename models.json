@@ -100389,6 +100389,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "IsaacBot/bert-base-uncased-finetuned-GP-Sentiment"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -109486,6 +109491,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "RollingMuffin/scripts_ru"
 	},
 	{
@@ -142167,6 +142173,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "JAlexis/PruebaBert"
 	},
 	{
@@ -142179,10 +142186,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4-Original-scibert_scivocab_uncased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4-Original-biobert-v1.1"
 	},
 	{
@@ -142211,6 +142220,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "mrm8488/t5-small-finetuned-text2log"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/CRAFT-Chem_Original-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	}
 ]
