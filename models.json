@@ -142308,7 +142308,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "happifyhealth/E_Self"
+		"pipeline_tag": "translation",
+		"modelId": "kazandaev/opus-mt-en-ru-finetuned-tsv5"
+	},
+	{
+		"private": false,
+		"modelId": "kapilchauhan/xlnet-base-cased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -142316,7 +142321,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-tsv5"
+		"modelId": "aypan17/gpt2-large-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "repro-rights-amicus-briefs/distilbert-base-uncased-finetuned-RRamicus"
 	}
 ]
