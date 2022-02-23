@@ -64282,6 +64282,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "apriori/CactuAI3"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
 	},
@@ -141980,6 +141985,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/ath-roberta-large-mnli-semeval"
 	},
 	{
@@ -142025,5 +142031,17 @@
 	{
 		"private": false,
 		"modelId": "nghosh/ResNet50-imagenet-full"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/xlnet_xlnet_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/all-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "phongdtd/fb-youtube-vi-large"
 	}
 ]
