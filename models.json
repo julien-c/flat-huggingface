@@ -23155,11 +23155,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/mt5-small"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/sew-tiny-portuguese-cv7"
 	},
@@ -23296,6 +23291,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "valhalla/distilt5-qa-qg-hl-6-4"
+	},
+	{
+		"private": false,
+		"modelId": "kazandaev/mt5-small"
 	},
 	{
 		"private": false,
@@ -142356,5 +142355,13 @@
 		"private": false,
 		"pipeline_tag": "object-detection",
 		"modelId": "merve/model-card-plot-f"
+	},
+	{
+		"private": false,
+		"modelId": "merve/model-card-build"
+	},
+	{
+		"private": false,
+		"modelId": "merve/model-card-build-f"
 	}
 ]
