@@ -133952,10 +133952,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "padipadou/s2s_w2v_bart_ami"
-	},
-	{
-		"private": false,
 		"modelId": "padipadou/s2s_w2v_bart_ami_fake_2"
 	},
 	{
@@ -142074,6 +142070,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "w11wo/wav2vec2-adult-child-cls-v3"
 	},
 	{
@@ -142123,15 +142120,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "padipadou/s2s_w2v_bart_ami_hq"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-adult-child-cls"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "StevenLimcorn/wav2vec2-adult-child-cls-v3"
 	}
 ]
