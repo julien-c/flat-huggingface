@@ -24166,11 +24166,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "ahmedJaafari/Annarabic3.2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aychang/bert-base-cased-trec-coarse"
 	},
@@ -31427,6 +31422,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "mrm8488/t5-small-finetuned-boolq"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "mvip/wav2vec2-large-xls-r-300m-turkish-local-2"
 	},
 	{
 		"private": false,
@@ -142009,10 +142009,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/all-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "phongdtd/fb-youtube-vi-large"
 	},
 	{
@@ -142071,6 +142073,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Aron/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -142080,6 +142083,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/hi-const21-hibert_final"
+	},
+	{
+		"private": false,
+		"modelId": "chrisknowles/en_stylecheck"
 	}
 ]
