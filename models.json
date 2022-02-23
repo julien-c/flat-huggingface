@@ -41473,11 +41473,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/BERT-tiny-finetuned-clinc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "mrm8488/RuPERTa-base-finetuned-spa-constitution"
 	},
@@ -47285,11 +47280,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moshew/BERT-small-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/distilbert-base-uncased-finetuned-clinc"
 	},
 	{
 		"private": false,
@@ -55150,16 +55140,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moshew/BERT-miny-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/BERT-small-distilled-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/BERT-tiny-distilled-clinc"
 	},
 	{
 		"private": false,
@@ -103775,6 +103755,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "FOFer/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -141930,6 +141911,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "IsaacBot/bert-base-uncased-finetuned-GP-Sentiment"
 	},
 	{
@@ -141948,5 +141930,13 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_22_ft_1"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/fm-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/bert-small-aug-sst2-distilled"
 	}
 ]
