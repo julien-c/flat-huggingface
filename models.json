@@ -131676,10 +131676,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/bart-l-mnli-fp"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "nbroad/mt5-base-qgen"
 	},
@@ -141775,11 +141771,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "nbroad/bb-l-fp-30"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nielsr/convnext-xlarge-224-22k-1k"
 	},
@@ -141852,6 +141843,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "spasis/bert-finetuned-ner-accelerate"
 	},
 	{
@@ -141928,11 +141920,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "nbroad/bb-l-fp-35"
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-BioNLP13"
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-BioNLP13"
+		"modelId": "andresestevez/bert-base-cased-finetuned-squad"
 	}
 ]
