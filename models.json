@@ -43396,6 +43396,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "SuperAI2-Machima/mt5-small-thai-qg"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "0x7194633/keyt5-base"
 	},
 	{
@@ -100198,6 +100203,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-10000"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -141232,11 +141242,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-10000"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "AI4Sec/cyner-xlm-roberta-base"
 	},
@@ -141829,11 +141834,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "koobear/ab-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "aarnphm/finetune_emotion_distilroberta"
 	},
 	{
@@ -141900,17 +141900,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "SuperAI2-Machima/mt5-small-thai-qg"
-	},
-	{
-		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_22_ft_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/fm-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
@@ -141928,5 +141918,9 @@
 	{
 		"private": false,
 		"modelId": "cyl/adapter_t5-3b_sst2"
+	},
+	{
+		"private": false,
+		"modelId": "Yingda/test"
 	}
 ]
