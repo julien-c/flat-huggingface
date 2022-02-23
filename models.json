@@ -142148,10 +142148,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "phongdtd/fb-vindata-vi-large"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4-Original-bluebert_pubmed_uncased_L-12_H-768_A-12"
 	},
 	{
@@ -142160,6 +142162,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
@@ -142173,5 +142176,25 @@
 	{
 		"private": false,
 		"modelId": "JAlexis/PruebaBert"
+	},
+	{
+		"private": false,
+		"modelId": "ShengdingHu/97834603"
+	},
+	{
+		"private": false,
+		"modelId": "mwesner/layoutlmv2-funsd"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC4-Original-scibert_scivocab_uncased"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC4-Original-biobert-v1.1"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_17_ft_0"
 	}
 ]
