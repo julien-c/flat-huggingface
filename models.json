@@ -39772,6 +39772,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/detr_beyond_words"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "dbmdz/electra-small-turkish-cased-generator"
 	},
@@ -40511,10 +40515,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "zwang199/autonlp-traffic_nlp_binary-537215209"
-	},
-	{
-		"private": false,
-		"modelId": "davanstrien/detr_beyond_words"
 	},
 	{
 		"private": false,
@@ -64934,7 +64934,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "Kevincp560/bart-large-cnn-govreport-finely-tuned"
 	},
 	{
@@ -84769,6 +84769,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "merve/tb_fix-final"
+	},
+	{
+		"private": false,
 		"modelId": "merve/tb_fix"
 	},
 	{
@@ -87106,10 +87110,6 @@
 	{
 		"private": false,
 		"modelId": "zzuczy/wav2vec2-baset-ft-ch-debug"
-	},
-	{
-		"private": false,
-		"modelId": "merve/tb_fix-final"
 	},
 	{
 		"private": false,
@@ -114245,10 +114245,6 @@
 	{
 		"private": false,
 		"modelId": "andrex/chat-bot-rick"
-	},
-	{
-		"private": false,
-		"modelId": "andrex/chatbot-rick"
 	},
 	{
 		"private": false,
@@ -141909,130 +141905,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Holako/NER_model_holako"
-	},
-	{
-		"private": false,
-		"modelId": "Maha/OGBV-gender-hi-const21-hibert"
-	},
-	{
-		"private": false,
-		"modelId": "Maha/OGBV-gender-hi-const21-indicbert"
-	},
-	{
-		"private": false,
-		"modelId": "linpo/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"modelId": "vuiseng9/bert-squad-nncf-mvmt-hybrid-lt"
-	},
-	{
-		"private": false,
-		"modelId": "w11wo/wav2vec2-adult-child-cls-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "satishjasthij/cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Krystalan/mdialbart_de"
-	},
-	{
-		"private": false,
-		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-full"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/wav2vec2-adult-child-cls-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/ath-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "junzai/demotest"
-	},
-	{
-		"private": false,
-		"modelId": "Krystalan/mdialbart_zh"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "junzai/demo"
-	},
-	{
-		"private": false,
 		"modelId": "54Tor/test"
 	},
 	{
 		"private": false,
-		"modelId": "kapilchauhan/distilbert-base-uncased-finetuned-cola-finetuned-cola"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "roschmid/my-first-model"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_20_ft_2"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_16_ft_3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-to-audio",
-		"modelId": "lichenda/wsj0_2mix_skim_noncausal"
-	},
-	{
-		"private": false,
-		"modelId": "nghosh/ResNet50-imagenet-full"
+		"modelId": "Aron/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
 		"modelId": "Ayham/xlnet_xlnet_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/all-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "phongdtd/fb-youtube-vi-large"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/resnet18-224-1k"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/resnet26-224-1k"
-	},
-	{
-		"private": false,
-		"modelId": "Keril/barbiistrush0sd"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/resnet34-224-1k"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/resnet50-224-1k"
 	},
 	{
 		"private": false,
@@ -142044,7 +141926,58 @@
 	},
 	{
 		"private": false,
-		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-tamil-colab"
+		"modelId": "Francesco/resnet18-224-1k"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/resnet26-224-1k"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/resnet34-224-1k"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/resnet50-224-1k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Holako/NER_model_holako"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_16_ft_3"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_20_ft_2"
+	},
+	{
+		"private": false,
+		"modelId": "Keril/barbiistrush0sd"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Krystalan/mdialbart_de"
+	},
+	{
+		"private": false,
+		"modelId": "Krystalan/mdialbart_zh"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-hi-const21-hibert"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-hi-const21-indicbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Maha/hi-const21-hibert_final"
 	},
 	{
 		"private": false,
@@ -142057,12 +141990,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-ta-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "ssardorf/t5-web-summ"
+		"pipeline_tag": "audio-classification",
+		"modelId": "anantoj/wav2vec2-adult-child-cls-v3"
 	},
 	{
 		"private": false,
@@ -142071,18 +142000,19 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Aron/distilbert-base-uncased-finetuned-emotion"
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-full"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "ssardorf/t5-meta-desc"
+		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-300m-ta-colab"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Maha/hi-const21-hibert_final"
+		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-ta-colab"
+	},
+	{
+		"private": false,
+		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-tamil-colab"
 	},
 	{
 		"private": false,
@@ -142091,15 +142021,86 @@
 	},
 	{
 		"private": false,
+		"modelId": "dreamerdeo/mark-bart"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "junzai/demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "junzai/demotest"
+	},
+	{
+		"private": false,
+		"modelId": "kapilchauhan/distilbert-base-uncased-finetuned-cola-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/all-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/ath-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kurianbenoy/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-to-audio",
+		"modelId": "lichenda/wsj0_2mix_skim_noncausal"
+	},
+	{
+		"private": false,
+		"modelId": "linpo/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "nghosh/ResNet50-imagenet-full"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "phongdtd/fb-youtube-vi-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "reddip/PeterThree"
 	},
 	{
 		"private": false,
-		"modelId": "kurianbenoy/bert-finetuned-ner"
+		"pipeline_tag": "text-classification",
+		"modelId": "roschmid/my-first-model"
 	},
 	{
 		"private": false,
-		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-300m-ta-colab"
+		"pipeline_tag": "text-classification",
+		"modelId": "satishjasthij/cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ssardorf/t5-meta-desc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ssardorf/t5-web-summ"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-squad-nncf-mvmt-hybrid-lt"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/wav2vec2-adult-child-cls-v3"
 	}
 ]
