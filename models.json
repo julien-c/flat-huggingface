@@ -141871,6 +141871,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/ab-roberta-large-mnli-semeval"
 	},
 	{
@@ -141902,10 +141903,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-to-speech",
 		"modelId": "jaketae/hifigan-lj-v1"
 	},
 	{
 		"private": false,
 		"modelId": "pszemraj/t5e-large-nl36-eightyfiveE-lfqa-ft-lfqa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "csbongga/Machi-QAG-02"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/distilbert-base-uncased-finetuned-sst-2-english-finetuned-argmining"
 	}
 ]
