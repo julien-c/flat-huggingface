@@ -42876,6 +42876,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "isakbos/Q8BERT_COLA_L_512"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jacksee/gpt2-finetuned-biochemistry"
 	},
@@ -62042,11 +62047,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ionite/DialoGPT-medium-orangeAI"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "isakbos/Q8BERT_COLA_L_512"
 	},
 	{
 		"private": false,
@@ -141930,5 +141930,13 @@
 	{
 		"private": false,
 		"modelId": "Holako/NER_model_holako"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-hi-const21-indicbert"
+	},
+	{
+		"private": false,
+		"modelId": "vuiseng9/bert-squad-nncf-mvmt-hybrid-lt"
 	}
 ]
