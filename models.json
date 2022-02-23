@@ -42330,6 +42330,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "UBC-NLP/AraT5-base"
+	},
+	{
+		"private": false,
 		"modelId": "UBC-NLP/E-finance"
 	},
 	{
@@ -111497,6 +111502,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "UBC-NLP/AraT5-tweet-base"
+	},
+	{
+		"private": false,
 		"modelId": "UgobOby/model_name"
 	},
 	{
@@ -141314,6 +141323,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-10000"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "AI4Sec/cyner-xlm-roberta-base"
 	},
@@ -141552,7 +141566,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
+		"pipeline_tag": "text-classification",
 		"modelId": "chrisknowles/en_statistics"
 	},
 	{
@@ -141607,6 +141621,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "damlab/HIV_V3_bodysite"
 	},
 	{
@@ -141818,7 +141833,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "satkinson/SeanBot"
 	},
 	{
@@ -141908,6 +141923,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-BioNLP13"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nbroad/bb-l-fp-35"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-BioNLP13"
 	}
 ]
