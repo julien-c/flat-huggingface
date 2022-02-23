@@ -74322,6 +74322,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pdils/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
 		"modelId": "pere/norwegian-gptneo-blue-highlr"
 	},
 	{
@@ -141689,11 +141694,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pdils/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "pszemraj/led-large-book-summary"
 	},
@@ -141926,5 +141926,9 @@
 	{
 		"private": false,
 		"modelId": "koobear/cc-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "Holako/NER_model_holako"
 	}
 ]
