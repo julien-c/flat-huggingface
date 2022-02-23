@@ -61500,6 +61500,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Yanjie/message-intent"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Yanzhu/bertweetfr_ner"
 	},
@@ -74544,11 +74549,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "munggok/image-captioning-marian"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "mwesner/bart-CNN-Dailymail-summ"
 	},
 	{
 		"private": false,
@@ -142220,10 +142220,6 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb"
-	},
-	{
-		"private": false,
-		"modelId": "mwesner/layoutlmv2-funsd"
 	},
 	{
 		"private": false,
