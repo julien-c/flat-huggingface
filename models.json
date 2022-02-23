@@ -131761,6 +131761,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moshew/bert-small-aug-sst2-distilled"
 	},
 	{
@@ -135419,10 +135420,6 @@
 	{
 		"private": false,
 		"modelId": "redbasecap/chai_tamil_hindi_ft"
-	},
-	{
-		"private": false,
-		"modelId": "reddip/Peter"
 	},
 	{
 		"private": false,
@@ -142055,16 +142052,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "alina1997/marian_en_de_test"
+	},
+	{
+		"private": false,
 		"modelId": "capstonedubtrack/wav2vec2-large-xls-r-ta-colab"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ssardorf/t5-web-summ"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/t5-base-pubmed-summ-finetuned"
 	},
 	{
 		"private": false,
@@ -142088,10 +142086,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "chrisknowles/en_stylecheck"
-	},
-	{
-		"private": false,
-		"modelId": "reddip/Peter-P365"
 	}
 ]
