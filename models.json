@@ -59735,11 +59735,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pierric/test-EsperBERTo-small"
 	},
@@ -60307,6 +60302,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zoeymeng913/bert_finetuning_test"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
 	},
 	{
 		"private": false,
@@ -141982,6 +141981,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_22_ft_2"
 	},
 	{
