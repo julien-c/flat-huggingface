@@ -84163,7 +84163,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "kazandaev/opus-mt-en-ru-finetuned"
 	},
 	{
@@ -119293,6 +119293,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "eebie/june"
+	},
+	{
+		"private": false,
 		"modelId": "eecspan/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -141845,6 +141849,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "chrisknowles/en_statistics"
 	},
 	{
@@ -141854,7 +141859,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "AiPorter/DialoGPT-small-Back_to_the_future"
 	},
 	{
@@ -141876,12 +141881,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "satkinson/DialoGPT-small-sean"
+		"pipeline_tag": "question-answering",
+		"modelId": "comacrae/roberta-eda-and-parav3"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/bb-l-fp-30"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "comacrae/roberta-eda-and-parav3"
+		"modelId": "comacrae/roberta-unaugmentedv3"
+	},
+	{
+		"private": false,
+		"modelId": "satkinson/SeanBot"
 	}
 ]
