@@ -64934,16 +64934,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "Kevincp560/bart-large-cnn-govreport-finely-tuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "Kevincp560/bart-large-cnn-pubmed-summ-finetuned"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/roberta-large-english-upos"
 	},
@@ -134994,10 +134984,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/t5e-large-nl36-eightyfiveE-lfqa-ft-lfqa"
-	},
-	{
-		"private": false,
 		"modelId": "ptnv-s/biobert_v1.1_pubmed_squad_v2-finetuned-squad"
 	},
 	{
@@ -141949,6 +141935,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Krystalan/mdialbart_zh"
 	},
 	{
@@ -142094,10 +142081,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bart-large-xsum-pubmed-summ-finetuned"
-	},
-	{
-		"private": false,
 		"modelId": "shiromart/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -142116,5 +142099,9 @@
 	{
 		"private": false,
 		"modelId": "jahuerta92/xlm-roberta-large-snli_mnli_xnli_fever_r1_r2_r3"
+	},
+	{
+		"private": false,
+		"modelId": "izzy-lazerson/wav2vec2-large-xls-r-300m-turkish-colab"
 	}
 ]
