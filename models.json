@@ -47278,11 +47278,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/BERT-small-finetuned-clinc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "mrm8488/bert-multi-uncased-finetuned-xquadv1"
 	},
@@ -55139,22 +55134,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "moshew/BERT-miny-finetuned-clinc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "moshew/MiniLM-L3-sst2-distilled"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moshew/miny-bert-aug-sst2-distilled"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "moshew/tiny-bert-sst2-distilled"
 	},
 	{
 		"private": false,
@@ -141938,5 +141923,9 @@
 	{
 		"private": false,
 		"modelId": "moshew/bert-small-aug-sst2-distilled"
+	},
+	{
+		"private": false,
+		"modelId": "Maheshwaranr/bert-analyzer"
 	}
 ]
