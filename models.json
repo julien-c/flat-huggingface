@@ -28998,6 +28998,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean"
 	},
 	{
@@ -69427,6 +69428,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zqf03118/bert_cn_finetuning"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean"
 	},
 	{
 		"private": false,
@@ -142804,5 +142809,13 @@
 	{
 		"private": false,
 		"modelId": "MrAnderson/nystromformer-512-trivia-fewshot-non-DA"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/wav2vec2-xls-r-300m-finetuned-ks"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/mpnet-base-sst2-distilled"
 	}
 ]
