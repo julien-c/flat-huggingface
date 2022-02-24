@@ -105730,6 +105730,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "K024/mt5-zh-ja-en-trimmed"
+	},
+	{
+		"private": false,
 		"modelId": "K3LLiN/Kellin"
 	},
 	{
@@ -142413,5 +142418,14 @@
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "StevenLimcorn/distil-wav2vec2-adult-child-cls-v3"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-copa-kb-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	}
 ]
