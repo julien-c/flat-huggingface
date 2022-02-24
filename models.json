@@ -8801,11 +8801,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "UBC-NLP/MARBERTv2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Hate-speech-CNERG/dehatebert-mono-portugese"
 	},
@@ -90036,6 +90031,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "UBC-NLP/AraT5-msa-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "UKJ5/DialoGPT-small-harrypotter"
 	},
@@ -142411,5 +142410,9 @@
 	{
 		"private": false,
 		"modelId": "pszemraj/t5e-large-nl36-1-pt-47E-ft-lfqa"
+	},
+	{
+		"private": false,
+		"modelId": "algoprog/mimics-bart-base"
 	}
 ]
