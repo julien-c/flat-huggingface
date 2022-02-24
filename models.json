@@ -27218,6 +27218,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "alecmullen/autonlp-group-classification-441411446"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "am-shb/bert-base-multilingual-uncased-pretrained"
 	},
@@ -142147,11 +142152,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "juancavallotti/t5-finetuned-recipes-step"
-	},
-	{
-		"private": false,
 		"modelId": "huggingartists/serge-gainsbourg"
 	},
 	{
@@ -142368,5 +142368,9 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "juanhebert/wav2vec2-indonesia"
+	},
+	{
+		"private": false,
+		"modelId": "amanm27/distilroberta-base-finetuned-wikitext2-pretrained-sports-articles"
 	}
 ]
