@@ -13927,10 +13927,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "debjyoti007/doc_classifier"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-to-speech",
 		"modelId": "facebook/tts_transformer-tr-cv7"
 	},
@@ -114441,6 +114437,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
 	},
 	{
@@ -142877,11 +142874,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v3"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mvip/wav2vec2-xls-r-300m-cv7-turkish-LM"
 	},
 	{
@@ -142921,5 +142914,9 @@
 	{
 		"private": false,
 		"modelId": "TimXu/my-hubert-test"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/zero-roberta-mnli"
 	}
 ]
