@@ -28302,11 +28302,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-CV7"
 	},
@@ -29000,6 +28995,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "youngfan918/bert_finetuning_test"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean"
 	},
 	{
 		"private": false,
@@ -64762,11 +64761,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean-with-clean-valid"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean"
 	},
 	{
 		"private": false,
@@ -142401,6 +142395,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	},
@@ -142784,5 +142783,26 @@
 	{
 		"private": false,
 		"modelId": "cammy/gpt2-finetuned-weaksup-1000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/t5-base-finetuned-weaksup-1000"
+	},
+	{
+		"private": false,
+		"modelId": "lhbit20010120/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-neo-2pt7B-peter_DS-msgs_Ep-5_Bs-4"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/contrastive-roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli-vast"
+	},
+	{
+		"private": false,
+		"modelId": "MrAnderson/nystromformer-512-trivia-fewshot-non-DA"
 	}
 ]
