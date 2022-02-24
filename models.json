@@ -135618,10 +135618,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/t5e-large-nl36-1-pt-47E-ft-lfqa"
-	},
-	{
-		"private": false,
 		"modelId": "ptnv-s/biobert_v1.1_pubmed_squad_v2-finetuned-squad"
 	},
 	{
@@ -143228,6 +143224,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "scjnugacj/jurisbert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-8"
 	},
@@ -143286,6 +143287,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-32-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-32-finetuned-squad-seed-10"
 	}
 ]
