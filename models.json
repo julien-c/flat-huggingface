@@ -143071,6 +143071,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean-with-unclean-valid"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unlean-with-clean-valid"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test11"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Jorgeutd/bert-base-uncased-finetuned-surveyclassification"
+	},
+	{
+		"private": false,
+		"modelId": "merve/callback-steps"
 	}
 ]
