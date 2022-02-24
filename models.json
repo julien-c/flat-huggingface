@@ -54079,11 +54079,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "yaswanth/xls-r-yaswanth-hindi1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "yhk04150/SBERT"
 	},
@@ -141699,6 +141694,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"modelId": "Daryaflp/bert-base-multilingual-uncased-covid_ru"
 	},
 	{
@@ -142361,6 +142361,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "amanm27/distilroberta-base-finetuned-wikitext2"
 	}
 ]
