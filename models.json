@@ -74682,11 +74682,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "mezes/eauction-section-parsing"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "miaomiaomiao/macbert_miao"
 	},
@@ -132264,6 +132259,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moshew/minylm-L3-aug-sst2-distilled"
 	},
 	{
@@ -142682,6 +142678,46 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-pcm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-pl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-pt"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-ru"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-sa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-sk"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-sl"
+	},
+	{
+		"private": false,
+		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-sme"
 	}
 ]
