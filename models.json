@@ -69932,11 +69932,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Maha/OGBV-gender-ta-eacl21"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Mahalakshmi/wav2vec2-xls-r-300m-demo-colab"
 	},
@@ -141804,14 +141799,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Maha/OGBV-gender-hi-const21-hibert"
-	},
-	{
-		"private": false,
-		"modelId": "Maha/OGBV-gender-hi-const21-indicbert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Maha/hi-const21-hibert_final"
 	},
@@ -142376,5 +142363,26 @@
 	{
 		"private": false,
 		"modelId": "Tejaswini/m2m100_1.2B-finetuned-es-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/minylm-L3-sst2-distilled"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "SuperAI2-Machima/wangchan-finetune-ner-pos-v2"
+	},
+	{
+		"private": false,
+		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v2"
+	},
+	{
+		"private": false,
+		"modelId": "Maha/OGBV-gender-indicbert-ta-eacl_finals"
+	},
+	{
+		"private": false,
+		"modelId": "kapilchauhan/distilbert-base-uncased-finetuned-sst-2-english-finetuned-cola"
 	}
 ]
