@@ -57131,6 +57131,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean"
 	},
 	{
@@ -60588,11 +60589,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "Doohae/roberta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean"
 	},
 	{
 		"private": false,
@@ -142833,6 +142829,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "izzy-lazerson/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -142923,5 +142920,13 @@
 	{
 		"private": false,
 		"modelId": "satkinson/Ha"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/xls-r-1b-bemba-fds-st-01"
+	},
+	{
+		"private": false,
+		"modelId": "saptarshidatta96/finetuning-sentiment-model-3000-samples"
 	}
 ]
