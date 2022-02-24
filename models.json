@@ -72243,11 +72243,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_biobert-v1.1_latest"
 	},
 	{
@@ -143223,6 +143218,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC4_Original-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-6"
 	}
 ]
