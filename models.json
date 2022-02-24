@@ -104104,10 +104104,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Enit047/disb_sem_12_to_MrRR"
-	},
-	{
-		"private": false,
 		"modelId": "Enutodu/QnA"
 	},
 	{
@@ -143186,12 +143182,20 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "jj-co/gtr-t5-base"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "arjundd/test-model"
 	}
 ]
