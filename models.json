@@ -86232,6 +86232,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S-PubMedBert-MS-MARCO"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "pritoms/distilroberta-base-finetuned-wikitext2"
 	},
@@ -118359,6 +118364,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "damlab/HIV_PR_resist"
 	},
 	{
@@ -143191,6 +143197,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-0"
 	},
 	{
@@ -143204,5 +143211,13 @@
 	{
 		"private": false,
 		"modelId": "Ayham/albert_roberta_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-2"
+	},
+	{
+		"private": false,
+		"modelId": "xama/chemas"
 	}
 ]
