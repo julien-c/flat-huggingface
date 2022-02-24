@@ -129233,6 +129233,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "kapilchauhan/bert-base-uncased-CoLA-finetuned-cola"
 	},
 	{
@@ -142832,5 +142833,18 @@
 	{
 		"private": false,
 		"modelId": "s50227harry/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "saattrupdan/kblab-voxrex-wav2vec2-large-cv8-da"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "HungChau/distilbert-base-uncased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/pegasus-multi_news-finetuned-weaksup-1000-pegasus"
 	}
 ]
