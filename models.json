@@ -60592,16 +60592,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-tweets-semeval-clean"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-tweets-semeval-unclean"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "DrishtiSharma/wav2vec2-large-xls-r-300m-ab-v4"
 	},
@@ -142868,11 +142858,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mvip/wav2vec2-xls-r-300m-cv7-turkish-LM"
 	},
@@ -142934,6 +142919,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "saptarshidatta96/finetuning-sentiment-model-3000-samples"
 	},
 	{
@@ -142951,5 +142937,17 @@
 	{
 		"private": false,
 		"modelId": "lilitket/wav2vec2-large-xls-r-armenian-colab"
+	},
+	{
+		"private": false,
+		"modelId": "merve/callback-save-steps"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_17_ft_2"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test"
 	}
 ]
