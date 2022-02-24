@@ -19004,6 +19004,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "yabramuvdi/distilbert-wfh"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-trk"
 	},
@@ -98484,6 +98489,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "panashe/autonlp-eo-590516680"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "pashin/DialoGPT-small-ironman-3"
 	},
@@ -143047,5 +143057,10 @@
 	{
 		"private": false,
 		"modelId": "cammy/xlnet-base-cased-finetuned-weaksup-1000-earlystop-pad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "nanopass/test_fe_model"
 	}
 ]
