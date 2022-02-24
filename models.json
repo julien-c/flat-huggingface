@@ -13927,7 +13927,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "debjyoti007/doc_classifier"
 	},
 	{
@@ -89084,11 +89083,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Krystalan/mdialbart_zh"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/librispeech_supervised"
 	},
@@ -100617,6 +100611,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "zuto37/DialoGPT-small-sadao"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Krystalan/mdialbart_zh"
 	},
 	{
 		"private": false,
@@ -142867,6 +142866,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "satkinson/DialoGPT-medium-sean"
 	},
 	{
@@ -142897,5 +142897,17 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v3"
+	},
+	{
+		"private": false,
+		"modelId": "mvip/wav2vec2-xls-r-300m-cv7-turkish-LM"
+	},
+	{
+		"private": false,
+		"modelId": "merve/keras-dummy-sequential-demo-with-card"
+	},
+	{
+		"private": false,
+		"modelId": "merve/autoencoder-keras-mnist-demo-with-card"
 	}
 ]
