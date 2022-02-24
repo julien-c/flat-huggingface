@@ -142257,6 +142257,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "shiromart/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -142413,6 +142414,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "algoprog/mimics-bart-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "algoprog/mimics-query-bart-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "algoprog/mimics-tagging-roberta-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/GPTNeo350MInformalToFormalLincoln3"
+	},
+	{
+		"private": false,
+		"modelId": "eebie/eef"
 	}
 ]
