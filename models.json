@@ -77056,6 +77056,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Krystalan/mdialbart_de"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/testing"
 	},
@@ -141696,7 +141701,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
+		"modelId": "Jeevesh8/multiberts_seed_22_ft_3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Maha/OGBV-gender-indicbert-ta-eacl_finals"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "w11wo/distil-wav2vec2-adult-child-cls-v3"
 	},
 	{
 		"private": false,
@@ -141821,11 +141836,6 @@
 	{
 		"private": false,
 		"modelId": "Keril/barbiistrush0sd"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Krystalan/mdialbart_de"
 	},
 	{
 		"private": false,
@@ -142338,10 +142348,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_22_ft_3"
-	},
-	{
-		"private": false,
 		"modelId": "Jodie/DialoGPT-medium-Sheldon-2"
 	},
 	{
@@ -142407,14 +142413,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "w11wo/distil-wav2vec2-adult-child-cls-v3"
-	},
-	{
-		"private": false,
 		"modelId": "kapilchauhan/distilbert-base-uncased-CoLA-finetuned-cola"
 	},
 	{
 		"private": false,
 		"modelId": "Pubudu/mt5-large-army-dataset"
+	},
+	{
+		"private": false,
+		"modelId": "BrianGu/dsing_asr"
+	},
+	{
+		"private": false,
+		"modelId": "StevenLimcorn/distil-wav2vec2-adult-child-cls-v3"
 	}
 ]
