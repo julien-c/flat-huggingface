@@ -99241,11 +99241,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "stanford-crfm/darkmatter-gpt2-small-x343-checkpoint-210000"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "stanfordnlp/stanza-cy"
 	},
@@ -142351,10 +142346,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "hfl/english-pert-base"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "hfl/english-pert-large"
 	},
 	{
@@ -142364,5 +142361,13 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_17_ft_1"
+	},
+	{
+		"private": false,
+		"modelId": "ken19980727/my-new-shiny-tokenizer"
+	},
+	{
+		"private": false,
+		"modelId": "Jodie/DialoGPT-medium-Sheldon-1"
 	}
 ]
