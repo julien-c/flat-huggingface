@@ -137272,11 +137272,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "satkinson/ha"
-	},
-	{
-		"private": false,
 		"modelId": "satoseiji/hybridsato"
 	},
 	{
@@ -140683,7 +140678,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "vesteinn/ScandiBERT"
 	},
 	{
@@ -142898,5 +142892,10 @@
 	{
 		"private": false,
 		"modelId": "Francesco/resnet152"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v3"
 	}
 ]
