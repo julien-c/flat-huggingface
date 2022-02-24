@@ -45326,11 +45326,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_bert_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "BSC-TeMU/RoBERTalex"
 	},
@@ -106435,6 +106430,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/fairseq-dense-2.7B-Janeway"
+	},
+	{
+		"private": false,
 		"modelId": "Koen534/trump"
 	},
 	{
@@ -142413,10 +142413,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "BrianGu/dsing_asr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	},
@@ -142454,5 +142450,9 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_20_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/bert_roberta_summarization_cnn_dailymail"
 	}
 ]
