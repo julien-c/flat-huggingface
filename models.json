@@ -64418,6 +64418,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
 	},
@@ -142807,6 +142812,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "s50227harry/distilroberta-base-finetuned-wikitext2"
 	},
 	{
