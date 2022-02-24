@@ -76526,6 +76526,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Brian-M-Collins/article-twitter-summarisation-1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Buntan/bert-finetuned-ner"
 	},
@@ -143075,6 +143080,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "yerevann/wav2vec2-large-xls-r-2b-armenian-colab-1"
 	},
 	{
@@ -143153,5 +143159,17 @@
 	{
 		"private": false,
 		"modelId": "merve/callback-test-2"
+	},
+	{
+		"private": false,
+		"modelId": "Rattana/wav2vec2-thai-ASR"
+	},
+	{
+		"private": false,
+		"modelId": "mezes/eauction-pre-trained"
+	},
+	{
+		"private": false,
+		"modelId": "viraj642/finetuned-roberta-base-model"
 	}
 ]
