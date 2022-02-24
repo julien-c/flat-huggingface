@@ -69421,6 +69421,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean-with-clean-valid"
 	},
 	{
@@ -142821,6 +142822,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystromformer-512-trivia-fewshot-non-DA"
 	},
 	{
@@ -143029,5 +143031,21 @@
 	{
 		"private": false,
 		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test9"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/dpt-large-ade"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test1"
+	},
+	{
+		"private": false,
+		"modelId": "shields/wav2vec2-base-40sec-timit"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/xlnet-base-cased-finetuned-weaksup-1000-earlystop-pad"
 	}
 ]
