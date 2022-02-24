@@ -143153,6 +143153,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Rattana/wav2vec2-thai-ASR"
 	},
 	{
@@ -143245,10 +143246,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-10"
 	},
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC4_Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"modelId": "shields/wav2vec2-base-20sec-timit-and-dementiabank"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-32-finetuned-squad-seed-0"
 	}
 ]
