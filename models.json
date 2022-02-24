@@ -128084,6 +128084,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "jakobcassiman/mbart-large-cc25-finetune-nl"
+	},
+	{
+		"private": false,
 		"modelId": "jama/4964dsgfs"
 	},
 	{
@@ -142472,6 +142477,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/bert_roberta_summarization_cnn_dailymail"
 	},
 	{
@@ -143062,5 +143068,9 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "nanopass/test_fe_model"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean-with-unclean-valid"
 	}
 ]
