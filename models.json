@@ -142455,6 +142455,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/allll-roberta-large-mnli-semeval"
 	},
 	{
@@ -142549,6 +142550,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mriggs/mlm_test"
 	},
 	{
@@ -142778,6 +142780,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-zh"
+	},
+	{
+		"private": false,
+		"modelId": "Brona/model_name"
+	},
+	{
+		"private": false,
+		"modelId": "Brona/model1"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/pegasus-xsum-finetuned-pubmed"
 	}
 ]
