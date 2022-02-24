@@ -64413,6 +64413,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-tweets-semeval-unclean"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
 	},
@@ -142971,5 +142976,10 @@
 	{
 		"private": false,
 		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "simonmesserli/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
