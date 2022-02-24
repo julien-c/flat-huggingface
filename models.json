@@ -57334,11 +57334,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-clean-with-unclean-valid"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Ebtihal/AraDiaBERT_V3"
 	},
@@ -64418,6 +64413,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-tweets-semeval-clean"
 	},
 	{
@@ -64736,11 +64732,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Doogie/ke-t5-base-ko-AIHub-paper-summary"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "DoyyingFace/bert-asian-hate-tweets-concat-unclean-with-clean-valid"
 	},
 	{
 		"private": false,
@@ -142955,10 +142946,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "satkinson/Ha"
-	},
-	{
-		"private": false,
 		"modelId": "csikasote/xls-r-1b-bemba-fds-st-01"
 	},
 	{
@@ -142993,26 +142980,19 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test"
-	},
-	{
-		"private": false,
 		"modelId": "merve/callback-plot"
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test1"
+		"pipeline_tag": "text-classification",
+		"modelId": "simonmesserli/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test2"
+		"modelId": "Jeevesh8/multiberts_seed_22_ft_4"
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test3"
-	},
-	{
-		"private": false,
-		"modelId": "satkinson/SeanBot2"
+		"modelId": "zfchen/codeparrot"
 	}
 ]
