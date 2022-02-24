@@ -142826,6 +142826,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moshew/mpnet-base-sst2-distilled"
 	},
 	{
@@ -142865,5 +142866,17 @@
 	{
 		"private": false,
 		"modelId": "anugunj/testcvtmodel"
+	},
+	{
+		"private": false,
+		"modelId": "andresestevez/bert-finetuned-squad-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "moshew/bert-tiny-sst2-distilled_from_mpnet"
+	},
+	{
+		"private": false,
+		"modelId": "satkinson/DialoGPT-medium-sean"
 	}
 ]
