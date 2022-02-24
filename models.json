@@ -31415,7 +31415,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "fill-mask",
 		"modelId": "nasa-impact/bert-e-base-mlm"
 	},
 	{
@@ -142165,16 +142165,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/all-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/ath-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kurianbenoy/bert-finetuned-ner"
 	},
@@ -142434,6 +142424,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "eebie/eef"
+		"pipeline_tag": "text-classification",
+		"modelId": "Omar95farag/distilbert-base-uncased-distilled-clinc"
+	},
+	{
+		"private": false,
+		"modelId": "hfl/chinese-pert-large"
+	},
+	{
+		"private": false,
+		"modelId": "fastai/demo9"
+	},
+	{
+		"private": false,
+		"modelId": "hfl/chinese-pert-base"
+	},
+	{
+		"private": false,
+		"modelId": "phongdtd/fb-vindata-vi-large-vocab"
 	}
 ]
