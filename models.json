@@ -75675,11 +75675,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "yaswanth/xls-r-300m-yaswanth-hindi3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yazdipour/sparql-qald9-t5-small-2021-10-19_00-01"
 	},
@@ -140811,26 +140806,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "yaswanth/wav2vec2-large-xlsr-53-demo-colab"
-	},
-	{
-		"private": false,
-		"modelId": "yaswanth/xls-r-1b-yaswanth-hindi"
-	},
-	{
-		"private": false,
-		"modelId": "yaswanth/xls-r-300m-yaswanth-hindi"
-	},
-	{
-		"private": false,
-		"modelId": "yaswanth/xls-r-300m-yaswanth-hindi1"
-	},
-	{
-		"private": false,
-		"modelId": "yaswanth/xls-r-yaswanth-hindi"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "yazdipour/text-to-sparql-t5-small-2021-10-15_01-00"
 	},
@@ -142353,6 +142328,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "9pinus/macbert-base-chinese-medical-collation"
 	},
 	{
@@ -142377,14 +142353,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "armageddon/covid_qa_deepset_split"
-	},
-	{
-		"private": false,
 		"modelId": "koobear/all-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
 		"modelId": "shields/wav2vec2-base-40sec-timit-and-dementiabank"
+	},
+	{
+		"private": false,
+		"modelId": "amanm27/distilroberta-base-finetuned-wikitext2"
 	}
 ]
