@@ -142438,6 +142438,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_20_ft_4"
 	},
 	{
@@ -142797,6 +142798,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "lhbit20010120/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -142818,5 +142820,17 @@
 	{
 		"private": false,
 		"modelId": "moshew/mpnet-base-sst2-distilled"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/wav2vec2-large-xlsr-53-finetuned-ks"
+	},
+	{
+		"private": false,
+		"modelId": "lhbit20010120/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "s50227harry/distilroberta-base-finetuned-wikitext2"
 	}
 ]
