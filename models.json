@@ -142431,6 +142431,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Enit047/disb_sem_12_to_MrRR"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	},
@@ -143113,11 +143117,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Brian-M-Collins/Wiley-Abstract-Summary"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "giggio/FarBrBERT-base"
 	},
@@ -143201,5 +143200,9 @@
 	{
 		"private": false,
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/albert_roberta_summarization_cnn_dailymail"
 	}
 ]
