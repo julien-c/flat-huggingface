@@ -143147,10 +143147,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jj-co/sentence_transformer_feature_extraction"
-	},
-	{
-		"private": false,
 		"modelId": "merve/callback-test-0"
 	},
 	{
@@ -143189,5 +143185,15 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "aypan17/distilgpt2-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "jj-co/gtr-t5-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k"
 	}
 ]
