@@ -71872,6 +71872,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4-Original-bluebert_pubmed_uncased_L-12_H-768_A-12"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4_Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified_biobert-v1.1_latest"
 	},
 	{
@@ -141665,6 +141675,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Maha/OGBV-gender-indicbert-ta-eacl_finals"
+	},
+	{
+		"private": false,
 		"modelId": "13on/gpt2-wishes-2"
 	},
 	{
@@ -141924,17 +141939,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4-Original-bluebert_pubmed_uncased_L-12_H-768_A-12"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4-Original-scibert_scivocab_uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
 		"private": false,
@@ -142377,10 +142382,6 @@
 	{
 		"private": false,
 		"modelId": "SuperAI2-Machima/mt5-small-thai-qg-v2"
-	},
-	{
-		"private": false,
-		"modelId": "Maha/OGBV-gender-indicbert-ta-eacl_finals"
 	},
 	{
 		"private": false,
