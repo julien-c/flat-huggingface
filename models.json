@@ -64418,6 +64418,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "DoyyingFace/bert-tweets-semeval-clean"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
 	},
@@ -105668,6 +105672,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Jeevesh8/DA-LF"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Jeevesh8/DA-bert"
+	},
+	{
+		"private": false,
 		"modelId": "Jeevesh8/feather_berts"
 	},
 	{
@@ -105710,6 +105724,26 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_22_ft_3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Jeevesh8/sMLM-256-LF"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Jeevesh8/sMLM-LF"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Jeevesh8/sMLM-RoBERTa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Jeevesh8/sMLM-bert"
 	},
 	{
 		"private": false,
@@ -142769,10 +142803,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "cammy/gpt2-finetuned-weaksup-1000"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/t5-base-finetuned-weaksup-1000"
 	},
@@ -142979,7 +143009,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "simonmesserli/distilbert-base-uncased-finetuned-emotion"
+		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test3"
+	},
+	{
+		"private": false,
+		"modelId": "satkinson/SeanBot2"
 	}
 ]
