@@ -114477,11 +114477,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
-	},
-	{
-		"private": false,
 		"modelId": "anantvaid4/fine-tuned-bert-ment-ill_clean"
 	},
 	{
@@ -134585,6 +134580,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "panashe/autonlp-eo-590516684"
+	},
+	{
+		"private": false,
 		"modelId": "pandaliyan/wav2vec2-base-timit-demo-colab"
 	},
 	{
@@ -143096,5 +143096,27 @@
 	{
 		"private": false,
 		"modelId": "jj-co/sbert-feature_extraction"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/prophetnet-large-uncased-finetuned-weaksup-1000-earlystop-pad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-clean-with-unclean-valid"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "anantoj/wav2vec2-large-xlsr-53-adult-child-cls"
+	},
+	{
+		"private": false,
+		"modelId": "yerevann/wav2vec2-large-xls-r-2b-armenian-colab-1"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/few-roberta-mnli"
 	}
 ]
