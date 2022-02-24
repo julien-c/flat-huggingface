@@ -42350,6 +42350,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "phongdtd/fb-vindata-vi-large"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "plum/xlm-roberta-large"
 	},
@@ -73936,6 +73941,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "translation",
+		"modelId": "kazandaev/opus-mt-en-ru-finetuned-tsv5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "kazandaev/opus-mt-ru-en-finetuned-tsv5"
 	},
 	{
@@ -80542,6 +80552,16 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "gchhablani/wav2vec2-large-xlsr-mr-3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4-Original-biobert-v1.1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4-Original-scibert_scivocab_uncased"
 	},
 	{
 		"private": false,
@@ -141934,16 +141954,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4-Original-biobert-v1.1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4-Original-scibert_scivocab_uncased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/CRAFT-Chem_Original-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
@@ -141998,11 +142008,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-tsv5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kurianbenoy/bert-finetuned-ner"
 	},
@@ -142039,11 +142044,6 @@
 	{
 		"private": false,
 		"modelId": "nghosh/ResNet50-imagenet-full"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "phongdtd/fb-vindata-vi-large"
 	},
 	{
 		"private": false,
