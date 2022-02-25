@@ -88653,11 +88653,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-6"
 	},
@@ -88685,6 +88680,10 @@
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "w11wo/wav2vec2-xls-r-adult-child-cls"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
 	},
 	{
 		"private": false,
@@ -143654,5 +143653,10 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2-TMP"
 	}
 ]
