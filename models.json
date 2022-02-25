@@ -143027,10 +143027,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/few-roberta-mnli"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-unclean-with-clean-valid"
 	},
@@ -143471,6 +143467,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/wav2vec2-xls-r-adult-child-cls"
 	}
 ]
