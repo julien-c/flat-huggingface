@@ -143908,10 +143908,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease-imbalanced-bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-256-finetuned-squad-seed-10"
 	},
 	{
@@ -143921,14 +143923,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease-imbalanced-scibert_scivocab_uncased"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease-imbalanced-biobert-v1.1"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease-imbalanced-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
@@ -143938,5 +143943,27 @@
 	{
 		"private": false,
 		"modelId": "merve/callback-test-1"
+	},
+	{
+		"private": false,
+		"modelId": "Pubudu/mbart-large-50-army-dataset-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "scales-okn/ontology-verdict"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "scales-okn/ontology-habeas-corpus"
 	}
 ]
