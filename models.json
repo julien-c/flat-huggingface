@@ -137390,10 +137390,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "scales-okn/settlement-vd"
-	},
-	{
-		"private": false,
 		"modelId": "scaperex/online-harassment-bert"
 	},
 	{
@@ -143361,11 +143357,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "scales-okn/ontology-minute-entry"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-10"
 	},
@@ -143547,10 +143538,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-10"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mariagrandury/distilbert-base-uncased-finetuned-sms-spam-detection"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-16-finetuned-squad-seed-0"
 	}
 ]
