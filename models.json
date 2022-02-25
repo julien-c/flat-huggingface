@@ -27072,6 +27072,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "mimi/Waynehills_NLP_KE-T5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "minimaxir/hacker-news"
 	},
@@ -28733,11 +28738,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "meghanabhange/Hinglish-DistilBert-Class"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "mimi/Waynehills_NLP_KE-T5"
 	},
 	{
 		"private": false,
@@ -142426,6 +142426,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "sarahlmk/autonlp-imdb-classification-596216804"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
 	},
@@ -142436,8 +142441,18 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "moshew/bert-tiny-aug-sst2-distilled_v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "StevenLimcorn/wav2vec2-xls-r-300m-adult-child-cls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ASCCCCCCCC/distilbert-base-chinese-amazon_zh_20000"
 	},
 	{
 		"private": false,
@@ -143496,14 +143511,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "moshew/bert-tiny-aug-sst2-distilled_v2"
-	},
-	{
-		"private": false,
-		"modelId": "ASCCCCCCCC/distilbert-base-chinese-amazon_zh_20000"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-6"
 	},
 	{
@@ -143512,6 +143520,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "aypan17/gpt-med-imdb"
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "aypan17/gpt2-med-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/few-roberta-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "nikhilnayak/bert-qa-squad"
+	},
+	{
+		"private": false,
+		"modelId": "haqishen/test-mode-fe"
 	}
 ]
