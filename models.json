@@ -122532,6 +122532,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "hfl/chinese-pert-large"
 	},
 	{
@@ -142483,10 +142484,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "armageddon/covid_qa_analysis_bert_large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-cy"
 	},
@@ -143409,6 +143406,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-2"
 	},
 	{
@@ -143422,6 +143420,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-unclean-warmup-50"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-4"
 	}
 ]
