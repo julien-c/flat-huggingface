@@ -30819,11 +30819,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/wav2vec2-adult-child-cls-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "yhavinga/mt5-base-mixednews-nl"
 	},
@@ -53904,11 +53899,6 @@
 	{
 		"private": false,
 		"modelId": "vuiseng9/bert-base-squadv1-block-pruning-hybrid-filled-lt-qat-lt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/wav2vec2-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -143598,11 +143588,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "koobear/zero-roberta-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-unclean-slanted"
 	},
 	{
@@ -143738,6 +143723,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-4"
 	},
 	{
@@ -143752,5 +143738,21 @@
 	{
 		"private": false,
 		"modelId": "ikeraghel/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Davlan/xlm-roberta-base-finetuned-chichewa"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"modelId": "ffalcao/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "vocab-transformers/cross_encoder-msmarco-distilbert-word2vec256k"
 	}
 ]
