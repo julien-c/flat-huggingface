@@ -143942,22 +143942,13 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "scales-okn/ontology-verdict"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-0"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "scales-okn/ontology-habeas-corpus"
 	},
 	{
 		"private": false,
@@ -143975,11 +143966,25 @@
 	},
 	{
 		"private": false,
-		"modelId": "nicoladecao/splade_10k-msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
+		"pipeline_tag": "fill-mask",
+		"modelId": "Davlan/xlm-roberta-base-finetuned-shona"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/xlnet_bert_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "Davlan/xlm-roberta-base-finetuned-shona"
+		"modelId": "vocab-transformers/splade_10k-msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Davlan/xlm-roberta-base-sadilar-ner"
+	},
+	{
+		"private": false,
+		"modelId": "SmokeAndAsh/DialoGPT-medium-shika-finetuned-cola"
 	}
 ]
