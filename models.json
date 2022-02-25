@@ -18855,11 +18855,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-lm-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "ARTeLab/it5-summarization-mlsum"
 	},
@@ -26646,11 +26641,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-zh-HK-lm-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "AIDA-UPM/MSTSb_paraphrase-multilingual-MiniLM-L12-v2"
 	},
@@ -27761,11 +27751,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "toyfreak/DialoGPT-small-shy"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v3"
 	},
 	{
 		"private": false,
@@ -36298,11 +36283,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-zh-HK"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
 	},
@@ -42209,11 +42189,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "w11wo/javanese-roberta-small-imdb"
 	},
@@ -48055,16 +48030,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "w11wo/wav2vec2-xls-r-300m-korean-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-en"
 	},
@@ -51162,16 +51127,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vsalamand/fr_pipeline"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "w11wo/indonesian-roberta-base-indolem-sentiment-classifier-fold-4"
 	},
 	{
 		"private": false,
@@ -116046,10 +116001,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "asahi417/lmqg-t5-small-jaquad-multitask"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "asahi417/tner-xlm-roberta-base-conll2003"
 	},
@@ -143673,6 +143624,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls"
 	},
 	{
@@ -143719,5 +143671,9 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-64-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"modelId": "asahi417/lmqg-mt5-small-jaquad-multitask"
 	}
 ]
