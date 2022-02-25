@@ -143833,10 +143833,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/xlm-roberta-base-finetuned-zulu"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/xlm-roberta-base-finetuned-xhosa"
 	},
 	{
@@ -143860,6 +143862,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-256-finetuned-squad-seed-6"
 	},
 	{
@@ -143878,5 +143881,28 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "osanseviero/el_core_news_sm"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-256-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "relativeinsight/bert-neural-semtagger"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k"
+	},
+	{
+		"private": false,
+		"modelId": "scales-okn/ontology-motion-for-summary-judgment"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "relativeinsight/distilbert-neural-semtagger"
 	}
 ]
