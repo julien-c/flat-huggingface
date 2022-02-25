@@ -13445,6 +13445,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mradau/stress_classifier"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-de-it"
 	},
@@ -144081,6 +144086,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-2"
 	}
 ]
