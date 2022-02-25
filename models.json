@@ -142802,16 +142802,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "anantoj/wav2vec2-xls-r-300m-finetuned-ks"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moshew/mpnet-base-sst2-distilled"
-	},
-	{
-		"private": false,
-		"modelId": "anantoj/wav2vec2-large-xlsr-53-finetuned-ks"
 	},
 	{
 		"private": false,
@@ -143416,6 +143408,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Hamhams/DialoGPT-small-rick"
 	},
 	{
@@ -143425,6 +143418,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"modelId": "Ayham/albert_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "fastai/demo10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-unclean-warmup-25"
+	},
+	{
+		"private": false,
+		"modelId": "fastai/demo11"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-6"
 	}
 ]
