@@ -143618,6 +143618,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "khavitidala/finetuned-indobartv2-id-su"
 	},
 	{
@@ -143627,6 +143628,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-unclean-warmup-100"
 	}
 ]
