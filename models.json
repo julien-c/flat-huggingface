@@ -87664,6 +87664,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mohamed-illiyas/wav2vec-malayalam-checkpoint"
 	},
@@ -143471,11 +143476,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-6"
 	},
@@ -143548,5 +143548,9 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "mariagrandury/distilbert-base-uncased-finetuned-sms-spam-detection"
 	}
 ]
