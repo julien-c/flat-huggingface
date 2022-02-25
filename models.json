@@ -136255,6 +136255,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "pritamdeka/S-PubMedBert-MS-MARCO-SCIFACT"
+	},
+	{
+		"private": false,
 		"modelId": "prithivida/bertscrnn-probwordnoise"
 	},
 	{
@@ -143718,6 +143723,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Joshwabail/distilbert-neural-semtagger"
 	},
 	{
@@ -143784,5 +143790,9 @@
 	{
 		"private": false,
 		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v2"
+	},
+	{
+		"private": false,
+		"modelId": "Davlan/xlm-roberta-base-finetuned-somali"
 	}
 ]
