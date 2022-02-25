@@ -36687,11 +36687,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_roberta_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "BrianTin/MTBERT"
 	},
@@ -51489,11 +51484,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Augustvember/wokka2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/bert_bert_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -100611,6 +100601,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "koobear/ath-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -142450,11 +142444,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/bert_roberta_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-af"
 	},
@@ -143158,10 +143147,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ayham/albert_roberta_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-2"
 	},
@@ -143395,11 +143380,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-256-finetuned-squad-seed-8"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-freeze-12"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-256-finetuned-squad-seed-10"
 	}
 ]
