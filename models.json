@@ -39544,11 +39544,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "medA/autonlp-directed__at-562615993"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "megagonlabs/optimus-yelp"
 	},
@@ -143703,6 +143698,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-64-finetuned-squad-seed-2"
 	},
 	{
@@ -143712,11 +143708,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "9pinus/macbert-base-chinese-medicine-recognition"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-large-xlsr-53-adult-child-cls-v2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-64-finetuned-squad-seed-4"
 	}
 ]
