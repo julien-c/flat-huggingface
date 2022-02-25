@@ -143983,6 +143983,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "SmokeAndAsh/DialoGPT-medium-shika-finetuned-cola"
 	},
 	{
@@ -144050,6 +144051,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-1024-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"modelId": "jbetker/tacotron_symbols"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-1024-finetuned-squad-seed-10"
 	}
 ]
