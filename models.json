@@ -143342,6 +143342,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "voice/wav2vec2-large-xlsr-persian2-demo-colab"
 	},
 	{
@@ -143723,11 +143724,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Joshwabail/distilbert-neural-semtagger"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-2"
 	},
@@ -143781,6 +143777,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-8"
 	},
 	{
@@ -143789,10 +143786,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v2"
 	},
 	{
 		"private": false,
 		"modelId": "Davlan/xlm-roberta-base-finetuned-somali"
+	},
+	{
+		"private": false,
+		"modelId": "be4rr/bert-finetuned-pos"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "dmis-lab/biosyn-sapbert-bc2gn"
+	},
+	{
+		"private": false,
+		"modelId": "dmis-lab/biosyn-biobert-bc2gn"
 	}
 ]
