@@ -39544,6 +39544,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "medA/autonlp-directed__at-562615993"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "megagonlabs/optimus-yelp"
 	},
@@ -88680,6 +88685,11 @@
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "w11wo/wav2vec2-xls-r-adult-child-cls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
 	},
 	{
 		"private": false,
@@ -143431,6 +143441,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Brian-M-Collins/Twitter-Abstract-Summary"
+	},
+	{
+		"private": false,
 		"modelId": "xama/chemas"
 	},
 	{
@@ -143654,20 +143669,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2-TMP"
-	},
-	{
-		"private": false,
 		"modelId": "anantoj/large-xlsr-53-adult-child-cls-v2"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-10"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test"
 	},
 	{
 		"private": false,
@@ -143676,5 +143683,13 @@
 	{
 		"private": false,
 		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls"
+	},
+	{
+		"private": false,
+		"modelId": "be4rr/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-64-finetuned-squad-seed-0"
 	}
 ]
