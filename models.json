@@ -75276,6 +75276,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-grid-search"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "sangrimlee/mt5-small-multitask"
 	},
@@ -76100,6 +76105,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/hc-roberta-large-mnli-semeval"
 	},
 	{
@@ -86468,7 +86474,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-grid-search"
+		"modelId": "sanchit-gandhi/wav2vec2-2-bert-grid-search"
 	},
 	{
 		"private": false,
@@ -87640,6 +87646,26 @@
 	{
 		"private": false,
 		"modelId": "zzuczy/wav2vec2-baset-ft-ch-debug"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4_Original-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC4_Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "mohamed-illiyas/wav2vec-malayalam-checkpoint"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "w11wo/wav2vec2-xls-r-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -99092,11 +99118,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "samgin/ReviewGeneration"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-grid-search"
 	},
 	{
 		"private": false,
@@ -115539,10 +115560,6 @@
 	{
 		"private": false,
 		"modelId": "aymen/model_test"
-	},
-	{
-		"private": false,
-		"modelId": "aypan17/gpt2-large-imdb"
 	},
 	{
 		"private": false,
@@ -142419,6 +142436,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "StevenLimcorn/wav2vec2-xls-r-300m-adult-child-cls"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	},
@@ -143180,18 +143202,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Original-BiomedNLP-PubMedBERT-base-uncased-abstract"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-10"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC4_Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
 		"private": false,
@@ -143459,11 +143471,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "mohamed-illiyas/wav2vec-malayalam-checkpoint"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-8"
 	},
@@ -143484,11 +143491,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/wav2vec2-xls-r-adult-child-cls"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-2"
 	},
@@ -143498,14 +143500,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "StevenLimcorn/wav2vec2-xls-r-300m-adult-child-cls"
-	},
-	{
-		"private": false,
 		"modelId": "ASCCCCCCCC/distilbert-base-chinese-amazon_zh_20000"
 	},
 	{
 		"private": false,
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"modelId": "shields/wav2vec2-base-15sec-timit-and-dementiabank"
+	},
+	{
+		"private": false,
+		"modelId": "aypan17/gpt-med-imdb"
 	}
 ]
