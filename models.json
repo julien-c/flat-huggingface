@@ -13400,6 +13400,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "mradau/stress_score"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Gerwin/bert-for-pac"
 	},
@@ -143759,6 +143763,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_17_ft_4"
 	},
 	{
@@ -143976,11 +143981,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "vocab-transformers/splade_10k-msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Davlan/xlm-roberta-base-sadilar-ner"
 	},
@@ -143990,10 +143990,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-4"
 	},
 	{
 		"private": false,
 		"modelId": "Htenn/DialoGPT-small-spongebobv2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"modelId": "mindee/fasterrcnn_mobilenet_v3_large_fpn"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "vocab-transformers/splade_100k-msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
+	},
+	{
+		"private": false,
+		"modelId": "SWyer/gpt2-wikitext2"
 	}
 ]
