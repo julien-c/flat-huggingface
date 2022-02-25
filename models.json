@@ -63561,6 +63561,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ncoop57/multi-code-clippy"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "neuralspace/indic-transformers-hi-distilbert"
 	},
@@ -68362,11 +68367,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ncduy/distilbert-base-uncased-finetuned-imdb"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "ncoop57/multi-code-clippy"
 	},
 	{
 		"private": false,
@@ -142414,6 +142414,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	},
@@ -143489,10 +143494,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-4"
-	},
-	{
-		"private": false,
 		"modelId": "moshew/bert-tiny-aug-sst2-distilled_v2"
 	},
 	{
@@ -143502,5 +143503,9 @@
 	{
 		"private": false,
 		"modelId": "ASCCCCCCCC/distilbert-base-chinese-amazon_zh_20000"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-6"
 	}
 ]
