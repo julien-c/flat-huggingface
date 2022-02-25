@@ -7875,11 +7875,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "giggio/FarBrBERT-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "tbs17/MathBERT-custom"
 	},
@@ -143744,5 +143739,18 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"modelId": "sergioapv/BALCAT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vocab-transformers/cross_encoder-msmarco-distilbert-word2vec256k-MLM_785k_emb_updated"
+	},
+	{
+		"private": false,
+		"modelId": "ikeraghel/distilbert-base-uncased-finetuned-ner"
 	}
 ]
