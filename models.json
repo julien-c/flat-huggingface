@@ -142408,6 +142408,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
 	},
 	{
@@ -143444,6 +143445,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-asian-unclean-warmup-75"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed-illiyas/wav2vec-malayalam-checkpoint"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-8"
 	}
 ]
