@@ -142407,6 +142407,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "HungChau/distilbert-base-cased-concept-extraction-kp20k-v1.2-concept-extraction-allwikipedia-v1.0"
 	},
@@ -143356,6 +143360,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ASCCCCCCCC/distilbert-base-uncased-finetuned-amazon_zh_20000"
 	},
 	{
@@ -143390,6 +143395,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-256-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-0"
 	}
 ]
