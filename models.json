@@ -142454,11 +142454,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/allll-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-af"
 	},
@@ -142807,10 +142802,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/contrastive-roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli-vast"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystromformer-512-trivia-fewshot-non-DA"
 	},
@@ -142934,11 +142925,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/zero-roberta-mnli"
-	},
-	{
-		"private": false,
 		"modelId": "voice/wav2vec2-large-xlsr-persian2-demo-colab"
 	},
 	{
@@ -142992,10 +142978,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zfchen/codeparrot"
-	},
-	{
-		"private": false,
-		"modelId": "satkinson/DialoGPT-medium-SeanBot2"
 	},
 	{
 		"private": false,
@@ -143346,11 +143328,25 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/t5-efficient-base-nl36-en-de"
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-6"
 	},
 	{
 		"private": false,
-		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-6"
+		"modelId": "Jeevesh8/multiberts_seed_17_ft_3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "scales-okn/ontology-minute-entry"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-10"
 	}
 ]
