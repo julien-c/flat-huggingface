@@ -60116,11 +60116,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "reddip/PeterThree"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "robkayinto/xlm-roberta-base-finetuned-panx-de"
 	},
@@ -144108,6 +144103,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "reddip/peterpublic"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_token_itr0_2e-05_webDiscourse_25_02_2022-21_13_46"
 	}
 ]
