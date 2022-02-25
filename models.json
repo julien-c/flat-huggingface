@@ -88683,10 +88683,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2"
-	},
-	{
-		"private": false,
 		"modelId": "1757968399/tinybert_4_312_1200"
 	},
 	{
@@ -110264,6 +110260,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "QuickRead/fine-tune-Pegasus"
 	},
 	{
@@ -143652,11 +143649,32 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-8"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls-v2-TMP"
+	},
+	{
+		"private": false,
+		"modelId": "anantoj/large-xlsr-53-adult-child-cls-v2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed-test"
+	},
+	{
+		"private": false,
+		"modelId": "lime82/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls"
 	}
 ]
