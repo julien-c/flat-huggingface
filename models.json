@@ -118014,6 +118014,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "creynier/wav2vec2-base-swbd-turn-small-3"
 	},
 	{
@@ -143380,5 +143381,14 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-256-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-freeze-4"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-freeze-8"
 	}
 ]
