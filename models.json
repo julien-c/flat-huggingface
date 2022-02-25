@@ -144108,11 +144108,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "reddip/peterpublic"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-10"
 	},
@@ -144141,6 +144136,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-32-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-32-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "reddip/peterpublic"
 	}
 ]
