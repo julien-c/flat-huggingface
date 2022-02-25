@@ -19947,11 +19947,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "UBC-NLP/AraT5-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "allenai/bidaf"
 	},
@@ -22422,10 +22417,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "TurkuNLP/sbert-cased-finnish-paraphrase"
-	},
-	{
-		"private": false,
-		"modelId": "UBC-NLP/AraT5-tweet-base"
 	},
 	{
 		"private": false,
@@ -27372,10 +27363,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "TransQuest/monotransquest-hter-en_lv-it-smt"
-	},
-	{
-		"private": false,
-		"modelId": "UBC-NLP/AraT5-msa-base"
 	},
 	{
 		"private": false,
@@ -143240,6 +143227,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shields/wav2vec2-base-20sec-timit-and-dementiabank"
 	},
 	{
@@ -143344,6 +143332,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-2"
+	},
+	{
+		"private": false,
+		"modelId": "jpreilly123/emojify-main"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/t5-efficient-base-nl36-en-de"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-6"
 	}
 ]
