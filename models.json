@@ -101561,6 +101561,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "koobear/fm-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -143741,18 +143745,44 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/xlm-roberta-base-finetuned-chichewa"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-6"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ffalcao/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "vocab-transformers/cross_encoder-msmarco-distilbert-word2vec256k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vocab-transformers/cross_encoder-msmarco-distilbert-word2vec256k-MLM_400k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "frozenwalker/T5_pubmedqa_question_generation"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-128-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_17_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v2"
 	}
 ]
