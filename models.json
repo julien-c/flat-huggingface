@@ -143639,10 +143639,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Pubudu/mbart-large-50-army-dataset-test"
-	},
-	{
-		"private": false,
 		"modelId": "huggingartists/dave"
 	},
 	{
@@ -143884,6 +143880,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-256-finetuned-squad-seed-8"
 	},
 	{
@@ -143893,16 +143890,50 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "scales-okn/ontology-motion-for-summary-judgment"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "relativeinsight/distilbert-neural-semtagger"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Disease-Modified_scibert_scivocab_uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "scales-okn/ontology-motion-for-judgment-as-a-matter-of-law"
+	},
+	{
+		"private": false,
+		"modelId": "Davlan/xlm-roberta-base-finetuned-lingala"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Disease-Modified_biobert-v1.1"
+	},
+	{
+		"private": false,
+		"modelId": "Davlan/xlm-roberta-base-finetuned-english"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Disease-Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "scales-okn/ontology-motion-for-default-judgment"
+	},
+	{
+		"private": false,
+		"modelId": "scales-okn/ontology-default-judgment"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Disease-imbalanced-bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
 	}
 ]
