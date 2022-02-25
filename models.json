@@ -143558,15 +143558,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ASCCCCCCCC/distilbert-base-multilingual-cased-amazon_zh_20000"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-16-finetuned-squad-seed-2"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/t5-efficient-base-nl36-en-de-260000steps"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-16-finetuned-squad-seed-4"
 	}
 ]
