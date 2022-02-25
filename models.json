@@ -67004,6 +67004,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "eebie/june"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "elgeish/cs224n-squad2.0-albert-large-v2"
 	},
@@ -143548,6 +143553,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-16-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "ASCCCCCCCC/distilbert-base-multilingual-cased-amazon_zh_20000"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-16-finetuned-squad-seed-2"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/t5-efficient-base-nl36-en-de-260000steps"
 	}
 ]
