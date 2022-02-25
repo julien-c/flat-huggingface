@@ -142851,6 +142851,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "saattrupdan/kblab-voxrex-wav2vec2-large-cv8-da"
 	},
 	{
@@ -143283,6 +143284,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "amanm27/bert-base-uncased-pretrained-wikitext2-pretrained-sports-articles"
 	},
 	{
@@ -143328,6 +143330,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-64-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "Michaelmatao/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-2"
 	}
 ]
