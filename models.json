@@ -36426,6 +36426,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ncoop57/cm_codeparrot"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nickmuchi/robertabase-finetuned-finance-sentiment-classification"
 	},
@@ -38004,11 +38009,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "naclbit/gpt-j-japanese-6.8b"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "ncoop57/cm_codeparrot"
 	},
 	{
 		"private": false,
@@ -87656,6 +87656,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4_Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -142431,11 +142436,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/wav2vec2-xls-r-300m-adult-child-cls"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-4"
 	},
@@ -143520,6 +143520,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-8"
 	},
 	{
@@ -143537,6 +143538,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "haqishen/test-mode-fe"
+	},
+	{
+		"private": false,
+		"modelId": "haqishen/test-model-fe"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-10"
 	}
 ]
