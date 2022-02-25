@@ -143589,6 +143589,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-16-finetuned-squad-seed-10"
 	},
 	{
@@ -143604,5 +143605,14 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "vesteinn/clip-nabirds"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "clips/test2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-32-finetuned-squad-seed-0"
 	}
 ]
