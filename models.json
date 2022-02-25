@@ -13400,6 +13400,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mradau/stress_score"
 	},
 	{
@@ -143999,10 +144000,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-6"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "object-detection",
 		"modelId": "mindee/fasterrcnn_mobilenet_v3_large_fpn"
 	},
 	{
@@ -144013,5 +144016,9 @@
 	{
 		"private": false,
 		"modelId": "SWyer/gpt2-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-8"
 	}
 ]
