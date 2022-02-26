@@ -88599,6 +88599,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "StevenLimcorn/distil-wav2vec2-xls-r-64m-adult-child-cls"
+	},
+	{
+		"private": false,
 		"modelId": "1757968399/tinybert_4_312_1200"
 	},
 	{
@@ -143419,6 +143424,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-1024-finetuned-squad-seed-6"
 	},
 	{
@@ -143808,11 +143818,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-256-finetuned-squad-seed-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "StevenLimcorn/distil-wav2vec2-xls-r-64m-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -144375,6 +144380,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-6"
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-8"
 	}
 ]
