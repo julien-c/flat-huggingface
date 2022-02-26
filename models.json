@@ -50197,6 +50197,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
 	},
 	{
@@ -144417,10 +144418,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-512-finetuned-squad-seed-6"
 	},
 	{
 		"private": false,
 		"modelId": "zhoutong/best-t5"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-512-finetuned-squad-seed-8"
 	}
 ]
