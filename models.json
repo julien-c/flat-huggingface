@@ -144458,6 +144458,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/distilbert_bert_summarization_cnn_dailymail"
 	},
 	{
@@ -144571,11 +144572,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
-		"modelId": "bookbot/distil-wav2vec2-adult-child-cls"
+		"modelId": "bookbot/wav2vec2-xls-r-adult-child-cls"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
-		"modelId": "bookbot/wav2vec2-xls-r-adult-child-cls-37m"
+		"modelId": "bookbot/distil-wav2vec2-adult-child-cls-37m"
 	}
 ]
