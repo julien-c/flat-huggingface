@@ -50197,7 +50197,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
 	},
 	{
@@ -101330,6 +101329,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "koobear/ab-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -144433,6 +144436,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-512-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-1024-finetuned-squad-seed-0"
+	},
+	{
+		"private": false,
+		"modelId": "Coin233/m50ws"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-copa-kb-7"
 	}
 ]
