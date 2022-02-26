@@ -143930,11 +143930,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "AWTStress/stress_classifier"
 	},
@@ -144252,6 +144247,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean-small"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean-small-more-epoch"
 	}
 ]
