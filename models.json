@@ -88610,11 +88610,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v3"
-	},
-	{
-		"private": false,
 		"modelId": "1757968399/tinybert_4_312_1200"
 	},
 	{
@@ -144553,7 +144548,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Htenn/DialoGPT-small-spongebobv2"
 	},
 	{
@@ -144573,5 +144568,9 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Gazetteer1"
+	},
+	{
+		"private": false,
+		"modelId": "Prototypeu/bart-large-finetuned-xsum"
 	}
 ]
