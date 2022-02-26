@@ -88396,11 +88396,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-256-finetuned-squad-seed-2"
 	},
@@ -144556,6 +144551,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "ianc89/hagrid"
 	},
 	{
@@ -144571,6 +144567,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
-		"modelId": "bookbot/distil-wav2vec2-adult-child-cls-52M"
+		"modelId": "bookbot/distil-wav2vec2-adult-child-cls-52m"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/distil-wav2vec2-xls-r-adult-child-cls-89m"
 	}
 ]
