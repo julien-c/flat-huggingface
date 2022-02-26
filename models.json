@@ -22626,6 +22626,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Sakonii/distilbert-base-nepali"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "StevenLimcorn/wav2vec2-xls-r-1b-korean"
 	},
@@ -64265,10 +64270,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "aypan17/distilgpt2-imdb"
-	},
-	{
-		"private": false,
-		"modelId": "ghadeermobasher/BC4_Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
 		"private": false,
@@ -144532,5 +144533,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Ebtihal/AraBertMo_base_V6"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Gazetteer"
 	}
 ]
