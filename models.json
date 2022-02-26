@@ -88609,6 +88609,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v3"
+	},
+	{
+		"private": false,
 		"modelId": "1757968399/tinybert_4_312_1200"
 	},
 	{
@@ -101064,11 +101068,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "khavitidala/indonesian-roberta-base-fine-tuned-hoax-classification"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -144518,5 +144517,10 @@
 	{
 		"private": false,
 		"modelId": "Jodie/DialoGPT-medium-Sheldon-4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "RobW/distilbert-base-cased-finetuned-chunk-2"
 	}
 ]
