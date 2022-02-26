@@ -59933,6 +59933,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "ncoop57/multi-code-clippy"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "nehamj/distilbert-base-uncased-finetuned-squad"
 	},
@@ -64024,11 +64029,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ncduy/bert-base-cased-wikitext2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "ncoop57/multi-code-clippy"
 	},
 	{
 		"private": false,
@@ -143424,6 +143424,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"modelId": "Enit047/disb_sem_12_to_MrRR"
 	},
 	{
@@ -143946,10 +143951,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ayham/xlnet_bert_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Davlan/xlm-roberta-base-sadilar-ner"
 	},
@@ -144307,10 +144308,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "welala/marian-finetuned-kde4-en-to-fr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-clean-small-warmup-50"
 	},
@@ -144384,6 +144381,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-10"
 	},
 	{
@@ -144393,5 +144391,9 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-sanity-2"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-512-finetuned-squad-seed-0"
 	}
 ]
