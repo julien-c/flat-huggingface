@@ -64929,6 +64929,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "9pinus/macbert-base-chinese-medicine-recognition"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
 	},
@@ -143624,11 +143629,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "9pinus/macbert-base-chinese-medicine-recognition"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "anantoj/wav2vec2-large-xlsr-53-adult-child-cls-v2"
 	},
@@ -144262,11 +144262,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/distil-wav2vec2-xls-r-adult-child-cls-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ali2066/finetuned_sentence_itr2_2e-05_all_26_02_2022-04_09_01"
 	},
@@ -144380,10 +144375,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-8"
 	},
 	{
 		"private": false,
 		"modelId": "koobear/cc-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/fm1-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-copa-kb-sanity-2"
 	}
 ]
