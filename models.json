@@ -69481,11 +69481,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/distil-wav2vec2-adult-child-cls"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-cs"
 	},
@@ -88338,11 +88333,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-64-finetuned-squad-seed-6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anantoj/distil-wav2vec2-xls-r-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -144558,11 +144548,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
-		"modelId": "bookbot/wav2vec2-xls-r-adult-child-cls"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
 		"modelId": "bookbot/distil-wav2vec2-adult-child-cls-52m"
 	},
 	{
@@ -144573,5 +144558,24 @@
 	{
 		"private": false,
 		"modelId": "os5614fr/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_hindi_home-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/distil-wav2vec2-xls-r-adult-child-cls-64m"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/distil-wav2vec2-adult-child-cls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/wav2vec2-xls-r-adult-child-cls-37m"
 	}
 ]
