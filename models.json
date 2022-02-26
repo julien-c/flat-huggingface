@@ -34424,11 +34424,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "zero-shot-classification",
-		"modelId": "KheireddineDaouadi/zero-shot-araelctra"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Kien/distilbert-base-uncased-finetuned-cola"
 	},
@@ -144547,5 +144542,10 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "zero-shot-classification",
+		"modelId": "KheireddineDaouadi/ZeroAraElectra"
 	}
 ]
