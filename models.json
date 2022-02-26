@@ -142584,6 +142584,31 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "w11wo/sundanese-bert-base-emotion-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "w11wo/sundanese-gpt2-base-emotion-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "w11wo/sundanese-gpt2-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "w11wo/sundanese-roberta-base-emotion-classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "w11wo/sundanese-roberta-base"
+	},
+	{
+		"private": false,
 		"modelId": "w414313506/disease-ner"
 	},
 	{
@@ -144492,6 +144517,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_23_ft_2"
 	},
 	{
@@ -144527,6 +144553,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Htenn/DialoGPT-small-spongebobv2"
 	},
 	{
@@ -144537,14 +144564,14 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Gazetteer"
-	},
-	{
-		"private": false,
 		"modelId": "leonadase/bert-base-chinese-finetuned-ner"
 	},
 	{
 		"private": false,
 		"modelId": "Prototypeu/tf_model.h5-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Gazetteer1"
 	}
 ]
