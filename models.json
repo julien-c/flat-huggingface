@@ -144147,11 +144147,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "OneLoneTurnip/DialoGPT-Juliet"
-	},
-	{
-		"private": false,
 		"modelId": "MrAnderson/nystromformer-512-trivia-non-DA-25-Feb"
 	},
 	{
@@ -144242,6 +144237,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-128-finetuned-squad-seed-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-128-finetuned-squad-seed-4"
 	}
 ]
