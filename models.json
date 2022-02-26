@@ -69366,6 +69366,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-grid-search"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "sdadas/polish-bart-base"
 	},
@@ -75990,7 +75995,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-grid-search"
+		"modelId": "sanchit-gandhi/wav2vec2-2-bert-grid-search"
 	},
 	{
 		"private": false,
@@ -87014,11 +87019,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "saichandrapandraju/t5_large_tabqgen"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-bert-grid-search"
 	},
 	{
 		"private": false,
@@ -144381,5 +144381,9 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-256-finetuned-squad-seed-8"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/cc-roberta-large-mnli-semeval"
 	}
 ]
