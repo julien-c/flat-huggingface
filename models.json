@@ -16969,11 +16969,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/wav2vec2-adult-child-cls-v3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AhmedSSoliman/MarianCG_NL-to-Code"
 	},
@@ -18973,11 +18968,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "textattack/xlnet-base-cased-SST-2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/wav2vec2-xls-r-adult-child-cls"
 	},
 	{
 		"private": false,
@@ -76291,11 +76281,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "vvn/en-to-dutch-marianmt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "w11wo/distil-wav2vec2-adult-child-cls-v3"
 	},
 	{
 		"private": false,
@@ -144572,5 +144557,20 @@
 	{
 		"private": false,
 		"modelId": "ianc89/hagrid"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/wav2vec2-adult-child-cls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/wav2vec2-xls-r-adult-child-cls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "bookbot/distil-wav2vec2-adult-child-cls-52M"
 	}
 ]
