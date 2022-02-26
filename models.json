@@ -44707,11 +44707,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "reddip/Peter-medium"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "rexoscare/string_instrument_detector"
 	},
@@ -144147,6 +144142,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "OneLoneTurnip/DialoGPT-Juliet"
+	},
+	{
+		"private": false,
 		"modelId": "MrAnderson/nystromformer-512-trivia-non-DA-25-Feb"
 	},
 	{
@@ -144167,11 +144167,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-64-finetuned-squad-seed-0"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "reddip/peterpublic"
 	},
 	{
 		"private": false,
@@ -144233,10 +144228,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "reddip/test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-128-finetuned-squad-seed-2"
 	},
@@ -144248,5 +144239,13 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-4"
+	},
+	{
+		"private": false,
+		"modelId": "catlovehotpot/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/bert-base-uncased-copa-kb-sanity"
 	}
 ]
