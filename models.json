@@ -101662,11 +101662,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/albert_roberta_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-2"
 	},
@@ -144788,6 +144783,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "anas-awadalla/gpt2-finetuned-squad"
 	},
 	{
@@ -144957,6 +144953,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystromformer-512-trivia-non-DA-27-Feb"
 	},
 	{
@@ -144974,6 +144971,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_hindi_home-latest-colab"
 	},
 	{
@@ -145019,6 +145017,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified_bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
 	},
 	{
@@ -145042,5 +145041,27 @@
 	{
 		"private": false,
 		"modelId": "arjundd/noise2recon-release"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr2_2e-05_all_27_02_2022-17_38_58"
+	},
+	{
+		"private": false,
+		"modelId": "ghadeermobasher/BC5CDR-Chem2-imbalanced-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/gpt2-medium-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr3_2e-05_all_27_02_2022-17_44_32"
+	},
+	{
+		"private": false,
+		"modelId": "miesnerjacob/code-search-net-tokenizer"
 	}
 ]
