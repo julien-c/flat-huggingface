@@ -48786,6 +48786,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Wasabi42/Joker_Model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Yaia/distilbert-base-uncased-finetuned-emotion"
 	},
@@ -144803,6 +144808,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "jt360/mt5-small-finetuned-amazon-en-es-video-games"
 	},
 	{
@@ -145024,6 +145030,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/bert-base-512-trivia-non-DA-27-Feb"
 	},
 	{
@@ -145191,11 +145198,30 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "MUNasir/umsuka-en-zu"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ali2066/finetuned_sentence_itr0_2e-05_all_27_02_2022-19_05_42"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr0_0.0002_all_27_02_2022-19_11_17"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr0_3e-05_all_27_02_2022-19_16_53"
+	},
+	{
+		"private": false,
+		"modelId": "rsd511/DialoGPT-small-house"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_sentence_itr0_2e-05_webDiscourse_27_02_2022-19_22_29"
 	}
 ]
