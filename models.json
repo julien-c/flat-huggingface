@@ -41122,11 +41122,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/opus-mt-ru-en-finetuned-ru-to-en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "kevinjesse/graphcodebert-MT4TS"
 	},
@@ -52747,11 +52742,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v2-en-to-ru"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "kiri-ai/distiluse-base-multilingual-cased-et"
 	},
@@ -59227,11 +59217,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "karthik19967829/XLM-R-lt-model"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "kazandaev/opus-mt-ru-en-finetuned-tsv5"
 	},
 	{
 		"private": false,
@@ -145256,6 +145241,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "osanseviero/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
@@ -145284,5 +145270,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ali2066/finetuned_sentence_itr0_2e-05_all_27_02_2022-22_25_09"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr0_0.0002_all_27_02_2022-22_30_53"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/finetuned_sentence_itr0_3e-05_all_27_02_2022-22_36_26"
 	}
 ]
