@@ -144831,11 +144831,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "nsi319/bigbird-roberta-base-finetuned-app"
-	},
-	{
-		"private": false,
 		"modelId": "kurianbenoy/bert-finetuned-squad"
 	},
 	{
@@ -144853,11 +144848,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "nsi319/distilbert-base-uncased-finetuned-app"
-	},
-	{
-		"private": false,
 		"modelId": "Viacheslav/speechbrain_tvneurotechnologies_tuned"
 	},
 	{
@@ -144867,11 +144857,6 @@
 	{
 		"private": false,
 		"modelId": "Wang123/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "nsi319/xlnet-base-cased-finetuned-app"
 	},
 	{
 		"private": false,
@@ -144980,6 +144965,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/GPT-J-6B-Janeway"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Camzure/MaamiBot-test"
 	},
@@ -144989,6 +144979,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "KoboldAI/GPT-J-6B-Shinen"
+	},
+	{
+		"private": false,
 		"modelId": "maretamasaeva/roberta-finetuned-freeform"
+	},
+	{
+		"private": false,
+		"modelId": "MrAnderson/nystromformer-512-trivia-non-DA-27-Feb"
 	}
 ]
