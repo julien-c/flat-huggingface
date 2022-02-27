@@ -144701,7 +144701,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "cnicu/pegasus-large-booksum"
+	},
+	{
+		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-16"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "cnicu/led-booksum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cnicu/pegasus-xsum-booksum"
 	},
 	{
 		"private": false,
@@ -145086,6 +145101,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ali2066/finetuned_sentence_itr2_0.0002_all_27_02_2022-18_06_59"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr3_0.0002_all_27_02_2022-18_12_34"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr4_0.0002_all_27_02_2022-18_18_11"
 	}
 ]
