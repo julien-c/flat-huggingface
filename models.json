@@ -144527,6 +144527,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "welala/finetuned-first-try"
+	},
+	{
+		"private": false,
 		"modelId": "Daryaflp/roberta-retrained_ru_covid"
 	},
 	{
@@ -144770,6 +144775,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/InformalToFormalLincoln22"
 	},
 	{
@@ -144780,5 +144786,9 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-29"
+	},
+	{
+		"private": false,
+		"modelId": "abhinema/gpt"
 	}
 ]
