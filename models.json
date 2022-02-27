@@ -101657,6 +101657,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/albert_roberta_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-16-finetuned-squad-seed-2"
 	},
@@ -101729,11 +101734,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Brendan/cse244b-hw2-roberta"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/albert_bert_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -144981,5 +144981,9 @@
 	{
 		"private": false,
 		"modelId": "Siyam/wav2vec2-largesiyamfahad"
+	},
+	{
+		"private": false,
+		"modelId": "maretamasaeva/roberta-finetuned-freeform"
 	}
 ]
