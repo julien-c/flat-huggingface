@@ -78871,16 +78871,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/testing"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/timit_supervised"
-	},
-	{
-		"private": false,
 		"modelId": "Kyuyoung11/haremotions-v5"
 	},
 	{
@@ -91071,11 +91061,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "KnutZuidema/DialoGPT-small-morty"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/librispeech_supervised"
 	},
 	{
 		"private": false,
@@ -107884,10 +107869,6 @@
 	{
 		"private": false,
 		"modelId": "Kup/gpt2-wikitext2"
-	},
-	{
-		"private": false,
-		"modelId": "Kuray107/librispeech_pseudo-label"
 	},
 	{
 		"private": false,
@@ -144798,6 +144779,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Kuray107/librispeech-100h-supervised"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "phosseini/bl_bs128_cp9000"
 	},
@@ -145275,6 +145260,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Konggate/DialoGPT-small-harrypotter"
 	},
 	{
@@ -145289,5 +145275,14 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/gpt2-large-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/timit-supervised"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr0_2e-05_all_27_02_2022-22_25_09"
 	}
 ]
