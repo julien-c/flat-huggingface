@@ -144821,6 +144821,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "phosseini/bl_bs128_cp9000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nsi319/bigbird-roberta-base-finetuned-app"
+	},
+	{
+		"private": false,
+		"modelId": "kurianbenoy/bert-finetuned-squad"
 	}
 ]
