@@ -22101,11 +22101,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nairaxo/dvoice-darija"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "nepp1d0/ChemBERTa_drug_state_classification"
 	},
@@ -35686,7 +35681,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
 	},
 	{
@@ -144827,5 +144822,9 @@
 	{
 		"private": false,
 		"modelId": "kurianbenoy/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "nairaxo/wav2vec2-darija"
 	}
 ]
