@@ -44218,11 +44218,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "lgris/seasr_2022_base_10k_8khz_pt"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "lewtun/xlm-roberta-base-finetuned-marc-en-dummy"
 	},
@@ -145712,10 +145707,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_Gazetteer1"
 	},
 	{
 		"private": false,
 		"modelId": "Msp/classifier"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/opus-mt-en-ru-finetuned-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "kazandaev/opus-mt-ru-en-finetuned-v2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "lgris/base_10k_8khz_pt"
 	}
 ]
