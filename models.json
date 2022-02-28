@@ -52950,6 +52950,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "frahman/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "frgfm/darknet53"
 	},
@@ -144829,6 +144834,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Enit047/disb_sem_12_to_MrRR"
 	},
 	{
@@ -145484,6 +145490,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "frahman/distilbert-base-uncased-finetuned-clinc"
+	},
+	{
+		"private": false,
 		"modelId": "Andrey1989/mbert-finetuned-ner"
 	},
 	{
@@ -145568,6 +145579,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "niksmer/RoBERTa-RILE_v2"
 	},
 	{
@@ -145639,5 +145651,10 @@
 	{
 		"private": false,
 		"modelId": "aboukric/gpt2-wikitext2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Kiran146/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
