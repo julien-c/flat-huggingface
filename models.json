@@ -78765,13 +78765,13 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/distilbert_bert_summarization_cnn_dailymail"
+		"pipeline_tag": "conversational",
+		"modelId": "Htenn/DialoGPT-small-spongebobv2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "Htenn/DialoGPT-small-spongebobv2"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_roberta_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -78801,6 +78801,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "mezes/eauction-section-parsing-from-pretrained"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/distilbert_roberta_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
