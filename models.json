@@ -28402,7 +28402,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW-accelerate"
 	},
 	{
@@ -44933,11 +44933,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "csikasote/xls-r-1b-bemba-fds-st-01"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "shields/wav2vec2-base-20sec-timit-and-dementiabank"
 	},
 	{
@@ -44963,6 +44958,10 @@
 	{
 		"private": false,
 		"modelId": "Viacheslav/speechbrain_tvneurotechnologies_tuned"
+	},
+	{
+		"private": false,
+		"modelId": "csikasote/xls-r-1b-bemba-fds-st-01"
 	},
 	{
 		"private": false,
@@ -145324,6 +145323,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "armageddon/covid_qa_analysis_roberta-large"
 	},
 	{
@@ -145376,5 +145376,9 @@
 	{
 		"private": false,
 		"modelId": "Felix92/wav2vec2-large-xlsr-53-german-onnx"
+	},
+	{
+		"private": false,
+		"modelId": "Theivaprakasham/layoutlmv2-finetuned-sroie_mod"
 	}
 ]
