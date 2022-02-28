@@ -15026,6 +15026,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Raychanan/bert-base-chinese-FineTuned-Binary-Best"
 	},
@@ -15303,11 +15308,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ushikado/yuyuyui-chatbot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -53506,6 +53506,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "benjaminbeilharz/t5-conditioned-next-turn"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "microsoft/tapex-base-finetuned-wikisql"
 	},
 	{
 		"private": false,
@@ -144633,10 +144638,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-15"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "cnicu/pegasus-large-booksum"
 	},
@@ -144660,14 +144661,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-21"
-	},
-	{
-		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-22"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-13"
 	},
@@ -144685,15 +144678,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-26"
-	},
-	{
-		"private": false,
 		"modelId": "lvyufeng/bert-base-uncased"
-	},
-	{
-		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-28"
 	},
 	{
 		"private": false,
@@ -145308,11 +145293,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "microsoft/tapex-base-finetuned-wikisql"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/timit-5percent-supervised"
 	},
@@ -145335,7 +145315,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "Sheerwin02/DialoGPT-small-isla"
 	},
 	{
