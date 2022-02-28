@@ -26400,6 +26400,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "cmarkea/distilcamembert-base-qa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "conversify/response-score"
 	},
@@ -145341,5 +145346,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "neal49/distilbert-sst2-freeze"
+	},
+	{
+		"private": false,
+		"modelId": "SmokeAndAsh/personaGPT-shika"
+	},
+	{
+		"private": false,
+		"modelId": "shao/distilbert-base-uncased-finetuned-imdb"
 	}
 ]
