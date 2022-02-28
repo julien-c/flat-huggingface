@@ -145030,6 +145030,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "Visual-Attention-Network/VAN-Tiny"
 	},
 	{
@@ -145550,6 +145551,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "niksmer/RoBERTa-RILE"
 	},
 	{
@@ -145582,5 +145584,17 @@
 	{
 		"private": false,
 		"modelId": "hide-JP/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "hide-JP/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed-illiyas/wav2vec-malayalam-new"
+	},
+	{
+		"private": false,
+		"modelId": "niksmer/RoBERTa-RILE_v2"
 	}
 ]
