@@ -51316,11 +51316,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified_bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AI-Lab-Makerere/lg_en"
 	},
@@ -145386,11 +145381,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "ppang/model5"
-	},
-	{
-		"private": false,
 		"modelId": "RobW/longformer-base-4096-finetuned-chunk-3"
 	},
 	{
@@ -145705,5 +145695,10 @@
 	{
 		"private": false,
 		"modelId": "Marshall/distilbert-base-uncased-finetuned-squad1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	}
 ]
