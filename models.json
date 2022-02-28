@@ -34781,11 +34781,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "ravirajoshi/test-full_albert-scratch"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "Daryaflp/roberta-retrained_ru_covid"
 	},
 	{
@@ -145349,15 +145344,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "SmokeAndAsh/personaGPT-shika"
-	},
-	{
-		"private": false,
 		"modelId": "shao/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "atkh6673/DialoGPT-small-trump"
+	},
+	{
+		"private": false,
+		"modelId": "niksmer/PolicyBERTa-7d"
 	}
 ]
