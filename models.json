@@ -145035,14 +145035,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "Visual-Attention-Network/VAN-Small"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "Visual-Attention-Network/VAN-Base"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "Visual-Attention-Network/VAN-Large"
 	},
 	{
@@ -145596,5 +145599,14 @@
 	{
 		"private": false,
 		"modelId": "niksmer/RoBERTa-RILE_v2"
+	},
+	{
+		"private": false,
+		"modelId": "mateiut1/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "timoneda/XLM-R-Racismo"
 	}
 ]
