@@ -32450,7 +32450,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "peterhsu/marian-finetuned-kde4-en-to-zh_TW"
 	},
 	{
@@ -39083,11 +39083,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "codistai/codeBERT-small-v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "coyotte508/sentence-transformer"
 	},
 	{
 		"private": false,
@@ -145388,6 +145383,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "niksmer/PolicyBERTa-7d"
 	},
 	{
@@ -145428,6 +145424,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "RobW/distilbert-base-cased-finetuned-chunk-3"
 	},
 	{
@@ -145442,5 +145439,13 @@
 	{
 		"private": false,
 		"modelId": "koobear/no-DT-roberta-mnli-sem-eval"
+	},
+	{
+		"private": false,
+		"modelId": "nitzanav/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Eashwar/test_chatbot"
 	}
 ]
