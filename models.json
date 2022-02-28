@@ -101945,6 +101945,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/distilbert_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_23_ft_2"
 	},
@@ -144601,11 +144606,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/xlnet_roberta_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"modelId": "ollibolli/bert-finetuned-squad"
 	},
 	{
@@ -145344,6 +145344,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/timit-5percent-supervised"
 	}
 ]
