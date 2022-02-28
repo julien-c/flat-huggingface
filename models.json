@@ -27025,11 +27025,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "asahi417/lmqg-t5-small-squad"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aychang/distilbert-base-cased-trec-coarse"
 	},
@@ -145314,5 +145309,9 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jkang/espnet2_librispeech_100_conformer_char"
+	},
+	{
+		"private": false,
+		"modelId": "innai/bert-base-uncased-finetuned-expansions"
 	}
 ]
