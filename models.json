@@ -50685,6 +50685,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified_bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AI-Lab-Makerere/lg_en"
 	},
@@ -101983,6 +101988,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Kuray107/timit-5percent-supervised"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "yunsizhang/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -144695,6 +144710,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "FardinSaboori/bert-finetuned-squad"
+	},
+	{
+		"private": false,
 		"modelId": "Kuray107/librispeech-100h-supervised"
 	},
 	{
@@ -144927,11 +144947,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified_bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
-	},
-	{
-		"private": false,
 		"modelId": "gradio/Modnet"
 	},
 	{
@@ -145149,10 +145164,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "FardinSaboori/bert-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "rsd511/DialoGPT-small-house"
 	},
 	{
@@ -145293,11 +145304,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/timit-5percent-supervised"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "aryanbhosale/DialoGPT-medium-harrypotter"
 	},
@@ -145320,11 +145326,10 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "yunsizhang/distilbert-base-uncased-finetuned-emotion"
+		"modelId": "basilw/distilbert-base-uncased-finetuned-ner"
 	},
 	{
 		"private": false,
-		"modelId": "basilw/distilbert-base-uncased-finetuned-ner"
+		"modelId": "nada1999A/wav2vec2-large-xlsr-53-demo-colab"
 	}
 ]
