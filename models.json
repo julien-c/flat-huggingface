@@ -101921,11 +101921,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/fm1-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-sanity-2"
 	},
 	{
@@ -101942,11 +101937,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-512-finetuned-squad-seed-4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/ab-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
@@ -144586,10 +144576,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "koobear/cc-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"modelId": "zhoutong/best-t5"
 	},
 	{
@@ -144611,6 +144597,11 @@
 	{
 		"private": false,
 		"modelId": "ad6398/test_models"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_roberta_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -144754,6 +144745,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "anas-awadalla/gpt2-finetuned-squad"
 	},
 	{
@@ -145312,5 +145304,17 @@
 	{
 		"private": false,
 		"modelId": "danny911kr/tapas_simsiam_mlm_2"
+	},
+	{
+		"private": false,
+		"modelId": "Pubudu/mbart-large-50-finetuned-mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "anas-awadalla/gpt2-medium-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "teapot/bert-base-uncased-finetuned-copa"
 	}
 ]
