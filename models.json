@@ -101926,10 +101926,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-sanity-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/spanbert-base-cased-few-shot-k-512-finetuned-squad-seed-0"
 	},
@@ -144646,10 +144642,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-16"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "cnicu/led-booksum"
 	},
@@ -144664,15 +144656,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-18"
-	},
-	{
-		"private": false,
 		"modelId": "peepee/peterbot"
-	},
-	{
-		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-20"
 	},
 	{
 		"private": false,
@@ -144684,24 +144668,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-23"
-	},
-	{
-		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-24"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-13"
 	},
 	{
 		"private": false,
 		"modelId": "technovig/asset_type_inference"
-	},
-	{
-		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-25"
 	},
 	{
 		"private": false,
@@ -144722,10 +144694,6 @@
 	{
 		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-28"
-	},
-	{
-		"private": false,
-		"modelId": "msintaha/bert-base-uncased-copa-kb-29"
 	},
 	{
 		"private": false,
@@ -145340,6 +145308,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "microsoft/tapex-base-finetuned-wikisql"
 	},
 	{
@@ -145366,10 +145335,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Sheerwin02/DialoGPT-small-isla"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "yunsizhang/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "basilw/distilbert-base-uncased-finetuned-ner"
 	}
 ]
