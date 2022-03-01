@@ -146225,10 +146225,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mriggs/flaubert_18thc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/distilBERT_token_itr0_1e-05_webDiscourse_01_03_2022-15_10_39"
 	},
@@ -146249,6 +146245,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "s50227harry/distilroberta-base-test1"
 	},
 	{
@@ -146272,6 +146269,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/distilBERT_token_itr0_0.0001_all_01_03_2022-15_22_12"
+	},
+	{
+		"private": false,
+		"modelId": "mriggs/flaubert_gutenberg"
+	},
+	{
+		"private": false,
+		"modelId": "abdusahmbzuai/arabert-ner"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/correct_twitter_RoBERTa_token_itr0_1e-05_webDiscourse_01_03_2022-15_30_39"
 	}
 ]
