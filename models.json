@@ -35891,11 +35891,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "mriggs/mlm_test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "vocab-transformers/dense_encoder-msmarco-distilbert-word2vec256k"
 	},
@@ -37285,11 +37280,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-it"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "mriggs/mlm_test2"
 	},
 	{
 		"private": false,
@@ -45820,11 +45810,6 @@
 	{
 		"private": false,
 		"modelId": "Viacheslav/speechbrain_tvneurotechnologies_tuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "mriggs/mlm_test3"
 	},
 	{
 		"private": false,
@@ -145412,6 +145397,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Arpita/opus-mt-en-ro-finetuned-syn-to-react"
 	},
 	{
@@ -145657,6 +145643,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "davanstrien/convnext_manuscript_iiif"
 	},
 	{
@@ -145893,5 +145880,18 @@
 	{
 		"private": false,
 		"modelId": "adele/test-adele"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mriggs/flaubert_obvil"
+	},
+	{
+		"private": false,
+		"modelId": "devleejh/amsSummary"
+	},
+	{
+		"private": false,
+		"modelId": "mriggs/checkpoint-62000"
 	}
 ]
