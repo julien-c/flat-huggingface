@@ -145127,6 +145127,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/no-DT-roberta-mnli"
+	},
+	{
+		"private": false,
 		"modelId": "shao/distilbert-base-uncased-finetuned-imdb-accelerate"
 	},
 	{
@@ -145365,6 +145370,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/no-DT-roberta-mnli-sem-eval"
+	},
+	{
+		"private": false,
 		"modelId": "nitzanav/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -145378,6 +145388,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "davanstrien/flyswot_iiif"
 	},
 	{
@@ -145780,6 +145791,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "grayson124/chatbotwaifu"
 	},
 	{
@@ -145790,5 +145802,9 @@
 	{
 		"private": false,
 		"modelId": "neal49/distilbert-sst2-1"
+	},
+	{
+		"private": false,
+		"modelId": "Sarahliu186/wav2vec2-base-timit-demo-colab"
 	}
 ]
