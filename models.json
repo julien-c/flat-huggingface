@@ -43790,11 +43790,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "enoriega/PubmedMiniBert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ethanyt/guwen-ner"
 	},
@@ -145766,6 +145761,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "PhilSad/GPT-J6B-Guided-SCP"
 	},
 	{
@@ -145779,6 +145775,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "azizbarank/mbert-finetuned-azerbaijani-ner"
+	},
+	{
+		"private": false,
+		"modelId": "coredumped/my_bert_model"
 	}
 ]
