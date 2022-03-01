@@ -77383,11 +77383,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "jcai1/bert-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "jeew/xlm-roberta-ckpt-95000"
 	},
@@ -87853,11 +87848,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "jaywhypark/test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "jcai1/bert-finetuned-ner-accelerate"
 	},
 	{
 		"private": false,
@@ -109196,11 +109186,6 @@
 	{
 		"private": false,
 		"modelId": "K3LLiN/Kellin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "KES/Caribe"
 	},
 	{
 		"private": false,
@@ -146523,16 +146508,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "jcai1/test-trainer"
-	},
-	{
-		"private": false,
 		"modelId": "nimrah/wav2vec2-large-xls-r-300m-my_turkish_home-2Marchnew-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "jcai1/dummy-model"
 	},
 	{
 		"private": false,
@@ -146564,10 +146540,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jcai1/sentence_similarity"
 	},
 	{
 		"private": false,
 		"modelId": "hyechanjun/bart-interviewer-question-remake"
+	},
+	{
+		"private": false,
+		"modelId": "thebestteamever/fake_news_project"
 	}
 ]
