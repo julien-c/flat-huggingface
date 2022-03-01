@@ -38931,11 +38931,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "PhilSad/GPTJ2B-SCP"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jkang/espnet2_librispeech_100_conformer_char"
 	},
@@ -146590,5 +146585,10 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "HypedKid/PeterBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "issam9/DarijaBERT-summarization-goud"
 	}
 ]
