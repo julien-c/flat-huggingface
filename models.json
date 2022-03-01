@@ -18635,6 +18635,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "yabramuvdi/distilbert-wfh"
+	},
+	{
+		"private": false,
 		"modelId": "EleutherAI/enformer-corr_coef_obj"
 	},
 	{
@@ -37219,11 +37224,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "voxmenthe/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "waboucay/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
@@ -145928,5 +145928,10 @@
 	{
 		"private": false,
 		"modelId": "divyawadehra/distilroberta-base-finetuned-data"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Ayou/chinese_mobile_bert"
 	}
 ]
