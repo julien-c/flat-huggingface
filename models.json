@@ -72026,11 +72026,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
-		"modelId": "Raven68443/Peterbot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
 		"modelId": "Hallzy/Peterbot"
 	},
 	{
@@ -108545,6 +108540,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "JAlexis/Bertv1_fine"
 	},
 	{
@@ -116422,10 +116418,6 @@
 	{
 		"private": false,
 		"modelId": "akhaliq/Stylegan-ffhq-vintage"
-	},
-	{
-		"private": false,
-		"modelId": "akhaliq/frame-interpolation"
 	},
 	{
 		"private": false,
@@ -146520,6 +146512,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/Model_col-mod"
 	},
 	{
@@ -146552,5 +146545,13 @@
 	{
 		"private": false,
 		"modelId": "akhaliq/frame-interpolation-film-imagenet-vgg-verydeep-19"
+	},
+	{
+		"private": false,
+		"modelId": "waboucay/french-camembert-postag-model-finetuned-perceo"
+	},
+	{
+		"private": false,
+		"modelId": "BAHIJA/distilbert-base-uncased-finetuned-cola"
 	}
 ]
