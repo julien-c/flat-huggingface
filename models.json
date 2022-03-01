@@ -51310,6 +51310,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chem2-imbalanced-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AI-Lab-Makerere/lg_en"
 	},
@@ -54167,6 +54172,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "microsoft/tapex-base-finetuned-wikisql"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed-illiyas/wav2vec-malayalam-new"
 	},
 	{
 		"private": false,
@@ -90681,11 +90690,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "junnyu/flashquad_small_wwm_cluecorpussmall"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chem2-imbalanced-BiomedNLP-PubMedBERT-base-uncased-abstract"
 	},
 	{
 		"private": false,
@@ -145108,6 +145112,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "MoonlitEtherna/DialoGPT-small-Nyivae"
 	},
 	{
@@ -145830,10 +145835,6 @@
 	{
 		"private": false,
 		"modelId": "koobear/vast-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
-		"modelId": "mohamed-illiyas/wav2vec-malayalam-new"
 	},
 	{
 		"private": false,
