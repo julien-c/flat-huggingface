@@ -71194,11 +71194,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/ab-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-common_voice-tr-demo"
 	},
@@ -90674,10 +90669,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kuray107/librispeech-100h-supervised"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/timit-supervised"
 	},
@@ -90690,6 +90681,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Chem2-imbalanced-BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/librispeech-100h-supervised"
 	},
 	{
 		"private": false,
@@ -145132,11 +145127,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/no-DT-roberta-mnli"
-	},
-	{
-		"private": false,
 		"modelId": "shao/distilbert-base-uncased-finetuned-imdb-accelerate"
 	},
 	{
@@ -145372,11 +145362,6 @@
 	{
 		"private": false,
 		"modelId": "RobW/longformer-base-4096-finetuned-chunk-3"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/no-DT-roberta-mnli-sem-eval"
 	},
 	{
 		"private": false,
@@ -145648,6 +145633,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/albert_roberta_new_summarization_cnn_dailymail"
 	},
 	{
@@ -145733,6 +145719,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "armageddon/covid_qa_analysis_roberta-large-squad2"
 	},
 	{
@@ -145794,5 +145781,14 @@
 	{
 		"private": false,
 		"modelId": "grayson124/chatbotwaifu"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/finetuned_sentence_itr0_2e-05_all_01_03_2022-02_53_51"
+	},
+	{
+		"private": false,
+		"modelId": "neal49/distilbert-sst2-1"
 	}
 ]
