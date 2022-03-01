@@ -146057,6 +146057,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ghazikhanihamed/MembraneBERT"
 	},
 	{
@@ -146080,5 +146081,19 @@
 	{
 		"private": false,
 		"modelId": "Atarax/rick"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/twitter_RoBERTa_token_itr0_1e-05_webDiscourse_01_03_2022-14_57_21"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/twitter_RoBERTa_token_itr0_1e-05_essays_01_03_2022-14_58_58"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/twitter_RoBERTa_token_itr0_1e-05_editorials_01_03_2022-15_00_35"
 	}
 ]
