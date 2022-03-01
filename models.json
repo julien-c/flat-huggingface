@@ -24712,6 +24712,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "csikasote/xls-r-1b-bemba-fds-st-01"
 	},
 	{
@@ -79816,11 +79817,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Sarahliu186/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nickmuchi/vit-cats-dogs"
 	},
 	{
 		"private": false,
@@ -145795,6 +145791,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "coastalcph/fairlex-fscs-minilm"
 	},
 	{
@@ -146003,12 +146000,29 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/tai-bart-large-en-de-seeded-170k-steps"
+		"pipeline_tag": "image-classification",
+		"modelId": "nickmuchi/vit-finetuned-cats-dogs"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nickmuchi/vit-finetuned-cats-dogs"
+		"modelId": "tiger198914/bgd"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_all_01_03_2022-14_21_25"
+	},
+	{
+		"private": false,
+		"modelId": "serdarcaglar/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/twitter_RoBERTa_token_itr0_0.0001_all_01_03_2022-14_26_43"
+	},
+	{
+		"private": false,
+		"modelId": "martinhoang1129/DialoGPT-small-Rick"
 	}
 ]
