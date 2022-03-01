@@ -14879,6 +14879,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-ru-ar"
 	},
@@ -15139,11 +15144,6 @@
 	{
 		"private": false,
 		"modelId": "Cinnamon/electra-small-japanese-discriminator"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -102711,6 +102711,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/wav2vec2-gpt2-wandb-grid-search"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -108274,6 +108279,11 @@
 	{
 		"private": false,
 		"modelId": "K3LLiN/Kellin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "KES/Caribe"
 	},
 	{
 		"private": false,
@@ -145093,6 +145103,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
+	},
+	{
+		"private": false,
 		"modelId": "MoonlitEtherna/DialoGPT-small-Nyivae"
 	},
 	{
@@ -145323,11 +145338,6 @@
 	{
 		"private": false,
 		"modelId": "JoBeer/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-gpt2-wandb-grid-search"
 	},
 	{
 		"private": false,
@@ -145694,11 +145704,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/BC5CDR-Chem2-Modified_BiomedNLP-PubMedBERT-base-uncased-abstract"
-	},
-	{
-		"private": false,
 		"modelId": "nada1999A/sinai-voice-ar-stt-demo-colabb"
 	},
 	{
@@ -145833,5 +145838,9 @@
 	{
 		"private": false,
 		"modelId": "hotzjacobb/bert-base-uncased-finetuned-copa"
+	},
+	{
+		"private": false,
+		"modelId": "raymondzmc/bert-base-uncased-finetuned-copa-kg"
 	}
 ]
