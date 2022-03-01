@@ -12663,6 +12663,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "patrickvonplaten/data2vec-base-960h"
 	},
 	{
@@ -16841,6 +16842,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/data2vec-audio-base-960h"
 	},
 	{
@@ -29038,6 +29040,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "patrickvonplaten/data2vec-base"
 	},
 	{
@@ -44666,6 +44669,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "facebook/data2vec-audio-base"
 	},
 	{
@@ -68700,10 +68704,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/data2vec-audio-base-100h"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "facebook/data2vec-audio-base-10m"
 	},
 	{
@@ -146575,5 +146581,9 @@
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "abdelhalim/Shower_Sound_Recognition"
+	},
+	{
+		"private": false,
+		"modelId": "EngNada/wav2vec2-large-xlsr-53-demo1-colab"
 	}
 ]
