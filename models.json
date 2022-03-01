@@ -25087,6 +25087,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/roberta-mnli-finetune-config"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "lighteternal/stsb-xlm-r-greek-transfer"
 	},
@@ -145096,10 +145101,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "MoonlitEtherna/DialoGPT-small-Nyivae"
-	},
-	{
-		"private": false,
 		"modelId": "nada1999A/wav2vec2-large-xlsr-53-demo-colab"
 	},
 	{
@@ -145832,5 +145833,9 @@
 	{
 		"private": false,
 		"modelId": "FardinSaboori/bert-finetuned-squad-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/vast-roberta-large-mnli-semeval"
 	}
 ]
