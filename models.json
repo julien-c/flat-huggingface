@@ -54956,6 +54956,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "ppang/model5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "frahman/distilbert-base-uncased-finetuned-clinc"
 	},
@@ -145831,6 +145836,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/vast-roberta-large-mnli-semeval"
 	},
 	{
@@ -145898,5 +145904,9 @@
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-checkpoint-14"
+	},
+	{
+		"private": false,
+		"modelId": "csukuangfj/icefall-aishell-transducer-stateless-modified-2-2022-03-01"
 	}
 ]
