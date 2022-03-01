@@ -145116,6 +145116,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "hugo/byt5-mono-vi-v1"
 	},
 	{
@@ -145779,14 +145780,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "coastalcph/fairlex-cail-minilm"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "coastalcph/fairlex-scotus-minilm"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "coastalcph/fairlex-ecthr-minilm"
 	},
 	{
@@ -145989,6 +145993,22 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nairaxo/dvoice-swahili"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ali2066/bert_base_uncased_itr0_0.0001_all_01_03_2022-14_08_15"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/tai-bart-large-en-de-seeded-170k-steps"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "nickmuchi/vit-finetuned-cats-dogs"
 	}
 ]
