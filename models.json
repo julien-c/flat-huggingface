@@ -54907,6 +54907,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-it-bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Rattana/wav2vec2-thai-ASR"
 	},
@@ -71851,6 +71856,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-asonam-clean"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-en-bert"
 	},
 	{
 		"private": false,
@@ -130841,11 +130851,31 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-corona-en-logreg-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-corona-de-logreg-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-de-logreg-ft"
+	},
+	{
+		"private": false,
 		"modelId": "innout/spm_token_1"
 	},
 	{
 		"private": false,
 		"modelId": "ipekuyguner/wav2vec2-large-xlsr-turkish-demo-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-de-logreg-ft"
 	},
 	{
 		"private": false,
@@ -130897,7 +130927,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-it-logreg-ft"
+	},
+	{
+		"private": false,
 		"modelId": "ishraaqparvez/DialogGPT-small-harrypotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-en-logreg-ft"
 	},
 	{
 		"private": false,
@@ -130906,6 +130946,16 @@
 	{
 		"private": false,
 		"modelId": "itaifarhi/Itai"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-en-logreg-ft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-fr-logreg-ft"
 	},
 	{
 		"private": false,
@@ -145000,7 +145050,47 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-corona-de-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-corona-en-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-corona-fr-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-corona-it-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-de-bert"
+	},
+	{
+		"private": false,
 		"modelId": "cammy/xlnet-large-cased-finetuned-weaksup-1000-earlystop-pad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-hr-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-pl-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-logistics-tr-bert"
 	},
 	{
 		"private": false,
@@ -145012,11 +145102,46 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-de-bert"
+	},
+	{
+		"private": false,
 		"modelId": "jj-co/sbert-feature_extraction"
 	},
 	{
 		"private": false,
 		"modelId": "cammy/prophetnet-large-uncased-finetuned-weaksup-1000-earlystop-pad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-de-mbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-en-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-en-mbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-fr-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-fr-mbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "inovex/multi2convai-quality-it-mbert"
 	},
 	{
 		"private": false,
@@ -146109,6 +146234,44 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/distilBERT_token_itr0_1e-05_essays_01_03_2022-15_11_44"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/distilBERT_token_itr0_1e-05_editorials_01_03_2022-15_12_47"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/distilBERT_token_itr0_1e-05_all_01_03_2022-15_14_04"
+	},
+	{
+		"private": false,
+		"modelId": "s50227harry/distilroberta-base-test1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/distilBERT_token_itr0_0.0001_webDiscourse_01_03_2022-15_16_57"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/distilBERT_token_itr0_0.0001_essays_01_03_2022-15_18_35"
+	},
+	{
+		"private": false,
+		"modelId": "divyawadehra/distilroberta-base-finetuned-data-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/distilBERT_token_itr0_0.0001_editorials_01_03_2022-15_20_12"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/distilBERT_token_itr0_0.0001_all_01_03_2022-15_22_12"
 	}
 ]
