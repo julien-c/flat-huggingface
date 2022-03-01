@@ -145643,11 +145643,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "davanstrien/convnext_manuscript_iiif"
-	},
-	{
-		"private": false,
 		"modelId": "anas-awadalla/gpt2-large-finetuned-squad"
 	},
 	{
@@ -145670,10 +145665,6 @@
 	{
 		"private": false,
 		"modelId": "Marshall/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/bart-large-xsum-finetuned-pubmed"
 	},
 	{
 		"private": false,
@@ -145823,6 +145814,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "davanstrien/convnext_manuscript_iiif"
+	},
+	{
+		"private": false,
 		"modelId": "raymondzmc/bert-base-uncased-finetuned-copa-kg"
 	},
 	{
@@ -145893,5 +145888,10 @@
 	{
 		"private": false,
 		"modelId": "mriggs/checkpoint-62000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/berniesanders-cnn-dril"
 	}
 ]
