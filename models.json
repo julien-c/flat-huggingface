@@ -146832,11 +146832,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-segmentation",
-		"modelId": "jordanlabelflow/testmodel"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ncoop57/multi_prog_code_clippy"
 	},
@@ -146913,10 +146908,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mriggs/checkpoint-50000"
-	},
-	{
-		"private": false,
 		"modelId": "mcdzwil/bert-base-NER-finetuned-ner"
 	},
 	{
@@ -146960,5 +146951,14 @@
 	{
 		"private": false,
 		"modelId": "anugunj/cvt-w24-384-22k"
+	},
+	{
+		"private": false,
+		"modelId": "mriggs/checkpoint-50000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Aktsvigun/bart-base_tapt_email"
 	}
 ]
