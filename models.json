@@ -146619,10 +146619,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "hakurei/c1-6B-8bit"
 	},
 	{
 		"private": false,
 		"modelId": "aaraki/marian-finetuned-kde4-en-to-fr-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "BigSalmon/GPTNeo350MInformalToFormalLincoln6"
+	},
+	{
+		"private": false,
+		"modelId": "anan0329/wav2vec2-base-timit-demo-colab"
 	}
 ]
