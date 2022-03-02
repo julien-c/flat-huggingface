@@ -146857,6 +146857,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mriggs/checkpoint-30000"
 	},
 	{
@@ -146895,6 +146896,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "nimrah/wav2vec2-large-xls-r-300m-turkish-colab-4"
 	},
 	{
@@ -146912,6 +146914,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "lucasmtz/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "mriggs/checkpoint-50000"
 	}
 ]
