@@ -7687,11 +7687,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "prajin/wav2vec2-large-xlsr-300m-nepali"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "textattack/albert-base-v2-imdb"
 	},
@@ -24361,11 +24356,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "prajin/wav2vec2-large-xlsr-1b-nepali"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "qingtan007/bert_finetuning_test"
 	},
@@ -26249,11 +26239,6 @@
 		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "pinecone/bert-retriever-squad2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "prajin/wav2vec2-large-xlsr-53-nepali-test"
 	},
 	{
 		"private": false,
@@ -146835,6 +146820,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "pdils/bert-base-uncased-issues-128"
 	},
 	{
@@ -146843,11 +146829,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "jcai1/sentence_similarity1"
+		"pipeline_tag": "text-generation",
+		"modelId": "ncoop57/cm_code_clippy"
+	},
+	{
+		"private": false,
+		"modelId": "pawan184560/policy-distilbert-7d"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "ncoop57/cm_code_clippy"
+		"modelId": "ncoop57/multi_prog_code_clippy"
 	}
 ]
