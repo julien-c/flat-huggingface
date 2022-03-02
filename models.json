@@ -147001,6 +147001,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "fgaim/xlmr-large-squad-v2-tiquad-v1"
+	},
+	{
+		"private": false,
 		"modelId": "EngNada/wav2vec2-large-xlsr-53-demo1-colab1"
 	},
 	{
@@ -147036,10 +147041,6 @@
 	{
 		"private": false,
 		"modelId": "jprado/wav2vec2-base-cetuc-demo-i"
-	},
-	{
-		"private": false,
-		"modelId": "segments-tobias/segformer-b0-finetuned-segments-sidewalk"
 	},
 	{
 		"private": false,
@@ -147087,5 +147088,14 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "yoavgur/gpt2-bash-history-baseline"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "yoavgur/gpt2-bash-history-baseline2"
+	},
+	{
+		"private": false,
+		"modelId": "segments-tobias/segformer-b0-finetuned-segments-sidewalk-2"
 	}
 ]
