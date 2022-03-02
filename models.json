@@ -66529,6 +66529,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/vast-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "0xDEADBEA7/DialoGPT-small-rick"
 	},
@@ -145855,11 +145860,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/vast-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"modelId": "hotzjacobb/bert-base-uncased-finetuned-copa"
 	},
 	{
@@ -146671,5 +146671,13 @@
 	{
 		"private": false,
 		"modelId": "tiger198914/vit-base-cats-vs-dogs"
+	},
+	{
+		"private": false,
+		"modelId": "adit94/relevancy_classifier"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/neu-vs-non-vast-roberta-large-mnli-semeval"
 	}
 ]
