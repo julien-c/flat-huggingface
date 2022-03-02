@@ -146585,6 +146585,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "aaraki/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -146608,11 +146609,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Taramiko/Hoshiyo_Kojima"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Taramiko/DialoGPT-small-hoshiyo_kojima"
+	},
+	{
+		"private": false,
+		"modelId": "hakurei/c1-6B-8bit"
+	},
+	{
+		"private": false,
+		"modelId": "aaraki/marian-finetuned-kde4-en-to-fr-accelerate"
 	}
 ]
