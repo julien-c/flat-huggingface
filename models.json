@@ -79812,6 +79812,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/Model_org_2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ghadeermobasher/Model_imb_2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cnu/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AJ/DialoGPT-small-ricksanchez"
 	},
@@ -146359,16 +146374,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/Model_org_2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ghadeermobasher/Model_imb_2"
-	},
-	{
-		"private": false,
 		"modelId": "Francesco/maskformer-swin-tiny-coco"
 	},
 	{
@@ -146459,11 +146464,6 @@
 	{
 		"private": false,
 		"modelId": "akhaliq/frame-interpolation_film_l1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "cnu/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
