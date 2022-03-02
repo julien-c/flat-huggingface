@@ -20265,10 +20265,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Francesco/maskformer-swin-small-coco"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AnonymousSub/unsup-consert-base"
 	},
@@ -24432,10 +24428,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "benjaminbeilharz/t5-conditioned-next-turn"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-small-ade"
 	},
 	{
 		"private": false,
@@ -30586,10 +30578,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC5CDR-Disease-imbalanced-bluebert_pubmed_uncased_L-12_H-768_A-12_latest"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-base-ade"
 	},
 	{
 		"private": false,
@@ -53390,12 +53378,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "facebook/maskformer-swin-small-ade"
+		"pipeline_tag": "text-generation",
+		"modelId": "PhilSad/GPT-J6B-Guided-SCP"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "PhilSad/GPT-J6B-Guided-SCP"
+		"modelId": "facebook/maskformer-swin-small-ade"
 	},
 	{
 		"private": false,
@@ -63782,10 +63770,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "facebook/maskformer-swin-small-coco"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "microsoft/tapex-large-finetuned-tabfact"
 	},
@@ -63793,6 +63777,10 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/InformalToFormalLincoln23"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-small-coco"
 	},
 	{
 		"private": false,
@@ -68170,14 +68158,6 @@
 	{
 		"private": false,
 		"modelId": "merve/callback-save-h5"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-large-coco"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-base-coco"
 	},
 	{
 		"private": false,
@@ -73454,18 +73434,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/Model_org_1"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-tiny-coco"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-large-ade"
-	},
-	{
-		"private": false,
-		"modelId": "Francesco/maskformer-swin-tiny-ade"
 	},
 	{
 		"private": false,
@@ -104672,30 +104640,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "facebook/maskformer-swin-base-ade"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/maskformer-swin-base-coco"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/maskformer-swin-tiny-ade"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/maskformer-swin-large-coco"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/maskformer-swin-large-ade"
-	},
-	{
-		"private": false,
-		"modelId": "facebook/maskformer-swin-tiny-coco"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Akash7897/bert-base-cased-wikitext2"
 	},
@@ -105025,6 +104969,30 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "hakurei/c1-6B-8bit"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-base-ade"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-base-coco"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-large-coco"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-large-ade"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-tiny-ade"
+	},
+	{
+		"private": false,
+		"modelId": "facebook/maskformer-swin-tiny-coco"
 	},
 	{
 		"private": false,
@@ -141379,10 +141347,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sbrandeis/large-readme"
-	},
-	{
-		"private": false,
 		"modelId": "sbtx/DialoGPT-small-ricksanchez"
 	},
 	{
@@ -146731,6 +146695,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ghadeermobasher/BC4-modified-PubmedBert"
 	},
 	{
@@ -146745,5 +146710,18 @@
 	{
 		"private": false,
 		"modelId": "ghadeermobasher/BC4-original-PubmedBert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingartists/pink-floyd"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/neu-vs-non-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-turkish-colab-1"
 	}
 ]
