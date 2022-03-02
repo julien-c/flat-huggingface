@@ -146834,6 +146834,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "jordanlabelflow/testmodel"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ncoop57/multi_prog_code_clippy"
 	},
@@ -146885,6 +146889,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/wsj0-full-supervised"
 	},
 	{
@@ -146907,5 +146912,9 @@
 	{
 		"private": false,
 		"modelId": "sriyamv/bert-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "lucasmtz/distilbert-base-uncased-finetuned-ner"
 	}
 ]
