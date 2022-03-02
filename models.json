@@ -104219,6 +104219,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nlpaueb/sec-bert-base"
 	},
 	{
@@ -146862,10 +146863,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "anugunj/cvt-13-224x224-1k"
-	},
-	{
-		"private": false,
 		"modelId": "tftransformers/clip-vit-base-patch32"
 	},
 	{
@@ -146920,5 +146917,34 @@
 	{
 		"private": false,
 		"modelId": "mcdzwil/bert-base-NER-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Kevincp560/bart-large-xsum-finetuned-pubmed"
+	},
+	{
+		"private": false,
+		"modelId": "anugunj/cvt-13-384-1k"
+	},
+	{
+		"private": false,
+		"modelId": "anugunj/cvt-13"
+	},
+	{
+		"private": false,
+		"modelId": "anugunj/cvt-13-384-22k"
+	},
+	{
+		"private": false,
+		"modelId": "anugunj/cvt-21"
+	},
+	{
+		"private": false,
+		"modelId": "anugunj/cvt-21-384-1k"
+	},
+	{
+		"private": false,
+		"modelId": "anugunj/cvt-21-384-22k"
 	}
 ]
