@@ -147030,6 +147030,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Akash7897/distilbert-base-uncased-finetuned-sst2"
 	},
 	{
@@ -147075,6 +147076,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "pjheslin/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -147084,5 +147086,10 @@
 	{
 		"private": false,
 		"modelId": "daisymzhang/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "yoavgur/gpt2-bash-history-baseline"
 	}
 ]
