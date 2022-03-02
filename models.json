@@ -146501,6 +146501,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "KES/T5-TTParser"
 	},
 	{
@@ -146638,5 +146639,9 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Verge/Peterbot"
+	},
+	{
+		"private": false,
+		"modelId": "ActivationAI/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
