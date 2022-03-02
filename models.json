@@ -12223,6 +12223,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingartists/eminem"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "yoshitomo-matsubara/bert-base-uncased-cola"
 	},
@@ -12406,11 +12411,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "chinhon/fake_tweet_detect"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingartists/eminem"
 	},
 	{
 		"private": false,
@@ -33014,6 +33014,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "brandontanzhirong/paraphrasing-tool_t5-finetuned-QQP"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "boychaboy/MNLI_albert-base-v2"
 	},
@@ -44292,11 +44297,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "brcps12/bert-base-finetuned-sts"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "brandontanzhirong/paraphrasing-tool_t5-finetuned-QQP"
 	},
 	{
 		"private": false,
@@ -146674,10 +146674,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "adit94/relevancy_classifier"
 	},
 	{
 		"private": false,
 		"modelId": "koobear/neu-vs-non-vast-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
+		"modelId": "msintaha/gpt2-rocstories"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "msintaha/gpt2-finetuned-rocstories"
+	},
+	{
+		"private": false,
+		"modelId": "jkhan447/finetuning-sentiment-model-3000-samples"
 	}
 ]
