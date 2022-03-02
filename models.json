@@ -104656,11 +104656,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/librispeech-100h-supervised"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/twitter-roberta-base-sentiment_token_itr0_2e-05_all_01_03_2022-04_19_45"
 	},
@@ -104970,6 +104965,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "MrAnderson/nystromformer-1024-trivia-DA-non-adversarial-LM"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/librispeech-100h-supervised"
 	},
 	{
 		"private": false,
@@ -146791,6 +146790,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "spy24/autonlp-paraphrasing-607217177"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "creynier/wav2vec2-base-swbd-turn-small-4"
 	},
@@ -146880,5 +146884,9 @@
 	{
 		"private": false,
 		"modelId": "jcai1/ss_mrpc"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/clip-vit-large-patch14"
 	}
 ]
