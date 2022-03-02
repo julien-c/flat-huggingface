@@ -15100,6 +15100,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "addy88/wav2vec2-nepali-stt"
 	},
@@ -15214,11 +15219,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "CogComp/bart-faithful-summary-detector"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -145878,6 +145878,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/tr7d-a100-debug"
+	},
+	{
+		"private": false,
 		"modelId": "davanstrien/flyswot_iiif"
 	},
 	{
@@ -146451,10 +146455,6 @@
 	{
 		"private": false,
 		"modelId": "anas-awadalla/t5-base-finetuned-squad"
-	},
-	{
-		"private": false,
-		"modelId": "bigscience/tr7d-a100-debug"
 	},
 	{
 		"private": false,
