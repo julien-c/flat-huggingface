@@ -81612,6 +81612,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "annedirkson/BERT_embeddings_ADR_normalization"
 	},
 	{
@@ -146773,6 +146774,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/favor-vs-against-roberta-large-mnli-semeval"
 	},
 	{
@@ -146861,10 +146863,22 @@
 	},
 	{
 		"private": false,
+		"modelId": "anugunj/cvt-13-224x224-1k"
+	},
+	{
+		"private": false,
 		"modelId": "tftransformers/clip-vit-base-patch32"
 	},
 	{
 		"private": false,
 		"modelId": "Ayham/ernie_gpt2_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/clip-vit-large-pacth14"
+	},
+	{
+		"private": false,
+		"modelId": "jcai1/ss_mrpc"
 	}
 ]
