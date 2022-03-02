@@ -146834,6 +146834,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Shanny/FinBERT"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ncoop57/multi_prog_code_clippy"
 	},
@@ -146844,10 +146849,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jcai1/sentence_similarity2"
 	},
 	{
 		"private": false,
 		"modelId": "nillwu/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "tftransformers/clip-vit-base-patch16"
 	}
 ]
