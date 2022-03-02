@@ -146813,10 +146813,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "creynier/wav2vec2-base-swbd-turn-small-4"
 	},
 	{
 		"private": false,
 		"modelId": "Zarkit/hello-finetuned-ner2"
+	},
+	{
+		"private": false,
+		"modelId": "sameer123/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "evs/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "pdils/bert-base-uncased-issues-128"
 	}
 ]
