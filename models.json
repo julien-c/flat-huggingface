@@ -77534,11 +77534,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-mul-finetuned-en-to-th_test"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "s3h/arabert-gec-v2-2"
 	},
 	{
@@ -100609,11 +100604,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "rywerth/Rupi-or-Not-Rupi"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "s007877/opus-mt-en-vi-finetuned-en-to-vi_test"
 	},
 	{
 		"private": false,
@@ -147268,6 +147258,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ebrigham/EYY-10-Label-Topic-Categorization"
 	},
 	{
@@ -147282,6 +147273,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Bistolero/mt5_ada"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/t5-base-finetuned-pubmed"
 	}
 ]
