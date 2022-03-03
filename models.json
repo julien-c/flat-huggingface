@@ -34897,11 +34897,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/bert_gpt2_summarization_cnndm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BramVanroy/gpt-neo-125M_finetuned-tolkien"
 	},
@@ -43845,11 +43840,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/xlnet_gpt2_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "BSC-TeMU/roberta-base-bne-capitel-pos"
 	},
@@ -47587,11 +47577,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "AriakimTaiyo/DialoGPT-small-Kumiko"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/bert_gpt2_summarization_xsum"
 	},
 	{
 		"private": false,
@@ -147032,6 +147017,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "clapika2010/hospital_finetuned"
 	},
 	{
@@ -147321,10 +147307,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "segments-tobias/segformer-b5-finetuned-segments-sidewalk"
-	},
-	{
-		"private": false,
 		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-30_Bs-32"
 	},
 	{
@@ -147342,5 +147324,13 @@
 	{
 		"private": false,
 		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-30_Bs-4"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-1_Bs-4"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/tai-bart-xl-en-de-seeded-245k-steps"
 	}
 ]
