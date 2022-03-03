@@ -147074,6 +147074,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/ernie_bert_summarization_cnn_dailymail"
 	},
 	{
@@ -147307,5 +147308,14 @@
 	{
 		"private": false,
 		"modelId": "mp6kv/mp6kv_intent_classifier_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early"
+	},
+	{
+		"private": false,
+		"modelId": "anjandash/finetuned-bert-java-cmpx"
 	}
 ]
