@@ -147097,6 +147097,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/favor-vs-against-roberta-large-mnli-semeval"
 	},
 	{
@@ -147105,10 +147106,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "shahp7575/electricidad-base-muchocine-finetuned"
 	},
 	{
 		"private": false,
 		"modelId": "Aquasp34/DialoGPT-small-aqua"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/xqc"
 	}
 ]
