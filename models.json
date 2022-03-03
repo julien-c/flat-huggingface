@@ -54658,11 +54658,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "TehranNLP-org/electra-base-avg-cola"
 	},
@@ -64871,23 +64866,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-large-cased-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "StevenShoemakerNLP/pitchfork"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-bne-finetuned-ner-finetuned2-ner"
 	},
 	{
 		"private": false,
@@ -87334,11 +87314,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/spanberta-base-cased-finetuned2-nerconcat"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/spanberta-base-cased-ner-conll02-finetuned-ner"
 	},
 	{
@@ -87363,11 +87338,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/xlm-roberta-base-finetuned2-nerconcat-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Subhashini17/wav2vec2-large-xls-r-300m-ta-colab"
 	},
@@ -87380,11 +87350,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Subhashini17/wav2vec2-large-xls-r-300m-ta-colab-new"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/bert-base-multilingual-cased-finetuned2-nerconcat"
 	},
 	{
 		"private": false,
@@ -106792,18 +106757,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/xlm-roberta-base-finetuned-ner-false"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Stancld/roformer_chinese_char_small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-bne-finetuned2-nerconcat"
 	},
 	{
 		"private": false,
@@ -147117,5 +147072,15 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT-finetuned-ner-CRAFT_es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Maxwere/DiabloGPT-medium-maxbot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/Roberta-base-bne-NER-EN-ES"
 	}
 ]
