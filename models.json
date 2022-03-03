@@ -146739,11 +146739,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/favor-vs-against-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"modelId": "ghadeermobasher/BC5CDR-Chem-Modified-PubmedBert"
 	},
 	{
@@ -147095,11 +147090,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "jp1924/SimCSE-KoBERT"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT-finetuned-ner-CRAFT_es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/favor-vs-against-vast-roberta-large-mnli-semeval"
 	}
 ]
