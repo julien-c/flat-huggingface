@@ -58317,7 +58317,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
 		"modelId": "abdelhalim/Shower_Sound_Recognition"
 	},
 	{
@@ -147255,6 +147254,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "hf-internal-testing/tiny-random-data2vec-seq-class"
 	},
 	{
@@ -147264,5 +147264,14 @@
 	{
 		"private": false,
 		"modelId": "Andy233/my_model"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "RobW/longformer-base-4096-finetuned-chunk-1"
+	},
+	{
+		"private": false,
+		"modelId": "ebrigham/EYY-10-Label-Topic-Categorization"
 	}
 ]
