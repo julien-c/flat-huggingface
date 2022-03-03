@@ -146486,23 +146486,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "nitzanav/distilbert-base-uncased-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "Eashwar/test_chatbot"
 	},
 	{
 		"private": false,
-		"modelId": "nitzanav/biobert-v1.1-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "maisoon/wav2vec2-base-finetuned-ks"
-	},
-	{
-		"private": false,
-		"modelId": "nitzanav/biobert-base-cased-v1.1-squad-finetuned-squad"
 	},
 	{
 		"private": false,
@@ -146720,10 +146708,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nitzanav/biobert-large-cased-v1.1-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "Akash7897/fill_mask_model"
 	},
 	{
@@ -146933,10 +146917,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nitzanav/distilbert-base-cased-distilled-squad-finetuned-squad"
-	},
-	{
-		"private": false,
 		"modelId": "bigscience-catalogue-data-dev/byte-level-bpe-tokenizer-no-norm-250k-whitespace-and-eos-regex-alpha-v3-dedup-lines-articles"
 	},
 	{
@@ -146962,10 +146942,6 @@
 	{
 		"private": false,
 		"modelId": "sameer123/marian-finetuned-kde4-en-to-fr"
-	},
-	{
-		"private": false,
-		"modelId": "nitzanav/results"
 	},
 	{
 		"private": false,
@@ -147157,6 +147133,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "drAbreu/bioBERT-finrtuned-ner"
 	},
 	{
@@ -147177,10 +147154,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "carolEileen/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
 		"private": false,
 		"modelId": "akaayush6/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-large"
+	},
+	{
+		"private": false,
+		"modelId": "sadkat/technoai"
 	}
 ]
