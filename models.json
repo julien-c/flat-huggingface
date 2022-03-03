@@ -19749,11 +19749,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "TransQuest/monotransquest-da-en_de-wiki"
 	},
@@ -146956,6 +146951,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "fgaim/xlmr-large-squad-v2-tiquad-v1"
+	},
+	{
+		"private": false,
 		"modelId": "EngNada/wav2vec2-large-xlsr-53-demo1-colab1"
 	},
 	{
@@ -147071,10 +147071,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT-finetuned-ner-CRAFT_es"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Maxwere/DiabloGPT-medium-maxbot"
 	},
@@ -147082,5 +147078,19 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/Roberta-base-bne-NER-EN-ES"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-CRAFT-BC4CHEMD-BioNLP09"
+	},
+	{
+		"private": false,
+		"modelId": "Maxwere/DiabloGPT-medium-maxbot2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-CRAFT-ES-EN"
 	}
 ]
