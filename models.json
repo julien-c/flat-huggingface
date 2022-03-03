@@ -147029,6 +147029,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-1"
 	},
 	{
@@ -147214,6 +147215,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-focus"
 	},
 	{
@@ -147227,5 +147229,21 @@
 	{
 		"private": false,
 		"modelId": "Francesco/resnet-34"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/resnet-50"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/resnet-101"
+	},
+	{
+		"private": false,
+		"modelId": "Francesco/resnet-152"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-focus_epoch5"
 	}
 ]
