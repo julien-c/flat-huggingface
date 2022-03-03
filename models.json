@@ -115156,6 +115156,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-grid-search"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Kuray107/wsj0-full-supervised"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -146562,6 +146572,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "bigscience/tr11-176B-ml-logs"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "adit94/relevancy_classifier"
 	},
@@ -146663,11 +146677,6 @@
 	{
 		"private": false,
 		"modelId": "AKMyscich/VetTrain-v1.2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-grid-search"
 	},
 	{
 		"private": false,
@@ -146818,11 +146827,6 @@
 	{
 		"private": false,
 		"modelId": "tftransformers/clip-vit-large-patch14"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/wsj0-full-supervised"
 	},
 	{
 		"private": false,
@@ -147115,10 +147119,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "bigscience/tr11-176B-ml-logs"
-	},
-	{
-		"private": false,
 		"modelId": "Agnes1/P.eterbot"
 	},
 	{
@@ -147132,5 +147132,9 @@
 	{
 		"private": false,
 		"modelId": "nils-holmberg/cv-binclass-poly"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/4epoch-neu-vs-non-roberta-large-mnli-semeval"
 	}
 ]
