@@ -125894,10 +125894,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ali-issa/wav2vec2-large-xls-r-300m-arabic-colab"
-	},
-	{
-		"private": false,
 		"modelId": "ali2066/distilbert-base-uncased-finetuned-ner"
 	},
 	{
@@ -146140,10 +146136,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ali-issa/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
 		"modelId": "sergioapv/BALCAT"
 	},
 	{
@@ -147149,6 +147141,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/opinion-neu-vs-non-roberta-large-mnli-semeval"
 	},
 	{
@@ -147244,6 +147237,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-focus_epoch5"
+	},
+	{
+		"private": false,
+		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-with-asian"
 	}
 ]
