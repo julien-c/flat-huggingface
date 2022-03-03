@@ -58322,11 +58322,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "Ameer05/dummy-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "202015004/wav2vec2-base-timit-demo-colab"
 	},
@@ -147338,14 +147333,24 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/sum-repo"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "T-202/dummy-model"
 	},
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/data_transfer"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/t5-small-finetuned-pubmed"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/sum-repo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "danielmaxwell/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
