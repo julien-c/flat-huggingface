@@ -16307,11 +16307,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_gpt2_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "CAMeL-Lab/bert-base-arabic-camelbert-msa-did-madar-twitter5"
 	},
@@ -18775,11 +18770,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/albert_gpt2_summarization_cnndm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Elluran/Hate_speech_detector"
 	},
@@ -19388,11 +19378,6 @@
 	{
 		"private": false,
 		"modelId": "AdapterHub/roberta-base-pf-ud_en_ewt"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/bert_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -34917,11 +34902,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/distilbert_distilgpt2_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BramVanroy/gpt-neo-125M_finetuned-tolkien"
 	},
@@ -40019,11 +39999,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/xlnet_distilgpt2_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/ParaphraseParentheses"
 	},
@@ -42082,11 +42057,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Apisate/Discord-Ai-Bot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_bert_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -45930,11 +45900,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ArseniyBolotin/bert-multi-PAD-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_distilgpt2_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -55138,11 +55103,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/albert_distilgpt2_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Atchuth/DialoGPT-small-MichaelBot"
 	},
@@ -58477,11 +58437,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Aspik101/output"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/xlmroberta_large_gpt2_summarization_cnndm"
 	},
 	{
 		"private": false,
@@ -61955,11 +61910,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/roberta-base-finetuned-ner-kmeans-twitter"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/albert_gpt2_Full_summarization_cnndm"
 	},
 	{
 		"private": false,
@@ -79052,11 +79002,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "ArpanZS/debug_squad"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/distilbert_gpt2_summarization_cnndm"
 	},
 	{
 		"private": false,
@@ -147311,6 +147256,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "anjandash/finetuned-bert-java-cmpx"
 	},
 	{
@@ -147337,6 +147283,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/t5-small-finetuned-pubmed"
 	},
 	{
@@ -147354,14 +147301,46 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/GPT-peter-1pt3B-V2-0pt4E-peter_DS-msgs_Ep-3_Bs-4"
-	},
-	{
-		"private": false,
 		"modelId": "tam321/model123321"
 	},
 	{
 		"private": false,
 		"modelId": "Ameer05/sum-repo"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/spanish-TinyBERT-betito"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/Betito"
+	},
+	{
+		"private": false,
+		"modelId": "ali-issa/wav2vec2-large-xls-r-300m-arabic-model"
+	},
+	{
+		"private": false,
+		"modelId": "segments-tobias/segformer-b5-finetuned-segments-sidewalk"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-30_Bs-32"
+	},
+	{
+		"private": false,
+		"modelId": "segments-tobias/segformer-b3-finetuned-segments-sidewalk"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-30_Bs-8"
+	},
+	{
+		"private": false,
+		"modelId": "ekohrt/qcat"
+	},
+	{
+		"private": false,
+		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-30_Bs-4"
 	}
 ]
