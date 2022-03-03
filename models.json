@@ -115376,11 +115376,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT-finetuned-ner-CRAFT_es"
-	},
-	{
-		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -147277,6 +147272,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "MarioPenguin/beto_amazon_final_pnn"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2_CRAFT_ES_EN"
 	}
 ]
