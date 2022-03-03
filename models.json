@@ -147291,10 +147291,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Kuray107/wsj0-5percent-supervised"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "philschmid/distilbert-neuron"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "espnet/YushiUeda_iemocap_sentiment_asr_train_asr_conformer_wav2vec2"
+	},
+	{
+		"private": false,
+		"modelId": "mp6kv/mp6kv_intent_classifier_model"
 	}
 ]
