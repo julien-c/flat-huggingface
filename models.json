@@ -147559,10 +147559,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "saattrupdan/wav2vec2-xls-r-300m-ftspeech"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "pritamdeka/PubMedBert-PubMed200kRCT"
 	},
@@ -147572,6 +147568,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ameer05/model-token-repo"
 	},
 	{
@@ -147584,7 +147581,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "aryanbhosale/smartharrypotter"
 	}
 ]
