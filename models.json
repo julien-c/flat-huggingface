@@ -104067,11 +104067,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Prototypeu/bart-base-finetuned-xsum"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "KheireddineDaouadi/ZeroAraElectra"
 	},
@@ -147562,6 +147557,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/model-token-repo"
+		"modelId": "saattrupdan/wav2vec2-xls-r-300m-ftspeech"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pritamdeka/PubMedBert-PubMed200kRCT"
 	}
 ]
