@@ -10802,6 +10802,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "maos95/turn_bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "cointegrated/rubert-base-cased-nli-twoway"
 	},
@@ -147392,5 +147397,13 @@
 	{
 		"private": false,
 		"modelId": "aaraki/opus-mt-en-ro-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"modelId": "pere/multi-sentencefix-mt5-pod"
+	},
+	{
+		"private": false,
+		"modelId": "laafeng/Bringing-Old-Photos-Back-to-Life"
 	}
 ]
