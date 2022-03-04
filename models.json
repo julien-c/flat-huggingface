@@ -147609,6 +147609,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "crabz/distil-slovakbert"
 	},
 	{
@@ -147618,5 +147619,10 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/t5-v1_1-xxl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Aktsvigun/bart-base-tapt-xsum"
 	}
 ]
