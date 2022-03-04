@@ -147413,6 +147413,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/cc-roberta-large-mnli-semeval"
 	},
 	{
@@ -147443,10 +147444,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ivanlau/distil-bert-uncased-finetuned-github-issues"
 	},
 	{
 		"private": false,
 		"modelId": "everdoubling/byt5-Korean-large"
+	},
+	{
+		"private": false,
+		"modelId": "tiot07/wav2vec2-base-timit-demo-colab-large"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/bart-large-cnn-samsum-finetuned-resume-accelerate"
 	}
 ]
