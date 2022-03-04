@@ -28291,6 +28291,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Anthos23/FS-distilroberta-fine-tuned"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "vesteinn/clip-nabirds"
 	},
@@ -147177,6 +147182,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "jweb/japanese-soseki-gpt2-1b"
+	},
+	{
+		"private": false,
 		"modelId": "gimmaru/dummy-model"
 	},
 	{
@@ -147454,6 +147464,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "tiot07/wav2vec2-base-timit-demo-colab-large"
 	},
 	{
