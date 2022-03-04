@@ -147373,12 +147373,15 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "jp1924/SimCSE-RoBERTa"
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Gazetteer1-finetuned-ner-CRAFT_es"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Gazetteer1-finetuned-ner-CRAFT_es"
+		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_Gazetteer1-finetuned-ner-CRAFT_es"
+	},
+	{
+		"private": false,
+		"modelId": "amanm27/bert-base-uncased-wiki"
 	}
 ]
