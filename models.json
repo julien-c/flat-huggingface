@@ -147560,6 +147560,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/ernie_ernie_summarization_cnn_dailymail"
 	},
 	{
@@ -147696,6 +147697,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "espnet/YushiUeda_swbd_sentiment_asr_train_asr_conformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "espnet/YushiUeda_swbd_sentiment_asr_train_asr_conformer_wav2vec2"
 	}
 ]
