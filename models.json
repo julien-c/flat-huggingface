@@ -147353,6 +147353,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-to-audio",
 		"modelId": "Yulinfeng/wsj0_2mix_enh_train_enh_dpcl_raw_valid.si_snr.ave"
 	},
 	{
@@ -147549,6 +147550,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "jish/distilgpt2-finetuned-wikitext2"
 	},
 	{
@@ -147571,5 +147573,13 @@
 	{
 		"private": false,
 		"modelId": "Ameer05/model-token-repo"
+	},
+	{
+		"private": false,
+		"modelId": "merve/callback-batch-test"
+	},
+	{
+		"private": false,
+		"modelId": "zenham/DialoGPT-medium-khemx2"
 	}
 ]
