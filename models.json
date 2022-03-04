@@ -14857,6 +14857,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "Helsinki-NLP/opus-mt-en-af"
 	},
@@ -14974,11 +14979,6 @@
 	{
 		"private": false,
 		"modelId": "vblagoje/dpr-ctx_encoder-single-lfqa-wiki"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -115238,6 +115238,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "daisyxie21/bert-base-uncased-8-200-0.01"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -147306,11 +147311,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daisyxie21/bert-base-uncased-8-200-0.01"
-	},
-	{
-		"private": false,
 		"modelId": "AhmedSSoliman/training1"
 	},
 	{
@@ -147382,5 +147382,9 @@
 	{
 		"private": false,
 		"modelId": "Ameer05/bart-large-cnn-samsum-finetuned-resume-summarizer"
+	},
+	{
+		"private": false,
+		"modelId": "IDEA-CCNL/longformer_base"
 	}
 ]
