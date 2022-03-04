@@ -115433,6 +115433,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "segments-tobias/segformer-b3-finetuned-segments-sidewalk"
 	},
 	{
@@ -147604,11 +147605,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "aryanbhosale/smartharrypotter"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "crabz/distil-slovakbert"
 	},
@@ -147624,5 +147620,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Aktsvigun/bart-base-tapt-xsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "aryanbhosale/smartharrypotterbot"
 	}
 ]
