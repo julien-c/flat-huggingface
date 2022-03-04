@@ -147196,11 +147196,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "anjandash/finetuned-bert-java-cmpx"
 	},
@@ -147378,10 +147373,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_Gazetteer1-finetuned-ner-CRAFT_es"
 	},
 	{
 		"private": false,
 		"modelId": "amanm27/bert-base-uncased-wiki"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early"
+	},
+	{
+		"private": false,
+		"modelId": "robsesa/bert-base-cased-finetuned-swag"
 	}
 ]
