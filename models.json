@@ -104552,6 +104552,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Prototypeu/bart-base-finetuned-xsum"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xlsr-53_common_voice_20211211085606"
 	},
@@ -147228,6 +147232,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mmaguero/gn-bert-base-cased"
+	},
+	{
+		"private": false,
 		"modelId": "patrickvonplaten/data_transfer"
 	},
 	{
@@ -147514,12 +147523,37 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mmaguero/gn-bert-large-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mmaguero/gn-bert-tiny-cased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mmaguero/gn-bert-small-cased"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/yoso-1024-trivia-04-Mar"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mmaguero/beto-gn-base-cased"
+	},
+	{
+		"private": false,
 		"modelId": "LenaSchmidt/distilbert-base-uncased-finetuned-squad-Endpoint_15percent-impossibles_0-domains"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "mmaguero/multilingual-bert-gn-base-cased"
 	},
 	{
 		"private": false,
@@ -147583,5 +147617,9 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "aryanbhosale/smartharrypotter"
+	},
+	{
+		"private": false,
+		"modelId": "crabz/distil-slovakbert"
 	}
 ]
