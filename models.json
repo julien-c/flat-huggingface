@@ -147283,6 +147283,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Ayham/ernie_roberta_summarization_cnn_dailymail"
 	},
 	{
@@ -147382,10 +147383,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early"
 	},
 	{
 		"private": false,
 		"modelId": "robsesa/bert-base-cased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early-copy"
 	}
 ]
