@@ -147498,6 +147498,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "pdils/codeparrot"
 	},
 	{
@@ -147511,6 +147512,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "affjljoo3581/roberta-longformer-base-4096"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "affjljoo3581/roberta-longformer-large-4096"
+	},
+	{
+		"private": false,
+		"modelId": "nitzanav/biobert-base-cased-v1.1-squad-finetuned-squad"
 	}
 ]
