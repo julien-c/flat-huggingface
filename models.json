@@ -30837,11 +30837,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pritamdeka/pubmedbert-pubmed20krct"
-	},
-	{
-		"private": false,
 		"modelId": "AdapterHub/bert-base-uncased-pf-social_i_qa"
 	},
 	{
@@ -147482,6 +147477,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ssardorf/pegasus-summ"
 	},
 	{
@@ -147532,5 +147528,10 @@
 	{
 		"private": false,
 		"modelId": "mriggs/model_mar4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "pritamdeka/PubMedBert-PubMed20kRCT"
 	}
 ]
