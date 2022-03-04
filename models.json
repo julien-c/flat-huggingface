@@ -41985,11 +41985,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/allll-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "cnicu/led-booksum"
 	},
@@ -58194,11 +58189,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "koobear/no-DT-roberta-mnli"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "niksmer/ManiBERT"
 	},
 	{
@@ -61780,11 +61770,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "spy24/autonlp-paraphrasing-607217177"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/favor-vs-against-vast-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
@@ -78544,6 +78529,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/ab-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"modelId": "ThomasSimonini/ppo-QbertNoFrameskip-v4"
 	},
 	{
@@ -78635,11 +78625,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Maxwere/DiabloGPT-medium-maxbot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/favor-vs-against-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
@@ -146937,11 +146922,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/4epoch-neu-vs-non-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-100-pad-early"
 	},
@@ -146981,11 +146961,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "clapika2010/hospital_finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/opinion-neu-vs-non-roberta-large-mnli-semeval"
 	},
 	{
 		"private": false,
@@ -147283,11 +147258,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/ernie_roberta_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Anthos23/FS-finbert-fine-tuned"
 	},
@@ -147392,6 +147362,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early-copy"
+		"modelId": "cammy/bart-large-cnn-finetuned-new-100-doc-pad-early-copy1"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/hc-roberta-large-mnli-semeval"
 	}
 ]
