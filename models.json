@@ -104556,6 +104556,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "tsantos/PathologyBERT"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-large-xlsr-53_common_voice_20211211085606"
 	},
@@ -147250,10 +147255,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/sum-repo"
-	},
-	{
-		"private": false,
 		"modelId": "mrm8488/spanish-TinyBERT-betito"
 	},
 	{
@@ -147449,10 +147450,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/tokenizer-repo"
-	},
-	{
-		"private": false,
 		"modelId": "Andrey1989/mbert-finetuned"
 	},
 	{
@@ -147632,5 +147629,17 @@
 	{
 		"private": false,
 		"modelId": "nielsr/dpt-large-redesign"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/bart-large-cnn-samsum-finetuned-resume-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "bm0/sv_asr"
+	},
+	{
+		"private": false,
+		"modelId": "nimrah/wav2vec2-large-xls-r-300m-turkish-colab-9"
 	}
 ]
