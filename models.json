@@ -147613,10 +147613,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "mp6kv/mp6kv_intent_classifier_model"
-	},
-	{
-		"private": false,
 		"modelId": "patrickvonplaten/data_transfer"
 	},
 	{
@@ -147874,6 +147870,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mp6kv/main_intent_classifier"
 	},
 	{
@@ -147980,5 +147977,9 @@
 	{
 		"private": false,
 		"modelId": "nimrah/my-wav2vec2-base-timit-demo-colab-my"
+	},
+	{
+		"private": false,
+		"modelId": "Kuray107/swbd-5percent-supervised"
 	}
 ]
