@@ -14482,6 +14482,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "EMBO/sd-ner"
 	},
@@ -15017,11 +15022,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "AdapterHub/bert-base-uncased-pf-conll2000"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -147306,6 +147306,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "pszemraj/test-uk-asr-xls-r"
+	},
+	{
+		"private": false,
 		"modelId": "IDEA-CCNL/longformer_base"
 	},
 	{
@@ -147894,14 +147898,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "pszemraj/test-uk-asr-xls-r"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "DrishtiSharma/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-Total2e-4_3"
+	},
+	{
+		"private": false,
+		"modelId": "be4rr/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "zenham/DialoGPT-medium-Khemx"
+	},
+	{
+		"private": false,
+		"modelId": "PBusienei/Using-sentence-similarity-model-to-pick-the-top-three-session-in-Nashville-Analytics-Summit"
 	}
 ]
