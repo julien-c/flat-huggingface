@@ -147301,11 +147301,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-neo-125M-peter_DS-msgs_Ep-1_Bs-4"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ali-issa/wav2vec2-large-xls-r-300m-arabic"
 	},
@@ -147634,6 +147629,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-Total_2e-4_2"
 	},
 	{
@@ -147838,6 +147834,31 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_webDiscourse_TEST_essays_05_03_2022-06_11_09"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_webDiscourse_TEST_editorials_05_03_2022-06_13_50"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-peter-tiny"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_essays_TEST_essays_05_03_2022-06_16_34"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_essays_TEST_webDiscourse_05_03_2022-06_19_06"
+	},
+	{
+		"private": false,
+		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_essays_TEST_editorials_05_03_2022-06_21_38"
 	}
 ]
