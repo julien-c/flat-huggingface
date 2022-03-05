@@ -115443,6 +115443,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "pszemraj/gpt-peter-tiny"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -147845,11 +147850,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "pszemraj/gpt-peter-tiny"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_essays_TEST_essays_05_03_2022-06_16_34"
 	},
@@ -147912,9 +147912,5 @@
 	{
 		"private": false,
 		"modelId": "zenham/DialoGPT-medium-Khemx"
-	},
-	{
-		"private": false,
-		"modelId": "PBusienei/Using-sentence-similarity-model-to-pick-the-top-three-session-in-Nashville-Analytics-Summit"
 	}
 ]
