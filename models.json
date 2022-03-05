@@ -21718,6 +21718,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "xdmason/DialoGPT-medium-cass"
+	},
+	{
+		"private": false,
 		"modelId": "AdapterHub/roberta-base-pf-ud_en_ewt"
 	},
 	{
@@ -147985,5 +147990,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/ragnar_furup"
+	},
+	{
+		"private": false,
+		"modelId": "YoannPeron/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
