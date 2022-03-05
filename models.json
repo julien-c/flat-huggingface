@@ -115443,6 +115443,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ttmusic/bert-base-uncased-finetuned-5years-sci"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pszemraj/gpt-peter-tiny"
 	},
@@ -147774,11 +147779,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ttmusic/bert-base-uncased-finetuned-5years-sci"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Britain/DialoGPT-small-ZifBotTwoFixed"
 	},
@@ -147907,6 +147907,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "be4rr/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
