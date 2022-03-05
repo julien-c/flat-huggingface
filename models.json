@@ -147783,6 +147783,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "clisi2000/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -147875,5 +147876,15 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_editorials_TEST_essays_05_03_2022-06_26_52"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Britain/DialoGPT-small-DanyBotTwo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ali2066/bert-base-uncased_token_itr0_0.0001_TRAIN_editorials_TEST_webDiscourse_05_03_2022-06_29_29"
 	}
 ]
