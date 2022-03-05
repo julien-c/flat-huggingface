@@ -80139,6 +80139,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/hing-bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Ebtihal/AraBertMo_base_V10"
 	},
 	{
@@ -115756,8 +115761,18 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/hing-mbert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/distilbart-xsum-12-1-finetuned-pubmed"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/hing-roberta"
 	},
 	{
 		"private": false,
@@ -147930,6 +147945,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "nielsr/segformer-b0-finetuned-segments-sidewalk"
 	},
 	{
@@ -147951,5 +147967,9 @@
 	{
 		"private": false,
 		"modelId": "dcml0714/multiberts_seed_0_step_180000"
+	},
+	{
+		"private": false,
+		"modelId": "dcml0714/multiberts_seed_0_step_200000"
 	}
 ]
