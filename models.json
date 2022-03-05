@@ -147942,6 +147942,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "peterhsu/test-bert-finetuned-en-zh_TW-accelerate"
 	},
 	{
@@ -147976,5 +147977,10 @@
 	{
 		"private": false,
 		"modelId": "naam/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "infinitylyj/DialogGPT-medium-general"
 	}
 ]
