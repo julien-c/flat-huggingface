@@ -80040,17 +80040,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Aktsvigun/bart-base_tapt_xsum"
-	},
-	{
-		"private": false,
 		"modelId": "anugunj/cvt-w24-384-22k"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Aktsvigun/bart-base_tapt_email"
 	},
 	{
 		"private": false,
@@ -148196,5 +148186,14 @@
 	{
 		"private": false,
 		"modelId": "YoannPeron/xlm-roberta-base-finetuned-panx-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "adalbertojunior/test-128-uncased-3"
+	},
+	{
+		"private": false,
+		"modelId": "adalbertojunior/test-256-uncased-3"
 	}
 ]
