@@ -50425,6 +50425,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MohammadABH/bertweet-finetuned-rbam"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "zero-shot-classification",
 		"modelId": "NDugar/v3large-2epoch"
 	},
@@ -148205,5 +148210,13 @@
 	{
 		"private": false,
 		"modelId": "YoannPeron/xlm-roberta-base-finetuned-panx-all"
+	},
+	{
+		"private": false,
+		"modelId": "huak95/opus-mt-th-en-finetuned-th-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "huak95/opus-mt-th-en-finetuned-5k-th-to-en"
 	}
 ]
