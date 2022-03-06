@@ -148318,11 +148318,16 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "OneLoneTurnip/GPT-Jonah"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/tai-bart-xl-en-de-seeded-noisy-130k-steps"
+	},
+	{
+		"private": false,
+		"modelId": "AdarshRavis/BabishBot"
 	}
 ]
