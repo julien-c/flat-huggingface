@@ -19195,11 +19195,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nairaxo/dvoice-darija"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "prajwalcr/poetry-joy_gpt2"
 	},
@@ -19242,6 +19237,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Anthos23/FS-distilroberta-fine-tuned"
+	},
+	{
+		"private": false,
+		"modelId": "nairaxo/dvoice-darija"
 	},
 	{
 		"private": false,
@@ -38953,11 +38952,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nairaxo/test-model-fr"
-	},
-	{
-		"private": false,
 		"modelId": "AdapterHub/bert-base-uncased-pf-hellaswag"
 	},
 	{
@@ -51555,11 +51549,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mohamed-illiyas/wav2vec-malayalam-new"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "nairaxo/dvoice-swahili"
 	},
 	{
 		"private": false,
@@ -138379,10 +138368,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nairaxo/wav2vec2-large-xls-r-300m-turkish-colab"
-	},
-	{
-		"private": false,
 		"modelId": "mujiatong/first-model"
 	},
 	{
@@ -146942,10 +146927,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nairaxo/wav2vec2-darija"
-	},
-	{
-		"private": false,
 		"modelId": "innai/bert-base-uncased-finetuned-swag"
 	},
 	{
@@ -148324,16 +148305,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "katanaml/layoutlmv2-finetuned-cord"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "annajoans/DialoGPT-medium-grim"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "mitiku/AmharicWICPostag10Tags"
+	},
+	{
+		"private": false,
+		"modelId": "Starry/DialoGPT-medium-Karen"
 	}
 ]
