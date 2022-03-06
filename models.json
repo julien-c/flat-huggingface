@@ -148298,11 +148298,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "phosseini/atomic-bert-large"
-	},
-	{
-		"private": false,
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-Total2e-4_5"
 	},
 	{
@@ -148322,5 +148317,18 @@
 	{
 		"private": false,
 		"modelId": "osanseviero/xlm-roberta-base-finetuned-panx-de-fr"
+	},
+	{
+		"private": false,
+		"modelId": "ArishkaBelovishka/bert-i2b2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "mitiku/AmharicWICPostag"
+	},
+	{
+		"private": false,
+		"modelId": "katanaml/layoutlmv2-finetuned-cord"
 	}
 ]
