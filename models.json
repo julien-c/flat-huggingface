@@ -115847,6 +115847,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Kuray107/librispeech-5h-supervised"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -147848,10 +147853,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jiobiala24/wav2vec2-base-3"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DrishtiSharma/distilbert-base-uncased-finetuned-emotion"
 	},
@@ -148031,11 +148032,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/librispeech-5h-supervised"
-	},
-	{
-		"private": false,
 		"modelId": "TYokoyama/Pornbot"
 	},
 	{
@@ -148081,5 +148077,17 @@
 	{
 		"private": false,
 		"modelId": "nairaxo/dvoice-swahili-2"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-3.1"
+	},
+	{
+		"private": false,
+		"modelId": "Sshubam/cyclone_intensity_estimation"
+	},
+	{
+		"private": false,
+		"modelId": "Pubudu/mt5-base-dinamina-dataset-10-epoch-1024-input-length"
 	}
 ]
