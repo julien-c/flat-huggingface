@@ -148346,6 +148346,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/bert-base-512-full-trivia"
 	},
 	{
@@ -148522,14 +148523,23 @@
 	},
 	{
 		"private": false,
-		"modelId": "squirro/distilroberta-base-squad_v2"
-	},
-	{
-		"private": false,
 		"modelId": "IDEA-CCNL/longformer_large"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "spy24/autonlp-parrot_paraphrasing-615317556"
+	},
+	{
+		"private": false,
 		"modelId": "Siyam/colab"
+	},
+	{
+		"private": false,
+		"modelId": "squirro/distilroberta-base-squad_v2"
+	},
+	{
+		"private": false,
+		"modelId": "Splend1dchan/byt5small-squad2"
 	}
 ]
