@@ -148975,6 +148975,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_es"
 	},
 	{
@@ -148986,5 +148987,14 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "mmgyorke/vit-cocktail-class"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "zenham/khemx_m_e4_16h"
+	},
+	{
+		"private": false,
+		"modelId": "smartiros/BERT_for_sentiment_50k_2_epochs_preprocessed_v1"
 	}
 ]
