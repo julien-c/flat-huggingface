@@ -26804,11 +26804,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Manauu17/roberta_es_sentiment"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Britain/DialoGPT-small-DanyBotTwo"
 	},
@@ -148650,6 +148645,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystrom-512-full-trivia"
 	},
 	{
@@ -148658,10 +148654,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Splend1dchan/byt5small-glue-mprc2"
 	},
 	{
 		"private": false,
 		"modelId": "nferruz/ProtGPT2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Manauu17/roberta_sentiments_es_en"
+	},
+	{
+		"private": false,
+		"modelId": "kenjis2542/mt5-small-finetuned-5k-th-to-en"
 	}
 ]
