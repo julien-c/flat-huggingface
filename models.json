@@ -60058,11 +60058,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_ernie_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "AIDA-UPM/MSTSb_paraphrase-xlm-r-multilingual-v1"
 	},
@@ -148583,5 +148578,19 @@
 	{
 		"private": false,
 		"modelId": "Splend1dchan/byt5small-glue-mprc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tau/fewsion_debug"
+	},
+	{
+		"private": false,
+		"modelId": "Vidushi/model_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "squirro/albert-base-v2-squad_v2"
 	}
 ]
