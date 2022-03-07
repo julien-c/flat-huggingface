@@ -116132,11 +116132,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "bongbongco/bert-badword-puri"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "koobear/fm-roberta-large-mnli-semeval"
 	},
 	{
@@ -148054,6 +148049,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "amanm27/bert-base-uncased-wiki"
 	},
 	{
@@ -148454,11 +148450,24 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "OneLoneTurnip/GPT-Quinn"
 	},
 	{
 		"private": false,
 		"modelId": "huak95/opus-mt-th-en-finetuned-5k-th-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "SGrannemann/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "amanm27/bert-base-uncased-wiki-sports"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bongbongco/bert-badword-puri-000"
 	}
 ]
