@@ -37534,11 +37534,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "GermanT5/t5-efficient-gc4-german-base-nl36"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "smoeller/student-subject-questions"
 	},
@@ -37546,6 +37541,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "microsoft/tapex-base-finetuned-tabfact"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "GermanT5/t5-efficient-gc4-german-base-nl36"
 	},
 	{
 		"private": false,
@@ -51768,6 +51768,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "azizbarank/mbert-finetuned-azerbaijani-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/bert-large-uncased-squad2-covid-qa-deepset"
 	},
 	{
 		"private": false,
@@ -104422,6 +104427,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/distilbert-base-uncased-squad2-covid-qa-deepset"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/albert-xxlarge-v2-squad2-covid-qa-deepset"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/bart-base-finetuned-pubmed"
 	},
@@ -104593,6 +104608,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "HypedKid/PeterBot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/electra-base-squad2-covid-qa-deepset"
 	},
 	{
 		"private": false,
@@ -147538,6 +147558,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/bert-base-uncased-squad2-covid-qa-deepset"
+	},
+	{
+		"private": false,
 		"modelId": "ali2066/finetuned_sentence_itr0_2e-05_all_01_03_2022-05_27_05"
 	},
 	{
@@ -148183,10 +148208,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "zenham/DialoGPT-medium-Khemx"
-	},
-	{
-		"private": false,
 		"modelId": "MaximeTut/Investissement_immobilier"
 	},
 	{
@@ -148390,6 +148411,21 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-devops-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/roberta-large-squad2-covid-qa-deepset"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/roberta-base-squad2-covid-qa-deepset"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "armageddon/albert-squad-v2-covid-qa-deepset"
 	},
 	{
 		"private": false,
@@ -148871,10 +148907,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-triviaqa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "daisyxie21/bert-base-uncased-8-50-0.01"
 	},
@@ -148894,5 +148926,19 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Manauu17/roberta_sentiments_es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "GermanT5/t5-efficient-gc4-german-base-nl36-old"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-triviaqa"
+	},
+	{
+		"private": false,
+		"modelId": "vincentclaes/mit-indoor-scenes"
 	}
 ]
