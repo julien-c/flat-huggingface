@@ -148638,11 +148638,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "Manauu17/roberta_sentiments_es_en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "kenjis2542/mt5-small-finetuned-5k-th-to-en"
 	},
@@ -148880,6 +148875,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "daisyxie21/bert-base-uncased-8-50-0.01"
 	},
 	{
@@ -148889,5 +148885,14 @@
 	{
 		"private": false,
 		"modelId": "RomainTrost/SpeechTechnology"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/dit-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Manauu17/roberta_sentiments_es"
 	}
 ]
