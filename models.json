@@ -148563,11 +148563,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-1000-pad-early-lit"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "malteos/scincl-wol"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "sunitha/AQG_CV_Squad"
+	},
+	{
+		"private": false,
+		"modelId": "tau/fewsion-first"
 	}
 ]
