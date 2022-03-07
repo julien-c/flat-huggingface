@@ -148742,10 +148742,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "vocab-transformers/msmarco-distilbert-word2vec256k"
-	},
-	{
-		"private": false,
 		"modelId": "MrAnderson/yoso-512-full-trivia"
 	},
 	{
@@ -148760,5 +148756,10 @@
 	{
 		"private": false,
 		"modelId": "aleksavega/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "vocab-transformers/msmarco-distilbert-custom_word2vec256k"
 	}
 ]
