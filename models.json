@@ -26804,6 +26804,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Manauu17/roberta_es_sentiment"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Britain/DialoGPT-small-DanyBotTwo"
 	},
@@ -148464,10 +148469,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "zhiweitong/dpr-ctx_encoder-single-nq-base"
-	},
-	{
-		"private": false,
 		"modelId": "Shravan1992/k2t-test3"
 	},
 	{
@@ -148630,6 +148631,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/mt5-small-finetuned-5k-th-to-en"
 	},
 	{
@@ -148644,5 +148646,13 @@
 	{
 		"private": false,
 		"modelId": "zinc0/lingua_franca"
+	},
+	{
+		"private": false,
+		"modelId": "MrAnderson/nystrom-512-full-trivia"
+	},
+	{
+		"private": false,
+		"modelId": "zhiweitong/dpr-ctx_encoder-single-nq-base"
 	}
 ]
