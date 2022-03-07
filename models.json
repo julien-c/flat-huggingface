@@ -148167,10 +148167,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Pmunozac/test_gradio"
-	},
-	{
-		"private": false,
 		"modelId": "human/wav2vec2-large-xls-r-300m-czech-colab"
 	},
 	{
@@ -148807,10 +148803,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "oskrmiguel/t5-small-finetuned-es-to-pt"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "fenixobia/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -148833,5 +148831,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "hyechanjun/interview-question-remake"
+	},
+	{
+		"private": false,
+		"modelId": "mrm8488/electricidad-small-discriminator-finetuned-mnli"
 	}
 ]
