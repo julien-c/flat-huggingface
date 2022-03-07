@@ -148683,6 +148683,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "spasis/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -148693,5 +148694,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kimbob/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "pki/wav2vec2-large-xlsr-53-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "pki/wav2vec2-large-xlsr-53"
 	}
 ]
