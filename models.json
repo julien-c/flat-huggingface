@@ -148835,6 +148835,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "z5ying/mbart-large-cc25-finetuned-source-to-target"
 	},
 	{
@@ -148979,5 +148980,10 @@
 	{
 		"private": false,
 		"modelId": "zenham/mskeen_m_e4_16h"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "mmgyorke/vit-cocktail-class"
 	}
 ]
