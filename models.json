@@ -148366,6 +148366,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/new-neu-vs-non-roberta-large-mnli-semeval"
 	},
 	{
@@ -148392,5 +148393,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aytugkaya/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "OneLoneTurnip/GPT-Jillian"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-test"
 	}
 ]
