@@ -148310,6 +148310,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "giggio/Far75BrBERT-base"
 	},
 	{
@@ -148325,11 +148326,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/tai-bart-xl-en-de-seeded-noisy-130k-steps"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "AdarshRavis/BabishBot"
 	},
 	{
 		"private": false,
@@ -148358,5 +148354,13 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "billfrench/autonlp-cyberlandr-ai-4-614417500"
+	},
+	{
+		"private": false,
+		"modelId": "jonghyuk/LJP"
+	},
+	{
+		"private": false,
+		"modelId": "skaltenp/results"
 	}
 ]
