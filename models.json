@@ -15494,11 +15494,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kabelomalapane/Helsinki-NLP-opus-finetuned-en-to-zu"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "FangLee/DialoGPT-small-Kirito"
 	},
@@ -79972,11 +79967,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "pjheslin/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-CRAFT-ES-EN"
 	},
 	{
 		"private": false,
@@ -148866,6 +148856,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "oskrmiguel/t5-small-finetuned-es-to-pt"
 	},
 	{
@@ -148951,6 +148942,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "nielsr/dit-large-finetuned-rvlcdip"
+		"modelId": "SerdarHelli/Segmentation-of-Teeth-in-Panoramic-X-ray-Image-Using-U-Net"
+	},
+	{
+		"private": false,
+		"modelId": "PBusienei/model-name"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "nielsr/dit-base-finetuned-rvlcdip"
 	}
 ]
