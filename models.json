@@ -115900,6 +115900,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "Kuray107/librispeech-semi-supervised-without-LM"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -148371,11 +148376,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "Kuray107/librispeech-semi-supervised-without-LM"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "aytugkaya/distilbert-base-uncased-finetuned-emotion"
 	},
@@ -148431,5 +148431,21 @@
 	{
 		"private": false,
 		"modelId": "GuoLiyong/icefall_streaming_prunned_transducer_stateless"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000-pad-early-new1"
+	},
+	{
+		"private": false,
+		"modelId": "jkhan447/sentiment-model-sample-go-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "D6STER/pat"
+	},
+	{
+		"private": false,
+		"modelId": "Splend1dchan/byt5small-squad"
 	}
 ]
