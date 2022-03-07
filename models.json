@@ -148545,6 +148545,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ttmusic/bert-base-uncased-finetuned-SCI5years-accelerate-wholewordmasking"
 	},
 	{
@@ -148762,5 +148763,21 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "vocab-transformers/msmarco-distilbert-custom_word2vec256k"
+	},
+	{
+		"private": false,
+		"modelId": "alirezafarashah/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/deb-l-30"
+	},
+	{
+		"private": false,
+		"modelId": "s50227harry/distilroberta-base-SelfDomain-Pre-Climate-Report"
+	},
+	{
+		"private": false,
+		"modelId": "oskrmiguel/mt5-small-finetuned-es-to-pt"
 	}
 ]
