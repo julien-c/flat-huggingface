@@ -49538,11 +49538,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "l3cube-pune/hing-bert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "0x7194633/keyt5-base"
 	},
@@ -148251,11 +148246,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "phosseini/atomic-bert-large"
-	},
-	{
-		"private": false,
 		"modelId": "akadriu/wav2vec2-large-xlsr-53-Total2e-4_5"
 	},
 	{
@@ -148430,5 +148420,9 @@
 	{
 		"private": false,
 		"modelId": "tclong/wav2vec2-large-xls-r-300m-tr-colab"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-1000-sum-pad-early-tfidf"
 	}
 ]
