@@ -148770,6 +148770,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "s50227harry/distilroberta-base-SelfDomain-Pre-Climate-Report"
 	},
 	{
@@ -148787,5 +148788,10 @@
 	{
 		"private": false,
 		"modelId": "malmarjeh/bert2bert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mrm8488/spanish-TinyBERT-betito-finetuned-mnli"
 	}
 ]
