@@ -116101,11 +116101,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ttmusic/bert-base-uncased-finetuned-SCI5years-accelerate"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/distilbart-cnn-12-6-finetuned-pubmed"
 	},
@@ -148474,5 +148469,13 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "zhiweitong/dpr-answer_encoder-single-nq-base"
+	},
+	{
+		"private": false,
+		"modelId": "zhiweitong/dpr-ctx_encoder-single-nq-base"
+	},
+	{
+		"private": false,
+		"modelId": "Shravan1992/k2t-test3"
 	}
 ]
