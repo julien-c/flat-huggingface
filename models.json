@@ -29838,11 +29838,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "phosseini/atomic-bert-large"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "2umm3r/distilbert-base-uncased-finetuned-cola"
 	},
@@ -148800,25 +148795,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "AzizLight/bert-base-arabertv02-finetuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "fenixobia/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
 		"modelId": "nielsr/dit-base"
-	},
-	{
-		"private": false,
-		"modelId": "AzizLight/bert-base-arabic-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "AzizLight/bert-base-arabertv2-finetuned-ner"
 	},
 	{
 		"private": false,
@@ -148836,6 +148818,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "pyf98/librispeech_conformer"
 	},
 	{
@@ -148855,5 +148838,13 @@
 	{
 		"private": false,
 		"modelId": "oskrmiguel/t5-small-finetuned-es-to-pt"
+	},
+	{
+		"private": false,
+		"modelId": "Carlisle/testestest"
+	},
+	{
+		"private": false,
+		"modelId": "pyf98/librispeech_conformer_layerdrop0.1_last6"
 	}
 ]
