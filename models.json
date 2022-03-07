@@ -72980,6 +72980,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "huak95/opus-mt-finetuned-50k-th-to-en"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-common_voice-tr-demo"
 	},
@@ -115905,6 +115910,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bongbongco/bert-badword-puri"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/fm-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"modelId": "923/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -148020,6 +148035,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-devops-ner"
+	},
+	{
+		"private": false,
 		"modelId": "Sshubam/cyclone_intensity_estimation"
 	},
 	{
@@ -148390,15 +148410,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "bongbongco/bert-badword-puri"
-	},
-	{
-		"private": false,
-		"modelId": "koobear/fm-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
 		"modelId": "xujh2014/test"
 	},
 	{
@@ -148418,10 +148429,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-1000-sum-pad-early-tfidf"
-	},
-	{
-		"private": false,
-		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-devops-ner"
 	},
 	{
 		"private": false,
@@ -148451,6 +148458,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "OneLoneTurnip/GPT-Quinn"
 	}
 ]
