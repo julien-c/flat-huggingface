@@ -148484,6 +148484,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "newhope/roberta-base-finetuned-cola"
 	},
 	{
@@ -148492,6 +148493,34 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "spy24/autonlp-optimized-paraphrasing-615217541"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "stanleychu2/system_400M"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "stanleychu2/t5-transition"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "stanleychu2/user_400M"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/theauthor-roberta-large-mnli"
+	},
+	{
+		"private": false,
+		"modelId": "Madhumitha/wav2vec2-large-xls-r-300m-turkish-colab"
+	},
+	{
+		"private": false,
+		"modelId": "squirro/distilroberta-base-squad_v2"
 	}
 ]
