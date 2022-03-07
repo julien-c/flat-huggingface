@@ -49691,6 +49691,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/favor-vs-against-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2_CRAFT_ES_EN"
 	},
@@ -148403,10 +148408,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "matiss/liv4ever-v1"
-	},
-	{
-		"private": false,
 		"modelId": "Kuray107/Experiments"
 	},
 	{
@@ -148459,9 +148460,5 @@
 	{
 		"private": false,
 		"modelId": "huak95/opus-mt-th-en-finetuned-5k-th-to-en"
-	},
-	{
-		"private": false,
-		"modelId": "SGrannemann/bert-finetuned-ner"
 	}
 ]
