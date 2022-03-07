@@ -148128,10 +148128,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/bart-large-cnn-samsum-finetuned-resume-accelerate"
-	},
-	{
-		"private": false,
 		"modelId": "bm0/sv_asr"
 	},
 	{
@@ -148804,12 +148800,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AzizLight/bert-base-arabertv02-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "oskrmiguel/t5-small-finetuned-es-to-pt"
 	},
 	{
 		"private": false,
@@ -148823,10 +148815,6 @@
 	{
 		"private": false,
 		"modelId": "AzizLight/bert-base-arabic-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer"
 	},
 	{
 		"private": false,
@@ -148845,5 +148833,27 @@
 	{
 		"private": false,
 		"modelId": "alexhf90/Clasificacion_sentimientos"
+	},
+	{
+		"private": false,
+		"modelId": "pyf98/librispeech_conformer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SuperAI2-Machima/mt5-small-translation_thai-english"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "peggyhuang/finetune-bert-base-v3"
+	},
+	{
+		"private": false,
+		"modelId": "z5ying/mbart-large-cc25-finetuned-source-to-target"
+	},
+	{
+		"private": false,
+		"modelId": "oskrmiguel/t5-small-finetuned-es-to-pt"
 	}
 ]
