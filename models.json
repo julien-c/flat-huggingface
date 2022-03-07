@@ -147911,6 +147911,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "petrichorRainbow/mrf-GPT"
 	},
 	{
@@ -148402,5 +148403,14 @@
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "bongbongco/bert-badword-puri"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/fm-roberta-large-mnli-semeval"
 	}
 ]
