@@ -48597,6 +48597,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/bert_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "BSC-TeMU/roberta-base-bne-sqac"
 	},
@@ -88302,11 +88307,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/albert_bert_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-512-finetuned-squad-seed-8"
 	},
@@ -119576,14 +119576,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Gozdi/bert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"modelId": "Gozdi/finetuned_distilbert_ner"
-	},
-	{
-		"private": false,
 		"modelId": "Graphcore/bart-base-ipu"
 	},
 	{
@@ -149493,6 +149485,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-Colab-GPU-Try1-finetuned-amazon-en-es"
 	},
 	{
