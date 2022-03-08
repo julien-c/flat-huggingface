@@ -34020,6 +34020,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-t5-small-squad"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ayameRushia/roberta-base-indonesian-sentiment-analysis-smsa"
 	},
@@ -72105,11 +72110,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "mudes/en-base"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "nabilShopify/DialogGPT-medium-alescrypto"
 	},
 	{
 		"private": false,
@@ -127931,6 +127931,26 @@
 	{
 		"private": false,
 		"modelId": "asaelavia/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-bart-base-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-bart-large-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-t5-base-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "asahi417/lmqg-t5-large-squad"
 	},
 	{
 		"private": false,
