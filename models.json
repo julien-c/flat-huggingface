@@ -116418,11 +116418,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "nbroad/lf-l-30"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/lilbratmia-littlehorney-plusbibi1"
 	},
@@ -148338,6 +148333,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ekohrt/qcat"
 	},
 	{
@@ -149521,6 +149517,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-segmentation",
 		"modelId": "segments-tobias/segformer-b0-finetuned-segments-sidewalk-2"
+	},
+	{
+		"private": false,
+		"modelId": "Chayawat/opus-mt-th-en-finetuned-th-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "rajat99/wav2vec2-large-xls-r-hindi-colab"
 	}
 ]
