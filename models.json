@@ -149396,16 +149396,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-colab-books-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
 		"modelId": "sh0416/clrcmd"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HuggingAlex1247/distilbert-base-german-europeana-cases-germaner"
 	},
 	{
 		"private": false,
@@ -149427,15 +149423,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "HuggingAlex1247/distilbert-base-german-europeana-cased-germaner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "mmgyorke/vit-world-landmarks"
 	},
@@ -149445,6 +149432,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_2"
 	},
 	{
@@ -149457,15 +149445,38 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_11"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_18"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-100-pad-early-lit"
+	},
+	{
+		"private": false,
+		"modelId": "shuoyingzhao/CSI5140PROJECT"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Mickzaa/MT-TH-EN"
+	},
+	{
+		"private": false,
+		"modelId": "Rawat29/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "HuggingAlex1247/distilbert-base-german-europeana-cased-germeval_14"
+	},
+	{
+		"private": false,
+		"modelId": "huseinzol05/sentiment-v2-tiny-fastformer"
 	}
 ]
