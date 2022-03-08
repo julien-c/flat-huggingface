@@ -29719,11 +29719,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "drAbreu/bioBERT-finrtuned-ner"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -133867,6 +133862,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "hf-internal-testing/tiny-random-rembert"
 	},
 	{
@@ -148971,6 +148967,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "mafeu/DialoGPT-medium-willem"
+	},
+	{
+		"private": false,
 		"modelId": "aaraki/gpt2-wikitext2"
 	},
 	{
@@ -149327,5 +149327,31 @@
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base-cv-20000"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-Pubmed"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "drAbreu/bioBERT-NER-BC2GM_corpus"
+	},
+	{
+		"private": false,
+		"modelId": "agemagician/protx-small-tpuv2-16-adafactor-0.01"
+	},
+	{
+		"private": false,
+		"modelId": "cwtpc/kiddee3-finetuned-th-to-en-2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/feufillet-greatestquotes-hostagekiller"
+	},
+	{
+		"private": false,
+		"modelId": "huseinzol05/sentiment-v2-tiny-albert"
 	}
 ]
