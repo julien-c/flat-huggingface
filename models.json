@@ -24812,7 +24812,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "token-classification",
 		"modelId": "kevinjesse/codebert-MT4TS"
 	},
 	{
@@ -51958,7 +51958,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "token-classification",
 		"modelId": "kevinjesse/graphcodebert-MT4TS"
 	},
 	{
@@ -136369,7 +136369,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "token-classification",
 		"modelId": "kevinjesse/codeberta-MT4TS"
 	},
 	{
@@ -149061,6 +149061,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/bert-base-1024-full-trivia"
 	},
 	{
@@ -149111,5 +149112,9 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kevinjesse/graphpolygot-MT4TS"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak-lr-8-10"
 	}
 ]
