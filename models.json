@@ -148797,11 +148797,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "oskrmiguel/t5-small-finetuned-es-to-pt"
-	},
-	{
-		"private": false,
 		"modelId": "Carlisle/testestest"
 	},
 	{
@@ -148979,11 +148974,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "youzanai/bert-customer-message-chinese"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "rockmiin/QMSum-dpr-passage-encoder"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "zenham/wail_m_e4_16h_2k"
 	}
 ]
