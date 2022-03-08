@@ -149287,6 +149287,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/bart-med-term-mlm"
 	},
 	{
@@ -149495,10 +149496,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ccdv/lsg-distilbert-base-uncased-4096"
 	},
 	{
 		"private": false,
 		"modelId": "Noricum/wav2vec2-large-xls-r-300m-de-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "huseinzol05/sentiment-v2-fastformer"
+	},
+	{
+		"private": false,
+		"modelId": "huseinzol05/sentiment-v2-fastformer-quantized"
+	},
+	{
+		"private": false,
+		"modelId": "RTM/vilang"
 	}
 ]
