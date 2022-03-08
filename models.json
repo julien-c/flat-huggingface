@@ -54756,11 +54756,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "0x7194633/gpt-smaller"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "AdapterHub/roberta-base-pf-duorc_p"
 	},
@@ -105161,6 +105156,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "alirezafarashah/wav2vec2-base-finetuned-ks"
+	},
+	{
+		"private": false,
 		"modelId": "123www/test_model"
 	},
 	{
@@ -149219,6 +149218,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "nairaxo/dvoice-swahili"
 	},
 	{
@@ -149302,5 +149302,14 @@
 	{
 		"private": false,
 		"modelId": "microsoft/resnet-26"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "0x7194633/CodeGPT-python"
+	},
+	{
+		"private": false,
+		"modelId": "alirezafarashah/wav2vec2-base-ks"
 	}
 ]
