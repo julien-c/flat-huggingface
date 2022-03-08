@@ -149057,6 +149057,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "SGrannemann/bert-finetuned-ner"
+	},
+	{
+		"private": false,
 		"modelId": "aaraki/gpt2-wikitext2"
 	},
 	{
@@ -149144,16 +149148,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak-lr-8-10-1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "davidlopez/test-model"
-	},
-	{
-		"private": false,
-		"modelId": "davidlopez/distilbert-base-uncased-go-emotion"
 	},
 	{
 		"private": false,
@@ -149165,10 +149161,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "amanm27/bert-base-uncased-scouting"
 	},
 	{
 		"private": false,
 		"modelId": "PSW/saved_model"
+	},
+	{
+		"private": false,
+		"modelId": "abdusahmbzuai/wav2vec2-adi5-ctc"
 	}
 ]
