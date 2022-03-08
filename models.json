@@ -116427,6 +116427,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "nbroad/lf-l-30"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/lilbratmia-littlehorney-plusbibi1"
 	},
@@ -148967,6 +148972,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "mafeu/DialoGPT-medium-willem"
 	},
 	{
@@ -149330,10 +149336,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-Pubmed"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "drAbreu/bioBERT-NER-BC2GM_corpus"
 	},
@@ -149353,5 +149355,17 @@
 	{
 		"private": false,
 		"modelId": "huseinzol05/sentiment-v2-tiny-albert"
+	},
+	{
+		"private": false,
+		"modelId": "huseinzol05/sentiment-v2-tiny-albert-quantized"
+	},
+	{
+		"private": false,
+		"modelId": "agemagician/protx-small-tpuv2-16-adamw-0.001"
+	},
+	{
+		"private": false,
+		"modelId": "mrm6/mt5-small-finetuned-amazon-en-es"
 	}
 ]
