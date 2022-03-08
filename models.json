@@ -148801,14 +148801,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer"
-	},
-	{
-		"private": false,
-		"modelId": "Ameer05/results-bart-large-cnn-samsum-finetuned-resume-trainer-api"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "Ameer05/results-model-token-repo-samsum-finetuned-resume"
 	},
@@ -149022,6 +149014,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "nickmuchi/sec-bert-finetuned-finance-classification"
 	},
 	{
@@ -149039,5 +149032,9 @@
 	{
 		"private": false,
 		"modelId": "huseinzol05/sentiment-v2-xlnet-quantized"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/theauthor-roberta-large-mnli-zero"
 	}
 ]
