@@ -148379,11 +148379,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MrAnderson/bert-base-1024-full-trivia"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000-pad-early-new1"
 	},
@@ -149094,6 +149089,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "kevinjesse/roberta-MT4TS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kevinjesse/bert-MT4TS"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "kevinjesse/polygot-MT4TS"
 	}
 ]
