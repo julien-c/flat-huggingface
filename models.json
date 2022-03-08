@@ -149112,6 +149112,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak-lr-8-10"
 	},
 	{
@@ -149136,5 +149137,9 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/betonkoepfin-littlehorney-plusbibi1"
+	},
+	{
+		"private": false,
+		"modelId": "kamilali/distilbert-base-uncased-finetuned-custom"
 	}
 ]
