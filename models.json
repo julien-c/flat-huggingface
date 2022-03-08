@@ -27409,11 +27409,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "koobear/roberta-mnli-finetune-config"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "leslie/bert_finetuning_test"
 	},
 	{
@@ -148911,6 +148906,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/t5-small-paraphrasing-mlm"
 	},
 	{
@@ -148978,6 +148974,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "rockmiin/QMSum-dpr-query-encoder"
+	},
+	{
+		"private": false,
+		"modelId": "youzanai/bert-customer-message-chinese"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "rockmiin/QMSum-dpr-passage-encoder"
 	}
 ]
