@@ -148703,11 +148703,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "s50227harry/distilroberta-base-SelfDomain-Pre-Climate-Report"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "sudoparsa/wav2vec2-base-finetuned-ks"
 	},
@@ -148906,6 +148901,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "alexhf90/resultados"
 	},
 	{
@@ -148986,5 +148982,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zenham/wail_m_e4_16h_2k"
+	},
+	{
+		"private": false,
+		"modelId": "akshara23/Terra_Important_Sentence"
+	},
+	{
+		"private": false,
+		"modelId": "akshara23/summarization_model_save"
 	}
 ]
