@@ -148940,10 +148940,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "xavierp/fbdblv23"
-	},
-	{
-		"private": false,
 		"modelId": "huseinzol05/bpe"
 	},
 	{
@@ -148990,6 +148986,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "SGrannemann/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "mafeu/DialoGPT-medium-willem"
 	},
 	{
 		"private": false,
@@ -149327,6 +149328,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AlekseyKorshuk/bert-finetuned-ner"
 	},
 	{
@@ -149340,6 +149342,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pub-med"
+		"modelId": "YoungDeuk/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "AlekseyKorshuk/bert-finetuned-ner-accelerate"
 	}
 ]
