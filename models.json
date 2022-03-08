@@ -14607,6 +14607,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Doquey/DialoGPT-small-Michaelbot"
 	},
@@ -14812,11 +14817,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "CLTL/gm-ner-xlmrbase"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -21332,11 +21332,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ccdv/lsg-base-4096-fr"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "chrisliu298/arxiv_ai_gpt2"
 	},
@@ -21527,6 +21522,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "assemblyai/distilbert-base-uncased-sst2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ccdv/lsg-base-4096-fr"
 	},
 	{
 		"private": false,
@@ -48819,11 +48819,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "ccdv/legal-lsg-small-uncased-4096"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "claudelkros/T5_french_wiki_summarizer"
 	},
@@ -52911,6 +52906,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "bookbot/gpt2-indo-medium-kids-stories"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "ccdv/legal-lsg-small-uncased-4096"
 	},
 	{
 		"private": false,
@@ -104800,6 +104800,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "daisyxie21/bert-base-uncased-8-50-0.01"
+	},
+	{
+		"private": false,
 		"modelId": "123www/test_model"
 	},
 	{
@@ -120001,18 +120006,6 @@
 	{
 		"private": false,
 		"modelId": "Jeevesh8/feather_berts1"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_14_ft_4"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_16_ft_3"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/multiberts_seed_16_ft_4"
 	},
 	{
 		"private": false,
@@ -148381,6 +148374,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "MrAnderson/bert-base-1024-full-trivia"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-1000-pad-early-new1"
 	},
@@ -148811,11 +148809,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "daisyxie21/bert-base-uncased-8-50-0.01"
-	},
-	{
-		"private": false,
 		"modelId": "PBusienei/Sentence-similarity"
 	},
 	{
@@ -149044,11 +149037,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "MrAnderson/bert-base-1024-full-trivia"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/fitdollar"
 	},
@@ -149059,15 +149047,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "Jeevesh8/t5-small-cogs_0"
-	},
-	{
-		"private": false,
 		"modelId": "cammy/bart-large-cnn-10k-pad-early-lit"
-	},
-	{
-		"private": false,
-		"modelId": "Jeevesh8/t5-small-cogs_1"
 	},
 	{
 		"private": false,
@@ -149075,10 +149055,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "smalljoys/sentiment-smalljoys"
+		"pipeline_tag": "conversational",
+		"modelId": "mafeu/DialoGPT-medium-willem"
 	},
 	{
 		"private": false,
-		"modelId": "mafeu/DialoGPT-medium-willem"
+		"modelId": "jiobiala24/wav2vec2-base-cv-10000"
 	}
 ]
