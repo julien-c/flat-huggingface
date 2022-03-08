@@ -27372,11 +27372,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ProfessorBob/RoBERTA-question_classification"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "SEBIS/code_trans_t5_base_code_documentation_generation_python"
 	},
@@ -28740,11 +28735,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Narrativa/mT5-base-finetuned-tydiQA-xqa"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ProfessorBob/CamemBERT-question_classification"
 	},
 	{
 		"private": false,
@@ -37061,11 +37051,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "Primer/bart-squad2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ProfessorBob/qa-camembert-large-fquad-piaf-pysbd"
 	},
 	{
 		"private": false,
@@ -123163,10 +123148,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ProfessorBob/qa-camembert-large-fquad-piaf"
-	},
-	{
-		"private": false,
 		"modelId": "Pumpkinpie25/DialoGPT-small-Rick"
 	},
 	{
@@ -148975,6 +148956,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-cv-10000"
 	},
 	{
@@ -148986,11 +148968,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "SGrannemann/bert-finetuned-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "mafeu/DialoGPT-medium-willem"
 	},
 	{
 		"private": false,
@@ -149333,19 +149310,22 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "ProfessorBob/qag_model"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubmed"
-	},
-	{
-		"private": false,
 		"modelId": "YoungDeuk/t5-small-finetuned-xsum"
 	},
 	{
 		"private": false,
 		"modelId": "AlekseyKorshuk/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "Zarkit/xmlRoberta-finetuned-p"
+	},
+	{
+		"private": false,
+		"modelId": "stefan-it/bert-base-historic-multilingual-64k-cased"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-cv-20000"
 	}
 ]
