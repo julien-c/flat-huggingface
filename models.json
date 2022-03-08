@@ -149605,6 +149605,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "datarpit/distilbert-base-uncased-finetuned-natural-questions"
 	},
 	{
@@ -149619,6 +149620,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "anton-l/xtreme_s_xlsr_minds14_fr"
+	},
+	{
+		"private": false,
+		"modelId": "kcarnold/codeparrot"
 	}
 ]
