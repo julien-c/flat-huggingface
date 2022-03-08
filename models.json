@@ -60735,11 +60735,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "mmgyorke/vit-cocktail-class"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "rockmiin/QMSum-dpr-query-encoder"
 	},
@@ -149470,6 +149465,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-100-pad-early-lit"
 	}
 ]
