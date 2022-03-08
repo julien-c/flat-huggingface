@@ -80579,6 +80579,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-triviaqa"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "13048909972/wav2vec2-common_voice-tr-demo"
 	},
@@ -149309,10 +149314,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Zarkit/xmlRoberta-finetuned-p"
-	},
-	{
-		"private": false,
 		"modelId": "stefan-it/bert-base-historic-multilingual-64k-cased"
 	},
 	{
@@ -149564,6 +149565,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_19"
 	},
 	{
@@ -149580,5 +149582,9 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-squadv2-large-batch"
+	},
+	{
+		"private": false,
+		"modelId": "Zarkit/xmlRoberta-finetuned-p"
 	}
 ]
