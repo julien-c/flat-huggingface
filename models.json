@@ -108651,11 +108651,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "cuongngm/xlm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cuongtran/BARTTextSummarization"
 	},
@@ -149008,6 +149003,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "SGrannemann/bert-finetuned-ner"
 	},
 	{
@@ -149283,5 +149279,21 @@
 	{
 		"private": false,
 		"modelId": "DrishtiSharma/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "frahman/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "ICFNext/EYY-Categorisation"
+	},
+	{
+		"private": false,
+		"modelId": "lewtun/wav2vec2-base-100k-voxpopuli-finetuned-gtzan"
+	},
+	{
+		"private": false,
+		"modelId": "cwtpc/kiddee3-finetuned-th-to-en"
 	}
 ]
