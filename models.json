@@ -57818,11 +57818,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "Ameer05/results-model-token-repo-samsum-finetuned-resume"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ebrigham/EYY-Topic-Classification"
 	},
@@ -149112,11 +149107,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak-lr-8-10"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystrom-1024-full-trivia"
 	},
@@ -149149,6 +149139,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "PSW/bart-base-samsum-3epoch"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak-lr-8-10"
 	}
 ]
