@@ -116462,24 +116462,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "nielsr/dit-base"
-	},
-	{
-		"private": false,
-		"modelId": "nielsr/dit-large"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nielsr/dit-base-finetuned-rvlcdip"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nielsr/dit-large-finetuned-rvlcdip"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/lilbratmia-littlehorney-plusbibi1"
 	},
@@ -149181,6 +149163,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-Concat_CRAFT_es"
 	},
 	{
@@ -149256,5 +149239,35 @@
 	{
 		"private": false,
 		"modelId": "patrickvonplaten/dummy_model"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/dit-base"
+	},
+	{
+		"private": false,
+		"modelId": "microsoft/dit-large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/dit-base-finetuned-rvlcdip"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/dit-large-finetuned-rvlcdip"
+	},
+	{
+		"private": false,
+		"modelId": "amanm27/bert-base-uncased-sports-scouting"
+	},
+	{
+		"private": false,
+		"modelId": "davidlopez/distilbert-base-uncased-go-emotion-cyberblue"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2-2-bart-large-from-rnd"
 	}
 ]
