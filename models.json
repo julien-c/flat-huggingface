@@ -149554,10 +149554,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_3"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_12"
 	},
 	{
@@ -149571,6 +149573,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "z-uo/roberta-qasper"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-squadv2-large-batch"
 	}
 ]
