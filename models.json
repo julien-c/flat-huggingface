@@ -149115,6 +149115,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystrom-1024-full-trivia"
 	},
 	{
@@ -149125,5 +149126,13 @@
 		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "ydshieh/tiny-random-rembert"
+	},
+	{
+		"private": false,
+		"modelId": "SGrannemann/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "kamilali/distilbert-base-uncased-finetuned-custom"
 	}
 ]
