@@ -26224,11 +26224,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_bert_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "CNT-UPenn/RoBERTa_for_seizureFrequency_QA"
 	},
@@ -71872,11 +71867,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "lysandre/temp-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
 		"modelId": "m-polignano-uniba/bert_uncased_L-12_H-768_A-12_italian_alberto"
 	},
 	{
@@ -88343,6 +88333,11 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/bert-base-uncased-few-shot-k-64-finetuned-squad-seed-10"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/albert_bert_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -137528,10 +137523,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lysandre/test-bin-bug"
-	},
-	{
-		"private": false,
 		"modelId": "lysandre/test-elmo-tiny"
 	},
 	{
@@ -148876,10 +148867,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kalaoke/msmarco_Training_aout_2_model"
-	},
-	{
-		"private": false,
 		"modelId": "rmdlv/hohol"
 	},
 	{
@@ -149178,6 +149165,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "drAbreu/bioBERT-NER-NCBI_disease"
 	},
 	{
@@ -149227,10 +149215,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "amanm27/bert-base-uncased-wiki-scouting"
 	},
 	{
 		"private": false,
 		"modelId": "mnw/EYY-Category-Classifier"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large-logging"
+	},
+	{
+		"private": false,
+		"modelId": "lysandre/test-bin-bug2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "lysandre/temp-bert2"
 	}
 ]
