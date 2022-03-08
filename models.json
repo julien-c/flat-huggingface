@@ -80574,11 +80574,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-triviaqa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "alexhf90/resultados"
 	},
@@ -148958,6 +148953,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "Gozdi/finetuned_distilbert_ner"
+	},
+	{
+		"private": false,
 		"modelId": "aaraki/gpt2-wikitext2"
 	},
 	{
@@ -149224,6 +149223,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-2-layer"
 	},
 	{
@@ -149549,10 +149549,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "sdadas/polish-longformer-large-4096"
 	},
 	{
 		"private": false,
 		"modelId": "Jeevesh8/t5-small-cogs_3"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/t5-small-cogs_12"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/t5-small-cogs_19"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-triviaqa-large-batch"
+	},
+	{
+		"private": false,
+		"modelId": "z-uo/roberta-qasper"
 	}
 ]
