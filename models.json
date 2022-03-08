@@ -148895,6 +148895,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "mrbalazs5/bert-finetuned-squad"
 	},
 	{
@@ -149021,6 +149022,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/theauthor-roberta-large-mnli-zero"
 	},
 	{
@@ -149180,5 +149182,9 @@
 	{
 		"private": false,
 		"modelId": "cwtpc/th2en_word2word_finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/theauthor-roberta-large-mnli-few"
 	}
 ]
