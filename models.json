@@ -148374,6 +148374,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "MikhailGalperin/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/bert-base-1024-full-trivia"
 	},
@@ -148841,10 +148846,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "MikhailGalperin/distilbert-base-uncased-finetuned-ner"
-	},
-	{
-		"private": false,
 		"modelId": "Haritha/teacher"
 	},
 	{
@@ -149088,6 +149089,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "microsoft/tapex-large-finetuned-wikisql"
+	},
+	{
+		"private": false,
+		"modelId": "kevinjesse/roberta-MT4TS"
 	}
 ]
