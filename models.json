@@ -24817,11 +24817,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "kevinjesse/codebert-MT4TS"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kuzgunlar/electra-turkish-sentiment-analysis"
 	},
@@ -24938,6 +24933,10 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "nlpaueb/sec-bert-shape"
+	},
+	{
+		"private": false,
+		"modelId": "kevinjesse/codebert-MT4TS"
 	},
 	{
 		"private": false,
@@ -51934,11 +51933,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "kevinjesse/graphcodebert-MT4TS"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "koala/xlm-roberta-large-en"
 	},
@@ -52465,6 +52459,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_es-finetuned-ner-CRAFT_es"
+	},
+	{
+		"private": false,
+		"modelId": "kevinjesse/graphcodebert-MT4TS"
 	},
 	{
 		"private": false,
@@ -88658,11 +88656,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/mt5-small-finetuned-5k-th-to-en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mrm8488/electricidad-small-discriminator-finetuned-mnli"
 	},
 	{
 		"private": false,
@@ -136262,11 +136255,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "kevinjesse/codeberta-MT4TS"
-	},
-	{
-		"private": false,
 		"modelId": "kevinlu1248/personificationgen"
 	},
 	{
@@ -148958,6 +148946,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "kevinjesse/codeberta-MT4TS"
+	},
+	{
+		"private": false,
 		"modelId": "aaraki/gpt2-wikitext2"
 	},
 	{
@@ -149604,6 +149596,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Gozdi/mobilebert_finetuned_ner"
+	},
+	{
+		"private": false,
+		"modelId": "datarpit/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "datarpit/distilbert-base-uncased-finetuned-natural-questions"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "akozlo/lib_bal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mrm8488/electricidad-small-finetuned-paws-x-es"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_minds14_fr"
 	}
 ]
