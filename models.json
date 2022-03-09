@@ -150201,6 +150201,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Narshion/mWACH_mBERT_System"
 	},
 	{
@@ -150210,6 +150211,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Sh3ra/arabert-finetuned-arcd"
 	},
 	{
@@ -150218,6 +150220,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Davlan/xlmr-base-afro-maft"
 	},
 	{
@@ -150236,5 +150239,10 @@
 	{
 		"private": false,
 		"modelId": "Chayawat/opus-mt-en-mul-finetuned-en-to-th"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "MarioPenguin/beto_stars"
 	}
 ]
