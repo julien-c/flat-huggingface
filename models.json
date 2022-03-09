@@ -148932,6 +148932,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "M-Quan/wav2vec2-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Jeevesh8/t5-small-cogs_6"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Jeevesh8/t5-small-cogs_15"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_22"
 	},
@@ -149709,10 +149724,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "M-Quan/wav2vec2-demo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jcai1/ss_ver1"
 	},
@@ -149825,16 +149836,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Jeevesh8/t5-small-cogs_6"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Jeevesh8/t5-small-cogs_15"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "Kontawat/mt5_MTmodel-scb-en-th"
 	},
 	{
@@ -149861,5 +149862,13 @@
 	{
 		"private": false,
 		"modelId": "koobear/theauthor-roberta-large-mnli-semeval-all"
+	},
+	{
+		"private": false,
+		"modelId": "snoop2head/KO-to-EN-Deep-Encoder-Shallow-Decoder"
+	},
+	{
+		"private": false,
+		"modelId": "ScandinavianMrT/distilbert-SARC"
 	}
 ]
