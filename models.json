@@ -149934,6 +149934,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "meedan/mdeberta-v3-filipino"
 	},
 	{
@@ -150248,20 +150249,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "aleksavega/mt5-small-AWS_SL-GPU-T1-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
 		"modelId": "wuttha/mbart-large-50-many-to-many-mmt-finetuned-en-to-th"
-	},
-	{
-		"private": false,
-		"modelId": "aleksavega/mt5-small-AWS_SL-GPU-T2-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "aleksavega/mt5-small-AWS_SL-GPU-T3-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -150278,11 +150266,18 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "aleksavega/mt5-small-AWSSL-GPU-t5-finetuned-amazon-en-es"
+		"modelId": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu-CV8"
 	},
 	{
 		"private": false,
-		"modelId": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu-CV8"
+		"modelId": "akhaliq/RealBasicVSR_x4"
+	},
+	{
+		"private": false,
+		"modelId": "huak95/mt-align-finetuned-LST-th-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/bigbird-pegasus-large-bigpatent-finetuned-pubMed"
 	}
 ]
