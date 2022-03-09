@@ -48416,6 +48416,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-base-formal-to-informal"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "jannesg/takalane_sot_roberta"
 	},
@@ -60993,6 +60998,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "irvingpop/dreambank"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-formal-to-informal"
 	},
 	{
 		"private": false,
@@ -100129,6 +100139,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-formal-to-informal"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "itsunoda/wolfbbsRoBERTa-small"
 	},
@@ -135296,6 +135311,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-formal-to-informal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-formal-to-informal"
+	},
+	{
+		"private": false,
 		"modelId": "itaifarhi/Itai"
 	},
 	{
@@ -149892,14 +149917,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_7"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_16"
 	},
 	{
 		"private": false,
 		"modelId": "Jeevesh8/t5-small-cogs_23"
+	},
+	{
+		"private": false,
+		"modelId": "Suyogyart/nepali-20-newsgroup-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "huak95/mt-align-finetuned-LST-en-to-th"
 	}
 ]
