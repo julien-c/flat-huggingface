@@ -149714,11 +149714,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pritamdeka/PubMedBert-PICO-sentences"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SuperAI2-Machima/mt5-small-thai_translation_th-en_en-th"
 	},
@@ -149751,5 +149746,23 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "negfir/SQUAD10L"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "YoungDeuk/t5-small-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "brandontanzhirong/paraphrasing-tool_t5-large-finetuned-QQP"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "aaraki/distilbert-base-uncased-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/vit-base-xray-pneumonia"
 	}
 ]
