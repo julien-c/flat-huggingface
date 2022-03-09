@@ -30609,6 +30609,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Yanjie/message-intent"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "addy88/perceiver_image_classifier"
 	},
@@ -150068,6 +150073,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "alirezafarashah/wav2vec2-base-ks-2sec"
 	},
 	{
@@ -150499,5 +150505,9 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-newsqa"
+	},
+	{
+		"private": false,
+		"modelId": "edubz/anne_bradstreet"
 	}
 ]
