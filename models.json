@@ -26942,6 +26942,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/roberta-mnli-finetune-config"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lgris/sew-tiny-portuguese-cv8"
 	},
@@ -149614,6 +149619,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "DrishtiSharma/xlm-roberta-base-finetuned-panx-de"
 	},
 	{
@@ -149778,10 +149784,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "HuggingAlex1247/gbert-large-germeval_14"
-	},
-	{
-		"private": false,
 		"modelId": "Chayawat/opus-mt-th-en-finetuned-th-to-en"
 	},
 	{
@@ -149881,7 +149883,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "agemagician/protx-small-tpuv2-16-shampoo-0.06"
 	},
 	{
