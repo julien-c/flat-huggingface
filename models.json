@@ -150126,11 +150126,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "nickmuchi/vit-finetuned-xray-pneumonia"
-	},
-	{
-		"private": false,
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-combinedmodel-ner"
 	},
 	{
@@ -150180,6 +150175,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-Colab-GPU-t4-finetuned-amazon-en-es"
 	},
 	{
@@ -150228,10 +150224,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jfealko/wav2vec2-large-xls-r-300m-irish-local"
 	},
 	{
 		"private": false,
 		"modelId": "Sh3ra/arabert-finetuned-arcd"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-lv60-50k"
+	},
+	{
+		"private": false,
+		"modelId": "Davlan/xlmr-base-afro-maft"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-quac"
+	},
+	{
+		"private": false,
+		"modelId": "dingzx97/bbu-ft-imdb"
 	}
 ]
