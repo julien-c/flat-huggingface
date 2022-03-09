@@ -150176,6 +150176,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-Colab-GPU-Try2-finetuned-amazon-en-es"
 	},
 	{
@@ -150205,6 +150206,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "nickmuchi/vit-finetuned-xray-pneumonia"
+	},
+	{
+		"private": false,
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-combinedmodel-ner"
+	},
+	{
+		"private": false,
+		"modelId": "EngNada/wav2vec2-large-xlsr-53-demo1"
 	}
 ]
