@@ -72259,11 +72259,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Mickzaa/MT-TH-EN"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "KoichiYasuoka/roberta-base-ukrainian"
 	},
@@ -150072,6 +150067,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "huak95/mt-align-finetuned-LST-en-to-th"
+	},
+	{
+		"private": false,
 		"modelId": "alirezafarashah/wav2vec2-base-ks-2sec"
 	},
 	{
@@ -150470,11 +150470,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Mickzaa/Translation_TH-EN"
-	},
-	{
-		"private": false,
 		"modelId": "squidgy/phrase_difficulty_model"
 	},
 	{
@@ -150491,6 +150486,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "huak95/mt5-small_th-en_en-th_V2"
+		"modelId": "alihan/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "nielsr/bert-finetuned-ner"
 	}
 ]
