@@ -150235,10 +150235,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "merve/callback-batch-logs-test"
-	},
-	{
-		"private": false,
 		"modelId": "Chayawat/opus-mt-en-mul-finetuned-en-to-th"
 	},
 	{
@@ -150253,6 +150249,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_9"
 	},
 	{
@@ -150274,5 +150271,14 @@
 	{
 		"private": false,
 		"modelId": "aleksavega/mt5-small-AWS_SL-GPU-T2-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "aleksavega/mt5-small-AWS_SL-GPU-T3-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"modelId": "merve/callback-batch-logs-test"
 	}
 ]
