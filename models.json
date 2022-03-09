@@ -150314,16 +150314,8 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pubMed"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "Kalaoke/embeddings_model"
-	},
-	{
-		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-arxiv-finetuned-pub-Med"
 	},
 	{
 		"private": false,
@@ -150331,18 +150323,16 @@
 	},
 	{
 		"private": false,
-		"modelId": "petrichorRainbow/covid-bert-mrf"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "negfir/squeezebert-uncased-finetuned-squad"
 	},
 	{
 		"private": false,
-		"modelId": "calebcsjm/dummy-model"
+		"pipeline_tag": "fill-mask",
+		"modelId": "petrichorRainbow/mrf-bert"
 	},
 	{
 		"private": false,
-		"modelId": "petrichorRainbow/mrf-bert"
+		"modelId": "petrichorRainbow/mrf-covid-bert"
 	}
 ]
