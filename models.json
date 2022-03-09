@@ -100223,11 +100223,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "kalloud/opus-mt-en-ro-finetuned-en-to-ro"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "kcarrig/CoffeeMatey"
 	},
@@ -147452,10 +147447,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "kalloud/opus-mt-en-fr-finetuned-en-to-fr"
-	},
-	{
-		"private": false,
 		"modelId": "ali2066/finetuned_token_itr0_2e-05_webDiscourse_25_02_2022-21_13_46"
 	},
 	{
@@ -149298,11 +149289,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "YoungDeuk/t5-small-finetuned-xsum"
-	},
-	{
-		"private": false,
 		"modelId": "AlekseyKorshuk/bert-finetuned-ner-accelerate"
 	},
 	{
@@ -149718,15 +149704,52 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_14"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_21"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "pritamdeka/PubMedBert-PICO-sentences"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SuperAI2-Machima/mt5-small-thai_translation_th-en_en-th"
+	},
+	{
+		"private": false,
+		"modelId": "aditya10/bert-base-uncased-finetuned-swag"
+	},
+	{
+		"private": false,
+		"modelId": "jcai1/test-trainer"
+	},
+	{
+		"private": false,
+		"modelId": "M-Quan/wav2vec2-demo"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "jcai1/ss_ver1"
+	},
+	{
+		"private": false,
+		"modelId": "snoop2head/deep-encoder-shallow-decoder-ko"
+	},
+	{
+		"private": false,
+		"modelId": "snoop2head/deep-encoder-shallow-decoder-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "negfir/SQUAD10L"
 	}
 ]
