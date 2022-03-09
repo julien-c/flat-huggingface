@@ -52891,7 +52891,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "ssardorf/pegasus-summ"
 	},
 	{
@@ -57534,11 +57533,6 @@
 	{
 		"private": false,
 		"modelId": "jcblaise/distilbert-tagalog-base-cased"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab"
 	},
 	{
 		"private": false,
@@ -70210,11 +70204,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-localtest2"
-	},
-	{
-		"private": false,
 		"modelId": "ji-xin/bert_base-MRPC-two_stage"
 	},
 	{
@@ -77253,11 +77242,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "jenspt/byt5_ft_all_clean_data_lr_1e4"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-localtest3"
 	},
 	{
 		"private": false,
@@ -104985,11 +104969,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-with-asian-epoch5"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-irish-colab"
 	},
 	{
 		"private": false,
@@ -135835,14 +135814,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-localtest4"
-	},
-	{
-		"private": false,
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-russian-colab-test"
-	},
-	{
-		"private": false,
 		"modelId": "jfeldman/model_name"
 	},
 	{
@@ -148794,10 +148765,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-turkish-colab_test"
-	},
-	{
-		"private": false,
 		"modelId": "shrishail/k2t-ssg"
 	},
 	{
@@ -149234,10 +149201,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "xavierp/ddd"
-	},
-	{
-		"private": false,
 		"modelId": "skaltenp/results"
 	},
 	{
@@ -149434,14 +149397,6 @@
 	{
 		"private": false,
 		"modelId": "hadehuang/testmodel"
-	},
-	{
-		"private": false,
-		"modelId": "xavierp/fbdblv6"
-	},
-	{
-		"private": false,
-		"modelId": "xavierp/fbdblv23"
 	},
 	{
 		"private": false,
@@ -149818,10 +149773,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-irish-colab-convert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_4"
 	},
@@ -149834,11 +149785,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_20"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "jfealko/wav2vec2-large-xls-r-300m-irish-colab-test-convert"
 	},
 	{
 		"private": false,
@@ -150140,6 +150086,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "l53513955/PAQ_256"
+	},
+	{
+		"private": false,
 		"modelId": "nitzanav/albert-base-v2-squad2-finetuned-squad"
 	},
 	{
@@ -150229,11 +150180,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "dingzx97/bbu-pl-imdb"
-	},
-	{
-		"private": false,
 		"modelId": "aleksavega/mt5-small-Colab-GPU-t4-finetuned-amazon-en-es"
 	},
 	{
@@ -150271,5 +150217,21 @@
 	{
 		"private": false,
 		"modelId": "Sigui/distilgpt2"
+	},
+	{
+		"private": false,
+		"modelId": "SGrannemann/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"modelId": "Narshion/mWACH_mBERT_System"
+	},
+	{
+		"private": false,
+		"modelId": "jfealko/wav2vec2-large-xls-r-300m-irish-local"
+	},
+	{
+		"private": false,
+		"modelId": "Sh3ra/arabert-finetuned-arcd"
 	}
 ]
