@@ -57507,6 +57507,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/it5-base-news-summarization"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "ivangtorre/wav2vec2-large-xlsr-53-basque"
 	},
@@ -86057,6 +86062,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-informal-to-formal"
+	},
+	{
+		"private": false,
 		"modelId": "iuliaturc/bert_uncased_L-2_H-128_A-2"
 	},
 	{
@@ -100141,6 +100151,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/mt5-small-formal-to-informal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-informal-to-formal"
 	},
 	{
 		"private": false,
@@ -135312,12 +135327,72 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-base-informal-to-formal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/it5-large-formal-to-informal"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-informal-to-formal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/it5-large-news-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/it5-large-wiki-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/it5-small-news-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/it5-small-wiki-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/mt5-base-formal-to-informal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-informal-to-formal"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/mt5-base-news-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/mt5-base-wiki-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/mt5-small-news-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/mt5-small-wiki-summarization"
 	},
 	{
 		"private": false,
@@ -149876,6 +149951,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "koobear/theauthor-roberta-large-mnli-semeval-all"
 	},
 	{
@@ -149927,6 +150003,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_23"
 	},
 	{
@@ -149937,5 +150014,13 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/mt-align-finetuned-LST-en-to-th"
+	},
+	{
+		"private": false,
+		"modelId": "alirezafarashah/wav2vec2-base-ks-2sec"
+	},
+	{
+		"private": false,
+		"modelId": "nitzanav/biobert-large-cased-v1.1-mnli-finetuned-squad"
 	}
 ]
