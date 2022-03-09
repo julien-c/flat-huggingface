@@ -149841,6 +149841,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "agemagician/protx-small-tpuv2-16-shampoo-0.06"
 	},
 	{
@@ -150031,6 +150032,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "lvyufeng/bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "rajat99/hindi_base_wav2vec2"
 	},
@@ -150058,19 +150063,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "lvyufeng/bert-base-cased"
-	},
-	{
-		"private": false,
-		"modelId": "lvyufeng/bert-base-uncased"
-	},
-	{
-		"private": false,
 		"modelId": "anton-l/xtreme_s_xlsr_covost2_ru_en"
-	},
-	{
-		"private": false,
-		"modelId": "lvyufeng/bert-large-uncased"
 	},
 	{
 		"private": false,
@@ -150193,10 +150186,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_8"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/yoso-1024-full-trivia"
 	},
 	{
@@ -150205,14 +150200,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_17"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Jeevesh8/t5-small-cogs_24"
 	},
 	{
 		"private": false,
-		"modelId": "lvyufeng/bert-large-cased"
+		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-combinedmodel1-ner"
+	},
+	{
+		"private": false,
+		"modelId": "suvarnsing/wav2vec2-large-xls-r-300m-Hindi-colab"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base-lv60-10k"
 	}
 ]
