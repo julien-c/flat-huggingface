@@ -150363,6 +150363,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "caush/WithThePageName"
 	},
 	{
@@ -150392,6 +150393,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "apkbala107/tamil_albert"
 	},
 	{
@@ -150405,5 +150407,9 @@
 	{
 		"private": false,
 		"modelId": "Gautam9595/bert-base-multilingual-cased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "mfleck/wav2vec2-large-xls-r-300m-de-low-ressource"
 	}
 ]
