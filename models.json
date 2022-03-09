@@ -19346,6 +19346,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "kevinjesse/codebert-MT4TS"
 	},
 	{
@@ -150406,10 +150407,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Gautam9595/bert-base-multilingual-cased-finetuned-squad"
+		"modelId": "mfleck/wav2vec2-large-xls-r-300m-de-low-ressource"
 	},
 	{
 		"private": false,
-		"modelId": "mfleck/wav2vec2-large-xls-r-300m-de-low-ressource"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "hyechanjun/reverse-interview-question"
 	}
 ]
