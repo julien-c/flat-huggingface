@@ -150165,6 +150165,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "Kalaoke/embeddings_model"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Mickzaa/MT-TH-EN_ls128"
 	},
@@ -150269,6 +150274,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-Colab-GPU-t6-finetuned-amazon-en-es"
 	},
 	{
@@ -150300,5 +150306,9 @@
 	{
 		"private": false,
 		"modelId": "vymn/rose-v3.8"
+	},
+	{
+		"private": false,
+		"modelId": "vymn/Brain"
 	}
 ]
