@@ -14763,6 +14763,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "GroNLP/gpt2-medium-italian-embeddings"
 	},
@@ -14860,11 +14865,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "samrawal/bert-large-uncased_med-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -15410,6 +15410,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "norie4/DialoGPT-small-kyutebot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pki/t5-small-finetuned_xsum"
 	},
 	{
 		"private": false,
@@ -16259,11 +16264,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "persiannlp/mbert-base-parsinlu-multiple-choice"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pki/t5-small-finetuned_xsum"
 	},
 	{
 		"private": false,
@@ -57752,6 +57752,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "amanm27/bert-base-uncased-wiki"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "pdils/codeparrot"
 	},
@@ -88615,11 +88620,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "amanm27/bert-base-uncased-wiki"
-	},
-	{
-		"private": false,
 		"modelId": "merve/anime-faces-discriminator"
 	},
 	{
@@ -116403,6 +116403,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "zenham/wail_m_e4_16h_2k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "datarpit/distilbert-base-uncased-finetuned-natural-questions"
 	},
 	{
 		"private": false,
@@ -148922,6 +148927,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "mrm8488/spanish-TinyBERT-betito-finetuned-xnli-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Jeevesh8/t5-small-cogs_22"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ndubuisi/pfam_init"
+	},
+	{
+		"private": false,
 		"modelId": "aaraki/gpt2-wikitext2"
 	},
 	{
@@ -149553,11 +149573,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "datarpit/distilbert-base-uncased-finetuned-natural-questions"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "akozlo/lib_bal"
 	},
@@ -149574,11 +149589,6 @@
 	{
 		"private": false,
 		"modelId": "kcarnold/codeparrot"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "mrm8488/spanish-TinyBERT-betito-finetuned-xnli-es"
 	},
 	{
 		"private": false,
@@ -149825,11 +149835,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Jeevesh8/t5-small-cogs_22"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "Kontawat/mt5_MTmodel-scb-en-th"
 	},
 	{
@@ -149848,5 +149853,13 @@
 	{
 		"private": false,
 		"modelId": "aaraki/distilgpt2-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "rajat99/hindi_base_wav2vec2"
+	},
+	{
+		"private": false,
+		"modelId": "koobear/theauthor-roberta-large-mnli-semeval-all"
 	}
 ]
