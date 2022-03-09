@@ -148918,6 +148918,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "s50227harry/distilroberta-base-climate-f-SelfDomain-Pre-Climate-Report"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "amanm27/bert-base-uncased-wiki-scouting"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "mafeu/DialoGPT-medium-willem"
 	},
@@ -148929,6 +148939,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mrm8488/spanish-TinyBERT-betito-finetuned-xnli-es"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "agemagician/protx-small-tpuv2-16-shampoo-0.06"
 	},
 	{
 		"private": false,
@@ -149143,11 +149158,6 @@
 	{
 		"private": false,
 		"modelId": "M-Quan/wav2vec-vietnamese"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "amanm27/bert-base-uncased-wiki-scouting"
 	},
 	{
 		"private": false,
@@ -149640,11 +149650,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "agemagician/protx-small-tpuv2-16-shampoo-0.06"
-	},
-	{
-		"private": false,
 		"modelId": "Graphcore/hubert-base-ipu"
 	},
 	{
@@ -149726,14 +149731,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "jcai1/ss_ver1"
-	},
-	{
-		"private": false,
-		"modelId": "snoop2head/deep-encoder-shallow-decoder-ko"
-	},
-	{
-		"private": false,
-		"modelId": "snoop2head/deep-encoder-shallow-decoder-en"
 	},
 	{
 		"private": false,
@@ -149831,10 +149828,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lvyufeng/bert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kontawat/mt5_MTmodel-scb-en-th"
 	},
@@ -149870,5 +149863,21 @@
 	{
 		"private": false,
 		"modelId": "ScandinavianMrT/distilbert-SARC"
+	},
+	{
+		"private": false,
+		"modelId": "PoolC/deep-encoder-shallow-decoder-en"
+	},
+	{
+		"private": false,
+		"modelId": "PoolC/deep-encoder-shallow-decoder-ko"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_covost2_ru_en"
+	},
+	{
+		"private": false,
+		"modelId": "lvyufeng/bert-base-cased"
 	}
 ]
