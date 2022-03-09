@@ -37552,6 +37552,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "it5/it5-base-wiki-summarization"
+	},
+	{
+		"private": false,
 		"modelId": "jaketae/fastspeech2-lj"
 	},
 	{
@@ -70144,6 +70149,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-base-repubblica-to-ilgiornale"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "izzy-lazerson/wav2vec2-large-xls-r-300m-turkish-colab"
 	},
@@ -86063,6 +86073,21 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-base-ilgiornale-to-repubblica"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-base-question-answering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-base-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/it5-small-informal-to-formal"
 	},
 	{
@@ -100146,6 +100171,11 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "ionite/DialoGPT-medium-Sh0rtiAI"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-repubblica-to-ilgiornale"
 	},
 	{
 		"private": false,
@@ -135337,6 +135367,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-headline-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-ilgiornale-to-repubblica"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/it5-large-informal-to-formal"
 	},
 	{
@@ -135346,13 +135386,48 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-question-answering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-large-question-generation"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "it5/it5-large-wiki-summarization"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-headline-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-ilgiornale-to-repubblica"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "it5/it5-small-news-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-question-answering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/it5-small-repubblica-to-ilgiornale"
 	},
 	{
 		"private": false,
@@ -135367,6 +135442,16 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-headline-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-ilgiornale-to-repubblica"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/mt5-base-informal-to-formal"
 	},
 	{
@@ -135377,7 +135462,17 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-question-answering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "it5/mt5-base-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-base-repubblica-to-ilgiornale"
 	},
 	{
 		"private": false,
@@ -135386,8 +135481,33 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-headline-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-ilgiornale-to-repubblica"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "it5/mt5-small-news-summarization"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-question-answering"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-question-generation"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "it5/mt5-small-repubblica-to-ilgiornale"
 	},
 	{
 		"private": false,
@@ -150022,5 +150142,22 @@
 	{
 		"private": false,
 		"modelId": "nitzanav/biobert-large-cased-v1.1-mnli-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "aaraki/distilroberta-base-finetuned-wikitext2"
+	},
+	{
+		"private": false,
+		"modelId": "nitzanav/biobert-large-cased-v1.1-squad-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vzty/bert-base-uncased-finetuned-argument-detection"
+	},
+	{
+		"private": false,
+		"modelId": "jacu9585real/distilbert-base-uncased-jackson-finetuned-squad"
 	}
 ]
