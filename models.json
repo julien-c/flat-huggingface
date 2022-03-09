@@ -149773,6 +149773,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "momo/MOTOD_pre_trained"
 	},
 	{
@@ -149781,10 +149782,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "josu/albert-pt-br"
 	},
 	{
 		"private": false,
 		"modelId": "Kontawat/opus-mt-th-en-finetuned-th-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-8-100-0.01"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-8-100-0.02"
+	},
+	{
+		"private": false,
+		"modelId": "daisyxie21/bert-base-uncased-8-80-0.02"
 	}
 ]
