@@ -150068,11 +150068,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "huak95/mt-align-finetuned-LST-en-to-th"
-	},
-	{
-		"private": false,
 		"modelId": "alirezafarashah/wav2vec2-base-ks-2sec"
 	},
 	{
@@ -150421,11 +150416,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "huak95/mt-align-finetuned-SUM3-th-to-en"
-	},
-	{
-		"private": false,
 		"modelId": "Nopphakorn/mT5-small_LSTonly"
 	},
 	{
@@ -150472,15 +150462,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "antho-data/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
 		"modelId": "squidgy/phrase_difficulty_model"
-	},
-	{
-		"private": false,
-		"modelId": "huak95/mt5-small-thai_translation_th-en_en-th_V2"
 	},
 	{
 		"private": false,
@@ -150503,5 +150490,9 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/mt-align-finetuned-LST-en-to-th-pt2"
+	},
+	{
+		"private": false,
+		"modelId": "huak95/mt-align-finetuned-SUM3-th-to-en-pt2"
 	}
 ]
