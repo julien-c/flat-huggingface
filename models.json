@@ -105037,6 +105037,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Prototypeu/bart-base-finetuned-xsum"
 	},
 	{
@@ -150420,6 +150421,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "huak95/mt-align-finetuned-SUM3-th-to-en"
+	},
+	{
+		"private": false,
 		"modelId": "Nopphakorn/mT5-small_LSTonly"
 	},
 	{
@@ -150490,6 +150496,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "nielsr/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "huak95/mt-align-finetuned-LST-en-to-th-pt2"
 	}
 ]
