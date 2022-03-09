@@ -26422,6 +26422,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "CNT-UPenn/RoBERTa_for_seizureFrequency_QA"
 	},
@@ -150160,11 +150165,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "Kalaoke/embeddings_model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Mickzaa/MT-TH-EN_ls128"
 	},
@@ -150273,10 +150273,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kevincp560/bigbird-pegasus-large-bigpatent-finetuned-pubmed"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "orzhan/ruroberta-ruatd-binary"
 	},
@@ -150292,5 +150288,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "orzhan/ruroberta-ruatd-multi"
+	},
+	{
+		"private": false,
+		"modelId": "opetrova/face-frontalization"
 	}
 ]
