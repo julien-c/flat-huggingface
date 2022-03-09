@@ -44194,6 +44194,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/allll-roberta-large-mnli-semeval"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "wietsedv/xlm-roberta-base-ft-udpos28-zh"
 	},
@@ -149352,10 +149357,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "aleksavega/mt5-small-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
 		"modelId": "Splend1dchan/byt5small-glue-mnli"
 	},
 	{
@@ -149628,10 +149629,6 @@
 	{
 		"private": false,
 		"modelId": "Ayush000999/Docs"
-	},
-	{
-		"private": false,
-		"modelId": "aleksavega/mt5-small-accelerated-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -150160,5 +150157,14 @@
 	{
 		"private": false,
 		"modelId": "lijingxin/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "aleksavega/mt5-small-AWS_SL-GPU-Try1-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/test222"
 	}
 ]
