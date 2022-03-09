@@ -149879,11 +149879,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Zarkit/xmlRoberta-finetuned-p"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "kj141/distilbert-base-uncased-finetuned-squad"
 	},
@@ -150202,5 +150197,14 @@
 	{
 		"private": false,
 		"modelId": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu-CV7"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "moussaKam/AraBART"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/vit-finetuned-xray-pneumonia"
 	}
 ]
