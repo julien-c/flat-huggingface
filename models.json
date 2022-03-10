@@ -46507,13 +46507,13 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "sentence-similarity",
-		"modelId": "Kalaoke/embeddings_model"
+		"pipeline_tag": "text-classification",
+		"modelId": "caush/WithThePageName"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "caush/WithThePageName"
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Kalaoke/embeddings_model"
 	},
 	{
 		"private": false,
@@ -149929,6 +149929,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Splend1dchan/byt5small-glue-mnli"
 	},
 	{
@@ -150620,10 +150621,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "rik/opus-mt-ja-en"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "ArnavL/yelp-pretrained"
 	},
@@ -150696,5 +150693,22 @@
 	{
 		"private": false,
 		"modelId": "nguyenmanhbao/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"modelId": "huak95/mt-align-LST_classic-th-to-en-pt2"
+	},
+	{
+		"private": false,
+		"modelId": "Ensheng/graphcodebert-v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tonakai/mt-align-finetuned-LST_ButAgainAfterRaBERT-en-to-th-pt2"
+	},
+	{
+		"private": false,
+		"modelId": "tartuNLP/liv4ever-mt"
 	}
 ]
