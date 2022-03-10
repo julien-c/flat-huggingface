@@ -149099,10 +149099,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "timkakhanovich/wav2vec2-base-timit-demo-colab"
-	},
-	{
-		"private": false,
 		"modelId": "rohanleekha/mymodel"
 	},
 	{
@@ -150631,6 +150627,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "danielbubiola/fine_tuned_text_clf_model"
 	},
 	{
@@ -150793,6 +150790,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/bigbird-pegasus-large-bigpatent-finetuned-pubMed"
+	},
+	{
+		"private": false,
+		"modelId": "gokuls/wav2vec2-base-finetuned-ic"
 	}
 ]
