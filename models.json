@@ -23407,11 +23407,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Kontawat/wangchanberta-ner-LST20-fineTune-new"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "NYTK/sentiment-hts5-xlm-roberta-hungarian"
 	},
@@ -46760,11 +46755,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Kontawat/wangchanberta-ner-LST20-fineTune"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "MMG/bert-base-spanish-wwm-cased-finetuned-sqac-finetuned-squad"
 	},
@@ -67945,11 +67935,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kithogue/T5_Question_Generation"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Kontawat/wangchanberta-ner"
 	},
 	{
 		"private": false,
@@ -150680,11 +150665,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "artemis13fowl/bert-base-uncased-imdb"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "hf-internal-testing/test-opus-tatoeba-fi-en-v2"
 	},
@@ -150708,7 +150688,27 @@
 	},
 	{
 		"private": false,
-		"modelId": "Azu/TrOCR-Handwritten-Mathematical-Expression-Covert-to-LaTeX"
+		"pipeline_tag": "feature-extraction",
+		"modelId": "ukr-models/xlm-roberta-base-uk"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "bettertextapp/tai-bart-xl-en-de-seeded-noisy-530k-steps"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/atarifounders"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "artemis13fowl/bert-base-uncased-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "Champion/SA-models"
 	},
 	{
 		"private": false,
@@ -150815,7 +150815,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "tartuNLP/liv4ever-mt"
 	},
 	{
