@@ -46511,11 +46511,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
-		"modelId": "Kalaoke/embeddings_model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "ARTeLab/it5-summarization-mlsum"
 	},
@@ -150689,6 +150684,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
 		"modelId": "tartuNLP/liv4ever-mt"
 	},
 	{
@@ -150710,10 +150706,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "aleksavega/pegasus-xsum-Colab-GPU-t2-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/LST_classic-th-to-en-pt2.1"
 	},
@@ -150727,10 +150719,26 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/bigbird-pegasus-large-bigpatent-finetuned-pubmed"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "Taekyoon/unicon_v0.5.0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "imosnoi/md_blt"
+	},
+	{
+		"private": false,
+		"modelId": "Prach/mt-align-LST_classic-th-to-en-pt2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Kalaoke/embeddings_dense_model"
 	}
 ]
