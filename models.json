@@ -149951,11 +149951,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "koobear/theauthor-roberta-large-mnli-semeval-all"
-	},
-	{
-		"private": false,
 		"modelId": "snoop2head/KO-to-EN-Deep-Encoder-Shallow-Decoder"
 	},
 	{
@@ -150517,6 +150512,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "tinparadox/NER-en-vi-it-es"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SAI2-EXP/TNANA-th-th"
 	},
@@ -150533,5 +150533,13 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "tonakai/mt-align-finetuned-LST-en-to-th-pt2"
+	},
+	{
+		"private": false,
+		"modelId": "Jeevesh8/multiberts_seed_5_ft_4"
+	},
+	{
+		"private": false,
+		"modelId": "muneson/wav2vec2-large-xlsr-53-demo-colab"
 	}
 ]
