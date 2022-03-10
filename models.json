@@ -55512,11 +55512,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "rajat99/hindi_base_wav2vec2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-Colab-GPU-Try2-finetuned-amazon-en-es"
 	},
@@ -150711,11 +150706,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Kevincp560/bigbird-pegasus-large-bigpatent-finetuned-pubmed"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Taekyoon/unicon_v0.5.0"
 	},
@@ -150753,10 +150743,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "nabin19677/small-cartman"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "AiLab-IMCS-UL/lvbert"
 	},
 	{
@@ -150789,5 +150781,9 @@
 	{
 		"private": false,
 		"modelId": "KoichiYasuoka/bert-base-german-upos"
+	},
+	{
+		"private": false,
+		"modelId": "mikeadimech/test-bart"
 	}
 ]
