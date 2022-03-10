@@ -149224,6 +149224,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jkhan447/sentiment-model-sample-go-emotion"
 	},
 	{
@@ -150610,5 +150611,10 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kyleinincubated/autonlp-cat33-624317932"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "amanm27/bert-base-uncased-sports"
 	}
 ]
