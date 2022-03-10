@@ -116524,11 +116524,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tonakai/mt-align-finetuned-LST-en-to-th-pt2"
-	},
-	{
-		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -150614,6 +150609,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "tiot07/0310"
 	},
 	{
@@ -150632,5 +150628,15 @@
 	{
 		"private": false,
 		"modelId": "ArnavL/yelp-pretrained"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "amanm27/bert-base-uncased-wiki-sports"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-100-pad-early-try"
 	}
 ]
