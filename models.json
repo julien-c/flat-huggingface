@@ -14976,11 +14976,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Doogie/Wayne_NLP_mT5"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "GroNLP/gpt2-medium-italian-embeddings"
 	},
@@ -15307,6 +15302,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "pki/t5-small-finetuned_xsum"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "salesken/paraphrase_diversity_ranker"
 	},
@@ -15383,6 +15383,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "AkshaySg/gramCorrection"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Doogie/Wayne_NLP_mT5"
 	},
 	{
 		"private": false,
@@ -15547,11 +15552,6 @@
 	{
 		"private": false,
 		"modelId": "kamalkraj/bioelectra-base-discriminator-pubmed-pmc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "pki/t5-small-finetuned_xsum"
 	},
 	{
 		"private": false,
@@ -50908,6 +50908,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "amanm27/bert-base-uncased-wiki"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "202015004/wav2vec2-base-timit-demo-colab"
 	},
@@ -55616,11 +55621,6 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "aymanm419/araElectra-SQUAD-ARCD-768"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "amanm27/bert-base-uncased-wiki"
 	},
 	{
 		"private": false,
@@ -116524,6 +116524,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "tonakai/mt-align-finetuned-LST-en-to-th-pt2"
+	},
+	{
+		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -150530,11 +150535,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tonakai/mt-align-finetuned-LST-en-to-th-pt2"
-	},
-	{
-		"private": false,
 		"modelId": "Jeevesh8/multiberts_seed_5_ft_4"
 	},
 	{
@@ -150605,5 +150605,10 @@
 	{
 		"private": false,
 		"modelId": "ahuizotlcoding/DialoGPT-small-riddlerosehearts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "kyleinincubated/autonlp-cat33-624317932"
 	}
 ]
