@@ -3800,6 +3800,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "deepparag/Aeona"
+	},
+	{
+		"private": false,
 		"modelId": "dbmdz/bert-base-turkish-128k-uncased"
 	},
 	{
@@ -4274,11 +4279,6 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "lysandre/tiny-vit-random"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "deepparag/Aeona"
 	},
 	{
 		"private": false,
@@ -150627,6 +150627,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "ArnavL/yelp-pretrained"
 	},
 	{
@@ -150638,5 +150639,14 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-finetuned-weaksup-100-pad-early-try"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SAI2-EXP/TNANA-en-th"
+	},
+	{
+		"private": false,
+		"modelId": "Yangdf/mT5-chinese-fine-tune"
 	}
 ]
