@@ -150676,7 +150676,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "tartuNLP/liv4ever-mt"
 	},
 	{
@@ -150735,6 +150735,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "nabin19677/Cartman"
 	},
 	{
@@ -150744,5 +150745,9 @@
 	{
 		"private": false,
 		"modelId": "nabin19677/DialoGPT-small-cartman"
+	},
+	{
+		"private": false,
+		"modelId": "nabin19677/small-cartman"
 	}
 ]
