@@ -150661,11 +150661,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "translation",
-		"modelId": "kabelomalapane/test_model1.2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "hf-internal-testing/test-opus-tatoeba-fi-en-v2"
 	},
@@ -150727,6 +150722,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-bert-large-long-run"
 	},
 	{
@@ -150761,6 +150757,10 @@
 	{
 		"private": false,
 		"modelId": "kabelomalapane/test_model1.2-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "allenai/PRIMERA"
 	},
 	{
 		"private": false,
