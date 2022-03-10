@@ -150738,7 +150738,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "nabin19677/small-cartman"
 	},
 	{
@@ -150766,6 +150766,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/tmp_trainer"
 	},
 	{
@@ -150780,5 +150781,13 @@
 	{
 		"private": false,
 		"modelId": "spasis/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "timkakhanovich/finetuned-asr"
+	},
+	{
+		"private": false,
+		"modelId": "aleksavega/mt5-small-Local-t1-finetuned-amazon-en-es"
 	}
 ]
