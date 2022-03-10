@@ -49095,11 +49095,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "rajat99/wav2vec2-large-xls-r-hindi-colab"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "aleksavega/mt5-small-Colab-GPU-t4-finetuned-amazon-en-es"
 	},
@@ -150753,11 +150748,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Mickzaa/MT-th_en-v1"
-	},
-	{
-		"private": false,
 		"modelId": "johaeric/test_model"
 	},
 	{
@@ -150780,10 +150770,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "KoichiYasuoka/bert-base-german-upos"
 	},
 	{
 		"private": false,
 		"modelId": "mikeadimech/test-bart"
+	},
+	{
+		"private": false,
+		"modelId": "spasis/distilbert-base-uncased-finetuned-imdb-accelerate"
 	}
 ]
