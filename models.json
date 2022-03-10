@@ -19525,7 +19525,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "microsoft/tapex-base"
 	},
 	{
@@ -46024,6 +46024,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jonghyuk/LJP"
 	},
 	{
@@ -149058,6 +149059,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "voice/wav2vec2-large-xlsr-common1000asli-demo-colab"
 	},
 	{
@@ -150477,10 +150479,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "M-Quan/wav2vec2-E"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "boris/vit-patch16-224-gis"
 	},
@@ -150559,5 +150557,23 @@
 	{
 		"private": false,
 		"modelId": "Mickzaa/Translation_TH-EN-TH-to-EN-at"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "microsoft/tapex-large"
+	},
+	{
+		"private": false,
+		"modelId": "Mickzaa/checkpoint-17000-TH-to-EN-at"
+	},
+	{
+		"private": false,
+		"modelId": "M-Quan/wav2vec2-E"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Mickzaa/Translation_TH-EN-v2"
 	}
 ]
