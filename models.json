@@ -150595,6 +150595,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
 		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak"
 	},
 	{
@@ -150616,21 +150617,40 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-blame-victim"
-	},
-	{
-		"private": false,
 		"modelId": "radiogroup-crits/wav2vec2-xls-r-1b-italian-wiki-3gram"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-blame-object"
+		"modelId": "gossminn/predict-perception-bert-blame-none"
 	},
 	{
 		"private": false,
-		"modelId": "gossminn/predict-perception-bert-blame-concept"
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-blame-assassin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-blame-victim"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-blame-object"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-bert-cause-human"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-blame-concept"
+	},
+	{
+		"private": false,
+		"modelId": "P0intMaN/PyAutoCode"
 	},
 	{
 		"private": false,
@@ -150899,6 +150919,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Zarkit/xmlRoberta-finetuned-p2"
 	},
 	{
