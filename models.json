@@ -27862,11 +27862,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Mickzaa/MT-TH-EN"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nickmuchi/vit-base-xray-pneumonia"
 	},
@@ -116707,11 +116702,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Mickzaa/MT-TH-EN_ls128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "SGrannemann/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -150604,6 +150594,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "mikeadimech/bart-test-1"
 	},
 	{
@@ -150665,6 +150656,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/pegasus-arxiv-finetuned-pubmed"
 	},
 	{
@@ -150673,7 +150665,27 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/predict-perception-bert-focus-assassin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-bert-focus-victim"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-bert-focus-object"
+	},
+	{
+		"private": false,
+		"modelId": "farrokhguiahi/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-bert-focus-concept"
 	},
 	{
 		"private": false,
