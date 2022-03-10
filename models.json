@@ -55619,6 +55619,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "amanm27/bert-base-uncased-wiki"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "AKulk/wav2vec2-base-timit-epochs5"
 	},
@@ -150510,11 +150514,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "tinparadox/NER-en-vi-it-es"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "SAI2-EXP/TNANA-th-th"
 	},
@@ -150573,7 +150572,14 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Mickzaa/Translation_TH-EN-v2"
+		"modelId": "microsoft/tapex-large-finetuned-wtq"
+	},
+	{
+		"private": false,
+		"modelId": "Mickzaa/Mickzaa-TH-to-EN-at"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bigbird-pegasus-large-arxiv-100-pad-early-lit"
 	}
 ]
