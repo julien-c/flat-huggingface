@@ -150732,6 +150732,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "muneson/xls-r-ab-test"
 	},
 	{
@@ -150757,10 +150758,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "timkakhanovich/finetuned-asr"
-	},
-	{
-		"private": false,
-		"modelId": "aleksavega/mt5-small-Local-t1-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -150801,10 +150798,14 @@
 	},
 	{
 		"private": false,
-		"modelId": "muneson/asr_faroese_hf"
+		"modelId": "Zarkit/xmlRoberta-finetuned-p2"
 	},
 	{
 		"private": false,
-		"modelId": "Zarkit/xmlRoberta-finetuned-p2"
+		"modelId": "nikit91/pegasus-xsum-finetuned-xsum"
+	},
+	{
+		"private": false,
+		"modelId": "kazandaev/mt5-large-en-ru"
 	}
 ]
