@@ -34743,11 +34743,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "NbAiLab/nb-gpt-j-6b"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "NbAiLab/notram-bert-norwegian-uncased-080321"
 	},
@@ -150621,7 +150616,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/predict-perception-bert-blame-victim"
+	},
+	{
+		"private": false,
+		"modelId": "radiogroup-crits/wav2vec2-xls-r-1b-italian-wiki-3gram"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-bert-blame-object"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-bert-blame-concept"
 	},
 	{
 		"private": false,
