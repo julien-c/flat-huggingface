@@ -150560,6 +150560,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "apkbala107/Tamilalbert"
 	},
 	{
@@ -150577,11 +150578,6 @@
 	{
 		"private": false,
 		"modelId": "LarisaPoghosyan/distilbert-base-uncased-finetuned-cola"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-10-epoch-tweak"
 	},
 	{
 		"private": false,
@@ -150661,6 +150657,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "Prime2911/DialoGPT-small-handsomejack"
 	},
 	{
@@ -150680,12 +150677,38 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "farrokhguiahi/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/predict-perception-bert-focus-concept"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-9-epoch-tweak"
+	},
+	{
+		"private": false,
+		"modelId": "Prach/opus-mt-th-en-finetuned-5k-th-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "fwkhan/roberta_mlm_pretrained_similarity"
+	},
+	{
+		"private": false,
+		"modelId": "mfleck/wav2vec2-large-xls-r-300m-german-with-lm"
+	},
+	{
+		"private": false,
+		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-quac-large-batch"
+	},
+	{
+		"private": false,
+		"modelId": "kabelomalapane/test_model1.2"
 	},
 	{
 		"private": false,
@@ -150964,11 +150987,6 @@
 	{
 		"private": false,
 		"modelId": "kazandaev/mt5-large-en-ru"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Kontawat/finetune-MT-opus-mt-th-en"
 	},
 	{
 		"private": false,
