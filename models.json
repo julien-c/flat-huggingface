@@ -150592,6 +150592,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "radiogroup-crits/wav2vec2-xls-r-1b-italian-wiki-3gram"
 	},
 	{
@@ -150703,6 +150704,24 @@
 	{
 		"private": false,
 		"modelId": "kabelomalapane/test_model1.2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "artemis13fowl/bert-base-uncased-imdb"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "hf-internal-testing/test-opus-tatoeba-fi-en-v2"
+	},
+	{
+		"private": false,
+		"modelId": "sbuaruk/opus-mt-th-en-finetuned-en-to-th"
+	},
+	{
+		"private": false,
+		"modelId": "agemagician/protx-small-tpuv2-16-shampoo-0.06-adafactor"
 	},
 	{
 		"private": false,
@@ -150822,6 +150841,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "pratt3000/wav2vec2-base-finetuned-ks"
 	},
 	{
@@ -150993,6 +151013,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "huak95/TNANA-attacut-th-to-en-pt2"
 	}
 ]
