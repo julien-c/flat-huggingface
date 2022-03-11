@@ -12518,11 +12518,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "mafeu/DialoGPT-medium-willem"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jonatasgrosman/wav2vec2-xls-r-1b-german"
 	},
@@ -150799,6 +150794,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Jeevesh8/multiberts_seed_14_ft_4"
 	},
 	{
@@ -150886,15 +150882,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "naver-clova-conversation-ul/ct5-base-bf16"
-	},
-	{
-		"private": false,
-		"modelId": "toriving/ct5-small-warmup-larva-bf16"
-	},
-	{
-		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "naver-clova-conversation-ul/ct5-base-warmup-ct5-small-bf16"
+	},
+	{
+		"private": false,
+		"modelId": "zhufy/squad-ms-bert-base"
 	},
 	{
 		"private": false,
