@@ -66783,7 +66783,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "conversational",
 		"modelId": "vymn/Brain"
 	},
 	{
@@ -119823,6 +119823,14 @@
 	},
 	{
 		"private": false,
+		"modelId": "Graphcore/gpt2-medium-ipu"
+	},
+	{
+		"private": false,
+		"modelId": "Graphcore/gpt2-small-ipu"
+	},
+	{
+		"private": false,
 		"modelId": "Graphcore/roberta-base-ipu"
 	},
 	{
@@ -151183,6 +151191,10 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-dummy"
+	},
+	{
+		"private": false,
+		"modelId": "izumi-lab/bert-base-japanese-fin-additional"
 	},
 	{
 		"private": false,
