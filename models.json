@@ -9182,6 +9182,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "vblagoje/dpr-question_encoder-single-lfqa-wiki"
 	},
 	{
@@ -52660,6 +52661,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "vblagoje/dpr-question_encoder-single-lfqa-base"
 	},
 	{
@@ -150840,11 +150842,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "zhufy/xquad-th-bert-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "studio-ousia/mluke-large-lite"
 	},
@@ -150956,6 +150953,19 @@
 	{
 		"private": false,
 		"modelId": "rajat99/Harveen_Chadda_wav2vec2-hindi-model-fine-tuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "zhufy/xquad-th-mbert-base"
+	},
+	{
+		"private": false,
+		"modelId": "Vasily/match"
+	},
+	{
+		"private": false,
+		"modelId": "linh101201/distilbert-base-uncased-finetuned-cola"
 	},
 	{
 		"private": false,
