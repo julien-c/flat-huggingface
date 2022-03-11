@@ -151156,11 +151156,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "feature-extraction",
+		"pipeline_tag": "sentence-similarity",
 		"modelId": "dangvantuan/sentence-camembert-base"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jfealko/wav2vec2-large-xls-r-300m-irish-custom-data"
 	},
 	{
@@ -151170,6 +151171,10 @@
 	{
 		"private": false,
 		"modelId": "sanchit-gandhi/flax-wav2vec-2-bart-large"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-dummy"
 	},
 	{
 		"private": false,
