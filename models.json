@@ -49052,6 +49052,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "summarization",
+		"modelId": "aleksavega/mt5-small-Colab-GPU-t4-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "nickmuchi/vit-finetuned-chest-xray-pneumonia"
 	},
@@ -62039,11 +62044,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "akshaychaudhary/distilbert-base-uncased-finetuned-combinedmodel1-ner"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "aleksavega/mt5-small-Colab-GPU-t6-finetuned-amazon-en-es"
 	},
 	{
 		"private": false,
@@ -150426,11 +150426,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
-		"modelId": "aleksavega/mt5-small-Local-t8-finetuned-amazon-en-es"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "OrfeasTsk/bert-base-uncased-finetuned-nq-large-batch"
 	},
@@ -150968,6 +150963,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "cloudblack/bert-base-finetuned-sts"
 	},
 	{
@@ -151054,6 +151050,14 @@
 	{
 		"private": false,
 		"modelId": "nishantanshul/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-Concat_CRAFT_es"
+	},
+	{
+		"private": false,
+		"modelId": "malmarjeh/transformer"
 	},
 	{
 		"private": false,
