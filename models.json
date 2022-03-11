@@ -127770,6 +127770,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "translation",
+		"modelId": "amjadkhatabi/finetuned-ye-ar-en-v1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "amjadkhatabi/finetuned-ymn-ar-en-v2"
 	},
@@ -151125,6 +151130,14 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "dgoldelman/bert-tiny-finetuned-cola"
+	},
+	{
+		"private": false,
+		"modelId": "louisdeco/bert-base-uncased-finetuned-reviews"
+	},
+	{
+		"private": false,
+		"modelId": "Aureliano/electra_if"
 	},
 	{
 		"private": false,
