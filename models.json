@@ -150733,6 +150733,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "willcai/wav2vec2_common_voice_accents"
 	},
 	{
@@ -150867,6 +150868,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "SAI2-EXP/TNANA-en-th-align-finetuned"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kyleinincubated/autonlp-cat33-624317932"
 	},
@@ -150962,11 +150968,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Ensheng/graphcodebert-v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "tonakai/mt-align-finetuned-LST_ButAgainAfterRaBERT-en-to-th-pt2"
 	},
 	{
 		"private": false,
