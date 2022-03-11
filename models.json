@@ -150800,6 +150800,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Starry/karenemoji"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "lijingxin/xlm-roberta-base-finetuned-panx-de-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "lijingxin/xlm-roberta-base-finetuned-panx-fr"
+	},
+	{
+		"private": false,
+		"modelId": "lijingxin/xlm-roberta-base-finetuned-panx-it"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kyleinincubated/autonlp-cat33-624317932"
 	},
