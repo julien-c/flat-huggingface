@@ -116280,7 +116280,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "text-classification",
 		"modelId": "clapika2010/hospital_finetuned"
 	},
 	{
@@ -150700,7 +150700,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "kabelomalapane/test_model1.2-accelerate"
 	},
 	{
@@ -151242,6 +151242,14 @@
 	{
 		"private": false,
 		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_es1_en2"
+	},
+	{
+		"private": false,
+		"modelId": "mlnotes/tape"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_es1_en2-finetuned-ner-CRAFT_es1_en2"
 	},
 	{
 		"private": false,
