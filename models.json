@@ -37824,6 +37824,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/hing-bert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "xinzhel/gpt2-ag-news"
 	},
@@ -45097,6 +45102,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/hing-mbert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "petrichorRainbow/mrf-GPT"
 	},
@@ -50772,6 +50782,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "crabz/distil-slovakbert"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "l3cube-pune/hing-roberta"
 	},
 	{
 		"private": false,
@@ -151136,8 +151151,20 @@
 	},
 	{
 		"private": false,
+		"modelId": "GroNLP/wav2vec2-dutch-large"
+	},
+	{
+		"private": false,
+		"modelId": "GroNLP/wav2vec2-dutch-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "clapika2010/beers_finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "louisdeco/roberta-base-finetuned-reviews"
 	},
 	{
 		"private": false,
