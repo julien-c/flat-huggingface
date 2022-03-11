@@ -150956,11 +150956,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/detect-femicide-news-bert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "niksmer/RoBERTa-RILE_v2"
 	},
 	{
@@ -151138,6 +151133,11 @@
 	{
 		"private": false,
 		"modelId": "Aureliano/electra_if"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "clapika2010/beers_finetuned"
 	},
 	{
 		"private": false,
