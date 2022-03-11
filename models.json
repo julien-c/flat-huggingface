@@ -37824,11 +37824,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "l3cube-pune/hing-bert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "xinzhel/gpt2-ag-news"
 	},
@@ -45102,11 +45097,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "l3cube-pune/hing-mbert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "petrichorRainbow/mrf-GPT"
 	},
@@ -50782,11 +50772,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "crabz/distil-slovakbert"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "l3cube-pune/hing-roberta"
 	},
 	{
 		"private": false,
@@ -150710,6 +150695,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "agemagician/protx-small-tpuv2-16-shampoo-0.0003-1-gram-lbl"
 	},
 	{
@@ -151165,6 +151151,10 @@
 	{
 		"private": false,
 		"modelId": "louisdeco/roberta-base-finetuned-reviews"
+	},
+	{
+		"private": false,
+		"modelId": "dangvantuan/sentence-camembert-base"
 	},
 	{
 		"private": false,
