@@ -151266,7 +151266,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "text-classification",
 		"modelId": "clapika2010/adult_finetuned"
 	},
 	{
@@ -151323,11 +151323,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/Biobert-base-cased-v1.2-finetuned-ner-CRAFT"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/tai-bart-xl-de-correct-train"
 	},
 	{
 		"private": false,
@@ -151515,6 +151510,14 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Meowren/DialoGPT-small-Rick-Bot"
+	},
+	{
+		"private": false,
+		"modelId": "Amba/mt5-small-finetuned-amazon-en-es"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/tai-bart-xl-de-correct-train"
 	},
 	{
 		"private": false,
