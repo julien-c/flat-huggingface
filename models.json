@@ -151190,11 +151190,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT-finetuned-ner-CRAFT_en_es"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_es1_en2"
 	},
 	{
@@ -151207,23 +151202,8 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_es1_en2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "mlnotes/tape"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_es1_en2-finetuned-ner-CRAFT_es1_en2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_es1_en2-finetuned-ner-CRAFT_es1_en2"
 	},
 	{
 		"private": false,
@@ -151440,6 +151420,16 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/tai-bart-xl-de-correct-130k-steps"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/Biobert-base-cased-v1.2-finetuned-ner-CRAFT_es_en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "StivenLancheros/Roberta-base-biomedical-clinical-es-finetuned-ner-CRAFT_en_es"
 	},
 	{
 		"private": false,
