@@ -151410,11 +151410,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "anton-l/xtreme_s_xlsr_minds14"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "lijingxin/pegasus-samsum"
 	},
@@ -151442,7 +151437,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lilitket/wav2vec2-large-xls-r-300m-hyAM_batch4_lr4"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "audio-classification",
+		"modelId": "anton-l/xtreme_s_xlsr_minds14_group_length"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_minds14"
+	},
+	{
+		"private": false,
+		"modelId": "smnt2911/test_wav2vec2"
 	},
 	{
 		"private": false,
