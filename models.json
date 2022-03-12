@@ -151163,7 +151163,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "summarization",
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Prototypeu/bart-base-finetuned-xsum"
 	},
 	{
@@ -151461,10 +151461,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lilitket/wav2vec2-large-xls-r-300m-hyAM_batch4_lr16"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lilitket/300m-hyAM_batch4_lr8_warmup4000"
 	},
 	{
@@ -151475,6 +151477,10 @@
 	{
 		"private": false,
 		"modelId": "cptanalatriste/request-for-help"
+	},
+	{
+		"private": false,
+		"modelId": "Simply-divine/asr_timit"
 	},
 	{
 		"private": false,
