@@ -151379,6 +151379,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/yoso-2048-full-trivia-copied-embeddings"
 	},
 	{
@@ -151399,8 +151400,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "benjaminbeilharz/dialoGPT-small-conditioned-next-turn"
+		"pipeline_tag": "text2text-generation",
+		"modelId": "benjaminbeilharz/bert2bert-empathetic-dialogues"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_minds14"
 	},
 	{
 		"private": false,
