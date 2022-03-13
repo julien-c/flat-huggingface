@@ -150395,11 +150395,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-cause-concept"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-bert-blame-none"
 	},
 	{
@@ -150414,11 +150409,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-cause-none"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/pegasus-arxiv-finetuned-pubmed"
 	},
@@ -150426,21 +150416,6 @@
 		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "Prime2911/DialoGPT-small-handsomejack"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-focus-assassin"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-focus-victim"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-focus-object"
 	},
 	{
 		"private": false,
@@ -151697,11 +151672,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "yonichi/CBa"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "anwesham/indic_ar_ur"
 	},
@@ -151709,6 +151679,43 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-bert-focus-concept"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-focus-object"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-focus-assassin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-cause-concept"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-focus-victim"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-cause-none"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/detect-femicide-news-bert"
+	},
+	{
+		"private": false,
+		"modelId": "utopian/optimus-v1"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-100-lit-evalMA-NOpad2"
 	},
 	{
 		"private": false,
