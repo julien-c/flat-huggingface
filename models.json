@@ -150449,11 +150449,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-bert-focus-concept"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "Ameer05/bart-large-cnn-samsum-rescom-finetuned-resume-summarizer-9-epoch-tweak"
 	},
@@ -151702,11 +151697,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "dvirco/distilbert-base-uncased-finetuned-imdb"
+		"pipeline_tag": "text-classification",
+		"modelId": "yonichi/CBa"
 	},
 	{
 		"private": false,
-		"modelId": "dvirco/distilbert-base-uncased-finetuned-chatbot_user_messages"
+		"pipeline_tag": "token-classification",
+		"modelId": "anwesham/indic_ar_ur"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-bert-focus-concept"
 	},
 	{
 		"private": false,
