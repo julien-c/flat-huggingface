@@ -151338,6 +151338,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "khavitidala/xlmroberta-large-fine-tuned-indo-hoax-classification"
+	},
+	{
+		"private": false,
 		"modelId": "Raikel/Raokel"
 	},
 	{
@@ -151559,7 +151564,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "beston91/gpt2_large_finetuned_logits_1000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Ramu/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "Anantasak/kiddee3-finetuned-th-to-en-2"
 	},
 	{
 		"private": false,
