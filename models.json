@@ -150959,11 +150959,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "l3cube-pune/mahahate-multi-roberta"
-	},
-	{
-		"private": false,
 		"modelId": "Kaveh8/imdb"
 	},
 	{
@@ -150987,11 +150982,6 @@
 	{
 		"private": false,
 		"modelId": "zuppif/maskformer-swin-small-ade"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "l3cube-pune/mahahate-bert"
 	},
 	{
 		"private": false,
@@ -151662,7 +151652,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "anwesham/mbert_ur"
+	},
+	{
+		"private": false,
+		"modelId": "lsb/wav2vec2-large-lm-pemlsb-la"
 	},
 	{
 		"private": false,
