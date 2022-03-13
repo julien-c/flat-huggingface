@@ -78917,11 +78917,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/xlnet_bert_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-4"
 	},
@@ -104846,11 +104841,6 @@
 	{
 		"private": false,
 		"modelId": "luffycodes/reg-roberta-large-mrpc"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/ernie_bert_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -150978,6 +150968,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/albert_ernie_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "translation",
 		"modelId": "anwesham/indic_with_mbert_tokens"
 	},
@@ -151660,6 +151655,14 @@
 	{
 		"private": false,
 		"modelId": "mriggs/checkpoint-200000"
+	},
+	{
+		"private": false,
+		"modelId": "l3cube-pune/hing-bert-lid"
+	},
+	{
+		"private": false,
+		"modelId": "anwesham/mbert_ur"
 	},
 	{
 		"private": false,
