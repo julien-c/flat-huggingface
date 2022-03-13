@@ -151557,6 +151557,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "lilitket/xls-r-300m-hyAM_batch1_lr1e-05_warmup400"
 	},
 	{
@@ -151589,7 +151590,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "clapika2010/soccer_finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "pracheta/wav2vec2-large-xlsr-53-demo-colab"
 	},
 	{
 		"private": false,
