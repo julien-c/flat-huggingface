@@ -151687,11 +151687,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "anwesham/mbert_ar_ur"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-100-lit-evalMA-pad"
+	},
+	{
+		"private": false,
+		"modelId": "cammy/bart-large-cnn-1000-lit-evalMA-NOpad"
+	},
+	{
+		"private": false,
+		"modelId": "yonichi/CBa"
 	},
 	{
 		"private": false,
