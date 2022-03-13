@@ -151662,11 +151662,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "anwesham/indic_ar_ur"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-bert-focus-concept"
 	},
@@ -151720,7 +151715,21 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "apkbala107/tamil_albert"
+	},
+	{
+		"private": false,
+		"modelId": "lionliu/BERTEX-V1"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base200k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "anwesham/indicbert_ar_ur"
 	},
 	{
 		"private": false,
