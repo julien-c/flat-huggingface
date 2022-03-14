@@ -46537,11 +46537,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "caush/WithThePageName"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "M-Quan/wav2vec2-E"
 	},
@@ -152713,15 +152708,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "miazhao/tokenizer_deberta-base_pretrain_2M_20210312"
-	},
-	{
-		"private": false,
 		"modelId": "Vasanth/terminal_demo"
-	},
-	{
-		"private": false,
-		"modelId": "miazhao/tokenizer_deberta-base_train_2M_20210312"
 	},
 	{
 		"private": false,
@@ -152781,6 +152768,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "lewtun/distilhubert-finetuned-gtzan"
 	},
 	{
@@ -152789,6 +152777,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/detect-femicide-news-xlmr-nl-fft"
+	},
+	{
+		"private": false,
+		"modelId": "clapika2010/beers_predictions"
+	},
+	{
+		"private": false,
+		"modelId": "willcai/wav2vec2_common_voice_accents_2"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_minds14_rerun"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/pegasus-large-finetuned-pubmed"
 	}
 ]
