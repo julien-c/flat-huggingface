@@ -46537,6 +46537,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "caush/WithThePageName"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "M-Quan/wav2vec2-E"
 	},
@@ -152855,5 +152860,9 @@
 	{
 		"private": false,
 		"modelId": "akhaliq/van-base"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_mls"
 	}
 ]
