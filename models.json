@@ -152837,6 +152837,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/xls-r-300m-mbart-large-50"
 	},
 	{
@@ -152878,5 +152879,14 @@
 	{
 		"private": false,
 		"modelId": "Visual-Attention-Network/van-base"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ebrigham/yahoo_answers_topics_classifier"
+	},
+	{
+		"private": false,
+		"modelId": "sebasgar/layoutxlm-es-ser"
 	}
 ]
