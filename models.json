@@ -152000,6 +152000,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mfleck/wav2vec2-large-xls-r-300m-german-with-lm"
 	},
 	{
@@ -152820,5 +152821,13 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Kevincp560/pegasus-large-finetuned-Pubmed"
+	},
+	{
+		"private": false,
+		"modelId": "keerthisaran/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "bettertextapp/tai-bart-xl-de-correct-pivot-train2"
 	}
 ]
