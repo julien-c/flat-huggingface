@@ -52765,11 +52765,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "s50227harry/distilroberta-base-test1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Akash7897/distilbert-base-uncased-finetuned-sst2"
 	},
@@ -151670,10 +151665,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "lionliu/BERTEX-V1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "anwesham/indicbert_ar_ur"
 	},
@@ -151689,10 +151680,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Danik51002/finetuned"
-	},
-	{
-		"private": false,
-		"modelId": "lionliu/BERTEX-NOTRAINER-V1"
 	},
 	{
 		"private": false,
@@ -152347,12 +152334,12 @@
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/debv3-fold0"
+		"pipeline_tag": "text-classification",
+		"modelId": "navteca/ms-marco-MiniLM-L-12-v2"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lionliu/BERTEX-FLAX-SMALL-V1"
+		"modelId": "nbroad/debv3-fold0"
 	},
 	{
 		"private": false,
@@ -152386,11 +152373,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/yoso-1024-full-trivia-copied-embeddings"
-	},
-	{
-		"private": false,
-		"modelId": "s50227harry/distilroberta-base-SelfDomain-Pre-Climate-Report-V2"
 	},
 	{
 		"private": false,
@@ -152441,6 +152425,14 @@
 	{
 		"private": false,
 		"modelId": "anton-l/xtreme_s_xlsr_mls"
+	},
+	{
+		"private": false,
+		"modelId": "s50227harry/distilroberta-base-SelfDomain-Pre-Climate-Report-V2"
+	},
+	{
+		"private": false,
+		"modelId": "IsaacBot/t5-small-finetuned-mfaqs-en_v2"
 	},
 	{
 		"private": false,
