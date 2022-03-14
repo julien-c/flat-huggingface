@@ -151650,10 +151650,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "utopian/optimus-v1"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/bart-large-cnn-100-lit-evalMA-NOpad2"
 	},
@@ -152355,6 +152351,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lionliu/BERTEX-FLAX-SMALL-V1"
 	},
 	{
@@ -152364,10 +152361,6 @@
 	{
 		"private": false,
 		"modelId": "flucci/xls-r-ab-test"
-	},
-	{
-		"private": false,
-		"modelId": "anton-l/xtreme_s_xlsr_mls"
 	},
 	{
 		"private": false,
@@ -152431,6 +152424,15 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "cambridgeltl/guardian_news_distilbert-base-uncased"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/temapex"
+	},
+	{
+		"private": false,
+		"modelId": "peterhsu/codeparrot-ds"
 	},
 	{
 		"private": false,
