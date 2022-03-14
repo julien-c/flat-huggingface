@@ -152042,11 +152042,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "tareknaous/dialogpt-daily-dialog"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "holtin/distilbert-base-uncased-holtin-finetuned-squad"
 	},
@@ -152061,6 +152056,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "robertou2/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
 	{
@@ -152106,11 +152102,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "lijingxin/distilbert-base-uncased-finetuned-clinc"
 	},
 	{
 		"private": false,
 		"modelId": "holtin/distilbert-base-uncased-holtin-finetuned-full-squad"
+	},
+	{
+		"private": false,
+		"modelId": "ThomasSimonini/ppo-rlzoo-CartPole-v1"
 	},
 	{
 		"private": false,
