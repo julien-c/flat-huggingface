@@ -152204,6 +152204,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/tai-bart-xl-de-correct-pivot-train"
 	},
 	{
@@ -152224,6 +152225,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/xtreme_s_xlsr_mls"
 	},
 	{
@@ -152240,11 +152242,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mrm8488/electricidad-small-finetuned-amazon-review-classification"
 	},
 	{
 		"private": false,
 		"modelId": "BAHIJA/bert-base-uncased-finetuned-sst2-finetuned-sst2"
+	},
+	{
+		"private": false,
+		"modelId": "vamsibanda/bert-large-cased-onnx"
 	},
 	{
 		"private": false,
