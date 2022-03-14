@@ -118113,11 +118113,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "internetoftim/upload_test"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "mmohamme/distilbert-base-uncased-finetuned-btc"
 	},
@@ -152800,6 +152795,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "anton-l/xtreme_s_xlsr_minds14_rerun"
 	},
 	{
@@ -152808,6 +152804,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "internetoftim/upload_test"
+	},
+	{
+		"private": false,
 		"modelId": "merve/callback-ones"
+	},
+	{
+		"private": false,
+		"modelId": "pyf98/librispeech_conformer_hop_length160"
+	},
+	{
+		"private": false,
+		"modelId": "Kevincp560/pegasus-large-finetuned-Pubmed"
 	}
 ]
