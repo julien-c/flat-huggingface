@@ -152119,6 +152119,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "Kalaoke/embeddings_dense_model"
+	},
+	{
+		"private": false,
+		"modelId": "saad-fa/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kyleinincubated/autonlp-cat33-624317932"
 	},
