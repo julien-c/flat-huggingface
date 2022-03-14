@@ -151506,7 +151506,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
+		"pipeline_tag": "text-classification",
 		"modelId": "clapika2010/soccer_finetuned"
 	},
 	{
@@ -152029,11 +152029,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystrom-1024-full-trivia-copied-embeddings"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ComCom/skt_kogpt2-base-v2"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_mls"
 	},
 	{
 		"private": false,
