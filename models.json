@@ -26071,6 +26071,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "UBC-NLP/AraT5-base"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "Zohar/distilgpt2-finetuned-restaurant-reviews"
 	},
@@ -26589,6 +26594,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "kittinan/exercise-feedback-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "koobear/roberta-mnli-finetune-config"
 	},
 	{
 		"private": false,
@@ -151925,11 +151935,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "bettertextapp/tai-bart-xl-de-correct-train2"
-	},
-	{
-		"private": false,
 		"modelId": "lilitket/20220313-214441"
 	},
 	{
@@ -151969,6 +151974,22 @@
 	{
 		"private": false,
 		"modelId": "wypoon/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "newtonkwan/gpt2-xl-ft-with-non-challenging-v2"
+	},
+	{
+		"private": false,
+		"modelId": "Kabi/wav2vec2-large-xls-r-300m-hindiByKabi2"
+	},
+	{
+		"private": false,
+		"modelId": "oriomn/DialoGPT-small-vanilla"
+	},
+	{
+		"private": false,
+		"modelId": "naver-clova-conversation-ul/ct5-large-bf16"
 	},
 	{
 		"private": false,
