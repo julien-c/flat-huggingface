@@ -153425,11 +153425,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-blame-assassin"
-	},
-	{
-		"private": false,
 		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-wiki2"
 	},
 	{
@@ -153442,26 +153437,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-blame-object"
-	},
-	{
-		"private": false,
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_EN"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-blame-concept"
-	},
-	{
-		"private": false,
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_ES"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-blame-none"
 	},
 	{
 		"private": false,
@@ -153474,15 +153454,40 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-cause-human"
-	},
-	{
-		"private": false,
 		"modelId": "bigscience/tr11b-1B3-ml-logs"
 	},
 	{
 		"private": false,
-		"modelId": "gossminn/predict-perception-xlmr-cause-object"
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-blame-assassin"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-cause-human"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-blame-object"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-blame-concept"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-xlmr-cause-concept"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-blame-none"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-cause-object"
 	}
 ]
