@@ -153161,11 +153161,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "torbenal/MiniLM-L6-H384-distilled-from-RoBERTa-Large"
-	},
-	{
-		"private": false,
 		"modelId": "mfleck/wav2vec2-large-xls-r-300m-slowenian-with-lm"
 	},
 	{
@@ -153180,5 +153175,37 @@
 	{
 		"private": false,
 		"modelId": "spasis/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "osanseviero/distilbert-base-uncased-finetuned-squad-d5716d28"
+	},
+	{
+		"private": false,
+		"modelId": "nbroad/debv3l-short-f0"
+	},
+	{
+		"private": false,
+		"modelId": "danielecalda/flair-ner-it"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "Neulvo/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "torbenal/MiniLMv2-L6-H384-RoBERTa-Large"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Rustem/distilroberta-base-trained"
+	},
+	{
+		"private": false,
+		"modelId": "negfir/distilbert-base-uncased-finetuned-cola"
 	}
 ]
