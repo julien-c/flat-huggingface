@@ -153361,15 +153361,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "RaghuramKol/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"modelId": "sanchit-gandhi/wav2vec2-2-random-no-adapter"
-	},
-	{
-		"private": false,
-		"modelId": "sanchit-gandhi/wav2vec2-2-random-2-layer-no-adapter"
 	},
 	{
 		"private": false,
@@ -153378,5 +153371,10 @@
 	{
 		"private": false,
 		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-2-layer-no-adapter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "drp/rare-puppers"
 	}
 ]
