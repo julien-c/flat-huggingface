@@ -153382,11 +153382,24 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "avacaondata/dpr-spanish-passage_encoder-base"
+		"modelId": "avacaondata/dpr-spanish-question_encoder-squades-base"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "avacaondata/dpr-spanish-question_encoder-base"
+		"modelId": "avacaondata/dpr-spanish-passage_encoder-squades-base"
+	},
+	{
+		"private": false,
+		"modelId": "Bistolero/exp3"
+	},
+	{
+		"private": false,
+		"modelId": "avacaondata/xprophetnet-spanish-mlsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/theshiftnews"
 	}
 ]
