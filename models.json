@@ -30718,11 +30718,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "MarioBlue/Portuguese-Poems-Small-Gpt2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -152879,6 +152874,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "mansidw/finetuning-sentiment-model-12000-samples"
 	},
 	{
@@ -153006,10 +153002,18 @@
 	},
 	{
 		"private": false,
-		"modelId": "hazal/BioBERTurk"
+		"modelId": "nbroad/debv3l-no-short-f1"
 	},
 	{
 		"private": false,
-		"modelId": "nbroad/debv3l-no-short-f1"
+		"modelId": "zhoupeng/afl"
+	},
+	{
+		"private": false,
+		"modelId": "hazal/BioBERTurkuncased-con"
+	},
+	{
+		"private": false,
+		"modelId": "hazal/BioBERTurkcased-con-trM"
 	}
 ]
