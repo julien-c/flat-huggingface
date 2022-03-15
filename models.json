@@ -67606,11 +67606,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anton-l/xtreme_s_xlsr_minds14_rerun"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "milyiyo/poem-gen-gpt2-small-spanish"
 	},
@@ -79950,11 +79945,6 @@
 	{
 		"private": false,
 		"modelId": "stjokerli/mnli_prefix_relearn_bn50"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anton-l/xtreme_s_xlsr_mls"
 	},
 	{
 		"private": false,
@@ -153331,6 +153321,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "joniponi/multilabel_inpatient_comments"
 	},
 	{
@@ -153347,6 +153338,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "krinal214/bert-all"
 	},
 	{
@@ -153356,5 +153348,15 @@
 	{
 		"private": false,
 		"modelId": "krinal214/bert-bengali-english-telugu"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "anton-l/xtreme_s_xlsr_300m_mls"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "anton-l/xtreme_s_xlsr_300m_minds14"
 	}
 ]
