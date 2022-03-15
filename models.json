@@ -62481,6 +62481,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "tinparadox/jobsearch"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "tlkh/program-synthesis-gpt-neo-1.3b"
 	},
@@ -153108,5 +153113,17 @@
 	{
 		"private": false,
 		"modelId": "leostormrage/clip-roberta-finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "Francesc/distilbert-base-uncased-finetuned-imdb-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "lionliu/BERTEX-SMALL-V1"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/flax-wav2vec-2-bart-large"
 	}
 ]
