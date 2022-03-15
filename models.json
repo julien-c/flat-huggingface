@@ -153060,14 +153060,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Kalaoke/results"
-	},
-	{
-		"private": false,
 		"modelId": "merve/riddikulus"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/xtreme_s_xlsr_bart_covost"
 	},
 	{
@@ -153082,5 +153079,10 @@
 	{
 		"private": false,
 		"modelId": "rwante/finetuned-mlsum-tr_wikisum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cambridgeltl/sst_electra_small"
 	}
 ]
