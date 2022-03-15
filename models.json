@@ -153052,11 +153052,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/detect-femicide-news-bert-nl-mono-freeze1"
-	},
-	{
-		"private": false,
 		"modelId": "rwante/finetuned-mlsum-tr_wikisum"
 	},
 	{
@@ -153238,6 +153233,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "Neulvo/bert-finetuned-ner-accelerate"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/detect-femicide-news-bert-nl-mono-freeze1"
 	}
 ]
