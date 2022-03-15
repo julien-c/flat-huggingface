@@ -152062,6 +152062,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "QuickRead/pegasus-reddit-6.35e5"
 	},
 	{
@@ -152914,5 +152915,24 @@
 	{
 		"private": false,
 		"modelId": "nojihon/bert-base-finetuned-sts"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "alynneoya/bert-base-cased-pt-lenerbr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "wanyu/IteraTeR-BART"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cardiffnlp/twitter-roberta-base-sentiment-latest"
+	},
+	{
+		"private": false,
+		"modelId": "KabiAI/wav2vec2-large-xls-r-300m-Sanskrit-Hindi"
 	}
 ]
