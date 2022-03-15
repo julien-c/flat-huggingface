@@ -153129,6 +153129,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "dennishauser/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -153153,6 +153154,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "Thanakrit/wangchanberta-th-QA"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-debug"
+	},
+	{
+		"private": false,
+		"modelId": "apkbala107/tamil_robert"
 	}
 ]
