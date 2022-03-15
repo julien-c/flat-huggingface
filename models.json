@@ -153351,6 +153351,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-2-layer-no-adapter"
 	},
 	{
@@ -153420,5 +153421,22 @@
 	{
 		"private": false,
 		"modelId": "Simply-divine/finetuned_asr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-xlmr-blame-assassin"
+	},
+	{
+		"private": false,
+		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-wiki2"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-xlmr-blame-victim"
+	},
+	{
+		"private": false,
+		"modelId": "antp/distilbert-base-uncased-finetuned-imdb"
 	}
 ]
