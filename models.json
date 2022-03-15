@@ -152881,6 +152881,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "peterhsu/codeparrot-ds-accelerate"
 	},
 	{
@@ -153389,15 +153390,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "pollotron/distilbert-base-uncased-finetuned-emotion"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "pollotron/distilbert-base-uncased-finetuned-emotion-2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/maltatoday-netnewsmalta-one_news_malta"
 	},
@@ -153445,6 +153437,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "kSaluja/bert-finetuned-ner"
 	},
 	{
@@ -153489,5 +153482,31 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-xlmr-cause-object"
+	},
+	{
+		"private": false,
+		"modelId": "EALeon16/electricidad-small-finetuned-poems-classification"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-focus-assassin"
+	},
+	{
+		"private": false,
+		"modelId": "krinal214/bert-3lang"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-xlmr-focus-object"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-focus-victim"
+	},
+	{
+		"private": false,
+		"modelId": "kSaluja/roberta-finetuned-ner"
 	}
 ]
