@@ -152200,6 +152200,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "QuickRead/pegasus-reddit-7e05"
 	},
 	{
@@ -153235,6 +153236,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MrAnderson/nystrom-4096-full-trivia-copied-embeddings"
 	},
 	{
@@ -153261,5 +153263,18 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "tdklab/hebert-finetuned-hebrew-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "cambridgeltl/guardian_news_bert-base-uncased"
+	},
+	{
+		"private": false,
+		"modelId": "alexhf90/Clasificacion_sentimientos_comentarios_peliculas"
+	},
+	{
+		"private": false,
+		"modelId": "Gozdi/mobilebert-finetuned-coqa"
 	}
 ]
