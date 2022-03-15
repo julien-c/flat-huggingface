@@ -152465,6 +152465,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "wypoon/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -152525,6 +152526,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "aaraki/distilbert-base-uncased-finetuned-squad"
 	},
 	{
@@ -152904,5 +152906,13 @@
 		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "lazyturtl/digital"
+	},
+	{
+		"private": false,
+		"modelId": "MatanBenChorin/hebert-finetuned-hebrew-squad"
+	},
+	{
+		"private": false,
+		"modelId": "nojihon/bert-base-finetuned-sts"
 	}
 ]
