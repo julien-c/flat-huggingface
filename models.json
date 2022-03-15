@@ -153174,6 +153174,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "spasis/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -153206,6 +153207,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "negfir/distilbert-base-uncased-finetuned-cola"
 	},
 	{
@@ -153220,5 +153222,17 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "cambridgeltl/sst_electra_base"
+	},
+	{
+		"private": false,
+		"modelId": "mehmetkardan/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "mehmetkardan/distilbert-base-uncased-finetuned-squad2"
+	},
+	{
+		"private": false,
+		"modelId": "newtonkwan/gpt2-xl-ft-with-non-challenging-1k"
 	}
 ]
