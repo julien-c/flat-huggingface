@@ -23731,10 +23731,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "CenIA/albert_base_spanish"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "DarshanDeshpande/marathi-distilbert"
 	},
@@ -42602,16 +42598,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "wanyu/IteraTeR-PEGASUS"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "wanyu/IteraTeR-ROBERTA"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/detect-femicide-news-xlmr"
 	},
@@ -56050,11 +56036,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/m2m-tai-en-de-gen-1.2B-1k-steps"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "wanyu/IteraTeR-BART"
 	},
 	{
 		"private": false,
@@ -153088,6 +153069,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "Francesc/distilbert-base-uncased-finetuned-imdb-accelerate"
 	},
 	{
@@ -153291,5 +153273,36 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "moralstories/gpt2_action_context-consequence"
+	},
+	{
+		"private": false,
+		"modelId": "krinal214/bert-base-multilingual-cased-finetuned-model"
+	},
+	{
+		"private": false,
+		"modelId": "krinal214/sarvesh"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "wanyu/IteraTeR-PEGASUS-Revision-Generator"
+	},
+	{
+		"private": false,
+		"modelId": "hanaj/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "wanyu/IteraTeR-BART-Revision-Generator"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "wanyu/IteraTeR-ROBERTA-Intention-Classifier"
+	},
+	{
+		"private": false,
+		"modelId": "krinal214/sarvesh_1"
 	}
 ]
