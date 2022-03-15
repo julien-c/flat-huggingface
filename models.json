@@ -12640,6 +12640,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "UBC-NLP/MARBERTv2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "indobenchmark/indobert-lite-large-p2"
 	},
@@ -67558,11 +67563,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "benjaminbeilharz/dialoGPT-small-conditioned2nextturn"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "conversational",
-		"modelId": "RehanP123/DialoGPT-small-kermit"
 	},
 	{
 		"private": false,
@@ -153410,5 +153410,18 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/maltatoday-netnewsmalta-one_news_malta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "krinal214/bert-lang"
+	},
+	{
+		"private": false,
+		"modelId": "Simply-divine/finetuned_asr"
+	},
+	{
+		"private": false,
+		"modelId": "RehanP123/DialoGPT-medium-kermit"
 	}
 ]
