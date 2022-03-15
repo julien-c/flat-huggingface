@@ -153380,7 +153380,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "summarization",
 		"modelId": "avacaondata/xprophetnet-spanish-mlsum"
 	},
 	{
@@ -153537,5 +153537,14 @@
 	{
 		"private": false,
 		"modelId": "golivaresm/roberta-base-bne-finetuned-amazon_reviews_multi"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-xlmr-cause-none"
+	},
+	{
+		"private": false,
+		"modelId": "onnx/DenseNet-121-9"
 	}
 ]
