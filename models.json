@@ -36857,6 +36857,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "repro-rights-amicus-briefs/bert-base-uncased-finetuned-RRamicus"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/NEO125InformalToFormalLincoln"
 	},
@@ -153275,10 +153280,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "alexhf90/Clasificacion_sentimientos_comentarios"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "newtonkwan/gpt2-xl-ft-with-non-challenging-5k"
 	},
@@ -153293,6 +153294,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "alexhf90/Clasificacion_sentimientos"
 	},
 	{
@@ -153347,6 +153349,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "krinal214/bert-bengali-english-telugu"
 	},
 	{
@@ -153380,5 +153383,9 @@
 	{
 		"private": false,
 		"modelId": "aymanm419/araSpeedest"
+	},
+	{
+		"private": false,
+		"modelId": "ScandinavianMrT/gpt2_prefinetune_SARC_1epoch_withcontext"
 	}
 ]
