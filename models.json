@@ -153110,6 +153110,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "audio-classification",
 		"modelId": "DrishtiSharma/wav2vec2-base-finetuned-ks"
 	},
 	{
@@ -153268,6 +153269,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "moralstories/roberta-large_action-context"
+	},
+	{
+		"private": false,
+		"modelId": "l3cube-pune/hing-gpt"
+	},
+	{
+		"private": false,
+		"modelId": "moralstories/roberta-large_action-norm"
 	}
 ]
