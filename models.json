@@ -153434,11 +153434,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-blame-victim"
-	},
-	{
-		"private": false,
 		"modelId": "antp/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -153465,10 +153460,29 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/predict-perception-xlmr-blame-none"
 	},
 	{
 		"private": false,
 		"modelId": "kSaluja/bert-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-blame-victim"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-xlmr-cause-human"
+	},
+	{
+		"private": false,
+		"modelId": "bigscience/tr11b-1B3-ml-logs"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-xlmr-cause-object"
 	}
 ]
