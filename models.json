@@ -153433,10 +153433,28 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/predict-perception-xlmr-blame-victim"
 	},
 	{
 		"private": false,
 		"modelId": "antp/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "csclarke/MARS-Encoder"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "gossminn/predict-perception-xlmr-blame-object"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_EN"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-xlmr-blame-concept"
 	}
 ]
