@@ -26422,11 +26422,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "UBC-NLP/AraT5-base"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "airKlizz/xlm-roberta-base-germeval21-toxic-with-data-augmentation"
 	},
@@ -152343,10 +152338,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Simply-divine/asr_timit"
-	},
-	{
-		"private": false,
 		"modelId": "Sakil/Humanoid_robot"
 	},
 	{
@@ -152762,6 +152753,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "Simply-divine/finetune_indian_asr"
 	},
 	{
@@ -153390,6 +153382,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "avacaondata/xprophetnet-spanish-mlsum"
 	},
 	{
@@ -153418,11 +153411,11 @@
 	},
 	{
 		"private": false,
-		"modelId": "Simply-divine/finetuned_asr"
+		"pipeline_tag": "text-generation",
+		"modelId": "huggingtweets/independentmlt-maltatoday-thetimesofmalta"
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "huggingtweets/independentmlt-maltatoday-thetimesofmalta"
+		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-imdb"
 	}
 ]
