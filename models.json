@@ -79953,10 +79953,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "abdouaziiz/opus-mt-fr-en-finetuned-fr-to-wo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "cambridgeltl/sst_mobilebert-uncased"
 	},
@@ -153053,14 +153049,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "MatanBenChorin/hebert-finetuned-hebrew-squad"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/mt-tai-en-de-gen-train"
 	},
 	{
 		"private": false,
 		"modelId": "hazal/BioBERTurkcased-con-trM-trR"
+	},
+	{
+		"private": false,
+		"modelId": "abdouaziiz/opus-mt-fr-en-finetuned-fr-to-wo"
 	}
 ]
