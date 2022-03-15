@@ -153425,6 +153425,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "csclarke/MARS-Encoder"
 	},
 	{
@@ -153471,10 +153472,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "gossminn/predict-perception-xlmr-cause-concept"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-xlmr-blame-none"
 	},
@@ -153494,11 +153491,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "krinal214/bert-3lang"
-	},
-	{
-		"private": false,
-		"modelId": "gossminn/predict-perception-xlmr-focus-object"
 	},
 	{
 		"private": false,
@@ -153508,5 +153502,23 @@
 	{
 		"private": false,
 		"modelId": "kSaluja/roberta-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "Qiushuo/t5-reddit"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-focus-object"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-focus-concept"
+	},
+	{
+		"private": false,
+		"modelId": "agemagician/protx-small-tpuv2-8-adafactor-0.01-span-con-enc8-dec4-raml512"
 	}
 ]
