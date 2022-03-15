@@ -30717,6 +30717,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "MarioBlue/Portuguese-Poems-Small-Gpt2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -153279,16 +153284,12 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "l3cube-pune/hing-gpt"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "moralstories/roberta-large_action-norm"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "moralstories/gpt2_action_context-consequence"
 	}
 ]
