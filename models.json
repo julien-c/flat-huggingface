@@ -33078,6 +33078,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "Mickzaa/Translation_TH-EN-v3"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "allenai/PRIMERA-wcep"
 	},
 	{
@@ -153156,6 +153161,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "mfleck/wav2vec2-large-xls-r-300m-slowenian-with-lm"
 	},
 	{
@@ -153239,5 +153245,13 @@
 	{
 		"private": false,
 		"modelId": "gossminn/detect-femicide-news-bert-nl-mono-freeze1"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/detect-femicide-news-bert-nl-mono"
+	},
+	{
+		"private": false,
+		"modelId": "dhardt7/distilbert-base-uncased-finetuned-sst2"
 	}
 ]
