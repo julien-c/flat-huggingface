@@ -151878,6 +151878,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "ra1/t5-small-finetuned-xsum"
 	},
 	{
@@ -153134,6 +153135,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "ScandinavianMrT/gpt2_supervised_SARC_3epochs_withcontext"
 	},
 	{
@@ -153172,6 +153174,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "apkbala107/tamilroberto"
+	},
+	{
+		"private": false,
+		"modelId": "spasis/marian-finetuned-kde4-en-to-fr"
 	}
 ]
