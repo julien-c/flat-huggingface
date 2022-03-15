@@ -153347,6 +153347,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-no-adapter"
 	},
 	{
@@ -153455,6 +153456,19 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "gossminn/predict-perception-xlmr-blame-concept"
+	},
+	{
+		"private": false,
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_ES"
+	},
+	{
+		"private": false,
+		"modelId": "gossminn/predict-perception-xlmr-blame-none"
+	},
+	{
+		"private": false,
+		"modelId": "kSaluja/bert-finetuned-ner"
 	}
 ]
