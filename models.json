@@ -51849,11 +51849,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "ShihTing/autonlp-HealthBureau-642518837"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ScandinavianMrT/gpt2_supervised_SARC_3epochs_withcontext"
 	},
@@ -59772,11 +59767,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "abidlabs/speech-text"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "PSW/bart-base-samsum-3epoch"
 	},
 	{
 		"private": false,
@@ -75048,11 +75038,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "Ogayo/mt-adh-en"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "PSW/bart-base-samsum"
 	},
 	{
 		"private": false,
@@ -106363,11 +106348,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "cambridgeltl/sst_electra_small"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "osanseviero/distilbert-base-uncased-finetuned-squad-d5716d28"
 	},
 	{
 		"private": false,
@@ -154016,6 +153996,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "malteos/aspect-scibert-method"
 	},
 	{
@@ -154044,5 +154025,14 @@
 	{
 		"private": false,
 		"modelId": "HeyiTao/distillmbert-base-5lang-cased-finetuned-en-to-ro"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "osanseviero/distilbert-base-uncased-finetuned-squad-d5716d28"
+	},
+	{
+		"private": false,
+		"modelId": "malteos/aspect-scibert-dataset"
 	}
 ]
