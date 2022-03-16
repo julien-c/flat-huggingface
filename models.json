@@ -153573,10 +153573,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "ScandinavianMrT/gpt2_prefinetune_SARC_1epoch_withcontext"
-	},
-	{
-		"private": false,
 		"modelId": "Bistolero/exp3"
 	},
 	{
@@ -153613,6 +153609,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "clapika2010/rayyan_predictions"
 	},
 	{
@@ -153671,6 +153668,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "deepakvk/roberta-base-squad2-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "ScandinavianMrT/gpt2_prefinetune_SARC_1epoch_withcontext"
 	}
 ]
