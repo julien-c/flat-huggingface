@@ -34174,10 +34174,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "microsoft/resnet-50"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "amanm27/bert-base-uncased-wiki"
 	},
@@ -56579,10 +56575,6 @@
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "jiobiala24/wav2vec2-base-cv-10000"
-	},
-	{
-		"private": false,
-		"modelId": "microsoft/resnet-26"
 	},
 	{
 		"private": false,
@@ -80456,10 +80448,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "microsoft/resnet-152"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-rnd-2-layer"
 	},
@@ -91293,10 +91281,6 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "gayanin/t5-small-med-term-mlm"
-	},
-	{
-		"private": false,
-		"modelId": "microsoft/resnet-101"
 	},
 	{
 		"private": false,
@@ -106001,10 +105985,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "microsoft/resnet-34"
-	},
-	{
-		"private": false,
 		"modelId": "patrickvonplaten/dummy_model"
 	},
 	{
@@ -118291,10 +118271,6 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "huggingtweets/betonkoepfin-littlehorney-plusbibi1"
-	},
-	{
-		"private": false,
-		"modelId": "microsoft/resnet-18"
 	},
 	{
 		"private": false,
@@ -154038,6 +154014,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "newtonkwan/gpt2-xl-ft-0"
 	},
 	{
@@ -154056,11 +154033,6 @@
 	{
 		"private": false,
 		"modelId": "calebcsjm/reverse-harrypotter-tokenizer"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-152"
 	},
 	{
 		"private": false,
@@ -154119,5 +154091,48 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "vpelloin/MEDIA_NLU_flaubert_finetuned"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Rustem/roberta-base-trained-7epochs"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-18"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-26"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-34"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-50"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-101"
+	},
+	{
+		"private": false,
+		"modelId": "apkbala107/tamilroberta"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-152"
+	},
+	{
+		"private": false,
+		"modelId": "zuppif/resnet-152"
 	}
 ]
