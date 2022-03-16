@@ -154105,6 +154105,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "mondovero/distilgpt2_fine_tuned_coder_custom"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "image-classification",
 		"modelId": "microsoft/resnet-26"
 	},
@@ -154151,6 +154156,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "joe5campbell/Horovod_Tweet_Sentiment_10k_5eps"
+	},
+	{
+		"private": false,
+		"modelId": "adityavithaldas/Fashion_Category_Classifier"
+	},
+	{
+		"private": false,
+		"modelId": "Anudev08/model_main"
 	}
 ]
