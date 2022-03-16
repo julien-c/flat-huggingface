@@ -59087,6 +59087,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/ernie_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Bistolero/mt5_ada"
 	},
 	{
@@ -153416,6 +153421,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-wiki2"
 	},
 	{
@@ -153588,5 +153594,18 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "PSW/speaker-change-bart-samsum"
+	},
+	{
+		"private": false,
+		"modelId": "dorltcheng/distilbert-base-uncased-finetuned-imdb-accelerate2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "aytugkaya/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "dorltcheng/CXR_BioClinicalBERT_v1"
 	}
 ]
