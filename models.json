@@ -154016,11 +154016,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "Zarkit/RobertaESP-finetuned-p"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-xlmr-cause-none"
 	},
@@ -154176,8 +154171,18 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "horsbug98/Part_2_mBERT_Model_E1"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ukr-models/uk-test2"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "horsbug98/Part_2_mBERT_Model_E2"
 	},
 	{
 		"private": false,
@@ -154188,6 +154193,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "gaudium-ai/test-v0"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "horsbug98/Part_2_XLM_Model_E1"
 	},
 	{
 		"private": false,
@@ -154204,6 +154214,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "horsbug98/Part_2_BERT_Multilingual_Dutch_Model_E1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "DrishtiSharma/poem-gen-gpt2-small-spanish"
 	},
 	{
@@ -154218,11 +154234,24 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
+		"modelId": "horsbug98/Part_1_mBERT_Model_E1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "internetoftim/pushit"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "nandezgarcia/distilbert-base-uncased-finetuned-squad-d5716d28"
+	},
+	{
+		"private": false,
+		"modelId": "ScandinavianMrT/gpt2_prefinetune_IMDB"
+	},
+	{
+		"private": false,
+		"modelId": "davidmasip/results"
 	}
 ]
