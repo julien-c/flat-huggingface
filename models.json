@@ -118756,11 +118756,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Zarkit/mt5-small-try1"
-	},
-	{
-		"private": false,
 		"modelId": "zuppif/regnet-x-040"
 	},
 	{
@@ -153853,6 +153848,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "zArabi/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -153870,5 +153866,13 @@
 	{
 		"private": false,
 		"modelId": "mehmetkardan/distilbert-base-uncased-finetuned-squad-finetuned-squad"
+	},
+	{
+		"private": false,
+		"modelId": "navteca/ms-marco-MiniLM-L-6-v2"
+	},
+	{
+		"private": false,
+		"modelId": "ScandinavianMrT/distilbert-SARC_withcontext_2.0"
 	}
 ]
