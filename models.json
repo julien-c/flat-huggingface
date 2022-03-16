@@ -118810,11 +118810,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-cause-none"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "summarization",
 		"modelId": "avacaondata/marimari-r2r-mlsum"
 	},
@@ -154051,5 +154046,19 @@
 	{
 		"private": false,
 		"modelId": "Zarkit/RobertaESP-finetuned-p"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-cause-none"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "zuppif/resnet-18"
+	},
+	{
+		"private": false,
+		"modelId": "zuppif/resnet-26"
 	}
 ]
