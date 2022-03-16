@@ -153963,6 +153963,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "krinal214/zero_last"
 	},
 	{
@@ -154019,10 +154020,25 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "RobertoMCA97/xlm-roberta-base-finetuned-panx-fr"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "malteos/aspect-scibert-task"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Rustem/roberta-base-trained-50k-docs"
+	},
+	{
+		"private": false,
+		"modelId": "krinal214/xlm-eng-beng-tel"
+	},
+	{
+		"private": false,
+		"modelId": "RobertoMCA97/xlm-roberta-base-finetuned-panx-it"
 	}
 ]
