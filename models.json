@@ -153512,6 +153512,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "willcai/wav2vec2_common_voice_accents_3"
 	},
 	{
@@ -154037,31 +154038,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "image-classification",
-		"modelId": "microsoft/resnet-18\n"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "microsoft/resnet-26\n"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "microsoft/resnet-34\n"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "microsoft/resnet-50\n"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "microsoft/resnet-101\n"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
 		"modelId": "zuppif/van-tiny"
 	},
 	{
@@ -154175,5 +154151,23 @@
 	{
 		"private": false,
 		"modelId": "Anudev08/model_1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "ukr-models/uk-test"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "vpelloin/MEDIA_NLU_flaubert_uncased"
+	},
+	{
+		"private": false,
+		"modelId": "Anudev08/model_2"
+	},
+	{
+		"private": false,
+		"modelId": "Anudev08/model_3"
 	}
 ]
