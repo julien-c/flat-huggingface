@@ -154076,6 +154076,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Neulvo/marian-finetuned-kde4-en-to-fr-accelerate"
 	},
 	{
@@ -154134,5 +154135,22 @@
 	{
 		"private": false,
 		"modelId": "zuppif/resnet-152"
+	},
+	{
+		"private": false,
+		"modelId": "nqcccccc/train"
+	},
+	{
+		"private": false,
+		"modelId": "AnonymeOne/distilbert-base-uncased-finetuned-squad"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "nqcccccc/phobert-asba-qa"
+	},
+	{
+		"private": false,
+		"modelId": "joe5campbell/Horovod_Tweet_Sentiment_10k_5eps"
 	}
 ]
