@@ -106433,11 +106433,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/bert-lang"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "sap-ai-research/BERT-base-uncased-SCD-ACL2022"
 	},
@@ -153985,6 +153980,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "mazenalasali/layoutlmv2-finetuned-funsd-test"
 	},
 	{
@@ -154045,10 +154041,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/xtreme_s_xlsr_mls_upd"
 	},
 	{
 		"private": false,
 		"modelId": "RobertoMCA97/xlm-roberta-base-finetuned-panx-en"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "krinal214/temp_model"
+	},
+	{
+		"private": false,
+		"modelId": "malteos/aspect-scibert-method"
 	}
 ]
