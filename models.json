@@ -153407,6 +153407,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jarguello76/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -153576,10 +153577,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "kSaluja/roberta-finetuned-ner-without-data-sort"
 	},
 	{
 		"private": false,
 		"modelId": "clapika2010/rayyan_predictions"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "PSW/speaker-change-bart-samsum"
 	}
 ]
