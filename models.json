@@ -30718,11 +30718,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "MarioBlue/Portuguese-Poems-Small-Gpt2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -153522,6 +153517,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "sap-ai-research/BERT-base-uncased-SCD-ACL2022"
 	},
 	{
@@ -153539,6 +153535,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "golivaresm/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
 	{
@@ -153564,5 +153561,9 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "clapika2010/rayyan_finetuned"
+	},
+	{
+		"private": false,
+		"modelId": "willcai/wav2vec2_common_voice_accents_3"
 	}
 ]
