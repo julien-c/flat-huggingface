@@ -154003,15 +154003,11 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lionliu/BERTEX-PLUE-V2"
-	},
-	{
-		"private": false,
 		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-debug"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "krinal214/xlm-all-final"
 	},
 	{
@@ -154035,10 +154031,24 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "krinal214/xlm-eng-beng-tel"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "RobertoMCA97/xlm-roberta-base-finetuned-panx-it"
+	},
+	{
+		"private": false,
+		"modelId": "faizan30/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xtreme_s_xlsr_mls_upd"
+	},
+	{
+		"private": false,
+		"modelId": "RobertoMCA97/xlm-roberta-base-finetuned-panx-en"
 	}
 ]
