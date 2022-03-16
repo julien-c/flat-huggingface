@@ -73572,6 +73572,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "l3cube-pune/marathi-gpt"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "antho-data/distilbert-base-uncased-finetuned-emotion"
 	},
@@ -153685,6 +153690,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "kSaluja/old-model-transfer-learn-without-sort"
 	},
 	{
@@ -153698,5 +153704,14 @@
 	{
 		"private": false,
 		"modelId": "libalabala/marian-finetuned-kde4-en-to-fr"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Rustem/roberta-base-trained"
+	},
+	{
+		"private": false,
+		"modelId": "lavabar/t5-small-finetuned-xsum"
 	}
 ]
