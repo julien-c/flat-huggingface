@@ -38047,11 +38047,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "milyiyo/poem-gen-t5-small"
-	},
-	{
-		"private": false,
 		"modelId": "AdapterHub/bert-base-uncased-pf-copa"
 	},
 	{
@@ -67603,11 +67598,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "navteca/ms-marco-MiniLM-L-12-v2"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "milyiyo/poem-gen-gpt2-small-spanish"
 	},
 	{
 		"private": false,
@@ -153317,6 +153307,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "Zarkit/mt5-small-try1"
 	},
 	{
@@ -153607,5 +153598,23 @@
 	{
 		"private": false,
 		"modelId": "dorltcheng/CXR_BioClinicalBERT_v1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "hackathon-pln-es/poem-gen-t5-small"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "hackathon-pln-es/poem-gen-gpt2-small-spanish"
+	},
+	{
+		"private": false,
+		"modelId": "PSW/random-word-swapping-bart-samsum"
+	},
+	{
+		"private": false,
+		"modelId": "dmahata/dlkp_test"
 	}
 ]
