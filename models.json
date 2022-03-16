@@ -154252,6 +154252,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "anton-l/xtreme_s_xlsr_covost2_fr_en"
 	},
 	{
@@ -154265,6 +154266,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "negfir/Distill_4L_2ep"
+	},
+	{
+		"private": false,
+		"modelId": "OneLoneTurnip/GPT-Callum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "Bren/distillbert-base-uncased-finetuned-squad-d5716d28"
 	}
 ]
