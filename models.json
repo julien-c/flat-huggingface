@@ -153890,7 +153890,7 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
+		"pipeline_tag": "translation",
 		"modelId": "Neulvo/marian-finetuned-kde4-en-to-fr"
 	},
 	{
@@ -154054,36 +154054,54 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-18"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-26"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-34"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-50"
-	},
-	{
-		"private": false,
 		"modelId": "calebcsjm/reverse-harrypotter-tokenizer"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-101"
+		"modelId": "zuppif/resnet-152"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "image-classification",
-		"modelId": "zuppif/resnet-152"
+		"modelId": "microsoft/resnet-18\n"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-26\n"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-34\n"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-50\n"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "microsoft/resnet-101\n"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "zuppif/van-tiny"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "image-classification",
+		"modelId": "zuppif/van-small"
+	},
+	{
+		"private": false,
+		"modelId": "vpelloin/MEDIA_NLU_flaubert_uncased"
+	},
+	{
+		"private": false,
+		"modelId": "zuppif/van-base"
 	}
 ]
