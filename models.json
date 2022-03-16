@@ -41550,6 +41550,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "vladenisov/sports-antihate"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "voidful/wav2vec2-large-xlsr-53-hk"
 	},
@@ -154168,6 +154173,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ukr-models/uk-test2"
+	},
+	{
+		"private": false,
+		"modelId": "MrAnderson/bert-base-4096-full-trivia-copied-embeddings"
+	},
+	{
+		"private": false,
+		"modelId": "gaudium-ai/test-v0"
 	}
 ]
