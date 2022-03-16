@@ -28242,11 +28242,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "abdusahmbzuai/wav2vec2-adi5-ctc"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ASCCCCCCCC/distilbert-base-uncased-finetuned-clinc"
 	},
@@ -53987,11 +53982,6 @@
 		"private": false,
 		"pipeline_tag": "audio-classification",
 		"modelId": "lewtun/wav2vec2-base-100k-voxpopuli-finetuned-gtzan"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "audio-classification",
-		"modelId": "abdusahmbzuai/wav2vec2-adi5-class"
 	},
 	{
 		"private": false,
@@ -150988,10 +150978,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "abdusahmbzuai/wav2vec2-masc-class"
-	},
-	{
-		"private": false,
 		"modelId": "serdarcaglar/code-search-net-tokenizer"
 	},
 	{
@@ -154176,6 +154162,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "ukr-models/uk-test"
+	},
+	{
+		"private": false,
+		"modelId": "ukr-models/uk-test2"
 	}
 ]
