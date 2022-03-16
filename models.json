@@ -153499,11 +153499,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "agemagician/protx-small-tpuv2-8-adafactor-0.01-span-con-enc8-dec4-raml512"
-	},
-	{
-		"private": false,
 		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-wikitext2"
 	},
 	{
@@ -154146,16 +154141,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "SJ-Ray/Re-Punctuate"
 	},
 	{
 		"private": false,
 		"modelId": "Anudev08/model_1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "ukr-models/uk-test"
 	},
 	{
 		"private": false,
@@ -154168,6 +154159,23 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "Anudev08/model_3"
+	},
+	{
+		"private": false,
+		"modelId": "ScandinavianMrT/distilbert-SARC_withcontext_2.0"
+	},
+	{
+		"private": false,
+		"modelId": "anton-l/xls-r-300m-bart-base"
+	},
+	{
+		"private": false,
+		"modelId": "agemagician/protx-small-tpuv2-8-adafactor-0.01-span-con-enc8-dec4-ramd256"
+	},
+	{
+		"private": false,
+		"modelId": "ukr-models/uk-test"
 	}
 ]
