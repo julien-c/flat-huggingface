@@ -51849,6 +51849,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "ShihTing/autonlp-HealthBureau-642518837"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ScandinavianMrT/gpt2_supervised_SARC_3epochs_withcontext"
 	},
@@ -59566,6 +59571,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_bert_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-512-finetuned-squad-seed-4"
 	},
@@ -63778,11 +63788,6 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "lijingxin/bert-base-uncased-issues-128"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/bert-bengali-english-telugu"
 	},
 	{
 		"private": false,
@@ -118873,11 +118878,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/xlm-all"
-	},
-	{
-		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -153472,10 +153472,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sanchit-gandhi/flax-wav2vec-2-bart-large"
-	},
-	{
-		"private": false,
 		"modelId": "moshew/my_roberta_sst2"
 	},
 	{
@@ -153579,10 +153575,6 @@
 	{
 		"private": false,
 		"modelId": "dorltcheng/distilbert-base-uncased-finetuned-imdb-accelerate2"
-	},
-	{
-		"private": false,
-		"modelId": "krinal214/zero-shot"
 	},
 	{
 		"private": false,
@@ -153759,10 +153751,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "krinal214/zero-shot-final"
-	},
-	{
-		"private": false,
 		"modelId": "zuppif/regnetx-080"
 	},
 	{
@@ -153903,10 +153891,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "krinal214/zero-shot-final1"
-	},
-	{
-		"private": false,
 		"modelId": "ThomasSimonini/MLAgents-Pyramids"
 	},
 	{
@@ -153958,11 +153942,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/zero_last"
-	},
-	{
-		"private": false,
 		"modelId": "ai4bharat/MultiIndicQuestionGenerationUnified"
 	},
 	{
@@ -154004,11 +153983,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/xlm-all-final"
-	},
-	{
-		"private": false,
 		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-dummy"
 	},
 	{
@@ -154025,11 +153999,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Rustem/roberta-base-trained-50k-docs"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/xlm-eng-beng-tel"
 	},
 	{
 		"private": false,
@@ -154052,15 +154021,29 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "question-answering",
-		"modelId": "krinal214/temp_model"
-	},
-	{
-		"private": false,
 		"modelId": "malteos/aspect-scibert-method"
 	},
 	{
 		"private": false,
 		"modelId": "calendars/nlp"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "krinal214/zero_shot"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "krinal214/xlm-all"
+	},
+	{
+		"private": false,
+		"modelId": "faizan30/longformer-base-4096-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "krinal214/xlm-3lang"
 	}
 ]
