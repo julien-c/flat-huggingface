@@ -153611,10 +153611,20 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "PSW/random-word-swapping-bart-samsum"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "dmahata/dlkp_test"
+	},
+	{
+		"private": false,
+		"modelId": "krinal214/zero-shot"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base300k"
 	}
 ]
