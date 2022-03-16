@@ -153358,6 +153358,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "question-answering",
 		"modelId": "aymanm419/araSpeedest"
 	},
 	{
@@ -153498,6 +153499,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "kSaluja/roberta-finetuned-ner"
 	},
 	{
@@ -153557,5 +153559,10 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "avacaondata/marimari-r2r-mlsum"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "clapika2010/rayyan_finetuned"
 	}
 ]
