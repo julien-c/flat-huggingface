@@ -30718,6 +30718,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "MarioBlue/Portuguese-Poems-Small-Gpt2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "AG/pretraining"
 	},
@@ -152761,6 +152766,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "GleamEyeBeast/ASCEND_Dataset_Model"
 	},
 	{
@@ -153427,6 +153433,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_ES"
 	},
 	{
@@ -153527,6 +153534,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "sap-ai-research/RoBERTa-base-SCD-ACL2022"
 	},
 	{
@@ -153565,5 +153573,13 @@
 	{
 		"private": false,
 		"modelId": "willcai/wav2vec2_common_voice_accents_3"
+	},
+	{
+		"private": false,
+		"modelId": "kSaluja/roberta-finetuned-ner-without-data-sort"
+	},
+	{
+		"private": false,
+		"modelId": "clapika2010/rayyan_predictions"
 	}
 ]
