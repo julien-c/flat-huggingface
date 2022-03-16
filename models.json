@@ -153140,6 +153140,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lijingxin/bert-base-uncased-issues-128"
 	},
 	{
@@ -153597,12 +153598,8 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "dorltcheng/CXR_BioClinicalBERT_v1"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "hackathon-pln-es/poem-gen-t5-small"
 	},
 	{
 		"private": false,
@@ -153626,5 +153623,13 @@
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base300k"
+	},
+	{
+		"private": false,
+		"modelId": "milyiyo/poem-gen-t5-small"
+	},
+	{
+		"private": false,
+		"modelId": "hackathon-pln-es/poem-gen-t5-small"
 	}
 ]
