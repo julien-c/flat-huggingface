@@ -154186,6 +154186,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "gaudium-ai/test-v0"
 	},
 	{
@@ -154198,6 +154199,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ScandinavianMrT/distilbert-IMDB"
 	},
 	{
@@ -154207,5 +154209,10 @@
 	{
 		"private": false,
 		"modelId": "stellaathena/magma"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "tareknaous/dialogpt-empathetic-dialogues"
 	}
 ]
