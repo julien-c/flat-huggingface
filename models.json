@@ -45823,6 +45823,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Chijioke/autonlp-mono-625317956"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "willcai/wav2vec2_common_voice_accents"
 	},
@@ -91350,6 +91355,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "zuppif/van-large"
 	},
 	{
@@ -118797,11 +118803,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "responsibility-framing/predict-perception-xlmr-cause-object"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "gossminn/predict-perception-xlmr-cause-concept"
 	},
 	{
 		"private": false,
@@ -154098,10 +154099,20 @@
 	},
 	{
 		"private": false,
-		"modelId": "vpelloin/MEDIA_NLU_flaubert_uncased"
+		"pipeline_tag": "image-classification",
+		"modelId": "zuppif/van-base"
 	},
 	{
 		"private": false,
-		"modelId": "zuppif/van-base"
+		"modelId": "Neulvo/marian-finetuned-kde4-en-to-fr-accelerate"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "responsibility-framing/predict-perception-xlmr-cause-concept"
+	},
+	{
+		"private": false,
+		"modelId": "vpelloin/MEDIA_NLU_flaubert_uncased"
 	}
 ]
