@@ -91284,6 +91284,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "chiragme/autonlp-imdb-sentiment-analysis-623817873"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "clisi2000/xlm-roberta-base-finetuned-panx-de"
 	},
@@ -154366,9 +154371,5 @@
 	{
 		"private": false,
 		"modelId": "mmohamme/distilbert-base-uncased-finetuned-btc_2"
-	},
-	{
-		"private": false,
-		"modelId": "anthonny/hate_speech"
 	}
 ]
