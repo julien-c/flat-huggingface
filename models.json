@@ -154636,6 +154636,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/wav2vec2-2-bart-debug"
 	},
 	{
@@ -154657,10 +154658,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Ameer05/cloned-bart-large-cnn"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "lionliu/BERTEX-PLUE-V4"
 	},
@@ -154679,5 +154676,27 @@
 	{
 		"private": false,
 		"modelId": "oskrmiguel/mt5-small-finetuned-es-to-kichwa"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "question-answering",
+		"modelId": "Graphcore/bert-base-uncased-squad"
+	},
+	{
+		"private": false,
+		"modelId": "Jungwonchang/wav2vec2-large-xls-r-300m-japanese-colab"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "triet1102/bert-base-cased-GoogleRE-masked-subj-obj"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/cloned-bart-large-cnn"
+	},
+	{
+		"private": false,
+		"modelId": "gimmaru/code-search-net-tokenizer"
 	}
 ]
