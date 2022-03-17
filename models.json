@@ -106996,7 +106996,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "anton-l/xtreme_s_xlsr_300m_minds14"
+		"modelId": "anton-l/xtreme_s_xlsr_300m_minds14_old_splits"
 	},
 	{
 		"private": false,
@@ -154688,7 +154688,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "audio-classification",
-		"modelId": "anton-l/xtreme_s_xlsr_300m_minds14_resplit"
+		"modelId": "anton-l/xtreme_s_xlsr_300m_minds14"
 	},
 	{
 		"private": false,
@@ -154765,10 +154765,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "torchserve/densenet161"
-	},
-	{
-		"private": false,
 		"modelId": "torchserve/squeezenet1_1"
 	},
 	{
@@ -154785,6 +154781,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "clapika2010/movies_predictions"
 	}
 ]
