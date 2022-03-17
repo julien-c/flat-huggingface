@@ -60503,11 +60503,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-wiki2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "kSaluja/bert-finetuned-ner"
 	},
@@ -119354,11 +119349,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "saghar/TinyBERT_General_6L_768D-finetuned-wikitext2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "golivaresm/roberta-base-bne-finetuned-amazon_reviews_multi"
 	},
@@ -154769,6 +154759,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/led-large-16384-arxiv-100-MDS"
 	}
 ]
