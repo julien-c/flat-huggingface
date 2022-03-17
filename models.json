@@ -54511,11 +54511,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_ernie_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "mitiku/AmharicWICPostag10Tags"
 	},
@@ -56889,6 +56884,11 @@
 		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "zhuqing/distilroberta-base-theme1-6000"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/bert_roberta_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -60357,11 +60357,6 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "koobear/hc-roberta-large-mnli-semeval"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/bert_ernie_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -154097,6 +154092,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "hackathon-pln-es/poem-gen-spanish-t5-small"
 	},
 	{
@@ -154658,11 +154654,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lionliu/BERTEX-PLUE-V4"
-	},
-	{
-		"private": false,
 		"modelId": "oskrmiguel/mt5-base-finetuned-es-to-kichwa"
 	},
 	{
@@ -154694,6 +154685,22 @@
 	{
 		"private": false,
 		"modelId": "Ameer05/cloned-bart-large-cnn"
+	},
+	{
+		"private": false,
+		"modelId": "avacaondata/beto-base-spanish-sqac"
+	},
+	{
+		"private": false,
+		"modelId": "gimmaru/huggingface-course"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-regularisation"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-gpt2-no-adapter-regularisation"
 	},
 	{
 		"private": false,
