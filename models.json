@@ -54520,6 +54520,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_ernie_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "mitiku/AmharicWICPostag10Tags"
 	},
@@ -91882,6 +91887,11 @@
 		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "patrickvonplaten/t5-v1_1-xl"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/ernie_ernie_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -154416,10 +154426,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "feature-extraction",
 		"modelId": "nntadotzips/bert-base-cased-SynonymReplacementMethod_5703sem0of1to1999and5000to7162__8627sem1"
 	},
 	{
 		"private": false,
 		"modelId": "absaboor/Sentimental-Analysis"
+	},
+	{
+		"private": false,
+		"modelId": "libalabala/mt5-small-finetuned-amazon-en-es"
 	}
 ]
