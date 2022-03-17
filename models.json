@@ -154222,6 +154222,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-debug"
 	},
 	{
@@ -154492,10 +154493,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "Gozdi/gpt2-jokes"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "SaulLu/distilbert-copy"
 	},
@@ -154530,6 +154527,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "AndrewR/bert-finetuned-ner"
 	},
 	{
@@ -154571,12 +154569,12 @@
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_EN-finetuned-ner-CRAFT_Augmented_EN"
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_AugmentedTransfer_EN"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "token-classification",
-		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_ES-finetuned-ner-CRAFT_Augmented_ES"
+		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_AugmentedTransfer_ES"
 	},
 	{
 		"private": false,
@@ -154604,10 +154602,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "sanchit-gandhi/wav2vec2-2-bart-debug"
-	},
-	{
-		"private": false,
 		"modelId": "mverschor/distilbert-base-uncased-finetuned-imdb"
 	},
 	{
@@ -154621,15 +154615,52 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-classification",
-		"modelId": "lionliu/BERTEX-PLUE-V3"
-	},
-	{
-		"private": false,
 		"modelId": "merve/callback-batch"
 	},
 	{
 		"private": false,
 		"modelId": "davidlopez/distilbert-base-uncased-go-emotion-EnkelMode-cyberblue"
+	},
+	{
+		"private": false,
+		"modelId": "Santiagot1105/distilbert-base-uncased-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "negfir/BERT_6L"
+	},
+	{
+		"private": false,
+		"modelId": "transZ/BART_shared_clean"
+	},
+	{
+		"private": false,
+		"modelId": "sanchit-gandhi/wav2vec2-2-bart-debug"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "lionliu/BERTEX-PLUE-V3"
+	},
+	{
+		"private": false,
+		"modelId": "newtonkwan/gpt2-xl-ft-4"
+	},
+	{
+		"private": false,
+		"modelId": "transZ/BART_shared_aug"
+	},
+	{
+		"private": false,
+		"modelId": "sora910321/QAbyQuadv2"
+	},
+	{
+		"private": false,
+		"modelId": "oskrmiguel/t5-small-finetuned-es-to-kichwa"
+	},
+	{
+		"private": false,
+		"modelId": "Ameer05/cloned-bart-large-cnn"
 	}
 ]
