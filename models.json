@@ -107161,6 +107161,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/flax-wav2vec2-2-bart-dummy"
 	},
 	{
@@ -154415,6 +154416,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "agemagician/protx-small-tpuv2-8-adafactor-0.01-span-lbl-enc8-dec4-ramd256"
 	},
 	{
@@ -154541,11 +154543,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "lionliu/BERTEX-SMALL-V2"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "richardc7/electricidad-small-finetuned-amazon-review-classification"
 	},
@@ -154564,6 +154561,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "image-classification",
 		"modelId": "filipsedivy/open-nfsw"
 	},
 	{
@@ -154572,10 +154570,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_EN-finetuned-ner-CRAFT_Augmented_EN"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "StivenLancheros/biobert-base-cased-v1.2-finetuned-ner-CRAFT_Augmented_ES-finetuned-ner-CRAFT_Augmented_ES"
 	},
 	{
@@ -154585,14 +154585,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mideind/IceBERT-ic3"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mideind/IceBERT-mC4-is"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "mideind/IceBERT-xlmr-ic3"
 	},
 	{
@@ -154602,5 +154605,25 @@
 	{
 		"private": false,
 		"modelId": "sanchit-gandhi/wav2vec2-2-bart-debug"
+	},
+	{
+		"private": false,
+		"modelId": "mverschor/distilbert-base-uncased-finetuned-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "quincyqiang/xlm-roberta-base-finetuned-panx-de"
+	},
+	{
+		"private": false,
+		"modelId": "avacaondata/roberta-base-spanish-squades"
+	},
+	{
+		"private": false,
+		"modelId": "lionliu/BERTEX-PLUE-V3"
+	},
+	{
+		"private": false,
+		"modelId": "merve/callback-batch"
 	}
 ]
