@@ -154748,11 +154748,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text-generation",
-		"modelId": "beston91/gpt2_xl_finetuned_logits_1000"
-	},
-	{
-		"private": false,
 		"modelId": "IIC/beto-base-spanish-squades"
 	},
 	{
@@ -154846,10 +154841,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "beston91/gpt2_xl_finetuned_logits-1000"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "olemeyer/m2m-tai-gen-en-de-checkpoint-5000"
 	},
@@ -154865,7 +154856,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "text-generation",
-		"modelId": "beston91/gpt2-xl-vanilla-debiased-5000"
+		"modelId": "beston91/gpt2-xl-finetuned-logits-5000"
 	},
 	{
 		"private": false,
@@ -155104,6 +155095,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "sanchit-gandhi/flax-wav2vec2-2-gpt2-debug"
+	},
+	{
+		"private": false,
+		"modelId": "beston91/gpt2-xl-ft-logits-1k"
 	}
 ]
