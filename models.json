@@ -154837,6 +154837,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "beston91/gpt2-xl-vanilla-debiased-5000"
 	},
 	{
@@ -154887,11 +154888,17 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "calebcsjm/reverse_text_flipped_tokens_HarryPotter"
 	},
 	{
 		"private": false,
 		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "aiface/95k"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "jsohn/bert-base-kor-ner"
 	}
 ]
