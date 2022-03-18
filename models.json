@@ -60274,6 +60274,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/albert_roberta_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Jackkkkk/tm-bert"
 	},
@@ -154766,6 +154771,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "bettertextapp/tai5-en-de-gen-train-v1"
 	},
 	{
@@ -154873,5 +154879,19 @@
 	{
 		"private": false,
 		"modelId": "jiobiala24/wav2vec2-base300k-final"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "token-classification",
+		"modelId": "yihsuan/albert-tiny-chinese-finetuned-ner"
+	},
+	{
+		"private": false,
+		"modelId": "calebcsjm/reverse_text_flipped_tokens_HarryPotter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "aiface/95k"
 	}
 ]
