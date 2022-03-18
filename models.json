@@ -51551,11 +51551,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/xlnet_bert_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "anas-awadalla/roberta-base-few-shot-k-1024-finetuned-squad-seed-0"
 	},
@@ -155133,5 +155128,18 @@
 	{
 		"private": false,
 		"modelId": "IsaacSST/gpt2-xl-ft-d1"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-classification",
+		"modelId": "Splend1dchan/XDBERT"
+	},
+	{
+		"private": false,
+		"modelId": "nickmuchi/segformer-b5-finetuned-segments-sidewalk"
+	},
+	{
+		"private": false,
+		"modelId": "nherve/flaubert_oral_asr"
 	}
 ]
