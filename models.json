@@ -154965,6 +154965,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "Marxav/frpron"
 	},
 	{
@@ -155011,5 +155012,10 @@
 		"private": false,
 		"pipeline_tag": "question-answering",
 		"modelId": "aicryptogroup/distill-xlm-mrc"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "cammy/led-large-16384-arxiv-100-MDS-own"
 	}
 ]
