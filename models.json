@@ -155130,10 +155130,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nherve/flaubert_oral_asr"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nherve/flaubert-oral-asr_nb"
 	},
 	{
@@ -155143,6 +155145,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "nherve/flaubert-oral-mixed"
 	},
 	{
@@ -155174,5 +155177,9 @@
 	{
 		"private": false,
 		"modelId": "omerm/test_model_2"
+	},
+	{
+		"private": false,
+		"modelId": "acsxz/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
