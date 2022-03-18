@@ -155003,10 +155003,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "clinia/RCCamembert"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "feature-extraction",
 		"modelId": "Splend1dchan/XDBERT"
 	},
@@ -155226,6 +155222,15 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "emilygs2/bert-base-uncased-finetuned-genderswap"
+	},
+	{
+		"private": false,
+		"modelId": "nebo333/distilbert-base-uncased-finetuned-emotion"
+	},
+	{
+		"private": false,
+		"modelId": "nicholaswj/wav2vec2-base-timit-demo-colab"
 	}
 ]
