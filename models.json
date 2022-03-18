@@ -52982,6 +52982,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "KBLab/megatron-bert-base-swedish-cased-600k"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Kayvane/distilbert-undersampled-noweights"
 	},
@@ -123850,6 +123855,16 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "KBLab/bert-base-swedish-cased-new"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "KBLab/megatron-bert-base-swedish-cased-125k"
+	},
+	{
+		"private": false,
 		"modelId": "KHYJ/bert-base-finetuned-sts"
 	},
 	{
@@ -154447,6 +154462,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "KBLab/megatron-bert-large-swedish-cased-110k"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "taehyunzzz/distilbert-base-uncased-finetuned-ner"
 	},
@@ -154922,5 +154941,9 @@
 	{
 		"private": false,
 		"modelId": "feng2022/test"
+	},
+	{
+		"private": false,
+		"modelId": "ruisp/results"
 	}
 ]
