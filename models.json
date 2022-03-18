@@ -153875,7 +153875,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "Graphcore/bert-large-uncased-squad11-finetuning-demo"
+		"modelId": "internetoftim/demo"
 	},
 	{
 		"private": false,
@@ -154952,6 +154952,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "jkhan447/sentiment-model-sample-group-emotion"
 	},
 	{
@@ -155048,5 +155049,13 @@
 	{
 		"private": false,
 		"modelId": "eliasws/openApiT5-to-description-v1"
+	},
+	{
+		"private": false,
+		"modelId": "rahulacj/mbart-large-cc25-finetuned-hi-to-en"
+	},
+	{
+		"private": false,
+		"modelId": "TestSB3/ppo-CartPole-v1"
 	}
 ]
