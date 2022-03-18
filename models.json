@@ -154956,10 +154956,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "chinhon/t5-v1_1-large-rewriter-pr500"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "juns/imdb_finetuned_distilbert-base-uncased-finetuned-sst-2-english"
 	},
@@ -154995,10 +154991,12 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "cammy/PRIMERA-100-MDS-own"
 	},
 	{
 		"private": false,
+		"pipeline_tag": "conversational",
 		"modelId": "erinchocolate/DialoGPT-small-harrypotter"
 	},
 	{
@@ -155008,6 +155006,10 @@
 	},
 	{
 		"private": false,
-		"modelId": "chinhon/t5-v1_1-large-rewriter"
+		"modelId": "chinhon/t5-v1_1-base-rewriter"
+	},
+	{
+		"private": false,
+		"modelId": "aicryptogroup/distill-xlm-mrc"
 	}
 ]
