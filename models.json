@@ -154822,6 +154822,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "token-classification",
 		"modelId": "brad1141/Longformer-finetuned-comp5"
 	},
 	{
@@ -154850,11 +154851,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "aiface/bat8"
-	},
-	{
-		"private": false,
 		"modelId": "lava18/wav2vec2-large-xls-r-300m-czech-colab"
 	},
 	{
@@ -154869,5 +154865,13 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "BigSalmon/InformalToFormalLincoln27"
+	},
+	{
+		"private": false,
+		"modelId": "brad1141/Longformer-finetuned-norm"
+	},
+	{
+		"private": false,
+		"modelId": "jiobiala24/wav2vec2-base300k-final"
 	}
 ]
