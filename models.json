@@ -155143,6 +155143,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "chnaaam/brokorli_sm"
 	},
 	{
@@ -155156,5 +155157,14 @@
 	{
 		"private": false,
 		"modelId": "zuppif/regnet-y-320-seer"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "feature-extraction",
+		"modelId": "SophieTr/Reward_training_Pegasus_reddit"
+	},
+	{
+		"private": false,
+		"modelId": "sanjanatule/BERT-ClinicalQA"
 	}
 ]
