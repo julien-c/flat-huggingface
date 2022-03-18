@@ -10804,6 +10804,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sberbank-ai/ruclip-vit-large-patch14-336"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "aseifert/gelectra-large-comma"
 	},
@@ -68968,7 +68972,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "summarization",
-		"modelId": "avacaondata/xprophetnet-spanish-mlsum"
+		"modelId": "IIC/xprophetnet-spanish-mlsum"
 	},
 	{
 		"private": false,
@@ -74035,6 +74039,11 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DoyyingFace/bert-asian-hate-tweets-self-unclean-large-epoch5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/ernie_roberta_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -80107,6 +80116,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "sberbank-ai/ruclip-vit-base-patch16-384"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "sbiswal/odia-bert-classifier"
 	},
@@ -81310,7 +81323,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "summarization",
-		"modelId": "avacaondata/marimari-r2r-mlsum"
+		"modelId": "IIC/marimari-r2r-mlsum"
 	},
 	{
 		"private": false,
@@ -91877,11 +91890,6 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/ernie_ernie_summarization_cnn_dailymail"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
 		"modelId": "patrickvonplaten/t5-v1_1-xxl"
 	},
 	{
@@ -92177,7 +92185,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "avacaondata/dpr-spanish-question_encoder-squades-base"
+		"modelId": "IIC/dpr-spanish-question_encoder-squades-base"
 	},
 	{
 		"private": false,
@@ -107006,7 +107014,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "fill-mask",
-		"modelId": "avacaondata/dpr-spanish-passage_encoder-squades-base"
+		"modelId": "IIC/dpr-spanish-passage_encoder-squades-base"
 	},
 	{
 		"private": false,
@@ -154599,7 +154607,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "avacaondata/roberta-base-spanish-squades"
+		"modelId": "IIC/roberta-base-spanish-squades"
 	},
 	{
 		"private": false,
@@ -154666,7 +154674,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "avacaondata/beto-base-spanish-sqac"
+		"modelId": "IIC/beto-base-spanish-sqac"
 	},
 	{
 		"private": false,
@@ -154713,7 +154721,7 @@
 	},
 	{
 		"private": false,
-		"modelId": "avacaondata/beto-base-spanish-squades"
+		"modelId": "IIC/beto-base-spanish-squades"
 	},
 	{
 		"private": false,
@@ -154737,7 +154745,7 @@
 	{
 		"private": false,
 		"pipeline_tag": "question-answering",
-		"modelId": "avacaondata/roberta-base-spanish-sqac"
+		"modelId": "IIC/roberta-base-spanish-sqac"
 	},
 	{
 		"private": false,
@@ -154835,5 +154843,13 @@
 	{
 		"private": false,
 		"modelId": "akhaliq/ParseNet-latest"
+	},
+	{
+		"private": false,
+		"modelId": "akhaliq/realesrnet_x2"
+	},
+	{
+		"private": false,
+		"modelId": "lava18/wav2vec2-large-xls-r-300m-turkish-colab"
 	}
 ]
