@@ -154960,6 +154960,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "juns/imdb_finetuned_distilbert-base-uncased-finetuned-sst-2-english"
 	},
 	{
@@ -154969,5 +154970,22 @@
 	{
 		"private": false,
 		"modelId": "artemis13fowl/bert-base-cased-imdb"
+	},
+	{
+		"private": false,
+		"modelId": "chinhon/t5-efficient-large-dm256-rewriter-pr500"
+	},
+	{
+		"private": false,
+		"modelId": "Marxav/frpron"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "sentence-similarity",
+		"modelId": "moshew/paraphrase-mpnet-base-v2_SetFit_emotions"
+	},
+	{
+		"private": false,
+		"modelId": "smnt2911/wav2vec2-large-xlsr-hindi"
 	}
 ]
