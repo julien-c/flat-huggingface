@@ -67928,11 +67928,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "mfleck/wav2vec2-large-xls-r-300m-de-low-ressource"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "tinparadox/NER-en-vi-it-es"
 	},
@@ -119216,11 +119211,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "mfleck/wav2vec2-large-xls-r-300m-slowenian-with-lm"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text2text-generation",
 		"modelId": "spasis/marian-finetuned-kde4-en-to-fr"
 	},
@@ -155287,5 +155277,10 @@
 	{
 		"private": false,
 		"modelId": "ScandinavianMrT/distilbert-IMDB-NEG"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "conversational",
+		"modelId": "Valouzze/FairuvenIA"
 	}
 ]
