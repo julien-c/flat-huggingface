@@ -30558,11 +30558,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "token-classification",
-		"modelId": "vpelloin/test-model"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "ASCCCCCCCC/PENGMENGJIE-finetuned-emotion"
 	},
@@ -155132,6 +155127,10 @@
 	},
 	{
 		"private": false,
+		"modelId": "clinia/RCCamembert"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "Splend1dchan/XDBERT"
 	},
@@ -155154,5 +155153,13 @@
 	{
 		"private": false,
 		"modelId": "nherve/flaubert-oral-mixed"
+	},
+	{
+		"private": false,
+		"modelId": "mohamed-illiyas/wav2vec2-base-timit-demo-colab"
+	},
+	{
+		"private": false,
+		"modelId": "zuppif/regnet-y-320-seer"
 	}
 ]
