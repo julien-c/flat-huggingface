@@ -37539,6 +37539,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_roberta_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "CennetOguz/distilbert-base-uncased-finetuned-imdb"
 	},
@@ -154899,5 +154904,9 @@
 	{
 		"private": false,
 		"modelId": "GleamEyeBeast/common_voice_dataset_model_naive_char"
+	},
+	{
+		"private": false,
+		"modelId": "researchuk/distilbert-base-uncased-finetuned-emotion"
 	}
 ]
