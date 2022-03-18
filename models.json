@@ -63167,6 +63167,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_roberta_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"modelId": "msintaha/bert-base-uncased-copa-kb-27"
 	},
 	{
@@ -155091,6 +155096,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
 		"modelId": "muneson/wav2vec2-large-xls-r-300m-fatrimmed"
 	},
 	{
@@ -155100,6 +155106,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "beston91/gpt2-xl-ft-logits-1k"
 	},
 	{
@@ -155114,5 +155121,17 @@
 	{
 		"private": false,
 		"modelId": "mikeadimech/bart-large-cnn-qmsum-meeting-summarization"
+	},
+	{
+		"private": false,
+		"modelId": "LenaSchmidt/finetuned-squad-Endpoint_15percent-impossibles_0-domains"
+	},
+	{
+		"private": false,
+		"modelId": "nairoj/Bert_ANT"
+	},
+	{
+		"private": false,
+		"modelId": "IsaacSST/gpt2-xl-ft-d1"
 	}
 ]
