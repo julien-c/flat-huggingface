@@ -13277,6 +13277,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "automatic-speech-recognition",
+		"modelId": "ahmedJaafari/Annarabic3.2"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "airesearchth/wangchanberta-base-wiki-20210520-news-spm"
 	},
@@ -155381,10 +155386,6 @@
 	},
 	{
 		"private": false,
-		"modelId": "akdeniz27/bert-base-turkish-spacy-demo"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "fill-mask",
 		"modelId": "Rustem/roberta-base-trained-43"
 	},
@@ -155446,5 +155447,14 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "akdeniz27/tr_spacy_demo"
+	},
+	{
+		"private": false,
+		"modelId": "Ketzu/koelectra-sts-v0.5"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "laxya007/gpt2_bd2"
 	}
 ]
