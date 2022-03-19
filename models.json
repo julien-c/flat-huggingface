@@ -119262,11 +119262,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "automatic-speech-recognition",
-		"modelId": "muneson/wav2vec2-large-xls-r-300m-fa-wer"
-	},
-	{
-		"private": false,
 		"modelId": "007J/smile"
 	},
 	{
@@ -155365,6 +155360,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "bigmorning/my-awesome-model"
 	},
 	{
@@ -155378,5 +155374,9 @@
 	{
 		"private": false,
 		"modelId": "bigmorning/my-awesome-model-1"
+	},
+	{
+		"private": false,
+		"modelId": "bigmorning/tok_ther_first"
 	}
 ]
