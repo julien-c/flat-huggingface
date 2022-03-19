@@ -33824,6 +33824,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/albert_gpt2_summarization_cnndm"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "DSI/TweetBasedSA"
 	},
@@ -36818,11 +36823,6 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "Andrianos/bert-base-greek-punctuation-prediction-finetuned"
-	},
-	{
-		"private": false,
-		"pipeline_tag": "text2text-generation",
-		"modelId": "Ayham/roberta_roberta_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -43990,6 +43990,11 @@
 	{
 		"private": false,
 		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/bert_gpt2_summarization_cnndm"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
 		"modelId": "DeepPavlov/marianmt-tatoeba-enru"
 	},
 	{
@@ -49425,6 +49430,11 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/roberta_gpt2_summarization_cnn_dailymail"
+	},
+	{
+		"private": false,
 		"pipeline_tag": "conversational",
 		"modelId": "BigTooth/Megumin-v0.2"
 	},
@@ -51164,6 +51174,11 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "ArBert/albert-base-v2-finetuned-ner"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/xlnet_gpt2_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -90319,6 +90334,11 @@
 		"private": false,
 		"pipeline_tag": "text-generation",
 		"modelId": "ncoop57/cm_code_clippy"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text2text-generation",
+		"modelId": "Ayham/ernie_gpt2_summarization_cnn_dailymail"
 	},
 	{
 		"private": false,
@@ -155520,6 +155540,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-classification",
 		"modelId": "ronykroy/distilbert-base-uncased-finetuned-emotion"
 	},
 	{
@@ -155528,6 +155549,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "axiomepic/hub_model_id"
 	}
 ]
