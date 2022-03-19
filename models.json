@@ -155450,11 +155450,6 @@
 	},
 	{
 		"private": false,
-		"pipeline_tag": "fill-mask",
-		"modelId": "KheireddineDaouadi/AraRoberta"
-	},
-	{
-		"private": false,
 		"pipeline_tag": "sentence-similarity",
 		"modelId": "eliasws/openApiT5-distilled-description-v2"
 	},
@@ -155585,5 +155580,10 @@
 		"private": false,
 		"pipeline_tag": "token-classification",
 		"modelId": "oliverguhr/fullstop-dutch-punctuation-prediction"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "fill-mask",
+		"modelId": "KheireddineDaouadi/AraRoberta"
 	}
 ]
