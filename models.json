@@ -155146,6 +155146,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "text-generation",
 		"modelId": "beston91/gpt2-xl_ft_mult_10k"
 	},
 	{
@@ -155336,5 +155337,9 @@
 		"private": false,
 		"pipeline_tag": "text-classification",
 		"modelId": "yangheng/deberta-v3-large-absa-v1.1"
+	},
+	{
+		"private": false,
+		"modelId": "Slavka/distil-bert-finetuned-log-parser-1"
 	}
 ]
