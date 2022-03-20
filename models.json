@@ -155414,6 +155414,7 @@
 	},
 	{
 		"private": false,
+		"pipeline_tag": "fill-mask",
 		"modelId": "lionliu/BERTEX-V4"
 	},
 	{
@@ -155668,6 +155669,15 @@
 	},
 	{
 		"private": false,
-		"modelId": "ShengdingHu/FactQA_T5-large_Adapter"
+		"modelId": "DeltaHub/FactQA_T5-large_Adapter"
+	},
+	{
+		"private": false,
+		"pipeline_tag": "text-generation",
+		"modelId": "Wikidepia/gpt2-spam"
+	},
+	{
+		"private": false,
+		"modelId": "JonathanSum/bert-finetuned-squad"
 	}
 ]
